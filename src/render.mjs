@@ -14,7 +14,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const FORMATS = { vertical: [1080, 1920], landscape: [1920, 1080], square: [1080, 1080] };
 export const QUALITY = {
   draft: { fps: 30, sub: 1, crf: 23, preset: 'veryfast', img: 'jpeg' },
-  standard: { fps: 60, sub: 2, crf: 18, preset: 'veryfast', img: 'png' },
+  standard: { fps: 60, sub: 2, crf: 18, preset: 'veryfast', img: 'jpeg' },
   high: { fps: 60, sub: 4, crf: 15, preset: 'medium', img: 'png' },
 };
 

@@ -17,7 +17,7 @@ jobs/xxx.json ──► types/launch (HTML film, seek(t)) ──► Playwright: 
 1. Buat file baru di `jobs/`, misalnya salin `jobs/vigenco-launch.json` lalu ubah isinya.
 2. Commit ke `main`. Workflow **Render videos** otomatis merender job yang baru atau berubah.
    Atau buka tab **Actions → Render videos → Run workflow**, pilih file job dan kualitas.
-3. Setelah selesai (± 5–10 menit), unduh MP4 dari bagian **Artifacts** di halaman run.
+3. Setelah selesai (± 5–10 menit termasuk instalasi), unduh MP4 dari bagian **Artifacts** di halaman run.
 
 ### Lokal
 ```bash
@@ -31,11 +31,13 @@ node bin/vigenco.mjs snap   jobs/vigenco-launch.json                  # 1 still 
 ```
 Butuh Node ≥ 20, Python 3 + numpy, dan ffmpeg.
 
-| Kualitas | Frame rate | Motion blur | Perkiraan waktu render (24 detik video, 2 core) |
+| Kualitas | Frame rate | Motion blur | Perkiraan waktu render (video 24 detik, mesin 2 core) |
 |---|---|---|---|
 | `draft` | 30 fps | tidak | ± 1 menit |
-| `standard` (default) | 60 fps | 2 subframe | ± 5 menit |
-| `high` | 60 fps | 4 subframe | ± 10 menit |
+| `standard` (default) | 60 fps | 2 subframe | ± 4–6 menit |
+| `high` | 60 fps | 4 subframe, PNG lossless | ± 30–40 menit |
+
+Runner GitHub Actions untuk repo publik punya 4 core, jadi biasanya lebih cepat dari angka di atas.
 
 ## Spec tipe `launch`
 
