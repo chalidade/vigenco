@@ -1,0 +1,73 @@
+{
+  "type": "launch",
+  "format": "square",
+  "cursorName": "Kamu",
+  "brand": {
+    "name": "Saling Jaga",
+    "mark": "SJ",
+    "url": "saling-jaga.my.id",
+    "colors": {
+      "bg": "#F6F4EF",
+      "ink": "#14202B",
+      "surface": "#FFFFFF",
+      "accent": [
+        "#D93A3A",
+        "#F08A24",
+        "#0E8C7A"
+      ]
+    }
+  },
+  "intro": {
+    "lines": [
+      "Fitur baru.",
+      "Pesan suara.",
+      "Panduan P3K."
+    ]
+  },
+  "brief": {
+    "placeholder": "Cari panduan darurat…",
+    "text": "Cara tangani gigitan ular",
+    "button": "Buka"
+  },
+  "features": [
+    {
+      "icon": "play",
+      "title": "Pesan suara",
+      "desc": "Tanpa teks, tombol kirim merekam hingga 1 menit (±180 KB) dengan tanda \"Terkirim ke\".",
+      "widget": "slider",
+      "label": "Durasi rekam",
+      "value": 60,
+      "suffix": "dtk"
+    },
+    {
+      "icon": "users",
+      "title": "Tetap terhubung",
+      "desc": "HP versi 0.23 tak dikirimi pesan suara, jadi tetap tersambung.",
+      "widget": "toggle",
+      "label": "Cek dukungan audio"
+    },
+    {
+      "icon": "heart",
+      "title": "Panduan P3K offline",
+      "desc": "6 bencana dan 10 topik P3K, dari CPR sampai gigitan ular. Bisa dibuka tanpa grup.",
+      "widget": "tabs",
+      "tabs": [
+        "Bencana",
+        "P3K",
+        "Telepon"
+      ]
+    }
+  ],
+  "stat": {
+    "value": 16,
+    "kicker": "Panduan offline",
+    "label": "panduan bencana & P3K",
+    "prefix": "",
+    "suffix": ""
+  },
+  "outro": {
+    "tagline": "Saat sinyal hilang, kita tetap saling jaga.",
+    "cta": "saling-jaga.my.id"
+  },
+  "quality": "standard"
+}
