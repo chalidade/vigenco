@@ -25,7 +25,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 100
     env:
       ID: ${{ inputs.request_id }}
     steps:
@@ -69,12 +69,14 @@ jobs:
           if [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
             echo "::error::Add the ANTHROPIC_API_KEY secret (Settings → Secrets and variables → Actions)"; exit 1
           fi
-          mkdir -p jobs/generated
-          node bin/direct.mjs "requests/$ID" "jobs/generated/$ID.json"
+          mkdir -p jobs/generated out
+          node bin/direct.mjs "requests/$ID" "jobs/generated/$ID.json" --notes out/director.md
 
       - name: Validate job
         run: |
-          node bin/validate-job.mjs "jobs/generated/$ID.json" "requests/$ID/request.json"
+          if [ "$(node -p 'require("./jobs/generated/"+process.env.ID+".json").type')" = "launch" ]; then
+            node bin/validate-job.mjs "jobs/generated/$ID.json" "requests/$ID/request.json"
+          fi
           cat "jobs/generated/$ID.json"
 
       - name: Render video
@@ -88,11 +90,14 @@ jobs:
           node -e '
             const r = require("./requests/" + process.env.ID + "/request.json");
             const j = require("./jobs/generated/" + process.env.ID + ".json");
-            const meta = { id: r.id, prompt: r.prompt, format: j.format, brand: j.brand.name, created: r.created };
-            require("fs").writeFileSync("out/notes.md", "<!-- vigenco " + JSON.stringify(meta) + " -->\n\n" + (r.prompt || "").slice(0, 2000));
+            const fs = require("fs");
+            const brand = (j.brand && j.brand.name) || j.title || "";
+            const meta = { id: r.id, prompt: r.prompt, format: j.format, brand, mode: j.type === "custom" ? "full" : "quick", created: r.created };
+            const dn = fs.existsSync("out/director.md") ? fs.readFileSync("out/director.md", "utf8").slice(0, 100000) : "";
+            fs.writeFileSync("out/notes.md", "<!-- vigenco " + JSON.stringify(meta) + " -->\n\n" + (r.prompt || "").slice(0, 2000) + (dn ? "\n\n---\n\n### Catatan sutradara\n\n" + dn : ""));
           '
           gh release create "video-$ID" "out/$ID.mp4" "out/$ID.storyboard.png" \
-            --title "$(node -p 'require("./jobs/generated/"+process.env.ID+".json").brand.name') · $ID" \
+            --title "$(node -p 'const j=require("./jobs/generated/"+process.env.ID+".json"); (j.brand&&j.brand.name)||j.title||"Video"') · $ID" \
             --notes-file out/notes.md --latest=false
 
       - name: Save job to the repo
@@ -101,5 +106,6 @@ jobs:
           git config user.name "vigenco-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "jobs/generated/$ID.json"
+          [ -d "films/$ID" ] && git add "films/$ID"
           git commit -m "Add generated job $ID" || exit 0
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 3; done

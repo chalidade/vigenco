@@ -8,6 +8,7 @@ summing one spring per target change, blur content swaps, edge-split stretch, pe
 Playwright subframes + ffmpeg tmix motion blur, music-first cue placement) is adapted from
 https://github.com/AbubakrChan/product-launch-motion. Only that repository's MIT-licensed skill and
 reference text was used; none of its sample films, music, footage or brand assets are included.
+The skill text itself (SKILL.md and references/) is vendored under director/skill/ with its LICENSE.
 
 MIT License
 

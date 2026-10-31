@@ -18,8 +18,13 @@ prompt, pilihan **portrait / landscape / square**, lampiran foto atau file (logo
 dan link website atau repo. Setelah **Buat video**:
 
 1. Page meng-commit permintaan ke `requests/<id>/` lalu memicu workflow **Generate video**.
-2. **Claude Code** menjadi sutradara (`director/DIRECTOR.md`): membaca prompt, melihat file,
-   membuka link, lalu menulis `jobs/generated/<id>.json`. `bin/validate-job.mjs` merapikannya.
+2. **Claude Code** menjadi sutradara dengan salah satu dari dua cara:
+   - **Sutradara penuh** (default, 20–40 menit): mengikuti skill product-launch-motion
+     (`director/FULL.md` + `director/skill/`). Claude merancang dan menulis film HTML khusus produkmu
+     di `films/<id>/`, memeriksanya per beat, lalu menyerahkannya ke renderer. Hasilnya setara dengan
+     menjalankan skill itu di terminal.
+   - **Cepat** (6–12 menit): mengisi template `launch` (`director/DIRECTOR.md`), lalu
+     `bin/validate-job.mjs` merapikannya.
 3. Vigenco merender MP4 dan menerbitkannya sebagai GitHub Release `video-<id>`.
 4. Page menampilkan progres per langkah, lalu memutar videonya. Semua video muncul di galeri.
 
@@ -115,6 +120,8 @@ dan setiap efek suara jatuh tepat di beat 120 BPM.
 | `types/launch/` | Tipe video `launch` |
 | `jobs/` | Spec video. Push file baru di sini = video baru (`jobs/generated/` = hasil dari page) |
 | `docs/` | Page "tulis prompt, jadi video" (GitHub Pages) |
+| `films/` | Film khusus yang ditulis oleh mode Sutradara penuh, satu folder per permintaan |
+| `director/FULL.md`, `director/skill/` | Brief mode Sutradara penuh dan skill product-launch-motion (MIT) |
 | `director/DIRECTOR.md` | Brief yang diikuti Claude saat menyutradarai permintaan dari page |
 | `bin/direct.mjs`, `bin/validate-job.mjs` | Menjalankan Claude Code headless dan merapikan job yang ditulisnya |
 | `.github/workflows/render.yml` | Render otomatis job di `jobs/*.json` |

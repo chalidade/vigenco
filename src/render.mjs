@@ -34,14 +34,21 @@ function run(cmd, args, opts = {}) {
 
 export async function loadJob(jobPath) {
   const spec = JSON.parse(await readFile(jobPath, 'utf8'));
-  if (!spec.type) spec.type = 'launch';
+  if (!spec.type) spec.type = spec.entry ? 'custom' : 'launch';
   if (!FORMATS[spec.format]) spec.format = 'vertical';
   return spec;
 }
 
-function typeEntry(type) {
-  const f = path.join(ROOT, 'types', type, 'index.html');
-  if (!existsSync(f)) throw new Error(`Unknown video type "${type}" (no ${path.relative(ROOT, f)})`);
+// A job either names a built-in type (types/<type>/index.html) or, for a bespoke film written by the
+// full director, points at its own entry page with "entry" (repo-relative, e.g. films/<id>/index.html).
+function typeEntry(spec) {
+  if (spec.entry) {
+    const f = path.resolve(ROOT, spec.entry);
+    if (!f.startsWith(ROOT + path.sep) || !existsSync(f)) throw new Error(`Film entry not found: ${spec.entry}`);
+    return pathToFileURL(f).href;
+  }
+  const f = path.join(ROOT, 'types', spec.type, 'index.html');
+  if (!existsSync(f)) throw new Error(`Unknown video type "${spec.type}" (no ${path.relative(ROOT, f)})`);
   return pathToFileURL(f).href;
 }
 
@@ -54,11 +61,18 @@ async function openFilm(browser, spec) {
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   page.on('pageerror', (e) => log('page error:', e.message));
   await page.addInitScript((s) => { window.SPEC = s; }, spec);
-  await page.goto(typeEntry(spec.type));
+  await page.goto(typeEntry(spec));
   await page.waitForFunction(() => window.READY || window.FILM_ERROR, null, { timeout: 60000 });
   const err = await page.evaluate(() => window.FILM_ERROR);
   if (err) throw new Error('Film failed to build:\n' + err);
   const film = await page.evaluate(() => window.FILM);
+  if (!film || !(film.duration > 0)) throw new Error('Film must set window.FILM = { width, height, duration, ... }');
+  if ((film.width && film.width !== W) || (film.height && film.height !== H)) {
+    await page.setViewportSize({ width: film.width, height: film.height });
+    await page.evaluate((t) => window.seek(t), 0);
+  }
+  film.width = film.width || W; film.height = film.height || H;
+  film.bpm = film.bpm || 120; film.cues = film.cues || []; film.sections = film.sections || {};
   return { page, film };
 }
 

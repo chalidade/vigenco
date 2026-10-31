@@ -255,12 +255,15 @@ def build_music(film):
     bpm = film['bpm']
     spb = 60 / bpm
     dur = film['duration']
-    S = film['sections']
+    S = film.get('sections') or {}
     music = Bus(dur)
-    drop = S.get('drop', S.get('logos', S.get('outro')))[0]
-    feats = S.get('features', [drop, drop])
-    out0 = S['outro'][0]
-    intro_end = S['intro'][1]
+    # Sections are optional for bespoke films: sensible defaults on the beat grid.
+    snap = lambda x: round(x / spb) * spb
+    intro_end = snap(S['intro'][1]) if 'intro' in S else min(snap(4 * spb), dur / 4)
+    out0 = snap(S['outro'][0]) if 'outro' in S else max(intro_end + 4 * spb, snap(dur - 6 * spb))
+    drop = snap(S['drop'][0]) if 'drop' in S else (snap(S['logos'][0]) if 'logos' in S else snap(intro_end + (out0 - intro_end) * 0.62))
+    drop = min(max(drop, intro_end + 2 * spb), out0)
+    feats = S.get('features', [intro_end + 4 * spb, drop])
     chords = [[57, 60, 64], [53, 57, 60], [48, 52, 55], [55, 59, 62]]  # Am F C G
     roots = [45, 41, 48, 43]
     nb = int(np.ceil(dur / spb)) + 1
@@ -358,6 +361,15 @@ def build_sfx(film):
             sfx.add(sfx_chime([PENTA[5], PENTA[7], PENTA[9]], 1.4), t + 0.03, 0.5, align_peak=True)
         elif k == 'shimmer':
             sfx.add(sfx_shimmer(), t, 0.8)
+        elif k == 'note':
+            sfx.add(pluck(PENTA[n % len(PENTA)], 0.6), t, 0.5, align_peak=True)
+        elif k == 'alert':
+            for i in range(3):
+                sfx.add(pluck(PENTA[7] + (0 if i % 2 == 0 else -5), 0.25, 0.8), t + i * 0.12, 0.5, align_peak=True)
+        elif k == 'riser':
+            sfx.add(riser(max(0.3, c.get('d', 1.0))), t, 0.6)
+        else:
+            sfx.add(sfx_click(), t, 0.5, align_peak=True)   # unknown kind: a soft click rather than silence
     return sfx
 
 
