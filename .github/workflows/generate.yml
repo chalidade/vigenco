@@ -1,0 +1,105 @@
+name: Generate video
+run-name: "Video ${{ inputs.request_id }}"
+
+# Started by the Vigenco page (docs/index.html) after it commits requests/<id>/.
+# Claude Code directs (prompt + files + links → job JSON), Vigenco renders, and the MP4 is
+# published as the GitHub Release "video-<id>", which the page then plays.
+#
+# Needs the repository secret ANTHROPIC_API_KEY (or CLAUDE_CODE_OAUTH_TOKEN).
+# Optional repository variable CLAUDE_MODEL to pick the model.
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: 'Request id (folder under requests/)'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-${{ inputs.request_id }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      ID: ${{ inputs.request_id }}
+    steps:
+      - name: Check request id
+        shell: bash
+        run: |
+          [[ "$ID" =~ ^[a-z0-9-]{6,48}$ ]] || { echo "invalid request id"; exit 1; }
+
+      - uses: actions/checkout@v4
+
+      - name: Find request
+        shell: bash
+        run: |
+          test -f "requests/$ID/request.json" || { echo "requests/$ID/request.json not found"; exit 1; }
+          cat "requests/$ID/request.json"
+          ls -la "requests/$ID/files" 2>/dev/null || true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q -r requirements.txt
+          npm ci --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Direct the film (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::Add the ANTHROPIC_API_KEY secret (Settings → Secrets and variables → Actions)"; exit 1
+          fi
+          mkdir -p jobs/generated
+          node bin/direct.mjs "requests/$ID" "jobs/generated/$ID.json"
+
+      - name: Validate job
+        run: |
+          node bin/validate-job.mjs "jobs/generated/$ID.json" "requests/$ID/request.json"
+          cat "jobs/generated/$ID.json"
+
+      - name: Render video
+        run: node bin/vigenco.mjs render "jobs/generated/$ID.json" --out "out/$ID.mp4" --storyboard
+
+      - name: Publish video
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          node -e '
+            const r = require("./requests/" + process.env.ID + "/request.json");
+            const j = require("./jobs/generated/" + process.env.ID + ".json");
+            const meta = { id: r.id, prompt: r.prompt, format: j.format, brand: j.brand.name, created: r.created };
+            require("fs").writeFileSync("out/notes.md", "<!-- vigenco " + JSON.stringify(meta) + " -->\n\n" + (r.prompt || "").slice(0, 2000));
+          '
+          gh release create "video-$ID" "out/$ID.mp4" "out/$ID.storyboard.png" \
+            --title "$(node -p 'require("./jobs/generated/"+process.env.ID+".json").brand.name') · $ID" \
+            --notes-file out/notes.md --latest=false
+
+      - name: Save job to the repo
+        shell: bash
+        run: |
+          git config user.name "vigenco-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "jobs/generated/$ID.json"
+          git commit -m "Add generated job $ID" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 3; done

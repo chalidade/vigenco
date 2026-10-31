@@ -19,6 +19,18 @@
   await document.fonts.load(`500 40px 'Inter Variable'`).catch(() => {});
   await document.fonts.ready;
 
+  // Optional brand logo (path relative to the repo root, e.g. requests/<id>/files/logo.png).
+  let LOGO = null;
+  const logoSrc = SPEC.brand && SPEC.brand.logo;
+  if (logoSrc && !/^(https?:|data:|\/)/.test(logoSrc) && !logoSrc.includes('..')) {
+    LOGO = await new Promise((res) => {
+      const im = new Image();
+      im.onload = () => res(im);
+      im.onerror = () => res(null);
+      im.src = '../../' + logoSrc;
+    });
+  }
+
   // ---------- spec + theme ----------
   const brand = SPEC.brand || {};
   const C = Object.assign({ bg: '#F5F3EF', ink: '#111827', surface: '#FFFFFF' }, brand.colors || {});
@@ -456,13 +468,19 @@
   // =====================================================================
   const tO = b(bO);
   const MK = 240, my = -150;
-  morph(tO - 0.03, MK, MK, 68, A[0], SP.shape);
+  morph(tO - 0.03, MK, MK, 68, LOGO ? C.surface : A[0], SP.shape);
   S.y.to(tO - 0.03, my, SP.shape);
   S.ring.to(tO, 0, SP.soft);
   cue(tO, 'whoosh', { v: 0.7 });
   const LM = layer(MK, MK); LM.className += ' center';
   LM.style.cssText += `font:800 132px ${FONT};letter-spacing:-0.04em;color:${onColor(A[0])};`;
-  LM.textContent = mark;
+  if (LOGO) {
+    const box = MK * 0.66, ar = LOGO.naturalWidth / Math.max(1, LOGO.naturalHeight);
+    const lw = ar >= 1 ? box : box * ar, lh = ar >= 1 ? box / ar : box;
+    LOGO.style.cssText = `width:${lw}px;height:${lh}px;object-fit:contain;display:block;`;
+    LM.appendChild(LOGO);
+    S.ring.to(tO + 0.01, 1, SP.soft);
+  } else LM.textContent = mark;
   const nameFont = `800 112px ${FONT}`;
   const nameW = measure(name, nameFont);
   const nm = el('div', `position:absolute;left:${-nameW / 2 - 20}px;top:${my + MK / 2 + 50}px;width:${nameW + 40}px;text-align:center;font:${nameFont};letter-spacing:-0.045em;color:${C.ink};white-space:nowrap;`, world, esc(name));

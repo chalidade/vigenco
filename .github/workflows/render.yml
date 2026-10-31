@@ -20,7 +20,7 @@ on:
         options: [draft, standard, high]
   push:
     branches: [main]
-    paths: ['jobs/**.json']
+    paths: ['jobs/*.json']
 
 concurrency:
   group: render-${{ github.ref }}

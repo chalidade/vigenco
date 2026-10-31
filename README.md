@@ -11,6 +11,32 @@ jobs/xxx.json ──► types/launch (HTML film, seek(t)) ──► Playwright: 
              ──► ffmpeg tmix (motion blur asli) ──► H.264 60 fps ──► + soundtrack hasil synth ──► out/xxx.mp4
 ```
 
+## Page: tulis prompt, jadi video
+
+`docs/index.html` adalah aplikasi web (GitHub Pages) untuk membuat video tanpa menulis JSON:
+prompt, pilihan **portrait / landscape / square**, lampiran foto atau file (logo, screenshot, PDF),
+dan link website atau repo. Setelah **Buat video**:
+
+1. Page meng-commit permintaan ke `requests/<id>/` lalu memicu workflow **Generate video**.
+2. **Claude Code** menjadi sutradara (`director/DIRECTOR.md`): membaca prompt, melihat file,
+   membuka link, lalu menulis `jobs/generated/<id>.json`. `bin/validate-job.mjs` merapikannya.
+3. Vigenco merender MP4 dan menerbitkannya sebagai GitHub Release `video-<id>`.
+4. Page menampilkan progres per langkah, lalu memutar videonya. Semua video muncul di galeri.
+
+### Setup sekali
+1. **Secret:** Settings → Secrets and variables → Actions → New repository secret →
+   `ANTHROPIC_API_KEY` (dari [Claude Console](https://console.anthropic.com)), atau
+   `CLAUDE_CODE_OAUTH_TOKEN` (dari `claude setup-token` dengan langganan Claude Pro/Max).
+   Opsional: variable `CLAUDE_MODEL` untuk memilih model.
+2. **GitHub Pages:** Settings → Pages → Build and deployment → *Deploy from a branch* →
+   `main` / `/docs`. Page tersedia di `https://<user>.github.io/vigenco/`.
+3. **Token di page:** buat [fine-grained token](https://github.com/settings/personal-access-tokens/new)
+   khusus repo ini dengan izin `Contents` dan `Actions` (Read and write), lalu tempel lewat tombol
+   di pojok kanan atas page. Token hanya disimpan di browser itu, tidak pernah di kode.
+
+Catatan: page dan videonya bekerja paling mulus di repo **publik**. Di repo privat, video diunduh lewat
+API dengan token sebelum diputar. Lampiran ikut ter-commit ke repo, jadi jangan unggah file rahasia.
+
 ## Cara pakai
 
 ### Lewat GitHub (tanpa install apa pun)
@@ -87,8 +113,12 @@ dan setiap efek suara jatuh tepat di beat 120 BPM.
 | `src/audio/synth.py` | Musik dan SFX hasil synth numpy, ditempatkan dari cue yang diekspor film |
 | `types/_shared/motion.js` | Spring, Track, swap blur, warna: primitif untuk semua tipe video |
 | `types/launch/` | Tipe video `launch` |
-| `jobs/` | Spec video. Push file baru di sini = video baru |
-| `.github/workflows/render.yml` | Render otomatis di GitHub Actions |
+| `jobs/` | Spec video. Push file baru di sini = video baru (`jobs/generated/` = hasil dari page) |
+| `docs/` | Page "tulis prompt, jadi video" (GitHub Pages) |
+| `director/DIRECTOR.md` | Brief yang diikuti Claude saat menyutradarai permintaan dari page |
+| `bin/direct.mjs`, `bin/validate-job.mjs` | Menjalankan Claude Code headless dan merapikan job yang ditulisnya |
+| `.github/workflows/render.yml` | Render otomatis job di `jobs/*.json` |
+| `.github/workflows/generate.yml` | Permintaan dari page → Claude → render → GitHub Release |
 
 ## Menambah tipe video baru
 

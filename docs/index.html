@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vigenco — Tulis prompt, jadi video</title>
+<meta name="description" content="Tulis prompt, lampirkan referensi, dan dapatkan video launch motion 60 fps lengkap dengan musik.">
+<meta name="theme-color" content="#09090b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #09090b; --panel: #111113; --panel-2: #18181b; --line: #27272a; --line-2: #3f3f46;
+    --text: #fafafa; --muted: #a1a1aa; --dim: #71717a;
+    --a1: #8b7cf6; --a2: #e35c91; --a3: #ff8a3d;
+    --grad: linear-gradient(100deg, var(--a1), var(--a2) 55%, var(--a3));
+    --ok: #4ade80; --warn: #fbbf24; --err: #f87171;
+    --r: 18px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); }
+  body { font: 15px/1.5 Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; min-height: 100vh; }
+  body::before { content: ''; position: fixed; inset: -20% -10% auto; height: 70vh; pointer-events: none; z-index: 0;
+    background: radial-gradient(40% 50% at 30% 30%, rgba(139,124,246,.16), transparent 70%),
+                radial-gradient(35% 45% at 70% 20%, rgba(227,92,145,.12), transparent 70%),
+                radial-gradient(30% 40% at 55% 55%, rgba(255,138,61,.08), transparent 70%); }
+  a { color: inherit; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  .wrap { position: relative; z-index: 1; max-width: 920px; margin: 0 auto; padding: 0 16px; }
+
+  /* top bar */
+  header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; letter-spacing: -.02em; text-decoration: none; }
+  .brand i { width: 26px; height: 26px; border-radius: 8px; background: var(--grad); display: grid; place-items: center; font-style: normal; font-weight: 800; font-size: 14px; color: #fff; }
+  .conn { display: flex; align-items: center; gap: 8px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: rgba(17,17,19,.7); font-size: 13px; color: var(--muted); }
+  .conn:hover { border-color: var(--line-2); color: var(--text); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--dim); flex: none; }
+  .dot.ok { background: var(--ok); box-shadow: 0 0 0 3px rgba(74,222,128,.15); }
+  .dot.err { background: var(--err); }
+
+  /* hero */
+  .hero { text-align: center; padding: 56px 0 30px; }
+  .hero h1 { margin: 0; font-size: clamp(38px, 7vw, 64px); line-height: 1.02; letter-spacing: -.045em; font-weight: 800; }
+  .hero h1 span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero p { margin: 16px auto 0; max-width: 540px; color: var(--muted); font-size: 16px; }
+
+  /* composer */
+  .composer { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: 0 30px 80px -40px rgba(0,0,0,.8); transition: border-color .2s; }
+  .composer:focus-within { border-color: var(--line-2); }
+  .composer.drag { border-color: var(--a1); box-shadow: 0 0 0 4px rgba(139,124,246,.15); }
+  textarea { display: block; width: 100%; min-height: 128px; max-height: 360px; resize: none; border: 0; outline: 0; background: transparent; color: var(--text);
+    font: 16px/1.55 Inter, system-ui, sans-serif; padding: 20px 20px 8px; }
+  textarea::placeholder { color: var(--dim); }
+  .attach { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px; }
+  .attach:empty { display: none; }
+  .chip { display: inline-flex; align-items: center; gap: 8px; max-width: 100%; padding: 5px 6px 5px 6px; border: 1px solid var(--line); background: var(--panel-2); border-radius: 12px; font-size: 13px; color: var(--muted); }
+  .chip img, .chip .ic { width: 30px; height: 30px; border-radius: 8px; object-fit: cover; flex: none; background: #232326; display: grid; place-items: center; color: var(--muted); }
+  .chip .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 220px; color: var(--text); }
+  .chip .sz { color: var(--dim); font-size: 12px; }
+  .chip button { border: 0; background: transparent; color: var(--dim); width: 24px; height: 24px; border-radius: 6px; display: grid; place-items: center; }
+  .chip button:hover { background: #27272a; color: var(--text); }
+  .linkrow { display: none; gap: 8px; padding: 10px 16px 0; }
+  .linkrow.on { display: flex; }
+  .linkrow input { flex: 1; min-width: 0; }
+  input[type=text], input[type=password], input[type=url] { background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; color: var(--text); padding: 10px 12px; font: 14px Inter, sans-serif; outline: 0; }
+  input:focus { border-color: var(--line-2); }
+  .bar { display: flex; align-items: center; gap: 8px; padding: 12px; flex-wrap: wrap; }
+  .tool { display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 12px; border-radius: 11px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 13.5px; font-weight: 500; }
+  .tool:hover { color: var(--text); border-color: var(--line-2); background: var(--panel-2); }
+  .tool svg { width: 17px; height: 17px; }
+  .seg { display: inline-flex; padding: 3px; border-radius: 12px; border: 1px solid var(--line); background: #0c0c0e; }
+  .seg button { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 11px; border: 0; border-radius: 9px; background: transparent; color: var(--dim); font-size: 13px; font-weight: 600; }
+  .seg button .ar { border: 1.6px solid currentColor; border-radius: 3px; }
+  .seg button[aria-pressed=true] { background: #232326; color: var(--text); }
+  .spacer { flex: 1; }
+  .go { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 18px; border: 0; border-radius: 12px; background: var(--text); color: #09090b; font-weight: 700; font-size: 14px; }
+  .go:hover { background: #fff; }
+  .go:disabled { opacity: .45; cursor: not-allowed; }
+  .go kbd { font: 500 11px 'JetBrains Mono', monospace; color: #52525b; }
+  .hint { text-align: center; color: var(--dim); font-size: 12.5px; margin: 12px 0 0; }
+  .hint a { color: var(--muted); }
+
+  /* status */
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; margin-top: 18px; }
+  .job-head { display: flex; align-items: center; gap: 12px; }
+  .job-head h3 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: -.01em; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tag { font: 500 12px 'JetBrains Mono', monospace; color: var(--dim); }
+  .steps { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 2px; }
+  .steps li { display: flex; align-items: center; gap: 12px; padding: 7px 0; color: var(--dim); font-size: 14px; }
+  .steps li .s { width: 20px; height: 20px; border-radius: 50%; border: 1.6px solid var(--line-2); flex: none; display: grid; place-items: center; }
+  .steps li.done { color: var(--muted); }
+  .steps li.done .s { background: var(--text); border-color: var(--text); }
+  .steps li.done .s::after { content: ''; width: 8px; height: 4.5px; border: 2px solid #09090b; border-top: 0; border-right: 0; transform: translateY(-1px) rotate(-45deg); }
+  .steps li.now { color: var(--text); font-weight: 500; }
+  .steps li.now .s { border-color: transparent; border-top-color: var(--a1); border-right-color: var(--a2); animation: spin .8s linear infinite; }
+  .steps li.fail { color: var(--err); }
+  .steps li.fail .s { border-color: var(--err); }
+  .steps li .t { margin-left: auto; font: 500 12px 'JetBrains Mono', monospace; color: var(--dim); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .job-foot { display: flex; gap: 10px; align-items: center; margin-top: 14px; flex-wrap: wrap; font-size: 13px; color: var(--dim); }
+  .job-foot a { color: var(--muted); }
+  .err-msg { margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: rgba(248,113,113,.08); border: 1px solid rgba(248,113,113,.25); color: #fecaca; font-size: 13.5px; }
+  .result { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; margin-top: 16px; }
+  .result video { width: 100%; max-height: 72vh; border-radius: 14px; background: #000; display: block; }
+  .btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 14px; border-radius: 11px; border: 1px solid var(--line); background: var(--panel-2); color: var(--text); text-decoration: none; font-size: 13.5px; font-weight: 600; }
+  .btn:hover { border-color: var(--line-2); }
+  .btn.primary { background: var(--text); color: #09090b; border-color: var(--text); }
+
+  /* gallery */
+  .sec { display: flex; align-items: baseline; justify-content: space-between; margin: 56px 0 14px; }
+  .sec h2 { margin: 0; font-size: 18px; letter-spacing: -.02em; }
+  .sec span { color: var(--dim); font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  .vid { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+  .vid .frame { position: relative; background: #000; aspect-ratio: 9 / 16; }
+  .vid.landscape .frame { aspect-ratio: 16 / 9; }
+  .vid.square .frame { aspect-ratio: 1; }
+  .vid video, .vid img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .vid .meta { padding: 12px 14px 14px; display: grid; gap: 4px; }
+  .vid .meta b { font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .vid .meta p { margin: 0; color: var(--dim); font-size: 12.5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .vid .meta small { color: var(--dim); font: 500 11.5px 'JetBrains Mono', monospace; }
+  .empty { grid-column: 1 / -1; padding: 40px 20px; text-align: center; border: 1px dashed var(--line); border-radius: 16px; color: var(--dim); font-size: 14px; }
+
+  /* dialog */
+  dialog { width: min(520px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: 20px; background: var(--panel); color: var(--text); padding: 0; }
+  dialog::backdrop { background: rgba(0,0,0,.6); backdrop-filter: blur(4px); }
+  .dlg { padding: 22px; display: grid; gap: 14px; }
+  .dlg h3 { margin: 0; font-size: 17px; letter-spacing: -.02em; }
+  .dlg label { display: grid; gap: 6px; font-size: 13px; color: var(--muted); font-weight: 500; }
+  .dlg input { width: 100%; }
+  .dlg ol { margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; display: grid; gap: 4px; }
+  .dlg code { font: 500 12px 'JetBrains Mono', monospace; background: var(--panel-2); border: 1px solid var(--line); padding: 1px 5px; border-radius: 5px; color: var(--text); }
+  .dlg .row { display: flex; gap: 8px; justify-content: flex-end; align-items: center; }
+  .dlg .note { font-size: 12.5px; color: var(--dim); }
+  #testRes { font-size: 13px; margin-right: auto; }
+
+  footer { padding: 48px 0 32px; color: var(--dim); font-size: 12.5px; text-align: center; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(20px); opacity: 0; background: var(--panel-2); border: 1px solid var(--line-2); padding: 10px 16px; border-radius: 12px; font-size: 13.5px; transition: all .25s; z-index: 50; pointer-events: none; }
+  .toast.on { opacity: 1; transform: translateX(-50%); }
+
+  @media (max-width: 560px) {
+    .hero { padding: 36px 0 22px; }
+    .bar { gap: 6px; }
+    .tool span.l { display: none; }
+    .seg button span.l { display: none; }
+    .go { flex: 1; justify-content: center; white-space: nowrap; }
+    .go kbd { display: none; }
+    .spacer { display: none; }
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./"><i>V</i>vigenco</a>
+    <button class="conn" id="connBtn" type="button"><span class="dot" id="connDot"></span><span id="connTxt">Hubungkan GitHub</span></button>
+  </header>
+
+  <section class="hero">
+    <h1>Tulis prompt,<br>jadi <span>video.</span></h1>
+    <p>Ceritakan produkmu, lampirkan logo atau screenshot, tempel link website atau repo. Claude menyutradarai, Vigenco merender video launch 60 fps lengkap dengan musik.</p>
+  </section>
+
+  <form class="composer" id="composer" autocomplete="off">
+    <textarea id="prompt" placeholder="Contoh: Video launch untuk Kopi Senja, aplikasi pesan kopi dengan antar 15 menit. Tonjolkan promo member dan pembayaran QRIS. Gaya hangat dan santai." maxlength="4000"></textarea>
+    <div class="attach" id="attach"></div>
+    <div class="linkrow" id="linkRow">
+      <input type="url" id="linkInput" placeholder="https://website-produk.com atau https://github.com/user/repo">
+      <button type="button" class="tool" id="linkAdd">Tambah</button>
+    </div>
+    <div class="bar">
+      <button type="button" class="tool" id="fileBtn" title="Lampirkan foto atau file">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5l-8.6 8.6a5.5 5.5 0 01-7.8-7.8l8.6-8.6a3.7 3.7 0 015.2 5.2l-8.6 8.6a1.8 1.8 0 01-2.6-2.6l7.9-7.9"/></svg><span class="l">File</span>
+      </button>
+      <button type="button" class="tool" id="linkBtn" title="Tambah link website atau repo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.5.5l3-3a5 5 0 00-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 00-7.5-.5l-3 3a5 5 0 007 7l1.7-1.7"/></svg><span class="l">Link</span>
+      </button>
+      <div class="seg" role="group" aria-label="Format video" id="fmt">
+        <button type="button" data-f="portrait" aria-pressed="true" title="Portrait 9:16"><i class="ar" style="width:9px;height:15px"></i><span class="l">Portrait</span></button>
+        <button type="button" data-f="landscape" aria-pressed="false" title="Landscape 16:9"><i class="ar" style="width:15px;height:9px"></i><span class="l">Landscape</span></button>
+        <button type="button" data-f="square" aria-pressed="false" title="Square 1:1"><i class="ar" style="width:12px;height:12px"></i><span class="l">Square</span></button>
+      </div>
+      <div class="spacer"></div>
+      <button type="submit" class="go" id="goBtn">Buat video <kbd>⌘↵</kbd></button>
+    </div>
+    <input type="file" id="fileInput" multiple accept="image/png,image/jpeg,image/webp,image/svg+xml,application/pdf,text/plain,text/markdown,.md" hidden>
+  </form>
+  <p class="hint">Seret file ke kotak di atas · maks. 6 file, 8 MB per file · selesai sekitar 6–12 menit</p>
+
+  <div id="jobs"></div>
+
+  <div class="sec"><h2>Video terbaru</h2><span id="galCount"></span></div>
+  <div class="grid" id="gallery"><div class="empty">Memuat…</div></div>
+
+  <footer>vigenco · dirender di GitHub Actions · <a href="#" id="repoLink">repo</a></footer>
+</div>
+
+<dialog id="settings">
+  <form class="dlg" method="dialog" id="settingsForm">
+    <h3>Hubungkan ke GitHub</h3>
+    <label>Repository
+      <input type="text" id="repoIn" placeholder="owner/repo" spellcheck="false">
+    </label>
+    <label>Fine-grained personal access token
+      <input type="password" id="tokenIn" placeholder="github_pat_…" spellcheck="false">
+    </label>
+    <ol>
+      <li>Buka <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained tokens</a>.</li>
+      <li>Repository access: <b>Only select repositories</b> → pilih repo ini.</li>
+      <li>Permissions: <code>Contents</code> Read and write, <code>Actions</code> Read and write.</li>
+    </ol>
+    <p class="note">Token hanya disimpan di browser ini (localStorage) dan hanya dikirim ke api.github.com.</p>
+    <div class="row">
+      <span id="testRes"></span>
+      <button type="button" class="btn" id="clearTok">Hapus token</button>
+      <button type="submit" class="btn primary" value="save">Simpan</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const API = 'https://api.github.com';
+  const MAX_FILES = 6, MAX_SIZE = 8 * 1024 * 1024;
+  const LS = { repo: 'vigenco.repo', token: 'vigenco.token', pending: 'vigenco.pending' };
+  const store = {
+    get: (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : v; } catch { return d; } },
+    set: (k, v) => { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch {} },
+  };
+  const guessRepo = () => {
+    const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+    const seg = location.pathname.split('/').filter(Boolean)[0];
+    return m && seg ? `${m[1]}/${seg}` : 'chalidade/vigenco';
+  };
+  const S = { repo: store.get(LS.repo, guessRepo()), token: store.get(LS.token, ''), format: 'portrait', files: [], links: [], isPrivate: false, connected: false };
+
+  // ---------------- GitHub API ----------------
+  async function gh(path, opts = {}) {
+    const headers = { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opts.headers || {}) };
+    if (S.token) headers.Authorization = `Bearer ${S.token}`;
+    if (opts.body && typeof opts.body !== 'string') { headers['Content-Type'] = 'application/json'; opts.body = JSON.stringify(opts.body); }
+    const r = await fetch(path.startsWith('http') ? path : API + path, { ...opts, headers });
+    if (r.status === 204) return null;
+    const txt = await r.text();
+    const data = txt ? (() => { try { return JSON.parse(txt); } catch { return txt; } })() : null;
+    if (!r.ok) { const e = new Error((data && data.message) || `HTTP ${r.status}`); e.status = r.status; throw e; }
+    return data;
+  }
+  const R = () => `/repos/${S.repo}`;
+
+  // ---------------- connection ----------------
+  async function checkConn() {
+    $('#repoLink').href = `https://github.com/${S.repo}`;
+    try {
+      const info = await gh(R());
+      S.isPrivate = !!info.private;
+      S.connected = !!(S.token && info.permissions && info.permissions.push);
+      $('#connDot').className = 'dot ' + (S.connected ? 'ok' : '');
+      $('#connTxt').textContent = S.connected ? S.repo : (S.token ? 'Token tanpa akses tulis' : 'Hubungkan GitHub');
+      return info;
+    } catch (e) {
+      S.connected = false;
+      $('#connDot').className = 'dot err';
+      $('#connTxt').textContent = S.token ? 'Token / repo tidak valid' : 'Hubungkan GitHub';
+      return null;
+    }
+  }
+  const dlg = $('#settings');
+  $('#connBtn').onclick = () => { $('#repoIn').value = S.repo; $('#tokenIn').value = S.token; $('#testRes').textContent = ''; dlg.showModal(); };
+  $('#clearTok').onclick = () => { S.token = ''; store.set(LS.token, null); $('#tokenIn').value = ''; checkConn(); toast('Token dihapus dari browser ini'); };
+  $('#settingsForm').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    S.repo = $('#repoIn').value.trim().replace(/^https:\/\/github\.com\//, '').replace(/\/$/, '') || S.repo;
+    S.token = $('#tokenIn').value.trim();
+    store.set(LS.repo, S.repo); store.set(LS.token, S.token || null);
+    $('#testRes').textContent = 'Memeriksa…'; $('#testRes').style.color = 'var(--muted)';
+    const info = await checkConn();
+    if (S.connected) { dlg.close(); toast('Terhubung ke ' + S.repo); loadGallery(); }
+    else { $('#testRes').textContent = info ? 'Token belum punya izin tulis' : 'Repo atau token tidak valid'; $('#testRes').style.color = 'var(--err)'; }
+  });
+
+  // ---------------- composer ----------------
+  const ta = $('#prompt');
+  const grow = () => { ta.style.height = 'auto'; ta.style.height = Math.min(360, ta.scrollHeight) + 'px'; };
+  ta.addEventListener('input', grow);
+  $('#fmt').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    S.format = b.dataset.f;
+    $('#fmt').querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  });
+  $('#fileBtn').onclick = () => $('#fileInput').click();
+  $('#fileInput').onchange = (e) => { addFiles(e.target.files); e.target.value = ''; };
+  const comp = $('#composer');
+  ['dragenter', 'dragover'].forEach((t) => comp.addEventListener(t, (e) => { e.preventDefault(); comp.classList.add('drag'); }));
+  ['dragleave', 'drop'].forEach((t) => comp.addEventListener(t, (e) => { e.preventDefault(); comp.classList.remove('drag'); }));
+  comp.addEventListener('drop', (e) => addFiles(e.dataTransfer.files));
+  ta.addEventListener('paste', (e) => { if (e.clipboardData.files.length) { e.preventDefault(); addFiles(e.clipboardData.files); } });
+
+  const OK_TYPES = /^(image\/(png|jpeg|webp|svg\+xml)|application\/pdf|text\/(plain|markdown))$/;
+  function addFiles(list) {
+    for (const f of list) {
+      if (S.files.length >= MAX_FILES) { toast(`Maksimal ${MAX_FILES} file`); break; }
+      if (!OK_TYPES.test(f.type) && !/\.(md|txt)$/i.test(f.name)) { toast(`${f.name}: tipe file tidak didukung`); continue; }
+      if (f.size > MAX_SIZE) { toast(`${f.name}: lebih dari 8 MB`); continue; }
+      S.files.push(f);
+    }
+    drawAttach();
+  }
+  $('#linkBtn').onclick = () => { $('#linkRow').classList.toggle('on'); if ($('#linkRow').classList.contains('on')) $('#linkInput').focus(); };
+  const addLink = () => {
+    const v = $('#linkInput').value.trim(); if (!v) return;
+    let u; try { u = new URL(/^https?:\/\//.test(v) ? v : 'https://' + v); } catch { toast('Link tidak valid'); return; }
+    if (S.links.length >= 5) { toast('Maksimal 5 link'); return; }
+    if (!S.links.includes(u.href)) S.links.push(u.href);
+    $('#linkInput').value = ''; drawAttach();
+  };
+  $('#linkAdd').onclick = addLink;
+  $('#linkInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); addLink(); } });
+
+  const fmtSize = (n) => n > 1e6 ? (n / 1e6).toFixed(1) + ' MB' : Math.max(1, Math.round(n / 1e3)) + ' KB';
+  const ICON_DOC = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6"/></svg>';
+  const ICON_LINK = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.5.5l3-3a5 5 0 00-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 00-7.5-.5l-3 3a5 5 0 007 7l1.7-1.7"/></svg>';
+  const ICON_GH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 011-2.7c-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 015 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7a3.9 3.9 0 011 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg>';
+  function drawAttach() {
+    const box = $('#attach'); box.innerHTML = '';
+    S.files.forEach((f, i) => {
+      const c = document.createElement('div'); c.className = 'chip';
+      if (f.type.startsWith('image/')) { const im = document.createElement('img'); im.src = URL.createObjectURL(f); im.onload = () => URL.revokeObjectURL(im.src); c.appendChild(im); }
+      else { const ic = document.createElement('span'); ic.className = 'ic'; ic.innerHTML = ICON_DOC; c.appendChild(ic); }
+      const nm = document.createElement('span'); nm.className = 'nm'; nm.textContent = f.name; c.appendChild(nm);
+      const sz = document.createElement('span'); sz.className = 'sz'; sz.textContent = fmtSize(f.size); c.appendChild(sz);
+      const x = document.createElement('button'); x.type = 'button'; x.setAttribute('aria-label', 'Hapus'); x.textContent = '✕';
+      x.onclick = () => { S.files.splice(i, 1); drawAttach(); }; c.appendChild(x);
+      box.appendChild(c);
+    });
+    S.links.forEach((l, i) => {
+      const c = document.createElement('div'); c.className = 'chip';
+      const ic = document.createElement('span'); ic.className = 'ic'; ic.innerHTML = /github\.com/.test(l) ? ICON_GH : ICON_LINK; c.appendChild(ic);
+      const nm = document.createElement('span'); nm.className = 'nm'; nm.textContent = l.replace(/^https?:\/\//, '').replace(/\/$/, ''); c.appendChild(nm);
+      const x = document.createElement('button'); x.type = 'button'; x.setAttribute('aria-label', 'Hapus'); x.textContent = '✕';
+      x.onclick = () => { S.links.splice(i, 1); drawAttach(); }; c.appendChild(x);
+      box.appendChild(c);
+    });
+  }
+
+  // ---------------- submit ----------------
+  const safeName = (n, i) => {
+    const m = n.toLowerCase().match(/^(.*?)(\.[a-z0-9]+)?$/);
+    const base = (m[1] || 'file').normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'file';
+    return `${String(i + 1).padStart(2, '0')}-${base}${(m[2] || '').slice(0, 6)}`;
+  };
+  const newId = () => {
+    const d = new Date(), p = (n) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}-${Math.random().toString(36).slice(2, 6)}`;
+  };
+  const b64 = (file) => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(',')[1]); r.onerror = rej; r.readAsDataURL(file); });
+  const b64text = (s) => btoa(unescape(encodeURIComponent(s)));
+
+  async function commitRequest(id, req) {
+    const blobs = [];
+    for (let i = 0; i < S.files.length; i++) {
+      const f = S.files[i];
+      const name = safeName(f.name, i);
+      const blob = await gh(`${R()}/git/blobs`, { method: 'POST', body: { content: await b64(f), encoding: 'base64' } });
+      blobs.push({ path: `requests/${id}/files/${name}`, sha: blob.sha });
+      req.files.push(`requests/${id}/files/${name}`);
+    }
+    const rb = await gh(`${R()}/git/blobs`, { method: 'POST', body: { content: b64text(JSON.stringify(req, null, 2) + '\n'), encoding: 'base64' } });
+    blobs.push({ path: `requests/${id}/request.json`, sha: rb.sha });
+    const repo = await gh(R());
+    const branch = repo.default_branch || 'main';
+    for (let attempt = 0; attempt < 4; attempt++) {
+      const ref = await gh(`${R()}/git/ref/heads/${branch}`);
+      const head = await gh(`${R()}/git/commits/${ref.object.sha}`);
+      const tree = await gh(`${R()}/git/trees`, { method: 'POST', body: { base_tree: head.tree.sha, tree: blobs.map((b) => ({ path: b.path, mode: '100644', type: 'blob', sha: b.sha })) } });
+      const commit = await gh(`${R()}/git/commits`, { method: 'POST', body: { message: `Request ${id}`, tree: tree.sha, parents: [ref.object.sha] } });
+      try { await gh(`${R()}/git/refs/heads/${branch}`, { method: 'PATCH', body: { sha: commit.sha } }); return branch; }
+      catch (e) { if (e.status !== 422 || attempt === 3) throw e; }
+    }
+  }
+
+  comp.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const prompt = ta.value.trim();
+    if (!prompt) { ta.focus(); toast('Tulis prompt dulu'); return; }
+    if (!S.connected) { $('#connBtn').click(); return; }
+    const btn = $('#goBtn'); btn.disabled = true; btn.firstChild.textContent = 'Mengirim… ';
+    const id = newId();
+    const req = { id, prompt, format: S.format, links: [...S.links], files: [], created: new Date().toISOString() };
+    const job = { id, prompt, format: S.format, created: Date.now(), phase: 'upload' };
+    addPending(job); renderJob(job);
+    try {
+      const branch = await commitRequest(id, req);
+      await gh(`${R()}/actions/workflows/generate.yml/dispatches`, { method: 'POST', body: { ref: branch, inputs: { request_id: id } } });
+      job.phase = 'queued'; job.dispatched = Date.now(); savePending(job);
+      ta.value = ''; S.files = []; S.links = []; drawAttach(); grow(); $('#linkRow').classList.remove('on');
+      track(job);
+    } catch (e) {
+      job.failedAt = job.phase; job.phase = 'error'; job.finished = Date.now();
+      job.error = e.status === 404 ? 'Workflow generate.yml tidak ditemukan atau token tidak punya izin Actions.' : e.message;
+      savePending(job); renderJob(job);
+    } finally { btn.disabled = false; btn.firstChild.textContent = 'Buat video '; }
+  });
+  document.addEventListener('keydown', (e) => { if ((e.metaKey || e.ctrlKey) && e.key === 'Enter' && document.activeElement === ta) comp.requestSubmit(); });
+
+  // ---------------- tracking ----------------
+  const pending = () => { try { return JSON.parse(store.get(LS.pending, '[]')); } catch { return []; } };
+  const setPending = (arr) => store.set(LS.pending, JSON.stringify(arr.slice(0, 10)));
+  const addPending = (j) => setPending([j, ...pending().filter((x) => x.id !== j.id)]);
+  const savePending = (j) => setPending(pending().map((x) => (x.id === j.id ? j : x)));
+  const dropPending = (id) => setPending(pending().filter((x) => x.id !== id));
+
+  const STEPS = [
+    { key: 'upload', label: 'Mengunggah permintaan' },
+    { key: 'queued', label: 'Menunggu mesin' },
+    { key: 'Install', label: 'Menyiapkan mesin render' },
+    { key: 'Direct the film (Claude)', label: 'Claude menyutradarai: baca prompt, file, dan link' },
+    { key: 'Render video', label: 'Merender video 60 fps' },
+    { key: 'Publish video', label: 'Menerbitkan video' },
+  ];
+  const elapsed = (ms) => { const s = Math.max(0, Math.round(ms / 1000)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+
+  function renderJob(job) {
+    let el = document.getElementById('job-' + job.id);
+    if (!el) { el = document.createElement('div'); el.className = 'card'; el.id = 'job-' + job.id; $('#jobs').prepend(el); }
+    const cur = job.phase === 'error' ? (job.failedAt || 'upload') : job.phase;
+    const idx = job.phase === 'done' ? STEPS.length : Math.max(0, STEPS.findIndex((s) => s.key === cur));
+    el.innerHTML = '';
+    const head = document.createElement('div'); head.className = 'job-head';
+    const h = document.createElement('h3'); h.textContent = job.prompt; head.appendChild(h);
+    const tg = document.createElement('span'); tg.className = 'tag'; tg.textContent = `${job.format} · ${elapsed((job.finished || Date.now()) - job.created)}`; head.appendChild(tg);
+    el.appendChild(head);
+    if (job.phase !== 'done') {
+      const ul = document.createElement('ol'); ul.className = 'steps';
+      STEPS.forEach((s, i) => {
+        const li = document.createElement('li');
+        li.className = job.phase === 'error' && i === idx ? 'fail' : i < idx ? 'done' : i === idx && job.phase !== 'error' ? 'now' : '';
+        li.innerHTML = '<span class="s"></span>'; li.appendChild(document.createTextNode(s.label));
+        ul.appendChild(li);
+      });
+      el.appendChild(ul);
+    }
+    if (job.error) { const m = document.createElement('div'); m.className = 'err-msg'; m.textContent = job.error; el.appendChild(m); }
+    if (job.phase === 'done' && job.video) {
+      const res = document.createElement('div'); res.className = 'result';
+      const v = document.createElement('video'); v.controls = true; v.playsInline = true; v.autoplay = true; v.muted = false; v.preload = 'auto';
+      setVideoSrc(v, job.video);
+      res.appendChild(v);
+      const btns = document.createElement('div'); btns.className = 'btns';
+      const dl = document.createElement('a'); dl.className = 'btn primary'; dl.textContent = 'Unduh MP4'; dl.href = job.video.browser_download_url; btns.appendChild(dl);
+      const rel = document.createElement('a'); rel.className = 'btn'; rel.textContent = 'Lihat di GitHub'; rel.href = job.releaseUrl; rel.target = '_blank'; rel.rel = 'noopener'; btns.appendChild(rel);
+      const cl = document.createElement('button'); cl.className = 'btn'; cl.type = 'button'; cl.textContent = 'Tutup';
+      cl.onclick = () => { dropPending(job.id); el.remove(); }; btns.appendChild(cl);
+      res.appendChild(btns); el.appendChild(res);
+    }
+    const foot = document.createElement('div'); foot.className = 'job-foot';
+    if (job.runUrl) { const a = document.createElement('a'); a.href = job.runUrl; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Lihat log di GitHub Actions'; foot.appendChild(a); }
+    if (job.phase === 'error') {
+      const cl = document.createElement('button'); cl.className = 'btn'; cl.type = 'button'; cl.textContent = 'Tutup';
+      cl.onclick = () => { dropPending(job.id); el.remove(); }; foot.appendChild(cl);
+    }
+    const idt = document.createElement('span'); idt.className = 'tag'; idt.textContent = job.id; foot.appendChild(idt);
+    el.appendChild(foot);
+  }
+
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  async function track(job) {
+    const tick = setInterval(() => renderJob(job), 1000);
+    try {
+      // 1. find the run started for this request (run-name "Video <id>")
+      while (!job.runId) {
+        if (Date.now() - (job.dispatched || job.created) > 3 * 60 * 1000) throw new Error('Run tidak muncul di GitHub Actions. Cek apakah workflow generate.yml ada di branch utama.');
+        const runs = await gh(`${R()}/actions/workflows/generate.yml/runs?event=workflow_dispatch&per_page=20`);
+        const run = runs.workflow_runs.find((r) => r.display_title === `Video ${job.id}`);
+        if (run) { job.runId = run.id; job.runUrl = run.html_url; savePending(job); break; }
+        await sleep(5000);
+      }
+      // 2. follow its steps until it completes
+      for (;;) {
+        const run = await gh(`${R()}/actions/runs/${job.runId}`);
+        if (run.status === 'completed') {
+          if (run.conclusion !== 'success') {
+            const jobs = await gh(`${R()}/actions/runs/${job.runId}/jobs`).catch(() => null);
+            const failed = jobs && jobs.jobs[0] && jobs.jobs[0].steps.find((s) => s.conclusion === 'failure');
+            const k = failed && STEPS.findIndex((s) => s.key === failed.name);
+            if (k > 0) job.phase = STEPS[k].key;
+            throw new Error(failed ? `Gagal di langkah "${failed.name}". Buka log untuk detailnya.` : `Run berakhir: ${run.conclusion}`);
+          }
+          break;
+        }
+        if (run.status === 'in_progress') {
+          const jobs = await gh(`${R()}/actions/runs/${job.runId}/jobs`).catch(() => null);
+          const steps = (jobs && jobs.jobs[0] && jobs.jobs[0].steps) || [];
+          const cur = [...steps].reverse().find((s) => s.status !== 'queued' && STEPS.some((x) => x.key === s.name));
+          job.phase = cur ? cur.name : 'Install';
+          if (cur && cur.status === 'completed') { const k = STEPS.findIndex((x) => x.key === cur.name); job.phase = STEPS[Math.min(k + 1, STEPS.length - 1)].key; }
+        } else job.phase = 'queued';
+        savePending(job);
+        await sleep(6000);
+      }
+      // 3. fetch the published release
+      let rel = null;
+      for (let i = 0; i < 6 && !rel; i++) { rel = await gh(`${R()}/releases/tags/video-${job.id}`).catch(() => null); if (!rel) await sleep(3000); }
+      if (!rel) throw new Error('Video selesai dirender tapi rilisnya tidak ditemukan.');
+      job.video = rel.assets.find((a) => a.name.endsWith('.mp4'));
+      job.releaseUrl = rel.html_url; job.phase = 'done'; job.finished = Date.now();
+      savePending(job); toast('Video siap!'); loadGallery();
+    } catch (e) {
+      job.failedAt = job.phase || 'queued';
+      job.error = e.message; job.phase = 'error'; job.finished = Date.now();
+      savePending(job);
+    } finally { clearInterval(tick); renderJob(job); }
+  }
+
+  // ---------------- videos ----------------
+  async function setVideoSrc(v, asset) {
+    if (!S.isPrivate) { v.src = asset.browser_download_url; return; }
+    try {
+      const r = await fetch(asset.url, { headers: { Accept: 'application/octet-stream', Authorization: `Bearer ${S.token}` } });
+      v.src = URL.createObjectURL(await r.blob());
+    } catch { v.poster = ''; }
+  }
+
+  async function loadGallery() {
+    const g = $('#gallery');
+    let rels;
+    try { rels = await gh(`${R()}/releases?per_page=40`); }
+    catch (e) { g.innerHTML = '<div class="empty">Galeri belum bisa dimuat. Hubungkan GitHub di pojok kanan atas.</div>'; return; }
+    const vids = rels.filter((r) => r.tag_name.startsWith('video-') && r.assets.some((a) => a.name.endsWith('.mp4')));
+    $('#galCount').textContent = vids.length ? `${vids.length} video` : '';
+    if (!vids.length) { g.innerHTML = '<div class="empty">Belum ada video. Tulis prompt pertamamu di atas.</div>'; return; }
+    g.innerHTML = '';
+    for (const r of vids) {
+      let meta = {};
+      const m = (r.body || '').match(/<!-- vigenco (\{.*?\}) -->/);
+      if (m) { try { meta = JSON.parse(m[1]); } catch {} }
+      const mp4 = r.assets.find((a) => a.name.endsWith('.mp4'));
+      const card = document.createElement('div');
+      card.className = 'vid ' + (meta.format === 'landscape' ? 'landscape' : meta.format === 'square' ? 'square' : '');
+      const fr = document.createElement('div'); fr.className = 'frame';
+      const v = document.createElement('video'); v.controls = true; v.playsInline = true; v.preload = 'metadata';
+      if (S.isPrivate) { v.preload = 'none'; v.addEventListener('play', () => { if (!v.src) setVideoSrc(v, mp4).then(() => v.play()); }, { once: true }); }
+      else v.src = mp4.browser_download_url + '#t=0.5';
+      fr.appendChild(v); card.appendChild(fr);
+      const mt = document.createElement('div'); mt.className = 'meta';
+      const b = document.createElement('b'); b.textContent = meta.brand || r.name || r.tag_name; mt.appendChild(b);
+      if (meta.prompt) { const p = document.createElement('p'); p.textContent = meta.prompt; mt.appendChild(p); }
+      const sm = document.createElement('small'); sm.textContent = new Date(r.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }); mt.appendChild(sm);
+      const dl = document.createElement('a'); dl.href = mp4.browser_download_url; dl.className = 'tag'; dl.textContent = 'unduh'; dl.style.justifySelf = 'start'; mt.appendChild(dl);
+      card.appendChild(mt); g.appendChild(card);
+    }
+  }
+
+  let toastT;
+  function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('on'), 2600); }
+
+  // ---------------- boot ----------------
+  (async () => {
+    await checkConn();
+    loadGallery();
+    for (const j of pending()) {
+      if (j.phase === 'done' || j.phase === 'error') renderJob(j);
+      else if (j.phase === 'upload') { j.failedAt = 'upload'; j.phase = 'error'; j.error = 'Pengiriman terputus sebelum selesai. Coba kirim ulang.'; savePending(j); renderJob(j); }
+      else { renderJob(j); track(j); }
+    }
+  })();
+})();
+</script>
+</body>
+</html>
