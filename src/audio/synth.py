@@ -82,7 +82,8 @@ class Bus:
         j = min(len(self.L), i + len(x))
         if j <= i:
             return
-        x = x[: j - i] * gain
+        x = np.nan_to_num(x[: j - i] * gain)
+        pan = float(np.clip(np.nan_to_num(pan), -1.0, 1.0))   # films may pass any n; keep pan in range
         self.L[i:j] += x * np.sqrt(0.5 * (1 - pan))
         self.R[i:j] += x * np.sqrt(0.5 * (1 + pan))
 
@@ -327,11 +328,15 @@ def build_music(film):
 def build_sfx(film):
     sfx = Bus(film['duration'])
     for c in film['cues']:
-        k, t, n = c['k'], c['t'], c.get('n', 0)
+        k, t = c.get('k'), float(c.get('t', 0))
+        try:
+            n = int(c.get('n', 0))
+        except (TypeError, ValueError):
+            n = 0
         if k == 'born':
             sfx.add(pluck(PENTA[0] + 12, 0.4), t, 0.5, align_peak=True)
         elif k in ('pop', 'swap'):
-            sfx.add(pluck(PENTA[(2 + 2 * n) % len(PENTA)], 0.6), t, 0.55, pan=(n - 1) * 0.2, align_peak=True)
+            sfx.add(pluck(PENTA[(2 + 2 * n) % len(PENTA)], 0.6), t, 0.55, pan=((n % 3) - 1) * 0.2, align_peak=True)
             sfx.add(sfx_whoosh(0.5, 0.22), t, 0.6, align_peak=True)
         elif k == 'whoosh':
             sfx.add(sfx_whoosh(c.get('v', 1.0)), t, 0.8, align_peak=True)
@@ -406,7 +411,10 @@ def main():
     fade = np.linspace(1, 0, f) ** 2
     L[-f:] *= fade
     R[-f:] *= fade
+    L, R = np.nan_to_num(L), np.nan_to_num(R)
     peak = max(np.max(np.abs(L)), np.max(np.abs(R)), 1e-9)
+    if peak < 1e-4:
+        sys.exit('audio: the mix is silent, refusing to write it')
     g = 0.93 / peak
     st = np.stack([L * g, R * g], axis=1)
     pcm = (np.clip(st, -1, 1) * 32767).astype('<i2')

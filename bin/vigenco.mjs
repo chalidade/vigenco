@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // vigenco render <job.json> [--quality draft|standard|high] [--out out/x.mp4] [--workers N] [--no-audio] [--storyboard]
 // vigenco snap   <job.json> [--times beats|1,2.5,4] [--out snaps/x]
+// vigenco redub  <job.json> --video in.mp4 [--out out/x.mp4]   (new soundtrack, same picture)
 import path from 'node:path';
-import { loadJob, render, snap, contactSheet, storyboard } from '../src/render.mjs';
+import { loadJob, render, snap, contactSheet, storyboard, redub } from '../src/render.mjs';
 
 const [cmd, job, ...rest] = process.argv.slice(2);
 const flags = {};
@@ -16,7 +17,8 @@ for (let i = 0; i < rest.length; i++) {
 function usage() {
   console.log(`Usage:
   vigenco render <job.json> [--quality draft|standard|high] [--out out/name.mp4] [--workers N] [--no-audio] [--storyboard]
-  vigenco snap   <job.json> [--times beats|0.5,2,7.25] [--out snaps/name]`);
+  vigenco snap   <job.json> [--times beats|0.5,2,7.25] [--out snaps/name]
+  vigenco redub  <job.json> --video in.mp4 [--out out/name.mp4]`);
   process.exit(1);
 }
 
@@ -35,5 +37,9 @@ if (cmd === 'render') {
   const { files, film } = await snap(spec, times, outDir);
   await contactSheet(files, path.join(outDir, 'sheet.png'), 8, 240);
   console.log(`[vigenco] ${files.length} stills, duration ${film.duration}s → ${outDir}/sheet.png`);
+  process.exit(0);
+} else if (cmd === 'redub') {
+  if (!flags.video) usage();
+  await redub(spec, flags.video, flags.out || path.join('out', `${name}.mp4`));
   process.exit(0);
 } else usage();

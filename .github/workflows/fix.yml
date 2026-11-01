@@ -1,0 +1,80 @@
+name: Fix video
+run-name: "Fix ${{ inputs.request_id }} (${{ inputs.what }})"
+
+# Repairs a finished video without asking Claude again (no API cost).
+#   audio:  makes a fresh soundtrack from the saved film and puts it on the existing MP4 (about 3 minutes)
+#   render: renders the saved film again from scratch, picture and sound (about 10–25 minutes)
+# The release "video-<id>" keeps its link; its MP4 is replaced.
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: 'Request id (jobs/generated/<id>.json)'
+        required: true
+      what:
+        description: 'audio = new soundtrack only · render = render picture and sound again'
+        required: true
+        default: audio
+        type: choice
+        options: [audio, render]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-${{ inputs.request_id }}
+  cancel-in-progress: true
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ID: ${{ inputs.request_id }}
+      WHAT: ${{ inputs.what }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check request id
+        shell: bash
+        run: |
+          [[ "$ID" =~ ^[a-z0-9-]{6,48}$ ]] || { echo "invalid request id"; exit 1; }
+
+      - uses: actions/checkout@v4
+
+      - name: Find saved job
+        run: test -f "jobs/generated/$ID.json" || { echo "jobs/generated/$ID.json not found"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q -r requirements.txt
+          npm ci --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Render video
+        shell: bash
+        run: |
+          mkdir -p in out
+          if [ "$WHAT" = "audio" ]; then
+            gh release download "video-$ID" -p "$ID.mp4" -D in
+            node bin/vigenco.mjs redub "jobs/generated/$ID.json" --video "in/$ID.mp4" --out "out/$ID.mp4"
+          else
+            node bin/vigenco.mjs render "jobs/generated/$ID.json" --out "out/$ID.mp4" --storyboard
+          fi
+
+      - name: Publish video
+        shell: bash
+        run: |
+          files=("out/$ID.mp4")
+          [ -f "out/$ID.storyboard.png" ] && files+=("out/$ID.storyboard.png")
+          gh release upload "video-$ID" "${files[@]}" --clobber

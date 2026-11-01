@@ -157,8 +157,9 @@ export async function render(spec, opts = {}) {
 
     // soundtrack in parallel with the picture
     const wav = path.join(work, 'mix.wav');
+    let audioErr = null;
     const audio = opts.noAudio ? Promise.resolve(null) : run(process.env.PYTHON || 'python3', [path.join(ROOT, 'src', 'audio', 'synth.py'), path.join(work, 'film.json'), wav])
-      .then(() => wav).catch((e) => { log('audio failed, rendering silent:', e.message.split('\n')[0]); return null; });
+      .then(() => wav).catch((e) => { audioErr = e; return null; });
 
     const frames = Math.ceil(film.duration * q.fps);
     const workers = Math.max(1, Math.min(opts.workers || Math.max(1, Math.min(4, os.cpus().length)), frames));
@@ -184,6 +185,7 @@ export async function render(spec, opts = {}) {
     const video = path.join(work, 'video.mp4');
     await run('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', video]);
     const wavPath = await audio;
+    if (!opts.noAudio && !wavPath) throw new Error('Audio failed, not publishing a silent video:\n' + (audioErr ? audioErr.message : 'unknown'));
     await mkdir(path.dirname(outPath), { recursive: true });
     const mux = wavPath
       ? ['-y', '-loglevel', 'error', '-i', video, '-i', wavPath, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', outPath]
@@ -196,6 +198,24 @@ export async function render(spec, opts = {}) {
   } finally {
     await browser.close().catch(() => {});
   }
+}
+
+// Replace the soundtrack of an already rendered MP4 without re-rendering the picture.
+export async function redub(spec, videoIn, outPath) {
+  const work = path.join(path.dirname(path.resolve(outPath)), `.redub-${Date.now()}`);
+  await mkdir(work, { recursive: true });
+  const browser = await launchBrowser();
+  try {
+    const { film } = await openFilm(browser, spec);
+    await writeFile(path.join(work, 'film.json'), JSON.stringify({ ...film, spec }, null, 2));
+  } finally { await browser.close().catch(() => {}); }
+  const wav = path.join(work, 'mix.wav');
+  await run(process.env.PYTHON || 'python3', [path.join(ROOT, 'src', 'audio', 'synth.py'), path.join(work, 'film.json'), wav]);
+  await mkdir(path.dirname(path.resolve(outPath)), { recursive: true });
+  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', videoIn, '-i', wav, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', outPath]);
+  await rm(work, { recursive: true, force: true });
+  log(`redub done → ${outPath}`);
+  return outPath;
 }
 
 // 1-per-second storyboard pulled from the finished MP4 (QA of the real output).

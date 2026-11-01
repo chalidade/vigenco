@@ -28,6 +28,14 @@ dan link website atau repo. Setelah **Buat video**:
 3. Vigenco merender MP4 dan menerbitkannya sebagai GitHub Release `video-<id>`.
 4. Page menampilkan progres per langkah, lalu memutar videonya. Semua video muncul di galeri.
 
+### Memperbaiki video yang sudah jadi
+Setiap video di galeri punya dua tombol perbaikan. Keduanya memakai film yang sudah tersimpan,
+jadi **tidak memanggil Claude lagi dan tanpa biaya API**. Link video tetap sama, MP4-nya diganti.
+- **Perbaiki suara** (± 3 menit): membuat soundtrack baru dan menempelkannya ke MP4 yang ada.
+- **Render ulang** (± 10–25 menit): merender ulang gambar dan suara dari awal.
+
+Lewat terminal: `node bin/vigenco.mjs redub jobs/generated/<id>.json --video lama.mp4 --out baru.mp4`.
+
 ### Setup sekali
 1. **Secret:** Settings → Secrets and variables → Actions → New repository secret →
    `ANTHROPIC_API_KEY` (dari [Claude Console](https://console.anthropic.com)), atau
@@ -126,6 +134,7 @@ dan setiap efek suara jatuh tepat di beat 120 BPM.
 | `bin/direct.mjs`, `bin/validate-job.mjs` | Menjalankan Claude Code headless dan merapikan job yang ditulisnya |
 | `.github/workflows/render.yml` | Render otomatis job di `jobs/*.json` |
 | `.github/workflows/generate.yml` | Permintaan dari page → Claude → render → GitHub Release |
+| `.github/workflows/fix.yml` | Perbaiki suara atau render ulang video yang sudah jadi, tanpa Claude |
 
 ## Menambah tipe video baru
 

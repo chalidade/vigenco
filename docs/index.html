@@ -199,6 +199,8 @@
   .acts a:hover { color: var(--text); }
   .acts .del { border: 0; background: none; padding: 0; color: var(--dim); font-size: 13px; }
   .acts .del:hover { color: var(--err); }
+  .acts .fix:hover { color: var(--amber); }
+  .acts { flex-wrap: wrap; row-gap: 4px; }
   .empty { grid-column: 1 / -1; padding: 56px 24px; text-align: center; border: 1px dashed var(--line-2); border-radius: 20px; color: var(--dim); }
 
   dialog { width: min(480px, calc(100vw - 32px)); border: 1px solid var(--line-2); border-radius: 22px; background: var(--panel); color: var(--text); padding: 0; box-shadow: 0 30px 80px -20px rgba(0,0,0,.8); }
@@ -589,24 +591,33 @@
     { key: 'Render video', label: 'Merender video 60 fps' },
     { key: 'Publish video', label: 'Menerbitkan video' },
   ];
+  const FIX_STEPS = [
+    { key: 'upload', label: 'Mengirim permintaan' },
+    { key: 'queued', label: 'Menunggu mesin' },
+    { key: 'Install', label: 'Menyiapkan mesin render' },
+    { key: 'Render video', label: 'Merender ulang video', audio: 'Membuat suara baru' },
+    { key: 'Publish video', label: 'Mengganti video di galeri' },
+  ];
+  const stepsFor = (job) => (job.kind === 'fix' ? FIX_STEPS : STEPS);
   const elapsed = (ms) => { const s = Math.max(0, Math.round(ms / 1000)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
 
   function renderJob(job) {
     let el = document.getElementById('job-' + job.id);
     if (!el) { el = document.createElement('div'); el.className = 'card'; el.id = 'job-' + job.id; $('#jobs').prepend(el); }
+    const LIST = stepsFor(job);
     const cur = job.phase === 'error' ? (job.failedAt || 'upload') : job.phase;
-    const idx = job.phase === 'done' ? STEPS.length : Math.max(0, STEPS.findIndex((s) => s.key === cur));
+    const idx = job.phase === 'done' ? LIST.length : Math.max(0, LIST.findIndex((s) => s.key === cur));
     el.innerHTML = '';
     const head = document.createElement('div'); head.className = 'job-head';
-    const h = document.createElement('h3'); h.textContent = job.prompt; head.appendChild(h);
+    const h = document.createElement('h3'); h.textContent = job.kind === 'fix' ? `${job.what === 'audio' ? 'Perbaiki suara' : 'Render ulang'}: ${job.prompt}` : job.prompt; head.appendChild(h);
     const tg = document.createElement('span'); tg.className = 'tag'; tg.textContent = elapsed((job.finished || Date.now()) - job.created); head.appendChild(tg);
     el.appendChild(head);
     if (job.phase !== 'done') {
       const ul = document.createElement('ol'); ul.className = 'steps';
-      STEPS.forEach((s, i) => {
+      LIST.forEach((s, i) => {
         const li = document.createElement('li');
         li.className = job.phase === 'error' && i === idx ? 'fail' : i < idx ? 'done' : i === idx && job.phase !== 'error' ? 'now' : '';
-        li.innerHTML = '<span class="s"></span>'; li.appendChild(document.createTextNode(job.mode === 'full' && s.full ? s.full : s.label));
+        li.innerHTML = '<span class="s"></span>'; li.appendChild(document.createTextNode(job.what === 'audio' && s.audio ? s.audio : job.mode === 'full' && s.full ? s.full : s.label));
         ul.appendChild(li);
       });
       el.appendChild(ul);
@@ -630,19 +641,21 @@
       const cl = document.createElement('button'); cl.className = 'btn'; cl.type = 'button'; cl.textContent = 'Tutup';
       cl.onclick = () => { dropPending(job.id); el.remove(); }; foot.appendChild(cl);
     }
-    const idt = document.createElement('span'); idt.className = 'jid'; idt.textContent = `${(FMT[job.format] || FMT.portrait)[0]}, ${job.mode === 'quick' ? 'cepat' : 'sutradara penuh'}`; foot.appendChild(idt);
+    const idt = document.createElement('span'); idt.className = 'jid'; idt.textContent = job.kind === 'fix' ? 'Tanpa biaya Claude' : `${(FMT[job.format] || FMT.portrait)[0]}, ${job.mode === 'quick' ? 'cepat' : 'sutradara penuh'}`; foot.appendChild(idt);
     el.appendChild(foot);
   }
 
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   async function track(job) {
     const tick = setInterval(() => renderJob(job), 1000);
+    const reqId = job.reqId || job.id, wf = job.workflow || 'generate.yml', runTitle = job.runTitle || `Video ${job.id}`;
+    const LIST = stepsFor(job);
     try {
       // 1. find the run started for this request (run-name "Video <id>")
       while (!job.runId) {
-        if (Date.now() - (job.dispatched || job.created) > 3 * 60 * 1000) throw new Error('Run tidak muncul di GitHub Actions. Cek apakah workflow generate.yml ada di branch utama.');
-        const runs = await gh(`${R()}/actions/workflows/generate.yml/runs?event=workflow_dispatch&per_page=20`);
-        const run = runs.workflow_runs.find((r) => r.display_title === `Video ${job.id}`);
+        if (Date.now() - (job.dispatched || job.created) > 3 * 60 * 1000) throw new Error(`Run tidak muncul di GitHub Actions. Cek apakah workflow ${wf} ada di branch utama.`);
+        const runs = await gh(`${R()}/actions/workflows/${wf}/runs?event=workflow_dispatch&per_page=20`);
+        const run = runs.workflow_runs.find((r) => r.display_title === runTitle && new Date(r.created_at).getTime() >= (job.dispatched || job.created) - 60000);
         if (run) { job.runId = run.id; job.runUrl = run.html_url; savePending(job); break; }
         await sleep(5000);
       }
@@ -653,8 +666,8 @@
           if (run.conclusion !== 'success') {
             const jobs = await gh(`${R()}/actions/runs/${job.runId}/jobs`).catch(() => null);
             const failed = jobs && jobs.jobs[0] && jobs.jobs[0].steps.find((s) => s.conclusion === 'failure');
-            const k = failed && STEPS.findIndex((s) => s.key === failed.name);
-            if (k > 0) job.phase = STEPS[k].key;
+            const k = failed && LIST.findIndex((s) => s.key === failed.name);
+            if (k > 0) job.phase = LIST[k].key;
             throw new Error(failed ? `Gagal di langkah "${failed.name}". Buka log untuk detailnya.` : `Run berakhir: ${run.conclusion}`);
           }
           break;
@@ -662,18 +675,19 @@
         if (run.status === 'in_progress') {
           const jobs = await gh(`${R()}/actions/runs/${job.runId}/jobs`).catch(() => null);
           const steps = (jobs && jobs.jobs[0] && jobs.jobs[0].steps) || [];
-          const cur = [...steps].reverse().find((s) => s.status !== 'queued' && STEPS.some((x) => x.key === s.name));
+          const cur = [...steps].reverse().find((s) => s.status !== 'queued' && LIST.some((x) => x.key === s.name));
           job.phase = cur ? cur.name : 'Install';
-          if (cur && cur.status === 'completed') { const k = STEPS.findIndex((x) => x.key === cur.name); job.phase = STEPS[Math.min(k + 1, STEPS.length - 1)].key; }
+          if (cur && cur.status === 'completed') { const k = LIST.findIndex((x) => x.key === cur.name); job.phase = LIST[Math.min(k + 1, LIST.length - 1)].key; }
         } else job.phase = 'queued';
         savePending(job);
         await sleep(6000);
       }
       // 3. fetch the published release
       let rel = null;
-      for (let i = 0; i < 6 && !rel; i++) { rel = await gh(`${R()}/releases/tags/video-${job.id}`).catch(() => null); if (!rel) await sleep(3000); }
+      for (let i = 0; i < 6 && !rel; i++) { rel = await gh(`${R()}/releases/tags/video-${reqId}`).catch(() => null); if (!rel) await sleep(3000); }
       if (!rel) throw new Error('Video selesai dirender tapi rilisnya tidak ditemukan.');
       job.video = rel.assets.find((a) => a.name.endsWith('.mp4'));
+      if (job.kind === 'fix' && job.video) job.video = { ...job.video, browser_download_url: job.video.browser_download_url + '?v=' + job.video.id };
       job.releaseUrl = rel.html_url; job.phase = 'done'; job.finished = Date.now();
       savePending(job); toast('Video siap!'); loadGallery();
     } catch (e) {
@@ -710,10 +724,22 @@
       const card = document.createElement('div');
       card.className = 'vid ' + (meta.format === 'landscape' ? 'landscape' : meta.format === 'square' ? 'square' : '');
       const fr = document.createElement('div'); fr.className = 'frame-v';
-      const v = document.createElement('video'); v.controls = true; v.playsInline = true; v.preload = 'metadata'; v.muted = true; v.loop = true;
-      fr.addEventListener('mouseenter', () => { if (v.src && v.paused && !v.dataset.user) v.play().catch(() => {}); });
-      fr.addEventListener('mouseleave', () => { if (!v.dataset.user) { v.pause(); } });
-      v.addEventListener('volumechange', () => { if (!v.muted) v.dataset.user = '1'; });
+      // Hover plays a silent preview; any real play (click, play button, keyboard) plays with sound.
+      const v = document.createElement('video'); v.controls = true; v.playsInline = true; v.preload = 'metadata'; v.loop = false;
+      const takeOver = () => { v.dataset.user = '1'; v.muted = false; v.loop = false; };
+      fr.addEventListener('mouseenter', () => {
+        if (!v.src || !v.paused || v.dataset.user) return;
+        v.dataset.preview = '1'; v.muted = true; v.loop = true; v.play().catch(() => {});
+      });
+      fr.addEventListener('mouseleave', () => { if (!v.dataset.user && !v.paused) { v.pause(); v.currentTime = 0; } });
+      v.addEventListener('play', () => { if (v.dataset.preview === '1') v.dataset.preview = ''; else takeOver(); });
+      fr.addEventListener('pointerdown', () => {
+        if (v.dataset.user) return;
+        const previewing = !v.paused;      // a click during the silent preview keeps it playing, now with sound
+        takeOver();
+        if (previewing) { v.addEventListener('pause', () => v.play().catch(() => {}), { once: true }); }
+      });
+      v.addEventListener('keydown', takeOver);
       if (S.isPrivate) { v.preload = 'none'; v.addEventListener('play', () => { if (!v.src) setVideoSrc(v, mp4).then(() => v.play()); }, { once: true }); }
       else v.src = mp4.browser_download_url + '#t=0.5';
       fr.appendChild(v); card.appendChild(fr);
@@ -724,6 +750,12 @@
       const acts = document.createElement('div'); acts.className = 'acts';
       const dl = document.createElement('a'); dl.href = mp4.browser_download_url; dl.textContent = 'Unduh'; acts.appendChild(dl);
       if (S.connected) {
+        const reqId = r.tag_name.replace(/^video-/, '');
+        for (const [what, label] of [['audio', 'Perbaiki suara'], ['render', 'Render ulang']]) {
+          const fx = document.createElement('button'); fx.type = 'button'; fx.className = 'del fix'; fx.textContent = label;
+          fx.onclick = () => startFix(reqId, what, meta, fx);
+          acts.appendChild(fx);
+        }
         const del = document.createElement('button'); del.type = 'button'; del.className = 'del'; del.textContent = 'Hapus';
         del.onclick = () => deleteVideo(r, meta.brand || r.tag_name, card, del);
         acts.appendChild(del);
@@ -731,6 +763,25 @@
       mt.appendChild(acts);
       card.appendChild(mt); g.appendChild(card);
     }
+  }
+
+  // Repairs a finished video with the saved film (fix.yml): new soundtrack only, or a full re-render.
+  async function startFix(reqId, what, meta, btn) {
+    btn.disabled = true;
+    const job = { id: `fix-${reqId}-${Date.now().toString(36)}`, reqId, kind: 'fix', what, workflow: 'fix.yml', runTitle: `Fix ${reqId} (${what})`,
+      prompt: meta.brand || reqId, format: meta.format || 'portrait', created: Date.now(), phase: 'upload' };
+    addPending(job); renderJob(job);
+    document.getElementById('job-' + job.id).scrollIntoView({ behavior: 'smooth', block: 'center' });
+    try {
+      const repo = await gh(R());
+      job.dispatched = Date.now();
+      await gh(`${R()}/actions/workflows/fix.yml/dispatches`, { method: 'POST', body: { ref: repo.default_branch || 'main', inputs: { request_id: reqId, what } } });
+      job.phase = 'queued'; savePending(job); track(job);
+    } catch (e) {
+      job.failedAt = 'upload'; job.phase = 'error'; job.finished = Date.now();
+      job.error = e.status === 404 ? 'Workflow fix.yml tidak ditemukan atau token tidak punya izin Actions.' : e.message;
+      savePending(job); renderJob(job);
+    } finally { btn.disabled = false; }
   }
 
   // Deletes the GitHub Release (the MP4 + storyboard), its tag, and the request's uploaded files.
