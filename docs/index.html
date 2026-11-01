@@ -128,6 +128,11 @@
   .switch button[aria-checked=true] { color: #1c0d05; }
   .thumb { position: absolute; top: 4px; bottom: 4px; left: 4px; right: 50%; border-radius: 999px; background: linear-gradient(135deg, var(--amber), var(--coral)); }
   .mode-note { width: 100%; text-align: right; margin: -4px 0 0; color: var(--dim); font-size: 13px; }
+  [hidden] { display: none !important; }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+  .kind { position: relative; z-index: 1; margin-top: 34px; }
+  .kind button { height: 34px; padding: 0 18px; font-size: 14px; }
+  .kind + .composer { margin-top: 18px; }
 
   /* marquee */
   .marquee { position: relative; z-index: 1; margin-top: 88px; border-block: 1px solid var(--line); overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
@@ -250,6 +255,8 @@
     .vid .meta { padding: 10px 12px 12px; }
     .under { flex-direction: column; align-items: stretch; }
     .switch { align-self: start; }
+    .opts { justify-content: flex-start; }
+    .kind { align-self: center; }
   }
 </style>
 </head>
@@ -266,9 +273,14 @@
   </nav>
 
   <section class="hero">
-    <div class="badge"><span>Baru</span>Sutradara penuh dengan Claude</div>
+    <div class="badge"><span>Baru</span>Cerita animasi bernarasi</div>
     <h1><span class="ln"><span class="w">Tulis</span> <span class="w">prompt.</span></span><span class="ln"><span class="w"><em>Video-nya</em></span> <span class="w">jadi.</span></span></h1>
 
+    <div class="switch kind" role="radiogroup" aria-label="Jenis video" id="kind" data-key="kind">
+      <span class="thumb"></span>
+      <button type="button" role="radio" data-v="launch" aria-checked="true">Video launch</button>
+      <button type="button" role="radio" data-v="story" aria-checked="false">Cerita animasi</button>
+    </div>
     <form class="composer" id="composer" autocomplete="off">
       <label for="prompt" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Prompt</label>
       <textarea id="prompt" placeholder="Video launch untuk aplikasi kedai kopiku. Tonjolkan antar 15 menit dan bayar pakai QRIS…" maxlength="4000"></textarea>
@@ -299,15 +311,33 @@
     </form>
 
     <div class="under">
-      <div class="ideas">
+      <div class="ideas" data-k="launch">
         <button type="button" class="idea" data-p="Video launch untuk aplikasi baruku. Ceritakan masalah penggunanya, lalu tunjukkan bagaimana aplikasinya menyelesaikan masalah itu.">Launch aplikasi</button>
         <button type="button" class="idea" data-p="Video pengumuman fitur baru. Fitur yang dirilis: ">Fitur baru</button>
         <button type="button" class="idea" data-p="Video rilis proyek open source. Tonjolkan cara pakainya yang sederhana dan siapa yang cocok memakainya. Repo: ">Rilis open source</button>
       </div>
-      <div class="switch" role="radiogroup" aria-label="Cara membuat" id="mode">
-        <span class="thumb" id="modeThumb"></span>
-        <button type="button" role="radio" data-m="full" aria-checked="true">Sutradara penuh</button>
-        <button type="button" role="radio" data-m="quick" aria-checked="false">Cepat</button>
+      <div class="ideas" data-k="story" hidden>
+        <button type="button" class="idea" data-p="Cerita anak sebelum tidur tentang seekor kucing kecil yang takut hujan, lalu belajar bahwa hujan membuat taman berbunga.">Dongeng anak</button>
+        <button type="button" class="idea" data-p="Fabel tentang semut dan belalang dengan pesan menabung sejak dini, gaya ilustrasi hangat dan lucu.">Fabel bermoral</button>
+        <button type="button" class="idea" data-p="Kisah inspiratif singkat tentang seorang penjual kue di pasar yang tidak pernah menyerah. Akhiri dengan pesan yang menyentuh.">Kisah inspiratif</button>
+      </div>
+      <div class="opts">
+        <div class="switch" role="radiogroup" aria-label="Cara membuat" id="mode" data-key="mode" data-k="launch">
+          <span class="thumb"></span>
+          <button type="button" role="radio" data-v="full" aria-checked="true">Sutradara penuh</button>
+          <button type="button" role="radio" data-v="quick" aria-checked="false">Cepat</button>
+        </div>
+        <div class="switch" role="radiogroup" aria-label="Suara narasi" id="voice" data-key="voice" data-k="story" hidden>
+          <span class="thumb"></span>
+          <button type="button" role="radio" data-v="edge" aria-checked="true">Suara gratis</button>
+          <button type="button" role="radio" data-v="elevenlabs" aria-checked="false">ElevenLabs</button>
+        </div>
+        <div class="switch" role="radiogroup" aria-label="Durasi" id="dur" data-key="dur" data-k="story" hidden>
+          <span class="thumb"></span>
+          <button type="button" role="radio" data-v="30" aria-checked="false">30 dtk</button>
+          <button type="button" role="radio" data-v="45" aria-checked="true">45 dtk</button>
+          <button type="button" role="radio" data-v="60" aria-checked="false">60 dtk</button>
+        </div>
       </div>
       <p class="mode-note" id="modeNote"></p>
     </div>
@@ -431,28 +461,40 @@
   ta.addEventListener('input', grow);
   const FMT = { portrait: ['Portrait', '1080 × 1920', 9, 16], landscape: ['Landscape', '1920 × 1080', 16, 9], square: ['Square', '1080 × 1080', 1, 1] };
   const MODE = { full: 'Claude merancang film khusus untuk produkmu. Sekitar 20–40 menit.', quick: 'Template launch yang diisi dari prompt. Sekitar 6–12 menit.' };
-  function drawFrame() {
-    $('#fmtLabel').textContent = FMT[S.format][0];
-    $('#modeNote').textContent = MODE[S.mode];
-    // sliding thumb: the leading edge travels faster than the trailing one, so it stretches
-    const sw = $('#mode'), on = sw.querySelector('[aria-checked=true]'), th = $('#modeThumb');
-    if (!on || !th) return;
+  const PLACEHOLDER = {
+    launch: 'Video launch untuk aplikasi kedai kopiku. Tonjolkan antar 15 menit dan bayar pakai QRIS…',
+    story: 'Ceritakan idenya: tokoh, masalahnya, dan pesan di akhir cerita. Contoh: kunang-kunang kecil yang takut gelap…',
+  };
+  S.kind = 'launch'; S.voice = 'edge'; S.dur = '45';
+  // sliding thumb: the leading edge travels faster than the trailing one, so it stretches
+  function placeThumb(sw) {
+    const on = sw.querySelector('[aria-checked=true]'), th = sw.querySelector('.thumb');
+    if (!on || !th || sw.hidden) return;
     const L = on.offsetLeft, R = sw.clientWidth - (on.offsetLeft + on.offsetWidth);
-    const right = S.mode === 'quick';
+    const prev = parseFloat(th.style.left || '0'), right = L > prev;
     th.style.transition = right ? 'left .42s cubic-bezier(.3,1.2,.4,1), right .26s cubic-bezier(.3,1.2,.4,1)' : 'left .26s cubic-bezier(.3,1.2,.4,1), right .42s cubic-bezier(.3,1.2,.4,1)';
     th.style.left = L + 'px'; th.style.right = R + 'px';
   }
+  function drawFrame() {
+    $('#fmtLabel').textContent = FMT[S.format][0];
+    document.querySelectorAll('[data-k]').forEach((el) => { el.hidden = el.dataset.k !== S.kind; });
+    ta.placeholder = PLACEHOLDER[S.kind];
+    $('#modeNote').textContent = S.kind === 'story'
+      ? `Claude menulis cerita, menggambar ilustrasi, dan mengisi suara ${S.voice === 'elevenlabs' ? 'ElevenLabs' : 'gratis (Edge)'}. Sekitar 15–30 menit.`
+      : MODE[S.mode];
+    document.querySelectorAll('.switch[data-key]').forEach(placeThumb);
+  }
   window.addEventListener('resize', drawFrame);
+  document.querySelectorAll('.switch[data-key]').forEach((sw) => sw.addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    S[sw.dataset.key] = b.dataset.v;
+    sw.querySelectorAll('button').forEach((x) => x.setAttribute('aria-checked', x === b));
+    drawFrame();
+  }));
   $('#fmt').addEventListener('click', (e) => {
     const b = e.target.closest('button'); if (!b) return;
     S.format = b.dataset.f;
     $('#fmt').querySelectorAll('button').forEach((x) => x.setAttribute('aria-checked', x === b));
-    drawFrame();
-  });
-  $('#mode').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if (!b) return;
-    S.mode = b.dataset.m;
-    $('#mode').querySelectorAll('button').forEach((x) => x.setAttribute('aria-checked', x === b));
     drawFrame();
   });
   drawFrame();
@@ -559,8 +601,10 @@
     if (!S.connected) { $('#connBtn').click(); return; }
     const btn = $('#goBtn'); btn.disabled = true; btn.classList.add('busy'); btn.setAttribute('aria-label', 'Mengirim…');
     const id = newId();
-    const req = { id, prompt, format: S.format, mode: S.mode, links: [...S.links], files: [], created: new Date().toISOString() };
-    const job = { id, prompt, format: S.format, mode: S.mode, created: Date.now(), phase: 'upload' };
+    const story = S.kind === 'story';
+    const req = { id, type: S.kind, prompt, format: S.format, links: [...S.links], files: [], created: new Date().toISOString(),
+      ...(story ? { voice: S.voice, duration: Number(S.dur) } : { mode: S.mode }) };
+    const job = { id, prompt, format: S.format, mode: story ? 'story' : S.mode, created: Date.now(), phase: 'upload' };
     addPending(job); renderJob(job);
     try {
       const branch = await commitRequest(id, req);
@@ -587,7 +631,7 @@
     { key: 'upload', label: 'Mengunggah permintaan' },
     { key: 'queued', label: 'Menunggu mesin' },
     { key: 'Install', label: 'Menyiapkan mesin render' },
-    { key: 'Direct the film (Claude)', label: 'Claude membaca referensi dan menyutradarai', full: 'Claude merancang dan menulis film' },
+    { key: 'Direct the film (Claude)', label: 'Claude membaca referensi dan menyutradarai', full: 'Claude merancang dan menulis film', story: 'Claude menulis cerita, mengisi suara, dan menggambar' },
     { key: 'Render video', label: 'Merender video 60 fps' },
     { key: 'Publish video', label: 'Menerbitkan video' },
   ];
@@ -617,7 +661,7 @@
       LIST.forEach((s, i) => {
         const li = document.createElement('li');
         li.className = job.phase === 'error' && i === idx ? 'fail' : i < idx ? 'done' : i === idx && job.phase !== 'error' ? 'now' : '';
-        li.innerHTML = '<span class="s"></span>'; li.appendChild(document.createTextNode(job.what === 'audio' && s.audio ? s.audio : job.mode === 'full' && s.full ? s.full : s.label));
+        li.innerHTML = '<span class="s"></span>'; li.appendChild(document.createTextNode(job.what === 'audio' && s.audio ? s.audio : job.mode === 'story' && s.story ? s.story : job.mode === 'full' && s.full ? s.full : s.label));
         ul.appendChild(li);
       });
       el.appendChild(ul);
@@ -641,7 +685,7 @@
       const cl = document.createElement('button'); cl.className = 'btn'; cl.type = 'button'; cl.textContent = 'Tutup';
       cl.onclick = () => { dropPending(job.id); el.remove(); }; foot.appendChild(cl);
     }
-    const idt = document.createElement('span'); idt.className = 'jid'; idt.textContent = job.kind === 'fix' ? 'Tanpa biaya Claude' : `${(FMT[job.format] || FMT.portrait)[0]}, ${job.mode === 'quick' ? 'cepat' : 'sutradara penuh'}`; foot.appendChild(idt);
+    const idt = document.createElement('span'); idt.className = 'jid'; idt.textContent = job.kind === 'fix' ? 'Tanpa biaya Claude' : `${(FMT[job.format] || FMT.portrait)[0]}, ${job.mode === 'story' ? 'cerita animasi' : job.mode === 'quick' ? 'cepat' : 'sutradara penuh'}`; foot.appendChild(idt);
     el.appendChild(foot);
   }
 
@@ -746,7 +790,7 @@
       const mt = document.createElement('div'); mt.className = 'meta';
       const b = document.createElement('b'); b.textContent = meta.brand || r.name || r.tag_name; mt.appendChild(b);
       if (meta.prompt) { const p = document.createElement('p'); p.textContent = meta.prompt; mt.appendChild(p); }
-      const sm = document.createElement('small'); sm.textContent = new Date(r.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }) + (meta.mode === 'quick' ? ', template' : ''); mt.appendChild(sm);
+      const sm = document.createElement('small'); sm.textContent = new Date(r.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }) + (meta.mode === 'quick' ? ', template' : meta.type === 'story' ? ', cerita' : ''); mt.appendChild(sm);
       const acts = document.createElement('div'); acts.className = 'acts';
       const dl = document.createElement('a'); dl.href = mp4.browser_download_url; dl.textContent = 'Unduh'; acts.appendChild(dl);
       if (S.connected) {

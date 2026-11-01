@@ -1,0 +1,310 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "audio": "nala/scene-01.mp3",
+   "key": "98861b6d2e98967787f972abe558e8a0b7f60b03",
+   "lead": 0.4,
+   "frames": 144,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "tepi",
+     "start": 0.186,
+     "end": 0.395
+    },
+    {
+     "text": "hutan",
+     "start": 0.43,
+     "end": 0.639
+    },
+    {
+     "text": "bambu",
+     "start": 0.697,
+     "end": 1.184
+    },
+    {
+     "text": "hiduplah",
+     "start": 1.358,
+     "end": 1.753
+    },
+    {
+     "text": "kunang-kunang",
+     "start": 1.788,
+     "end": 2.287
+    },
+    {
+     "text": "kecil",
+     "start": 2.31,
+     "end": 2.531
+    },
+    {
+     "text": "bernama",
+     "start": 2.589,
+     "end": 2.902
+    },
+    {
+     "text": "Nala",
+     "start": 2.949,
+     "end": 3.669
+    }
+   ]
+  },
+  {
+   "audio": "nala/scene-02.mp3",
+   "key": "e5c847e2b6bf155b3c43a12c35bbf28eccc0970d",
+   "lead": 0.4,
+   "frames": 176,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "Nala",
+     "start": 0.337,
+     "end": 0.592
+    },
+    {
+     "text": "takut",
+     "start": 0.639,
+     "end": 0.882
+    },
+    {
+     "text": "gelap",
+     "start": 0.94,
+     "end": 1.451
+    },
+    {
+     "text": "Tiap",
+     "start": 1.834,
+     "end": 2.067
+    },
+    {
+     "text": "malam",
+     "start": 2.113,
+     "end": 2.624
+    },
+    {
+     "text": "ia",
+     "start": 2.868,
+     "end": 3.007
+    },
+    {
+     "text": "bersembunyi",
+     "start": 3.065,
+     "end": 3.564
+    },
+    {
+     "text": "di",
+     "start": 3.611,
+     "end": 3.669
+    },
+    {
+     "text": "balik",
+     "start": 3.715,
+     "end": 3.947
+    },
+    {
+     "text": "daun",
+     "start": 3.994,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "audio": "nala/scene-03.mp3",
+   "key": "9d980036683a0ceca3a4dd0c120daed65c5790e5",
+   "lead": 0.4,
+   "frames": 128,
+   "words": [
+    {
+     "text": "Suatu",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "malam",
+     "start": 0.36,
+     "end": 0.801
+    },
+    {
+     "text": "angin",
+     "start": 0.882,
+     "end": 1.149
+    },
+    {
+     "text": "memadamkan",
+     "start": 1.207,
+     "end": 1.765
+    },
+    {
+     "text": "semua",
+     "start": 1.823,
+     "end": 2.09
+    },
+    {
+     "text": "lampu",
+     "start": 2.125,
+     "end": 2.357
+    },
+    {
+     "text": "desa",
+     "start": 2.403,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "audio": "nala/scene-04.mp3",
+   "key": "7730f4b18af509ec1635bcf02dcffeda0f34993b",
+   "lead": 0.4,
+   "frames": 178,
+   "words": [
+    {
+     "text": "Seekor",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "anak",
+     "start": 0.395,
+     "end": 0.569
+    },
+    {
+     "text": "burung",
+     "start": 0.604,
+     "end": 0.871
+    },
+    {
+     "text": "tersesat",
+     "start": 0.917,
+     "end": 1.347
+    },
+    {
+     "text": "dan",
+     "start": 1.405,
+     "end": 1.509
+    },
+    {
+     "text": "menangis",
+     "start": 1.556,
+     "end": 2.218
+    },
+    {
+     "text": "Nala",
+     "start": 2.543,
+     "end": 2.775
+    },
+    {
+     "text": "pun",
+     "start": 2.81,
+     "end": 2.972
+    },
+    {
+     "text": "memberanikan",
+     "start": 3.019,
+     "end": 3.553
+    },
+    {
+     "text": "diri",
+     "start": 3.587,
+     "end": 3.762
+    },
+    {
+     "text": "terbang",
+     "start": 3.808,
+     "end": 4.098
+    },
+    {
+     "text": "keluar",
+     "start": 4.122,
+     "end": 4.83
+    }
+   ]
+  },
+  {
+   "audio": "nala/scene-05.mp3",
+   "key": "765e090b6b1eb3f3d0626d9f4d17035ee8d3ed62",
+   "lead": 0.4,
+   "frames": 210,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "ternyata",
+     "start": 0.244,
+     "end": 0.824
+    },
+    {
+     "text": "tubuhnya",
+     "start": 0.882,
+     "end": 1.312
+    },
+    {
+     "text": "bercahaya",
+     "start": 1.358,
+     "end": 2.02
+    },
+    {
+     "text": "Nala",
+     "start": 2.345,
+     "end": 2.647
+    },
+    {
+     "text": "tak",
+     "start": 2.705,
+     "end": 2.821
+    },
+    {
+     "text": "perlu",
+     "start": 2.856,
+     "end": 3.077
+    },
+    {
+     "text": "takut",
+     "start": 3.123,
+     "end": 3.367
+    },
+    {
+     "text": "gelap",
+     "start": 3.425,
+     "end": 3.762
+    },
+    {
+     "text": "karena",
+     "start": 3.796,
+     "end": 4.11
+    },
+    {
+     "text": "ia",
+     "start": 4.168,
+     "end": 4.319
+    },
+    {
+     "text": "sendiri",
+     "start": 4.365,
+     "end": 4.748
+    },
+    {
+     "text": "adalah",
+     "start": 4.807,
+     "end": 5.074
+    },
+    {
+     "text": "cahaya",
+     "start": 5.12,
+     "end": 5.898
+    }
+   ]
+  }
+ ]
+}

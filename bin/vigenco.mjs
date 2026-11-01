@@ -2,8 +2,9 @@
 // vigenco render <job.json> [--quality draft|standard|high] [--out out/x.mp4] [--workers N] [--no-audio] [--storyboard]
 // vigenco snap   <job.json> [--times beats|1,2.5,4] [--out snaps/x]
 // vigenco redub  <job.json> --video in.mp4 [--out out/x.mp4]   (new soundtrack, same picture)
+// vigenco tts    <job.json>                                     (story: narration + word timings)
 import path from 'node:path';
-import { loadJob, render, snap, contactSheet, storyboard, redub } from '../src/render.mjs';
+import { loadJob, render, snap, contactSheet, storyboard, redub, ttsStory } from '../src/render.mjs';
 
 const [cmd, job, ...rest] = process.argv.slice(2);
 const flags = {};
@@ -18,7 +19,8 @@ function usage() {
   console.log(`Usage:
   vigenco render <job.json> [--quality draft|standard|high] [--out out/name.mp4] [--workers N] [--no-audio] [--storyboard]
   vigenco snap   <job.json> [--times beats|0.5,2,7.25] [--out snaps/name]
-  vigenco redub  <job.json> --video in.mp4 [--out out/name.mp4]`);
+  vigenco redub  <job.json> --video in.mp4 [--out out/name.mp4]
+  vigenco tts    <job.json>   (story type only)`);
   process.exit(1);
 }
 
@@ -36,7 +38,11 @@ if (cmd === 'render') {
   const times = !flags.times || flags.times === 'beats' ? 'beats' : String(flags.times).split(',').map(Number);
   const { files, film } = await snap(spec, times, outDir);
   await contactSheet(files, path.join(outDir, 'sheet.png'), 8, 240);
-  console.log(`[vigenco] ${files.length} stills, duration ${film.duration}s → ${outDir}/sheet.png`);
+  console.log(`[vigenco] ${files.length} stills${film.duration ? `, duration ${film.duration}s` : ''} → ${outDir}/sheet.png`);
+  process.exit(0);
+} else if (cmd === 'tts') {
+  if (spec.type !== 'story') { console.error('tts is for story jobs'); process.exit(1); }
+  await ttsStory(spec);
   process.exit(0);
 } else if (cmd === 'redub') {
   if (!flags.video) usage();

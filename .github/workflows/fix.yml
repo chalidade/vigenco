@@ -60,12 +60,21 @@ jobs:
           pip install -q -r requirements.txt
           npm ci --no-audit --no-fund
           npx playwright install --with-deps chromium
+          if [ "$(node -p 'require("./jobs/generated/"+process.env.ID+".json").type')" = "story" ]; then
+            npm ci --prefix types/story --no-audit --no-fund
+          fi
 
       - name: Render video
         shell: bash
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
           mkdir -p in out
-          if [ "$WHAT" = "audio" ]; then
+          if [ "$(node -p 'require("./jobs/generated/"+process.env.ID+".json").type')" = "story" ]; then
+            # a story's narration sets its timing: new sound = tts (changed scenes only) + full render
+            node bin/vigenco.mjs tts "jobs/generated/$ID.json"
+            node bin/vigenco.mjs render "jobs/generated/$ID.json" --out "out/$ID.mp4" --storyboard
+          elif [ "$WHAT" = "audio" ]; then
             gh release download "video-$ID" -p "$ID.mp4" -D in
             node bin/vigenco.mjs redub "jobs/generated/$ID.json" --video "in/$ID.mp4" --out "out/$ID.mp4"
           else

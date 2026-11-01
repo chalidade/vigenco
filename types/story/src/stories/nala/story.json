@@ -1,0 +1,31 @@
+{
+  "id": "nala",
+  "title": "Nala & Cahaya",
+  "width": 1080,
+  "height": 1920,
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "scenes": [
+    {
+      "narration": "Di tepi hutan bambu, hiduplah kunang-kunang kecil bernama Nala.",
+      "visual": "Dusk. Purple-to-orange sky, setting sun, bamboo swaying. Nala flies in from the left. Title at the top."
+    },
+    {
+      "narration": "Tapi Nala takut gelap. Tiap malam, ia bersembunyi di balik daun.",
+      "visual": "Sky darkens to night, stars appear. Nala peeks out from behind a big leaf, trembling, then hides."
+    },
+    {
+      "narration": "Suatu malam, angin memadamkan semua lampu desa.",
+      "visual": "Village houses at the bottom, windows go dark one by one. Wind streaks, bamboo bends, a cloud covers the moon."
+    },
+    {
+      "narration": "Seekor anak burung tersesat dan menangis. Nala pun memberanikan diri terbang keluar.",
+      "visual": "Near-black. A chick on a branch, a tear falls. Nala leaves the leaf and flies toward it, trembling less as it goes."
+    },
+    {
+      "narration": "Dan ternyata, tubuhnya bercahaya. Nala tak perlu takut gelap, karena ia sendiri adalah cahaya.",
+      "visual": "Nala's glow grows and reveals the forest in colour, the chick smiles, many fireflies join. End card."
+    }
+  ],
+  "engine": "elevenlabs",
+  "language": "id"
+}

@@ -50,6 +50,26 @@ Lewat terminal: `node bin/vigenco.mjs redub jobs/generated/<id>.json --video lam
 Catatan: page dan videonya bekerja paling mulus di repo **publik**. Di repo privat, video diunduh lewat
 API dengan token sebelum diputar. Lampiran ikut ter-commit ke repo, jadi jangan unggah file rahasia.
 
+## Tipe video
+
+| Tipe | Isi | Mesin |
+|---|---|---|
+| `launch` | Video peluncuran produk: satu bentuk yang terus berubah, kursor, musik dan SFX orisinal | HTML `seek(t)` + Playwright (`types/launch`, atau film khusus di `films/`) |
+| `story` | Cerita animasi bernarasi: ilustrasi SVG yang dianimasikan, suara, caption karaoke | Remotion (`types/story`) |
+
+### Cerita animasi (`story`)
+`types/story/` adalah proyek Remotion: satu cerita per folder `src/stories/<id>/`
+(`story.json` berisi narasi per adegan, `parts.tsx` tokoh dan latar SVG, `scenes.tsx` animasi per adegan).
+Dari page, pilih **Cerita animasi**: Claude menulis cerita, membuat suara, menggambar dan menganimasikan
+tiap adegan, memeriksa hasilnya, lalu GitHub Actions merender MP4-nya.
+
+- **Suara gratis** memakai Edge TTS (tanpa API key). **ElevenLabs** butuh secret `ELEVENLABS_API_KEY`;
+  suaranya diatur dengan variable `ELEVENLABS_VOICE_ID` (opsional). Variable `EDGE_VOICE` mengganti suara Edge default.
+- Lokal: `node bin/vigenco.mjs tts jobs/examples/nala-story.json`, lalu `render` atau `snap` seperti tipe lain.
+  Contoh lengkap: `src/stories/nala` (kunang-kunang yang takut gelap, 9:16).
+- **Lisensi Remotion:** gratis untuk perorangan dan perusahaan sampai 3 orang. Untuk penggunaan komersial
+  oleh perusahaan yang lebih besar, atau kalau Vigenco dijual sebagai layanan, cek [lisensi Remotion](https://www.remotion.dev/license).
+
 ## Cara pakai
 
 ### Lewat GitHub (tanpa install apa pun)
@@ -128,6 +148,8 @@ dan setiap efek suara jatuh tepat di beat 120 BPM.
 | `types/launch/` | Tipe video `launch` |
 | `jobs/` | Spec video. Push file baru di sini = video baru (`jobs/generated/` = hasil dari page) |
 | `docs/` | Page "tulis prompt, jadi video" (GitHub Pages) |
+| `types/story/` | Proyek Remotion untuk tipe `story` (cerita animasi bernarasi) |
+| `director/STORY.md` | Brief yang diikuti Claude saat menulis dan menggambar cerita |
 | `films/` | Film khusus yang ditulis oleh mode Sutradara penuh, satu folder per permintaan |
 | `director/FULL.md`, `director/skill/` | Brief mode Sutradara penuh dan skill product-launch-motion (MIT) |
 | `director/DIRECTOR.md` | Brief yang diikuti Claude saat menyutradarai permintaan dari page |

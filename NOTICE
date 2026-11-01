@@ -39,3 +39,11 @@ Runtime dependencies (installed, not bundled)
 - FFmpeg (LGPL/GPL depending on the build) and NumPy (BSD).
 
 All music and sound effects are synthesized from scratch by src/audio/synth.py.
+
+Story type (types/story)
+------------------------
+- Remotion (remotion.dev) renders the story type. Remotion is free for individuals and companies of up
+  to three people; larger companies need a company license (https://www.remotion.dev/license).
+- Baloo 2 font (SIL Open Font License 1.1) is bundled in types/story/public/fonts via @fontsource/baloo-2.
+- Narration is generated per story with Microsoft Edge read-aloud voices (msedge-tts) or ElevenLabs,
+  under the respective provider's terms.

@@ -15,7 +15,7 @@ const [reqDir, outJob] = args.filter((a, i) => !a.startsWith('--') && !(i > 0 &&
 if (!reqDir || !outJob) { console.error('usage: direct.mjs <request-dir> <out-job.json> [--mode quick|full]'); process.exit(1); }
 
 const req = JSON.parse(await readFile(path.join(reqDir, 'request.json'), 'utf8'));
-const mode = flag('mode', req.mode === 'quick' ? 'quick' : 'full');
+const mode = req.type === 'story' ? 'story' : flag('mode', req.mode === 'quick' ? 'quick' : 'full');
 const notes = flag('notes', null);
 const filesDir = path.join(reqDir, 'files');
 const files = existsSync(filesDir) ? (await readdir(filesDir)).map((f) => path.join(filesDir, f)) : [];
@@ -28,7 +28,23 @@ Attached files (${files.length}): ${files.length ? files.join(', ') : 'none'}
 Links (${(req.links || []).length}): ${(req.links || []).join(', ') || 'none'}
 Format: ${req.format} → job format "${fmt}", frame ${size}`;
 
-const task = mode === 'full'
+// Story voice: ElevenLabs only when asked for and a key is present; otherwise the free Edge voice.
+const wantEleven = req.voice === 'elevenlabs';
+const hasEleven = !!process.env.ELEVENLABS_API_KEY;
+const engine = wantEleven && hasEleven ? 'elevenlabs' : 'edge';
+const voice = engine === 'elevenlabs'
+  ? (process.env.ELEVENLABS_VOICE_ID || 'gmnazjXOFoOcWA59sd5m')
+  : (process.env.EDGE_VOICE || 'id-ID-GadisNeural');
+if (mode === 'story' && wantEleven && !hasEleven) console.log('[director] ELEVENLABS_API_KEY not set: using the free Edge voice');
+
+const task = mode === 'story'
+  ? `You are the story director for Vigenco request "${req.id}". Read director/STORY.md first and follow it exactly.
+${common}
+Target duration: ${Number(req.duration) > 0 ? `${Number(req.duration)} seconds` : 'about 35 seconds'}
+Story id: ${req.id} (folder types/story/src/stories/${req.id}/, audio types/story/public/${req.id}/)
+Narration: "engine": "${engine}", "voice": "${voice}"${engine === 'edge' ? ' (a non-Indonesian story should use a matching Edge neural voice for its language instead, e.g. en-US-AvaNeural)' : ''}
+Write the job JSON to: ${outJob}`
+  : mode === 'full'
   ? `You are the full director for Vigenco request "${req.id}". Read director/FULL.md first and follow it exactly.
 ${common}
 Film folder: films/${req.id}/ (entry films/${req.id}/index.html)
@@ -37,14 +53,18 @@ Write the job JSON to: ${outJob}`
 ${common}
 Write the job JSON to: ${outJob}`;
 
-const tools = mode === 'full'
+const tools = mode === 'story'
+  ? ['Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebFetch', 'WebSearch', 'TodoWrite',
+     'Bash(node bin/vigenco.mjs:*)', 'Bash(npx --prefix types/story tsc:*)', 'Bash(mkdir:*)', 'Bash(ls:*)', 'Bash(cat:*)']
+  : mode === 'full'
   ? ['Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebFetch', 'WebSearch', 'TodoWrite',
      'Bash(node bin/vigenco.mjs:*)', 'Bash(curl -sSL:*)', 'Bash(mkdir:*)', 'Bash(ls:*)', 'Bash(node --check:*)', 'Bash(python3:*)', 'Bash(ffprobe:*)']
   : ['Read', 'Write', 'Edit', 'Glob', 'Grep', 'WebFetch', 'WebSearch', 'Bash(node bin/vigenco.mjs snap:*)'];
-const cli = ['-p', task, '--allowedTools', tools.join(','), '--max-turns', process.env.DIRECTOR_MAX_TURNS || (mode === 'full' ? '200' : '40')];
-const model = process.env.CLAUDE_MODEL || (mode === 'full' ? 'opus' : '');
+const cli = ['-p', task, '--allowedTools', tools.join(','), '--max-turns', process.env.DIRECTOR_MAX_TURNS || (mode === 'quick' ? '40' : '200')];
+const model = process.env.CLAUDE_MODEL || (mode === 'quick' ? '' : 'opus');
 if (model) cli.push('--model', model);
 if (mode === 'full') await mkdir(path.join('films', req.id, 'assets'), { recursive: true });
+if (mode === 'story') await mkdir(path.join('types', 'story', 'src', 'stories', req.id), { recursive: true });
 
 console.log(`[director] mode=${mode}${model ? ` model=${model}` : ''}, starting Claude Code…`);
 let out = '';
@@ -61,6 +81,14 @@ if (mode === 'full') {
   const job = JSON.parse(await readFile(outJob, 'utf8'));
   job.type = 'custom'; job.entry = `films/${req.id}/index.html`; job.format = fmt; job.quality = job.quality || 'standard';
   if (!existsSync(job.entry)) { console.error(`[director] film entry missing: ${job.entry}`); process.exit(1); }
+  await writeFile(outJob, JSON.stringify(job, null, 2) + '\n');
+}
+if (mode === 'story') {
+  const job = JSON.parse(await readFile(outJob, 'utf8'));
+  const sj = path.join('types', 'story', 'src', 'stories', req.id, 'story.json');
+  if (!existsSync(sj)) { console.error(`[director] ${sj} missing`); process.exit(1); }
+  const st = JSON.parse(await readFile(sj, 'utf8'));
+  job.type = 'story'; job.story = req.id; job.format = fmt; job.title = job.title || st.title || req.id; job.quality = job.quality || 'standard';
   await writeFile(outJob, JSON.stringify(job, null, 2) + '\n');
 }
 console.log(`[director] job written → ${outJob}`);

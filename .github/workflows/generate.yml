@@ -59,12 +59,18 @@ jobs:
           npm ci --no-audit --no-fund
           npx playwright install --with-deps chromium
           npm install -g @anthropic-ai/claude-code
+          if [ "$(node -p 'require("./requests/"+process.env.ID+"/request.json").type||""')" = "story" ]; then
+            npm ci --prefix types/story --no-audit --no-fund
+          fi
 
       - name: Direct the film (Claude)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
             echo "::error::Add the ANTHROPIC_API_KEY secret (Settings → Secrets and variables → Actions)"; exit 1
@@ -80,6 +86,8 @@ jobs:
           cat "jobs/generated/$ID.json"
 
       - name: Render video
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: node bin/vigenco.mjs render "jobs/generated/$ID.json" --out "out/$ID.mp4" --storyboard
 
       - name: Publish video
@@ -92,7 +100,7 @@ jobs:
             const j = require("./jobs/generated/" + process.env.ID + ".json");
             const fs = require("fs");
             const brand = (j.brand && j.brand.name) || j.title || "";
-            const meta = { id: r.id, prompt: r.prompt, format: j.format, brand, mode: j.type === "custom" ? "full" : "quick", created: r.created };
+            const meta = { id: r.id, prompt: r.prompt, format: j.format, brand, type: j.type === "story" ? "story" : "launch", mode: j.type === "custom" ? "full" : j.type === "story" ? "story" : "quick", created: r.created };
             const dn = fs.existsSync("out/director.md") ? fs.readFileSync("out/director.md", "utf8").slice(0, 100000) : "";
             fs.writeFileSync("out/notes.md", "<!-- vigenco " + JSON.stringify(meta) + " -->\n\n" + (r.prompt || "").slice(0, 2000) + (dn ? "\n\n---\n\n### Catatan sutradara\n\n" + dn : ""));
           '
@@ -107,5 +115,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "jobs/generated/$ID.json"
           [ -d "films/$ID" ] && git add "films/$ID"
+          [ -d "types/story/src/stories/$ID" ] && git add "types/story/src/stories/$ID" "types/story/public/$ID"
           git commit -m "Add generated job $ID" || exit 0
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 3; done

@@ -9,6 +9,8 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import os from 'node:os';
+import { renderStory, snapStory, ttsStory } from './story.mjs';
+export { ttsStory };
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const FORMATS = { vertical: [1080, 1920], landscape: [1920, 1080], square: [1080, 1080] };
@@ -83,6 +85,7 @@ async function shoot(page, t, type = 'png') {
 
 // Stills at given times (QA): returns file paths.
 export async function snap(spec, times, outDir) {
+  if (spec.type === 'story') return snapStory(spec, times, outDir);
   await mkdir(outDir, { recursive: true });
   const browser = await launchBrowser();
   try {
@@ -142,6 +145,7 @@ async function renderChunk(browser, spec, q, f0, f1, segPath, onFrame) {
 }
 
 export async function render(spec, opts = {}) {
+  if (spec.type === 'story') return renderStory(spec, opts);
   const q = QUALITY[opts.quality || spec.quality || 'standard'] || QUALITY.standard;
   const outPath = path.resolve(opts.out || path.join(ROOT, 'out', `${opts.name || 'video'}.mp4`));
   const work = path.join(path.dirname(outPath), `.work-${path.basename(outPath, '.mp4')}`);
@@ -202,6 +206,8 @@ export async function render(spec, opts = {}) {
 
 // Replace the soundtrack of an already rendered MP4 without re-rendering the picture.
 export async function redub(spec, videoIn, outPath) {
+  // A story's narration drives its timing, so new sound means a new render (fresh TTS only for changed scenes).
+  if (spec.type === 'story') { await ttsStory(spec); return (await renderStory(spec, { out: outPath })).out; }
   const work = path.join(path.dirname(path.resolve(outPath)), `.redub-${Date.now()}`);
   await mkdir(work, { recursive: true });
   const browser = await launchBrowser();
