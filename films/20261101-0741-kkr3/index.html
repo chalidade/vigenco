@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga · fitur baru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg { position: absolute; inset: 0;
+    background: radial-gradient(1000px 760px at 68% 48%, rgba(27,77,46,.42), transparent 70%),
+                radial-gradient(800px 600px at 6% 96%, rgba(19,39,29,.9), transparent 70%); }
+  #rings { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  #shape { left: 0; top: 0; overflow: hidden; box-shadow: 0 50px 90px -40px rgba(0,0,0,.75); }
+  #logo { position: absolute; left: 50%; top: 50%; }
+  .cap { width: 690px; }
+  .kick { font: 600 21px/1 "JetBrains Mono", monospace; letter-spacing: .14em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 14px; margin-bottom: 30px; }
+  .kick::before { content: ""; width: 26px; height: 2px; background: currentColor; }
+  .head { font: 800 70px/1.06 "Plus Jakarta Sans", sans-serif; letter-spacing: -.035em; color: #f2edd5; }
+  .head .serif { color: #3cbf6e; font-size: 1.1em; letter-spacing: -.01em; }
+  .subs { margin-top: 34px; display: flex; flex-direction: column; gap: 16px; }
+  .sub { font: 500 27px/1.35 "Plus Jakarta Sans", sans-serif; color: #c9cdb9; display: flex; gap: 14px; align-items: flex-start; }
+  .sub svg { width: 28px; height: 28px; flex: none; color: #3cbf6e; margin-top: 3px; }
+  .sub b { color: #f2edd5; font-weight: 700; }
+  .chip { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; border-radius: 999px; }
+  .av { width: 88px; height: 88px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font: 800 38px/1 "Plus Jakarta Sans"; color: #fff; }
+  .bubble { background: #13271d; border: 1px solid rgba(242,237,213,.09); border-radius: 22px 22px 22px 8px; padding: 16px 24px;
+    font: 500 26px/1.3 "Plus Jakarta Sans"; color: #f2edd5; white-space: nowrap; }
+  .who { font: 700 20px/1 "Plus Jakarta Sans"; margin: 0 0 10px 6px; }
+  .wave { display: flex; align-items: center; gap: 5px; }
+  .wave i { display: block; width: 6px; border-radius: 3px; background: currentColor; }
+  .tile { background: #0b1811; border: 1px solid rgba(242,237,213,.10); border-radius: 30px; }
+  .gchip { height: 50px; padding: 0 22px; background: #13271d; border: 1px solid rgba(242,237,213,.14);
+    font: 600 24px/1 "Plus Jakarta Sans"; color: #f2edd5; }
+  .odo { position: absolute; font: 800 150px/1 "Plus Jakarta Sans"; letter-spacing: -.05em; color: #f2edd5; overflow: hidden; height: 160px; width: 220px; }
+  .odo span { position: absolute; left: 0; top: 0; }
+  #cur { left: 0; top: 0; width: 0; height: 0; }
+  #cur svg { position: absolute; left: -4px; top: -2px; width: 46px; height: 46px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.5)); }
+  #cur .pill { position: absolute; left: 30px; top: 40px; background: #3cbf6e; color: #04140a; font: 700 21px/1 "Plus Jakarta Sans";
+    padding: 9px 15px; border-radius: 999px; white-space: nowrap; }
+  #rip { width: 80px; height: 80px; margin: -40px 0 0 -40px; border-radius: 50%; border: 3px solid #f2edd5; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <svg id="rings" viewBox="0 0 1920 1080"><circle/><circle/><circle/></svg>
+  <div id="world"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
