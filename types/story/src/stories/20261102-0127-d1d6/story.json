@@ -1,0 +1,50 @@
+{
+  "id": "20261102-0127-d1d6",
+  "title": "Pulau Tanpa Nama — Penduduk: 1",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Di peta mana pun, pulau ini tidak ada.",
+      "visual": "Near-black night sea. Faint wave lines roll in and out, a dim silhouette of a tiny island on the horizon. Top-right counter 'PENDUDUK: 1' blinks slowly. A faint map grid fades in; the island's spot is marked with a question mark.",
+      "pause": 1.2
+    },
+    {
+      "narration": "Namanya Aru. Ia terbangun di pantai, tanpa ingat bagaimana ia sampai di sini.",
+      "visual": "Dawn colours bloom. Close on Aru lying on wet sand; eyes open on 'terbangun', he sits up, drips fall. Camera pulls back slowly: a tiny island, one coconut palm, nobody else, sea all around.",
+      "pause": 1.3
+    },
+    {
+      "narration": "Ia berteriak sampai suaranya habis. Tapi satu-satunya yang menjawab hanyalah ombak.",
+      "visual": "Daylight. Aru runs along the shore leaving a trail of footprints, hands cupped to his mouth, shout lines. Gulls lift off and fly away. On 'ombak' a wave washes over the shore.",
+      "pause": 1.1
+    },
+    {
+      "narration": "Malam pertama adalah yang paling panjang. Ternyata sepi itu bukan soal tidak ada suara. Sepi itu ketika tidak ada yang tahu kamu ada.",
+      "visual": "Night. Huge starry sky, the island small at the bottom. Aru hugs his knees by a tiny flickering campfire; sparks drift up. Slow zoom out makes the island feel smaller and lonelier.",
+      "pause": 1.3
+    },
+    {
+      "narration": "Pagi harinya, ia menulis satu surat: 'Kalau ada yang menemukan ini… aku di sini. Datanglah.'",
+      "visual": "Morning. Aru writes on paper with charcoal, rolls it into a glass bottle and throws it; the bottle arcs into the sea and bobs, growing as it floats toward the camera.",
+      "pause": 1.0
+    },
+    {
+      "narration": "Dan surat itu… sampai padamu.",
+      "visual": "The bottle grows huge and hits the screen: flash, fine cracks spread over the glass. A paper scroll unrolls facing the viewer with handwritten text: 'Kalau kamu membaca ini, kamu sudah menemukanku.'",
+      "pause": 2.2
+    },
+    {
+      "narration": "Setiap orang yang mengikuti pulau ini akan menjadi warganya. Setiap hari, dua dari kalian akan memutuskan apa yang terjadi selanjutnya.",
+      "visual": "Back on the island in golden afternoon. Aru stands at the end of an unfinished wooden jetty facing the viewer, waving. The counter ticks with a pulse. Ghostly silhouettes of future residents twinkle in on the horizon; two of them light up on 'dua'."
+    },
+    {
+      "narration": "Tulis di komentar. Besok, Aru tidak akan sendirian lagi.",
+      "visual": "Sunset. Aru plants a blank wooden sign in the sand. Big text pops in: 'Pulau ini belum punya nama. Apa namanya?' The counter flips from 1 to 2, then the screen fades to dark.",
+      "pause": 2.6
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "audio": "20261102-0127-d1d6/scene-01.mp3",
+   "key": "7beffeeed711a7e4cab085dfc86f709e40095233",
+   "lead": 0.4,
+   "frames": 129,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "peta",
+     "start": 0.209,
+     "end": 0.406
+    },
+    {
+     "text": "mana",
+     "start": 0.464,
+     "end": 0.662
+    },
+    {
+     "text": "pun",
+     "start": 0.708,
+     "end": 1.068
+    },
+    {
+     "text": "pulau",
+     "start": 1.219,
+     "end": 1.498
+    },
+    {
+     "text": "ini",
+     "start": 1.556,
+     "end": 1.695
+    },
+    {
+     "text": "tidak",
+     "start": 1.73,
+     "end": 1.962
+    },
+    {
+     "text": "ada",
+     "start": 1.985,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-02.mp3",
+   "key": "43100bd26c48000e0f20e0ff56cdf331ed287efc",
+   "lead": 0.4,
+   "frames": 208,
+   "words": [
+    {
+     "text": "Namanya",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "Aru",
+     "start": 0.488,
+     "end": 0.906
+    },
+    {
+     "text": "Ia",
+     "start": 1.231,
+     "end": 1.416
+    },
+    {
+     "text": "terbangun",
+     "start": 1.44,
+     "end": 1.811
+    },
+    {
+     "text": "di",
+     "start": 1.846,
+     "end": 1.904
+    },
+    {
+     "text": "pantai",
+     "start": 1.95,
+     "end": 2.496
+    },
+    {
+     "text": "tanpa",
+     "start": 2.612,
+     "end": 2.914
+    },
+    {
+     "text": "ingat",
+     "start": 2.972,
+     "end": 3.193
+    },
+    {
+     "text": "bagaimana",
+     "start": 3.239,
+     "end": 3.692
+    },
+    {
+     "text": "ia",
+     "start": 3.738,
+     "end": 3.878
+    },
+    {
+     "text": "sampai",
+     "start": 3.924,
+     "end": 4.191
+    },
+    {
+     "text": "di",
+     "start": 4.214,
+     "end": 4.296
+    },
+    {
+     "text": "sini",
+     "start": 4.331,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-03.mp3",
+   "key": "2357a4a32bb176881afe0e193d75337d65e286fb",
+   "lead": 0.4,
+   "frames": 202,
+   "words": [
+    {
+     "text": "Ia",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "berteriak",
+     "start": 0.209,
+     "end": 0.673
+    },
+    {
+     "text": "sampai",
+     "start": 0.731,
+     "end": 0.975
+    },
+    {
+     "text": "suaranya",
+     "start": 1.01,
+     "end": 1.382
+    },
+    {
+     "text": "habis",
+     "start": 1.416,
+     "end": 1.939
+    },
+    {
+     "text": "Tapi",
+     "start": 2.113,
+     "end": 2.403
+    },
+    {
+     "text": "satu-satunya",
+     "start": 2.45,
+     "end": 3.077
+    },
+    {
+     "text": "yang",
+     "start": 3.123,
+     "end": 3.239
+    },
+    {
+     "text": "menjawab",
+     "start": 3.274,
+     "end": 3.715
+    },
+    {
+     "text": "hanyalah",
+     "start": 3.831,
+     "end": 4.261
+    },
+    {
+     "text": "ombak",
+     "start": 4.307,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-04.mp3",
+   "key": "767b9bd9840f54ffbc8dd829610b53cc544bf1e8",
+   "lead": 0.4,
+   "frames": 311,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "pertama",
+     "start": 0.29,
+     "end": 0.639
+    },
+    {
+     "text": "adalah",
+     "start": 0.662,
+     "end": 0.952
+    },
+    {
+     "text": "yang",
+     "start": 1.01,
+     "end": 1.115
+    },
+    {
+     "text": "paling",
+     "start": 1.161,
+     "end": 1.382
+    },
+    {
+     "text": "panjang",
+     "start": 1.428,
+     "end": 2.02
+    },
+    {
+     "text": "Ternyata",
+     "start": 2.345,
+     "end": 2.844
+    },
+    {
+     "text": "sepi",
+     "start": 2.914,
+     "end": 3.146
+    },
+    {
+     "text": "itu",
+     "start": 3.193,
+     "end": 3.367
+    },
+    {
+     "text": "bukan",
+     "start": 3.425,
+     "end": 3.657
+    },
+    {
+     "text": "soal",
+     "start": 3.715,
+     "end": 3.959
+    },
+    {
+     "text": "tidak",
+     "start": 4.017,
+     "end": 4.238
+    },
+    {
+     "text": "ada",
+     "start": 4.261,
+     "end": 4.435
+    },
+    {
+     "text": "suara",
+     "start": 4.493,
+     "end": 5.12
+    },
+    {
+     "text": "Sepi",
+     "start": 5.561,
+     "end": 5.817
+    },
+    {
+     "text": "itu",
+     "start": 5.863,
+     "end": 6.06
+    },
+    {
+     "text": "ketika",
+     "start": 6.118,
+     "end": 6.42
+    },
+    {
+     "text": "tidak",
+     "start": 6.467,
+     "end": 6.699
+    },
+    {
+     "text": "ada",
+     "start": 6.722,
+     "end": 6.908
+    },
+    {
+     "text": "yang",
+     "start": 6.943,
+     "end": 7.059
+    },
+    {
+     "text": "tahu",
+     "start": 7.117,
+     "end": 7.303
+    },
+    {
+     "text": "kamu",
+     "start": 7.349,
+     "end": 7.558
+    },
+    {
+     "text": "ada",
+     "start": 7.616,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-05.mp3",
+   "key": "a2126a03e4271749fc79e70d919fe1a6c2606e70",
+   "lead": 0.4,
+   "frames": 228,
+   "words": [
+    {
+     "text": "Pagi",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "harinya",
+     "start": 0.313,
+     "end": 0.789
+    },
+    {
+     "text": "ia",
+     "start": 0.871,
+     "end": 1.01
+    },
+    {
+     "text": "menulis",
+     "start": 1.068,
+     "end": 1.37
+    },
+    {
+     "text": "satu",
+     "start": 1.393,
+     "end": 1.637
+    },
+    {
+     "text": "surat",
+     "start": 1.683,
+     "end": 2.183
+    },
+    {
+     "text": "Kalau",
+     "start": 2.299,
+     "end": 2.705
+    },
+    {
+     "text": "ada",
+     "start": 2.74,
+     "end": 2.879
+    },
+    {
+     "text": "yang",
+     "start": 2.902,
+     "end": 3.007
+    },
+    {
+     "text": "menemukan",
+     "start": 3.03,
+     "end": 3.437
+    },
+    {
+     "text": "ini",
+     "start": 3.495,
+     "end": 3.959
+    },
+    {
+     "text": "aku",
+     "start": 4.168,
+     "end": 4.4
+    },
+    {
+     "text": "di",
+     "start": 4.435,
+     "end": 4.505
+    },
+    {
+     "text": "sini",
+     "start": 4.54,
+     "end": 4.992
+    },
+    {
+     "text": "Datanglah",
+     "start": 5.317,
+     "end": 6.177
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-06.mp3",
+   "key": "ff788748798f73a984a34e9831df9ad0b419f9f3",
+   "lead": 0.4,
+   "frames": 154,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "surat",
+     "start": 0.279,
+     "end": 0.534
+    },
+    {
+     "text": "itu",
+     "start": 0.604,
+     "end": 1.022
+    },
+    {
+     "text": "sampai",
+     "start": 1.265,
+     "end": 1.602
+    },
+    {
+     "text": "padamu",
+     "start": 1.625,
+     "end": 2.508
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-07.mp3",
+   "key": "a9f645c0dd07e2767481ade2be4411beaee9316e",
+   "lead": 0.4,
+   "frames": 300,
+   "words": [
+    {
+     "text": "Setiap",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "orang",
+     "start": 0.522,
+     "end": 0.731
+    },
+    {
+     "text": "yang",
+     "start": 0.778,
+     "end": 0.882
+    },
+    {
+     "text": "mengikuti",
+     "start": 0.917,
+     "end": 1.347
+    },
+    {
+     "text": "pulau",
+     "start": 1.393,
+     "end": 1.625
+    },
+    {
+     "text": "ini",
+     "start": 1.672,
+     "end": 1.916
+    },
+    {
+     "text": "akan",
+     "start": 1.985,
+     "end": 2.206
+    },
+    {
+     "text": "menjadi",
+     "start": 2.252,
+     "end": 2.543
+    },
+    {
+     "text": "warganya",
+     "start": 2.589,
+     "end": 3.228
+    },
+    {
+     "text": "Setiap",
+     "start": 3.553,
+     "end": 3.936
+    },
+    {
+     "text": "hari",
+     "start": 3.994,
+     "end": 4.493
+    },
+    {
+     "text": "dua",
+     "start": 4.667,
+     "end": 4.888
+    },
+    {
+     "text": "dari",
+     "start": 4.946,
+     "end": 5.108
+    },
+    {
+     "text": "kalian",
+     "start": 5.155,
+     "end": 5.608
+    },
+    {
+     "text": "akan",
+     "start": 5.724,
+     "end": 5.979
+    },
+    {
+     "text": "memutuskan",
+     "start": 6.026,
+     "end": 6.594
+    },
+    {
+     "text": "apa",
+     "start": 6.687,
+     "end": 6.92
+    },
+    {
+     "text": "yang",
+     "start": 6.954,
+     "end": 7.07
+    },
+    {
+     "text": "terjadi",
+     "start": 7.117,
+     "end": 7.442
+    },
+    {
+     "text": "selanjutnya",
+     "start": 7.488,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "audio": "20261102-0127-d1d6/scene-08.mp3",
+   "key": "9ca01d048814c2e723f0e5a0a5704c3c088b368e",
+   "lead": 0.4,
+   "frames": 201,
+   "words": [
+    {
+     "text": "Tulis",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "di",
+     "start": 0.313,
+     "end": 0.372
+    },
+    {
+     "text": "komentar",
+     "start": 0.406,
+     "end": 1.022
+    },
+    {
+     "text": "Besok",
+     "start": 1.265,
+     "end": 1.718
+    },
+    {
+     "text": "Aru",
+     "start": 1.753,
+     "end": 2.02
+    },
+    {
+     "text": "tidak",
+     "start": 2.055,
+     "end": 2.287
+    },
+    {
+     "text": "akan",
+     "start": 2.31,
+     "end": 2.508
+    },
+    {
+     "text": "sendirian",
+     "start": 2.554,
+     "end": 2.949
+    },
+    {
+     "text": "lagi",
+     "start": 2.995,
+     "end": 3.669
+    }
+   ]
+  }
+ ]
+}
