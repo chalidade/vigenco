@@ -1,0 +1,12 @@
+{
+  "id": "20261101-0741-kkr3",
+  "prompt": "Penjelasan fitur baru untuk Saling Jaga\n\n1. Voice notes (v0.24.0): with nothing typed, the send button records up to a minute of AAC at 24 kbit/s, about 180 KB, with \"Terkirim ke\" receipts. Phones announce that they can play them, so 0.23 phones are never sent one and stay connected. A test failed once in CI: the note went out before the owner had read one member's announcement. The fix waits for a text from each phone first, since frames on one link arrive in order\n2. An offline disaster and first-aid guide (v0.25.0): six disasters and ten first-aid topics, from CPR to snake bites, with emergency numbers that open the dialer. It opens without a group\n3. English as well as Indonesian (v0.26.0), and a new layout in v0.27.0",
+  "format": "landscape",
+  "mode": "full",
+  "links": [
+    "https://chalidade.github.io/saling-jaga/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-01T00:41:53.420Z"
+}
