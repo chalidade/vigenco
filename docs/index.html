@@ -681,6 +681,11 @@
     }
     const foot = document.createElement('div'); foot.className = 'job-foot';
     if (job.runUrl) { const a = document.createElement('a'); a.href = job.runUrl; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Lihat log di GitHub Actions'; foot.appendChild(a); }
+    if (job.phase === 'error' && (job.retry || job.runId || /Run tidak muncul|belum terlihat/.test(job.error || ''))) {
+      const rt = document.createElement('button'); rt.className = 'btn primary'; rt.type = 'button'; rt.textContent = 'Lacak lagi';
+      rt.onclick = () => { job.phase = job.failedAt && job.failedAt !== 'upload' ? job.failedAt : 'queued'; delete job.error; delete job.finished; savePending(job); track(job); };
+      foot.appendChild(rt);
+    }
     if (job.phase === 'error') {
       const cl = document.createElement('button'); cl.className = 'btn'; cl.type = 'button'; cl.textContent = 'Tutup';
       cl.onclick = () => { dropPending(job.id); el.remove(); }; foot.appendChild(cl);
@@ -696,10 +701,13 @@
     const LIST = stepsFor(job);
     try {
       // 1. find the run started for this request (run-name "Video <id>")
+      // Find the run by its title. Never compare with this device's clock (a phone can be minutes off);
+      // a fix run is told apart from earlier fixes of the same video by the run ids seen before dispatch.
+      const t0 = Date.now(), seen = new Set(job.seenRuns || []);
       while (!job.runId) {
-        if (Date.now() - (job.dispatched || job.created) > 3 * 60 * 1000) throw new Error(`Run tidak muncul di GitHub Actions. Cek apakah workflow ${wf} ada di branch utama.`);
-        const runs = await gh(`${R()}/actions/workflows/${wf}/runs?event=workflow_dispatch&per_page=20`);
-        const run = runs.workflow_runs.find((r) => r.display_title === runTitle && new Date(r.created_at).getTime() >= (job.dispatched || job.created) - 60000);
+        if (Date.now() - t0 > 10 * 60 * 1000) throw Object.assign(new Error(`Run belum terlihat di GitHub Actions setelah 10 menit. Cek tab Actions di repo, lalu klik "Lacak lagi".`), { retry: true });
+        const runs = await gh(`${R()}/actions/workflows/${wf}/runs?event=workflow_dispatch&per_page=30`).catch(() => ({ workflow_runs: [] }));
+        const run = runs.workflow_runs.find((r) => r.display_title === runTitle && !seen.has(r.id));
         if (run) { job.runId = run.id; job.runUrl = run.html_url; savePending(job); break; }
         await sleep(5000);
       }
@@ -736,6 +744,7 @@
       savePending(job); toast('Video siap!'); loadGallery();
     } catch (e) {
       job.failedAt = job.phase || 'queued';
+      job.retry = !!e.retry || !e.status || e.status >= 500;
       job.error = e.message; job.phase = 'error'; job.finished = Date.now();
       savePending(job);
     } finally { clearInterval(tick); renderJob(job); }
@@ -818,6 +827,8 @@
     document.getElementById('job-' + job.id).scrollIntoView({ behavior: 'smooth', block: 'center' });
     try {
       const repo = await gh(R());
+      const before = await gh(`${R()}/actions/workflows/fix.yml/runs?event=workflow_dispatch&per_page=30`).catch(() => ({ workflow_runs: [] }));
+      job.seenRuns = before.workflow_runs.filter((r) => r.display_title === job.runTitle).map((r) => r.id);
       job.dispatched = Date.now();
       await gh(`${R()}/actions/workflows/fix.yml/dispatches`, { method: 'POST', body: { ref: repo.default_branch || 'main', inputs: { request_id: reqId, what } } });
       job.phase = 'queued'; savePending(job); track(job);
