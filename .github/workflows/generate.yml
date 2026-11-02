@@ -25,7 +25,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 100
+    timeout-minutes: 240
     env:
       ID: ${{ inputs.request_id }}
     steps:

@@ -29,7 +29,7 @@ concurrency:
 jobs:
   fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     env:
       ID: ${{ inputs.request_id }}
       WHAT: ${{ inputs.what }}

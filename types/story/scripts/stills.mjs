@@ -12,7 +12,8 @@ const tl = JSON.parse(fs.readFileSync(`public/${id}/timeline.json`, "utf8"));
 let frames = [];
 if (which === "auto") {
   let at = 0;
-  for (const s of tl.scenes) { frames.push(at + 12, at + Math.round(s.frames / 2), at + s.frames - 14); at += s.frames; }
+  const long = tl.scenes.length > 14; // long stories: one still per scene keeps the sheet readable
+  for (const s of tl.scenes) { if (long) frames.push(at + Math.round(s.frames / 2)); else frames.push(at + 12, at + Math.round(s.frames / 2), at + s.frames - 14); at += s.frames; }
 } else frames = which.split(",").map((t) => Math.round(parseFloat(t) * tl.fps));
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts") });
 const browserExecutable = process.env.REMOTION_BROWSER || null;

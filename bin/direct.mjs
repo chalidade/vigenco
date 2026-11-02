@@ -40,7 +40,7 @@ if (mode === 'story' && wantEleven && !hasEleven) console.log('[director] ELEVEN
 const task = mode === 'story'
   ? `You are the story director for Vigenco request "${req.id}". Read director/STORY.md first and follow it exactly.
 ${common}
-Target duration: ${Number(req.duration) > 0 ? `${Number(req.duration)} seconds` : 'about 35 seconds'}
+Target duration: ${Number(req.duration) > 0 ? `${Number(req.duration)} seconds${Number(req.duration) >= 120 ? ' (a long-form story: follow the "Long stories" section of director/STORY.md)' : ''}` : 'about 35 seconds'}
 Story id: ${req.id} (folder types/story/src/stories/${req.id}/, audio types/story/public/${req.id}/)
 Narration: "engine": "${engine}", "voice": "${voice}"${engine === 'edge' ? ' (a non-Indonesian story should use a matching Edge neural voice for its language instead, e.g. en-US-AvaNeural)' : ''}
 Write the job JSON to: ${outJob}`
@@ -60,7 +60,10 @@ const tools = mode === 'story'
   ? ['Read', 'Write', 'Edit', 'MultiEdit', 'Glob', 'Grep', 'WebFetch', 'WebSearch', 'TodoWrite',
      'Bash(node bin/vigenco.mjs:*)', 'Bash(curl -sSL:*)', 'Bash(mkdir:*)', 'Bash(ls:*)', 'Bash(node --check:*)', 'Bash(python3:*)', 'Bash(ffprobe:*)']
   : ['Read', 'Write', 'Edit', 'Glob', 'Grep', 'WebFetch', 'WebSearch', 'Bash(node bin/vigenco.mjs snap:*)'];
-const cli = ['-p', task, '--allowedTools', tools.join(','), '--max-turns', process.env.DIRECTOR_MAX_TURNS || (mode === 'quick' ? '40' : '200')];
+// Long stories need more turns: roughly one scene component + review per 8–10 s of film.
+const secs = Number(req.duration) || 0;
+const turns = mode === 'quick' ? 40 : mode === 'story' ? (secs >= 300 ? 450 : secs >= 180 ? 350 : secs >= 120 ? 300 : 200) : 200;
+const cli = ['-p', task, '--allowedTools', tools.join(','), '--max-turns', process.env.DIRECTOR_MAX_TURNS || String(turns)];
 const model = process.env.CLAUDE_MODEL || (mode === 'quick' ? '' : 'opus');
 if (model) cli.push('--model', model);
 if (mode === 'full') await mkdir(path.join('films', req.id, 'assets'), { recursive: true });
