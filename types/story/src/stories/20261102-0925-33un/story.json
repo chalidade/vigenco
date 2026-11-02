@@ -1,0 +1,56 @@
+{
+  "id": "20261102-0925-33un",
+  "title": "Hari ke-1: Pulau ini punya nama",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Kemarin, pulau ini gelap total. Malam ini… ada tiga lampu.",
+      "visual": "Night sea, slow push-in on a lighthouse on a rocky point of the island. Three small lamps on the island blink on one by one, each landing on the spoken count. Title card at the top: 'Hari ke-1: Pulau ini punya nama'.",
+      "pause": 0.8
+    },
+    {
+      "narration": "Tiga orang follow. Tiga orang datang ke pulau. Aru tidak sendirian lagi.",
+      "visual": "Morning at Aru's camp. Campfire, palm, tent. Three new residents walk in from the edges; Aru waves and greets them. Top text 'PENDUDUK: 1 → 4' ticks up with each arrival.",
+      "pause": 0.6
+    },
+    {
+      "narration": "Setiap warga baru, namanya diukir di sini. Selamanya.",
+      "visual": "Aru walks to the Batu Nama, a tall standing stone. A panel slides open and three name plates carve themselves in with chisel sparks. Glow on 'Selamanya'.",
+      "pause": 0.8
+    },
+    {
+      "narration": "Lalu semua komentar kalian masuk ke undian. Diacak… diacak… dan terpilih!",
+      "visual": "Phone-style UI of the 'Undian' tab: comment cards pasted in, the 'UNDI' button pressed, a slot-machine shuffle of comment cards that slows and stops on the winner.",
+      "pause": 0.4
+    },
+    {
+      "narration": "Komentar dari SUPREME: namanya ganti, Pulau Netizen.",
+      "visual": "Winner card zooms up: 'SUPREME®' and 'namanya ganti pulau netizen'. Confetti bursts.",
+      "pause": 0.6
+    },
+    {
+      "narration": "Mulai hari ini, namanya Pulau Netizen. Karena memang kalian yang mengatur.",
+      "visual": "UI panel 'Kelola → Pulau': old name erased, 'Pulau Netizen' typed, 'Terbitkan' pressed. Cut to the island where the HUD title flips from 'Pulau Tanpa Nama' to 'Pulau Netizen'; Aru cheers.",
+      "pause": 0.5
+    },
+    {
+      "narration": "Dan untuk emoji moai-nya, kami taruh patung di samping Batu Nama.",
+      "visual": "A big stone statue head drops from above beside the Batu Nama with a dust puff; Aru jumps back, then grins. The statue blinks once.",
+      "pause": 0.6
+    },
+    {
+      "narration": "Tapi Aru masih belum cerita, bagaimana dia sampai ke sini…",
+      "visual": "Dusk. The camera slides along the shore to a broken boat. Slow zoom to a rope tied in a perfectly neat knot, a magnifier ring highlights it. Mystery mood.",
+      "pause": 1.0
+    },
+    {
+      "narration": "Pulau ini bisa kamu kunjungi. Buka link-nya, masukkan username TikTok-mu, dan cari namamu di Batu Nama. Komentar: besok kita bangun apa?",
+      "visual": "A phone in hand opens the game; a resident walks around the island on the screen. Big text 'bit.ly/pulau-ara' and 'link juga di bio' above, then the question 'Besok kita bangun apa?'.",
+      "pause": 1.6
+    }
+  ]
+}
