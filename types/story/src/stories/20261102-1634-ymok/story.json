@@ -1,0 +1,51 @@
+{
+  "id": "20261102-1634-ymok",
+  "title": "Hari ke-2: 809 Warga",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Kemarin, cuma tiga lampu. Malam ini… delapan ratus sembilan.",
+      "visual": "Night, wide shot of the island from the sea. The lighthouse beam sweeps. Three warm lights glow in the village, then on the word 'delapan' hundreds of lights pop on across the hills. A counter '3' rolls up to '809'. Title 'Hari ke-2' at the top."
+    },
+    {
+      "narration": "Pulau Netizen sekarang punya delapan ratus sembilan penduduk.",
+      "visual": "Morning. The camera pans along a camp of tents. Small residents wearing name tags walk past in a parade, in two depth rows. Counter badge '809 penduduk'."
+    },
+    {
+      "narration": "Festival pertama bahkan sudah terlewat, tanpa sempat kita rayakan.",
+      "visual": "Festival bunting and a banner '100 ✓' hang between palms, flapping in the wind. Confetti drifts down. Aru shrugs in front with a sheepish smile."
+    },
+    {
+      "narration": "Nama-nama kalian sedang diukir. Cari namamu di sini.",
+      "visual": "A big carved stone, almost full of name lines. New names are chiselled one at a time with sparks; a glow sweeps over them, ending on 'namamu'."
+    },
+    {
+      "narration": "Lalu undian dibuka. Dua komentar terpilih: tambah piramida, dan buat tombak untuk nangkap ikan.",
+      "visual": "A draw-tab panel: comment cards scroll by fast like a slot machine, then slow down and stop. Two cards light up with a gold border: VANZwlee 'tambah piramida' and Akai 'buat tombak untuk nangkap ikan', each popping in on its words."
+    },
+    {
+      "narration": "Kenapa ada piramida di pulau tropis? Tidak ada yang tahu. Tapi warga yang minta.",
+      "visual": "A green translucent ghost pyramid hovers beside the tents, a cursor clicks it, and it stands up as sandy stone with a dust puff. The camera orbits it (the pyramid's faces shift). Palms sway, residents stare."
+    },
+    {
+      "narration": "Aru mengambil tombak, masuk ke air dangkal, dan melempar. Meleset! Coba lagi… kena!",
+      "visual": "A spear rack on the beach. Aru stands knee-deep in turquoise water, fish swim by. First throw lands with a splash and misses ('MELESET'), second throw hits ('KENA!'), the fish rises on the spear tip."
+    },
+    {
+      "narration": "Ikan pertama di Pulau Netizen. Dan sekarang, Aru tidak kelaparan lagi.",
+      "visual": "Sunset. Aru holds the spear up with the fish, grinning, beside a little fire. Text 'Ikan pertama di Pulau Netizen' at the top. Sparkles."
+    },
+    {
+      "narration": "Rak tombaknya terbuka untuk semua warga. Masuk ke pulau, ambil tombak, dan coba tangkap ikan emas yang langka.",
+      "visual": "A phone in a hand showing the game: a resident spearfishing; a rare golden fish shimmers past and gets caught. Link text bit.ly/pulau-ara above the phone."
+    },
+    {
+      "narration": "Besok kita bangun apa? Komentar di bawah.",
+      "visual": "The whole island at dusk with the lighthouse, tents, stone and pyramid. A big comment bubble with '?' bounces; an arrow points down. End card 'Besok kita bangun apa?'."
+    }
+  ]
+}
