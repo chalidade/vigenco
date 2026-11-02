@@ -1,0 +1,13 @@
+{
+  "id": "20261102-0925-33un",
+  "type": "story",
+  "prompt": "Skenario Video 2 (±55 detik)\nJudul di layar: “Hari ke-1: Pulau ini punya nama”\n\nHook (0–4 dtk): Malam hari, kamera menyorot mercusuar. Tiga lampu kecil menyala satu per satu.\nVO: “Kemarin pulau ini gelap total. Malam ini ada tiga lampu.”\nPenduduk datang (4–14 dtk): Pagi hari di kemah Aru. Tiga warga baru muncul dan berjalan di sekitar api unggun, Aru menyambut mereka.\nTeks: Penduduk: 1 → 4\nVO: “Tiga orang follow. Tiga orang datang ke pulau. Aru tidak sendirian lagi.”\nRitual Batu Nama (14–22 dtk): Aru berjalan ke Batu Nama, buka panelnya, dan tiga username muncul terukir.\nVO: “Setiap warga baru, namanya diukir di sini. Selamanya.”\nUndian (22–32 dtk): Rekam layar tab Undian, tempel semua komentar, tekan Undi, biarkan animasi acaknya terlihat.\nHasil: komentar SUPREME® terpilih, “namanya ganti pulau netizen”.\nEksekusi (32–42 dtk): Ganti nama di Kelola → Pulau, lalu Terbitkan. Potong ke HUD yang berubah jadi Pulau Netizen. Bonus: taruh Patung dekat Batu Nama sebagai balasan emoji moai-nya.\nVO: “Mulai hari ini, namanya Pulau Netizen. Karena memang kalian yang mengatur.”\nMisteri (42–47 dtk): Kamera ke perahu rusak, tampilkan petunjuk pertama soal tali yang diikat rapi.\nVO: “Tapi Aru masih belum cerita bagaimana dia sampai ke sini…”\nEnding (47–55 dtk): Rekam layar HP yang sedang membuka gamenya dan berjalan sebagai warga. Teks besar: bit.ly/pulau-ara, plus “link juga di bio”.\nVO: “Pulau ini bisa kamu kunjungi. Buka link-nya, masukkan username TikTok-mu, dan cari namamu di Batu Nama. Komentar: besok kita bangun apa?”",
+  "format": "portrait",
+  "links": [
+    "https://chalidade.github.io/Pulau-aru/"
+  ],
+  "files": [],
+  "created": "2026-11-02T02:25:22.394Z",
+  "voice": "elevenlabs",
+  "duration": 60
+}
