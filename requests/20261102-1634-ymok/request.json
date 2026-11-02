@@ -1,0 +1,16 @@
+{
+  "id": "20261102-1634-ymok",
+  "type": "story",
+  "prompt": "Skenario Video 3 (±60 detik)\nJudul: “Hari ke-2: 809 orang datang dalam sehari”\n\nHook (0–5 dtk): Malam hari, kamera jauh menyorot mercusuar yang penuh lampu dan lampu jalan yang menyebar di kampung.\nVO: “Kemarin 3 lampu. Malam ini… 809.”\nKampung ramai (5–14 dtk): Pagi hari, kamera menyusuri kemah yang penuh warga berjalan dengan label nama, plus bendera festival (milestone 100 sudah lewat).\nVO: “Pulau Netizen sekarang punya 809 penduduk. Festival pertama bahkan sudah terlewat tanpa sempat kita rayakan.”\nBatu Nama (14–20 dtk): Tampilkan batu yang mulai penuh.\nVO: “Nama-nama kalian sedang diukir. Cari namamu di sini.”\nUndian (20–30 dtk): Rekam tab Undian dengan semua komentar. Hasil:\nVANZwlee: “tambah piramida”\nAkai: “buat tombak untuk nangkap ikan”\nPiramida (30–40 dtk): Ghost hijau piramida muncul di dekat kemah, lalu klik dan bangunan berdiri. Kamera memutar mengelilinginya.\nVO: “Kenapa ada piramida di pulau tropis? Tidak ada yang tahu. Tapi warga yang minta.”\nTombak (40–52 dtk): Taruh Rak tombak di pantai. Aru mengambil tombak, masuk ke air dangkal, lalu melempar: meleset sekali, kemudian kena dan ikan terangkat di ujung tombak. Teks: “Ikan pertama di Pulau Netizen”.\nVO: “Dan sekarang, Aru tidak kelaparan lagi.”\nEnding (52–60 dtk): Rekam layar HP yang sedang menombak ikan sebagai warga. Teks: bit.ly/pulau-ara.\nVO: “Rak tombaknya terbuka untuk semua warga. Masuk ke pulau, ambil tombak, dan coba tangkap ikan emas yang langka. Besok kita bangun apa? Komentar di bawah.”",
+  "format": "portrait",
+  "links": [
+    "https://chalidade.github.io/Pulau-aru/"
+  ],
+  "files": [
+    "requests/20261102-1634-ymok/files/01-screenshot-from-2026-11-02-16-09-44.png",
+    "requests/20261102-1634-ymok/files/02-screenshot-from-2026-11-02-16-08-05.png"
+  ],
+  "created": "2026-11-02T09:34:14.515Z",
+  "voice": "elevenlabs",
+  "duration": 60
+}
