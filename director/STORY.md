@@ -38,10 +38,28 @@ Create `types/story/src/stories/<id>/story.json` (the id is given in your task):
 - Write the narration in the language of the prompt. A clear arc: a hook in the first scene, a
   problem, a turn, a warm or surprising ending. Spoken rhythm: short sentences, concrete images.
 - Scene count from the target duration: about 6–8 seconds per scene (5 scenes ≈ 35 s, 9 scenes ≈ 60 s).
-  Stay within ±20% of the requested duration.
+  Stay within ±20% of the requested duration. Targets of 120 s and longer follow "Long stories" below.
 - `visual` is your own animation plan for the scene. Every scene needs motion, not a still picture.
 - Optional per scene: `"captions": false` (e.g. a title card), `"pause": 1.2` (seconds of quiet after).
   Optional story-wide `"captions": false`.
+
+## Long stories (120 s, 180 s, 300 s)
+
+- Scenes of 8–10 seconds: about 14 scenes for 2 minutes, 20 for 3 minutes, 32 for 5 minutes.
+  Two or three spoken sentences per scene; vary the rhythm with a few short beats ("pause": 1–2).
+- Structure in acts, and say them in `visual`: act 1 sets up the world and the want (about 25%),
+  act 2 raises the problem with at least one setback and one funny or tender break (about 50%),
+  act 3 turns and lands the ending (about 25%). Give every act its own palette and time of day.
+- Plan before you draw: write a short shot list (scene → setting, characters, key action, camera)
+  in your notes, then build a small set of locations in `parts.tsx` and reuse them with different
+  camera framing, light and mood. Reuse is what keeps a 30-scene film consistent and finishable.
+- Scenes that share a location may share one component with props (`<Beach mood="dusk" zoom={1.3} />`);
+  `scenes.tsx` still exports one entry per narrated scene.
+- Review in batches of about eight scenes: tsc, then `snap` with explicit times (the middle of each
+  scene in the batch, from `timeline.json`) instead of the full sheet, fix, then move on. Do one full
+  `snap` at the end; for more than 14 scenes it shows one still per scene.
+- Keep the voice consistent: one narrator voice for the whole story. A recurring line or sound word
+  (a catchphrase) helps a long story hold together.
 
 ## 2. Make the narration
 

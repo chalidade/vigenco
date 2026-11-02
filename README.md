@@ -63,6 +63,10 @@ API dengan token sebelum diputar. Lampiran ikut ter-commit ke repo, jadi jangan 
 Dari page, pilih **Cerita animasi**: Claude menulis cerita, membuat suara, menggambar dan menganimasikan
 tiap adegan, memeriksa hasilnya, lalu GitHub Actions merender MP4-nya.
 
+- **Durasi:** 30, 45, 60 detik, atau cerita panjang 2, 3, dan 5 menit. Cerita panjang disusun dalam tiga babak
+  dengan adegan 8–10 detik (sekitar 14, 20, dan 32 adegan) dan lokasi yang dipakai ulang. Waktu proses kira-kira
+  35–60 menit (2 menit), 50–80 menit (3 menit), dan 80–140 menit (5 menit), dan biaya API Claude ikut naik.
+
 - **Suara gratis** memakai Edge TTS (tanpa API key). **ElevenLabs** butuh secret `ELEVENLABS_API_KEY`;
   suaranya diatur dengan variable `ELEVENLABS_VOICE_ID` (opsional). Variable `EDGE_VOICE` mengganti suara Edge default.
 - Lokal: `node bin/vigenco.mjs tts jobs/examples/nala-story.json`, lalu `render` atau `snap` seperti tipe lain.

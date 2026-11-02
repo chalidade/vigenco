@@ -126,6 +126,9 @@
   .switch { position: relative; display: inline-flex; padding: 4px; border-radius: 999px; border: 1px solid var(--line); background: rgba(19,19,23,.6); }
   .switch button { position: relative; z-index: 1; height: 30px; padding: 0 14px; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font-size: 13px; font-weight: 600; transition: color .25s; }
   .switch button[aria-checked=true] { color: #1c0d05; }
+  #dur { max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+  #dur::-webkit-scrollbar { display: none; }
+  #dur button { flex: none; padding: 0 11px; }
   .thumb { position: absolute; top: 4px; bottom: 4px; left: 4px; right: 50%; border-radius: 999px; background: linear-gradient(135deg, var(--amber), var(--coral)); }
   .mode-note { width: 100%; text-align: right; margin: -4px 0 0; color: var(--dim); font-size: 13px; }
   [hidden] { display: none !important; }
@@ -337,6 +340,9 @@
           <button type="button" role="radio" data-v="30" aria-checked="false">30 dtk</button>
           <button type="button" role="radio" data-v="45" aria-checked="true">45 dtk</button>
           <button type="button" role="radio" data-v="60" aria-checked="false">60 dtk</button>
+          <button type="button" role="radio" data-v="120" aria-checked="false">2 mnt</button>
+          <button type="button" role="radio" data-v="180" aria-checked="false">3 mnt</button>
+          <button type="button" role="radio" data-v="300" aria-checked="false">5 mnt</button>
         </div>
       </div>
       <p class="mode-note" id="modeNote"></p>
@@ -480,7 +486,7 @@
     document.querySelectorAll('[data-k]').forEach((el) => { el.hidden = el.dataset.k !== S.kind; });
     ta.placeholder = PLACEHOLDER[S.kind];
     $('#modeNote').textContent = S.kind === 'story'
-      ? `Claude menulis cerita, menggambar ilustrasi, dan mengisi suara ${S.voice === 'elevenlabs' ? 'ElevenLabs' : 'gratis (Edge)'}. Sekitar 15–30 menit.`
+      ? `Claude menulis cerita, menggambar ilustrasi, dan mengisi suara ${S.voice === 'elevenlabs' ? 'ElevenLabs' : 'gratis (Edge)'}. ${({ 120: 'Sekitar 35–60 menit.', 180: 'Sekitar 50–80 menit.', 300: 'Sekitar 80–140 menit. Biaya API ikut naik.' })[S.dur] || 'Sekitar 15–30 menit.'}`
       : MODE[S.mode];
     document.querySelectorAll('.switch[data-key]').forEach(placeThumb);
   }
