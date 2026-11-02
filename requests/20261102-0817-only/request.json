@@ -1,0 +1,13 @@
+{
+  "id": "20261102-0817-only",
+  "type": "launch",
+  "prompt": "Video pengumuman fitur baru. Fitur yang dirilis: \n\nCari keluarga: missing-person cards that travel between groups (0.34.0)\nA card asking \"have you seen this person?\" reaches every phone in the\ngroup and late joiners, crosses bridges, goes out over LoRa as a short\nline, and is saved on each phone that sees it (7 days, at most 30) so it\nis handed to every group that phone joins next. Anyone can mark the\nperson found; the update replaces the card everywhere. \n\nMode lansia: big-button home for older family members (0.33.0)\nAn opt-in page over the full screen with three large buttons (SOS,\nSaya aman, hold to talk), the family list with each person's status, the\nlatest announcement, and a red line when someone is in SOS. Off by\ndefault; turned on from the profile sheet and off with \"Mode lengkap\".\nNot connected yet, it offers Connect, which shows the normal screen until\na group is joined. A held talk button is not rebuilt by incoming updates.\niOS gets the same page and a toggle in the profile sheet.",
+  "format": "portrait",
+  "links": [
+    "https://github.com/chalidade/saling-jaga",
+    "https://saling-jaga.my.id/"
+  ],
+  "files": [],
+  "created": "2026-11-02T01:17:37.043Z",
+  "mode": "full"
+}
