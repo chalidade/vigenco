@@ -1,0 +1,80 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  }
+ },
+ "lines": [
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Halo! Aku Aru. Mau tinggal di pulauku? Begini caranya."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Pertama, follow akun ini. Setiap follower otomatis jadi warga, dan namamu pasti diukir di Batu Nama."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Setiap hari, dua komentar dipilih acak. Mau membangun, berkegiatan, atau hal paling aneh sekalipun, bisa jadi kenyataan."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Presiden punya tiga permintaan sehari. Tanpa undian."
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Wakil presiden dapat dua. Lumayan, kan?"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Mau permintaanmu langsung jadi? Traktir lewat Trakteer, link-nya ada di layar, lalu tulis request-mu. Yang mentraktir tidak perlu diundi. Seperti titah dari langit."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Semua yang diminta akan muncul di pulau, dan bisa kamu kunjungi sendiri di pulau aru titik web titik i d."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Di sana kamu bisa jalan-jalan sebagai dirimu sendiri, memanjat piramida, naik tangga awan ke Kopdes, menombak ikan, berlayar ke pulau seberang, dan mencari namamu di batu."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Sampai ketemu di pulau, ya!"
+  }
+ ]
+}
