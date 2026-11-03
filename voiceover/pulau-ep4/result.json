@@ -1,0 +1,623 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "narrator": "CwhRBWXzGAHq8TQ4Fs17",
+  "aru": "IKne3meq5aSn9XLyUdCD",
+  "warga": "cgSgspJ2msm6clMCkdW9",
+  "presiden": "nPczCjzI2devNBz1zQrb",
+  "penjual": "hpp4J3VqNfWAUOO0d1Us"
+ },
+ "lines": {
+  "n1": {
+   "who": "narrator",
+   "text": "Sementara itu, Aru masih di pulau seberang. Mencari tahu siapa yang menulis pesan itu.",
+   "hash": "94d557d631a3",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Sementara",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "itu,",
+     "start": 0.488,
+     "end": 0.685
+    },
+    {
+     "text": "Aru",
+     "start": 0.731,
+     "end": 0.929
+    },
+    {
+     "text": "masih",
+     "start": 0.975,
+     "end": 1.219
+    },
+    {
+     "text": "di",
+     "start": 1.242,
+     "end": 1.312
+    },
+    {
+     "text": "pulau",
+     "start": 1.358,
+     "end": 1.649
+    },
+    {
+     "text": "seberang.",
+     "start": 1.683,
+     "end": 2.287
+    },
+    {
+     "text": "Mencari",
+     "start": 2.531,
+     "end": 2.856
+    },
+    {
+     "text": "tahu",
+     "start": 2.902,
+     "end": 3.088
+    },
+    {
+     "text": "siapa",
+     "start": 3.135,
+     "end": 3.413
+    },
+    {
+     "text": "yang",
+     "start": 3.448,
+     "end": 3.541
+    },
+    {
+     "text": "menulis",
+     "start": 3.587,
+     "end": 3.878
+    },
+    {
+     "text": "pesan",
+     "start": 3.936,
+     "end": 4.168
+    },
+    {
+     "text": "itu.",
+     "start": 4.226,
+     "end": 4.876
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Halo? Ada orang di sini?",
+   "hash": "366adc88ff96",
+   "duration": 2.09,
+   "words": [
+    {
+     "text": "Halo?",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "Ada",
+     "start": 0.789,
+     "end": 0.987
+    },
+    {
+     "text": "orang",
+     "start": 1.01,
+     "end": 1.184
+    },
+    {
+     "text": "di",
+     "start": 1.219,
+     "end": 1.265
+    },
+    {
+     "text": "sini?",
+     "start": 1.3,
+     "end": 2.09
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Cuma burung. Oke. Aku nggak takut. Sama sekali.",
+   "hash": "fc34460dd3fe",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Cuma",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "burung.",
+     "start": 0.337,
+     "end": 0.755
+    },
+    {
+     "text": "Oke.",
+     "start": 1.08,
+     "end": 1.544
+    },
+    {
+     "text": "Aku",
+     "start": 2.055,
+     "end": 2.276
+    },
+    {
+     "text": "nggak",
+     "start": 2.299,
+     "end": 2.485
+    },
+    {
+     "text": "takut.",
+     "start": 2.508,
+     "end": 2.972
+    },
+    {
+     "text": "Sama",
+     "start": 3.297,
+     "end": 3.599
+    },
+    {
+     "text": "sekali.",
+     "start": 3.634,
+     "end": 4.319
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tapi di Pulau Netizen, warga nggak tinggal diam.",
+   "hash": "f80c2d49b22d",
+   "duration": 2.833,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "di",
+     "start": 0.348,
+     "end": 0.418
+    },
+    {
+     "text": "Pulau",
+     "start": 0.464,
+     "end": 0.685
+    },
+    {
+     "text": "Netizen,",
+     "start": 0.72,
+     "end": 1.207
+    },
+    {
+     "text": "warga",
+     "start": 1.265,
+     "end": 1.591
+    },
+    {
+     "text": "nggak",
+     "start": 1.625,
+     "end": 1.776
+    },
+    {
+     "text": "tinggal",
+     "start": 1.8,
+     "end": 2.09
+    },
+    {
+     "text": "diam.",
+     "start": 2.136,
+     "end": 2.833
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Aru lagi pergi. Terus, siapa yang mimpin kita?",
+   "hash": "99f9ef6ef530",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Aru",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "lagi",
+     "start": 0.313,
+     "end": 0.488
+    },
+    {
+     "text": "pergi.",
+     "start": 0.534,
+     "end": 1.045
+    },
+    {
+     "text": "Terus,",
+     "start": 1.556,
+     "end": 1.997
+    },
+    {
+     "text": "siapa",
+     "start": 2.067,
+     "end": 2.287
+    },
+    {
+     "text": "yang",
+     "start": 2.31,
+     "end": 2.403
+    },
+    {
+     "text": "mimpin",
+     "start": 2.426,
+     "end": 2.682
+    },
+    {
+     "text": "kita?",
+     "start": 2.74,
+     "end": 3.344
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Dua komentar terpilih. Etet minta jadi presiden. Dan Warning minta pasar tradisional.",
+   "hash": "e0cc6ee73191",
+   "duration": 6.734,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "komentar",
+     "start": 0.36,
+     "end": 0.789
+    },
+    {
+     "text": "terpilih.",
+     "start": 0.848,
+     "end": 1.428
+    },
+    {
+     "text": "Etet",
+     "start": 1.811,
+     "end": 2.148
+    },
+    {
+     "text": "minta",
+     "start": 2.206,
+     "end": 2.45
+    },
+    {
+     "text": "jadi",
+     "start": 2.519,
+     "end": 2.682
+    },
+    {
+     "text": "presiden.",
+     "start": 2.728,
+     "end": 3.413
+    },
+    {
+     "text": "Dan",
+     "start": 3.692,
+     "end": 3.901
+    },
+    {
+     "text": "Warning",
+     "start": 3.982,
+     "end": 4.354
+    },
+    {
+     "text": "minta",
+     "start": 4.4,
+     "end": 4.667
+    },
+    {
+     "text": "pasar",
+     "start": 4.725,
+     "end": 5.004
+    },
+    {
+     "text": "tradisional.",
+     "start": 5.062,
+     "end": 6.734
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Warga sekalian! Saya sudah follow. Jadi mulai hari ini, saya presiden!",
+   "hash": "0412d084c6bb",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Warga",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "sekalian!",
+     "start": 0.488,
+     "end": 1.045
+    },
+    {
+     "text": "Saya",
+     "start": 1.103,
+     "end": 1.289
+    },
+    {
+     "text": "sudah",
+     "start": 1.312,
+     "end": 1.521
+    },
+    {
+     "text": "follow.",
+     "start": 1.544,
+     "end": 1.997
+    },
+    {
+     "text": "Jadi",
+     "start": 2.276,
+     "end": 2.485
+    },
+    {
+     "text": "mulai",
+     "start": 2.531,
+     "end": 2.752
+    },
+    {
+     "text": "hari",
+     "start": 2.798,
+     "end": 3.007
+    },
+    {
+     "text": "ini,",
+     "start": 3.042,
+     "end": 3.251
+    },
+    {
+     "text": "saya",
+     "start": 3.274,
+     "end": 3.402
+    },
+    {
+     "text": "presiden!",
+     "start": 3.437,
+     "end": 4.365
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga",
+   "text": "Hidup Pak Presiden!",
+   "hash": "28cfb7168e9a",
+   "duration": 1.347,
+   "words": [
+    {
+     "text": "Hidup",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "Pak",
+     "start": 0.337,
+     "end": 0.441
+    },
+    {
+     "text": "Presiden!",
+     "start": 0.476,
+     "end": 1.347
+    }
+   ]
+  },
+  "p2": {
+   "who": "presiden",
+   "text": "Keputusan pertama saya: kita bangun pasar tradisional pertama!",
+   "hash": "e0102d819294",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Keputusan",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "pertama",
+     "start": 0.592,
+     "end": 0.929
+    },
+    {
+     "text": "saya:",
+     "start": 0.975,
+     "end": 1.393
+    },
+    {
+     "text": "kita",
+     "start": 1.544,
+     "end": 1.788
+    },
+    {
+     "text": "bangun",
+     "start": 1.846,
+     "end": 2.09
+    },
+    {
+     "text": "pasar",
+     "start": 2.159,
+     "end": 2.485
+    },
+    {
+     "text": "tradisional",
+     "start": 2.543,
+     "end": 3.193
+    },
+    {
+     "text": "pertama!",
+     "start": 3.251,
+     "end": 4.087
+    }
+   ]
+  },
+  "s1": {
+   "who": "penjual",
+   "text": "Ikan segar, ikan segar! Baru ditangkap perahu nelayan!",
+   "hash": "ee85b84eeea1",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Ikan",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "segar,",
+     "start": 0.325,
+     "end": 0.708
+    },
+    {
+     "text": "ikan",
+     "start": 0.731,
+     "end": 0.94
+    },
+    {
+     "text": "segar!",
+     "start": 0.987,
+     "end": 1.358
+    },
+    {
+     "text": "Baru",
+     "start": 1.533,
+     "end": 1.776
+    },
+    {
+     "text": "ditangkap",
+     "start": 1.823,
+     "end": 2.206
+    },
+    {
+     "text": "perahu",
+     "start": 2.241,
+     "end": 2.531
+    },
+    {
+     "text": "nelayan!",
+     "start": 2.589,
+     "end": 3.344
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Eh, kok pulau kita rame banget? Tunggu. Kita punya presiden?!",
+   "hash": "e0ebba9ed818",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Eh,",
+     "start": 0,
+     "end": 0.116
+    },
+    {
+     "text": "kok",
+     "start": 0.139,
+     "end": 0.255
+    },
+    {
+     "text": "pulau",
+     "start": 0.279,
+     "end": 0.476
+    },
+    {
+     "text": "kita",
+     "start": 0.499,
+     "end": 0.65
+    },
+    {
+     "text": "rame",
+     "start": 0.685,
+     "end": 0.871
+    },
+    {
+     "text": "banget?",
+     "start": 0.906,
+     "end": 1.173
+    },
+    {
+     "text": "Tunggu.",
+     "start": 1.207,
+     "end": 1.765
+    },
+    {
+     "text": "Kita",
+     "start": 1.881,
+     "end": 2.078
+    },
+    {
+     "text": "punya",
+     "start": 2.113,
+     "end": 2.276
+    },
+    {
+     "text": "presiden?!",
+     "start": 2.31,
+     "end": 3.111
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Apa keputusan kedua Pak Presiden? Tulis di komentar.",
+   "hash": "12941027e0d1",
+   "duration": 3.158,
+   "words": [
+    {
+     "text": "Apa",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "keputusan",
+     "start": 0.313,
+     "end": 0.789
+    },
+    {
+     "text": "kedua",
+     "start": 0.848,
+     "end": 1.173
+    },
+    {
+     "text": "Pak",
+     "start": 1.231,
+     "end": 1.358
+    },
+    {
+     "text": "Presiden?",
+     "start": 1.393,
+     "end": 1.939
+    },
+    {
+     "text": "Tulis",
+     "start": 1.974,
+     "end": 2.206
+    },
+    {
+     "text": "di",
+     "start": 2.252,
+     "end": 2.31
+    },
+    {
+     "text": "komentar.",
+     "start": 2.345,
+     "end": 3.158
+    }
+   ]
+  }
+ }
+}
