@@ -296,12 +296,12 @@
   "name": "Kira",
   "category": "professional",
   "labels": {
-   "age": "young",
+   "gender": "female",
    "use_case": "narrative_story",
    "language": "id",
-   "descriptive": "calm",
    "accent": "standard",
-   "gender": "female"
+   "descriptive": "calm",
+   "age": "young"
   },
   "description": "A young, vibrant 17-year-old female voice, clear and expressive. Perfect for youth-centered content."
  }
