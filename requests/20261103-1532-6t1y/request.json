@@ -1,0 +1,15 @@
+{
+  "id": "20261103-1532-6t1y",
+  "type": "launch",
+  "prompt": "Video pengumuman fitur baru. Fitur yang dirilis: \n\n1. Update Design Aplikasi Saling jaga. \n2. Site: iPhone and Play Store waitlist, plus FAQ for iPhone, Play Store and finding a group\nA \"Segera hadir\" section with two Kabari saya buttons. They open a\nprefilled email today; setting WAITLIST_FORM to a Google Form link\nswitches both pages to the form. Three new FAQ answers in Indonesian and\nEnglish. No app change, so no version bump. and Trakteer support card and footer link",
+  "format": "portrait",
+  "links": [
+    "https://saling-jaga.my.id/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [
+    "requests/20261103-1532-6t1y/files/01-daftar-untuk-video.md"
+  ],
+  "created": "2026-11-03T08:32:05.129Z",
+  "mode": "full"
+}
