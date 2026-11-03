@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga · Wajah baru, kabar baru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg { position: absolute; inset: 0;
+    background: radial-gradient(900px 1000px at 50% 62%, rgba(27,77,46,.45), transparent 70%),
+                radial-gradient(700px 600px at 0% 0%, rgba(19,39,29,.9), transparent 70%); }
+  #world { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  #shape { left: 0; top: 0; overflow: hidden; }
+  .panel { position: absolute; left: 50%; top: 50%; }
+  .panel * { box-sizing: border-box; }
+  .abs { position: absolute; }
+  #logo { position: absolute; left: 50%; top: 50%; }
+  .cap { width: 920px; }
+  .kick { font: 600 26px/1 "JetBrains Mono", monospace; letter-spacing: .12em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 16px; margin-bottom: 26px; }
+  .kick::before { content: ""; width: 30px; height: 2px; background: currentColor; }
+  .head { font: 800 84px/1.04 "Plus Jakarta Sans", sans-serif; letter-spacing: -.035em; color: #f2edd5; white-space: nowrap; }
+  .head .serif { color: #3cbf6e; font-size: 1.12em; letter-spacing: -.01em; }
+  .sub { font: 500 36px/1.3 "Plus Jakarta Sans", sans-serif; color: #c9cdb9; display: flex; gap: 16px; align-items: center; white-space: nowrap; }
+  .sub b { color: #f2edd5; font-weight: 700; }
+  .chip { display: inline-flex; align-items: center; gap: 12px; white-space: nowrap; border-radius: 999px; }
+  .av { border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; color: #fff; }
+  .cur { left: 0; top: 0; width: 0; height: 0; }
+  .cur svg { position: absolute; left: -5px; top: -3px; width: 56px; height: 56px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.45)); }
+  .cur .pill { position: absolute; left: 36px; top: 48px; font: 700 25px/1 "Plus Jakarta Sans";
+    padding: 10px 17px; border-radius: 999px; white-space: nowrap; }
+  .rip { width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%; border: 3px solid #3cbf6e; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="world"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
