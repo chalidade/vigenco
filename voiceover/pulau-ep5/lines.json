@@ -1,0 +1,101 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": true,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "warga": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "roles": {
+  "wapres": {
+   "gender": "male",
+   "age": "young",
+   "words": [
+    "energetic",
+    "funny",
+    "cheerful"
+   ]
+  }
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  }
+ },
+ "lines": [
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Tiga ribu dua ratus warga. Pulau Netizen makin ramai, tapi presidennya kerja sendirian."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Saya butuh bantuan. Siapa yang mau jadi wakil saya?"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Saya, Pak! Saya jadi wakil presiden. Udah paket lengkap!"
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Paket lengkap… terus siapa yang kerja?"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Keputusan kedua datang dari komentar warga: koperasi desa, di atas awan, lengkap dengan tangganya."
+  },
+  {
+   "id": "v2",
+   "who": "wapres",
+   "text": "Ayo naik! Lompat dari awan ke awan!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Aduh! Jatuh lagi…"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Di atas awan, Kopdes pertama Pulau Netizen dibuka. Warga menyetor ikan dan kelapa dari pasar."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Ada gambar di balik peta ini. Mercusuar kita… dengan satu lampu menyala."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Tunggu. Itu awan apa di atas pulau kita?!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Apa yang dijual pertama di Kopdes? Tulis di komentar."
+  }
+ ]
+}
