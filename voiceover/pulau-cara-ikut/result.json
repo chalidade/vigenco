@@ -1,0 +1,728 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "a1": {
+   "who": "aru",
+   "text": "Halo! Aku Aru. Mau tinggal di pulauku? Begini caranya.",
+   "hash": "6259ee00d522",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Halo!",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "Aku",
+     "start": 0.464,
+     "end": 0.615
+    },
+    {
+     "text": "Aru.",
+     "start": 0.685,
+     "end": 0.998
+    },
+    {
+     "text": "Mau",
+     "start": 1.091,
+     "end": 1.219
+    },
+    {
+     "text": "tinggal",
+     "start": 1.254,
+     "end": 1.474
+    },
+    {
+     "text": "di",
+     "start": 1.498,
+     "end": 1.556
+    },
+    {
+     "text": "pulauku?",
+     "start": 1.591,
+     "end": 2.02
+    },
+    {
+     "text": "Begini",
+     "start": 2.078,
+     "end": 2.403
+    },
+    {
+     "text": "caranya.",
+     "start": 2.438,
+     "end": 2.972
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pertama, follow akun ini. Setiap follower otomatis jadi warga, dan namamu pasti diukir di Batu Nama.",
+   "hash": "07c705b61c26",
+   "duration": 6.873,
+   "words": [
+    {
+     "text": "Pertama,",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "text": "follow",
+     "start": 0.662,
+     "end": 0.929
+    },
+    {
+     "text": "akun",
+     "start": 0.987,
+     "end": 1.231
+    },
+    {
+     "text": "ini.",
+     "start": 1.289,
+     "end": 1.707
+    },
+    {
+     "text": "Setiap",
+     "start": 2.09,
+     "end": 2.473
+    },
+    {
+     "text": "follower",
+     "start": 2.531,
+     "end": 2.902
+    },
+    {
+     "text": "otomatis",
+     "start": 2.961,
+     "end": 3.437
+    },
+    {
+     "text": "jadi",
+     "start": 3.506,
+     "end": 3.692
+    },
+    {
+     "text": "warga,",
+     "start": 3.738,
+     "end": 4.261
+    },
+    {
+     "text": "dan",
+     "start": 4.47,
+     "end": 4.621
+    },
+    {
+     "text": "namamu",
+     "start": 4.644,
+     "end": 5.004
+    },
+    {
+     "text": "pasti",
+     "start": 5.05,
+     "end": 5.294
+    },
+    {
+     "text": "diukir",
+     "start": 5.341,
+     "end": 5.677
+    },
+    {
+     "text": "di",
+     "start": 5.735,
+     "end": 5.793
+    },
+    {
+     "text": "Batu",
+     "start": 5.84,
+     "end": 6.037
+    },
+    {
+     "text": "Nama.",
+     "start": 6.095,
+     "end": 6.873
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Setiap hari, dua komentar dipilih acak. Mau membangun, berkegiatan, atau hal paling aneh sekalipun, bisa jadi kenyataan.",
+   "hash": "c8f41bf2430a",
+   "duration": 8.545,
+   "words": [
+    {
+     "text": "Setiap",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "hari,",
+     "start": 0.43,
+     "end": 0.906
+    },
+    {
+     "text": "dua",
+     "start": 1.08,
+     "end": 1.231
+    },
+    {
+     "text": "komentar",
+     "start": 1.277,
+     "end": 1.707
+    },
+    {
+     "text": "dipilih",
+     "start": 1.776,
+     "end": 2.078
+    },
+    {
+     "text": "acak.",
+     "start": 2.113,
+     "end": 2.659
+    },
+    {
+     "text": "Mau",
+     "start": 2.984,
+     "end": 3.146
+    },
+    {
+     "text": "membangun,",
+     "start": 3.181,
+     "end": 3.889
+    },
+    {
+     "text": "berkegiatan,",
+     "start": 4.017,
+     "end": 4.957
+    },
+    {
+     "text": "atau",
+     "start": 5.074,
+     "end": 5.329
+    },
+    {
+     "text": "hal",
+     "start": 5.375,
+     "end": 5.503
+    },
+    {
+     "text": "paling",
+     "start": 5.561,
+     "end": 5.793
+    },
+    {
+     "text": "aneh",
+     "start": 5.84,
+     "end": 6.002
+    },
+    {
+     "text": "sekalipun,",
+     "start": 6.026,
+     "end": 6.722
+    },
+    {
+     "text": "bisa",
+     "start": 6.873,
+     "end": 7.07
+    },
+    {
+     "text": "jadi",
+     "start": 7.129,
+     "end": 7.303
+    },
+    {
+     "text": "kenyataan.",
+     "start": 7.349,
+     "end": 8.545
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Presiden punya tiga permintaan sehari. Tanpa undian.",
+   "hash": "8ae21073fa4b",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Presiden",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "punya",
+     "start": 0.615,
+     "end": 0.871
+    },
+    {
+     "text": "tiga",
+     "start": 0.917,
+     "end": 1.173
+    },
+    {
+     "text": "permintaan",
+     "start": 1.219,
+     "end": 1.672
+    },
+    {
+     "text": "sehari.",
+     "start": 1.73,
+     "end": 2.252
+    },
+    {
+     "text": "Tanpa",
+     "start": 2.368,
+     "end": 2.775
+    },
+    {
+     "text": "undian.",
+     "start": 2.844,
+     "end": 3.622
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Wakil presiden dapat dua. Lumayan, kan?",
+   "hash": "2f3cdd6878af",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Wakil",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "presiden",
+     "start": 0.36,
+     "end": 0.708
+    },
+    {
+     "text": "dapat",
+     "start": 0.743,
+     "end": 0.94
+    },
+    {
+     "text": "dua.",
+     "start": 0.964,
+     "end": 1.3
+    },
+    {
+     "text": "Lumayan,",
+     "start": 1.358,
+     "end": 1.765
+    },
+    {
+     "text": "kan?",
+     "start": 1.788,
+     "end": 2.276
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Mau permintaanmu langsung jadi? Traktir lewat Trakteer, link-nya ada di layar, lalu tulis request-mu. Yang mentraktir tidak perlu diundi. Seperti titah dari langit.",
+   "hash": "345e978925c9",
+   "duration": 10.96,
+   "words": [
+    {
+     "text": "Mau",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "permintaanmu",
+     "start": 0.232,
+     "end": 0.836
+    },
+    {
+     "text": "langsung",
+     "start": 0.882,
+     "end": 1.184
+    },
+    {
+     "text": "jadi?",
+     "start": 1.242,
+     "end": 1.811
+    },
+    {
+     "text": "Traktir",
+     "start": 2.194,
+     "end": 2.624
+    },
+    {
+     "text": "lewat",
+     "start": 2.682,
+     "end": 2.937
+    },
+    {
+     "text": "Trakteer,",
+     "start": 2.961,
+     "end": 3.576
+    },
+    {
+     "text": "link-nya",
+     "start": 3.785,
+     "end": 4.145
+    },
+    {
+     "text": "ada",
+     "start": 4.191,
+     "end": 4.354
+    },
+    {
+     "text": "di",
+     "start": 4.4,
+     "end": 4.47
+    },
+    {
+     "text": "layar,",
+     "start": 4.516,
+     "end": 4.957
+    },
+    {
+     "text": "lalu",
+     "start": 5.166,
+     "end": 5.399
+    },
+    {
+     "text": "tulis",
+     "start": 5.445,
+     "end": 5.677
+    },
+    {
+     "text": "request-mu.",
+     "start": 5.747,
+     "end": 6.432
+    },
+    {
+     "text": "Yang",
+     "start": 6.873,
+     "end": 7.059
+    },
+    {
+     "text": "mentraktir",
+     "start": 7.105,
+     "end": 7.605
+    },
+    {
+     "text": "tidak",
+     "start": 7.651,
+     "end": 7.883
+    },
+    {
+     "text": "perlu",
+     "start": 7.906,
+     "end": 8.127
+    },
+    {
+     "text": "diundi.",
+     "start": 8.162,
+     "end": 8.789
+    },
+    {
+     "text": "Seperti",
+     "start": 9.23,
+     "end": 9.613
+    },
+    {
+     "text": "titah",
+     "start": 9.659,
+     "end": 9.927
+    },
+    {
+     "text": "dari",
+     "start": 9.985,
+     "end": 10.159
+    },
+    {
+     "text": "langit.",
+     "start": 10.205,
+     "end": 10.96
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Semua yang diminta akan muncul di pulau, dan bisa kamu kunjungi sendiri di pulau aru titik web titik i d.",
+   "hash": "f252e6ba59d1",
+   "duration": 6.037,
+   "words": [
+    {
+     "text": "Semua",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "yang",
+     "start": 0.372,
+     "end": 0.488
+    },
+    {
+     "text": "diminta",
+     "start": 0.534,
+     "end": 0.859
+    },
+    {
+     "text": "akan",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "text": "muncul",
+     "start": 1.126,
+     "end": 1.416
+    },
+    {
+     "text": "di",
+     "start": 1.463,
+     "end": 1.521
+    },
+    {
+     "text": "pulau,",
+     "start": 1.567,
+     "end": 2.078
+    },
+    {
+     "text": "dan",
+     "start": 2.252,
+     "end": 2.392
+    },
+    {
+     "text": "bisa",
+     "start": 2.45,
+     "end": 2.67
+    },
+    {
+     "text": "kamu",
+     "start": 2.717,
+     "end": 2.914
+    },
+    {
+     "text": "kunjungi",
+     "start": 2.949,
+     "end": 3.286
+    },
+    {
+     "text": "sendiri",
+     "start": 3.32,
+     "end": 3.657
+    },
+    {
+     "text": "di",
+     "start": 3.704,
+     "end": 3.762
+    },
+    {
+     "text": "pulau",
+     "start": 3.808,
+     "end": 4.063
+    },
+    {
+     "text": "aru",
+     "start": 4.122,
+     "end": 4.365
+    },
+    {
+     "text": "titik",
+     "start": 4.423,
+     "end": 4.679
+    },
+    {
+     "text": "web",
+     "start": 4.748,
+     "end": 4.899
+    },
+    {
+     "text": "titik",
+     "start": 4.969,
+     "end": 5.236
+    },
+    {
+     "text": "i",
+     "start": 5.317,
+     "end": 5.352
+    },
+    {
+     "text": "d.",
+     "start": 5.433,
+     "end": 6.037
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Di sana kamu bisa jalan-jalan sebagai dirimu sendiri, memanjat piramida, naik tangga awan ke Kopdes, menombak ikan, berlayar ke pulau seberang, dan mencari namamu di batu.",
+   "hash": "82697cda04e5",
+   "duration": 11.099,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.128
+    },
+    {
+     "text": "sana",
+     "start": 0.174,
+     "end": 0.488
+    },
+    {
+     "text": "kamu",
+     "start": 0.534,
+     "end": 0.755
+    },
+    {
+     "text": "bisa",
+     "start": 0.801,
+     "end": 0.975
+    },
+    {
+     "text": "jalan-jalan",
+     "start": 1.045,
+     "end": 1.649
+    },
+    {
+     "text": "sebagai",
+     "start": 1.707,
+     "end": 2.02
+    },
+    {
+     "text": "dirimu",
+     "start": 2.055,
+     "end": 2.357
+    },
+    {
+     "text": "sendiri,",
+     "start": 2.392,
+     "end": 3.053
+    },
+    {
+     "text": "memanjat",
+     "start": 3.228,
+     "end": 3.657
+    },
+    {
+     "text": "piramida,",
+     "start": 3.704,
+     "end": 4.435
+    },
+    {
+     "text": "naik",
+     "start": 4.609,
+     "end": 4.795
+    },
+    {
+     "text": "tangga",
+     "start": 4.865,
+     "end": 5.097
+    },
+    {
+     "text": "awan",
+     "start": 5.143,
+     "end": 5.387
+    },
+    {
+     "text": "ke",
+     "start": 5.445,
+     "end": 5.503
+    },
+    {
+     "text": "Kopdes,",
+     "start": 5.561,
+     "end": 6.304
+    },
+    {
+     "text": "menombak",
+     "start": 6.432,
+     "end": 6.815
+    },
+    {
+     "text": "ikan,",
+     "start": 6.896,
+     "end": 7.419
+    },
+    {
+     "text": "berlayar",
+     "start": 7.593,
+     "end": 8.046
+    },
+    {
+     "text": "ke",
+     "start": 8.104,
+     "end": 8.173
+    },
+    {
+     "text": "pulau",
+     "start": 8.208,
+     "end": 8.44
+    },
+    {
+     "text": "seberang,",
+     "start": 8.475,
+     "end": 9.044
+    },
+    {
+     "text": "dan",
+     "start": 9.253,
+     "end": 9.404
+    },
+    {
+     "text": "mencari",
+     "start": 9.462,
+     "end": 9.834
+    },
+    {
+     "text": "namamu",
+     "start": 9.88,
+     "end": 10.228
+    },
+    {
+     "text": "di",
+     "start": 10.275,
+     "end": 10.333
+    },
+    {
+     "text": "batu.",
+     "start": 10.391,
+     "end": 11.099
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Sampai ketemu di pulau, ya!",
+   "hash": "612cc04d0311",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Sampai",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "ketemu",
+     "start": 0.372,
+     "end": 0.662
+    },
+    {
+     "text": "di",
+     "start": 0.697,
+     "end": 0.755
+    },
+    {
+     "text": "pulau,",
+     "start": 0.789,
+     "end": 1.103
+    },
+    {
+     "text": "ya!",
+     "start": 1.149,
+     "end": 1.672
+    }
+   ]
+  }
+ }
+}
