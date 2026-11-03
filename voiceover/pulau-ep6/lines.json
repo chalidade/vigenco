@@ -1,0 +1,90 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Tiga ribu tiga ratus warga. Jalan setapak di Pulau Netizen makin becek dan berantakan."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Pulau ini harus rapi! Mulai hari ini, kita perbaiki semua jalan."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Dua usulan warga terpilih dari komentar: jalan aspal, lalu sekolah dan apotik."
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Wah, mulus! Sandalku nggak kotor lagi."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Dua rumah yang lama dibangun akhirnya selesai. Para tukang pindah ke lahan baru: calon sekolah dan apotik."
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Satu lagi. Saya presiden, jadi yang ini tanpa undian. Kita bangun masjid."
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Setuju, Pak! Saya selalu setuju."
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Enak ya jadi presiden. Mau apa, tinggal bilang."
+  },
+  {
+   "id": "w3",
+   "who": "warga",
+   "text": "Sstt. Kalau mau gulingkan presiden, harus punya cara."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Siapa pun boleh menggulingkan presiden, asal punya cara. Apa caramu? Tulis di komentar."
+  }
+ ]
+}
