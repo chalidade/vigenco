@@ -1,5 +1,5 @@
 import type { CSSProperties, FC, ReactNode } from "react";
-import { AbsoluteFill, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Easing, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { baloo } from "../../lib/fonts";
 import type { Word } from "../../lib/Story";
 import { rand, tween, wave } from "../../lib/kit";
@@ -344,59 +344,63 @@ export const Label: FC<{ children: ReactNode; x: number; y: number; size?: numbe
 
 // ───────────────────────── the phone: real app captures ─────────────────────────
 
-/** Screen size in video pixels; captures are 390×844 CSS px (shot at 3× = 1170×2532). */
-export const SW = 600, SH = Math.round((600 * 844) / 390);
-const SX = (W - SW) / 2, SY = 118, BEZ = 18;
-const K = SW / 390; // video px per CSS px at zoom 1
+/**
+ * The device. Captures are 390×844 CSS px (shot at 3× = 1170×2532) and always fill the full screen width:
+ * the camera never zooms or crops sideways, it only pans down a capture taller than the screen.
+ * The app sits below a status bar (punch-hole camera) and above a home-indicator strip, so nothing
+ * covers it, and the whole device ends above the caption zone (captions can reach y ≈ 1366).
+ */
+export const BEZ = 22, STB = 40, HOME = 24; // bezel, status bar, home strip (video px)
+export const AH = 1200, AW = Math.round((AH * 390) / 844); // app area: 554 × 1200
+export const SW = AW, SH = STB + AH + HOME; // the screen (glass)
+export const DW = SW + BEZ * 2, DH = SH + BEZ * 2; // the device: 598 × 1308
+export const DX = Math.round((W - DW) / 2), DY = 30; // device top-left; bottom edge at 1338
+const K = AW / 390; // video px per CSS px
 
-/** Camera inside the screen: zoom and the CSS point it centres on. */
-export type Cam = { z: number; x: number; y: number };
+/** Camera: `y` is the CSS point a tall capture centres on (x and z are kept for old shot lists and ignored). */
+export type Cam = { z?: number; x?: number; y: number };
+export type Mark = { x: number; y: number; w: number; h: number; at: At; until?: At };
 export type Shot = {
   src: string; // file in public/<id>/app
   from: At; // when it appears
-  cam?: [Cam, Cam?]; // camera at the start and at the end of the shot
+  cam?: [Cam, Cam?]; // vertical camera at the start and at the end of the shot
   tap?: { x: number; y: number; at: At };
   video?: { startFrom?: number }; // an .mp4 clip (frames at 30 fps)
   h?: number; // CSS height when the capture is taller than the screen (a full page)
-  marks?: { x: number; y: number; w: number; h: number; at: At }[]; // highlight sweeps (CSS px)
-};
-
-const FULL: Cam = { z: 1, x: 195, y: 422 };
-
-/** Where an image of CSS size 390×h lands for camera c: scale and the top-left corner, clamped so no edge shows. */
-const place = (c: Cam, h: number) => {
-  const k = K * c.z;
-  const left = Math.min(0, Math.max(SW - 390 * k, SW / 2 - c.x * k));
-  const top = Math.min(0, Math.max(SH - h * k, SH / 2 - c.y * k));
-  return { k, left, top };
+  marks?: Mark[]; // soft outline highlights (CSS px)
 };
 
 const ShotView: FC<{ shot: Shot; start: number; end: number; frames: number; words: Word[]; lead: number }> = ({ shot, start, end, frames, words, lead }) => {
   const f = useCurrentFrame();
   const h = shot.h ?? 844;
-  const [c0, c1 = c0] = shot.cam ?? [FULL];
-  const p = tween(f, start, Math.max(start + 1, end), 0, 1);
-  const cam = { z: c0.z + (c1.z - c0.z) * p, x: c0.x + (c1.x - c0.x) * p, y: c0.y + (c1.y - c0.y) * p };
-  const { k, left, top } = place(cam, h);
+  const [c0, c1 = c0] = shot.cam ?? [{ y: 422 }];
+  const p = Easing.inOut(Easing.cubic)(tween(f, start, Math.max(start + 1, end), 0, 1));
+  const cy = c0.y + (c1.y - c0.y) * p;
+  const top = Math.min(0, Math.max(AH - h * K, AH / 2 - cy * K));
+  const k = K;
   const tapF = shot.tap ? at(shot.tap.at, frames, words, lead) : -1;
   const tt = f - tapF;
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left, top, width: 390 * k, height: h * k }}>
+      <div style={{ position: "absolute", left: 0, top, width: AW, height: h * k }}>
         {shot.video ? (
           <Sequence from={start} layout="none">
-            <OffthreadVideo src={staticFile(`${ID}/app/${shot.src}`)} muted startFrom={shot.video.startFrom ?? 0} style={{ width: "100%", height: "100%" }} />
+            <OffthreadVideo src={staticFile(`${ID}/app/${shot.src}`)} muted startFrom={shot.video.startFrom ?? 0} style={{ width: "100%", height: "100%", display: "block" }} />
           </Sequence>
         ) : (
           <Img src={staticFile(`${ID}/app/${shot.src}`)} style={{ width: "100%", height: "100%", display: "block" }} />
         )}
         {shot.marks?.map((m, i) => {
           const mf = at(m.at, frames, words, lead);
-          const g = interpolate(f, [mf, mf + 10], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-          const fade = interpolate(f, [mf + 22, mf + 34], [1, 0.35], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-          return f < mf ? null : (
-            <div key={i} style={{ position: "absolute", left: (m.x - 4) * k, top: (m.y - 2) * k, width: (m.w + 8) * k * g, height: (m.h + 4) * k,
-              background: C.yellow, mixBlendMode: "multiply", opacity: 0.75 * fade, borderRadius: 4 * k }} />
+          if (f < mf) return null;
+          const g = Easing.out(Easing.cubic)(interpolate(f, [mf, mf + 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+          const off = m.until === undefined ? 1 : 1 - interpolate(f, [at(m.until, frames, words, lead), at(m.until, frames, words, lead) + 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+          const pulse = 1 + 0.15 * Math.max(0, 1 - (f - mf) / 30) * Math.sin(((f - mf) / 30) * Math.PI);
+          return (
+            <div key={i} style={{ position: "absolute", left: (m.x - 5) * k, top: (m.y - 4) * k, width: (m.w + 10) * k, height: (m.h + 8) * k, borderRadius: 8 * k,
+              border: `${3.2}px solid ${C.yellow}`, background: "rgba(255,240,0,.10)",
+              boxShadow: `0 0 0 ${6 * pulse}px rgba(255,240,0,.28), 0 6px 22px rgba(0,0,0,.25)`,
+              opacity: g * off, transform: `scale(${1.08 - 0.08 * g})` }} />
           );
         })}
         {tapF >= 0 && tt >= -8 && tt < 26 && (
@@ -424,8 +428,8 @@ export const Screen: FC<{ shots: Shot[]; frames: number; words: Word[]; lead: nu
     <>
       {shots.map((s, i) => {
         const a = starts[i], b = i + 1 < shots.length ? starts[i + 1] : frames;
-        if (f < a - 1 || f > b + 7) return null;
-        const o = i === 0 ? 1 : interpolate(f, [a, a + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+        if (f < a - 1 || f > b + 9) return null;
+        const o = i === 0 ? 1 : interpolate(f, [a, a + 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         return (
           <AbsoluteFill key={i} style={{ opacity: o }}>
             <ShotView shot={s} start={a} end={b} frames={frames} words={words} lead={lead} />
@@ -444,13 +448,14 @@ const BG: Record<Mood2, [string, string, string]> = {
 };
 
 /** Soft background, floating dots and the phone; children go inside the screen. `pill` is a label above the phone. */
-export const PhoneStage: FC<{ mood?: Mood2; children: ReactNode; pill?: { text: string; opacity: number }; tilt?: number; over?: ReactNode }> = ({
-  mood = "day", children, pill, tilt = 0, over,
+export const PhoneStage: FC<{ mood?: Mood2; children: ReactNode; pill?: { text: string; opacity: number }; tilt?: number; over?: ReactNode; clock?: string }> = ({
+  mood = "day", children, pill, over, clock,
 }) => {
   const f = useCurrentFrame();
   const [a, b, c] = BG[mood];
-  const float = wave(f, 6, 120);
   const dot = mood === "night" ? "#ffffff" : "#f3b23f";
+  const time = clock ?? (mood === "night" ? "21.04" : "10.46");
+  const bottom = DY + DH; // the caption band starts right under the device
   return (
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${a} 0%, ${b} 55%, ${c} 100%)` }}>
       <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{ position: "absolute" }}>
@@ -458,20 +463,44 @@ export const PhoneStage: FC<{ mood?: Mood2; children: ReactNode; pill?: { text: 
           <circle key={i} cx={rand(i) * W} cy={((rand(i + 30) * H - f * (0.3 + rand(i) * 0.5)) % H + H) % H} r={mood === "night" ? 1.5 + rand(i + 5) * 2.5 : 6 + rand(i + 5) * 16}
             fill={dot} opacity={mood === "night" ? 0.4 + wave(f, 0.4, 40 + i, i * 9) : 0.12} />
         ))}
-        {mood !== "night" && <path d={`M0 ${1560 + float} Q270 ${1500 - float} 540 ${1550 + float} T${W} ${1530} V${H} H0Z`} fill="#000" opacity={0.04} />}
+        {/* soft floor shadow under the device */}
+        <ellipse cx={W / 2} cy={bottom + 6} rx={DW * 0.46} ry={22} fill="#0a0f28" opacity={mood === "night" ? 0.5 : 0.18} />
       </svg>
-      <div style={{ position: "absolute", left: SX - BEZ, top: SY - BEZ + float, width: SW + BEZ * 2, height: SH + BEZ * 2, borderRadius: 74, background: "#14161c",
-        boxShadow: "0 40px 80px rgba(20,20,40,.35), inset 0 0 0 3px #2c3039", transform: `rotate(${tilt}deg)` }}>
-        <div style={{ position: "absolute", left: BEZ, top: BEZ, width: SW, height: SH, borderRadius: 56, overflow: "hidden", background: "#111" }}>{children}</div>
-        <div style={{ position: "absolute", left: (SW + BEZ * 2) / 2 - 60, top: BEZ + 10, width: 120, height: 30, borderRadius: 15, background: "#14161c" }} />
+      {/* caption band below the device */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: bottom + 8, bottom: 0,
+        background: `linear-gradient(180deg, rgba(16,18,30,0) 0%, rgba(16,18,30,${mood === "night" ? 0.4 : 0.62}) 18%, rgba(16,18,30,${mood === "night" ? 0.55 : 0.78}) 100%)` }} />
+      {/* side buttons */}
+      <div style={{ position: "absolute", left: DX - 5, top: DY + 230, width: 6, height: 90, borderRadius: 3, background: "#2a2d35" }} />
+      <div style={{ position: "absolute", left: DX - 5, top: DY + 340, width: 6, height: 90, borderRadius: 3, background: "#2a2d35" }} />
+      <div style={{ position: "absolute", left: DX + DW - 1, top: DY + 290, width: 6, height: 140, borderRadius: 3, background: "#2a2d35" }} />
+      {/* the device */}
+      <div style={{ position: "absolute", left: DX, top: DY, width: DW, height: DH, borderRadius: 78,
+        background: "linear-gradient(145deg, #2b2e36 0%, #15171c 45%, #23262d 100%)",
+        boxShadow: "0 50px 90px rgba(12,16,40,.38), 0 14px 30px rgba(12,16,40,.22), inset 0 0 0 2px #454a55, inset 0 0 0 6px #121318" }}>
+        <div style={{ position: "absolute", left: BEZ, top: BEZ, width: SW, height: SH, borderRadius: 58, overflow: "hidden", background: "#0b0c10" }}>
+          {/* status bar with a punch-hole camera; the app starts below it */}
+          <div style={{ position: "absolute", left: 0, top: 0, width: SW, height: STB, color: "#fff", fontFamily: ui, fontWeight: 600, fontSize: 21 }}>
+            <div style={{ position: "absolute", left: 46, top: 9 }}>{time}</div>
+            <div style={{ position: "absolute", left: SW / 2 - 10, top: 10, width: 20, height: 20, borderRadius: 10, background: "#000", boxShadow: "inset 0 0 0 3px #1d2027" }} />
+            <svg style={{ position: "absolute", right: 40, top: 12 }} width={84} height={18} viewBox="0 0 84 18">
+              {[0, 1, 2, 3].map((i) => <rect key={i} x={i * 6} y={12 - i * 3.5} width={4} height={5 + i * 3.5} rx={1} fill="#fff" />)}
+              <path d="M34 8 Q42 0 50 8 M37 11 Q42 6 47 11" stroke="#fff" strokeWidth={2.2} fill="none" strokeLinecap="round" />
+              <circle cx={42} cy={14} r={2} fill="#fff" />
+              <rect x={56} y={3} width={24} height={12} rx={3} stroke="#fff" strokeWidth={1.6} fill="none" opacity={0.9} />
+              <rect x={58} y={5} width={16} height={8} rx={1.5} fill="#fff" />
+              <rect x={81} y={7} width={2} height={4} rx={1} fill="#fff" />
+            </svg>
+          </div>
+          <div style={{ position: "absolute", left: 0, top: STB, width: AW, height: AH, overflow: "hidden", background: "#111" }}>{children}</div>
+          <div style={{ position: "absolute", left: SW / 2 - 70, top: STB + AH + 10, width: 140, height: 5, borderRadius: 3, background: "#e8e8ec", opacity: 0.85 }} />
+          {/* glass sheen */}
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(125deg, rgba(255,255,255,.07) 0%, rgba(255,255,255,0) 32%)", pointerEvents: "none" }} />
+        </div>
       </div>
-      {/* caption band: darken the bottom so the white karaoke captions read on the bright app scenes */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1240, bottom: 0,
-        background: `linear-gradient(180deg, rgba(16,18,30,0) 0%, rgba(16,18,30,${mood === "night" ? 0.45 : 0.72}) 22%, rgba(16,18,30,${mood === "night" ? 0.6 : 0.82}) 100%)` }} />
       {over}
       {pill && pill.opacity > 0 && (
-        <div style={{ position: "absolute", left: W / 2, top: 58, transform: `translate(-50%, -50%) scale(${0.9 + pill.opacity * 0.1})`, opacity: pill.opacity, fontFamily, fontWeight: 800, fontSize: 44,
-          color: mood === "night" ? "#fff7e6" : "#1b1b1f", background: mood === "night" ? "rgba(255,255,255,.12)" : "rgba(255,255,255,.75)", padding: "4px 30px", borderRadius: 40 }}>
+        <div style={{ position: "absolute", left: W / 2, top: DY + BEZ + STB + 150, transform: `translate(-50%, -50%) scale(${0.9 + pill.opacity * 0.1})`, opacity: pill.opacity, fontFamily, fontWeight: 800, fontSize: 48,
+          color: "#fff", background: "rgba(16,18,30,.88)", padding: "8px 36px", borderRadius: 44, boxShadow: "0 10px 30px rgba(0,0,0,.3)", whiteSpace: "nowrap" }}>
           {pill.text}
         </div>
       )}

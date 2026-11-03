@@ -201,7 +201,7 @@ const App: FC<SceneProps & { shots: Shot[]; mood?: "night" | "day" | "warm"; pil
   );
 };
 
-// 4 — night: the little brother's link, then the real jobfair.co.id home page, panning down to the live hall
+// 4 — night: the little brother's link, then the real jobfair.co.id home page, reading down slowly
 const Link: FC<SceneProps> = (props) => {
   const { frames, words, lead } = props;
   const f = useCurrentFrame();
@@ -209,37 +209,38 @@ const Link: FC<SceneProps> = (props) => {
   const show = [at({ w: "adikku", f: 0.15 }, frames, words, lead), at({ w: "tautan", f: 0.3 }, frames, words, lead), at({ w: "Katanya", off: 6, f: 0.5 }, frames, words, lead)];
   return (
     <PhoneStage mood="night">
-      {f < land + 8 && (
+      {f < land + 10 && (
         <AbsoluteFill>
           <Chat show={show} frame={f} />
         </AbsoluteFill>
       )}
-      <AbsoluteFill style={{ opacity: step(f, land, 8), pointerEvents: "none" }}>
+      <AbsoluteFill style={{ opacity: step(f, land, 10), pointerEvents: "none" }}>
         <Screen frames={frames} words={words} lead={lead}
-          shots={[{ src: "s04-landing-full.png", from: { w: "job", off: -4, f: 0.62 }, h: 1200, cam: [{ z: 1, x: 195, y: 422 }, { z: 1, x: 195, y: 760 }], tap: { x: 195, y: 451, at: 0.999 } }]} />
+          shots={[{ src: "s04-landing-full.png", from: { w: "job", off: -4, f: 0.62 }, h: 1200, cam: [{ y: 422 }, { y: 560 }],
+            marks: [{ x: 18, y: 172, w: 330, h: 118, at: { w: "job", off: 10, f: 0.7 } }, { x: 20, y: 428, w: 350, h: 46, at: { w: "HP", off: -8, f: 0.9 } }] }]} />
       </AbsoluteFill>
     </PhoneStage>
   );
 };
 
-// 5 — no ticket, no fare: the real Google sign-in, then the character creator (hijab, colours, "Masuk job fair")
+// 5 — no ticket, no fare: the real Google sign-in card, then the character creator (hijab, name "Sari", "Masuk job fair")
 const SignIn: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s05-google.png", from: 0, cam: [{ z: 1.05, x: 195, y: 440 }, { z: 1.15, x: 195, y: 460 }], tap: { x: 195, y: 465, at: { w: "Tidak", n: 1, off: -4, f: 0.3 } } },
-    { src: "s05-cc0.png", from: { w: "Tidak", n: 1, off: 8, f: 0.35 }, cam: [{ z: 1, x: 195, y: 422 }, { z: 1.2, x: 195, y: 500 }], tap: { x: 339, y: 709, at: { w: "ongkos", off: 4, f: 0.55 } } },
-    { src: "s05-cc2.png", from: { w: "Aku", off: -4, f: 0.65 }, cam: [{ z: 1.35, x: 195, y: 260 }, { z: 1.2, x: 195, y: 380 }] },
-    { src: "s05-cc4.png", from: { w: "masuk", off: -14, f: 0.85 }, cam: [{ z: 1.1, x: 195, y: 600 }], tap: { x: 195, y: 759, at: { w: "masuk", off: 2, f: 0.9 } } },
+    { src: "s05-google.png", from: 0, marks: [{ x: 14, y: 350, w: 362, h: 196, at: 0.02 }], tap: { x: 195, y: 465, at: { w: "Tidak", n: 1, off: -4, f: 0.3 } } },
+    { src: "s05-cc0.png", from: { w: "Tidak", n: 1, off: 8, f: 0.35 }, marks: [{ x: 36, y: 444, w: 318, h: 44, at: { w: "Tidak", n: 1, off: 14, f: 0.4 } }], tap: { x: 339, y: 709, at: { w: "ongkos", off: 4, f: 0.55 } } },
+    { src: "s05-cc2.png", from: { w: "Aku", off: -4, f: 0.65 }, marks: [{ x: 120, y: 142, w: 150, h: 168, at: { w: "Aku", off: 4, f: 0.7 } }] },
+    { src: "s05-cc4.png", from: { w: "masuk", off: -14, f: 0.85 }, marks: [{ x: 36, y: 735, w: 318, h: 50, at: { w: "masuk", off: -8, f: 0.87 } }], tap: { x: 195, y: 759, at: { w: "masuk", off: 2, f: 0.9 } } },
   ]} />
 );
 
-// 6 — the wardrobe: kemeja, then the blazer, in red
+// 6 — the wardrobe: kemeja, then the blazer, then red
 const Blazer: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s06-wr0.png", from: 0, cam: [{ z: 1, x: 195, y: 422 }, { z: 1.12, x: 195, y: 420 }], tap: { x: 75, y: 568, at: { w: "pertama", f: 0.15 } } },
-    { src: "s06-wr1.png", from: { w: "pertama", off: 10, f: 0.2 }, cam: [{ z: 1.12, x: 195, y: 420 }, { z: 1.2, x: 180, y: 380 }], tap: { x: 155, y: 568, at: { w: "blazer", off: -6, f: 0.32 } } },
-    { src: "s06-wr2.png", from: { w: "blazer", off: 4, f: 0.36 }, cam: [{ z: 1.9, x: 100, y: 160 }, { z: 2.1, x: 100, y: 150 }] },
-    { src: "s06-wr3.png", from: { w: "layar", off: -4, f: 0.58 }, cam: [{ z: 1.2, x: 195, y: 470 }], tap: { x: 82, y: 537, at: { w: "Tapi", f: 0.68 } } },
-    { src: "s06-wr4.png", from: { w: "Tapi", off: 10, f: 0.72 }, cam: [{ z: 1.9, x: 100, y: 170 }, { z: 2.4, x: 100, y: 165 }] },
+    { src: "s06-wr0.png", from: 0, tap: { x: 75, y: 568, at: { w: "pertama", f: 0.15 } } },
+    { src: "s06-wr1.png", from: { w: "pertama", off: 10, f: 0.2 }, tap: { x: 155, y: 568, at: { w: "blazer", off: -6, f: 0.32 } } },
+    { src: "s06-wr2.png", from: { w: "blazer", off: 4, f: 0.36 }, marks: [{ x: 118, y: 512, w: 76, h: 110, at: { w: "blazer", off: 8, f: 0.38 } }, { x: 76, y: 128, w: 92, h: 110, at: { w: "Memang", off: -6, f: 0.48 } }] },
+    { src: "s06-wr3.png", from: { w: "layar", off: -4, f: 0.58 }, tap: { x: 82, y: 537, at: { w: "Tapi", f: 0.68 } } },
+    { src: "s06-wr4.png", from: { w: "Tapi", off: 10, f: 0.72 }, marks: [{ x: 76, y: 146, w: 92, h: 112, at: { w: "pantas", off: -4, f: 0.85 } }] },
   ]} />
 );
 
@@ -248,17 +249,17 @@ const PIN = ["Medan", "Makassar", "Papua"];
 const Hall: FC<SceneProps> = (p) => {
   const { frames, words, lead } = p;
   return (
-    <App {...p} shots={[{ src: "s07-walk.mp4", from: 0, video: {}, cam: [{ z: 1.05, x: 195, y: 430 }, { z: 1.15, x: 195, y: 420 }] }]}
+    <App {...p} shots={[{ src: "s07-walk.mp4", from: 0, video: {} }]}
       over={(f) => (
         <>
           {PIN.map((name, i) => {
             const a = at({ w: name, f: 0.35 + i * 0.12 }, frames, words, lead);
             const o = step(f, a - 4, 8);
             const left = i % 2 === 0;
-            const x = left ? 112 : 968, y = 520 + i * 300;
+            const x = left ? 124 : 956, y = 380 + i * 300;
             return o <= 0 ? null : (
-              <div key={name} style={{ position: "absolute", left: x, top: y + wave(f, 6, 70, i * 20), transform: `translate(-50%,-50%) scale(${0.6 + o * 0.4}) rotate(${left ? -6 : 6}deg)`, opacity: o,
-                fontFamily, fontWeight: 800, fontSize: 36, color: "#1b1b1f", background: "#fff", padding: "6px 18px", borderRadius: 30, boxShadow: "0 6px 0 rgba(0,0,0,.12)" }}>
+              <div key={name} style={{ position: "absolute", left: x, top: y + wave(f, 6, 70, i * 20), transform: `translate(-50%,-50%) scale(${0.6 + o * 0.4}) rotate(${left ? -5 : 5}deg)`, opacity: o,
+                fontFamily, fontWeight: 800, fontSize: 30, color: "#1b1b1f", background: "#fff", padding: "6px 16px", borderRadius: 32, boxShadow: "0 10px 24px rgba(0,0,0,.18)", whiteSpace: "nowrap" }}>
                 <span style={{ color: "#e2483d" }}>●</span> {name}
               </div>
             );
@@ -271,22 +272,22 @@ const Hall: FC<SceneProps> = (p) => {
 // 8 — the lift to Lantai 2 Teknologi & Keuangan, the map search "akuntansi", then the walk to the stand (real recording)
 const Lift: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s08-lift.png", from: 0, cam: [{ z: 1.1, x: 195, y: 420 }, { z: 1.3, x: 195, y: 500 }], tap: { x: 195, y: 568, at: { w: "lift", off: 2, f: 0.15 } } },
-    { src: "s08-map1.png", from: { w: "mencari", off: -4, f: 0.3 }, cam: [{ z: 1.15, x: 195, y: 320 }, { z: 1.25, x: 195, y: 330 }], tap: { x: 198, y: 385, at: { w: "keuangan", off: 6, f: 0.45 } } },
-    { src: "s08-map2.png", from: { w: "keuangan", off: 16, f: 0.5 }, cam: [{ z: 1.25, x: 195, y: 360 }], tap: { x: 87, y: 426, at: { w: "seperti", off: -2, f: 0.6 } } },
-    { src: "s08-walk.mp4", from: { w: "seperti", off: 10, f: 0.65 }, video: { startFrom: 120 }, cam: [{ z: 1.05, x: 195, y: 430 }] },
+    { src: "s08-lift.png", from: 0, marks: [{ x: 40, y: 542, w: 310, h: 52, at: { w: "lift", off: -6, f: 0.12 } }], tap: { x: 195, y: 568, at: { w: "lift", off: 4, f: 0.15 } } },
+    { src: "s08-map1.png", from: { w: "mencari", off: -4, f: 0.3 }, marks: [{ x: 12, y: 222, w: 366, h: 40, at: { w: "mencari", off: 4, f: 0.33 } }, { x: 12, y: 316, w: 366, h: 86, at: { w: "keuangan", off: -2, f: 0.43 } }] },
+    { src: "s08-map2.png", from: { w: "keuangan", off: 16, f: 0.5 }, marks: [{ x: 26, y: 370, w: 344, h: 30, at: { w: "keuangan", off: 18, f: 0.52 } }], tap: { x: 87, y: 426, at: { w: "seperti", off: -2, f: 0.6 } } },
+    { src: "s08-walk.mp4", from: { w: "seperti", off: 10, f: 0.65 }, video: { startFrom: 120 } },
   ]} />
 );
 
-// 9 — the job card: Staf Akuntansi, placement in the regions; read three times (three highlight sweeps)
+// 9 — the job card: Staf Akuntansi, placement in the regions; read three times (outline returns to the title)
 const Job: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s09-booth1.png", from: 0, cam: [{ z: 1.3, x: 195, y: 300 }] },
-    { src: "s09-job.png", from: { w: "Staf", off: 2, f: 0.06 }, cam: [{ z: 1.3, x: 195, y: 330 }, { z: 1.38, x: 195, y: 360 }], marks: [
-      { x: 55, y: 279, w: 136, h: 22, at: { w: "Staf", off: 8, f: 0.1 } },
-      { x: 55, y: 342, w: 277, h: 20, at: { w: "Penempatan", off: 2, f: 0.3 } },
-      { x: 41, y: 452, w: 300, h: 20, at: { w: "daerah", f: 0.45 } },
-      { x: 55, y: 279, w: 136, h: 22, at: { w: "tiga", off: 6, f: 0.62 } },
+    { src: "s09-booth1.png", from: 0, marks: [{ x: 100, y: 80, w: 208, h: 24, at: 0.01 }] },
+    { src: "s09-job.png", from: { w: "Staf", off: 2, f: 0.06 }, marks: [
+      { x: 50, y: 276, w: 146, h: 26, at: { w: "Staf", off: 8, f: 0.1 }, until: { w: "Penempatan", off: -2, f: 0.28 } },
+      { x: 52, y: 340, w: 284, h: 22, at: { w: "Penempatan", off: 2, f: 0.3 } },
+      { x: 50, y: 435, w: 290, h: 40, at: { w: "daerah", f: 0.45 } },
+      { x: 50, y: 276, w: 146, h: 26, at: { w: "tiga", off: 6, f: 0.62 } },
     ] },
   ]} />
 );
@@ -294,10 +295,10 @@ const Job: FC<SceneProps> = (p) => (
 // 10 — Studio CV: D3 Akuntansi, then the village cooperative's bookkeeping, written honestly
 const Cv: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s10-edu.png", from: 0, cam: [{ z: 1.25, x: 195, y: 350 }, { z: 1.3, x: 195, y: 370 }] },
-    { src: "s10-exp1.png", from: { w: "membantu", off: -4, f: 0.25 }, cam: [{ z: 1.22, x: 195, y: 320 }, { z: 1.28, x: 195, y: 340 }] },
-    { src: "s10-exp2.png", from: { w: "koperasi", off: -4, f: 0.45 }, cam: [{ z: 1.35, x: 195, y: 460 }] },
-    { src: "s10-exp3.png", from: { w: "menulisnya", off: -4, f: 0.65 }, cam: [{ z: 1.35, x: 195, y: 460 }, { z: 1.3, x: 195, y: 450 }] },
+    { src: "s10-edu.png", from: 0, marks: [{ x: 50, y: 317, w: 290, h: 38, at: 0.04 }, { x: 50, y: 388, w: 290, h: 38, at: 0.12 }] },
+    { src: "s10-exp1.png", from: { w: "membantu", off: -4, f: 0.25 }, marks: [{ x: 50, y: 306, w: 290, h: 38, at: { w: "membantu", off: 6, f: 0.3 } }] },
+    { src: "s10-exp2.png", from: { w: "koperasi", off: -4, f: 0.45 } },
+    { src: "s10-exp3.png", from: { w: "menulisnya", off: -4, f: 0.65 }, marks: [{ x: 48, y: 540, w: 296, h: 104, at: { w: "jujur", off: -6, f: 0.85 } }] },
   ]} />
 );
 
@@ -306,10 +307,9 @@ const Apply: FC<SceneProps> = (p) => {
   const { frames, words, lead } = p;
   return (
     <App {...p} shots={[
-      { src: "s11-form.png", from: 0, cam: [{ z: 1.05, x: 195, y: 520 }, { z: 1.25, x: 230, y: 640 }], tap: { x: 282, y: 724, at: { w: "tekan", off: 2, f: 0.12 } } },
-      { src: "s11-form.png", from: { w: "Gratis", off: -6, f: 0.22 }, cam: [{ z: 1.8, x: 260, y: 715 }] },
-      { src: "s11-sent.png", from: { w: "Lamaranku", off: -4, f: 0.35 }, cam: [{ z: 1.3, x: 195, y: 560 }, { z: 1.15, x: 195, y: 500 }] },
-      { src: "s11-apps.png", from: { w: "tanpa", off: -4, f: 0.7 }, cam: [{ z: 1.3, x: 195, y: 400 }] },
+      { src: "s11-form.png", from: 0, marks: [{ x: 202, y: 698, w: 158, h: 50, at: { w: "Gratis", off: -4, f: 0.22 } }], tap: { x: 282, y: 724, at: { w: "tekan", off: 2, f: 0.12 } } },
+      { src: "s11-sent.png", from: { w: "Lamaranku", off: -4, f: 0.35 }, marks: [{ x: 20, y: 676, w: 350, h: 28, at: { w: "Lamaranku", off: 6, f: 0.4 } }] },
+      { src: "s11-apps.png", from: { w: "tanpa", off: -4, f: 0.7 }, marks: [{ x: 40, y: 498, w: 322, h: 112, at: { w: "tanpa", off: 6, f: 0.74 } }] },
     ]}
       over={(f) => {
         const a = at({ w: "sampai", f: 0.45 }, frames, words, lead);
@@ -332,10 +332,10 @@ const Apply: FC<SceneProps> = (p) => {
 // 12 — while waiting: the live seminar "Lolos Interview Kerja Pertama" in the seminar room
 const Seminar: FC<SceneProps> = (p) => (
   <App {...p} shots={[
-    { src: "s12-sem0.png", from: 0, cam: [{ z: 1.05, x: 195, y: 420 }, { z: 1.25, x: 195, y: 330 }] },
-    { src: "s12-sem3.png", from: { w: "seminar", off: 2, f: 0.3 }, cam: [{ z: 1.25, x: 195, y: 330 }] },
-    { src: "s12-sem5.png", from: { w: "Belajar", off: -4, f: 0.5 }, cam: [{ z: 1.25, x: 195, y: 330 }, { z: 1.3, x: 195, y: 330 }] },
-    { src: "s12-sem7.png", from: { w: "gugup", off: -14, f: 0.8 }, cam: [{ z: 1.3, x: 195, y: 330 }] },
+    { src: "s12-sem0.png", from: 0, marks: [{ x: 22, y: 216, w: 290, h: 28, at: 0.08 }] },
+    { src: "s12-sem3.png", from: { w: "seminar", off: 2, f: 0.3 } },
+    { src: "s12-sem5.png", from: { w: "Belajar", off: -4, f: 0.5 }, marks: [{ x: 30, y: 316, w: 128, h: 28, at: { w: "Belajar", off: 6, f: 0.55 } }] },
+    { src: "s12-sem7.png", from: { w: "gugup", off: -14, f: 0.8 }, marks: [{ x: 50, y: 399, w: 196, h: 22, at: { w: "gugup", off: -6, f: 0.85 } }] },
   ]} />
 );
 
@@ -345,17 +345,17 @@ const Called: FC<SceneProps> = (p) => {
   const ring = at({ w: "berbunyi", f: 0.25 }, frames, words, lead);
   return (
     <App {...p} pill={{ text: "Tiga hari kemudian", from: 0, to: { w: "Lamaranku", f: 0.4 } }} shots={[
-      { src: "s13-bell.png", from: 0, cam: [{ z: 1.2, x: 195, y: 420 }, { z: 2.2, x: 330, y: 120 }], tap: { x: 357, y: 31, at: { w: "berbunyi", off: 12, f: 0.3 } } },
-      { src: "s13-dilihat.png", from: { w: "Lamaranku", off: -4, f: 0.4 }, cam: [{ z: 1.3, x: 170, y: 400 }, { z: 1.55, x: 150, y: 420 }] },
-      { src: "s13-notif.png", from: { w: "Lalu", off: -2, f: 0.6 }, cam: [{ z: 1.25, x: 195, y: 300 }] },
-      { src: "s13-invite.png", from: { w: "wawancara", off: -6, f: 0.8 }, cam: [{ z: 1.2, x: 195, y: 320 }, { z: 1.3, x: 195, y: 320 }] },
+      { src: "s13-bell.png", from: 0, marks: [{ x: 342, y: 12, w: 34, h: 36, at: { w: "berbunyi", off: -2, f: 0.28 } }], tap: { x: 357, y: 31, at: { w: "berbunyi", off: 12, f: 0.3 } } },
+      { src: "s13-dilihat.png", from: { w: "Lamaranku", off: -4, f: 0.4 }, marks: [{ x: 100, y: 548, w: 50, h: 20, at: { w: "dilihat", off: -4, f: 0.5 } }] },
+      { src: "s13-notif.png", from: { w: "Lalu", off: -2, f: 0.6 }, marks: [{ x: 40, y: 324, w: 310, h: 86, at: { w: "Lalu", off: 8, f: 0.65 } }] },
+      { src: "s13-invite.png", from: { w: "wawancara", off: -6, f: 0.8 }, marks: [{ x: 52, y: 320, w: 286, h: 76, at: { w: "wawancara", off: 6, f: 0.85 } }] },
     ]}
       over={(f) => {
         const t = f - ring;
         if (t < 0 || t > 40) return null;
         const o = interpolate(t, [0, 6, 30, 40], [0, 1, 1, 0]);
         return (
-          <div style={{ position: "absolute", left: 840, top: 250, transform: `rotate(${wave(f, 14, 6)}deg)`, opacity: o, fontFamily, fontWeight: 800, fontSize: 52, color: "#1b1b1f" }}>
+          <div style={{ position: "absolute", left: 860, top: 120, transform: `rotate(${wave(f, 14, 6)}deg)`, opacity: o, fontFamily, fontWeight: 800, fontSize: 56, color: "#1b1b1f" }}>
             ting!
           </div>
         );
