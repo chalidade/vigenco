@@ -1,0 +1,622 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "lines": {
+  "n1": {
+   "who": "narrator",
+   "text": "Tiga ribu tiga ratus warga. Jalan setapak di Pulau Netizen makin becek dan berantakan.",
+   "hash": "049bc8ecdd27",
+   "duration": 6.037,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "ribu",
+     "start": 0.383,
+     "end": 0.604
+    },
+    {
+     "text": "tiga",
+     "start": 0.639,
+     "end": 0.848
+    },
+    {
+     "text": "ratus",
+     "start": 0.882,
+     "end": 1.138
+    },
+    {
+     "text": "warga.",
+     "start": 1.196,
+     "end": 1.73
+    },
+    {
+     "text": "Jalan",
+     "start": 2.171,
+     "end": 2.45
+    },
+    {
+     "text": "setapak",
+     "start": 2.508,
+     "end": 2.902
+    },
+    {
+     "text": "di",
+     "start": 2.961,
+     "end": 3.019
+    },
+    {
+     "text": "Pulau",
+     "start": 3.065,
+     "end": 3.274
+    },
+    {
+     "text": "Netizen",
+     "start": 3.309,
+     "end": 3.808
+    },
+    {
+     "text": "makin",
+     "start": 3.924,
+     "end": 4.226
+    },
+    {
+     "text": "becek",
+     "start": 4.284,
+     "end": 4.563
+    },
+    {
+     "text": "dan",
+     "start": 4.621,
+     "end": 4.725
+    },
+    {
+     "text": "berantakan.",
+     "start": 4.783,
+     "end": 6.037
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Pulau ini harus rapi! Mulai hari ini, kita perbaiki semua jalan.",
+   "hash": "f82c99339006",
+   "duration": 5.573,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "ini",
+     "start": 0.441,
+     "end": 0.604
+    },
+    {
+     "text": "harus",
+     "start": 0.65,
+     "end": 0.859
+    },
+    {
+     "text": "rapi!",
+     "start": 0.94,
+     "end": 1.602
+    },
+    {
+     "text": "Mulai",
+     "start": 2.717,
+     "end": 3.181
+    },
+    {
+     "text": "hari",
+     "start": 3.251,
+     "end": 3.471
+    },
+    {
+     "text": "ini,",
+     "start": 3.518,
+     "end": 3.889
+    },
+    {
+     "text": "kita",
+     "start": 3.924,
+     "end": 4.214
+    },
+    {
+     "text": "perbaiki",
+     "start": 4.284,
+     "end": 4.807
+    },
+    {
+     "text": "semua",
+     "start": 4.865,
+     "end": 5.132
+    },
+    {
+     "text": "jalan.",
+     "start": 5.19,
+     "end": 5.573
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Dua usulan warga terpilih dari komentar: jalan aspal, lalu sekolah dan apotik.",
+   "hash": "9d06b912dbfc",
+   "duration": 5.294,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "usulan",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "text": "warga",
+     "start": 0.697,
+     "end": 0.952
+    },
+    {
+     "text": "terpilih",
+     "start": 0.998,
+     "end": 1.416
+    },
+    {
+     "text": "dari",
+     "start": 1.474,
+     "end": 1.637
+    },
+    {
+     "text": "komentar:",
+     "start": 1.672,
+     "end": 2.287
+    },
+    {
+     "text": "jalan",
+     "start": 2.496,
+     "end": 2.763
+    },
+    {
+     "text": "aspal,",
+     "start": 2.821,
+     "end": 3.379
+    },
+    {
+     "text": "lalu",
+     "start": 3.587,
+     "end": 3.808
+    },
+    {
+     "text": "sekolah",
+     "start": 3.855,
+     "end": 4.226
+    },
+    {
+     "text": "dan",
+     "start": 4.284,
+     "end": 4.4
+    },
+    {
+     "text": "apotik.",
+     "start": 4.458,
+     "end": 5.294
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Wah, mulus! Sandalku nggak kotor lagi.",
+   "hash": "8bfd40a72ae3",
+   "duration": 3.529,
+   "words": [
+    {
+     "text": "Wah,",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "mulus!",
+     "start": 0.453,
+     "end": 1.324
+    },
+    {
+     "text": "Sandalku",
+     "start": 1.567,
+     "end": 2.078
+    },
+    {
+     "text": "nggak",
+     "start": 2.113,
+     "end": 2.276
+    },
+    {
+     "text": "kotor",
+     "start": 2.31,
+     "end": 2.554
+    },
+    {
+     "text": "lagi.",
+     "start": 2.612,
+     "end": 3.529
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Dua rumah yang lama dibangun akhirnya selesai. Para tukang pindah ke lahan baru: calon sekolah dan apotik.",
+   "hash": "82959f25b092",
+   "duration": 6.827,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "rumah",
+     "start": 0.279,
+     "end": 0.499
+    },
+    {
+     "text": "yang",
+     "start": 0.546,
+     "end": 0.662
+    },
+    {
+     "text": "lama",
+     "start": 0.708,
+     "end": 0.894
+    },
+    {
+     "text": "dibangun",
+     "start": 0.929,
+     "end": 1.312
+    },
+    {
+     "text": "akhirnya",
+     "start": 1.393,
+     "end": 1.741
+    },
+    {
+     "text": "selesai.",
+     "start": 1.776,
+     "end": 2.392
+    },
+    {
+     "text": "Para",
+     "start": 2.717,
+     "end": 2.961
+    },
+    {
+     "text": "tukang",
+     "start": 3.007,
+     "end": 3.274
+    },
+    {
+     "text": "pindah",
+     "start": 3.32,
+     "end": 3.611
+    },
+    {
+     "text": "ke",
+     "start": 3.657,
+     "end": 3.715
+    },
+    {
+     "text": "lahan",
+     "start": 3.762,
+     "end": 3.959
+    },
+    {
+     "text": "baru:",
+     "start": 4.017,
+     "end": 4.47
+    },
+    {
+     "text": "calon",
+     "start": 4.911,
+     "end": 5.236
+    },
+    {
+     "text": "sekolah",
+     "start": 5.283,
+     "end": 5.666
+    },
+    {
+     "text": "dan",
+     "start": 5.724,
+     "end": 5.84
+    },
+    {
+     "text": "apotik.",
+     "start": 5.898,
+     "end": 6.827
+    }
+   ]
+  },
+  "p2": {
+   "who": "presiden",
+   "text": "Satu lagi. Saya presiden, jadi yang ini tanpa undian. Kita bangun masjid.",
+   "hash": "ec2f6839b5a8",
+   "duration": 6.223,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "lagi.",
+     "start": 0.395,
+     "end": 0.975
+    },
+    {
+     "text": "Saya",
+     "start": 1.358,
+     "end": 1.649
+    },
+    {
+     "text": "presiden,",
+     "start": 1.707,
+     "end": 2.473
+    },
+    {
+     "text": "jadi",
+     "start": 2.717,
+     "end": 3.007
+    },
+    {
+     "text": "yang",
+     "start": 3.065,
+     "end": 3.204
+    },
+    {
+     "text": "ini",
+     "start": 3.274,
+     "end": 3.471
+    },
+    {
+     "text": "tanpa",
+     "start": 3.529,
+     "end": 3.889
+    },
+    {
+     "text": "undian.",
+     "start": 3.959,
+     "end": 4.551
+    },
+    {
+     "text": "Kita",
+     "start": 4.702,
+     "end": 5.027
+    },
+    {
+     "text": "bangun",
+     "start": 5.085,
+     "end": 5.364
+    },
+    {
+     "text": "masjid.",
+     "start": 5.41,
+     "end": 6.223
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Setuju, Pak! Saya selalu setuju.",
+   "hash": "edb4399cc4fe",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Setuju,",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "Pak!",
+     "start": 0.511,
+     "end": 0.697
+    },
+    {
+     "text": "Saya",
+     "start": 0.813,
+     "end": 0.975
+    },
+    {
+     "text": "selalu",
+     "start": 0.998,
+     "end": 1.254
+    },
+    {
+     "text": "setuju.",
+     "start": 1.289,
+     "end": 1.95
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Enak ya jadi presiden. Mau apa, tinggal bilang.",
+   "hash": "1adcc3cbb323",
+   "duration": 3.251,
+   "words": [
+    {
+     "text": "Enak",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ya",
+     "start": 0.395,
+     "end": 0.453
+    },
+    {
+     "text": "jadi",
+     "start": 0.488,
+     "end": 0.65
+    },
+    {
+     "text": "presiden.",
+     "start": 0.685,
+     "end": 1.265
+    },
+    {
+     "text": "Mau",
+     "start": 1.591,
+     "end": 1.811
+    },
+    {
+     "text": "apa,",
+     "start": 1.892,
+     "end": 2.206
+    },
+    {
+     "text": "tinggal",
+     "start": 2.241,
+     "end": 2.508
+    },
+    {
+     "text": "bilang.",
+     "start": 2.554,
+     "end": 3.251
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga",
+   "text": "Sstt. Kalau mau gulingkan presiden, harus punya cara.",
+   "hash": "0af8284fb9da",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Sstt.",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "Kalau",
+     "start": 0.58,
+     "end": 0.848
+    },
+    {
+     "text": "mau",
+     "start": 0.894,
+     "end": 1.022
+    },
+    {
+     "text": "gulingkan",
+     "start": 1.057,
+     "end": 1.428
+    },
+    {
+     "text": "presiden,",
+     "start": 1.474,
+     "end": 2.136
+    },
+    {
+     "text": "harus",
+     "start": 2.183,
+     "end": 2.392
+    },
+    {
+     "text": "punya",
+     "start": 2.438,
+     "end": 2.647
+    },
+    {
+     "text": "cara.",
+     "start": 2.694,
+     "end": 3.39
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Siapa pun boleh menggulingkan presiden, asal punya cara. Apa caramu? Tulis di komentar.",
+   "hash": "5ab237b96094",
+   "duration": 5.526,
+   "words": [
+    {
+     "text": "Siapa",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "pun",
+     "start": 0.383,
+     "end": 0.522
+    },
+    {
+     "text": "boleh",
+     "start": 0.569,
+     "end": 0.766
+    },
+    {
+     "text": "menggulingkan",
+     "start": 0.789,
+     "end": 1.254
+    },
+    {
+     "text": "presiden,",
+     "start": 1.312,
+     "end": 1.962
+    },
+    {
+     "text": "asal",
+     "start": 2.078,
+     "end": 2.357
+    },
+    {
+     "text": "punya",
+     "start": 2.403,
+     "end": 2.589
+    },
+    {
+     "text": "cara.",
+     "start": 2.635,
+     "end": 3.065
+    },
+    {
+     "text": "Apa",
+     "start": 3.274,
+     "end": 3.506
+    },
+    {
+     "text": "caramu?",
+     "start": 3.541,
+     "end": 4.075
+    },
+    {
+     "text": "Tulis",
+     "start": 4.249,
+     "end": 4.551
+    },
+    {
+     "text": "di",
+     "start": 4.598,
+     "end": 4.656
+    },
+    {
+     "text": "komentar.",
+     "start": 4.69,
+     "end": 5.526
+    }
+   ]
+  }
+ }
+}
