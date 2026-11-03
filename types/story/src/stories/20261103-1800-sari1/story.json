@@ -1,0 +1,69 @@
+{
+  "id": "20261103-1800-sari1",
+  "title": "Satu Langkah dari Rumah",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Namaku Sari. Umurku dua puluh dua. Ijazah D3 Akuntansi-ku sudah setahun tersimpan di map plastik, di atas lemari.",
+      "visual": "Act 1, grey-blue dawn in Sumba Timur. Wooden stilt house on savanna hills, sea behind. A rooster crows on the fence; Ibu fries pisang goreng in a wok under the house, steam rising. Push in through the window to the top of a cupboard where a plastic folder holds the diploma; Sari (blue hijab, cream blouse) looks up at it."
+    },
+    {
+      "narration": "Setiap ada job fair, tempatnya selalu jauh. Tiket kapal dan bus, hampir dua juta. Uang sebanyak itu, ibu butuh tiga bulan berjualan.",
+      "visual": "Close on Sari's hands holding a cracked phone with a job fair poster (JAKARTA). Pull out to a map line from Sumba to Jakarta, 2.000 km, a ship and a bus ticking up a price to ~Rp2 juta, then Ibu's tray of pisang goreng counting coins over three months."
+    },
+    {
+      "narration": "Jadi aku hanya bisa melihat. Orang lain datang dengan kemeja rapi. Aku tidak punya ongkos untuk datang.",
+      "visual": "Dusk on the shore. Sari closes the phone and sits looking at the sea; a far ship sails away with tiny silhouettes in neat shirts. Waves, grass sway, birds; the light fades to blue.",
+      "pause": 1.2
+    },
+    {
+      "narration": "Sampai suatu malam, adikku mengirim tautan. Katanya, 'Kak, job fair-nya bisa dari HP.'",
+      "visual": "Turn: night, a chat bubble from the little brother with a link pops on the phone, then the phone frame shows the real jobfair.co.id home page, panning down from the headline to the live hall preview. Tap on 'Cari lowongan sekarang'."
+    },
+    {
+      "narration": "Tidak perlu tiket. Tidak perlu ongkos. Aku hanya perlu masuk.",
+      "visual": "App: the real Google sign-in card, tap 'Masuk dengan Google', then the character creator: hijab picked, skin and colours set, name Sari, tap 'Masuk job fair'."
+    },
+    {
+      "narration": "Untuk pertama kalinya, aku memakai blazer. Memang hanya di layar. Tapi rasanya, aku pantas berada di sana.",
+      "visual": "App: the Lemari (wardrobe), Baju tab, tap Blazer, the preview avatar turns; zoom on the avatar in blazer and hijab."
+    },
+    {
+      "narration": "Aulanya ramai. Ada orang dari Medan, dari Makassar, dari Papua. Semua sama-sama sedang berjuang.",
+      "visual": "App: real recording of Sari walking through a booth floor, company stands left and right, other visitors and recruiters around."
+    },
+    {
+      "narration": "Aku naik lift, mencari bagian keuangan, seperti orang yang benar-benar datang.",
+      "visual": "App: Peta (map) with the search 'akuntansi', the result card, tap 'Jalan ke sini', the lift panel, arrival on Lantai 2 Teknologi & Keuangan."
+    },
+    {
+      "narration": "Staf Akuntansi. Penempatan bisa di daerah. Aku membacanya tiga kali, takut salah baca.",
+      "visual": "App: the company stand and the job card Staf Akuntansi; slow zoom on the title and the placement line, read three times (highlight sweeps)."
+    },
+    {
+      "narration": "Pengalamanku hanya membantu pembukuan koperasi desa. Aku menulisnya dengan jujur.",
+      "visual": "App: Studio CV, Pendidikan and Pengalaman kerja filled in: D3 Akuntansi, pembukuan koperasi desa."
+    },
+    {
+      "narration": "Satu tekan. Gratis. Lamaranku sampai di meja HRD di Jakarta, tanpa aku harus menyeberang laut.",
+      "visual": "App: the apply form, tap 'Kirim lamaran · Gratis', the toast 'Lamaran terkirim', the Lamaran list. A paper plane line flies off the phone toward the top."
+    },
+    {
+      "narration": "Sambil menunggu, aku ikut seminar. Belajar menjawab pertanyaan yang dulu membuatku gugup.",
+      "visual": "App: Sari sits in the seminar room, the live seminar 'Lolos Interview Kerja Pertama' with slides changing."
+    },
+    {
+      "narration": "Tiga hari kemudian, ponselku berbunyi. Lamaranku dilihat. Lalu, aku dipanggil wawancara.",
+      "visual": "App: 'Tiga hari kemudian' card, the bell badge, the Lamaran status 'Dilihat', then the notification and the interview invitation card."
+    },
+    {
+      "narration": "Ibu menangis, padahal belum ada yang pasti. Tapi malam itu kami tahu satu hal: jarak tidak lagi menentukan mimpi siapa yang boleh dikejar.",
+      "visual": "Act 3, sunrise gold. Ibu hugs Sari in front of the stilt house, sun rising over the sea, light rays. End card: black with yellow jobfair mark, 'Job fair untuk semua, dari mana saja.' and 'jobfair.co.id'.",
+      "pause": 3.4
+    }
+  ]
+}
