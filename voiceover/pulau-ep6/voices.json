@@ -292,44 +292,16 @@
   "description": "Friendly and comforting voice ready to narrate your stories."
  },
  {
-  "id": "iWydkXKoiVtvdn4vLKp9",
-  "name": "Cahaya - Youthful, Clear and Engaging (vigenco)",
-  "category": "professional",
-  "labels": {
-   "gender": "female",
-   "descriptive": "cute",
-   "age": "young",
-   "accent": "standard",
-   "language": "id",
-   "use_case": "social_media"
-  },
-  "description": "A trendy young Indonesian female voice, perfect for narration and social media with a fresh, engaging tone."
- },
- {
-  "id": "plgKUYgnlZ1DCNh54DwJ",
-  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
-  "category": "professional",
-  "labels": {
-   "gender": "male",
-   "descriptive": "casual",
-   "age": "young",
-   "accent": "standard",
-   "language": "id",
-   "use_case": "social_media"
-  },
-  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
- },
- {
   "id": "RWiGLY9uXI70QL540WNd",
   "name": "Putra - Smooth, Clear and Engaging (vigenco)",
   "category": "professional",
   "labels": {
+   "age": "middle_aged",
    "gender": "male",
    "descriptive": "excited",
-   "age": "middle_aged",
-   "accent": "standard",
    "language": "id",
-   "use_case": "narrative_story"
+   "use_case": "narrative_story",
+   "accent": "standard"
   },
   "description": "A young Indonesian man with a fiery enthusiasm, to convey messages more clearly."
  },
@@ -338,26 +310,54 @@
   "name": "Putri Maharani - Neutral and WItty (vigenco)",
   "category": "professional",
   "labels": {
+   "age": "middle_aged",
    "gender": "female",
    "descriptive": "cute",
-   "age": "middle_aged",
-   "accent": "javanese",
    "language": "id",
+   "accent": "javanese",
    "use_case": "narrative_story"
   },
   "description": "The voice that transforms words into unforgettable experiences. With a warm, expressive tone and a storytelling style that captivates hearts, Putri Maharani voice will brings your projects to life. Whether you’re crafting an enchanting children’s tale, an edge-of-your-seat audiobook, or an inspiring documentary, Putri Maharani voice connects with listeners on an emotional level. Putri Maharani ability to evoke emotion ensures your audience stays engaged and inspired."
+ },
+ {
+  "id": "plgKUYgnlZ1DCNh54DwJ",
+  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
+  "category": "professional",
+  "labels": {
+   "use_case": "social_media",
+   "descriptive": "casual",
+   "gender": "male",
+   "language": "id",
+   "age": "young",
+   "accent": "standard"
+  },
+  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
+ },
+ {
+  "id": "iWydkXKoiVtvdn4vLKp9",
+  "name": "Cahaya - Youthful, Clear and Engaging (vigenco)",
+  "category": "professional",
+  "labels": {
+   "use_case": "social_media",
+   "gender": "female",
+   "descriptive": "cute",
+   "language": "id",
+   "accent": "standard",
+   "age": "young"
+  },
+  "description": "A trendy young Indonesian female voice, perfect for narration and social media with a fresh, engaging tone."
  },
  {
   "id": "gmnazjXOFoOcWA59sd5m",
   "name": "Kira",
   "category": "professional",
   "labels": {
+   "accent": "standard",
    "gender": "female",
    "descriptive": "calm",
-   "age": "young",
-   "accent": "standard",
    "language": "id",
-   "use_case": "narrative_story"
+   "use_case": "narrative_story",
+   "age": "young"
   },
   "description": "A young, vibrant 17-year-old female voice, clear and expressive. Perfect for youth-centered content."
  }

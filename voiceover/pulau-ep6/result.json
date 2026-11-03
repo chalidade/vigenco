@@ -10,79 +10,79 @@
  "lines": {
   "n1": {
    "who": "narrator",
-   "text": "Tiga ribu tiga ratus warga. Jalan setapak di Pulau Netizen makin becek dan berantakan.",
-   "hash": "049bc8ecdd27",
-   "duration": 6.037,
+   "text": "Tiga ribu lima ratus warga. Jalan setapak di Pulau Netizen makin becek dan berantakan.",
+   "hash": "af5731f3e861",
+   "duration": 5.666,
    "words": [
     {
      "text": "Tiga",
      "start": 0,
-     "end": 0.348
+     "end": 0.313
     },
     {
      "text": "ribu",
-     "start": 0.383,
-     "end": 0.604
+     "start": 0.348,
+     "end": 0.569
     },
     {
-     "text": "tiga",
-     "start": 0.639,
-     "end": 0.848
+     "text": "lima",
+     "start": 0.615,
+     "end": 0.789
     },
     {
      "text": "ratus",
-     "start": 0.882,
-     "end": 1.138
+     "start": 0.824,
+     "end": 1.068
     },
     {
      "text": "warga.",
-     "start": 1.196,
-     "end": 1.73
+     "start": 1.126,
+     "end": 1.695
     },
     {
      "text": "Jalan",
-     "start": 2.171,
-     "end": 2.45
+     "start": 2.136,
+     "end": 2.415
     },
     {
      "text": "setapak",
-     "start": 2.508,
-     "end": 2.902
+     "start": 2.461,
+     "end": 2.833
     },
     {
      "text": "di",
-     "start": 2.961,
-     "end": 3.019
+     "start": 2.879,
+     "end": 2.937
     },
     {
      "text": "Pulau",
-     "start": 3.065,
-     "end": 3.274
+     "start": 2.984,
+     "end": 3.204
     },
     {
      "text": "Netizen",
-     "start": 3.309,
-     "end": 3.808
+     "start": 3.239,
+     "end": 3.692
     },
     {
      "text": "makin",
-     "start": 3.924,
-     "end": 4.226
+     "start": 3.75,
+     "end": 3.982
     },
     {
      "text": "becek",
-     "start": 4.284,
-     "end": 4.563
+     "start": 4.029,
+     "end": 4.284
     },
     {
      "text": "dan",
-     "start": 4.621,
-     "end": 4.725
+     "start": 4.331,
+     "end": 4.423
     },
     {
      "text": "berantakan.",
-     "start": 4.783,
-     "end": 6.037
+     "start": 4.481,
+     "end": 5.666
     }
    ]
   },
