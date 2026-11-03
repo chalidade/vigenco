@@ -1,31 +1,132 @@
 {
  "model": "eleven_multilingual_v2",
- "voices": {},
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m"
+ },
  "roles": {
-  "aru": { "gender": "male", "age": "young", "words": ["young", "energetic", "casual", "friendly"] },
-  "presiden": { "gender": "male", "age": "middle", "words": ["deep", "authoritative", "confident", "narration"] },
-  "warga": { "gender": "female", "age": "young", "words": ["cheerful", "bright", "friendly"] },
-  "penjual": { "gender": "female", "age": "middle", "words": ["warm", "lively", "expressive"] }
+  "aru": {
+   "gender": "male",
+   "age": "young",
+   "words": [
+    "young",
+    "energetic",
+    "casual",
+    "friendly"
+   ]
+  },
+  "presiden": {
+   "gender": "male",
+   "age": "middle",
+   "words": [
+    "deep",
+    "authoritative",
+    "confident",
+    "narration"
+   ]
+  },
+  "warga": {
+   "gender": "female",
+   "age": "young",
+   "words": [
+    "cheerful",
+    "bright",
+    "friendly"
+   ]
+  },
+  "penjual": {
+   "gender": "female",
+   "age": "middle",
+   "words": [
+    "warm",
+    "lively",
+    "expressive"
+   ]
+  }
  },
  "settings": {
-  "narrator": { "stability": 0.55, "style": 0.25 },
-  "aru": { "stability": 0.35, "style": 0.5 },
-  "presiden": { "stability": 0.4, "style": 0.55 },
-  "warga": { "stability": 0.35, "style": 0.5 },
-  "penjual": { "stability": 0.3, "style": 0.6 }
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "penjual": {
+   "stability": 0.3,
+   "style": 0.6
+  }
  },
  "lines": [
-  { "id": "n1", "who": "narrator", "text": "Sementara itu, Aru masih di pulau seberang. Mencari tahu siapa yang menulis pesan itu." },
-  { "id": "a1", "who": "aru", "text": "Halo? Ada orang di sini?" },
-  { "id": "a2", "who": "aru", "text": "Cuma burung. Oke. Aku nggak takut. Sama sekali." },
-  { "id": "n2", "who": "narrator", "text": "Tapi di Pulau Netizen, warga nggak tinggal diam." },
-  { "id": "w1", "who": "warga", "text": "Aru lagi pergi. Terus, siapa yang mimpin kita?" },
-  { "id": "n3", "who": "narrator", "text": "Dua komentar terpilih. Etet minta jadi presiden. Dan Warning minta pasar tradisional." },
-  { "id": "p1", "who": "presiden", "text": "Warga sekalian! Saya sudah follow. Jadi mulai hari ini, saya presiden!" },
-  { "id": "w2", "who": "warga", "text": "Hidup Pak Presiden!" },
-  { "id": "p2", "who": "presiden", "text": "Keputusan pertama saya: kita bangun pasar tradisional pertama!" },
-  { "id": "s1", "who": "penjual", "text": "Ikan segar, ikan segar! Baru ditangkap perahu nelayan!" },
-  { "id": "a3", "who": "aru", "text": "Eh, kok pulau kita rame banget? Tunggu. Kita punya presiden?!" },
-  { "id": "n4", "who": "narrator", "text": "Apa keputusan kedua Pak Presiden? Tulis di komentar." }
- ]
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Sementara itu, Aru masih di pulau seberang. Mencari tahu siapa yang menulis pesan itu."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Halo? Ada orang di sini?"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Cuma burung. Oke. Aku nggak takut. Sama sekali."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Tapi di Pulau Netizen, warga nggak tinggal diam."
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Aru lagi pergi. Terus, siapa yang mimpin kita?"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Dua komentar terpilih. Etet minta jadi presiden. Dan Warning minta pasar tradisional."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Warga sekalian! Saya sudah follow. Jadi mulai hari ini, saya presiden!"
+  },
+  {
+   "id": "w2",
+   "who": "warga",
+   "text": "Hidup Pak Presiden!"
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Keputusan pertama saya: kita bangun pasar tradisional pertama!"
+  },
+  {
+   "id": "s1",
+   "who": "penjual",
+   "text": "Ikan segar, ikan segar! Baru ditangkap perahu nelayan!"
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Eh, kok pulau kita rame banget? Tunggu. Kita punya presiden?!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Apa keputusan kedua Pak Presiden? Tulis di komentar."
+  }
+ ],
+ "useLibrary": true,
+ "language": "id"
 }
