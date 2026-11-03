@@ -1,0 +1,59 @@
+name: Voice over
+run-name: "Voice over ${{ inputs.dir || github.event.head_commit.message }}"
+
+# Narrator + character voices (ElevenLabs) for an edited video.
+# Commit voiceover/<id>/lines.json and the MP3s, voices.json and result.json are committed back.
+# Needs the repository secret ELEVENLABS_API_KEY; optional variable ELEVENLABS_VOICE_ID = narrator voice.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: 'Folder with lines.json (e.g. voiceover/pulau-ep4)'
+        required: true
+  push:
+    branches: [main]
+    paths: ['voiceover/*/lines.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voiceover
+  cancel-in-progress: false
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Which folders
+        id: dirs
+        shell: bash
+        run: |
+          if [ -n "${{ inputs.dir }}" ]; then echo "list=${{ inputs.dir }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "list=$(git diff --name-only HEAD~1 HEAD -- 'voiceover/*/lines.json' | xargs -r -n1 dirname | sort -u | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+      - name: Make the voices
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+        shell: bash
+        run: |
+          for d in ${{ steps.dirs.outputs.list }}; do
+            [[ "$d" =~ ^voiceover/[a-z0-9-]+$ ]] || { echo "skip $d"; continue; }
+            node bin/voiceover.mjs "$d"
+          done
+      - name: Save to the repo
+        shell: bash
+        run: |
+          git config user.name "vigenco-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add voiceover
+          git commit -m "Voice over: ${{ steps.dirs.outputs.list }}" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 3; done
