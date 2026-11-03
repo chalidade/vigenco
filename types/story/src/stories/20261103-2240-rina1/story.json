@@ -1,0 +1,45 @@
+{
+  "id": "20261103-2240-rina1",
+  "title": "Di Seberang Laut",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Namaku Rina, HRD di Jakarta. Setiap job fair, berkas yang datang selalu dari kota yang sama.",
+      "visual": "Act 1, Jakarta at night (deep navy, city lights, warm desk lamp). Bu Rina at her office desk by the window, a tall stack of paper folders all stamped with the same city; she lifts one folder, sighs; city lights twinkle, the lamp breathes."
+    },
+    {
+      "narration": "Tahun ini kami membuka stand virtual. Pelamarnya datang dari seluruh Indonesia.",
+      "visual": "Real company portal of the demo seed company Bank Sejahtera on the phone: the Pelamar tab, the applicant list, then filtered to Staf Akuntansi. Place pins (Sumba Timur, Aceh, Papua…) pop beside the phone on 'seluruh Indonesia'."
+    },
+    {
+      "narration": "Satu nama membuatku berhenti. Sari, dari Sumba Timur. Pengalamannya sederhana, tapi ditulis dengan jujur.",
+      "visual": "Real applicant detail: Sari's row is tapped; her name and headline get an outline on 'Sari'; then the facts: Domisili Kab. Sumba Timur (outline on 'Sumba Timur'), Pendidikan, and Pengalaman kerja (koperasi desa) outlined on 'jujur'."
+    },
+    {
+      "narration": "Aku kirim undangan wawancara. Lewat video, supaya dia tidak perlu menyeberang laut.",
+      "visual": "Real pipeline: tap Shortlist, then the Jadwalkan interview form with Cara 'Video call' outlined on 'video', tap Kirim undangan, the toast 'Undangan interview terkirim ke pelamar'. A small boat crossed out beside the phone on 'menyeberang laut'."
+    },
+    {
+      "narration": "Dia gugup. Tapi saat kutanya soal kas koperasi, jawabannya runtut, seperti orang yang sudah lama dipercaya.",
+      "visual": "Real in-app video call (CallScreen) from the portal: ringing, then live; the remote picture is a drawn illustration of Sari (placeholder webcam, never a real person), Rina's own camera off. Timer runs; outline on the timer on 'runtut'."
+    },
+    {
+      "narration": "Cabang kami di Kupang butuh orang yang paham daerahnya. Selama ini, kami hanya tidak tahu cara menemukannya.",
+      "visual": "Act 3 turn, illustration: Bu Rina at a wall map of Indonesia in the office at dusk; she pins a red marker on Kupang, a dotted line links Kupang to Sumba; 'Kupang' label pops on the word."
+    },
+    {
+      "narration": "Jumat sore, aku ubah statusnya. Diterima.",
+      "visual": "Real portal: Friday afternoon, the pipeline's 'Terima' button tapped, status pill turns 'Diterima' (outline). A soft confetti burst outside the phone on 'Diterima'.",
+      "pause": 1.4
+    },
+    {
+      "narration": "Aku tidak melihat wajahnya. Tapi aku tahu, hari itu di seberang laut, satu keluarga menangis bahagia.",
+      "visual": "Illustration, split screen: top half Rina smiling at her desk in Jakarta at golden hour, bottom half Sari and Ibu hugging at the stilt house in Sumba at sunrise; the sea between them glows. Then black end card: 'Temukan talenta dari seluruh Indonesia.' in white and 'jobfair.co.id' in #FFF000.",
+      "pause": 3.4
+    }
+  ]
+}
