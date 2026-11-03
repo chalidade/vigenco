@@ -1,0 +1,625 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "n1": {
+   "who": "narrator",
+   "text": "Tiga ribu dua ratus warga. Pulau Netizen makin ramai, tapi presidennya kerja sendirian.",
+   "hash": "9c2c0c24d9db",
+   "duration": 6.362,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ribu",
+     "start": 0.372,
+     "end": 0.639
+    },
+    {
+     "text": "dua",
+     "start": 0.685,
+     "end": 0.848
+    },
+    {
+     "text": "ratus",
+     "start": 0.882,
+     "end": 1.126
+    },
+    {
+     "text": "warga.",
+     "start": 1.184,
+     "end": 1.707
+    },
+    {
+     "text": "Pulau",
+     "start": 2.148,
+     "end": 2.438
+    },
+    {
+     "text": "Netizen",
+     "start": 2.473,
+     "end": 2.868
+    },
+    {
+     "text": "makin",
+     "start": 2.914,
+     "end": 3.135
+    },
+    {
+     "text": "ramai,",
+     "start": 3.193,
+     "end": 3.738
+    },
+    {
+     "text": "tapi",
+     "start": 3.82,
+     "end": 4.087
+    },
+    {
+     "text": "presidennya",
+     "start": 4.133,
+     "end": 4.702
+    },
+    {
+     "text": "kerja",
+     "start": 4.76,
+     "end": 5.016
+    },
+    {
+     "text": "sendirian.",
+     "start": 5.05,
+     "end": 6.362
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Saya butuh bantuan. Siapa yang mau jadi wakil saya?",
+   "hash": "b7a3541e49a0",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Saya",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "butuh",
+     "start": 0.313,
+     "end": 0.627
+    },
+    {
+     "text": "bantuan.",
+     "start": 0.662,
+     "end": 1.265
+    },
+    {
+     "text": "Siapa",
+     "start": 1.289,
+     "end": 1.66
+    },
+    {
+     "text": "yang",
+     "start": 1.695,
+     "end": 1.823
+    },
+    {
+     "text": "mau",
+     "start": 1.869,
+     "end": 1.95
+    },
+    {
+     "text": "jadi",
+     "start": 1.997,
+     "end": 2.159
+    },
+    {
+     "text": "wakil",
+     "start": 2.194,
+     "end": 2.473
+    },
+    {
+     "text": "saya?",
+     "start": 2.519,
+     "end": 2.926
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Saya, Pak! Saya jadi wakil presiden. Udah paket lengkap!",
+   "hash": "ca0e84083c0a",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Saya,",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "Pak!",
+     "start": 0.395,
+     "end": 0.65
+    },
+    {
+     "text": "Saya",
+     "start": 0.731,
+     "end": 1.01
+    },
+    {
+     "text": "jadi",
+     "start": 1.057,
+     "end": 1.231
+    },
+    {
+     "text": "wakil",
+     "start": 1.277,
+     "end": 1.533
+    },
+    {
+     "text": "presiden.",
+     "start": 1.591,
+     "end": 2.136
+    },
+    {
+     "text": "Udah",
+     "start": 2.345,
+     "end": 2.601
+    },
+    {
+     "text": "paket",
+     "start": 2.624,
+     "end": 2.879
+    },
+    {
+     "text": "lengkap!",
+     "start": 2.926,
+     "end": 3.344
+    }
+   ]
+  },
+  "p2": {
+   "who": "presiden",
+   "text": "Paket lengkap… terus siapa yang kerja?",
+   "hash": "7195d2115fe4",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Paket",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "lengkap…",
+     "start": 0.441,
+     "end": 1.022
+    },
+    {
+     "text": "terus",
+     "start": 1.463,
+     "end": 1.718
+    },
+    {
+     "text": "siapa",
+     "start": 1.741,
+     "end": 2.02
+    },
+    {
+     "text": "yang",
+     "start": 2.043,
+     "end": 2.148
+    },
+    {
+     "text": "kerja?",
+     "start": 2.183,
+     "end": 2.926
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Keputusan kedua datang dari komentar warga: koperasi desa, di atas awan, lengkap dengan tangganya.",
+   "hash": "d52a4db4f10e",
+   "duration": 6.548,
+   "words": [
+    {
+     "text": "Keputusan",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "kedua",
+     "start": 0.604,
+     "end": 0.952
+    },
+    {
+     "text": "datang",
+     "start": 0.998,
+     "end": 1.265
+    },
+    {
+     "text": "dari",
+     "start": 1.312,
+     "end": 1.474
+    },
+    {
+     "text": "komentar",
+     "start": 1.521,
+     "end": 1.916
+    },
+    {
+     "text": "warga:",
+     "start": 1.974,
+     "end": 2.496
+    },
+    {
+     "text": "koperasi",
+     "start": 2.612,
+     "end": 3.135
+    },
+    {
+     "text": "desa,",
+     "start": 3.193,
+     "end": 3.68
+    },
+    {
+     "text": "di",
+     "start": 3.796,
+     "end": 3.889
+    },
+    {
+     "text": "atas",
+     "start": 3.947,
+     "end": 4.156
+    },
+    {
+     "text": "awan,",
+     "start": 4.226,
+     "end": 4.679
+    },
+    {
+     "text": "lengkap",
+     "start": 4.888,
+     "end": 5.248
+    },
+    {
+     "text": "dengan",
+     "start": 5.329,
+     "end": 5.55
+    },
+    {
+     "text": "tangganya.",
+     "start": 5.596,
+     "end": 6.548
+    }
+   ]
+  },
+  "v2": {
+   "who": "wapres",
+   "text": "Ayo naik! Lompat dari awan ke awan!",
+   "hash": "38c4b40eb173",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Ayo",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "naik!",
+     "start": 0.244,
+     "end": 0.464
+    },
+    {
+     "text": "Lompat",
+     "start": 0.522,
+     "end": 0.836
+    },
+    {
+     "text": "dari",
+     "start": 0.882,
+     "end": 1.033
+    },
+    {
+     "text": "awan",
+     "start": 1.091,
+     "end": 1.3
+    },
+    {
+     "text": "ke",
+     "start": 1.358,
+     "end": 1.416
+    },
+    {
+     "text": "awan!",
+     "start": 1.44,
+     "end": 2.136
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Aduh! Jatuh lagi…",
+   "hash": "65e8b11e0155",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Aduh!",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "Jatuh",
+     "start": 0.546,
+     "end": 0.894
+    },
+    {
+     "text": "lagi…",
+     "start": 0.929,
+     "end": 1.625
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Di atas awan, Kopdes pertama Pulau Netizen dibuka. Warga menyetor ikan dan kelapa dari pasar.",
+   "hash": "c2b49dee9812",
+   "duration": 5.991,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.104
+    },
+    {
+     "text": "atas",
+     "start": 0.151,
+     "end": 0.36
+    },
+    {
+     "text": "awan,",
+     "start": 0.418,
+     "end": 0.848
+    },
+    {
+     "text": "Kopdes",
+     "start": 0.94,
+     "end": 1.289
+    },
+    {
+     "text": "pertama",
+     "start": 1.347,
+     "end": 1.672
+    },
+    {
+     "text": "Pulau",
+     "start": 1.707,
+     "end": 1.904
+    },
+    {
+     "text": "Netizen",
+     "start": 1.939,
+     "end": 2.31
+    },
+    {
+     "text": "dibuka.",
+     "start": 2.357,
+     "end": 2.961
+    },
+    {
+     "text": "Warga",
+     "start": 3.344,
+     "end": 3.669
+    },
+    {
+     "text": "menyetor",
+     "start": 3.704,
+     "end": 4.052
+    },
+    {
+     "text": "ikan",
+     "start": 4.11,
+     "end": 4.342
+    },
+    {
+     "text": "dan",
+     "start": 4.389,
+     "end": 4.505
+    },
+    {
+     "text": "kelapa",
+     "start": 4.563,
+     "end": 4.841
+    },
+    {
+     "text": "dari",
+     "start": 4.888,
+     "end": 5.039
+    },
+    {
+     "text": "pasar.",
+     "start": 5.085,
+     "end": 5.991
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Ada gambar di balik peta ini. Mercusuar kita… dengan satu lampu menyala.",
+   "hash": "b4258c75e249",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Ada",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "gambar",
+     "start": 0.372,
+     "end": 0.743
+    },
+    {
+     "text": "di",
+     "start": 0.801,
+     "end": 0.859
+    },
+    {
+     "text": "balik",
+     "start": 0.906,
+     "end": 1.115
+    },
+    {
+     "text": "peta",
+     "start": 1.149,
+     "end": 1.37
+    },
+    {
+     "text": "ini.",
+     "start": 1.416,
+     "end": 1.683
+    },
+    {
+     "text": "Mercusuar",
+     "start": 2.009,
+     "end": 2.461
+    },
+    {
+     "text": "kita…",
+     "start": 2.496,
+     "end": 2.914
+    },
+    {
+     "text": "dengan",
+     "start": 3.297,
+     "end": 3.518
+    },
+    {
+     "text": "satu",
+     "start": 3.553,
+     "end": 3.727
+    },
+    {
+     "text": "lampu",
+     "start": 3.773,
+     "end": 3.971
+    },
+    {
+     "text": "menyala.",
+     "start": 4.005,
+     "end": 4.505
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Tunggu. Itu awan apa di atas pulau kita?!",
+   "hash": "f6190aec4295",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Tunggu.",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "Itu",
+     "start": 0.534,
+     "end": 0.755
+    },
+    {
+     "text": "awan",
+     "start": 0.801,
+     "end": 0.998
+    },
+    {
+     "text": "apa",
+     "start": 1.068,
+     "end": 1.231
+    },
+    {
+     "text": "di",
+     "start": 1.254,
+     "end": 1.3
+    },
+    {
+     "text": "atas",
+     "start": 1.335,
+     "end": 1.509
+    },
+    {
+     "text": "pulau",
+     "start": 1.567,
+     "end": 1.8
+    },
+    {
+     "text": "kita?!",
+     "start": 1.823,
+     "end": 2.461
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Apa yang dijual pertama di Kopdes? Tulis di komentar.",
+   "hash": "da40477b3ff7",
+   "duration": 3.251,
+   "words": [
+    {
+     "text": "Apa",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "yang",
+     "start": 0.267,
+     "end": 0.36
+    },
+    {
+     "text": "dijual",
+     "start": 0.406,
+     "end": 0.685
+    },
+    {
+     "text": "pertama",
+     "start": 0.743,
+     "end": 1.057
+    },
+    {
+     "text": "di",
+     "start": 1.091,
+     "end": 1.149
+    },
+    {
+     "text": "Kopdes?",
+     "start": 1.184,
+     "end": 1.858
+    },
+    {
+     "text": "Tulis",
+     "start": 1.974,
+     "end": 2.276
+    },
+    {
+     "text": "di",
+     "start": 2.322,
+     "end": 2.38
+    },
+    {
+     "text": "komentar.",
+     "start": 2.426,
+     "end": 3.251
+    }
+   ]
+  }
+ }
+}
