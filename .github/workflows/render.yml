@@ -78,10 +78,20 @@ jobs:
           pip install -q -r requirements.txt
           npm ci --no-audit --no-fund
           npx playwright install --with-deps chromium
+          # story jobs render with the Remotion app in types/story
+          for f in ${{ steps.pick.outputs.files }}; do
+            if [ -f "$f" ] && [ "$(node -p "require('./$f').type")" = "story" ]; then
+              npm ci --prefix types/story --no-audit --no-fund; break
+            fi
+          done
 
       - name: Render
         if: steps.pick.outputs.files != ''
         shell: bash
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
         run: |
           mkdir -p out
           for f in ${{ steps.pick.outputs.files }}; do
@@ -100,3 +110,33 @@ jobs:
             out/*.mp4
             out/*.storyboard.png
           retention-days: 30
+
+      - name: Publish stories to the gallery
+        if: steps.pick.outputs.files != ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # a story job also gets a release video-<story id>, so it shows in the page's gallery
+          for f in ${{ steps.pick.outputs.files }}; do
+            [ -f "$f" ] || continue
+            [ "$(node -p "require('./$f').type")" = "story" ] || continue
+            name=$(basename "$f" .json); id=$(node -p "require('./$f').story")
+            notes=out/$id.notes.md
+            if [ -f "requests/$id/request.json" ]; then
+              node -e '
+                const r = require("./requests/" + process.argv[1] + "/request.json");
+                const j = require("./" + process.argv[2]);
+                const meta = { id: r.id, prompt: r.prompt, format: j.format, brand: j.title || "", type: "story", mode: "story", created: r.created };
+                require("fs").writeFileSync(process.argv[3], "<!-- vigenco " + JSON.stringify(meta) + " -->\n\n" + (r.prompt || "").slice(0, 2000));
+              ' "$id" "$f" "$notes"
+            else
+              echo "$(node -p "require('./$f').title")" > "$notes"
+            fi
+            files=("out/$name.mp4"); [ -f "out/$name.storyboard.png" ] && files+=("out/$name.storyboard.png")
+            if gh release view "video-$id" >/dev/null 2>&1; then
+              gh release upload "video-$id" "${files[@]}" --clobber
+            else
+              gh release create "video-$id" "${files[@]}" --title "$(node -p "require('./$f').title") · $id" --notes-file "$notes" --latest=false
+            fi
+          done
