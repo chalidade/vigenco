@@ -1,0 +1,13 @@
+{
+  "id": "20261104-1556-gsw2",
+  "type": "launch",
+  "prompt": "Jelasin aku dong pola komunikasi untuk saling jaga. Bagaimama data di deliver ke tiap user. Misal A B C D gimana pesan dikirim ke semua group jika C yang kirim. \n\nCek kode dan jelasin detail. Pake analogi juga boleh. Lalu bagaimana jika data di transmit jika ada lora. Multi lora. Dan seterusnya.",
+  "format": "landscape",
+  "links": [
+    "https://saling-jaga.my.id/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-04T08:56:44.424Z",
+  "mode": "full"
+}
