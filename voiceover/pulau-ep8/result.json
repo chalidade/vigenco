@@ -49,84 +49,54 @@
   },
   "n1": {
    "who": "narrator",
-   "text": "Komentar baru belum masuk, jadi kami kocok kotak usulan lama. Keluar: waterpark, dan pembakaran ikan!",
-   "hash": "b3704d42783c",
-   "duration": 6.641,
+   "text": "Kotak usulan lama dikocok! Keluar: waterpark, dan pembakaran ikan!",
+   "hash": "dd8788d97f19",
+   "duration": 4.83,
    "words": [
     {
-     "text": "Komentar",
+     "text": "Kotak",
      "start": 0,
-     "end": 0.464
-    },
-    {
-     "text": "baru",
-     "start": 0.522,
-     "end": 0.708
-    },
-    {
-     "text": "belum",
-     "start": 0.743,
-     "end": 0.929
-    },
-    {
-     "text": "masuk,",
-     "start": 0.952,
-     "end": 1.416
-    },
-    {
-     "text": "jadi",
-     "start": 1.533,
-     "end": 1.73
-    },
-    {
-     "text": "kami",
-     "start": 1.765,
-     "end": 1.939
-    },
-    {
-     "text": "kocok",
-     "start": 1.974,
-     "end": 2.252
-    },
-    {
-     "text": "kotak",
-     "start": 2.276,
-     "end": 2.519
+     "end": 0.383
     },
     {
      "text": "usulan",
-     "start": 2.566,
-     "end": 2.856
+     "start": 0.441,
+     "end": 0.743
     },
     {
-     "text": "lama.",
-     "start": 2.914,
-     "end": 3.355
+     "text": "lama",
+     "start": 0.801,
+     "end": 0.987
+    },
+    {
+     "text": "dikocok!",
+     "start": 1.022,
+     "end": 1.695
     },
     {
      "text": "Keluar:",
-     "start": 3.599,
-     "end": 4.145
+     "start": 1.904,
+     "end": 2.473
     },
     {
      "text": "waterpark,",
-     "start": 4.354,
-     "end": 5.085
+     "start": 2.682,
+     "end": 3.379
     },
     {
      "text": "dan",
-     "start": 5.132,
-     "end": 5.259
+     "start": 3.402,
+     "end": 3.529
     },
     {
      "text": "pembakaran",
-     "start": 5.306,
-     "end": 5.77
+     "start": 3.576,
+     "end": 4.029
     },
     {
      "text": "ikan!",
-     "start": 5.828,
-     "end": 6.641
+     "start": 4.087,
+     "end": 4.83
     }
    ]
   },
@@ -349,64 +319,39 @@
   },
   "n4": {
    "who": "narrator",
-   "text": "Usulan kedua: pembakaran ikan, di dekat dermaga. Nelayan langsung bakar tangkapannya.",
-   "hash": "114da49b9fa8",
-   "duration": 6.084,
+   "text": "Usulan kedua: pembakaran ikan, dekat dermaga!",
+   "hash": "0c4af3c7d48a",
+   "duration": 3.901,
    "words": [
     {
      "text": "Usulan",
      "start": 0,
-     "end": 0.406
+     "end": 0.36
     },
     {
      "text": "kedua:",
-     "start": 0.453,
-     "end": 1.01
+     "start": 0.406,
+     "end": 0.917
     },
     {
      "text": "pembakaran",
-     "start": 1.254,
-     "end": 1.765
+     "start": 1.161,
+     "end": 1.672
     },
     {
      "text": "ikan,",
-     "start": 1.834,
-     "end": 2.334
-    },
-    {
-     "text": "di",
-     "start": 2.543,
-     "end": 2.624
+     "start": 1.753,
+     "end": 2.218
     },
     {
      "text": "dekat",
-     "start": 2.682,
-     "end": 2.914
+     "start": 2.426,
+     "end": 2.717
     },
     {
-     "text": "dermaga.",
-     "start": 2.961,
-     "end": 3.576
-    },
-    {
-     "text": "Nelayan",
-     "start": 3.901,
-     "end": 4.331
-    },
-    {
-     "text": "langsung",
-     "start": 4.4,
-     "end": 4.737
-    },
-    {
-     "text": "bakar",
-     "start": 4.783,
-     "end": 5.062
-    },
-    {
-     "text": "tangkapannya.",
-     "start": 5.12,
-     "end": 6.084
+     "text": "dermaga!",
+     "start": 2.775,
+     "end": 3.901
     }
    ]
   },
