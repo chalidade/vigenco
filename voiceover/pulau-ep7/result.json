@@ -1,0 +1,547 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "w1": {
+   "who": "warga",
+   "text": "Rumah sakitnya udah jadi. Tapi kok... nggak ada yang sakit?",
+   "hash": "35bbaedec581",
+   "duration": 4.69,
+   "words": [
+    {
+     "text": "Rumah",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "sakitnya",
+     "start": 0.337,
+     "end": 0.708
+    },
+    {
+     "text": "udah",
+     "start": 0.743,
+     "end": 0.894
+    },
+    {
+     "text": "jadi.",
+     "start": 0.964,
+     "end": 1.556
+    },
+    {
+     "text": "Tapi",
+     "start": 1.939,
+     "end": 2.229
+    },
+    {
+     "text": "kok...",
+     "start": 2.264,
+     "end": 2.635
+    },
+    {
+     "text": "nggak",
+     "start": 3.019,
+     "end": 3.204
+    },
+    {
+     "text": "ada",
+     "start": 3.228,
+     "end": 3.367
+    },
+    {
+     "text": "yang",
+     "start": 3.39,
+     "end": 3.495
+    },
+    {
+     "text": "sakit?",
+     "start": 3.541,
+     "end": 4.69
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Undian komentar! Yang terpilih: warteg, dan rumah sakit, biar nggak ada yang sakit.",
+   "hash": "c7e263631837",
+   "duration": 5.898,
+   "words": [
+    {
+     "text": "Undian",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "komentar!",
+     "start": 0.453,
+     "end": 1.173
+    },
+    {
+     "text": "Yang",
+     "start": 1.614,
+     "end": 1.8
+    },
+    {
+     "text": "terpilih:",
+     "start": 1.846,
+     "end": 2.45
+    },
+    {
+     "text": "warteg,",
+     "start": 2.891,
+     "end": 3.402
+    },
+    {
+     "text": "dan",
+     "start": 3.448,
+     "end": 3.587
+    },
+    {
+     "text": "rumah",
+     "start": 3.646,
+     "end": 3.843
+    },
+    {
+     "text": "sakit,",
+     "start": 3.878,
+     "end": 4.331
+    },
+    {
+     "text": "biar",
+     "start": 4.377,
+     "end": 4.644
+    },
+    {
+     "text": "nggak",
+     "start": 4.69,
+     "end": 4.865
+    },
+    {
+     "text": "ada",
+     "start": 4.888,
+     "end": 5.074
+    },
+    {
+     "text": "yang",
+     "start": 5.12,
+     "end": 5.236
+    },
+    {
+     "text": "sakit.",
+     "start": 5.283,
+     "end": 5.898
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Warteg buka! Nasi, orek, telur balado. Makan sepuasnya!",
+   "hash": "3b89c63c93ce",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Warteg",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "buka!",
+     "start": 0.43,
+     "end": 0.952
+    },
+    {
+     "text": "Nasi,",
+     "start": 1.068,
+     "end": 1.44
+    },
+    {
+     "text": "orek,",
+     "start": 1.474,
+     "end": 1.8
+    },
+    {
+     "text": "telur",
+     "start": 1.823,
+     "end": 2.032
+    },
+    {
+     "text": "balado.",
+     "start": 2.09,
+     "end": 2.67
+    },
+    {
+     "text": "Makan",
+     "start": 2.752,
+     "end": 3.088
+    },
+    {
+     "text": "sepuasnya!",
+     "start": 3.17,
+     "end": 4.18
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Di sebelahnya, rumah sakit. Dokternya siap. Pasiennya... nol.",
+   "hash": "65e4a5595c24",
+   "duration": 5.155,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.128
+    },
+    {
+     "text": "sebelahnya,",
+     "start": 0.163,
+     "end": 0.766
+    },
+    {
+     "text": "rumah",
+     "start": 0.859,
+     "end": 1.091
+    },
+    {
+     "text": "sakit.",
+     "start": 1.126,
+     "end": 1.683
+    },
+    {
+     "text": "Dokternya",
+     "start": 1.811,
+     "end": 2.264
+    },
+    {
+     "text": "siap.",
+     "start": 2.31,
+     "end": 2.856
+    },
+    {
+     "text": "Pasiennya...",
+     "start": 3.1,
+     "end": 3.982
+    },
+    {
+     "text": "nol.",
+     "start": 4.307,
+     "end": 5.155
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Aku kan udah jadi presiden. Aku mau rumah!",
+   "hash": "a194cfb2bb1c",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "kan",
+     "start": 0.313,
+     "end": 0.43
+    },
+    {
+     "text": "udah",
+     "start": 0.511,
+     "end": 0.685
+    },
+    {
+     "text": "jadi",
+     "start": 0.731,
+     "end": 0.906
+    },
+    {
+     "text": "presiden.",
+     "start": 0.952,
+     "end": 1.463
+    },
+    {
+     "text": "Aku",
+     "start": 1.486,
+     "end": 1.73
+    },
+    {
+     "text": "mau",
+     "start": 1.776,
+     "end": 1.939
+    },
+    {
+     "text": "rumah!",
+     "start": 1.985,
+     "end": 2.694
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Setuju, Pak! Rumah presiden, tanpa undian!",
+   "hash": "cfc58e52dc88",
+   "duration": 2.322,
+   "words": [
+    {
+     "text": "Setuju,",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "Pak!",
+     "start": 0.476,
+     "end": 0.65
+    },
+    {
+     "text": "Rumah",
+     "start": 0.697,
+     "end": 0.894
+    },
+    {
+     "text": "presiden,",
+     "start": 0.929,
+     "end": 1.347
+    },
+    {
+     "text": "tanpa",
+     "start": 1.37,
+     "end": 1.625
+    },
+    {
+     "text": "undian!",
+     "start": 1.683,
+     "end": 2.322
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Sekolah dan apotik juga akhirnya selesai. Terima kasih, para tukang!",
+   "hash": "eccd1bba6fb6",
+   "duration": 3.901,
+   "words": [
+    {
+     "text": "Sekolah",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "dan",
+     "start": 0.383,
+     "end": 0.476
+    },
+    {
+     "text": "apotik",
+     "start": 0.534,
+     "end": 0.848
+    },
+    {
+     "text": "juga",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "text": "akhirnya",
+     "start": 1.126,
+     "end": 1.486
+    },
+    {
+     "text": "selesai.",
+     "start": 1.533,
+     "end": 2.194
+    },
+    {
+     "text": "Terima",
+     "start": 2.368,
+     "end": 2.659
+    },
+    {
+     "text": "kasih,",
+     "start": 2.694,
+     "end": 2.961
+    },
+    {
+     "text": "para",
+     "start": 2.984,
+     "end": 3.146
+    },
+    {
+     "text": "tukang!",
+     "start": 3.181,
+     "end": 3.901
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga",
+   "text": "Aduh... kebanyakan makan di warteg. Perutku begah!",
+   "hash": "9779472d288b",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Aduh...",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "kebanyakan",
+     "start": 1.196,
+     "end": 1.718
+    },
+    {
+     "text": "makan",
+     "start": 1.765,
+     "end": 1.985
+    },
+    {
+     "text": "di",
+     "start": 2.02,
+     "end": 2.078
+    },
+    {
+     "text": "warteg.",
+     "start": 2.125,
+     "end": 2.786
+    },
+    {
+     "text": "Perutku",
+     "start": 3.17,
+     "end": 3.529
+    },
+    {
+     "text": "begah!",
+     "start": 3.576,
+     "end": 4.226
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan pasien pertama rumah sakit... datang dari warteg sebelah.",
+   "hash": "5c8c7b14b14d",
+   "duration": 3.855,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "pasien",
+     "start": 0.267,
+     "end": 0.557
+    },
+    {
+     "text": "pertama",
+     "start": 0.604,
+     "end": 0.917
+    },
+    {
+     "text": "rumah",
+     "start": 0.952,
+     "end": 1.149
+    },
+    {
+     "text": "sakit...",
+     "start": 1.184,
+     "end": 1.672
+    },
+    {
+     "text": "datang",
+     "start": 1.823,
+     "end": 2.229
+    },
+    {
+     "text": "dari",
+     "start": 2.299,
+     "end": 2.543
+    },
+    {
+     "text": "warteg",
+     "start": 2.601,
+     "end": 2.937
+    },
+    {
+     "text": "sebelah.",
+     "start": 2.984,
+     "end": 3.855
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Menu apa yang wajib ada di warteg Pulau Aru? Tulis di komentar!",
+   "hash": "907102d96b47",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Menu",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "apa",
+     "start": 0.325,
+     "end": 0.499
+    },
+    {
+     "text": "yang",
+     "start": 0.534,
+     "end": 0.65
+    },
+    {
+     "text": "wajib",
+     "start": 0.685,
+     "end": 0.964
+    },
+    {
+     "text": "ada",
+     "start": 1.01,
+     "end": 1.149
+    },
+    {
+     "text": "di",
+     "start": 1.196,
+     "end": 1.254
+    },
+    {
+     "text": "warteg",
+     "start": 1.3,
+     "end": 1.579
+    },
+    {
+     "text": "Pulau",
+     "start": 1.614,
+     "end": 1.823
+    },
+    {
+     "text": "Aru?",
+     "start": 1.892,
+     "end": 2.287
+    },
+    {
+     "text": "Tulis",
+     "start": 2.612,
+     "end": 2.972
+    },
+    {
+     "text": "di",
+     "start": 3.03,
+     "end": 3.1
+    },
+    {
+     "text": "komentar!",
+     "start": 3.146,
+     "end": 4.04
+    }
+   ]
+  }
+ }
+}
