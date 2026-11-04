@@ -1,0 +1,750 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "v1": {
+   "who": "wapres",
+   "text": "Wapres coba duluan, ya! Satu... dua...",
+   "hash": "1f37851eecc3",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Wapres",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "coba",
+     "start": 0.43,
+     "end": 0.604
+    },
+    {
+     "text": "duluan,",
+     "start": 0.65,
+     "end": 0.987
+    },
+    {
+     "text": "ya!",
+     "start": 1.022,
+     "end": 1.265
+    },
+    {
+     "text": "Satu...",
+     "start": 1.324,
+     "end": 1.881
+    },
+    {
+     "text": "dua...",
+     "start": 2.009,
+     "end": 2.601
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Komentar baru belum masuk, jadi kami kocok kotak usulan lama. Keluar: waterpark, dan pembakaran ikan!",
+   "hash": "b3704d42783c",
+   "duration": 6.641,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "baru",
+     "start": 0.522,
+     "end": 0.708
+    },
+    {
+     "text": "belum",
+     "start": 0.743,
+     "end": 0.929
+    },
+    {
+     "text": "masuk,",
+     "start": 0.952,
+     "end": 1.416
+    },
+    {
+     "text": "jadi",
+     "start": 1.533,
+     "end": 1.73
+    },
+    {
+     "text": "kami",
+     "start": 1.765,
+     "end": 1.939
+    },
+    {
+     "text": "kocok",
+     "start": 1.974,
+     "end": 2.252
+    },
+    {
+     "text": "kotak",
+     "start": 2.276,
+     "end": 2.519
+    },
+    {
+     "text": "usulan",
+     "start": 2.566,
+     "end": 2.856
+    },
+    {
+     "text": "lama.",
+     "start": 2.914,
+     "end": 3.355
+    },
+    {
+     "text": "Keluar:",
+     "start": 3.599,
+     "end": 4.145
+    },
+    {
+     "text": "waterpark,",
+     "start": 4.354,
+     "end": 5.085
+    },
+    {
+     "text": "dan",
+     "start": 5.132,
+     "end": 5.259
+    },
+    {
+     "text": "pembakaran",
+     "start": 5.306,
+     "end": 5.77
+    },
+    {
+     "text": "ikan!",
+     "start": 5.828,
+     "end": 6.641
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tapi dulu, ada traktiran dari Kak Chalid. Pesannya cuma satu: semangat!",
+   "hash": "8a14d81b587e",
+   "duration": 5.016,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "dulu,",
+     "start": 0.325,
+     "end": 0.755
+    },
+    {
+     "text": "ada",
+     "start": 0.813,
+     "end": 1.022
+    },
+    {
+     "text": "traktiran",
+     "start": 1.057,
+     "end": 1.509
+    },
+    {
+     "text": "dari",
+     "start": 1.556,
+     "end": 1.718
+    },
+    {
+     "text": "Kak",
+     "start": 1.753,
+     "end": 1.858
+    },
+    {
+     "text": "Chalid.",
+     "start": 1.892,
+     "end": 2.403
+    },
+    {
+     "text": "Pesannya",
+     "start": 2.554,
+     "end": 2.972
+    },
+    {
+     "text": "cuma",
+     "start": 3.019,
+     "end": 3.204
+    },
+    {
+     "text": "satu:",
+     "start": 3.239,
+     "end": 3.762
+    },
+    {
+     "text": "semangat!",
+     "start": 3.971,
+     "end": 5.016
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Semangat, Kak Chalid! Satu pulau dukung kamu!",
+   "hash": "3b55a737ec51",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Semangat,",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "Kak",
+     "start": 0.464,
+     "end": 0.569
+    },
+    {
+     "text": "Chalid!",
+     "start": 0.604,
+     "end": 1.057
+    },
+    {
+     "text": "Satu",
+     "start": 1.382,
+     "end": 1.649
+    },
+    {
+     "text": "pulau",
+     "start": 1.683,
+     "end": 1.904
+    },
+    {
+     "text": "dukung",
+     "start": 1.939,
+     "end": 2.194
+    },
+    {
+     "text": "kamu!",
+     "start": 2.229,
+     "end": 2.926
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Usulan pertama: waterpark! Ada kolam, perosotan, dan bebek karet raksasa.",
+   "hash": "e387116541bf",
+   "duration": 6.037,
+   "words": [
+    {
+     "text": "Usulan",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "pertama:",
+     "start": 0.464,
+     "end": 1.115
+    },
+    {
+     "text": "waterpark!",
+     "start": 1.289,
+     "end": 2.136
+    },
+    {
+     "text": "Ada",
+     "start": 2.415,
+     "end": 2.647
+    },
+    {
+     "text": "kolam,",
+     "start": 2.694,
+     "end": 3.193
+    },
+    {
+     "text": "perosotan,",
+     "start": 3.309,
+     "end": 4.075
+    },
+    {
+     "text": "dan",
+     "start": 4.191,
+     "end": 4.342
+    },
+    {
+     "text": "bebek",
+     "start": 4.412,
+     "end": 4.69
+    },
+    {
+     "text": "karet",
+     "start": 4.725,
+     "end": 4.969
+    },
+    {
+     "text": "raksasa.",
+     "start": 5.016,
+     "end": 6.037
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Airnya seger! Tapi siapa yang naruh bebek segede ini?",
+   "hash": "178bb7900dbf",
+   "duration": 3.808,
+   "words": [
+    {
+     "text": "Airnya",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "seger!",
+     "start": 0.522,
+     "end": 1.196
+    },
+    {
+     "text": "Tapi",
+     "start": 1.37,
+     "end": 1.614
+    },
+    {
+     "text": "siapa",
+     "start": 1.66,
+     "end": 1.974
+    },
+    {
+     "text": "yang",
+     "start": 1.997,
+     "end": 2.125
+    },
+    {
+     "text": "naruh",
+     "start": 2.183,
+     "end": 2.45
+    },
+    {
+     "text": "bebek",
+     "start": 2.496,
+     "end": 2.81
+    },
+    {
+     "text": "segede",
+     "start": 2.868,
+     "end": 3.146
+    },
+    {
+     "text": "ini?",
+     "start": 3.204,
+     "end": 3.808
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Usulan kedua: pembakaran ikan, di dekat dermaga. Nelayan langsung bakar tangkapannya.",
+   "hash": "114da49b9fa8",
+   "duration": 6.084,
+   "words": [
+    {
+     "text": "Usulan",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "kedua:",
+     "start": 0.453,
+     "end": 1.01
+    },
+    {
+     "text": "pembakaran",
+     "start": 1.254,
+     "end": 1.765
+    },
+    {
+     "text": "ikan,",
+     "start": 1.834,
+     "end": 2.334
+    },
+    {
+     "text": "di",
+     "start": 2.543,
+     "end": 2.624
+    },
+    {
+     "text": "dekat",
+     "start": 2.682,
+     "end": 2.914
+    },
+    {
+     "text": "dermaga.",
+     "start": 2.961,
+     "end": 3.576
+    },
+    {
+     "text": "Nelayan",
+     "start": 3.901,
+     "end": 4.331
+    },
+    {
+     "text": "langsung",
+     "start": 4.4,
+     "end": 4.737
+    },
+    {
+     "text": "bakar",
+     "start": 4.783,
+     "end": 5.062
+    },
+    {
+     "text": "tangkapannya.",
+     "start": 5.12,
+     "end": 6.084
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga2",
+   "text": "Ikan bakar! Baru naik dari laut, sambalnya pedes!",
+   "hash": "17fad1eb8d96",
+   "duration": 3.762,
+   "words": [
+    {
+     "text": "Ikan",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "bakar!",
+     "start": 0.418,
+     "end": 1.184
+    },
+    {
+     "text": "Baru",
+     "start": 1.393,
+     "end": 1.66
+    },
+    {
+     "text": "naik",
+     "start": 1.707,
+     "end": 1.858
+    },
+    {
+     "text": "dari",
+     "start": 1.939,
+     "end": 2.09
+    },
+    {
+     "text": "laut,",
+     "start": 2.148,
+     "end": 2.392
+    },
+    {
+     "text": "sambalnya",
+     "start": 2.426,
+     "end": 2.879
+    },
+    {
+     "text": "pedes!",
+     "start": 2.926,
+     "end": 3.762
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Hmm... ini lebih enak dari warteg. Jangan bilang-bilang, ya.",
+   "hash": "5cd8e23d464e",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Hmm...",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "ini",
+     "start": 0.639,
+     "end": 0.859
+    },
+    {
+     "text": "lebih",
+     "start": 0.906,
+     "end": 1.161
+    },
+    {
+     "text": "enak",
+     "start": 1.207,
+     "end": 1.44
+    },
+    {
+     "text": "dari",
+     "start": 1.498,
+     "end": 1.649
+    },
+    {
+     "text": "warteg.",
+     "start": 1.707,
+     "end": 2.206
+    },
+    {
+     "text": "Jangan",
+     "start": 2.357,
+     "end": 2.67
+    },
+    {
+     "text": "bilang-bilang,",
+     "start": 2.717,
+     "end": 3.274
+    },
+    {
+     "text": "ya.",
+     "start": 3.297,
+     "end": 3.715
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Sementara itu, di pulau seberang... lampu kedua mercusuar menyala.",
+   "hash": "08dc7d425932",
+   "duration": 4.969,
+   "words": [
+    {
+     "text": "Sementara",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "itu,",
+     "start": 0.569,
+     "end": 1.022
+    },
+    {
+     "text": "di",
+     "start": 1.231,
+     "end": 1.324
+    },
+    {
+     "text": "pulau",
+     "start": 1.37,
+     "end": 1.625
+    },
+    {
+     "text": "seberang...",
+     "start": 1.66,
+     "end": 2.334
+    },
+    {
+     "text": "lampu",
+     "start": 2.659,
+     "end": 2.902
+    },
+    {
+     "text": "kedua",
+     "start": 2.937,
+     "end": 3.274
+    },
+    {
+     "text": "mercusuar",
+     "start": 3.332,
+     "end": 3.866
+    },
+    {
+     "text": "menyala.",
+     "start": 3.924,
+     "end": 4.969
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Dua dari tiga. Pulau awan itu... makin dekat.",
+   "hash": "8aae9af95b24",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "dari",
+     "start": 0.232,
+     "end": 0.372
+    },
+    {
+     "text": "tiga.",
+     "start": 0.406,
+     "end": 0.731
+    },
+    {
+     "text": "Pulau",
+     "start": 0.766,
+     "end": 0.987
+    },
+    {
+     "text": "awan",
+     "start": 1.033,
+     "end": 1.219
+    },
+    {
+     "text": "itu...",
+     "start": 1.277,
+     "end": 1.614
+    },
+    {
+     "text": "makin",
+     "start": 1.741,
+     "end": 1.997
+    },
+    {
+     "text": "dekat.",
+     "start": 2.043,
+     "end": 2.647
+    }
+   ]
+  },
+  "v2": {
+   "who": "wapres",
+   "text": "Aaaa! Tiga! Byuuur!",
+   "hash": "862677431403",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Aaaa!",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "Tiga!",
+     "start": 0.441,
+     "end": 0.859
+    },
+    {
+     "text": "Byuuur!",
+     "start": 0.952,
+     "end": 1.625
+    }
+   ]
+  },
+  "p2": {
+   "who": "presiden",
+   "text": "Wapres basah kuyup. Rapat kabinet ditunda!",
+   "hash": "a18af76d78e4",
+   "duration": 3.437,
+   "words": [
+    {
+     "text": "Wapres",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "basah",
+     "start": 0.464,
+     "end": 0.708
+    },
+    {
+     "text": "kuyup.",
+     "start": 0.731,
+     "end": 1.347
+    },
+    {
+     "text": "Rapat",
+     "start": 1.556,
+     "end": 1.927
+    },
+    {
+     "text": "kabinet",
+     "start": 1.962,
+     "end": 2.31
+    },
+    {
+     "text": "ditunda!",
+     "start": 2.345,
+     "end": 3.437
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Wahana apa lagi yang wajib ada di waterpark Pulau Aru? Tulis di komentar!",
+   "hash": "634f63e1e3ea",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Wahana",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "apa",
+     "start": 0.406,
+     "end": 0.592
+    },
+    {
+     "text": "lagi",
+     "start": 0.627,
+     "end": 0.813
+    },
+    {
+     "text": "yang",
+     "start": 0.836,
+     "end": 0.952
+    },
+    {
+     "text": "wajib",
+     "start": 0.998,
+     "end": 1.277
+    },
+    {
+     "text": "ada",
+     "start": 1.335,
+     "end": 1.474
+    },
+    {
+     "text": "di",
+     "start": 1.521,
+     "end": 1.579
+    },
+    {
+     "text": "waterpark",
+     "start": 1.625,
+     "end": 2.055
+    },
+    {
+     "text": "Pulau",
+     "start": 2.101,
+     "end": 2.334
+    },
+    {
+     "text": "Aru?",
+     "start": 2.403,
+     "end": 2.844
+    },
+    {
+     "text": "Tulis",
+     "start": 2.995,
+     "end": 3.344
+    },
+    {
+     "text": "di",
+     "start": 3.425,
+     "end": 3.495
+    },
+    {
+     "text": "komentar!",
+     "start": 3.541,
+     "end": 4.365
+    }
+   ]
+  }
+ }
+}
