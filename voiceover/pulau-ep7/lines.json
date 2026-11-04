@@ -1,0 +1,90 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Rumah sakitnya udah jadi. Tapi kok... nggak ada yang sakit?"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Undian komentar! Yang terpilih: warteg, dan rumah sakit, biar nggak ada yang sakit."
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Warteg buka! Nasi, orek, telur balado. Makan sepuasnya!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Di sebelahnya, rumah sakit. Dokternya siap. Pasiennya... nol."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Aku kan udah jadi presiden. Aku mau rumah!"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Setuju, Pak! Rumah presiden, tanpa undian!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Sekolah dan apotik juga akhirnya selesai. Terima kasih, para tukang!"
+  },
+  {
+   "id": "w3",
+   "who": "warga",
+   "text": "Aduh... kebanyakan makan di warteg. Perutku begah!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Dan pasien pertama rumah sakit... datang dari warteg sebelah."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Menu apa yang wajib ada di warteg Pulau Aru? Tulis di komentar!"
+  }
+ ]
+}
