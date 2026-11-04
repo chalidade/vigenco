@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga · Pola komunikasi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg { position: absolute; inset: 0;
+    background: radial-gradient(1300px 800px at 62% 62%, rgba(27,77,46,.40), transparent 70%),
+                radial-gradient(900px 600px at 0% 0%, rgba(19,39,29,.9), transparent 70%); }
+  #world { position: absolute; left: 0; top: 0; width: 1px; height: 1px; transform-origin: 0 0; }
+  #world > * { position: absolute; left: 0; top: 0; }
+  #scrim { position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(90deg, rgba(7,17,12,.97) 0, rgba(7,17,12,.9) 700px, rgba(7,17,12,0) 900px); }
+  #hud { position: absolute; inset: 0; }
+  #hud > * { position: absolute; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  .kick { font: 600 24px/1 "JetBrains Mono", monospace; letter-spacing: .14em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 16px; white-space: nowrap; }
+  .kick::before { content: ""; width: 30px; height: 2px; background: currentColor; }
+  .head { font: 800 60px/1.08 "Plus Jakarta Sans", sans-serif; letter-spacing: -.03em; color: #f2edd5; width: 640px; }
+  .head .serif { color: #3cbf6e; font-size: 1.14em; letter-spacing: -.01em; }
+  .list { width: 640px; display: flex; flex-direction: column; gap: 22px; }
+  .li { font: 500 33px/1.28 "Plus Jakarta Sans", sans-serif; color: #c9cdb9; display: flex; gap: 18px; align-items: flex-start; }
+  .li .n { flex: none; width: 44px; height: 44px; border-radius: 50%; background: #13271d; color: #3cbf6e;
+    font: 700 22px/44px "JetBrains Mono", monospace; text-align: center; margin-top: -2px; box-shadow: inset 0 0 0 2px #1f4a31; }
+  .li b { color: #f2edd5; font-weight: 700; }
+  .li .l { color: #3cbf6e; font-weight: 700; }
+  .li .a { color: #f2c46b; font-weight: 700; }
+  .disc { width: 140px; height: 140px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font: 800 64px/1 "Plus Jakarta Sans"; letter-spacing: -.02em; box-sizing: border-box; box-shadow: 0 30px 60px -24px rgba(0,0,0,.8); }
+  .badge { width: 52px; height: 52px; border-radius: 50%; background: #3cbf6e; color: #04140a; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 6px #07110c; }
+  .badge svg { width: 30px; height: 30px; }
+  .pulse { width: 140px; height: 140px; border-radius: 50%; box-sizing: border-box; border: 4px solid #3cbf6e; }
+  .tag { font: 600 26px/1 "JetBrains Mono", monospace; letter-spacing: .03em; white-space: nowrap; }
+  .env { display: flex; align-items: center; gap: 12px; padding: 12px 20px 12px 14px; border-radius: 999px; background: #f2edd5; color: #04140a;
+    font: 700 26px/1 "JetBrains Mono", monospace; white-space: nowrap; box-shadow: 0 18px 40px -14px rgba(0,0,0,.8); }
+  .env i { width: 34px; height: 34px; display: inline-flex; }
+  .cur { width: 0; height: 0; }
+  .cur svg { position: absolute; left: -5px; top: -3px; width: 52px; height: 52px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.45)); }
+  .cur .pill { position: absolute; left: 34px; top: 44px; font: 700 23px/1 "Plus Jakarta Sans";
+    padding: 9px 16px; border-radius: 999px; white-space: nowrap; background: #f2c46b; color: #04140a; }
+  .rip { width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%; border: 3px solid #f2c46b; box-sizing: border-box; }
+  #hero { overflow: hidden; }
+  #hero > * { position: absolute; left: 50%; top: 50%; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="world"></div>
+  <div id="scrim"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
