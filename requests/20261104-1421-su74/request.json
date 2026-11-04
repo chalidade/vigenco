@@ -1,0 +1,13 @@
+{
+  "id": "20261104-1421-su74",
+  "type": "launch",
+  "prompt": "Berikan penjelasan tentang koneksi aplikasi Saling Jaga dengan analogi paling sederhana seperti orang gandengan tangan. kemudian semakin banyak yang gandengan tangan maka jaraknya semakin jauh. terus bagaimana pesan di kirim. dari A ngomong ke B. B ngomong ke C dan seterusnya. jelaskan secara sederhana yang orang awam paham.\n\ndan lalu bagaimnaa jika pake lora atau mashtastic berikan analogi yang sangat sederhana seperti diatas. sehingga orang paham. konsep bridge.",
+  "format": "landscape",
+  "links": [
+    "https://saling-jaga.my.id/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-04T07:21:48.793Z",
+  "mode": "full"
+}
