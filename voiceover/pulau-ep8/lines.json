@@ -1,0 +1,111 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Wapres coba duluan, ya! Satu... dua..."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Komentar baru belum masuk, jadi kami kocok kotak usulan lama. Keluar: waterpark, dan pembakaran ikan!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Tapi dulu, ada traktiran dari Kak Chalid. Pesannya cuma satu: semangat!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Semangat, Kak Chalid! Satu pulau dukung kamu!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Usulan pertama: waterpark! Ada kolam, perosotan, dan bebek karet raksasa."
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Airnya seger! Tapi siapa yang naruh bebek segede ini?"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Usulan kedua: pembakaran ikan, di dekat dermaga. Nelayan langsung bakar tangkapannya."
+  },
+  {
+   "id": "w3",
+   "who": "warga2",
+   "text": "Ikan bakar! Baru naik dari laut, sambalnya pedes!"
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Hmm... ini lebih enak dari warteg. Jangan bilang-bilang, ya."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Sementara itu, di pulau seberang... lampu kedua mercusuar menyala."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Dua dari tiga. Pulau awan itu... makin dekat."
+  },
+  {
+   "id": "v2",
+   "who": "wapres",
+   "text": "Aaaa! Tiga! Byuuur!"
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Wapres basah kuyup. Rapat kabinet ditunda!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Wahana apa lagi yang wajib ada di waterpark Pulau Aru? Tulis di komentar!"
+  }
+ ]
+}
