@@ -1,0 +1,101 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "p0",
+   "who": "presiden",
+   "text": "Ssst... ambil satu gorengan. Nggak ada yang lihat, kan?"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Semalam pulau kehujanan traktiran! Ada pesan: jujur dan punya prinsip. Dan Tiara: semangat, sepuluh kali!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Makasih Tiara, adis, Kak Alfi, dan para dermawan tanpa nama!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Pulau ini bisa tumbuh karena kalian!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Pesan pertama jadi Kantin Kejujuran. Tanpa kasir. Ambil sendiri, bayar sendiri."
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Gorengan seribu, masukin kotak. Yang tahu cuma kamu... dan Tuhan."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Sepuluh traktiran Tiara jadi sepuluh lampu jalan. Malam ini, pulau terang!"
+  },
+  {
+   "id": "w3",
+   "who": "warga",
+   "text": "Dulu jalan ini gelap. Sekarang pulang malam nggak takut lagi!"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Rapat kabinet hari ini di kolam! Lho, presiden mana?"
+  },
+  {
+   "id": "v2",
+   "who": "wapres",
+   "text": "Ketahuan! Pak Presiden, ini kantin kejujuran!"
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Eh! Saya bayar kok! Dua kali lipat... nih!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Kalau kamu buka kantin kejujuran, mau jual apa? Tulis di komentar!"
+  }
+ ]
+}
