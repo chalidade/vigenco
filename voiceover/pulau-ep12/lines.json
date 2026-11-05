@@ -1,0 +1,106 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "w1",
+   "who": "warga2",
+   "text": "Perahu itu merapat! Semua warga, ke dermaga!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Tapi sebelum itu, ada traktiran! Salam dari adis di Bogor, dan doa semoga pulau selalu baik-baik saja."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Doanya jadi Gapura Selamat Datang, tepat di ujung dermaga!"
+  },
+  {
+   "id": "w2",
+   "who": "warga",
+   "text": "Di baliknya tertulis: semoga selalu baik-baik saja. Aamiin!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Salam dari Bogor jadi Tiang Salam. Arah ke Bogor... lurus ke laut."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Ke Bogor lewat laut? Ya sudah, salam balik dari presiden!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Lalu perahu misterius itu sampai di dermaga..."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Aku pulang! Kalian bikin gapura buat aku?"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Itu buat semua warga! Tapi... selamat datang, Aru!"
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Rapat kabinet darurat! Agenda: ikan bakar penyambutan!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Terima kasih para dermawan tanpa nama. Traktiran kalian bikin pulau ini terus tumbuh."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Tapi di Pulau Seberang, aku menemukan surat. Untukku."
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Kira-kira, surat itu dari siapa? Tulis tebakanmu di komentar!"
+  }
+ ]
+}
