@@ -1,0 +1,727 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "w1": {
+   "who": "warga2",
+   "text": "Perahu itu merapat! Semua warga, ke dermaga!",
+   "hash": "029312c2ca1f",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Perahu",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "itu",
+     "start": 0.348,
+     "end": 0.476
+    },
+    {
+     "text": "merapat!",
+     "start": 0.522,
+     "end": 1.068
+    },
+    {
+     "text": "Semua",
+     "start": 1.242,
+     "end": 1.533
+    },
+    {
+     "text": "warga,",
+     "start": 1.591,
+     "end": 2.067
+    },
+    {
+     "text": "ke",
+     "start": 2.136,
+     "end": 2.241
+    },
+    {
+     "text": "dermaga!",
+     "start": 2.276,
+     "end": 3.111
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Tapi sebelum itu, ada traktiran! Salam dari adis di Bogor, dan doa semoga pulau selalu baik-baik saja.",
+   "hash": "aa31c7754b75",
+   "duration": 7.198,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "sebelum",
+     "start": 0.337,
+     "end": 0.592
+    },
+    {
+     "text": "itu,",
+     "start": 0.65,
+     "end": 1.149
+    },
+    {
+     "text": "ada",
+     "start": 1.324,
+     "end": 1.544
+    },
+    {
+     "text": "traktiran!",
+     "start": 1.591,
+     "end": 2.334
+    },
+    {
+     "text": "Salam",
+     "start": 2.717,
+     "end": 3.123
+    },
+    {
+     "text": "dari",
+     "start": 3.181,
+     "end": 3.344
+    },
+    {
+     "text": "adis",
+     "start": 3.379,
+     "end": 3.576
+    },
+    {
+     "text": "di",
+     "start": 3.611,
+     "end": 3.669
+    },
+    {
+     "text": "Bogor,",
+     "start": 3.715,
+     "end": 4.203
+    },
+    {
+     "text": "dan",
+     "start": 4.377,
+     "end": 4.528
+    },
+    {
+     "text": "doa",
+     "start": 4.586,
+     "end": 4.783
+    },
+    {
+     "text": "semoga",
+     "start": 4.841,
+     "end": 5.248
+    },
+    {
+     "text": "pulau",
+     "start": 5.283,
+     "end": 5.596
+    },
+    {
+     "text": "selalu",
+     "start": 5.642,
+     "end": 5.944
+    },
+    {
+     "text": "baik-baik",
+     "start": 5.979,
+     "end": 6.316
+    },
+    {
+     "text": "saja.",
+     "start": 6.362,
+     "end": 7.198
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Doanya jadi Gapura Selamat Datang, tepat di ujung dermaga!",
+   "hash": "3a129738b308",
+   "duration": 3.901,
+   "words": [
+    {
+     "text": "Doanya",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "jadi",
+     "start": 0.464,
+     "end": 0.639
+    },
+    {
+     "text": "Gapura",
+     "start": 0.685,
+     "end": 0.998
+    },
+    {
+     "text": "Selamat",
+     "start": 1.045,
+     "end": 1.37
+    },
+    {
+     "text": "Datang,",
+     "start": 1.405,
+     "end": 1.939
+    },
+    {
+     "text": "tepat",
+     "start": 2.09,
+     "end": 2.485
+    },
+    {
+     "text": "di",
+     "start": 2.554,
+     "end": 2.624
+    },
+    {
+     "text": "ujung",
+     "start": 2.682,
+     "end": 2.914
+    },
+    {
+     "text": "dermaga!",
+     "start": 2.961,
+     "end": 3.901
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga",
+   "text": "Di baliknya tertulis: semoga selalu baik-baik saja. Aamiin!",
+   "hash": "72958770c4e8",
+   "duration": 4.69,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "baliknya",
+     "start": 0.197,
+     "end": 0.522
+    },
+    {
+     "text": "tertulis:",
+     "start": 0.569,
+     "end": 1.324
+    },
+    {
+     "text": "semoga",
+     "start": 1.765,
+     "end": 2.218
+    },
+    {
+     "text": "selalu",
+     "start": 2.252,
+     "end": 2.554
+    },
+    {
+     "text": "baik-baik",
+     "start": 2.601,
+     "end": 2.972
+    },
+    {
+     "text": "saja.",
+     "start": 3.042,
+     "end": 3.587
+    },
+    {
+     "text": "Aamiin!",
+     "start": 3.866,
+     "end": 4.69
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Salam dari Bogor jadi Tiang Salam. Arah ke Bogor... lurus ke laut.",
+   "hash": "a06c5e6e047f",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Salam",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "dari",
+     "start": 0.418,
+     "end": 0.58
+    },
+    {
+     "text": "Bogor",
+     "start": 0.627,
+     "end": 0.894
+    },
+    {
+     "text": "jadi",
+     "start": 0.964,
+     "end": 1.126
+    },
+    {
+     "text": "Tiang",
+     "start": 1.173,
+     "end": 1.393
+    },
+    {
+     "text": "Salam.",
+     "start": 1.44,
+     "end": 1.95
+    },
+    {
+     "text": "Arah",
+     "start": 2.101,
+     "end": 2.368
+    },
+    {
+     "text": "ke",
+     "start": 2.415,
+     "end": 2.485
+    },
+    {
+     "text": "Bogor...",
+     "start": 2.531,
+     "end": 3.135
+    },
+    {
+     "text": "lurus",
+     "start": 3.286,
+     "end": 3.564
+    },
+    {
+     "text": "ke",
+     "start": 3.622,
+     "end": 3.692
+    },
+    {
+     "text": "laut.",
+     "start": 3.727,
+     "end": 4.412
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Ke Bogor lewat laut? Ya sudah, salam balik dari presiden!",
+   "hash": "eb374ae408ed",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Ke",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "Bogor",
+     "start": 0.221,
+     "end": 0.511
+    },
+    {
+     "text": "lewat",
+     "start": 0.58,
+     "end": 0.824
+    },
+    {
+     "text": "laut?",
+     "start": 0.882,
+     "end": 1.231
+    },
+    {
+     "text": "Ya",
+     "start": 1.382,
+     "end": 1.509
+    },
+    {
+     "text": "sudah,",
+     "start": 1.544,
+     "end": 2.101
+    },
+    {
+     "text": "salam",
+     "start": 2.252,
+     "end": 2.577
+    },
+    {
+     "text": "balik",
+     "start": 2.624,
+     "end": 2.868
+    },
+    {
+     "text": "dari",
+     "start": 2.926,
+     "end": 3.1
+    },
+    {
+     "text": "presiden!",
+     "start": 3.146,
+     "end": 4.04
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Lalu perahu misterius itu sampai di dermaga...",
+   "hash": "fb34b1cff17f",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Lalu",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "perahu",
+     "start": 0.36,
+     "end": 0.615
+    },
+    {
+     "text": "misterius",
+     "start": 0.65,
+     "end": 1.103
+    },
+    {
+     "text": "itu",
+     "start": 1.161,
+     "end": 1.405
+    },
+    {
+     "text": "sampai",
+     "start": 1.463,
+     "end": 1.73
+    },
+    {
+     "text": "di",
+     "start": 1.753,
+     "end": 1.823
+    },
+    {
+     "text": "dermaga...",
+     "start": 1.869,
+     "end": 2.74
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Aku pulang! Kalian bikin gapura buat aku?",
+   "hash": "747a0a07297b",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "pulang!",
+     "start": 0.337,
+     "end": 1.045
+    },
+    {
+     "text": "Kalian",
+     "start": 1.103,
+     "end": 1.405
+    },
+    {
+     "text": "bikin",
+     "start": 1.463,
+     "end": 1.683
+    },
+    {
+     "text": "gapura",
+     "start": 1.753,
+     "end": 2.171
+    },
+    {
+     "text": "buat",
+     "start": 2.229,
+     "end": 2.357
+    },
+    {
+     "text": "aku?",
+     "start": 2.415,
+     "end": 2.926
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Itu buat semua warga! Tapi... selamat datang, Aru!",
+   "hash": "632d24eb3797",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "buat",
+     "start": 0.325,
+     "end": 0.464
+    },
+    {
+     "text": "semua",
+     "start": 0.499,
+     "end": 0.673
+    },
+    {
+     "text": "warga!",
+     "start": 0.72,
+     "end": 1.184
+    },
+    {
+     "text": "Tapi...",
+     "start": 1.219,
+     "end": 1.881
+    },
+    {
+     "text": "selamat",
+     "start": 2.322,
+     "end": 2.659
+    },
+    {
+     "text": "datang,",
+     "start": 2.74,
+     "end": 3.204
+    },
+    {
+     "text": "Aru!",
+     "start": 3.239,
+     "end": 4.087
+    }
+   ]
+  },
+  "p2": {
+   "who": "presiden",
+   "text": "Rapat kabinet darurat! Agenda: ikan bakar penyambutan!",
+   "hash": "e27a2ed675b7",
+   "duration": 4.783,
+   "words": [
+    {
+     "text": "Rapat",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "kabinet",
+     "start": 0.43,
+     "end": 0.824
+    },
+    {
+     "text": "darurat!",
+     "start": 0.871,
+     "end": 1.474
+    },
+    {
+     "text": "Agenda:",
+     "start": 1.858,
+     "end": 2.566
+    },
+    {
+     "text": "ikan",
+     "start": 2.81,
+     "end": 3.17
+    },
+    {
+     "text": "bakar",
+     "start": 3.239,
+     "end": 3.541
+    },
+    {
+     "text": "penyambutan!",
+     "start": 3.622,
+     "end": 4.783
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Terima kasih para dermawan tanpa nama. Traktiran kalian bikin pulau ini terus tumbuh.",
+   "hash": "a299542ca030",
+   "duration": 5.341,
+   "words": [
+    {
+     "text": "Terima",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "kasih",
+     "start": 0.372,
+     "end": 0.615
+    },
+    {
+     "text": "para",
+     "start": 0.639,
+     "end": 0.813
+    },
+    {
+     "text": "dermawan",
+     "start": 0.859,
+     "end": 1.277
+    },
+    {
+     "text": "tanpa",
+     "start": 1.324,
+     "end": 1.579
+    },
+    {
+     "text": "nama.",
+     "start": 1.614,
+     "end": 2.078
+    },
+    {
+     "text": "Traktiran",
+     "start": 2.461,
+     "end": 2.972
+    },
+    {
+     "text": "kalian",
+     "start": 3.03,
+     "end": 3.344
+    },
+    {
+     "text": "bikin",
+     "start": 3.402,
+     "end": 3.611
+    },
+    {
+     "text": "pulau",
+     "start": 3.669,
+     "end": 3.924
+    },
+    {
+     "text": "ini",
+     "start": 3.971,
+     "end": 4.098
+    },
+    {
+     "text": "terus",
+     "start": 4.145,
+     "end": 4.342
+    },
+    {
+     "text": "tumbuh.",
+     "start": 4.389,
+     "end": 5.341
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Tapi di Pulau Seberang, aku menemukan surat. Untukku.",
+   "hash": "639b893eb1ae",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "di",
+     "start": 0.418,
+     "end": 0.476
+    },
+    {
+     "text": "Pulau",
+     "start": 0.522,
+     "end": 0.662
+    },
+    {
+     "text": "Seberang,",
+     "start": 0.697,
+     "end": 1.045
+    },
+    {
+     "text": "aku",
+     "start": 1.08,
+     "end": 1.277
+    },
+    {
+     "text": "menemukan",
+     "start": 1.312,
+     "end": 1.695
+    },
+    {
+     "text": "surat.",
+     "start": 1.753,
+     "end": 2.403
+    },
+    {
+     "text": "Untukku.",
+     "start": 2.786,
+     "end": 4.272
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Kira-kira, surat itu dari siapa? Tulis tebakanmu di komentar!",
+   "hash": "284c84aa0c70",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Kira-kira,",
+     "start": 0,
+     "end": 0.673
+    },
+    {
+     "text": "surat",
+     "start": 0.766,
+     "end": 1.057
+    },
+    {
+     "text": "itu",
+     "start": 1.126,
+     "end": 1.3
+    },
+    {
+     "text": "dari",
+     "start": 1.358,
+     "end": 1.533
+    },
+    {
+     "text": "siapa?",
+     "start": 1.579,
+     "end": 2.171
+    },
+    {
+     "text": "Tulis",
+     "start": 2.345,
+     "end": 2.659
+    },
+    {
+     "text": "tebakanmu",
+     "start": 2.705,
+     "end": 3.204
+    },
+    {
+     "text": "di",
+     "start": 3.239,
+     "end": 3.309
+    },
+    {
+     "text": "komentar!",
+     "start": 3.344,
+     "end": 4.226
+    }
+   ]
+  }
+ }
+}
