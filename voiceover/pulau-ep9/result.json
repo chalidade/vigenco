@@ -1,0 +1,688 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "p0": {
+   "who": "presiden",
+   "text": "Ssst... ambil satu gorengan. Nggak ada yang lihat, kan?",
+   "hash": "0b2ff4f14b8e",
+   "duration": 4.69,
+   "words": [
+    {
+     "text": "Ssst...",
+     "start": 0,
+     "end": 1.231
+    },
+    {
+     "text": "ambil",
+     "start": 2.043,
+     "end": 2.426
+    },
+    {
+     "text": "satu",
+     "start": 2.496,
+     "end": 2.717
+    },
+    {
+     "text": "gorengan.",
+     "start": 2.775,
+     "end": 3.448
+    },
+    {
+     "text": "Nggak",
+     "start": 3.518,
+     "end": 3.68
+    },
+    {
+     "text": "ada",
+     "start": 3.704,
+     "end": 3.843
+    },
+    {
+     "text": "yang",
+     "start": 3.889,
+     "end": 4.017
+    },
+    {
+     "text": "lihat,",
+     "start": 4.063,
+     "end": 4.342
+    },
+    {
+     "text": "kan?",
+     "start": 4.365,
+     "end": 4.69
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Semalam pulau kehujanan traktiran! Ada pesan: jujur dan punya prinsip. Dan Tiara: semangat, sepuluh kali!",
+   "hash": "ce44f691a71b",
+   "duration": 7.709,
+   "words": [
+    {
+     "text": "Semalam",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "pulau",
+     "start": 0.627,
+     "end": 0.871
+    },
+    {
+     "text": "kehujanan",
+     "start": 0.894,
+     "end": 1.382
+    },
+    {
+     "text": "traktiran!",
+     "start": 1.416,
+     "end": 2.183
+    },
+    {
+     "text": "Ada",
+     "start": 2.357,
+     "end": 2.577
+    },
+    {
+     "text": "pesan:",
+     "start": 2.624,
+     "end": 3.146
+    },
+    {
+     "text": "jujur",
+     "start": 3.355,
+     "end": 3.68
+    },
+    {
+     "text": "dan",
+     "start": 3.75,
+     "end": 3.866
+    },
+    {
+     "text": "punya",
+     "start": 3.913,
+     "end": 4.122
+    },
+    {
+     "text": "prinsip.",
+     "start": 4.168,
+     "end": 4.667
+    },
+    {
+     "text": "Dan",
+     "start": 4.737,
+     "end": 4.911
+    },
+    {
+     "text": "Tiara:",
+     "start": 4.981,
+     "end": 5.561
+    },
+    {
+     "text": "semangat,",
+     "start": 5.805,
+     "end": 6.385
+    },
+    {
+     "text": "sepuluh",
+     "start": 6.42,
+     "end": 6.792
+    },
+    {
+     "text": "kali!",
+     "start": 6.815,
+     "end": 7.709
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Makasih Tiara, adis, Kak Alfi, dan para dermawan tanpa nama!",
+   "hash": "63936a3ae2d2",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Makasih",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "Tiara,",
+     "start": 0.441,
+     "end": 0.894
+    },
+    {
+     "text": "adis,",
+     "start": 0.94,
+     "end": 1.347
+    },
+    {
+     "text": "Kak",
+     "start": 1.382,
+     "end": 1.498
+    },
+    {
+     "text": "Alfi,",
+     "start": 1.533,
+     "end": 1.846
+    },
+    {
+     "text": "dan",
+     "start": 1.869,
+     "end": 1.985
+    },
+    {
+     "text": "para",
+     "start": 2.043,
+     "end": 2.218
+    },
+    {
+     "text": "dermawan",
+     "start": 2.264,
+     "end": 2.659
+    },
+    {
+     "text": "tanpa",
+     "start": 2.705,
+     "end": 2.949
+    },
+    {
+     "text": "nama!",
+     "start": 2.995,
+     "end": 3.947
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Pulau ini bisa tumbuh karena kalian!",
+   "hash": "218e9c8a9794",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "ini",
+     "start": 0.43,
+     "end": 0.58
+    },
+    {
+     "text": "bisa",
+     "start": 0.627,
+     "end": 0.824
+    },
+    {
+     "text": "tumbuh",
+     "start": 0.871,
+     "end": 1.149
+    },
+    {
+     "text": "karena",
+     "start": 1.173,
+     "end": 1.44
+    },
+    {
+     "text": "kalian!",
+     "start": 1.486,
+     "end": 2.508
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Pesan pertama jadi Kantin Kejujuran. Tanpa kasir. Ambil sendiri, bayar sendiri.",
+   "hash": "330ad2acb57b",
+   "duration": 5.759,
+   "words": [
+    {
+     "text": "Pesan",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "pertama",
+     "start": 0.325,
+     "end": 0.685
+    },
+    {
+     "text": "jadi",
+     "start": 0.743,
+     "end": 0.929
+    },
+    {
+     "text": "Kantin",
+     "start": 0.975,
+     "end": 1.265
+    },
+    {
+     "text": "Kejujuran.",
+     "start": 1.312,
+     "end": 2.009
+    },
+    {
+     "text": "Tanpa",
+     "start": 2.252,
+     "end": 2.601
+    },
+    {
+     "text": "kasir.",
+     "start": 2.635,
+     "end": 3.251
+    },
+    {
+     "text": "Ambil",
+     "start": 3.402,
+     "end": 3.68
+    },
+    {
+     "text": "sendiri,",
+     "start": 3.738,
+     "end": 4.342
+    },
+    {
+     "text": "bayar",
+     "start": 4.458,
+     "end": 4.772
+    },
+    {
+     "text": "sendiri.",
+     "start": 4.83,
+     "end": 5.759
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Gorengan seribu, masukin kotak. Yang tahu cuma kamu... dan Tuhan.",
+   "hash": "091181ce71ed",
+   "duration": 5.016,
+   "words": [
+    {
+     "text": "Gorengan",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "seribu,",
+     "start": 0.453,
+     "end": 0.917
+    },
+    {
+     "text": "masukin",
+     "start": 0.987,
+     "end": 1.347
+    },
+    {
+     "text": "kotak.",
+     "start": 1.393,
+     "end": 1.904
+    },
+    {
+     "text": "Yang",
+     "start": 2.508,
+     "end": 2.694
+    },
+    {
+     "text": "tahu",
+     "start": 2.752,
+     "end": 2.937
+    },
+    {
+     "text": "cuma",
+     "start": 2.984,
+     "end": 3.181
+    },
+    {
+     "text": "kamu...",
+     "start": 3.228,
+     "end": 3.866
+    },
+    {
+     "text": "dan",
+     "start": 4.11,
+     "end": 4.261
+    },
+    {
+     "text": "Tuhan.",
+     "start": 4.319,
+     "end": 5.016
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Sepuluh traktiran Tiara jadi sepuluh lampu jalan. Malam ini, pulau terang!",
+   "hash": "d24125797cff",
+   "duration": 5.248,
+   "words": [
+    {
+     "text": "Sepuluh",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "traktiran",
+     "start": 0.464,
+     "end": 0.929
+    },
+    {
+     "text": "Tiara",
+     "start": 0.987,
+     "end": 1.358
+    },
+    {
+     "text": "jadi",
+     "start": 1.44,
+     "end": 1.637
+    },
+    {
+     "text": "sepuluh",
+     "start": 1.683,
+     "end": 2.043
+    },
+    {
+     "text": "lampu",
+     "start": 2.078,
+     "end": 2.287
+    },
+    {
+     "text": "jalan.",
+     "start": 2.357,
+     "end": 2.856
+    },
+    {
+     "text": "Malam",
+     "start": 3.1,
+     "end": 3.379
+    },
+    {
+     "text": "ini,",
+     "start": 3.448,
+     "end": 3.866
+    },
+    {
+     "text": "pulau",
+     "start": 3.982,
+     "end": 4.296
+    },
+    {
+     "text": "terang!",
+     "start": 4.331,
+     "end": 5.248
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga",
+   "text": "Dulu jalan ini gelap. Sekarang pulang malam nggak takut lagi!",
+   "hash": "777f01cdba73",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Dulu",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "jalan",
+     "start": 0.325,
+     "end": 0.546
+    },
+    {
+     "text": "ini",
+     "start": 0.604,
+     "end": 0.72
+    },
+    {
+     "text": "gelap.",
+     "start": 0.778,
+     "end": 1.265
+    },
+    {
+     "text": "Sekarang",
+     "start": 1.591,
+     "end": 1.939
+    },
+    {
+     "text": "pulang",
+     "start": 1.962,
+     "end": 2.183
+    },
+    {
+     "text": "malam",
+     "start": 2.218,
+     "end": 2.485
+    },
+    {
+     "text": "nggak",
+     "start": 2.508,
+     "end": 2.659
+    },
+    {
+     "text": "takut",
+     "start": 2.682,
+     "end": 2.937
+    },
+    {
+     "text": "lagi!",
+     "start": 2.984,
+     "end": 3.622
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Rapat kabinet hari ini di kolam! Lho, presiden mana?",
+   "hash": "2c1dffd5d427",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Rapat",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "kabinet",
+     "start": 0.383,
+     "end": 0.697
+    },
+    {
+     "text": "hari",
+     "start": 0.743,
+     "end": 0.882
+    },
+    {
+     "text": "ini",
+     "start": 0.906,
+     "end": 1.196
+    },
+    {
+     "text": "di",
+     "start": 1.312,
+     "end": 1.428
+    },
+    {
+     "text": "kolam!",
+     "start": 1.486,
+     "end": 2.067
+    },
+    {
+     "text": "Lho,",
+     "start": 2.148,
+     "end": 2.299
+    },
+    {
+     "text": "presiden",
+     "start": 2.322,
+     "end": 2.659
+    },
+    {
+     "text": "mana?",
+     "start": 2.705,
+     "end": 3.019
+    }
+   ]
+  },
+  "v2": {
+   "who": "wapres",
+   "text": "Ketahuan! Pak Presiden, ini kantin kejujuran!",
+   "hash": "6a9dc10a805d",
+   "duration": 3.297,
+   "words": [
+    {
+     "text": "Ketahuan!",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "Pak",
+     "start": 0.615,
+     "end": 0.743
+    },
+    {
+     "text": "Presiden,",
+     "start": 0.778,
+     "end": 1.277
+    },
+    {
+     "text": "ini",
+     "start": 1.521,
+     "end": 1.73
+    },
+    {
+     "text": "kantin",
+     "start": 1.776,
+     "end": 2.125
+    },
+    {
+     "text": "kejujuran!",
+     "start": 2.183,
+     "end": 3.297
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Eh! Saya bayar kok! Dua kali lipat... nih!",
+   "hash": "fa10e6c9fa61",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Eh!",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "Saya",
+     "start": 0.534,
+     "end": 0.836
+    },
+    {
+     "text": "bayar",
+     "start": 0.894,
+     "end": 1.231
+    },
+    {
+     "text": "kok!",
+     "start": 1.312,
+     "end": 1.753
+    },
+    {
+     "text": "Dua",
+     "start": 2.032,
+     "end": 2.334
+    },
+    {
+     "text": "kali",
+     "start": 2.392,
+     "end": 2.601
+    },
+    {
+     "text": "lipat...",
+     "start": 2.647,
+     "end": 3.193
+    },
+    {
+     "text": "nih!",
+     "start": 3.796,
+     "end": 4.458
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Kalau kamu buka kantin kejujuran, mau jual apa? Tulis di komentar!",
+   "hash": "03aac3b1f0ad",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Kalau",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "kamu",
+     "start": 0.302,
+     "end": 0.522
+    },
+    {
+     "text": "buka",
+     "start": 0.557,
+     "end": 0.766
+    },
+    {
+     "text": "kantin",
+     "start": 0.813,
+     "end": 1.091
+    },
+    {
+     "text": "kejujuran,",
+     "start": 1.138,
+     "end": 1.846
+    },
+    {
+     "text": "mau",
+     "start": 2.055,
+     "end": 2.206
+    },
+    {
+     "text": "jual",
+     "start": 2.264,
+     "end": 2.473
+    },
+    {
+     "text": "apa?",
+     "start": 2.531,
+     "end": 2.961
+    },
+    {
+     "text": "Tulis",
+     "start": 3.135,
+     "end": 3.471
+    },
+    {
+     "text": "di",
+     "start": 3.518,
+     "end": 3.587
+    },
+    {
+     "text": "komentar!",
+     "start": 3.634,
+     "end": 4.505
+    }
+   ]
+  }
+ }
+}
