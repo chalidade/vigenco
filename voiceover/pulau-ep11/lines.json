@@ -1,0 +1,106 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Mangga di ladangku hilang satu! Siapa yang ambil?!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Komentar kalian masuk! Ladang buah, sekolah paket lengkap, dan penjaga dari netizen!"
+  },
+  {
+   "id": "v2",
+   "who": "wapres",
+   "text": "Aku wakil presiden. Pakai hak tanpa undian: ladang buah buat semua warga!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Ada mangga, pisang, semangka, dan orang-orangan sawah."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Sekolah sudah ada. Tapi kata warga, harus paket lengkap!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Lapangan upacara, perpustakaan, sampai ayunan. Lengkap!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Lalu pulau butuh penjaga. Kak Ranu resmi jadi polisi dan penjaga pantai!"
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Kak Ranu, kamu di-notice satu pulau!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Tugas pertama penjaga baru: cari pencuri mangga."
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Ini bukan nyolong. Ini... uji rasa!"
+  },
+  {
+   "id": "v3",
+   "who": "wapres",
+   "text": "Pak Presiden! Lagi?!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Malam itu, dari menara, penjaga melihat cahaya perahu di tengah laut."
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Siapa yang ada di perahu itu? Tulis tebakanmu di komentar!"
+  }
+ ]
+}
