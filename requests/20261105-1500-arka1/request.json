@@ -1,0 +1,12 @@
+{
+  "id": "20261105-1500-arka1",
+  "type": "story",
+  "prompt": "Nomor Antrean (±90 detik), episode 3 dari Satu Langkah dari Rumah. Diceritakan oleh Arka, 24 tahun, mantan penjahit pabrik garmen di Bandung yang kena PHK: dulu ia antre dari subuh di job fair offline dan pulang tanpa bicara dengan siapa pun. Seorang teman membagikan tautan job fair virtual; ia mendaftar lewat halaman event (pre-registrasi gratis, tanpa calo) dan mendapat kode pendaftaran dengan QR sebagai 'nomor antrean'. Hari pembukaan ia bangun pagi dan menyetrika kemeja, masuk lewat 'Masuk gedung' dan 'Masuk dengan Google', berjalan di aula, menautkan kodenya dan mengklaim koin voucher, lalu melamar Operator Produksi di Baja Prima secara gratis. Ilustrasi SVG untuk gerbang pabrik di Bandung, antrean job fair offline, kamar kos malam, menyetrika kemeja, dan balkon kos saat senja; rekaman layar asli aplikasi (server lokal dan build demo, data rekaan) untuk adegan di aplikasi. Penutup: \"Daftar event, masuk, lamar. Semua dari HP.\" jobfair.co.id",
+  "format": "portrait",
+  "links": [],
+  "files": [],
+  "created": "2026-11-05T07:00:00.000Z",
+  "voice": "elevenlabs",
+  "duration": 90,
+  "mode": "story"
+}

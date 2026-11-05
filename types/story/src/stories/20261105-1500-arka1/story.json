@@ -1,0 +1,60 @@
+{
+  "id": "20261105-1500-arka1",
+  "title": "Nomor Antrean",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Namaku Arka. Enam tahun aku menjahit di pabrik ini. Bulan lalu, mesinnya berhenti, dan namaku ada di daftar PHK.",
+      "visual": "Act 1, Bandung, grey morning with the mountains behind: the closed gate of a textile factory (no company name), a notice board with a paper list; Arka, 24, short black hair, plain blue shirt, a cloth bag on his shoulder, stands at the gate. The factory chimney stops smoking on 'berhenti'; the list on the board is outlined on 'PHK'."
+    },
+    {
+      "narration": "Aku pernah datang ke job fair. Antre dari subuh, berdesakan, lalu pulang tanpa sempat bicara dengan siapa pun.",
+      "visual": "Illustration, dignified: a long queue of job seekers with folders in front of a hall with a 'JOB FAIR' banner, at dawn ('04.30'); the crowd thickens on 'berdesakan', the clock moves to '15.00', the doors close, and Arka walks home alone on 'pulang'."
+    },
+    {
+      "narration": "Lalu seorang teman membagikan tautan. Job fair virtual. Daftar dulu, katanya, biar dapat tempat.",
+      "visual": "Kos room at night: thin mattress, a small window with the moon, the phone lighting Arka's face. A drawn chat bubble from a friend pops up beside him with a link and 'Daftar dulu, biar dapat tempat.' (an illustration, not app UI)."
+    },
+    {
+      "narration": "Halaman eventnya sederhana. Tanggal, tempat, dan satu tombol: Daftar.",
+      "visual": "Real event page jobfair.co.id/<event> on the phone (local run, invented event 'Job Fair Jawa Barat 2026'): outline on the date on 'Tanggal', on 'Online di jobfair.co.id' on 'tempat', then the page scrolls to the 'Daftar sekarang' form, outlined on 'Daftar'."
+    },
+    {
+      "narration": "Aku isi namaku, emailku, pendidikanku. Tidak ada biaya. Tidak ada calo.",
+      "visual": "Real 3-step pre-registration form: name and email outlined as he speaks, tap Lanjut; education step with SMA/SMK outlined on 'pendidikanku', tap Lanjut; last step, consent checked, tap 'Daftar & dapatkan kode'. Beside the phone: a 'Rp0' badge on 'biaya' and a crossed-out 'Calo' on 'calo'."
+    },
+    {
+      "narration": "Dan ini, nomor antreanku. Bedanya, kali ini aku tidak perlu berdiri berjam-jam untuk mendapatkannya.",
+      "visual": "Real success page 'Kamu sudah terdaftar!': the camera pans down to the card, KODE PENDAFTARAN outlined on 'nomor', the QR outlined on 'antreanku'. A small drawn queue ticket beside the phone."
+    },
+    {
+      "narration": "Hari pembukaan, aku bangun pagi seperti mau berangkat kerja. Kebiasaan lama.",
+      "visual": "Kos room in the morning: a wall calendar flips from 11 to 12 November (circled), Arka irons his blue shirt on a small board, steam rising; the alarm clock reads 05.30."
+    },
+    {
+      "narration": "Satu tekan untuk masuk, pakai akun Google-ku. Tidak perlu hafal kata sandi baru.",
+      "visual": "Real event page on opening day ('Pendaftaran berakhir', the 'Masuk gedung' card): tap 'Masuk gedung', then the game's sign-in screen 'Masuk ke jobfair' with 'Masuk dengan Google' outlined on 'Google'."
+    },
+    {
+      "narration": "Lalu pintunya terbuka. Aulanya penuh stand, dan tidak ada yang mendorong dari belakang.",
+      "visual": "Real game hall (demo build, seed companies): Lantai 2 zoomed out, Arka's character (short black hair, blue tee) facing the camera between the stands, then walking up the empty aisle."
+    },
+    {
+      "narration": "Kodeku aku tautkan. Ternyata, yang daftar duluan dapat bekal koin untuk mencoba fitur-fiturnya.",
+      "visual": "Real bag > Profil > 'Event yang kamu ikuti': the code JF-… typed, tap Tautkan, 'Pendaftaran tertaut…', tap 'Klaim 20 koin', '+20 koin masuk ke dompetmu…', back in the hall the coin counter reads 70 (outlined)."
+    },
+    {
+      "narration": "Aku temukan lowongan operator produksi. Pengalamanku enam tahun akhirnya berguna lagi. Satu tekan, lamaranku terkirim.",
+      "visual": "Real demo flow at the seed company Baja Prima (Lantai 4): Ngobrol dengan recruiter, Lihat lowongan, Operator Produksi (Kontrak) outlined, Lamar posisi ini, the form with 'Kirim lamaran · Gratis' tapped on 'Satu tekan', the toast 'Lamaran Operator Produksi terkirim ke Baja Prima' on 'terkirim'."
+    },
+    {
+      "narration": "Belum tentu diterima. Tapi malam ini, untuk pertama kalinya sejak PHK, aku merasa sedang mengantre di barisan yang benar.",
+      "visual": "Illustration: the kos balcony at dusk over Bandung, mountains purple, city lights coming on; Arka leans on the rail with his phone, a calm smile. Then black end card: 'Daftar event, masuk, lamar. Semua dari HP.' in white and 'jobfair.co.id' in #FFF000.",
+      "pause": 3.4
+    }
+  ]
+}
