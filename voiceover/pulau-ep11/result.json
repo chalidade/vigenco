@@ -194,44 +194,99 @@
   },
   "n2": {
    "who": "narrator",
-   "text": "Ada mangga, pisang, semangka, dan orang-orangan sawah.",
-   "hash": "0a6e25eefc12",
-   "duration": 3.947,
+   "text": "Dan kalian bisa ikut berkebun! Beli bibit di pulau aru titik web titik i d, tanam, lalu panen.",
+   "hash": "ebef6abd905d",
+   "duration": 6.594,
    "words": [
     {
-     "text": "Ada",
+     "text": "Dan",
      "start": 0,
-     "end": 0.244
+     "end": 0.221
     },
     {
-     "text": "mangga,",
-     "start": 0.29,
-     "end": 0.708
+     "text": "kalian",
+     "start": 0.279,
+     "end": 0.58
     },
     {
-     "text": "pisang,",
-     "start": 0.755,
-     "end": 1.335
+     "text": "bisa",
+     "start": 0.627,
+     "end": 0.789
     },
     {
-     "text": "semangka,",
-     "start": 1.451,
+     "text": "ikut",
+     "start": 0.824,
+     "end": 1.022
+    },
+    {
+     "text": "berkebun!",
+     "start": 1.068,
+     "end": 1.707
+    },
+    {
+     "text": "Beli",
+     "start": 1.985,
      "end": 2.159
     },
     {
-     "text": "dan",
-     "start": 2.31,
+     "text": "bibit",
+     "start": 2.206,
      "end": 2.485
     },
     {
-     "text": "orang-orangan",
-     "start": 2.566,
-     "end": 3.123
+     "text": "di",
+     "start": 2.543,
+     "end": 2.612
     },
     {
-     "text": "sawah.",
-     "start": 3.181,
-     "end": 3.947
+     "text": "pulau",
+     "start": 2.659,
+     "end": 2.926
+    },
+    {
+     "text": "aru",
+     "start": 2.972,
+     "end": 3.181
+    },
+    {
+     "text": "titik",
+     "start": 3.228,
+     "end": 3.495
+    },
+    {
+     "text": "web",
+     "start": 3.553,
+     "end": 3.692
+    },
+    {
+     "text": "titik",
+     "start": 3.762,
+     "end": 4.017
+    },
+    {
+     "text": "i",
+     "start": 4.098,
+     "end": 4.145
+    },
+    {
+     "text": "d,",
+     "start": 4.214,
+     "end": 4.481
+    },
+    {
+     "text": "tanam,",
+     "start": 4.598,
+     "end": 5.178
+    },
+    {
+     "text": "lalu",
+     "start": 5.387,
+     "end": 5.619
+    },
+    {
+     "text": "panen.",
+     "start": 5.654,
+     "end": 6.594
     }
    ]
   },
