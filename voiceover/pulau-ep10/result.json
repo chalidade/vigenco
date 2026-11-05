@@ -1,0 +1,702 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "p0": {
+   "who": "presiden",
+   "text": "Ronda malam? Aku ini presiden lho... hoaaam.",
+   "hash": "347644c07073",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Ronda",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "malam?",
+     "start": 0.441,
+     "end": 0.813
+    },
+    {
+     "text": "Aku",
+     "start": 0.848,
+     "end": 1.033
+    },
+    {
+     "text": "ini",
+     "start": 1.068,
+     "end": 1.207
+    },
+    {
+     "text": "presiden",
+     "start": 1.242,
+     "end": 1.718
+    },
+    {
+     "text": "lho...",
+     "start": 1.788,
+     "end": 2.218
+    },
+    {
+     "text": "hoaaam.",
+     "start": 2.264,
+     "end": 3.669
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Traktiran masuk lagi! Kak Alfi bilang: selamat menikmati kopinya. Dan satu pesan: warga saling jaga.",
+   "hash": "99d559df5631",
+   "duration": 7.663,
+   "words": [
+    {
+     "text": "Traktiran",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "masuk",
+     "start": 0.592,
+     "end": 0.824
+    },
+    {
+     "text": "lagi!",
+     "start": 0.859,
+     "end": 1.44
+    },
+    {
+     "text": "Kak",
+     "start": 1.881,
+     "end": 2.043
+    },
+    {
+     "text": "Alfi",
+     "start": 2.067,
+     "end": 2.357
+    },
+    {
+     "text": "bilang:",
+     "start": 2.415,
+     "end": 2.949
+    },
+    {
+     "text": "selamat",
+     "start": 3.158,
+     "end": 3.483
+    },
+    {
+     "text": "menikmati",
+     "start": 3.529,
+     "end": 3.924
+    },
+    {
+     "text": "kopinya.",
+     "start": 3.959,
+     "end": 4.586
+    },
+    {
+     "text": "Dan",
+     "start": 4.795,
+     "end": 4.957
+    },
+    {
+     "text": "satu",
+     "start": 5.016,
+     "end": 5.236
+    },
+    {
+     "text": "pesan:",
+     "start": 5.283,
+     "end": 5.782
+    },
+    {
+     "text": "warga",
+     "start": 6.026,
+     "end": 6.385
+    },
+    {
+     "text": "saling",
+     "start": 6.432,
+     "end": 6.711
+    },
+    {
+     "text": "jaga.",
+     "start": 6.769,
+     "end": 7.663
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Makasih Kak Alfi, Vani, dan para dermawan tanpa nama!",
+   "hash": "0e71b29d4a81",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Makasih",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "Kak",
+     "start": 0.627,
+     "end": 0.731
+    },
+    {
+     "text": "Alfi,",
+     "start": 0.778,
+     "end": 1.312
+    },
+    {
+     "text": "Vani,",
+     "start": 1.382,
+     "end": 1.916
+    },
+    {
+     "text": "dan",
+     "start": 1.985,
+     "end": 2.148
+    },
+    {
+     "text": "para",
+     "start": 2.218,
+     "end": 2.403
+    },
+    {
+     "text": "dermawan",
+     "start": 2.45,
+     "end": 2.926
+    },
+    {
+     "text": "tanpa",
+     "start": 3.007,
+     "end": 3.332
+    },
+    {
+     "text": "nama!",
+     "start": 3.379,
+     "end": 4.272
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Hidup dermawan!",
+   "hash": "9fcbc892bcd1",
+   "duration": 1.254,
+   "words": [
+    {
+     "text": "Hidup",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "dermawan!",
+     "start": 0.36,
+     "end": 1.254
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Kopinya buat Kak Alfi: pulau sekarang punya kedai kopi di jalan silang!",
+   "hash": "47e5835b0d3b",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Kopinya",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "buat",
+     "start": 0.499,
+     "end": 0.673
+    },
+    {
+     "text": "Kak",
+     "start": 0.72,
+     "end": 0.836
+    },
+    {
+     "text": "Alfi:",
+     "start": 0.871,
+     "end": 1.416
+    },
+    {
+     "text": "pulau",
+     "start": 1.567,
+     "end": 1.916
+    },
+    {
+     "text": "sekarang",
+     "start": 1.95,
+     "end": 2.322
+    },
+    {
+     "text": "punya",
+     "start": 2.345,
+     "end": 2.554
+    },
+    {
+     "text": "kedai",
+     "start": 2.589,
+     "end": 2.786
+    },
+    {
+     "text": "kopi",
+     "start": 2.821,
+     "end": 3.077
+    },
+    {
+     "text": "di",
+     "start": 3.1,
+     "end": 3.158
+    },
+    {
+     "text": "jalan",
+     "start": 3.216,
+     "end": 3.448
+    },
+    {
+     "text": "silang!",
+     "start": 3.495,
+     "end": 4.319
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Kopi tubruk, kopi susu, senyumnya gratis. Bayarnya tetap ya!",
+   "hash": "4c6be2e5719f",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Kopi",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "tubruk,",
+     "start": 0.418,
+     "end": 1.022
+    },
+    {
+     "text": "kopi",
+     "start": 1.138,
+     "end": 1.405
+    },
+    {
+     "text": "susu,",
+     "start": 1.451,
+     "end": 1.904
+    },
+    {
+     "text": "senyumnya",
+     "start": 1.939,
+     "end": 2.322
+    },
+    {
+     "text": "gratis.",
+     "start": 2.368,
+     "end": 2.972
+    },
+    {
+     "text": "Bayarnya",
+     "start": 3.088,
+     "end": 3.541
+    },
+    {
+     "text": "tetap",
+     "start": 3.576,
+     "end": 3.913
+    },
+    {
+     "text": "ya!",
+     "start": 4.005,
+     "end": 4.505
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Pesan saling jaga jadi pos ronda, lengkap dengan kentongan!",
+   "hash": "5caa7399cd74",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Pesan",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "saling",
+     "start": 0.395,
+     "end": 0.662
+    },
+    {
+     "text": "jaga",
+     "start": 0.708,
+     "end": 1.01
+    },
+    {
+     "text": "jadi",
+     "start": 1.045,
+     "end": 1.231
+    },
+    {
+     "text": "pos",
+     "start": 1.289,
+     "end": 1.428
+    },
+    {
+     "text": "ronda,",
+     "start": 1.498,
+     "end": 2.02
+    },
+    {
+     "text": "lengkap",
+     "start": 2.171,
+     "end": 2.531
+    },
+    {
+     "text": "dengan",
+     "start": 2.601,
+     "end": 2.821
+    },
+    {
+     "text": "kentongan!",
+     "start": 2.879,
+     "end": 4.087
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Hukuman gorengan kemarin: Pak Presiden ronda malam ini!",
+   "hash": "e3359207a61c",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Hukuman",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "gorengan",
+     "start": 0.499,
+     "end": 0.778
+    },
+    {
+     "text": "kemarin:",
+     "start": 0.813,
+     "end": 1.277
+    },
+    {
+     "text": "Pak",
+     "start": 1.312,
+     "end": 1.451
+    },
+    {
+     "text": "Presiden",
+     "start": 1.498,
+     "end": 1.834
+    },
+    {
+     "text": "ronda",
+     "start": 1.892,
+     "end": 2.09
+    },
+    {
+     "text": "malam",
+     "start": 2.136,
+     "end": 2.334
+    },
+    {
+     "text": "ini!",
+     "start": 2.392,
+     "end": 2.926
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Siap! Asal kopinya dari kedai baru. Tiga gelas.",
+   "hash": "234dabb7090c",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Siap!",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "Asal",
+     "start": 0.708,
+     "end": 0.998
+    },
+    {
+     "text": "kopinya",
+     "start": 1.057,
+     "end": 1.405
+    },
+    {
+     "text": "dari",
+     "start": 1.451,
+     "end": 1.602
+    },
+    {
+     "text": "kedai",
+     "start": 1.649,
+     "end": 1.869
+    },
+    {
+     "text": "baru.",
+     "start": 1.916,
+     "end": 2.276
+    },
+    {
+     "text": "Tiga",
+     "start": 2.299,
+     "end": 2.543
+    },
+    {
+     "text": "gelas.",
+     "start": 2.601,
+     "end": 3.39
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Jam dua pagi. Lampu semangat menyala sampai ke laut. Presiden?",
+   "hash": "bec201ac2f51",
+   "duration": 4.644,
+   "words": [
+    {
+     "text": "Jam",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "dua",
+     "start": 0.279,
+     "end": 0.43
+    },
+    {
+     "text": "pagi.",
+     "start": 0.476,
+     "end": 1.033
+    },
+    {
+     "text": "Lampu",
+     "start": 1.416,
+     "end": 1.695
+    },
+    {
+     "text": "semangat",
+     "start": 1.741,
+     "end": 2.101
+    },
+    {
+     "text": "menyala",
+     "start": 2.159,
+     "end": 2.461
+    },
+    {
+     "text": "sampai",
+     "start": 2.496,
+     "end": 2.786
+    },
+    {
+     "text": "ke",
+     "start": 2.81,
+     "end": 2.879
+    },
+    {
+     "text": "laut.",
+     "start": 2.914,
+     "end": 3.297
+    },
+    {
+     "text": "Presiden?",
+     "start": 3.471,
+     "end": 4.644
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga",
+   "text": "Tok tok tok! Pak Presiden, bangun! Ronda kok tidur?",
+   "hash": "896c4020de5e",
+   "duration": 4.133,
+   "words": [
+    {
+     "text": "Tok",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "tok",
+     "start": 0.221,
+     "end": 0.36
+    },
+    {
+     "text": "tok!",
+     "start": 0.406,
+     "end": 0.708
+    },
+    {
+     "text": "Pak",
+     "start": 0.987,
+     "end": 1.161
+    },
+    {
+     "text": "Presiden,",
+     "start": 1.196,
+     "end": 1.8
+    },
+    {
+     "text": "bangun!",
+     "start": 1.916,
+     "end": 2.461
+    },
+    {
+     "text": "Ronda",
+     "start": 2.786,
+     "end": 3.123
+    },
+    {
+     "text": "kok",
+     "start": 3.193,
+     "end": 3.32
+    },
+    {
+     "text": "tidur?",
+     "start": 3.355,
+     "end": 4.133
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Cahaya itu... dari pulauku? Lampu ketiga menyala!",
+   "hash": "108d39ea21fe",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Cahaya",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "itu...",
+     "start": 0.406,
+     "end": 0.801
+    },
+    {
+     "text": "dari",
+     "start": 0.929,
+     "end": 1.103
+    },
+    {
+     "text": "pulauku?",
+     "start": 1.138,
+     "end": 1.579
+    },
+    {
+     "text": "Lampu",
+     "start": 1.625,
+     "end": 1.904
+    },
+    {
+     "text": "ketiga",
+     "start": 1.939,
+     "end": 2.229
+    },
+    {
+     "text": "menyala!",
+     "start": 2.264,
+     "end": 3.111
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Aru tahu jalan pulang. Tapi siapa yang harus menjemputnya? Tulis di komentar!",
+   "hash": "85a3273be249",
+   "duration": 5.016,
+   "words": [
+    {
+     "text": "Aru",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "tahu",
+     "start": 0.325,
+     "end": 0.499
+    },
+    {
+     "text": "jalan",
+     "start": 0.557,
+     "end": 0.778
+    },
+    {
+     "text": "pulang.",
+     "start": 0.824,
+     "end": 1.277
+    },
+    {
+     "text": "Tapi",
+     "start": 1.718,
+     "end": 1.985
+    },
+    {
+     "text": "siapa",
+     "start": 2.02,
+     "end": 2.31
+    },
+    {
+     "text": "yang",
+     "start": 2.345,
+     "end": 2.461
+    },
+    {
+     "text": "harus",
+     "start": 2.519,
+     "end": 2.705
+    },
+    {
+     "text": "menjemputnya?",
+     "start": 2.763,
+     "end": 3.518
+    },
+    {
+     "text": "Tulis",
+     "start": 3.692,
+     "end": 4.005
+    },
+    {
+     "text": "di",
+     "start": 4.052,
+     "end": 4.11
+    },
+    {
+     "text": "komentar!",
+     "start": 4.156,
+     "end": 5.016
+    }
+   ]
+  }
+ }
+}
