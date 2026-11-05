@@ -1,0 +1,106 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "p0",
+   "who": "presiden",
+   "text": "Ronda malam? Aku ini presiden lho... hoaaam."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Traktiran masuk lagi! Kak Alfi bilang: selamat menikmati kopinya. Dan satu pesan: warga saling jaga."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Makasih Kak Alfi, Vani, dan para dermawan tanpa nama!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Hidup dermawan!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Kopinya buat Kak Alfi: pulau sekarang punya kedai kopi di jalan silang!"
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Kopi tubruk, kopi susu, senyumnya gratis. Bayarnya tetap ya!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Pesan saling jaga jadi pos ronda, lengkap dengan kentongan!"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Hukuman gorengan kemarin: Pak Presiden ronda malam ini!"
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Siap! Asal kopinya dari kedai baru. Tiga gelas."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Jam dua pagi. Lampu semangat menyala sampai ke laut. Presiden?"
+  },
+  {
+   "id": "w3",
+   "who": "warga",
+   "text": "Tok tok tok! Pak Presiden, bangun! Ronda kok tidur?"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Cahaya itu... dari pulauku? Lampu ketiga menyala!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Aru tahu jalan pulang. Tapi siapa yang harus menjemputnya? Tulis di komentar!"
+  }
+ ]
+}
