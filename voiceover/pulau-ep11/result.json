@@ -1,0 +1,661 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "presiden": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "v1": {
+   "who": "wapres",
+   "text": "Mangga di ladangku hilang satu! Siapa yang ambil?!",
+   "hash": "ac1c70953c30",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Mangga",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "di",
+     "start": 0.418,
+     "end": 0.476
+    },
+    {
+     "text": "ladangku",
+     "start": 0.522,
+     "end": 0.906
+    },
+    {
+     "text": "hilang",
+     "start": 0.964,
+     "end": 1.231
+    },
+    {
+     "text": "satu!",
+     "start": 1.277,
+     "end": 1.672
+    },
+    {
+     "text": "Siapa",
+     "start": 1.718,
+     "end": 1.939
+    },
+    {
+     "text": "yang",
+     "start": 1.962,
+     "end": 2.055
+    },
+    {
+     "text": "ambil?!",
+     "start": 2.113,
+     "end": 2.74
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Komentar kalian masuk! Ladang buah, sekolah paket lengkap, dan penjaga dari netizen!",
+   "hash": "27b2951a6f2e",
+   "duration": 5.759,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "kalian",
+     "start": 0.511,
+     "end": 0.743
+    },
+    {
+     "text": "masuk!",
+     "start": 0.801,
+     "end": 1.451
+    },
+    {
+     "text": "Ladang",
+     "start": 1.625,
+     "end": 1.939
+    },
+    {
+     "text": "buah,",
+     "start": 1.974,
+     "end": 2.531
+    },
+    {
+     "text": "sekolah",
+     "start": 2.647,
+     "end": 2.984
+    },
+    {
+     "text": "paket",
+     "start": 3.019,
+     "end": 3.251
+    },
+    {
+     "text": "lengkap,",
+     "start": 3.297,
+     "end": 3.82
+    },
+    {
+     "text": "dan",
+     "start": 3.889,
+     "end": 4.04
+    },
+    {
+     "text": "penjaga",
+     "start": 4.087,
+     "end": 4.47
+    },
+    {
+     "text": "dari",
+     "start": 4.516,
+     "end": 4.679
+    },
+    {
+     "text": "netizen!",
+     "start": 4.725,
+     "end": 5.759
+    }
+   ]
+  },
+  "v2": {
+   "who": "wapres",
+   "text": "Aku wakil presiden. Pakai hak tanpa undian: ladang buah buat semua warga!",
+   "hash": "c64912d0aaa0",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "wakil",
+     "start": 0.302,
+     "end": 0.546
+    },
+    {
+     "text": "presiden.",
+     "start": 0.592,
+     "end": 1.115
+    },
+    {
+     "text": "Pakai",
+     "start": 1.289,
+     "end": 1.579
+    },
+    {
+     "text": "hak",
+     "start": 1.637,
+     "end": 1.753
+    },
+    {
+     "text": "tanpa",
+     "start": 1.811,
+     "end": 2.02
+    },
+    {
+     "text": "undian:",
+     "start": 2.101,
+     "end": 2.543
+    },
+    {
+     "text": "ladang",
+     "start": 2.717,
+     "end": 3.065
+    },
+    {
+     "text": "buah",
+     "start": 3.111,
+     "end": 3.286
+    },
+    {
+     "text": "buat",
+     "start": 3.332,
+     "end": 3.495
+    },
+    {
+     "text": "semua",
+     "start": 3.541,
+     "end": 3.738
+    },
+    {
+     "text": "warga!",
+     "start": 3.785,
+     "end": 4.272
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Ada mangga, pisang, semangka, dan orang-orangan sawah.",
+   "hash": "0a6e25eefc12",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Ada",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "mangga,",
+     "start": 0.29,
+     "end": 0.708
+    },
+    {
+     "text": "pisang,",
+     "start": 0.755,
+     "end": 1.335
+    },
+    {
+     "text": "semangka,",
+     "start": 1.451,
+     "end": 2.159
+    },
+    {
+     "text": "dan",
+     "start": 2.31,
+     "end": 2.485
+    },
+    {
+     "text": "orang-orangan",
+     "start": 2.566,
+     "end": 3.123
+    },
+    {
+     "text": "sawah.",
+     "start": 3.181,
+     "end": 3.947
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Sekolah sudah ada. Tapi kata warga, harus paket lengkap!",
+   "hash": "3d623efc3700",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Sekolah",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "sudah",
+     "start": 0.372,
+     "end": 0.627
+    },
+    {
+     "text": "ada.",
+     "start": 0.65,
+     "end": 1.033
+    },
+    {
+     "text": "Tapi",
+     "start": 1.242,
+     "end": 1.533
+    },
+    {
+     "text": "kata",
+     "start": 1.567,
+     "end": 1.753
+    },
+    {
+     "text": "warga,",
+     "start": 1.8,
+     "end": 2.264
+    },
+    {
+     "text": "harus",
+     "start": 2.38,
+     "end": 2.635
+    },
+    {
+     "text": "paket",
+     "start": 2.694,
+     "end": 2.937
+    },
+    {
+     "text": "lengkap!",
+     "start": 2.995,
+     "end": 3.576
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Lapangan upacara, perpustakaan, sampai ayunan. Lengkap!",
+   "hash": "2d13dfae219a",
+   "duration": 4.551,
+   "words": [
+    {
+     "text": "Lapangan",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "upacara,",
+     "start": 0.499,
+     "end": 1.184
+    },
+    {
+     "text": "perpustakaan,",
+     "start": 1.393,
+     "end": 2.252
+    },
+    {
+     "text": "sampai",
+     "start": 2.276,
+     "end": 2.635
+    },
+    {
+     "text": "ayunan.",
+     "start": 2.682,
+     "end": 3.204
+    },
+    {
+     "text": "Lengkap!",
+     "start": 3.715,
+     "end": 4.551
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Lalu pulau butuh penjaga. Kak Ranu resmi jadi polisi dan penjaga pantai!",
+   "hash": "c9b4e5884c4b",
+   "duration": 5.201,
+   "words": [
+    {
+     "text": "Lalu",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "pulau",
+     "start": 0.29,
+     "end": 0.569
+    },
+    {
+     "text": "butuh",
+     "start": 0.615,
+     "end": 0.848
+    },
+    {
+     "text": "penjaga.",
+     "start": 0.871,
+     "end": 1.579
+    },
+    {
+     "text": "Kak",
+     "start": 2.02,
+     "end": 2.183
+    },
+    {
+     "text": "Ranu",
+     "start": 2.218,
+     "end": 2.45
+    },
+    {
+     "text": "resmi",
+     "start": 2.496,
+     "end": 2.763
+    },
+    {
+     "text": "jadi",
+     "start": 2.833,
+     "end": 3.007
+    },
+    {
+     "text": "polisi",
+     "start": 3.053,
+     "end": 3.437
+    },
+    {
+     "text": "dan",
+     "start": 3.483,
+     "end": 3.587
+    },
+    {
+     "text": "penjaga",
+     "start": 3.646,
+     "end": 3.971
+    },
+    {
+     "text": "pantai!",
+     "start": 4.005,
+     "end": 5.201
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Kak Ranu, kamu di-notice satu pulau!",
+   "hash": "bea261555f10",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "Kak",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "Ranu,",
+     "start": 0.279,
+     "end": 0.673
+    },
+    {
+     "text": "kamu",
+     "start": 0.708,
+     "end": 0.917
+    },
+    {
+     "text": "di-notice",
+     "start": 0.952,
+     "end": 1.382
+    },
+    {
+     "text": "satu",
+     "start": 1.416,
+     "end": 1.637
+    },
+    {
+     "text": "pulau!",
+     "start": 1.672,
+     "end": 2.415
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Tugas pertama penjaga baru: cari pencuri mangga.",
+   "hash": "4d2852b3f7ad",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Tugas",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "pertama",
+     "start": 0.372,
+     "end": 0.708
+    },
+    {
+     "text": "penjaga",
+     "start": 0.743,
+     "end": 1.08
+    },
+    {
+     "text": "baru:",
+     "start": 1.126,
+     "end": 1.591
+    },
+    {
+     "text": "cari",
+     "start": 2.032,
+     "end": 2.31
+    },
+    {
+     "text": "pencuri",
+     "start": 2.357,
+     "end": 2.694
+    },
+    {
+     "text": "mangga.",
+     "start": 2.74,
+     "end": 3.669
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Ini bukan nyolong. Ini... uji rasa!",
+   "hash": "1b614864b84f",
+   "duration": 3.065,
+   "words": [
+    {
+     "text": "Ini",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "bukan",
+     "start": 0.255,
+     "end": 0.464
+    },
+    {
+     "text": "nyolong.",
+     "start": 0.488,
+     "end": 0.929
+    },
+    {
+     "text": "Ini...",
+     "start": 1.138,
+     "end": 1.707
+    },
+    {
+     "text": "uji",
+     "start": 1.858,
+     "end": 2.101
+    },
+    {
+     "text": "rasa!",
+     "start": 2.159,
+     "end": 3.065
+    }
+   ]
+  },
+  "v3": {
+   "who": "wapres",
+   "text": "Pak Presiden! Lagi?!",
+   "hash": "1c20b9439d24",
+   "duration": 1.44,
+   "words": [
+    {
+     "text": "Pak",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "Presiden!",
+     "start": 0.221,
+     "end": 0.731
+    },
+    {
+     "text": "Lagi?!",
+     "start": 0.766,
+     "end": 1.44
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Malam itu, dari menara, penjaga melihat cahaya perahu di tengah laut.",
+   "hash": "de9ee2035223",
+   "duration": 4.133,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "itu,",
+     "start": 0.36,
+     "end": 0.639
+    },
+    {
+     "text": "dari",
+     "start": 0.662,
+     "end": 0.824
+    },
+    {
+     "text": "menara,",
+     "start": 0.871,
+     "end": 1.393
+    },
+    {
+     "text": "penjaga",
+     "start": 1.463,
+     "end": 1.892
+    },
+    {
+     "text": "melihat",
+     "start": 1.939,
+     "end": 2.264
+    },
+    {
+     "text": "cahaya",
+     "start": 2.31,
+     "end": 2.647
+    },
+    {
+     "text": "perahu",
+     "start": 2.694,
+     "end": 2.961
+    },
+    {
+     "text": "di",
+     "start": 2.995,
+     "end": 3.053
+    },
+    {
+     "text": "tengah",
+     "start": 3.1,
+     "end": 3.32
+    },
+    {
+     "text": "laut.",
+     "start": 3.367,
+     "end": 4.133
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Siapa yang ada di perahu itu? Tulis tebakanmu di komentar!",
+   "hash": "a6a408aa838f",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Siapa",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "yang",
+     "start": 0.453,
+     "end": 0.569
+    },
+    {
+     "text": "ada",
+     "start": 0.627,
+     "end": 0.766
+    },
+    {
+     "text": "di",
+     "start": 0.813,
+     "end": 0.882
+    },
+    {
+     "text": "perahu",
+     "start": 0.929,
+     "end": 1.207
+    },
+    {
+     "text": "itu?",
+     "start": 1.242,
+     "end": 1.707
+    },
+    {
+     "text": "Tulis",
+     "start": 2.148,
+     "end": 2.461
+    },
+    {
+     "text": "tebakanmu",
+     "start": 2.508,
+     "end": 2.972
+    },
+    {
+     "text": "di",
+     "start": 3.007,
+     "end": 3.065
+    },
+    {
+     "text": "komentar!",
+     "start": 3.1,
+     "end": 4.04
+    }
+   ]
+  }
+ }
+}
