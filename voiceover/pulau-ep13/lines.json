@@ -45,12 +45,12 @@
   {
    "id": "n1",
    "who": "narrator",
-   "text": "Padahal pagi tadi pulau masih damai. Dua usulan masuk: Fahmi pengen nge warung. Dan wapres: buat kantor untuk nyari uang!"
+   "text": "Padahal pagi tadi masih damai. Fahmi pengen nge warung, dan wapres minta kantor buat nyari uang!"
   },
   {
    "id": "n2",
    "who": "narrator",
-   "text": "Warung Fahmi buka! Di pulau aru titik web titik i d, kamu bisa duduk dan pesan makan beneran."
+   "text": "Warung Fahmi buka! Kamu bisa duduk dan pesan makan beneran."
   },
   {
    "id": "a1",
@@ -90,12 +90,12 @@
   {
    "id": "p1",
    "who": "presiden",
-   "text": "Eh, eh, tunggu! Aku kan sudah bikin masjid. Dan... pasar!"
+   "text": "Eh, tunggu! Aku kan sudah bikin masjid!"
   },
   {
    "id": "n4",
    "who": "narrator",
-   "text": "Warga turun ke jalan. Damai, tapi berisik. Presiden turun, atau bertahan? Siapa calon presiden berikutnya? Tulis di komentar!"
+   "text": "Presiden turun, atau bertahan? Siapa calon berikutnya? Tulis di komentar!"
   }
  ]
 }
