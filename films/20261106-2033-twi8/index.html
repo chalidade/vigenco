@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga · Satu malam, tanpa sinyal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg, #lamp, #red { position: absolute; inset: 0; }
+  #bg { background: radial-gradient(900px 1100px at 50% 62%, rgba(27,77,46,.42), transparent 70%),
+                    radial-gradient(700px 600px at 0% 0%, rgba(19,39,29,.9), transparent 70%); }
+  #lamp { background: radial-gradient(900px 900px at 50% 40%, rgba(242,196,107,.55), transparent 70%); }
+  #red { background: radial-gradient(1000px 1300px at 50% 62%, rgba(239,75,75,.45), transparent 72%); }
+  #fx, #hud { position: absolute; inset: 0; }
+  #fx > *, #hud > * { position: absolute; }
+  #hero { position: absolute; overflow: hidden; box-sizing: border-box; }
+  #hero > .ly { position: absolute; left: 50%; top: 50%; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -.01em; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  .time { font: 600 34px/1 "JetBrains Mono", monospace; letter-spacing: .12em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 18px; white-space: nowrap; }
+  .time::before { content: ""; width: 36px; height: 3px; background: currentColor; }
+  .head { font: 800 88px/1.04 "Plus Jakarta Sans", sans-serif; letter-spacing: -.035em; color: #f2edd5; width: 940px; }
+  .head .serif { color: #3cbf6e; font-size: 1.12em; }
+  .sub { font: 500 40px/1.3 "Plus Jakarta Sans", sans-serif; color: #a5b0a2; width: 940px; }
+  .ring { border-radius: 50%; box-sizing: border-box; }
+  .av { border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; flex: none; }
+  .cur { width: 0; height: 0; }
+  .cur svg { position: absolute; left: -6px; top: -4px; width: 62px; height: 62px; filter: drop-shadow(0 8px 12px rgba(0,0,0,.5)); }
+  .cur .pill { position: absolute; left: 40px; top: 54px; font: 700 28px/1 "Plus Jakarta Sans"; padding: 11px 20px; border-radius: 999px; white-space: nowrap; }
+  .rip { width: 120px; height: 120px; margin: -60px 0 0 -60px; border-radius: 50%; border: 4px solid #f2edd5; box-sizing: border-box; }
+  .odo { display: inline-flex; overflow: visible; }
+  .odo .slot { display: inline-block; overflow: hidden; position: relative; }
+  .odo .strip { position: absolute; left: 0; top: 0; display: flex; flex-direction: column; }
+  .chip { display: inline-flex; align-items: center; gap: 14px; height: 76px; padding: 0 30px; border-radius: 999px;
+    border: 2px solid rgba(242,237,213,.16); background: #0f1f17; font: 600 32px/1 "JetBrains Mono", monospace; color: #c9cdb9; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="lamp"></div>
+  <div id="red"></div>
+  <div id="fx"></div>
+  <div id="hero"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
