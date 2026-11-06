@@ -49,207 +49,147 @@
   },
   "n1": {
    "who": "narrator",
-   "text": "Padahal pagi tadi pulau masih damai. Dua usulan masuk: Fahmi pengen nge warung. Dan wapres: buat kantor untuk nyari uang!",
-   "hash": "8649b82a550c",
-   "duration": 8.313,
+   "text": "Padahal pagi tadi masih damai. Fahmi pengen nge warung, dan wapres minta kantor buat nyari uang!",
+   "hash": "c8645c4509d3",
+   "duration": 6.13,
    "words": [
     {
      "text": "Padahal",
      "start": 0,
-     "end": 0.406
+     "end": 0.557
     },
     {
      "text": "pagi",
-     "start": 0.464,
-     "end": 0.662
+     "start": 0.627,
+     "end": 0.836
     },
     {
      "text": "tadi",
-     "start": 0.697,
-     "end": 0.906
-    },
-    {
-     "text": "pulau",
-     "start": 0.952,
-     "end": 1.184
+     "start": 0.871,
+     "end": 1.057
     },
     {
      "text": "masih",
-     "start": 1.207,
-     "end": 1.428
+     "start": 1.115,
+     "end": 1.324
     },
     {
      "text": "damai.",
-     "start": 1.451,
-     "end": 2.043
-    },
-    {
-     "text": "Dua",
-     "start": 2.426,
-     "end": 2.601
-    },
-    {
-     "text": "usulan",
-     "start": 2.647,
-     "end": 2.961
-    },
-    {
-     "text": "masuk:",
-     "start": 3.007,
-     "end": 3.437
+     "start": 1.347,
+     "end": 2.009
     },
     {
      "text": "Fahmi",
-     "start": 3.553,
-     "end": 3.855
+     "start": 2.218,
+     "end": 2.508
     },
     {
      "text": "pengen",
-     "start": 3.901,
-     "end": 4.122
+     "start": 2.554,
+     "end": 2.775
     },
     {
      "text": "nge",
-     "start": 4.145,
-     "end": 4.261
+     "start": 2.798,
+     "end": 2.926
     },
     {
-     "text": "warung.",
-     "start": 4.296,
-     "end": 4.748
+     "text": "warung,",
+     "start": 2.961,
+     "end": 3.448
     },
     {
-     "text": "Dan",
-     "start": 5.19,
-     "end": 5.364
+     "text": "dan",
+     "start": 3.564,
+     "end": 3.715
     },
     {
-     "text": "wapres:",
-     "start": 5.422,
-     "end": 6.084
+     "text": "wapres",
+     "start": 3.785,
+     "end": 4.133
     },
     {
-     "text": "buat",
-     "start": 6.2,
-     "end": 6.409
+     "text": "minta",
+     "start": 4.191,
+     "end": 4.412
     },
     {
      "text": "kantor",
-     "start": 6.455,
-     "end": 6.78
+     "start": 4.458,
+     "end": 4.737
     },
     {
-     "text": "untuk",
-     "start": 6.827,
-     "end": 7.012
+     "text": "buat",
+     "start": 4.795,
+     "end": 4.934
     },
     {
      "text": "nyari",
-     "start": 7.07,
-     "end": 7.268
+     "start": 4.992,
+     "end": 5.201
     },
     {
      "text": "uang!",
-     "start": 7.338,
-     "end": 8.313
+     "start": 5.271,
+     "end": 6.13
     }
    ]
   },
   "n2": {
    "who": "narrator",
-   "text": "Warung Fahmi buka! Di pulau aru titik web titik i d, kamu bisa duduk dan pesan makan beneran.",
-   "hash": "4bd18953c49d",
-   "duration": 6.502,
+   "text": "Warung Fahmi buka! Kamu bisa duduk dan pesan makan beneran.",
+   "hash": "d83747c63e55",
+   "duration": 3.622,
    "words": [
     {
      "text": "Warung",
      "start": 0,
-     "end": 0.337
+     "end": 0.313
     },
     {
      "text": "Fahmi",
-     "start": 0.383,
-     "end": 0.65
+     "start": 0.36,
+     "end": 0.604
     },
     {
      "text": "buka!",
-     "start": 0.697,
-     "end": 1.277
+     "start": 0.65,
+     "end": 1.219
     },
     {
-     "text": "Di",
-     "start": 1.718,
-     "end": 1.834
-    },
-    {
-     "text": "pulau",
-     "start": 1.881,
-     "end": 2.183
-    },
-    {
-     "text": "aru",
-     "start": 2.252,
-     "end": 2.485
-    },
-    {
-     "text": "titik",
-     "start": 2.531,
-     "end": 2.786
-    },
-    {
-     "text": "web",
-     "start": 2.844,
-     "end": 2.972
-    },
-    {
-     "text": "titik",
-     "start": 3.03,
-     "end": 3.274
-    },
-    {
-     "text": "i",
-     "start": 3.355,
-     "end": 3.402
-    },
-    {
-     "text": "d,",
-     "start": 3.471,
-     "end": 3.831
-    },
-    {
-     "text": "kamu",
-     "start": 3.924,
-     "end": 4.203
+     "text": "Kamu",
+     "start": 1.335,
+     "end": 1.579
     },
     {
      "text": "bisa",
-     "start": 4.249,
-     "end": 4.423
+     "start": 1.625,
+     "end": 1.788
     },
     {
      "text": "duduk",
-     "start": 4.47,
-     "end": 4.748
+     "start": 1.834,
+     "end": 2.113
     },
     {
      "text": "dan",
-     "start": 4.795,
-     "end": 4.899
+     "start": 2.183,
+     "end": 2.287
     },
     {
      "text": "pesan",
-     "start": 4.957,
-     "end": 5.178
+     "start": 2.345,
+     "end": 2.543
     },
     {
      "text": "makan",
-     "start": 5.224,
-     "end": 5.445
+     "start": 2.589,
+     "end": 2.798
     },
     {
      "text": "beneran.",
-     "start": 5.492,
-     "end": 6.502
+     "start": 2.844,
+     "end": 3.622
     }
    ]
   },
@@ -621,157 +561,102 @@
   },
   "p1": {
    "who": "presiden",
-   "text": "Eh, eh, tunggu! Aku kan sudah bikin masjid. Dan... pasar!",
-   "hash": "8bc6230f4722",
-   "duration": 5.712,
+   "text": "Eh, tunggu! Aku kan sudah bikin masjid!",
+   "hash": "1b1f2a50eb58",
+   "duration": 2.879,
    "words": [
     {
      "text": "Eh,",
      "start": 0,
-     "end": 0.325
-    },
-    {
-     "text": "eh,",
-     "start": 0.36,
-     "end": 0.58
+     "end": 0.313
     },
     {
      "text": "tunggu!",
-     "start": 0.615,
-     "end": 1.498
+     "start": 0.383,
+     "end": 0.917
     },
     {
      "text": "Aku",
-     "start": 1.823,
-     "end": 2.101
+     "start": 0.998,
+     "end": 1.242
     },
     {
      "text": "kan",
-     "start": 2.148,
-     "end": 2.252
+     "start": 1.277,
+     "end": 1.382
     },
     {
      "text": "sudah",
-     "start": 2.287,
-     "end": 2.508
+     "start": 1.416,
+     "end": 1.637
     },
     {
      "text": "bikin",
-     "start": 2.543,
-     "end": 2.775
+     "start": 1.672,
+     "end": 1.892
     },
     {
-     "text": "masjid.",
-     "start": 2.821,
-     "end": 3.39
-    },
-    {
-     "text": "Dan...",
-     "start": 3.669,
-     "end": 4.261
-    },
-    {
-     "text": "pasar!",
-     "start": 4.586,
-     "end": 5.712
+     "text": "masjid!",
+     "start": 1.95,
+     "end": 2.879
     }
    ]
   },
   "n4": {
    "who": "narrator",
-   "text": "Warga turun ke jalan. Damai, tapi berisik. Presiden turun, atau bertahan? Siapa calon presiden berikutnya? Tulis di komentar!",
-   "hash": "972421dd8d00",
-   "duration": 9.474,
+   "text": "Presiden turun, atau bertahan? Siapa calon berikutnya? Tulis di komentar!",
+   "hash": "7615fa716104",
+   "duration": 5.387,
    "words": [
     {
-     "text": "Warga",
-     "start": 0,
-     "end": 0.36
-    },
-    {
-     "text": "turun",
-     "start": 0.406,
-     "end": 0.639
-    },
-    {
-     "text": "ke",
-     "start": 0.697,
-     "end": 0.755
-    },
-    {
-     "text": "jalan.",
-     "start": 0.813,
-     "end": 1.312
-    },
-    {
-     "text": "Damai,",
-     "start": 1.753,
-     "end": 2.31
-    },
-    {
-     "text": "tapi",
-     "start": 2.392,
-     "end": 2.659
-    },
-    {
-     "text": "berisik.",
-     "start": 2.705,
-     "end": 3.309
-    },
-    {
      "text": "Presiden",
-     "start": 3.634,
-     "end": 4.087
+     "start": 0,
+     "end": 0.464
     },
     {
      "text": "turun,",
-     "start": 4.145,
-     "end": 4.54
+     "start": 0.522,
+     "end": 0.94
     },
     {
      "text": "atau",
-     "start": 4.656,
-     "end": 4.899
+     "start": 0.998,
+     "end": 1.242
     },
     {
      "text": "bertahan?",
-     "start": 4.934,
-     "end": 5.515
+     "start": 1.277,
+     "end": 1.846
     },
     {
      "text": "Siapa",
-     "start": 5.956,
-     "end": 6.362
+     "start": 2.357,
+     "end": 2.775
     },
     {
      "text": "calon",
-     "start": 6.409,
-     "end": 6.653
-    },
-    {
-     "text": "presiden",
-     "start": 6.711,
-     "end": 7.094
+     "start": 2.81,
+     "end": 3.053
     },
     {
      "text": "berikutnya?",
-     "start": 7.152,
-     "end": 7.814
+     "start": 3.111,
+     "end": 3.82
     },
     {
      "text": "Tulis",
-     "start": 7.964,
-     "end": 8.324
+     "start": 3.994,
+     "end": 4.331
     },
     {
      "text": "di",
-     "start": 8.417,
-     "end": 8.487
+     "start": 4.389,
+     "end": 4.447
     },
     {
      "text": "komentar!",
-     "start": 8.533,
-     "end": 9.474
+     "start": 4.493,
+     "end": 5.387
     }
    ]
   }
