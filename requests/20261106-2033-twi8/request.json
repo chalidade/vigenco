@@ -1,0 +1,14 @@
+{
+  "id": "20261106-2033-twi8",
+  "type": "launch",
+  "prompt": "Buat video dengan scenario dan gambar yang terlampir pada artifact",
+  "format": "portrait",
+  "links": [
+    "https://claude.ai/artifact/F8xa3jC2kPbeyUvsAoUeAH",
+    "https://saling-jaga.com/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-06T13:33:31.029Z",
+  "mode": "full"
+}
