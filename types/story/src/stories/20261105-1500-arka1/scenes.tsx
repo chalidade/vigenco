@@ -105,7 +105,7 @@ const Link: FC<SceneProps> = ({ frames, words, lead }) => {
   const f = useCurrentFrame();
   const link = at({ w: "tautan", f: 0.3 }, frames, words, lead);
   const virt = at({ w: "virtual", f: 0.5 }, frames, words, lead);
-  const daftar = at({ w: "Daftar", f: 0.65 }, frames, words, lead);
+  const daftar = at({ w: "formulir", f: 0.65 }, frames, words, lead);
   const glow = step(f, link - 14, 10);
   return (
     <AbsoluteFill>
@@ -133,7 +133,7 @@ const Event: FC<SceneProps> = (p) => (
       { x: 16, y: 378, w: 200, h: 24, at: { w: "Tanggal", off: -2, f: 0.3 } },
       { x: 16, y: 408, w: 240, h: 26, at: { w: "tempat", off: -2, f: 0.45 } },
     ] },
-    { src: "s04-form.png", from: { w: "satu", off: -6, f: 0.6 }, marks: [{ x: 30, y: 118, w: 190, h: 30, at: { w: "Daftar", off: -4, f: 0.85 } }] },
+    { src: "s04-form.png", from: { w: "satu", off: -6, f: 0.6 }, marks: [{ x: 30, y: 118, w: 190, h: 30, at: { w: "formulir", off: -4, f: 0.85 } }] },
   ]} />
 );
 
@@ -228,8 +228,8 @@ const Morning: FC<SceneProps> = ({ frames, words, lead }) => {
 // 8 — opening day on the event page: Masuk gedung, then the sign-in screen with Google
 const SignIn: FC<SceneProps> = (p) => (
   <App {...p} clock="07.58" shots={[
-    { src: "s08-enter.png", from: 0, marks: [{ x: 31, y: 557, w: 176, h: 48, at: { w: "Satu", off: -2, f: 0.05 }, until: { w: "tekan", off: 10, f: 0.15 } }], tap: { x: 119, y: 581, at: { w: "tekan", off: 2, f: 0.15 } } },
-    { src: "s08-google.png", from: { w: "masuk", off: 2, f: 0.25 }, marks: [{ x: 32, y: 442, w: 326, h: 47, at: { w: "Google", off: -4, f: 0.45 } }], tap: { x: 195, y: 465, at: { w: "Tidak", off: 2, f: 0.6 } } },
+    { src: "s08-enter.png", from: 0, marks: [{ x: 31, y: 557, w: 176, h: 48, at: { w: "Tekan", off: -2, f: 0.05 }, until: { w: "gedung", off: 10, f: 0.15 } }], tap: { x: 119, y: 581, at: { w: "gedung", off: 2, f: 0.15 } } },
+    { src: "s08-google.png", from: { w: "lalu", off: 2, f: 0.25 }, marks: [{ x: 32, y: 442, w: 326, h: 47, at: { w: "Google", off: -4, f: 0.45 } }], tap: { x: 195, y: 465, at: { w: "Tidak", off: 2, f: 0.6 } } },
   ]} />
 );
 
@@ -246,8 +246,8 @@ const Coins: FC<SceneProps> = (p) => {
   const { frames, words, lead } = p;
   return (
     <App {...p} clock="08.05" shots={[
-      { src: "s10-code.png", from: 0, marks: [{ x: 39, y: 710, w: 217, h: 40, at: 0.02 }], tap: { x: 306, y: 730, at: { w: "tautkan", off: 0, f: 0.2 } } },
-      { src: "s10-linked.png", from: { w: "tautkan", off: 8, f: 0.25 }, marks: [{ x: 35, y: 690, w: 320, h: 66, at: { w: "Ternyata", off: 0, f: 0.35 } }], tap: { x: 105, y: 611, at: { w: "koin", off: -10, f: 0.65 } } },
+      { src: "s10-code.png", from: 0, marks: [{ x: 39, y: 710, w: 217, h: 40, at: 0.02 }], tap: { x: 306, y: 730, at: { w: "langsung", off: 0, f: 0.15 } } },
+      { src: "s10-linked.png", from: { w: "tertaut", off: 0, f: 0.22 }, marks: [{ x: 35, y: 690, w: 320, h: 66, at: { w: "Ternyata", off: 0, f: 0.35 } }], tap: { x: 105, y: 611, at: { w: "koin", off: -10, f: 0.65 } } },
       { src: "s10-claimed.png", from: { w: "koin", off: 2, f: 0.7 }, marks: [{ x: 35, y: 708, w: 320, h: 44, at: { w: "koin", off: 8, f: 0.72 } }] },
       { src: "s10-coins.png", from: { w: "fitur", off: -4, f: 0.85 }, marks: [{ x: 257, y: 777, w: 56, h: 50, at: { w: "fitur", off: 2, f: 0.88 } }] },
     ]}

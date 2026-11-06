@@ -20,7 +20,7 @@
       "visual": "Kos room at night: thin mattress, a small window with the moon, the phone lighting Arka's face. A drawn chat bubble from a friend pops up beside him with a link and 'Daftar dulu, biar dapat tempat.' (an illustration, not app UI)."
     },
     {
-      "narration": "Halaman eventnya sederhana. Tanggal, tempat, dan satu tombol: Daftar.",
+      "narration": "Halaman eventnya sederhana. Tanggal, tempat, dan satu formulir pendek.",
       "visual": "Real event page jobfair.co.id/<event> on the phone (local run, invented event 'Job Fair Jawa Barat 2026'): outline on the date on 'Tanggal', on 'Online di jobfair.co.id' on 'tempat', then the page scrolls to the 'Daftar sekarang' form, outlined on 'Daftar'."
     },
     {
@@ -36,7 +36,7 @@
       "visual": "Kos room in the morning: a wall calendar flips from 11 to 12 November (circled), Arka irons his blue shirt on a small board, steam rising; the alarm clock reads 05.30."
     },
     {
-      "narration": "Satu tekan untuk masuk, pakai akun Google-ku. Tidak perlu hafal kata sandi baru.",
+      "narration": "Tekan Masuk gedung, lalu masuk pakai akun Google-ku. Tidak perlu hafal kata sandi baru.",
       "visual": "Real event page on opening day ('Pendaftaran berakhir', the 'Masuk gedung' card): tap 'Masuk gedung', then the game's sign-in screen 'Masuk ke jobfair' with 'Masuk dengan Google' outlined on 'Google'."
     },
     {
@@ -44,7 +44,7 @@
       "visual": "Real game hall (demo build, seed companies): Lantai 2 zoomed out, Arka's character (short black hair, blue tee) facing the camera between the stands, then walking up the empty aisle."
     },
     {
-      "narration": "Kodeku aku tautkan. Ternyata, yang daftar duluan dapat bekal koin untuk mencoba fitur-fiturnya.",
+      "narration": "Pendaftaranku langsung tertaut ke akunku. Ternyata, yang daftar duluan dapat bekal koin untuk mencoba fitur-fiturnya.",
       "visual": "Real bag > Profil > 'Event yang kamu ikuti': the code JF-… typed, tap Tautkan, 'Pendaftaran tertaut…', tap 'Klaim 20 koin', '+20 koin masuk ke dompetmu…', back in the hall the coin counter reads 70 (outlined)."
     },
     {
