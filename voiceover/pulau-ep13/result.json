@@ -602,6 +602,49 @@
     }
    ]
   },
+  "v2": {
+   "who": "wapres",
+   "text": "Kalau ada pemilu... aku daftar duluan, ya!",
+   "hash": "f6dabe64ee8e",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Kalau",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "ada",
+     "start": 0.337,
+     "end": 0.534
+    },
+    {
+     "text": "pemilu...",
+     "start": 0.58,
+     "end": 1.184
+    },
+    {
+     "text": "aku",
+     "start": 1.509,
+     "end": 1.741
+    },
+    {
+     "text": "daftar",
+     "start": 1.788,
+     "end": 2.067
+    },
+    {
+     "text": "duluan,",
+     "start": 2.09,
+     "end": 2.438
+    },
+    {
+     "text": "ya!",
+     "start": 2.485,
+     "end": 3.019
+    }
+   ]
+  },
   "n4": {
    "who": "narrator",
    "text": "Presiden turun, atau bertahan? Siapa calon berikutnya? Tulis di komentar!",

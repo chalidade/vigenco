@@ -292,58 +292,16 @@
   "description": "Friendly and comforting voice ready to narrate your stories."
  },
  {
-  "id": "plgKUYgnlZ1DCNh54DwJ",
-  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
-  "category": "professional",
-  "labels": {
-   "age": "young",
-   "descriptive": "casual",
-   "accent": "standard",
-   "use_case": "social_media",
-   "language": "id",
-   "gender": "male"
-  },
-  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
- },
- {
-  "id": "gmnazjXOFoOcWA59sd5m",
-  "name": "Kira",
-  "category": "professional",
-  "labels": {
-   "age": "young",
-   "language": "id",
-   "accent": "standard",
-   "use_case": "narrative_story",
-   "descriptive": "calm",
-   "gender": "female"
-  },
-  "description": "A young, vibrant 17-year-old female voice, clear and expressive. Perfect for youth-centered content."
- },
- {
-  "id": "I7sakys8pBZ1Z5f0UhT9",
-  "name": "Putri Maharani - Neutral and WItty (vigenco)",
-  "category": "professional",
-  "labels": {
-   "descriptive": "cute",
-   "accent": "javanese",
-   "age": "middle_aged",
-   "use_case": "narrative_story",
-   "language": "id",
-   "gender": "female"
-  },
-  "description": "The voice that transforms words into unforgettable experiences. With a warm, expressive tone and a storytelling style that captivates hearts, Putri Maharani voice will brings your projects to life. Whether you’re crafting an enchanting children’s tale, an edge-of-your-seat audiobook, or an inspiring documentary, Putri Maharani voice connects with listeners on an emotional level. Putri Maharani ability to evoke emotion ensures your audience stays engaged and inspired."
- },
- {
   "id": "iWydkXKoiVtvdn4vLKp9",
   "name": "Cahaya - Youthful, Clear and Engaging (vigenco)",
   "category": "professional",
   "labels": {
-   "accent": "standard",
+   "gender": "female",
    "age": "young",
-   "language": "id",
-   "use_case": "social_media",
    "descriptive": "cute",
-   "gender": "female"
+   "accent": "standard",
+   "language": "id",
+   "use_case": "social_media"
   },
   "description": "A trendy young Indonesian female voice, perfect for narration and social media with a fresh, engaging tone."
  },
@@ -352,13 +310,55 @@
   "name": "Putra - Smooth, Clear and Engaging (vigenco)",
   "category": "professional",
   "labels": {
-   "accent": "standard",
-   "descriptive": "excited",
-   "language": "id",
-   "use_case": "narrative_story",
+   "gender": "male",
    "age": "middle_aged",
-   "gender": "male"
+   "descriptive": "excited",
+   "accent": "standard",
+   "language": "id",
+   "use_case": "narrative_story"
   },
   "description": "A young Indonesian man with a fiery enthusiasm, to convey messages more clearly."
+ },
+ {
+  "id": "I7sakys8pBZ1Z5f0UhT9",
+  "name": "Putri Maharani - Neutral and WItty (vigenco)",
+  "category": "professional",
+  "labels": {
+   "gender": "female",
+   "age": "middle_aged",
+   "descriptive": "cute",
+   "accent": "javanese",
+   "language": "id",
+   "use_case": "narrative_story"
+  },
+  "description": "The voice that transforms words into unforgettable experiences. With a warm, expressive tone and a storytelling style that captivates hearts, Putri Maharani voice will brings your projects to life. Whether you’re crafting an enchanting children’s tale, an edge-of-your-seat audiobook, or an inspiring documentary, Putri Maharani voice connects with listeners on an emotional level. Putri Maharani ability to evoke emotion ensures your audience stays engaged and inspired."
+ },
+ {
+  "id": "plgKUYgnlZ1DCNh54DwJ",
+  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
+  "category": "professional",
+  "labels": {
+   "gender": "male",
+   "age": "young",
+   "descriptive": "casual",
+   "accent": "standard",
+   "language": "id",
+   "use_case": "social_media"
+  },
+  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
+ },
+ {
+  "id": "gmnazjXOFoOcWA59sd5m",
+  "name": "Kira",
+  "category": "professional",
+  "labels": {
+   "gender": "female",
+   "age": "young",
+   "descriptive": "calm",
+   "language": "id",
+   "accent": "standard",
+   "use_case": "narrative_story"
+  },
+  "description": "A young, vibrant 17-year-old female voice, clear and expressive. Perfect for youth-centered content."
  }
 ]
