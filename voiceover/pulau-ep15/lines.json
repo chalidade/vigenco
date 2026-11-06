@@ -1,0 +1,121 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "ega": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  },
+  "mantan": {
+   "stability": 0.45,
+   "style": 0.45
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  }
+ },
+ "lines": [
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Warga sekalian... aku mundur dari jabatan presiden!"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Lho, Pak?! Ya udah, aku juga mundur deh!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Hari ini, Pulau Aru resmi tanpa presiden. Dan tanpa wakil."
+  },
+  {
+   "id": "p2",
+   "who": "mantan",
+   "text": "Aku cuma daftar sendiri. Nggak ada satu pun yang milih aku."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Tapi kolom komentar langsung banjir calon presiden!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Pak Azka sudah follow. EGA nyalon lagi. Dan kampanye paling singkat..."
+  },
+  {
+   "id": "w1",
+   "who": "warga2",
+   "text": "Aku kak!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Visi misi: aku kak. Selesai."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Pemilu dibuka! Like terbanyak jadi presiden, kedua jadi wakil presiden!"
+  },
+  {
+   "id": "w2",
+   "who": "warga",
+   "text": "Like aku! Eh, like aku dong!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Papan pemilu sudah berdiri. Semua calon tercatat, kursinya masih kosong."
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Sekolah juga resmi dibuka. Selamat datang, murid baru!"
+  },
+  {
+   "id": "v2",
+   "who": "ega",
+   "text": "Mundur dari wapres, nyalon presiden. Namanya strategi!"
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Like komentar calon favoritmu! Pemenangnya diumumkan di episode depan."
+  }
+ ]
+}
