@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga 0.45 · Seperti grup chat yang sudah kamu kenal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg, #red { position: absolute; inset: 0; }
+  #bg { background: radial-gradient(1100px 900px at 72% 55%, rgba(27,77,46,.45), transparent 70%),
+                    radial-gradient(800px 600px at 0% 0%, rgba(19,39,29,.9), transparent 70%); }
+  #red { background: radial-gradient(1000px 900px at 72% 50%, rgba(239,75,75,.42), transparent 72%); opacity: 0; }
+  #world { position: absolute; left: 0; top: 0; width: 0; height: 0; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  #hud { position: absolute; inset: 0; }
+  #hud > * { position: absolute; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -.01em; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  .lbl { font: 600 24px/1 "JetBrains Mono", monospace; letter-spacing: .14em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 16px; white-space: nowrap; }
+  .lbl::before { content: ""; width: 34px; height: 3px; background: currentColor; }
+  .head { font: 800 64px/1.06 "Plus Jakarta Sans", sans-serif; letter-spacing: -.035em; color: #f2edd5; width: 800px; }
+  .head .serif { color: #3cbf6e; font-size: 1.14em; }
+  .sub { font: 500 30px/1.38 "Plus Jakarta Sans", sans-serif; color: #a5b0a2; width: 760px; }
+  .cur { width: 0; height: 0; }
+  .cur svg { position: absolute; left: -5px; top: -4px; width: 46px; height: 46px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.45)); }
+  .cur .pill { position: absolute; left: 30px; top: 40px; font: 700 21px/1 "Plus Jakarta Sans"; padding: 8px 15px; border-radius: 999px; white-space: nowrap; background: #f2edd5; color: #04140a; }
+  .rip { width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%; border: 3px solid #3cbf6e; box-sizing: border-box; }
+
+  /* phone */
+  #body { box-sizing: border-box; }
+  #scr { left: 0; top: 0; width: 400px; height: 866px; border-radius: 44px; overflow: hidden; background: #f6f4ea; color: #1c2a21; }
+  #scr > * { position: absolute; }
+  #scr * { box-sizing: border-box; }
+  .av { border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; flex: none; }
+  .sp { display: inline-block; padding: 6px 14px; border-radius: 999px; background: #fff; border: 1px solid #e2e0d4; font: 500 12.5px/1.2 "Plus Jakarta Sans"; color: #6b7469; }
+  .bm { max-width: 290px; background: #1f7a45; color: #fff; border-radius: 18px 18px 5px 18px; padding: 9px 13px 7px; font: 500 15px/1.35 "Plus Jakarta Sans"; }
+  .bo { max-width: 300px; background: #fff; border: 1px solid #e2e0d4; border-radius: 18px 18px 18px 5px; padding: 8px 13px 7px; font: 500 15px/1.35 "Plus Jakarta Sans"; color: #1c2a21; }
+  .bo .nm { font: 700 12.5px/1.2 "Plus Jakarta Sans"; margin-bottom: 2px; }
+  .an { background: #fdf0d6; border-radius: 16px; padding: 9px 13px; font: 700 15px/1.35 "Plus Jakarta Sans"; color: #1c2a21; }
+  .an .nm { font: 700 11.5px/1.2 "Plus Jakarta Sans"; color: #8a5300; letter-spacing: .04em; margin-bottom: 3px; }
+  .tm { font: 500 10.5px/1 "Plus Jakarta Sans"; opacity: .65; text-align: right; margin-top: 3px; }
+  .ic { display: inline-flex; flex: none; }
+  .note { white-space: nowrap; font: 700 19px/1 "Plus Jakarta Sans"; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="red"></div>
+  <div id="world"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
