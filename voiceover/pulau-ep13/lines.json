@@ -1,0 +1,101 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Pemilu! Pemilu! Presiden belum pernah dipilih!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Padahal pagi tadi pulau masih damai. Dua usulan masuk: Fahmi pengen nge warung. Dan wapres: buat kantor untuk nyari uang!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Warung Fahmi buka! Di pulau aru titik web titik i d, kamu bisa duduk dan pesan makan beneran."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Nasi gorengnya enak! Bayarnya pakai koin pulau."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Koinnya dari mana? Kantor Pulau! Kerja satu shift, dapat koin."
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Kerja jujur, gajian jujur. Ya kan, Pak Presiden?"
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Gorengan kantin, tidur waktu ronda, makan mangga ladang. Catat semua!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Surat dari penjaga mercusuar. Katanya: pemimpin pulau harus dipilih warga."
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Warga! Presiden dilantik waktu aku pergi. Nggak pernah ada pemilu!"
+  },
+  {
+   "id": "w3",
+   "who": "warga2",
+   "text": "Jadi dia presiden cuma karena follow duluan?!"
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Eh, eh, tunggu! Aku kan sudah bikin masjid. Dan... pasar!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Warga turun ke jalan. Damai, tapi berisik. Presiden turun, atau bertahan? Siapa calon presiden berikutnya? Tulis di komentar!"
+  }
+ ]
+}
