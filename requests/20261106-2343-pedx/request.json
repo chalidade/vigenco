@@ -1,0 +1,13 @@
+{
+  "id": "20261106-2343-pedx",
+  "type": "launch",
+  "prompt": "Video launch untuk aplikasi saling jaga. semua penjelasan ada di website. kamu bisa gunakan itu sebagai referensi.",
+  "format": "landscape",
+  "links": [
+    "https://saling-jaga.com/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-06T16:43:12.667Z",
+  "mode": "full"
+}
