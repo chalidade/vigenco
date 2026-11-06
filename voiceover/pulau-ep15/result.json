@@ -1,0 +1,682 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "ega": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "p1": {
+   "who": "presiden",
+   "text": "Warga sekalian... aku mundur dari jabatan presiden!",
+   "hash": "5102961c39ce",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Warga",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "sekalian...",
+     "start": 0.476,
+     "end": 1.324
+    },
+    {
+     "text": "aku",
+     "start": 1.765,
+     "end": 2.02
+    },
+    {
+     "text": "mundur",
+     "start": 2.067,
+     "end": 2.415
+    },
+    {
+     "text": "dari",
+     "start": 2.496,
+     "end": 2.67
+    },
+    {
+     "text": "jabatan",
+     "start": 2.728,
+     "end": 3.1
+    },
+    {
+     "text": "presiden!",
+     "start": 3.158,
+     "end": 4.226
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Lho, Pak?! Ya udah, aku juga mundur deh!",
+   "hash": "d85d47d7fd63",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Lho,",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "Pak?!",
+     "start": 0.255,
+     "end": 0.534
+    },
+    {
+     "text": "Ya",
+     "start": 0.708,
+     "end": 0.836
+    },
+    {
+     "text": "udah,",
+     "start": 0.882,
+     "end": 1.126
+    },
+    {
+     "text": "aku",
+     "start": 1.161,
+     "end": 1.335
+    },
+    {
+     "text": "juga",
+     "start": 1.37,
+     "end": 1.509
+    },
+    {
+     "text": "mundur",
+     "start": 1.544,
+     "end": 1.811
+    },
+    {
+     "text": "deh!",
+     "start": 1.858,
+     "end": 2.276
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Hari ini, Pulau Aru resmi tanpa presiden. Dan tanpa wakil.",
+   "hash": "8e2ec8cbdaa8",
+   "duration": 4.783,
+   "words": [
+    {
+     "text": "Hari",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "ini,",
+     "start": 0.325,
+     "end": 0.743
+    },
+    {
+     "text": "Pulau",
+     "start": 0.766,
+     "end": 1.045
+    },
+    {
+     "text": "Aru",
+     "start": 1.103,
+     "end": 1.324
+    },
+    {
+     "text": "resmi",
+     "start": 1.37,
+     "end": 1.846
+    },
+    {
+     "text": "tanpa",
+     "start": 2.125,
+     "end": 2.473
+    },
+    {
+     "text": "presiden.",
+     "start": 2.519,
+     "end": 3.17
+    },
+    {
+     "text": "Dan",
+     "start": 3.448,
+     "end": 3.634
+    },
+    {
+     "text": "tanpa",
+     "start": 3.704,
+     "end": 3.982
+    },
+    {
+     "text": "wakil.",
+     "start": 4.029,
+     "end": 4.783
+    }
+   ]
+  },
+  "p2": {
+   "who": "mantan",
+   "text": "Aku cuma daftar sendiri. Nggak ada satu pun yang milih aku.",
+   "hash": "9fef1022c7fb",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "cuma",
+     "start": 0.348,
+     "end": 0.569
+    },
+    {
+     "text": "daftar",
+     "start": 0.627,
+     "end": 0.952
+    },
+    {
+     "text": "sendiri.",
+     "start": 1.01,
+     "end": 1.463
+    },
+    {
+     "text": "Nggak",
+     "start": 1.486,
+     "end": 1.695
+    },
+    {
+     "text": "ada",
+     "start": 1.718,
+     "end": 1.881
+    },
+    {
+     "text": "satu",
+     "start": 1.916,
+     "end": 2.171
+    },
+    {
+     "text": "pun",
+     "start": 2.229,
+     "end": 2.392
+    },
+    {
+     "text": "yang",
+     "start": 2.438,
+     "end": 2.554
+    },
+    {
+     "text": "milih",
+     "start": 2.601,
+     "end": 2.844
+    },
+    {
+     "text": "aku.",
+     "start": 2.891,
+     "end": 3.576
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tapi kolom komentar langsung banjir calon presiden!",
+   "hash": "314a67c693bb",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "kolom",
+     "start": 0.348,
+     "end": 0.557
+    },
+    {
+     "text": "komentar",
+     "start": 0.615,
+     "end": 1.115
+    },
+    {
+     "text": "langsung",
+     "start": 1.207,
+     "end": 1.556
+    },
+    {
+     "text": "banjir",
+     "start": 1.602,
+     "end": 1.881
+    },
+    {
+     "text": "calon",
+     "start": 1.927,
+     "end": 2.159
+    },
+    {
+     "text": "presiden!",
+     "start": 2.206,
+     "end": 3.39
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Pak Azka sudah follow. EGA nyalon lagi. Dan kampanye paling singkat...",
+   "hash": "d19830b25f57",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Pak",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "Azka",
+     "start": 0.244,
+     "end": 0.569
+    },
+    {
+     "text": "sudah",
+     "start": 0.615,
+     "end": 0.836
+    },
+    {
+     "text": "follow.",
+     "start": 0.871,
+     "end": 1.382
+    },
+    {
+     "text": "EGA",
+     "start": 1.765,
+     "end": 2.055
+    },
+    {
+     "text": "nyalon",
+     "start": 2.09,
+     "end": 2.345
+    },
+    {
+     "text": "lagi.",
+     "start": 2.403,
+     "end": 2.914
+    },
+    {
+     "text": "Dan",
+     "start": 3.297,
+     "end": 3.471
+    },
+    {
+     "text": "kampanye",
+     "start": 3.541,
+     "end": 3.901
+    },
+    {
+     "text": "paling",
+     "start": 3.936,
+     "end": 4.156
+    },
+    {
+     "text": "singkat...",
+     "start": 4.191,
+     "end": 4.876
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga2",
+   "text": "Aku kak!",
+   "hash": "aaf1f430d19d",
+   "duration": 1.115,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "kak!",
+     "start": 0.406,
+     "end": 1.115
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Visi misi: aku kak. Selesai.",
+   "hash": "dd9f3acecd89",
+   "duration": 2.833,
+   "words": [
+    {
+     "text": "Visi",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "misi:",
+     "start": 0.337,
+     "end": 0.906
+    },
+    {
+     "text": "aku",
+     "start": 1.115,
+     "end": 1.358
+    },
+    {
+     "text": "kak.",
+     "start": 1.416,
+     "end": 1.741
+    },
+    {
+     "text": "Selesai.",
+     "start": 1.916,
+     "end": 2.833
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Pemilu dibuka! Like terbanyak jadi presiden, kedua jadi wakil presiden!",
+   "hash": "fdee948f6869",
+   "duration": 4.551,
+   "words": [
+    {
+     "text": "Pemilu",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "dibuka!",
+     "start": 0.488,
+     "end": 1.068
+    },
+    {
+     "text": "Like",
+     "start": 1.347,
+     "end": 1.614
+    },
+    {
+     "text": "terbanyak",
+     "start": 1.637,
+     "end": 2.009
+    },
+    {
+     "text": "jadi",
+     "start": 2.067,
+     "end": 2.194
+    },
+    {
+     "text": "presiden,",
+     "start": 2.229,
+     "end": 2.752
+    },
+    {
+     "text": "kedua",
+     "start": 2.868,
+     "end": 3.239
+    },
+    {
+     "text": "jadi",
+     "start": 3.286,
+     "end": 3.448
+    },
+    {
+     "text": "wakil",
+     "start": 3.495,
+     "end": 3.738
+    },
+    {
+     "text": "presiden!",
+     "start": 3.785,
+     "end": 4.551
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga",
+   "text": "Like aku! Eh, like aku dong!",
+   "hash": "c9b5ddf96ac5",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Like",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "aku!",
+     "start": 0.255,
+     "end": 0.627
+    },
+    {
+     "text": "Eh,",
+     "start": 0.871,
+     "end": 0.998
+    },
+    {
+     "text": "like",
+     "start": 1.022,
+     "end": 1.173
+    },
+    {
+     "text": "aku",
+     "start": 1.219,
+     "end": 1.428
+    },
+    {
+     "text": "dong!",
+     "start": 1.474,
+     "end": 1.95
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Papan pemilu sudah berdiri. Semua calon tercatat, kursinya masih kosong.",
+   "hash": "3c7738cecf99",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Papan",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "pemilu",
+     "start": 0.348,
+     "end": 0.639
+    },
+    {
+     "text": "sudah",
+     "start": 0.673,
+     "end": 0.871
+    },
+    {
+     "text": "berdiri.",
+     "start": 0.906,
+     "end": 1.521
+    },
+    {
+     "text": "Semua",
+     "start": 1.695,
+     "end": 2.009
+    },
+    {
+     "text": "calon",
+     "start": 2.043,
+     "end": 2.287
+    },
+    {
+     "text": "tercatat,",
+     "start": 2.334,
+     "end": 2.914
+    },
+    {
+     "text": "kursinya",
+     "start": 2.937,
+     "end": 3.309
+    },
+    {
+     "text": "masih",
+     "start": 3.355,
+     "end": 3.564
+    },
+    {
+     "text": "kosong.",
+     "start": 3.587,
+     "end": 4.458
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Sekolah juga resmi dibuka. Selamat datang, murid baru!",
+   "hash": "8c4d16c17559",
+   "duration": 3.437,
+   "words": [
+    {
+     "text": "Sekolah",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "juga",
+     "start": 0.395,
+     "end": 0.58
+    },
+    {
+     "text": "resmi",
+     "start": 0.604,
+     "end": 0.824
+    },
+    {
+     "text": "dibuka.",
+     "start": 0.859,
+     "end": 1.428
+    },
+    {
+     "text": "Selamat",
+     "start": 1.672,
+     "end": 1.997
+    },
+    {
+     "text": "datang,",
+     "start": 2.032,
+     "end": 2.345
+    },
+    {
+     "text": "murid",
+     "start": 2.368,
+     "end": 2.589
+    },
+    {
+     "text": "baru!",
+     "start": 2.635,
+     "end": 3.437
+    }
+   ]
+  },
+  "v2": {
+   "who": "ega",
+   "text": "Mundur dari wapres, nyalon presiden. Namanya strategi!",
+   "hash": "ed55cb36a601",
+   "duration": 3.529,
+   "words": [
+    {
+     "text": "Mundur",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "dari",
+     "start": 0.464,
+     "end": 0.685
+    },
+    {
+     "text": "wapres,",
+     "start": 0.743,
+     "end": 1.149
+    },
+    {
+     "text": "nyalon",
+     "start": 1.184,
+     "end": 1.451
+    },
+    {
+     "text": "presiden.",
+     "start": 1.486,
+     "end": 1.985
+    },
+    {
+     "text": "Namanya",
+     "start": 2.229,
+     "end": 2.635
+    },
+    {
+     "text": "strategi!",
+     "start": 2.67,
+     "end": 3.529
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Like komentar calon favoritmu! Pemenangnya diumumkan di episode depan.",
+   "hash": "9583b9c2d34e",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Like",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "komentar",
+     "start": 0.255,
+     "end": 0.65
+    },
+    {
+     "text": "calon",
+     "start": 0.697,
+     "end": 0.917
+    },
+    {
+     "text": "favoritmu!",
+     "start": 0.975,
+     "end": 1.683
+    },
+    {
+     "text": "Pemenangnya",
+     "start": 1.8,
+     "end": 2.322
+    },
+    {
+     "text": "diumumkan",
+     "start": 2.368,
+     "end": 2.856
+    },
+    {
+     "text": "di",
+     "start": 2.902,
+     "end": 2.961
+    },
+    {
+     "text": "episode",
+     "start": 2.995,
+     "end": 3.332
+    },
+    {
+     "text": "depan.",
+     "start": 3.367,
+     "end": 4.087
+    }
+   ]
+  }
+ }
+}
