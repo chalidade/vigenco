@@ -1,0 +1,779 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "presiden": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "w1": {
+   "who": "warga",
+   "text": "Pemilu! Pemilu! Presiden belum pernah dipilih!",
+   "hash": "fe052d97fe51",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Pemilu!",
+     "start": 0,
+     "end": 0.697
+    },
+    {
+     "text": "Pemilu!",
+     "start": 0.975,
+     "end": 1.649
+    },
+    {
+     "text": "Presiden",
+     "start": 1.927,
+     "end": 2.357
+    },
+    {
+     "text": "belum",
+     "start": 2.415,
+     "end": 2.566
+    },
+    {
+     "text": "pernah",
+     "start": 2.612,
+     "end": 2.798
+    },
+    {
+     "text": "dipilih!",
+     "start": 2.821,
+     "end": 3.622
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Padahal pagi tadi pulau masih damai. Dua usulan masuk: Fahmi pengen nge warung. Dan wapres: buat kantor untuk nyari uang!",
+   "hash": "8649b82a550c",
+   "duration": 8.313,
+   "words": [
+    {
+     "text": "Padahal",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "pagi",
+     "start": 0.464,
+     "end": 0.662
+    },
+    {
+     "text": "tadi",
+     "start": 0.697,
+     "end": 0.906
+    },
+    {
+     "text": "pulau",
+     "start": 0.952,
+     "end": 1.184
+    },
+    {
+     "text": "masih",
+     "start": 1.207,
+     "end": 1.428
+    },
+    {
+     "text": "damai.",
+     "start": 1.451,
+     "end": 2.043
+    },
+    {
+     "text": "Dua",
+     "start": 2.426,
+     "end": 2.601
+    },
+    {
+     "text": "usulan",
+     "start": 2.647,
+     "end": 2.961
+    },
+    {
+     "text": "masuk:",
+     "start": 3.007,
+     "end": 3.437
+    },
+    {
+     "text": "Fahmi",
+     "start": 3.553,
+     "end": 3.855
+    },
+    {
+     "text": "pengen",
+     "start": 3.901,
+     "end": 4.122
+    },
+    {
+     "text": "nge",
+     "start": 4.145,
+     "end": 4.261
+    },
+    {
+     "text": "warung.",
+     "start": 4.296,
+     "end": 4.748
+    },
+    {
+     "text": "Dan",
+     "start": 5.19,
+     "end": 5.364
+    },
+    {
+     "text": "wapres:",
+     "start": 5.422,
+     "end": 6.084
+    },
+    {
+     "text": "buat",
+     "start": 6.2,
+     "end": 6.409
+    },
+    {
+     "text": "kantor",
+     "start": 6.455,
+     "end": 6.78
+    },
+    {
+     "text": "untuk",
+     "start": 6.827,
+     "end": 7.012
+    },
+    {
+     "text": "nyari",
+     "start": 7.07,
+     "end": 7.268
+    },
+    {
+     "text": "uang!",
+     "start": 7.338,
+     "end": 8.313
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Warung Fahmi buka! Di pulau aru titik web titik i d, kamu bisa duduk dan pesan makan beneran.",
+   "hash": "4bd18953c49d",
+   "duration": 6.502,
+   "words": [
+    {
+     "text": "Warung",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "Fahmi",
+     "start": 0.383,
+     "end": 0.65
+    },
+    {
+     "text": "buka!",
+     "start": 0.697,
+     "end": 1.277
+    },
+    {
+     "text": "Di",
+     "start": 1.718,
+     "end": 1.834
+    },
+    {
+     "text": "pulau",
+     "start": 1.881,
+     "end": 2.183
+    },
+    {
+     "text": "aru",
+     "start": 2.252,
+     "end": 2.485
+    },
+    {
+     "text": "titik",
+     "start": 2.531,
+     "end": 2.786
+    },
+    {
+     "text": "web",
+     "start": 2.844,
+     "end": 2.972
+    },
+    {
+     "text": "titik",
+     "start": 3.03,
+     "end": 3.274
+    },
+    {
+     "text": "i",
+     "start": 3.355,
+     "end": 3.402
+    },
+    {
+     "text": "d,",
+     "start": 3.471,
+     "end": 3.831
+    },
+    {
+     "text": "kamu",
+     "start": 3.924,
+     "end": 4.203
+    },
+    {
+     "text": "bisa",
+     "start": 4.249,
+     "end": 4.423
+    },
+    {
+     "text": "duduk",
+     "start": 4.47,
+     "end": 4.748
+    },
+    {
+     "text": "dan",
+     "start": 4.795,
+     "end": 4.899
+    },
+    {
+     "text": "pesan",
+     "start": 4.957,
+     "end": 5.178
+    },
+    {
+     "text": "makan",
+     "start": 5.224,
+     "end": 5.445
+    },
+    {
+     "text": "beneran.",
+     "start": 5.492,
+     "end": 6.502
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Nasi gorengnya enak! Bayarnya pakai koin pulau.",
+   "hash": "9711fc69222f",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Nasi",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "gorengnya",
+     "start": 0.29,
+     "end": 0.58
+    },
+    {
+     "text": "enak!",
+     "start": 0.639,
+     "end": 1.138
+    },
+    {
+     "text": "Bayarnya",
+     "start": 1.196,
+     "end": 1.544
+    },
+    {
+     "text": "pakai",
+     "start": 1.579,
+     "end": 1.776
+    },
+    {
+     "text": "koin",
+     "start": 1.811,
+     "end": 1.997
+    },
+    {
+     "text": "pulau.",
+     "start": 2.043,
+     "end": 2.694
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Koinnya dari mana? Kantor Pulau! Kerja satu shift, dapat koin.",
+   "hash": "953985d7149d",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Koinnya",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "dari",
+     "start": 0.383,
+     "end": 0.534
+    },
+    {
+     "text": "mana?",
+     "start": 0.58,
+     "end": 0.998
+    },
+    {
+     "text": "Kantor",
+     "start": 1.115,
+     "end": 1.44
+    },
+    {
+     "text": "Pulau!",
+     "start": 1.509,
+     "end": 2.02
+    },
+    {
+     "text": "Kerja",
+     "start": 2.403,
+     "end": 2.682
+    },
+    {
+     "text": "satu",
+     "start": 2.705,
+     "end": 2.914
+    },
+    {
+     "text": "shift,",
+     "start": 2.972,
+     "end": 3.355
+    },
+    {
+     "text": "dapat",
+     "start": 3.471,
+     "end": 3.738
+    },
+    {
+     "text": "koin.",
+     "start": 3.796,
+     "end": 4.458
+    }
+   ]
+  },
+  "v1": {
+   "who": "wapres",
+   "text": "Kerja jujur, gajian jujur. Ya kan, Pak Presiden?",
+   "hash": "a5e774c6615e",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Kerja",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "jujur,",
+     "start": 0.348,
+     "end": 0.697
+    },
+    {
+     "text": "gajian",
+     "start": 0.731,
+     "end": 0.975
+    },
+    {
+     "text": "jujur.",
+     "start": 1.022,
+     "end": 1.37
+    },
+    {
+     "text": "Ya",
+     "start": 1.405,
+     "end": 1.486
+    },
+    {
+     "text": "kan,",
+     "start": 1.521,
+     "end": 1.649
+    },
+    {
+     "text": "Pak",
+     "start": 1.672,
+     "end": 1.753
+    },
+    {
+     "text": "Presiden?",
+     "start": 1.776,
+     "end": 2.461
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Gorengan kantin, tidur waktu ronda, makan mangga ladang. Catat semua!",
+   "hash": "226c00e5deeb",
+   "duration": 5.433,
+   "words": [
+    {
+     "text": "Gorengan",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "kantin,",
+     "start": 0.488,
+     "end": 1.068
+    },
+    {
+     "text": "tidur",
+     "start": 1.277,
+     "end": 1.707
+    },
+    {
+     "text": "waktu",
+     "start": 1.776,
+     "end": 1.997
+    },
+    {
+     "text": "ronda,",
+     "start": 2.043,
+     "end": 2.543
+    },
+    {
+     "text": "makan",
+     "start": 2.67,
+     "end": 2.926
+    },
+    {
+     "text": "mangga",
+     "start": 2.972,
+     "end": 3.181
+    },
+    {
+     "text": "ladang.",
+     "start": 3.216,
+     "end": 3.692
+    },
+    {
+     "text": "Catat",
+     "start": 4.203,
+     "end": 4.505
+    },
+    {
+     "text": "semua!",
+     "start": 4.551,
+     "end": 5.433
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Surat dari penjaga mercusuar. Katanya: pemimpin pulau harus dipilih warga.",
+   "hash": "5130a5571388",
+   "duration": 4.83,
+   "words": [
+    {
+     "text": "Surat",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "dari",
+     "start": 0.441,
+     "end": 0.604
+    },
+    {
+     "text": "penjaga",
+     "start": 0.65,
+     "end": 1.057
+    },
+    {
+     "text": "mercusuar.",
+     "start": 1.115,
+     "end": 1.73
+    },
+    {
+     "text": "Katanya:",
+     "start": 1.753,
+     "end": 2.252
+    },
+    {
+     "text": "pemimpin",
+     "start": 2.496,
+     "end": 2.937
+    },
+    {
+     "text": "pulau",
+     "start": 2.995,
+     "end": 3.274
+    },
+    {
+     "text": "harus",
+     "start": 3.344,
+     "end": 3.622
+    },
+    {
+     "text": "dipilih",
+     "start": 3.657,
+     "end": 3.994
+    },
+    {
+     "text": "warga.",
+     "start": 4.017,
+     "end": 4.83
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Warga! Presiden dilantik waktu aku pergi. Nggak pernah ada pemilu!",
+   "hash": "7fcde2c2cfbe",
+   "duration": 3.994,
+   "words": [
+    {
+     "text": "Warga!",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "Presiden",
+     "start": 0.58,
+     "end": 0.952
+    },
+    {
+     "text": "dilantik",
+     "start": 0.987,
+     "end": 1.37
+    },
+    {
+     "text": "waktu",
+     "start": 1.416,
+     "end": 1.614
+    },
+    {
+     "text": "aku",
+     "start": 1.66,
+     "end": 1.788
+    },
+    {
+     "text": "pergi.",
+     "start": 1.834,
+     "end": 2.218
+    },
+    {
+     "text": "Nggak",
+     "start": 2.426,
+     "end": 2.67
+    },
+    {
+     "text": "pernah",
+     "start": 2.705,
+     "end": 2.984
+    },
+    {
+     "text": "ada",
+     "start": 3.042,
+     "end": 3.17
+    },
+    {
+     "text": "pemilu!",
+     "start": 3.216,
+     "end": 3.994
+    }
+   ]
+  },
+  "w3": {
+   "who": "warga2",
+   "text": "Jadi dia presiden cuma karena follow duluan?!",
+   "hash": "2b11ab7051e3",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "Jadi",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "dia",
+     "start": 0.255,
+     "end": 0.383
+    },
+    {
+     "text": "presiden",
+     "start": 0.43,
+     "end": 0.836
+    },
+    {
+     "text": "cuma",
+     "start": 0.882,
+     "end": 1.068
+    },
+    {
+     "text": "karena",
+     "start": 1.115,
+     "end": 1.3
+    },
+    {
+     "text": "follow",
+     "start": 1.358,
+     "end": 1.591
+    },
+    {
+     "text": "duluan?!",
+     "start": 1.637,
+     "end": 2.415
+    }
+   ]
+  },
+  "p1": {
+   "who": "presiden",
+   "text": "Eh, eh, tunggu! Aku kan sudah bikin masjid. Dan... pasar!",
+   "hash": "8bc6230f4722",
+   "duration": 5.712,
+   "words": [
+    {
+     "text": "Eh,",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "eh,",
+     "start": 0.36,
+     "end": 0.58
+    },
+    {
+     "text": "tunggu!",
+     "start": 0.615,
+     "end": 1.498
+    },
+    {
+     "text": "Aku",
+     "start": 1.823,
+     "end": 2.101
+    },
+    {
+     "text": "kan",
+     "start": 2.148,
+     "end": 2.252
+    },
+    {
+     "text": "sudah",
+     "start": 2.287,
+     "end": 2.508
+    },
+    {
+     "text": "bikin",
+     "start": 2.543,
+     "end": 2.775
+    },
+    {
+     "text": "masjid.",
+     "start": 2.821,
+     "end": 3.39
+    },
+    {
+     "text": "Dan...",
+     "start": 3.669,
+     "end": 4.261
+    },
+    {
+     "text": "pasar!",
+     "start": 4.586,
+     "end": 5.712
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Warga turun ke jalan. Damai, tapi berisik. Presiden turun, atau bertahan? Siapa calon presiden berikutnya? Tulis di komentar!",
+   "hash": "972421dd8d00",
+   "duration": 9.474,
+   "words": [
+    {
+     "text": "Warga",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "turun",
+     "start": 0.406,
+     "end": 0.639
+    },
+    {
+     "text": "ke",
+     "start": 0.697,
+     "end": 0.755
+    },
+    {
+     "text": "jalan.",
+     "start": 0.813,
+     "end": 1.312
+    },
+    {
+     "text": "Damai,",
+     "start": 1.753,
+     "end": 2.31
+    },
+    {
+     "text": "tapi",
+     "start": 2.392,
+     "end": 2.659
+    },
+    {
+     "text": "berisik.",
+     "start": 2.705,
+     "end": 3.309
+    },
+    {
+     "text": "Presiden",
+     "start": 3.634,
+     "end": 4.087
+    },
+    {
+     "text": "turun,",
+     "start": 4.145,
+     "end": 4.54
+    },
+    {
+     "text": "atau",
+     "start": 4.656,
+     "end": 4.899
+    },
+    {
+     "text": "bertahan?",
+     "start": 4.934,
+     "end": 5.515
+    },
+    {
+     "text": "Siapa",
+     "start": 5.956,
+     "end": 6.362
+    },
+    {
+     "text": "calon",
+     "start": 6.409,
+     "end": 6.653
+    },
+    {
+     "text": "presiden",
+     "start": 6.711,
+     "end": 7.094
+    },
+    {
+     "text": "berikutnya?",
+     "start": 7.152,
+     "end": 7.814
+    },
+    {
+     "text": "Tulis",
+     "start": 7.964,
+     "end": 8.324
+    },
+    {
+     "text": "di",
+     "start": 8.417,
+     "end": 8.487
+    },
+    {
+     "text": "komentar!",
+     "start": 8.533,
+     "end": 9.474
+    }
+   ]
+  }
+ }
+}
