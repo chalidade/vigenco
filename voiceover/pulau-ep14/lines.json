@@ -1,0 +1,111 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "presiden": "RWiGLY9uXI70QL540WNd",
+  "wapres": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "presiden": {
+   "stability": 0.4,
+   "style": 0.55
+  },
+  "wapres": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga2": {
+   "stability": 0.4,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Empat ratus empat puluh traktiran. Dari satu orang!"
+  },
+  {
+   "id": "p1",
+   "who": "presiden",
+   "text": "Empat ratus empat puluh?! Itu gorengan buat satu pulau!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Namanya Kak Sal. Pesannya: semoga segera rilis di Play Store dan i O S!"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Pesan sepenting itu harus dikirim setinggi-tingginya!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Berdirilah Menara Sinyal Sal! Sinyal pulau sekarang penuh, lima batang."
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Terima kasih Kak Sal! Sinyalnya kenceng banget!"
+  },
+  {
+   "id": "v1",
+   "who": "wapres",
+   "text": "Dengan sinyal ini, pemilu bisa disiarkan ke seluruh pulau!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Dan hari ini, masjid resmi dibuka untuk warga."
+  },
+  {
+   "id": "p2",
+   "who": "presiden",
+   "text": "Di sini aku sadar... presiden memang harus dipilih dulu."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Mulai hari ini, pendaftaran calon presiden dibuka!"
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Aku calon! Aku juga calon!"
+  },
+  {
+   "id": "p3",
+   "who": "presiden",
+   "text": "Aku daftar lagi! Kali ini lewat pemilu, beneran!"
+  },
+  {
+   "id": "v2",
+   "who": "wapres",
+   "text": "Aku sudah daftar dari kemarin."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Siapa calon presidenmu? Tulis di komentar: aku calon, plus janji kampanyemu!"
+  }
+ ]
+}
