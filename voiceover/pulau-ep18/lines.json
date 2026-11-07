@@ -1,0 +1,116 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "kingindo": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "mantan": {
+   "stability": 0.45,
+   "style": 0.45
+  },
+  "warga2": {
+   "stability": 0.35,
+   "style": 0.55
+  }
+ },
+ "lines": [
+  {
+   "id": "m1",
+   "who": "mantan",
+   "text": "Saya mau ambil gaji presiden saya yang dulu!"
+  },
+  {
+   "id": "k1",
+   "who": "kingindo",
+   "text": "Saldo Bapak... nol koin, Pak."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Tadi pagi presiden pasang Kotak Usulan. Sore ini, kotaknya dibuka."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Jatah pertama presiden... aku ambil dari usulan warga!"
+  },
+  {
+   "id": "k2",
+   "who": "kingindo",
+   "text": "Isinya: bank! Biar koin kita nggak hilang."
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Akhirnya! Koin panen manggaku bisa disimpan!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Jatah pertama dipakai. Bank Pulau berdiri di jalan silang!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Ketuk banknya di pulau aru titik web titik i d. Tabung koinmu, tiap hari dapat bunga."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Presiden juga harus nabung. Ini, lima koin!"
+  },
+  {
+   "id": "k3",
+   "who": "kingindo",
+   "text": "Pak... itu koin dari kotak usulan?"
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Itu... donasi! Eh, nanti aku kembalikan!"
+  },
+  {
+   "id": "m2",
+   "who": "mantan",
+   "text": "Ya sudah. Aku mulai nabung dari nol. Kayak jadi warga lagi."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Dan hari ini, rumah warga resmi dibuka. Silakan masuk!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Jatah presiden tinggal dua. Bengkel, hotel, atau apartemen? Tulis di komentar!"
+  }
+ ]
+}
