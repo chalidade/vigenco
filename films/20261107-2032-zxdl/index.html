@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga · Saat bencana datang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #07110c; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #07110c;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #f2edd5; -webkit-font-smoothing: antialiased; }
+  #bg, #red, #lamp { position: absolute; inset: 0; }
+  #bg { background: radial-gradient(1100px 900px at 70% 52%, rgba(27,77,46,.45), transparent 70%),
+                    radial-gradient(900px 700px at 0% 0%, rgba(19,39,29,.9), transparent 70%); }
+  #lamp { background: radial-gradient(1300px 900px at 50% 0%, rgba(242,196,107,.30), transparent 70%); }
+  #red { background: radial-gradient(1400px 900px at 50% 52%, rgba(239,75,75,.5), transparent 72%); opacity: 0; }
+  #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  #hud { position: absolute; inset: 0; }
+  #hud > * { position: absolute; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -.01em; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  .lbl { font: 600 24px/1 "JetBrains Mono", monospace; letter-spacing: .14em; color: #3cbf6e; text-transform: uppercase;
+    display: flex; align-items: center; gap: 16px; white-space: nowrap; }
+  .lbl::before { content: ""; width: 34px; height: 3px; background: currentColor; }
+  .head { font: 800 80px/1.04 "Plus Jakarta Sans", sans-serif; letter-spacing: -.04em; color: #f2edd5; width: 720px; }
+  .head .serif { color: #3cbf6e; font-size: 1.16em; }
+  .sub { font: 500 30px/1.4 "Plus Jakarta Sans", sans-serif; color: #a5b0a2; width: 660px; }
+  .cur { width: 0; height: 0; z-index: 50; }
+  .cur svg { position: absolute; left: -6px; top: -5px; width: 52px; height: 52px; filter: drop-shadow(0 6px 12px rgba(0,0,0,.5)); }
+  .cur .pill { position: absolute; left: 34px; top: 46px; font: 700 22px/1 "Plus Jakarta Sans"; padding: 9px 16px; border-radius: 999px; white-space: nowrap; background: #3cbf6e; color: #04140a; }
+  .rip { width: 100px; height: 100px; margin: -50px 0 0 -50px; border-radius: 50%; border: 4px solid #3cbf6e; box-sizing: border-box; z-index: 49; }
+  .av { border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; flex: none; }
+  .ic { display: inline-flex; flex: none; }
+  #world *, #hud * { box-sizing: border-box; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="lamp"></div>
+  <div id="red"></div>
+  <div id="world"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
