@@ -1,0 +1,781 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "penjual": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "lines": {
+  "e1": {
+   "who": "ega",
+   "text": "Mundur dari wapres... sekarang jadi presiden! Namanya strategi!",
+   "hash": "ecbd5819cad2",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Mundur",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "dari",
+     "start": 0.383,
+     "end": 0.72
+    },
+    {
+     "text": "wapres...",
+     "start": 0.929,
+     "end": 1.602
+    },
+    {
+     "text": "sekarang",
+     "start": 1.718,
+     "end": 2.067
+    },
+    {
+     "text": "jadi",
+     "start": 2.218,
+     "end": 2.426
+    },
+    {
+     "text": "presiden!",
+     "start": 2.473,
+     "end": 3.065
+    },
+    {
+     "text": "Namanya",
+     "start": 3.111,
+     "end": 3.46
+    },
+    {
+     "text": "strategi!",
+     "start": 3.506,
+     "end": 4.04
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Dua komentar terpilih hari ini: pemenang pemilu, dan tukang jualan kopi!",
+   "hash": "828a575996fe",
+   "duration": 4.644,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "komentar",
+     "start": 0.279,
+     "end": 0.662
+    },
+    {
+     "text": "terpilih",
+     "start": 0.72,
+     "end": 1.103
+    },
+    {
+     "text": "hari",
+     "start": 1.138,
+     "end": 1.335
+    },
+    {
+     "text": "ini:",
+     "start": 1.382,
+     "end": 1.846
+    },
+    {
+     "text": "pemenang",
+     "start": 2.02,
+     "end": 2.368
+    },
+    {
+     "text": "pemilu,",
+     "start": 2.415,
+     "end": 2.914
+    },
+    {
+     "text": "dan",
+     "start": 2.995,
+     "end": 3.146
+    },
+    {
+     "text": "tukang",
+     "start": 3.193,
+     "end": 3.483
+    },
+    {
+     "text": "jualan",
+     "start": 3.529,
+     "end": 3.82
+    },
+    {
+     "text": "kopi!",
+     "start": 3.878,
+     "end": 4.644
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Komentar Ega dapat tiga like. Terbanyak! Janjinya: jadi pemimpin yang baik.",
+   "hash": "0a92b49798f4",
+   "duration": 4.969,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "Ega",
+     "start": 0.511,
+     "end": 0.72
+    },
+    {
+     "text": "dapat",
+     "start": 0.755,
+     "end": 1.01
+    },
+    {
+     "text": "tiga",
+     "start": 1.033,
+     "end": 1.254
+    },
+    {
+     "text": "like.",
+     "start": 1.3,
+     "end": 1.695
+    },
+    {
+     "text": "Terbanyak!",
+     "start": 1.939,
+     "end": 2.577
+    },
+    {
+     "text": "Janjinya:",
+     "start": 2.752,
+     "end": 3.471
+    },
+    {
+     "text": "jadi",
+     "start": 3.715,
+     "end": 3.924
+    },
+    {
+     "text": "pemimpin",
+     "start": 3.971,
+     "end": 4.377
+    },
+    {
+     "text": "yang",
+     "start": 4.423,
+     "end": 4.54
+    },
+    {
+     "text": "baik.",
+     "start": 4.586,
+     "end": 4.969
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Wakilnya? Ditunjuk sendiri di balasan: King Indo!",
+   "hash": "a632cff1cd22",
+   "duration": 3.901,
+   "words": [
+    {
+     "text": "Wakilnya?",
+     "start": 0,
+     "end": 0.766
+    },
+    {
+     "text": "Ditunjuk",
+     "start": 1.01,
+     "end": 1.463
+    },
+    {
+     "text": "sendiri",
+     "start": 1.509,
+     "end": 1.823
+    },
+    {
+     "text": "di",
+     "start": 1.858,
+     "end": 1.916
+    },
+    {
+     "text": "balasan:",
+     "start": 1.962,
+     "end": 2.577
+    },
+    {
+     "text": "King",
+     "start": 2.821,
+     "end": 3.042
+    },
+    {
+     "text": "Indo!",
+     "start": 3.123,
+     "end": 3.901
+    }
+   ]
+  },
+  "k1": {
+   "who": "kingindo",
+   "text": "Hah? Aku cuma di-tag, langsung jadi wapres?",
+   "hash": "743b11771dc2",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Hah?",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "Aku",
+     "start": 0.43,
+     "end": 0.662
+    },
+    {
+     "text": "cuma",
+     "start": 0.708,
+     "end": 0.906
+    },
+    {
+     "text": "di-tag,",
+     "start": 0.94,
+     "end": 1.3
+    },
+    {
+     "text": "langsung",
+     "start": 1.347,
+     "end": 1.625
+    },
+    {
+     "text": "jadi",
+     "start": 1.66,
+     "end": 1.834
+    },
+    {
+     "text": "wapres?",
+     "start": 1.869,
+     "end": 2.74
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Dengan ini, presiden dan wakil presiden pilihan warga resmi dilantik!",
+   "hash": "34721f7b6f02",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Dengan",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "ini,",
+     "start": 0.348,
+     "end": 0.557
+    },
+    {
+     "text": "presiden",
+     "start": 0.592,
+     "end": 0.94
+    },
+    {
+     "text": "dan",
+     "start": 0.975,
+     "end": 1.057
+    },
+    {
+     "text": "wakil",
+     "start": 1.103,
+     "end": 1.312
+    },
+    {
+     "text": "presiden",
+     "start": 1.358,
+     "end": 1.683
+    },
+    {
+     "text": "pilihan",
+     "start": 1.73,
+     "end": 1.985
+    },
+    {
+     "text": "warga",
+     "start": 2.043,
+     "end": 2.252
+    },
+    {
+     "text": "resmi",
+     "start": 2.287,
+     "end": 2.554
+    },
+    {
+     "text": "dilantik!",
+     "start": 2.647,
+     "end": 3.576
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Hidup presiden! Eh, yang ini dipilih beneran, kan?",
+   "hash": "eb0d8d980aef",
+   "duration": 3.994,
+   "words": [
+    {
+     "text": "Hidup",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "presiden!",
+     "start": 0.313,
+     "end": 1.045
+    },
+    {
+     "text": "Eh,",
+     "start": 1.428,
+     "end": 1.788
+    },
+    {
+     "text": "yang",
+     "start": 1.997,
+     "end": 2.171
+    },
+    {
+     "text": "ini",
+     "start": 2.229,
+     "end": 2.438
+    },
+    {
+     "text": "dipilih",
+     "start": 2.485,
+     "end": 2.775
+    },
+    {
+     "text": "beneran,",
+     "start": 2.81,
+     "end": 3.239
+    },
+    {
+     "text": "kan?",
+     "start": 3.274,
+     "end": 3.994
+    }
+   ]
+  },
+  "m1": {
+   "who": "mantan",
+   "text": "Selamat ya. Dulu aku cuma follow duluan.",
+   "hash": "bfdfc4e1ec77",
+   "duration": 3.297,
+   "words": [
+    {
+     "text": "Selamat",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "ya.",
+     "start": 0.569,
+     "end": 0.882
+    },
+    {
+     "text": "Dulu",
+     "start": 1.091,
+     "end": 1.428
+    },
+    {
+     "text": "aku",
+     "start": 1.498,
+     "end": 1.695
+    },
+    {
+     "text": "cuma",
+     "start": 1.741,
+     "end": 1.974
+    },
+    {
+     "text": "follow",
+     "start": 2.043,
+     "end": 2.345
+    },
+    {
+     "text": "duluan.",
+     "start": 2.403,
+     "end": 3.297
+    }
+   ]
+  },
+  "s1": {
+   "who": "penjual",
+   "text": "Kopi dong, kopi dong! Kopi pelantikan, yang udah follow dapat senyum!",
+   "hash": "73fc549e8ca8",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Kopi",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "dong,",
+     "start": 0.464,
+     "end": 0.743
+    },
+    {
+     "text": "kopi",
+     "start": 0.766,
+     "end": 1.045
+    },
+    {
+     "text": "dong!",
+     "start": 1.103,
+     "end": 1.521
+    },
+    {
+     "text": "Kopi",
+     "start": 1.695,
+     "end": 1.927
+    },
+    {
+     "text": "pelantikan,",
+     "start": 1.974,
+     "end": 2.694
+    },
+    {
+     "text": "yang",
+     "start": 2.844,
+     "end": 2.995
+    },
+    {
+     "text": "udah",
+     "start": 3.042,
+     "end": 3.251
+    },
+    {
+     "text": "follow",
+     "start": 3.286,
+     "end": 3.529
+    },
+    {
+     "text": "dapat",
+     "start": 3.576,
+     "end": 3.796
+    },
+    {
+     "text": "senyum!",
+     "start": 3.855,
+     "end": 4.598
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Kopi satu. Presiden bayar, ya. Belajar dari presiden lama.",
+   "hash": "b4542d8f0f2f",
+   "duration": 3.158,
+   "words": [
+    {
+     "text": "Kopi",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "satu.",
+     "start": 0.406,
+     "end": 0.673
+    },
+    {
+     "text": "Presiden",
+     "start": 0.697,
+     "end": 1.022
+    },
+    {
+     "text": "bayar,",
+     "start": 1.08,
+     "end": 1.358
+    },
+    {
+     "text": "ya.",
+     "start": 1.382,
+     "end": 1.474
+    },
+    {
+     "text": "Belajar",
+     "start": 1.544,
+     "end": 1.892
+    },
+    {
+     "text": "dari",
+     "start": 1.95,
+     "end": 2.113
+    },
+    {
+     "text": "presiden",
+     "start": 2.171,
+     "end": 2.543
+    },
+    {
+     "text": "lama.",
+     "start": 2.601,
+     "end": 3.158
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Gerobak Kopi Dong sudah ada di pulau aru titik web titik i d. Sapa penjualnya!",
+   "hash": "f6ce2676b576",
+   "duration": 5.851,
+   "words": [
+    {
+     "text": "Gerobak",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "Kopi",
+     "start": 0.453,
+     "end": 0.708
+    },
+    {
+     "text": "Dong",
+     "start": 0.766,
+     "end": 1.022
+    },
+    {
+     "text": "sudah",
+     "start": 1.231,
+     "end": 1.602
+    },
+    {
+     "text": "ada",
+     "start": 1.625,
+     "end": 1.869
+    },
+    {
+     "text": "di",
+     "start": 1.916,
+     "end": 1.997
+    },
+    {
+     "text": "pulau",
+     "start": 2.043,
+     "end": 2.322
+    },
+    {
+     "text": "aru",
+     "start": 2.392,
+     "end": 2.67
+    },
+    {
+     "text": "titik",
+     "start": 2.717,
+     "end": 3.03
+    },
+    {
+     "text": "web",
+     "start": 3.1,
+     "end": 3.251
+    },
+    {
+     "text": "titik",
+     "start": 3.32,
+     "end": 3.634
+    },
+    {
+     "text": "i",
+     "start": 3.727,
+     "end": 3.785
+    },
+    {
+     "text": "d.",
+     "start": 3.866,
+     "end": 4.191
+    },
+    {
+     "text": "Sapa",
+     "start": 4.47,
+     "end": 4.83
+    },
+    {
+     "text": "penjualnya!",
+     "start": 4.865,
+     "end": 5.851
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Rumah presiden juga resmi dibuka. Kursinya sekarang ada yang duduk.",
+   "hash": "b8daa318b48e",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Rumah",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "presiden",
+     "start": 0.267,
+     "end": 0.673
+    },
+    {
+     "text": "juga",
+     "start": 0.731,
+     "end": 0.929
+    },
+    {
+     "text": "resmi",
+     "start": 0.964,
+     "end": 1.196
+    },
+    {
+     "text": "dibuka.",
+     "start": 1.242,
+     "end": 1.846
+    },
+    {
+     "text": "Kursinya",
+     "start": 1.997,
+     "end": 2.438
+    },
+    {
+     "text": "sekarang",
+     "start": 2.485,
+     "end": 2.833
+    },
+    {
+     "text": "ada",
+     "start": 2.891,
+     "end": 3.019
+    },
+    {
+     "text": "yang",
+     "start": 3.042,
+     "end": 3.146
+    },
+    {
+     "text": "duduk.",
+     "start": 3.193,
+     "end": 3.715
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "Permintaan pertama presiden... tunggu tanggal mainnya!",
+   "hash": "2a27a1225532",
+   "duration": 2.786,
+   "words": [
+    {
+     "text": "Permintaan",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "pertama",
+     "start": 0.476,
+     "end": 0.766
+    },
+    {
+     "text": "presiden...",
+     "start": 0.801,
+     "end": 1.312
+    },
+    {
+     "text": "tunggu",
+     "start": 1.521,
+     "end": 1.741
+    },
+    {
+     "text": "tanggal",
+     "start": 1.776,
+     "end": 2.02
+    },
+    {
+     "text": "mainnya!",
+     "start": 2.055,
+     "end": 2.786
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Presiden baru punya tiga permintaan. Menurutmu, apa yang harus dibangun duluan?",
+   "hash": "bb175174d7d7",
+   "duration": 5.201,
+   "words": [
+    {
+     "text": "Presiden",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "baru",
+     "start": 0.557,
+     "end": 0.755
+    },
+    {
+     "text": "punya",
+     "start": 0.778,
+     "end": 0.975
+    },
+    {
+     "text": "tiga",
+     "start": 1.022,
+     "end": 1.231
+    },
+    {
+     "text": "permintaan.",
+     "start": 1.265,
+     "end": 1.997
+    },
+    {
+     "text": "Menurutmu,",
+     "start": 2.438,
+     "end": 3.146
+    },
+    {
+     "text": "apa",
+     "start": 3.39,
+     "end": 3.634
+    },
+    {
+     "text": "yang",
+     "start": 3.657,
+     "end": 3.773
+    },
+    {
+     "text": "harus",
+     "start": 3.831,
+     "end": 4.017
+    },
+    {
+     "text": "dibangun",
+     "start": 4.063,
+     "end": 4.377
+    },
+    {
+     "text": "duluan?",
+     "start": 4.412,
+     "end": 5.201
+    }
+   ]
+  }
+ }
+}
