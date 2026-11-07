@@ -1,0 +1,116 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "mantan": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "kingindo": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "penjual": {
+   "stability": 0.35,
+   "style": 0.55
+  },
+  "mantan": {
+   "stability": 0.45,
+   "style": 0.45
+  }
+ },
+ "lines": [
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Mundur dari wapres... sekarang jadi presiden! Namanya strategi!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Dua komentar terpilih hari ini: pemenang pemilu, dan tukang jualan kopi!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Komentar Ega dapat tiga like. Terbanyak! Janjinya: jadi pemimpin yang baik."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Wakilnya? Ditunjuk sendiri di balasan: King Indo!"
+  },
+  {
+   "id": "k1",
+   "who": "kingindo",
+   "text": "Hah? Aku cuma di-tag, langsung jadi wapres?"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Dengan ini, presiden dan wakil presiden pilihan warga resmi dilantik!"
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Hidup presiden! Eh, yang ini dipilih beneran, kan?"
+  },
+  {
+   "id": "m1",
+   "who": "mantan",
+   "text": "Selamat ya. Dulu aku cuma follow duluan."
+  },
+  {
+   "id": "s1",
+   "who": "penjual",
+   "text": "Kopi dong, kopi dong! Kopi pelantikan, yang udah follow dapat senyum!"
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Kopi satu. Presiden bayar, ya. Belajar dari presiden lama."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Gerobak Kopi Dong sudah ada di pulau aru titik web titik i d. Sapa penjualnya!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Rumah presiden juga resmi dibuka. Kursinya sekarang ada yang duduk."
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Permintaan pertama presiden... tunggu tanggal mainnya!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Presiden baru punya tiga permintaan. Menurutmu, apa yang harus dibangun duluan?"
+  }
+ ]
+}
