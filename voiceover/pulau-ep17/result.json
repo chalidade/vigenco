@@ -1,0 +1,877 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "k1": {
+   "who": "kingindo",
+   "text": "Pak Presiden! Kotak usulan kita... isinya cuma satu surat!",
+   "hash": "b58a11ee8bcd",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Pak",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "Presiden!",
+     "start": 0.337,
+     "end": 1.196
+    },
+    {
+     "text": "Kotak",
+     "start": 1.37,
+     "end": 1.707
+    },
+    {
+     "text": "usulan",
+     "start": 1.776,
+     "end": 2.078
+    },
+    {
+     "text": "kita...",
+     "start": 2.148,
+     "end": 2.624
+    },
+    {
+     "text": "isinya",
+     "start": 2.833,
+     "end": 3.274
+    },
+    {
+     "text": "cuma",
+     "start": 3.309,
+     "end": 3.518
+    },
+    {
+     "text": "satu",
+     "start": 3.564,
+     "end": 3.866
+    },
+    {
+     "text": "surat!",
+     "start": 3.913,
+     "end": 4.598
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Hari pertama Presiden Ega. Tiga permintaan... belum satu pun dipakai.",
+   "hash": "8f2b4b1ecf54",
+   "duration": 4.783,
+   "words": [
+    {
+     "text": "Hari",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "pertama",
+     "start": 0.302,
+     "end": 0.673
+    },
+    {
+     "text": "Presiden",
+     "start": 0.72,
+     "end": 1.103
+    },
+    {
+     "text": "Ega.",
+     "start": 1.173,
+     "end": 1.625
+    },
+    {
+     "text": "Tiga",
+     "start": 1.8,
+     "end": 2.078
+    },
+    {
+     "text": "permintaan...",
+     "start": 2.113,
+     "end": 2.879
+    },
+    {
+     "text": "belum",
+     "start": 3.204,
+     "end": 3.413
+    },
+    {
+     "text": "satu",
+     "start": 3.471,
+     "end": 3.738
+    },
+    {
+     "text": "pun",
+     "start": 3.785,
+     "end": 3.901
+    },
+    {
+     "text": "dipakai.",
+     "start": 3.936,
+     "end": 4.783
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Rapat kabinet pertama! Kita bangun apa duluan?",
+   "hash": "b3ae5b9bfd20",
+   "duration": 2.554,
+   "words": [
+    {
+     "text": "Rapat",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "kabinet",
+     "start": 0.476,
+     "end": 0.813
+    },
+    {
+     "text": "pertama!",
+     "start": 0.848,
+     "end": 1.3
+    },
+    {
+     "text": "Kita",
+     "start": 1.428,
+     "end": 1.66
+    },
+    {
+     "text": "bangun",
+     "start": 1.707,
+     "end": 1.927
+    },
+    {
+     "text": "apa",
+     "start": 1.974,
+     "end": 2.101
+    },
+    {
+     "text": "duluan?",
+     "start": 2.136,
+     "end": 2.554
+    }
+   ]
+  },
+  "k2": {
+   "who": "kingindo",
+   "text": "Aku kemarin cuma di-tag. Aku ikut presiden aja.",
+   "hash": "d83316543fe5",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "kemarin",
+     "start": 0.313,
+     "end": 0.639
+    },
+    {
+     "text": "cuma",
+     "start": 0.685,
+     "end": 0.882
+    },
+    {
+     "text": "di-tag.",
+     "start": 0.929,
+     "end": 1.347
+    },
+    {
+     "text": "Aku",
+     "start": 1.393,
+     "end": 1.579
+    },
+    {
+     "text": "ikut",
+     "start": 1.625,
+     "end": 1.811
+    },
+    {
+     "text": "presiden",
+     "start": 1.846,
+     "end": 2.264
+    },
+    {
+     "text": "aja.",
+     "start": 2.322,
+     "end": 3.111
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Komentar baru belum masuk pagi ini. Jadi presiden pasang Kotak Usulan di depan mimbar.",
+   "hash": "91ceacd3a75f",
+   "duration": 5.387,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "baru",
+     "start": 0.476,
+     "end": 0.697
+    },
+    {
+     "text": "belum",
+     "start": 0.731,
+     "end": 0.917
+    },
+    {
+     "text": "masuk",
+     "start": 0.94,
+     "end": 1.207
+    },
+    {
+     "text": "pagi",
+     "start": 1.242,
+     "end": 1.474
+    },
+    {
+     "text": "ini.",
+     "start": 1.521,
+     "end": 1.985
+    },
+    {
+     "text": "Jadi",
+     "start": 2.368,
+     "end": 2.635
+    },
+    {
+     "text": "presiden",
+     "start": 2.682,
+     "end": 3.111
+    },
+    {
+     "text": "pasang",
+     "start": 3.181,
+     "end": 3.46
+    },
+    {
+     "text": "Kotak",
+     "start": 3.483,
+     "end": 3.704
+    },
+    {
+     "text": "Usulan",
+     "start": 3.727,
+     "end": 4.098
+    },
+    {
+     "text": "di",
+     "start": 4.145,
+     "end": 4.203
+    },
+    {
+     "text": "depan",
+     "start": 4.249,
+     "end": 4.47
+    },
+    {
+     "text": "mimbar.",
+     "start": 4.516,
+     "end": 5.387
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Ketuk kotaknya di pulau aru titik web titik i d. Langsung nyambung ke kolom komentar.",
+   "hash": "ae65e66dbe71",
+   "duration": 5.016,
+   "words": [
+    {
+     "text": "Ketuk",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "kotaknya",
+     "start": 0.36,
+     "end": 0.755
+    },
+    {
+     "text": "di",
+     "start": 0.801,
+     "end": 0.859
+    },
+    {
+     "text": "pulau",
+     "start": 0.906,
+     "end": 1.126
+    },
+    {
+     "text": "aru",
+     "start": 1.173,
+     "end": 1.416
+    },
+    {
+     "text": "titik",
+     "start": 1.463,
+     "end": 1.718
+    },
+    {
+     "text": "web",
+     "start": 1.776,
+     "end": 1.916
+    },
+    {
+     "text": "titik",
+     "start": 1.974,
+     "end": 2.218
+    },
+    {
+     "text": "i",
+     "start": 2.299,
+     "end": 2.357
+    },
+    {
+     "text": "d.",
+     "start": 2.438,
+     "end": 2.682
+    },
+    {
+     "text": "Langsung",
+     "start": 3.007,
+     "end": 3.39
+    },
+    {
+     "text": "nyambung",
+     "start": 3.413,
+     "end": 3.75
+    },
+    {
+     "text": "ke",
+     "start": 3.773,
+     "end": 3.843
+    },
+    {
+     "text": "kolom",
+     "start": 3.889,
+     "end": 4.098
+    },
+    {
+     "text": "komentar.",
+     "start": 4.156,
+     "end": 5.016
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Siapa yang mau kasih usulan pertama?",
+   "hash": "7baa8a2280ef",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "Siapa",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "yang",
+     "start": 0.383,
+     "end": 0.488
+    },
+    {
+     "text": "mau",
+     "start": 0.534,
+     "end": 0.627
+    },
+    {
+     "text": "kasih",
+     "start": 0.673,
+     "end": 0.952
+    },
+    {
+     "text": "usulan",
+     "start": 0.975,
+     "end": 1.254
+    },
+    {
+     "text": "pertama?",
+     "start": 1.3,
+     "end": 1.858
+    }
+   ]
+  },
+  "m1": {
+   "who": "mantan",
+   "text": "Saya. Dulu waktu jadi presiden, saya nggak pernah nanya warga.",
+   "hash": "7da41d46fb95",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Saya.",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "Dulu",
+     "start": 0.824,
+     "end": 1.184
+    },
+    {
+     "text": "waktu",
+     "start": 1.207,
+     "end": 1.498
+    },
+    {
+     "text": "jadi",
+     "start": 1.556,
+     "end": 1.741
+    },
+    {
+     "text": "presiden,",
+     "start": 1.776,
+     "end": 2.252
+    },
+    {
+     "text": "saya",
+     "start": 2.276,
+     "end": 2.461
+    },
+    {
+     "text": "nggak",
+     "start": 2.485,
+     "end": 2.659
+    },
+    {
+     "text": "pernah",
+     "start": 2.694,
+     "end": 2.984
+    },
+    {
+     "text": "nanya",
+     "start": 3.042,
+     "end": 3.262
+    },
+    {
+     "text": "warga.",
+     "start": 3.309,
+     "end": 4.226
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Isinya usulan lama warga: bengkel, bank, hotel, apartemen... dan toilet.",
+   "hash": "6d127da2f795",
+   "duration": 5.898,
+   "words": [
+    {
+     "text": "Isinya",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "usulan",
+     "start": 0.464,
+     "end": 0.789
+    },
+    {
+     "text": "lama",
+     "start": 0.848,
+     "end": 1.033
+    },
+    {
+     "text": "warga:",
+     "start": 1.08,
+     "end": 1.602
+    },
+    {
+     "text": "bengkel,",
+     "start": 1.846,
+     "end": 2.461
+    },
+    {
+     "text": "bank,",
+     "start": 2.67,
+     "end": 3.088
+    },
+    {
+     "text": "hotel,",
+     "start": 3.262,
+     "end": 3.866
+    },
+    {
+     "text": "apartemen...",
+     "start": 4.017,
+     "end": 4.772
+    },
+    {
+     "text": "dan",
+     "start": 4.946,
+     "end": 5.108
+    },
+    {
+     "text": "toilet.",
+     "start": 5.166,
+     "end": 5.898
+    }
+   ]
+  },
+  "w1": {
+   "who": "warga",
+   "text": "Toilet umum! Pulau segede ini, toiletnya nol!",
+   "hash": "2b4566263f46",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Toilet",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "umum!",
+     "start": 0.476,
+     "end": 0.859
+    },
+    {
+     "text": "Pulau",
+     "start": 1.103,
+     "end": 1.416
+    },
+    {
+     "text": "segede",
+     "start": 1.463,
+     "end": 1.8
+    },
+    {
+     "text": "ini,",
+     "start": 1.869,
+     "end": 2.229
+    },
+    {
+     "text": "toiletnya",
+     "start": 2.345,
+     "end": 2.844
+    },
+    {
+     "text": "nol!",
+     "start": 2.902,
+     "end": 3.483
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "Itu bukan jatah presiden. Itu kewajiban! Bangun sekarang!",
+   "hash": "a7849ec9bded",
+   "duration": 4.551,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "bukan",
+     "start": 0.255,
+     "end": 0.511
+    },
+    {
+     "text": "jatah",
+     "start": 0.58,
+     "end": 0.94
+    },
+    {
+     "text": "presiden.",
+     "start": 1.057,
+     "end": 1.66
+    },
+    {
+     "text": "Itu",
+     "start": 1.939,
+     "end": 2.276
+    },
+    {
+     "text": "kewajiban!",
+     "start": 2.368,
+     "end": 3.088
+    },
+    {
+     "text": "Bangun",
+     "start": 3.332,
+     "end": 3.669
+    },
+    {
+     "text": "sekarang!",
+     "start": 3.715,
+     "end": 4.551
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Toilet Umum pertama Pulau Aru. Gratis, bersih, ada sabunnya.",
+   "hash": "2a2a13355b13",
+   "duration": 4.551,
+   "words": [
+    {
+     "text": "Toilet",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "Umum",
+     "start": 0.453,
+     "end": 0.615
+    },
+    {
+     "text": "pertama",
+     "start": 0.662,
+     "end": 0.998
+    },
+    {
+     "text": "Pulau",
+     "start": 1.045,
+     "end": 1.254
+    },
+    {
+     "text": "Aru.",
+     "start": 1.312,
+     "end": 1.695
+    },
+    {
+     "text": "Gratis,",
+     "start": 2.078,
+     "end": 2.635
+    },
+    {
+     "text": "bersih,",
+     "start": 2.717,
+     "end": 3.228
+    },
+    {
+     "text": "ada",
+     "start": 3.274,
+     "end": 3.471
+    },
+    {
+     "text": "sabunnya.",
+     "start": 3.518,
+     "end": 4.551
+    }
+   ]
+  },
+  "w2": {
+   "who": "warga2",
+   "text": "Akhirnya! Habis ngopi, nggak perlu lari ke hutan lagi.",
+   "hash": "f443aeb7be36",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Akhirnya!",
+     "start": 0,
+     "end": 0.859
+    },
+    {
+     "text": "Habis",
+     "start": 0.975,
+     "end": 1.265
+    },
+    {
+     "text": "ngopi,",
+     "start": 1.312,
+     "end": 1.869
+    },
+    {
+     "text": "nggak",
+     "start": 1.985,
+     "end": 2.171
+    },
+    {
+     "text": "perlu",
+     "start": 2.206,
+     "end": 2.38
+    },
+    {
+     "text": "lari",
+     "start": 2.415,
+     "end": 2.589
+    },
+    {
+     "text": "ke",
+     "start": 2.624,
+     "end": 2.682
+    },
+    {
+     "text": "hutan",
+     "start": 2.705,
+     "end": 2.961
+    },
+    {
+     "text": "lagi.",
+     "start": 3.019,
+     "end": 3.669
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Dan hari ini, rumah sakit resmi dibuka!",
+   "hash": "4f9f7458c2e9",
+   "duration": 2.183,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "hari",
+     "start": 0.244,
+     "end": 0.418
+    },
+    {
+     "text": "ini,",
+     "start": 0.441,
+     "end": 0.697
+    },
+    {
+     "text": "rumah",
+     "start": 0.731,
+     "end": 0.929
+    },
+    {
+     "text": "sakit",
+     "start": 0.952,
+     "end": 1.184
+    },
+    {
+     "text": "resmi",
+     "start": 1.231,
+     "end": 1.474
+    },
+    {
+     "text": "dibuka!",
+     "start": 1.509,
+     "end": 2.183
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Satu kotak, banyak mimpi. Tapi tiga permintaan presiden... masih utuh.",
+   "hash": "d5ec3d47836a",
+   "duration": 5.387,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "kotak,",
+     "start": 0.313,
+     "end": 0.708
+    },
+    {
+     "text": "banyak",
+     "start": 0.743,
+     "end": 1.01
+    },
+    {
+     "text": "mimpi.",
+     "start": 1.057,
+     "end": 1.625
+    },
+    {
+     "text": "Tapi",
+     "start": 1.95,
+     "end": 2.241
+    },
+    {
+     "text": "tiga",
+     "start": 2.276,
+     "end": 2.485
+    },
+    {
+     "text": "permintaan",
+     "start": 2.531,
+     "end": 2.972
+    },
+    {
+     "text": "presiden...",
+     "start": 3.03,
+     "end": 3.82
+    },
+    {
+     "text": "masih",
+     "start": 3.994,
+     "end": 4.272
+    },
+    {
+     "text": "utuh.",
+     "start": 4.296,
+     "end": 5.387
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Tulis di komentar: presiden harus bangun apa duluan?",
+   "hash": "392dd4a47b86",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "Tulis",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "di",
+     "start": 0.325,
+     "end": 0.383
+    },
+    {
+     "text": "komentar:",
+     "start": 0.418,
+     "end": 1.068
+    },
+    {
+     "text": "presiden",
+     "start": 1.219,
+     "end": 1.637
+    },
+    {
+     "text": "harus",
+     "start": 1.695,
+     "end": 1.869
+    },
+    {
+     "text": "bangun",
+     "start": 1.927,
+     "end": 2.159
+    },
+    {
+     "text": "apa",
+     "start": 2.206,
+     "end": 2.357
+    },
+    {
+     "text": "duluan?",
+     "start": 2.392,
+     "end": 3.204
+    }
+   ]
+  }
+ }
+}
