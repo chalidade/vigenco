@@ -1,0 +1,126 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "warga": "iWydkXKoiVtvdn4vLKp9",
+  "mantan": "RWiGLY9uXI70QL540WNd",
+  "warga2": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "kingindo": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "warga": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "mantan": {
+   "stability": 0.45,
+   "style": 0.45
+  },
+  "warga2": {
+   "stability": 0.35,
+   "style": 0.55
+  }
+ },
+ "lines": [
+  {
+   "id": "k1",
+   "who": "kingindo",
+   "text": "Pak Presiden! Kotak usulan kita... isinya cuma satu surat!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Hari pertama Presiden Ega. Tiga permintaan... belum satu pun dipakai."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Rapat kabinet pertama! Kita bangun apa duluan?"
+  },
+  {
+   "id": "k2",
+   "who": "kingindo",
+   "text": "Aku kemarin cuma di-tag. Aku ikut presiden aja."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Komentar baru belum masuk pagi ini. Jadi presiden pasang Kotak Usulan di depan mimbar."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Ketuk kotaknya di pulau aru titik web titik i d. Langsung nyambung ke kolom komentar."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Siapa yang mau kasih usulan pertama?"
+  },
+  {
+   "id": "m1",
+   "who": "mantan",
+   "text": "Saya. Dulu waktu jadi presiden, saya nggak pernah nanya warga."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Isinya usulan lama warga: bengkel, bank, hotel, apartemen... dan toilet."
+  },
+  {
+   "id": "w1",
+   "who": "warga",
+   "text": "Toilet umum! Pulau segede ini, toiletnya nol!"
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Itu bukan jatah presiden. Itu kewajiban! Bangun sekarang!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Toilet Umum pertama Pulau Aru. Gratis, bersih, ada sabunnya."
+  },
+  {
+   "id": "w2",
+   "who": "warga2",
+   "text": "Akhirnya! Habis ngopi, nggak perlu lari ke hutan lagi."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Dan hari ini, rumah sakit resmi dibuka!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Satu kotak, banyak mimpi. Tapi tiga permintaan presiden... masih utuh."
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Tulis di komentar: presiden harus bangun apa duluan?"
+  }
+ ]
+}
