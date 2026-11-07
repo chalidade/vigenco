@@ -1,0 +1,186 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "lala": "iWydkXKoiVtvdn4vLKp9",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "letisya": "I7sakys8pBZ1Z5f0UhT9",
+  "d4l": "I7sakys8pBZ1Z5f0UhT9",
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "RWiGLY9uXI70QL540WNd",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "inyuu": "RWiGLY9uXI70QL540WNd",
+  "senar": "RWiGLY9uXI70QL540WNd",
+  "alif": "RWiGLY9uXI70QL540WNd",
+  "aidil": "RWiGLY9uXI70QL540WNd",
+  "dell": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "lala": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "letisya": {
+   "stability": 0.6,
+   "style": 0.2
+  },
+  "d4l": {
+   "stability": 0.45,
+   "style": 0.35
+  },
+  "alexandre": {
+   "stability": 0.25,
+   "style": 0.8
+  },
+  "whoyss": {
+   "stability": 0.3,
+   "style": 0.6
+  },
+  "luci": {
+   "stability": 0.4,
+   "style": 0.6
+  },
+  "inyuu": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "senar": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "alif": {
+   "stability": 0.3,
+   "style": 0.6
+  },
+  "aidil": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "dell": {
+   "stability": 0.7,
+   "style": 0.1
+  }
+ },
+ "lines": [
+  {
+   "id": "h1",
+   "who": "princes",
+   "text": "Hah?! Tega kamu! Aku kan princess, harusnya aku yang pertama!"
+  },
+  {
+   "id": "h2",
+   "who": "daby",
+   "text": "PERTAMA! Aku duluan, sumpah!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Sore ini, empat belas warga baru datang dari kolom komentar!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Selamat datang di Pulau Aru! Ayo, kenalan satu-satu!"
+  },
+  {
+   "id": "ai",
+   "who": "aidil",
+   "text": "Hiks... indah banget. Makasih banyaaak!"
+  },
+  {
+   "id": "x1",
+   "who": "alexandre",
+   "text": "Tenang, warga! Aku datang! Serahkan padaku!"
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku. Pliss jangan bilang Aru!"
+  },
+  {
+   "id": "l1",
+   "who": "luci",
+   "text": "Mercusuar itu buat manggil ikan. Percaya deh sama aku."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Itu buat kapal, Luci."
+  },
+  {
+   "id": "i1",
+   "who": "inyuu",
+   "text": "GG, warga! Tombol save-nya di mana?"
+  },
+  {
+   "id": "s1",
+   "who": "senar",
+   "text": "Satu lagu lagi, ya! Jreng... eh, senarnya putus lagi."
+  },
+  {
+   "id": "d1",
+   "who": "d4l",
+   "text": "Aku boleh ikut... boleh?"
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Kamu udah ikut dari tadi!"
+  },
+  {
+   "id": "f1",
+   "who": "alif",
+   "text": "Aku warga biasa aja, bang... Kenapa harus aku lagi?!"
+  },
+  {
+   "id": "la",
+   "who": "lala",
+   "text": "Mau kue? Semangaaat, semuanya!"
+  },
+  {
+   "id": "t1",
+   "who": "letisya",
+   "text": "Santai aja. Cek jamnya dulu, ya."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Dan yang beneran pertama... Letisya. Dia satu-satunya yang nyatet jam."
+  },
+  {
+   "id": "de",
+   "who": "dell",
+   "text": "hm. ...senjanya bagus."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Mereka bakal muncul di cerita berikutnya. Kamu paling mirip siapa? Tulis di komentar!"
+  }
+ ]
+}
