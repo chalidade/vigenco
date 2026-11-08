@@ -1,0 +1,196 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "debby": "I7sakys8pBZ1Z5f0UhT9",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "d4l": "RWiGLY9uXI70QL540WNd",
+  "inyuu": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "debby": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "gina": {
+   "stability": 0.6,
+   "style": 0.45
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "luci": {
+   "stability": 0.35,
+   "style": 0.7
+  },
+  "d4l": {
+   "stability": 0.5,
+   "style": 0.3
+  },
+  "inyuu": {
+   "stability": 0.3,
+   "style": 0.7
+  }
+ },
+ "lines": [
+  {
+   "id": "d1",
+   "who": "debby",
+   "text": "Permisi! Aku mau ketemu Pak Presiden!"
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Mundur! Identitas dulu!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Malam ini, dua komentar jadi nyata: sekretaris presiden, dan study tour!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Debby! Mulai hari ini, kamu Sekretaris Presiden!"
+  },
+  {
+   "id": "d2",
+   "who": "debby",
+   "text": "Akhirnya aku masuk juga!"
+  },
+  {
+   "id": "d3",
+   "who": "debby",
+   "text": "Pak Presiden, jadwal Bapak hari ini: PR dari Bu Guru Gina."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "...Cuma itu?"
+  },
+  {
+   "id": "d4",
+   "who": "debby",
+   "text": "Itu yang paling penting, Pak."
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "Sekretaris juga harus... identitas dulu!"
+  },
+  {
+   "id": "d5",
+   "who": "debby",
+   "text": "Nih, jadwalmu juga ada. Dua PR."
+  },
+  {
+   "id": "g3",
+   "who": "bodyguard",
+   "text": "...Silakan lewat, Bu Sekretaris."
+  },
+  {
+   "id": "gn1",
+   "who": "gina",
+   "text": "Anak-anak! Study tour, setahun sekali! Baris yang rapi!"
+  },
+  {
+   "id": "da1",
+   "who": "daby",
+   "text": "PERTAMA! Aku paling depan!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Aku kan princess! Aku yang depan!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Rombongan berangkat. Pemandu wisatanya... Luci Si Sok Tahu."
+  },
+  {
+   "id": "l1",
+   "who": "luci",
+   "text": "Di kanan kita, menara buat manggil ikan."
+  },
+  {
+   "id": "gn2",
+   "who": "gina",
+   "text": "Itu Menara Sinyal, Luci."
+  },
+  {
+   "id": "l2",
+   "who": "luci",
+   "text": "Dan ini istana presiden. Lantainya seribu!"
+  },
+  {
+   "id": "dl",
+   "who": "d4l",
+   "text": "Boleh foto?"
+  },
+  {
+   "id": "iy",
+   "who": "inyuu",
+   "text": "Tombol save-nya di mana?"
+  },
+  {
+   "id": "l3",
+   "who": "luci",
+   "text": "Nah, ini toko permen!"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Itu apotik, Luci. Dan hari ini, apotik resmi dibuka!"
+  },
+  {
+   "id": "gn3",
+   "who": "gina",
+   "text": "PR-nya: tulis pengalaman study tour. Termasuk Pak Presiden."
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Saya kan nggak ikut!"
+  },
+  {
+   "id": "d6",
+   "who": "debby",
+   "text": "Sudah aku catat, Pak."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Study tour berikutnya ke mana? Tulis di komentar!"
+  }
+ ]
+}
