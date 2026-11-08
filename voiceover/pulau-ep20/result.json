@@ -1,0 +1,715 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "lala": "iWydkXKoiVtvdn4vLKp9",
+  "rayhan": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "RWiGLY9uXI70QL540WNd",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "revan": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "nova": "I7sakys8pBZ1Z5f0UhT9",
+  "alif": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "g1": {
+   "who": "bodyguard",
+   "text": "Mundur! Area presiden!",
+   "hash": "dc7ee4c061b2",
+   "duration": 2.322,
+   "words": [
+    {
+     "text": "Mundur!",
+     "start": 0,
+     "end": 0.813
+    },
+    {
+     "text": "Area",
+     "start": 1.091,
+     "end": 1.37
+    },
+    {
+     "text": "presiden!",
+     "start": 1.416,
+     "end": 2.322
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Eh, aku Aru! Yang jaga pulau ini!",
+   "hash": "bc0d6c5716b6",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "Eh,",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "aku",
+     "start": 0.244,
+     "end": 0.43
+    },
+    {
+     "text": "Aru!",
+     "start": 0.488,
+     "end": 0.824
+    },
+    {
+     "text": "Yang",
+     "start": 0.871,
+     "end": 0.987
+    },
+    {
+     "text": "jaga",
+     "start": 1.022,
+     "end": 1.207
+    },
+    {
+     "text": "pulau",
+     "start": 1.242,
+     "end": 1.509
+    },
+    {
+     "text": "ini!",
+     "start": 1.533,
+     "end": 1.904
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "Identitas? ...Oh, Aru. Tetap mundur.",
+   "hash": "7b38e471e0c2",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Identitas?",
+     "start": 0,
+     "end": 1.01
+    },
+    {
+     "text": "...Oh,",
+     "start": 1.08,
+     "end": 2.183
+    },
+    {
+     "text": "Aru.",
+     "start": 2.334,
+     "end": 2.868
+    },
+    {
+     "text": "Tetap",
+     "start": 3.042,
+     "end": 3.355
+    },
+    {
+     "text": "mundur.",
+     "start": 3.402,
+     "end": 4.226
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pagi ini, enam warga baru datang lagi dari kolom komentar!",
+   "hash": "4a0353e80efe",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Pagi",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "ini,",
+     "start": 0.43,
+     "end": 0.906
+    },
+    {
+     "text": "enam",
+     "start": 0.987,
+     "end": 1.289
+    },
+    {
+     "text": "warga",
+     "start": 1.358,
+     "end": 1.649
+    },
+    {
+     "text": "baru",
+     "start": 1.695,
+     "end": 1.916
+    },
+    {
+     "text": "datang",
+     "start": 1.962,
+     "end": 2.218
+    },
+    {
+     "text": "lagi",
+     "start": 2.264,
+     "end": 2.519
+    },
+    {
+     "text": "dari",
+     "start": 2.577,
+     "end": 2.786
+    },
+    {
+     "text": "kolom",
+     "start": 2.833,
+     "end": 3.077
+    },
+    {
+     "text": "komentar!",
+     "start": 3.135,
+     "end": 4.505
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Itu bodyguard saya. Katanya saya yang nyuruh... saya lupa.",
+   "hash": "b6ac0be66c63",
+   "duration": 3.762,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "bodyguard",
+     "start": 0.406,
+     "end": 0.836
+    },
+    {
+     "text": "saya.",
+     "start": 0.871,
+     "end": 1.149
+    },
+    {
+     "text": "Katanya",
+     "start": 1.196,
+     "end": 1.521
+    },
+    {
+     "text": "saya",
+     "start": 1.556,
+     "end": 1.765
+    },
+    {
+     "text": "yang",
+     "start": 1.811,
+     "end": 1.939
+    },
+    {
+     "text": "nyuruh...",
+     "start": 1.974,
+     "end": 2.345
+    },
+    {
+     "text": "saya",
+     "start": 2.856,
+     "end": 3.042
+    },
+    {
+     "text": "lupa.",
+     "start": 3.065,
+     "end": 3.762
+    }
+   ]
+  },
+  "p1": {
+   "who": "pinjam",
+   "text": "Pinjam seratus dulu... besok dibalikin, sumpah!",
+   "hash": "e39530ee5a28",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Pinjam",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "seratus",
+     "start": 0.441,
+     "end": 0.871
+    },
+    {
+     "text": "dulu...",
+     "start": 0.952,
+     "end": 1.498
+    },
+    {
+     "text": "besok",
+     "start": 1.707,
+     "end": 2.183
+    },
+    {
+     "text": "dibalikin,",
+     "start": 2.334,
+     "end": 2.995
+    },
+    {
+     "text": "sumpah!",
+     "start": 3.019,
+     "end": 3.947
+    }
+   ]
+  },
+  "la": {
+   "who": "lala",
+   "text": "Uangnya nggak ada. Mau kue?",
+   "hash": "ba2921b21885",
+   "duration": 1.997,
+   "words": [
+    {
+     "text": "Uangnya",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "nggak",
+     "start": 0.383,
+     "end": 0.557
+    },
+    {
+     "text": "ada.",
+     "start": 0.58,
+     "end": 1.045
+    },
+    {
+     "text": "Mau",
+     "start": 1.219,
+     "end": 1.44
+    },
+    {
+     "text": "kue?",
+     "start": 1.486,
+     "end": 1.997
+    }
+   ]
+  },
+  "r1": {
+   "who": "rayhan",
+   "text": "Sabar, ikannya lagi otw...",
+   "hash": "5517737d36d4",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Sabar,",
+     "start": 0,
+     "end": 0.789
+    },
+    {
+     "text": "ikannya",
+     "start": 0.94,
+     "end": 1.428
+    },
+    {
+     "text": "lagi",
+     "start": 1.474,
+     "end": 1.73
+    },
+    {
+     "text": "otw...",
+     "start": 1.8,
+     "end": 2.601
+    }
+   ]
+  },
+  "r2": {
+   "who": "rayhan",
+   "text": "Lumayan... sandal lagi.",
+   "hash": "0d72f51c0413",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Lumayan...",
+     "start": 0,
+     "end": 0.848
+    },
+    {
+     "text": "sandal",
+     "start": 1.126,
+     "end": 1.544
+    },
+    {
+     "text": "lagi.",
+     "start": 1.614,
+     "end": 2.508
+    }
+   ]
+  },
+  "w1": {
+   "who": "whoyss",
+   "text": "Hehe... bukan aku.",
+   "hash": "2b5a1892f1a8",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Hehe...",
+     "start": 0,
+     "end": 0.824
+    },
+    {
+     "text": "bukan",
+     "start": 0.94,
+     "end": 1.231
+    },
+    {
+     "text": "aku.",
+     "start": 1.312,
+     "end": 1.95
+    }
+   ]
+  },
+  "f1": {
+   "who": "fattan",
+   "text": "Aku ikut bang! Aku ikut bang! Siap! Siap!",
+   "hash": "b0c943459349",
+   "duration": 3.855,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "ikut",
+     "start": 0.29,
+     "end": 0.546
+    },
+    {
+     "text": "bang!",
+     "start": 0.604,
+     "end": 1.01
+    },
+    {
+     "text": "Aku",
+     "start": 1.254,
+     "end": 1.486
+    },
+    {
+     "text": "ikut",
+     "start": 1.533,
+     "end": 1.788
+    },
+    {
+     "text": "bang!",
+     "start": 1.858,
+     "end": 2.276
+    },
+    {
+     "text": "Siap!",
+     "start": 2.519,
+     "end": 2.961
+    },
+    {
+     "text": "Siap!",
+     "start": 3.17,
+     "end": 3.855
+    }
+   ]
+  },
+  "v1": {
+   "who": "revan",
+   "text": "Namaku... Revan.",
+   "hash": "c5261dc9462e",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Namaku...",
+     "start": 0,
+     "end": 0.859
+    },
+    {
+     "text": "Revan.",
+     "start": 1.103,
+     "end": 1.95
+    }
+   ]
+  },
+  "db": {
+   "who": "daby",
+   "text": "PERTAMA! Minggir!",
+   "hash": "f43471ad226a",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "PERTAMA!",
+     "start": 0,
+     "end": 0.789
+    },
+    {
+     "text": "Minggir!",
+     "start": 0.871,
+     "end": 1.858
+    }
+   ]
+  },
+  "v2": {
+   "who": "revan",
+   "text": "Hmph. Biasa aja.",
+   "hash": "a2a74bf3a7d3",
+   "duration": 1.765,
+   "words": [
+    {
+     "text": "Hmph.",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "Biasa",
+     "start": 0.72,
+     "end": 1.068
+    },
+    {
+     "text": "aja.",
+     "start": 1.091,
+     "end": 1.765
+    }
+   ]
+  },
+  "o1": {
+   "who": "nova",
+   "text": "Jangan lihat aku... aku orang biasa!",
+   "hash": "d4885c4909f6",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Jangan",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "lihat",
+     "start": 0.36,
+     "end": 0.534
+    },
+    {
+     "text": "aku...",
+     "start": 0.615,
+     "end": 1.207
+    },
+    {
+     "text": "aku",
+     "start": 1.3,
+     "end": 1.521
+    },
+    {
+     "text": "orang",
+     "start": 1.544,
+     "end": 1.741
+    },
+    {
+     "text": "biasa!",
+     "start": 1.776,
+     "end": 2.601
+    }
+   ]
+  },
+  "al": {
+   "who": "alif",
+   "text": "Hah?! Yang paling biasa itu aku!",
+   "hash": "9ab48df1b8b5",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Hah?!",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "Yang",
+     "start": 0.569,
+     "end": 0.766
+    },
+    {
+     "text": "paling",
+     "start": 0.824,
+     "end": 1.115
+    },
+    {
+     "text": "biasa",
+     "start": 1.173,
+     "end": 1.498
+    },
+    {
+     "text": "itu",
+     "start": 1.521,
+     "end": 1.707
+    },
+    {
+     "text": "aku!",
+     "start": 1.776,
+     "end": 2.694
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Klub Warga Biasa: dua anggota, nol yang biasa.",
+   "hash": "559dfd45ed47",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Klub",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "Warga",
+     "start": 0.337,
+     "end": 0.604
+    },
+    {
+     "text": "Biasa:",
+     "start": 0.639,
+     "end": 1.231
+    },
+    {
+     "text": "dua",
+     "start": 1.672,
+     "end": 1.904
+    },
+    {
+     "text": "anggota,",
+     "start": 1.962,
+     "end": 2.624
+    },
+    {
+     "text": "nol",
+     "start": 2.868,
+     "end": 3.123
+    },
+    {
+     "text": "yang",
+     "start": 3.216,
+     "end": 3.355
+    },
+    {
+     "text": "biasa.",
+     "start": 3.402,
+     "end": 4.272
+    }
+   ]
+  },
+  "g3": {
+   "who": "bodyguard",
+   "text": "Wapres? Mundur. Presiden? Identitas dulu.",
+   "hash": "4de06e9869e8",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Wapres?",
+     "start": 0,
+     "end": 0.836
+    },
+    {
+     "text": "Mundur.",
+     "start": 1.533,
+     "end": 2.206
+    },
+    {
+     "text": "Presiden?",
+     "start": 2.485,
+     "end": 3.228
+    },
+    {
+     "text": "Identitas",
+     "start": 3.553,
+     "end": 4.168
+    },
+    {
+     "text": "dulu.",
+     "start": 4.226,
+     "end": 4.876
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Saya presidennya!!",
+   "hash": "6744c4f4eafd",
+   "duration": 1.161,
+   "words": [
+    {
+     "text": "Saya",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "presidennya!!",
+     "start": 0.313,
+     "end": 1.161
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Enam warga baru. Kamu paling mirip siapa? Tulis di komentar!",
+   "hash": "8700e924db92",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Enam",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "warga",
+     "start": 0.43,
+     "end": 0.685
+    },
+    {
+     "text": "baru.",
+     "start": 0.72,
+     "end": 1.057
+    },
+    {
+     "text": "Kamu",
+     "start": 1.335,
+     "end": 1.649
+    },
+    {
+     "text": "paling",
+     "start": 1.683,
+     "end": 1.939
+    },
+    {
+     "text": "mirip",
+     "start": 1.974,
+     "end": 2.229
+    },
+    {
+     "text": "siapa?",
+     "start": 2.287,
+     "end": 2.833
+    },
+    {
+     "text": "Tulis",
+     "start": 2.914,
+     "end": 3.262
+    },
+    {
+     "text": "di",
+     "start": 3.332,
+     "end": 3.402
+    },
+    {
+     "text": "komentar!",
+     "start": 3.448,
+     "end": 4.319
+    }
+   ]
+  }
+ }
+}
