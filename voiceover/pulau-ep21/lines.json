@@ -70,12 +70,7 @@
   {
    "id": "x1",
    "who": "alexandre",
-   "text": "Tenang, warga! Aku datang! Serahkan padaku!"
-  },
-  {
-   "id": "n1",
-   "who": "narrator",
-   "text": "Lima menit kemudian..."
+   "text": "Tenang, warga! Serahkan padaku!"
   },
   {
    "id": "x2",
@@ -120,7 +115,7 @@
   {
    "id": "n3",
    "who": "narrator",
-   "text": "Bengkel Pulau resmi buka di jalan silang. Tambal ban, servis gerobak, angin gratis!"
+   "text": "Bengkel Pulau resmi buka! Tambal ban, servis gerobak, angin gratis!"
   },
   {
    "id": "d1",
