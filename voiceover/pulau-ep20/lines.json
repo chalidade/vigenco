@@ -1,0 +1,176 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "lala": "iWydkXKoiVtvdn4vLKp9",
+  "rayhan": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "RWiGLY9uXI70QL540WNd",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "revan": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "nova": "I7sakys8pBZ1Z5f0UhT9",
+  "alif": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "pinjam": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "lala": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "rayhan": {
+   "stability": 0.45,
+   "style": 0.4
+  },
+  "whoyss": {
+   "stability": 0.3,
+   "style": 0.6
+  },
+  "fattan": {
+   "stability": 0.2,
+   "style": 0.85
+  },
+  "revan": {
+   "stability": 0.65,
+   "style": 0.3
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "nova": {
+   "stability": 0.35,
+   "style": 0.55
+  },
+  "alif": {
+   "stability": 0.3,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Mundur! Area presiden!"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Eh, aku Aru! Yang jaga pulau ini!"
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "Identitas? ...Oh, Aru. Tetap mundur."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Pagi ini, enam warga baru datang lagi dari kolom komentar!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Itu bodyguard saya. Katanya saya yang nyuruh... saya lupa."
+  },
+  {
+   "id": "p1",
+   "who": "pinjam",
+   "text": "Pinjam seratus dulu... besok dibalikin, sumpah!"
+  },
+  {
+   "id": "la",
+   "who": "lala",
+   "text": "Uangnya nggak ada. Mau kue?"
+  },
+  {
+   "id": "r1",
+   "who": "rayhan",
+   "text": "Sabar, ikannya lagi otw..."
+  },
+  {
+   "id": "r2",
+   "who": "rayhan",
+   "text": "Lumayan... sandal lagi."
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku."
+  },
+  {
+   "id": "f1",
+   "who": "fattan",
+   "text": "Aku ikut bang! Aku ikut bang! Siap! Siap!"
+  },
+  {
+   "id": "v1",
+   "who": "revan",
+   "text": "Namaku... Revan."
+  },
+  {
+   "id": "db",
+   "who": "daby",
+   "text": "PERTAMA! Minggir!"
+  },
+  {
+   "id": "v2",
+   "who": "revan",
+   "text": "Hmph. Biasa aja."
+  },
+  {
+   "id": "o1",
+   "who": "nova",
+   "text": "Jangan lihat aku... aku orang biasa!"
+  },
+  {
+   "id": "al",
+   "who": "alif",
+   "text": "Hah?! Yang paling biasa itu aku!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Klub Warga Biasa: dua anggota, nol yang biasa."
+  },
+  {
+   "id": "g3",
+   "who": "bodyguard",
+   "text": "Wapres? Mundur. Presiden? Identitas dulu."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Saya presidennya!!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Enam warga baru. Kamu paling mirip siapa? Tulis di komentar!"
+  }
+ ]
+}
