@@ -1,0 +1,171 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "zidan": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "kingindo": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "pinjam": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "gina": {
+   "stability": 0.6,
+   "style": 0.45
+  },
+  "zidan": {
+   "stability": 0.45,
+   "style": 0.5
+  },
+  "whoyss": {
+   "stability": 0.3,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "d1",
+   "who": "daby",
+   "text": "PERTAMA masuk apartemen!"
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Mundur! Identitas dulu!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Sore ini, tiga komentar jadi nyata: apartemen presiden, Bu Guru Gina, dan penjaga masjid!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Aku kan presiden. Aku mau apartemen!"
+  },
+  {
+   "id": "k1",
+   "who": "kingindo",
+   "text": "Jatah kedua ya, Pak. Saya catat."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Gedung bertingkat pertama di pulau. Lima lantai, plus mahkota emas di atasnya."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Lantai paling atas, punya saya."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Liftnya belum ada, Pak."
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "...Tangga juga boleh."
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Aku kan princess! Aku penghuni pertama!"
+  },
+  {
+   "id": "pj",
+   "who": "pinjam",
+   "text": "Pinjam seratus dulu... buat bayar sewa."
+  },
+  {
+   "id": "gn1",
+   "who": "gina",
+   "text": "Duduk yang rapi, anak-anak! Absen dulu!"
+  },
+  {
+   "id": "gn2",
+   "who": "gina",
+   "text": "PR-nya dikumpulkan besok. Termasuk Bapak Presiden."
+  },
+  {
+   "id": "e4",
+   "who": "ega",
+   "text": "Bu, saya presiden..."
+  },
+  {
+   "id": "gn3",
+   "who": "gina",
+   "text": "Presiden juga murid. Bodyguard-nya, dua PR."
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "...Siap, Bu."
+  },
+  {
+   "id": "z1",
+   "who": "zidan",
+   "text": "Sandalnya dilepas dulu ya, kak!"
+  },
+  {
+   "id": "z2",
+   "who": "zidan",
+   "text": "Sandal siapa ini? Pasti whoyss lagi..."
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Dan hari ini, Kedai Kopi resmi dibuka!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Malam pertama di apartemen. Siapa tetangga presiden? Tulis di komentar!"
+  }
+ ]
+}
