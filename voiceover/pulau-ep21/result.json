@@ -1,0 +1,755 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "s1": {
+   "who": "penjual",
+   "text": "RODAKU! Rodaku kabur, kak!",
+   "hash": "9bb59da90311",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "RODAKU!",
+     "start": 0,
+     "end": 0.952
+    },
+    {
+     "text": "Rodaku",
+     "start": 1.161,
+     "end": 1.463
+    },
+    {
+     "text": "kabur,",
+     "start": 1.498,
+     "end": 1.846
+    },
+    {
+     "text": "kak!",
+     "start": 1.869,
+     "end": 2.415
+    }
+   ]
+  },
+  "x1": {
+   "who": "alexandre",
+   "text": "Tenang, warga! Aku datang! Serahkan padaku!",
+   "hash": "1d6106530549",
+   "duration": 4.969,
+   "words": [
+    {
+     "text": "Tenang,",
+     "start": 0,
+     "end": 0.673
+    },
+    {
+     "text": "warga!",
+     "start": 0.848,
+     "end": 1.614
+    },
+    {
+     "text": "Aku",
+     "start": 2.055,
+     "end": 2.299
+    },
+    {
+     "text": "datang!",
+     "start": 2.345,
+     "end": 2.949
+    },
+    {
+     "text": "Serahkan",
+     "start": 3.158,
+     "end": 3.646
+    },
+    {
+     "text": "padaku!",
+     "start": 3.727,
+     "end": 4.969
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Lima menit kemudian...",
+   "hash": "f65fdd3a02f9",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Lima",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "menit",
+     "start": 0.337,
+     "end": 0.534
+    },
+    {
+     "text": "kemudian...",
+     "start": 0.58,
+     "end": 1.672
+    }
+   ]
+  },
+  "x2": {
+   "who": "alexandre",
+   "text": "Beres! ...Kok bautnya sisa tiga?",
+   "hash": "464edc410dd1",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Beres!",
+     "start": 0,
+     "end": 0.789
+    },
+    {
+     "text": "...Kok",
+     "start": 0.906,
+     "end": 2.078
+    },
+    {
+     "text": "bautnya",
+     "start": 2.148,
+     "end": 2.647
+    },
+    {
+     "text": "sisa",
+     "start": 2.798,
+     "end": 3.1
+    },
+    {
+     "text": "tiga?",
+     "start": 3.158,
+     "end": 3.947
+    }
+   ]
+  },
+  "l1": {
+   "who": "luci",
+   "text": "Itu mah gampang. Rodanya tinggal ditiup, kayak balon.",
+   "hash": "b4bb0b06e04e",
+   "duration": 3.855,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "mah",
+     "start": 0.383,
+     "end": 0.488
+    },
+    {
+     "text": "gampang.",
+     "start": 0.534,
+     "end": 1.161
+    },
+    {
+     "text": "Rodanya",
+     "start": 1.486,
+     "end": 1.95
+    },
+    {
+     "text": "tinggal",
+     "start": 1.985,
+     "end": 2.252
+    },
+    {
+     "text": "ditiup,",
+     "start": 2.299,
+     "end": 2.74
+    },
+    {
+     "text": "kayak",
+     "start": 2.763,
+     "end": 2.961
+    },
+    {
+     "text": "balon.",
+     "start": 3.019,
+     "end": 3.855
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Itu roda, Luci. Bukan balon.",
+   "hash": "a1affcf7e192",
+   "duration": 2.043,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "roda,",
+     "start": 0.383,
+     "end": 0.604
+    },
+    {
+     "text": "Luci.",
+     "start": 0.627,
+     "end": 0.998
+    },
+    {
+     "text": "Bukan",
+     "start": 1.173,
+     "end": 1.498
+    },
+    {
+     "text": "balon.",
+     "start": 1.544,
+     "end": 2.043
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Untung, di Kotak Usulan masih ada satu usulan lama.",
+   "hash": "116b8cd88053",
+   "duration": 3.297,
+   "words": [
+    {
+     "text": "Untung,",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "di",
+     "start": 0.766,
+     "end": 0.848
+    },
+    {
+     "text": "Kotak",
+     "start": 0.906,
+     "end": 1.138
+    },
+    {
+     "text": "Usulan",
+     "start": 1.207,
+     "end": 1.509
+    },
+    {
+     "text": "masih",
+     "start": 1.556,
+     "end": 1.753
+    },
+    {
+     "text": "ada",
+     "start": 1.776,
+     "end": 1.916
+    },
+    {
+     "text": "satu",
+     "start": 1.95,
+     "end": 2.148
+    },
+    {
+     "text": "usulan",
+     "start": 2.171,
+     "end": 2.473
+    },
+    {
+     "text": "lama.",
+     "start": 2.531,
+     "end": 3.297
+    }
+   ]
+  },
+  "f1": {
+   "who": "fattan",
+   "text": "Bengkel, bang! Bengkel, bang!",
+   "hash": "c04b57580cb3",
+   "duration": 2.368,
+   "words": [
+    {
+     "text": "Bengkel,",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "bang!",
+     "start": 0.511,
+     "end": 1.033
+    },
+    {
+     "text": "Bengkel,",
+     "start": 1.068,
+     "end": 1.521
+    },
+    {
+     "text": "bang!",
+     "start": 1.567,
+     "end": 2.368
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Bangun bengkel! Biayanya... dari lima koin yang kemarin.",
+   "hash": "9440080ca8e3",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Bangun",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "bengkel!",
+     "start": 0.383,
+     "end": 0.964
+    },
+    {
+     "text": "Biayanya...",
+     "start": 0.998,
+     "end": 1.567
+    },
+    {
+     "text": "dari",
+     "start": 1.718,
+     "end": 1.892
+    },
+    {
+     "text": "lima",
+     "start": 1.927,
+     "end": 2.125
+    },
+    {
+     "text": "koin",
+     "start": 2.171,
+     "end": 2.357
+    },
+    {
+     "text": "yang",
+     "start": 2.38,
+     "end": 2.473
+    },
+    {
+     "text": "kemarin.",
+     "start": 2.496,
+     "end": 3.019
+    }
+   ]
+  },
+  "k1": {
+   "who": "kingindo",
+   "text": "Akhirnya dikembalikan juga, Pak.",
+   "hash": "0bc6bdc45dad",
+   "duration": 2.09,
+   "words": [
+    {
+     "text": "Akhirnya",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "dikembalikan",
+     "start": 0.534,
+     "end": 1.103
+    },
+    {
+     "text": "juga,",
+     "start": 1.149,
+     "end": 1.416
+    },
+    {
+     "text": "Pak.",
+     "start": 1.451,
+     "end": 2.09
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Itu namanya... investasi!",
+   "hash": "1f8e29655cde",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "namanya...",
+     "start": 0.267,
+     "end": 0.697
+    },
+    {
+     "text": "investasi!",
+     "start": 0.906,
+     "end": 1.858
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Bengkel Pulau resmi buka di jalan silang. Tambal ban, servis gerobak, angin gratis!",
+   "hash": "636b8ab2f752",
+   "duration": 5.898,
+   "words": [
+    {
+     "text": "Bengkel",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "Pulau",
+     "start": 0.441,
+     "end": 0.65
+    },
+    {
+     "text": "resmi",
+     "start": 0.697,
+     "end": 0.964
+    },
+    {
+     "text": "buka",
+     "start": 1.01,
+     "end": 1.242
+    },
+    {
+     "text": "di",
+     "start": 1.289,
+     "end": 1.358
+    },
+    {
+     "text": "jalan",
+     "start": 1.416,
+     "end": 1.625
+    },
+    {
+     "text": "silang.",
+     "start": 1.672,
+     "end": 2.206
+    },
+    {
+     "text": "Tambal",
+     "start": 2.717,
+     "end": 3.077
+    },
+    {
+     "text": "ban,",
+     "start": 3.146,
+     "end": 3.541
+    },
+    {
+     "text": "servis",
+     "start": 3.669,
+     "end": 3.994
+    },
+    {
+     "text": "gerobak,",
+     "start": 4.052,
+     "end": 4.516
+    },
+    {
+     "text": "angin",
+     "start": 4.551,
+     "end": 4.795
+    },
+    {
+     "text": "gratis!",
+     "start": 4.841,
+     "end": 5.898
+    }
+   ]
+  },
+  "d1": {
+   "who": "daby",
+   "text": "PERTAMA servis!",
+   "hash": "9ca8eb33eeb5",
+   "duration": 1.393,
+   "words": [
+    {
+     "text": "PERTAMA",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "servis!",
+     "start": 0.58,
+     "end": 1.393
+    }
+   ]
+  },
+  "h1": {
+   "who": "princes",
+   "text": "Kamu kan nggak punya kendaraan!",
+   "hash": "5d6034dda68d",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Kamu",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "kan",
+     "start": 0.279,
+     "end": 0.395
+    },
+    {
+     "text": "nggak",
+     "start": 0.43,
+     "end": 0.615
+    },
+    {
+     "text": "punya",
+     "start": 0.639,
+     "end": 0.848
+    },
+    {
+     "text": "kendaraan!",
+     "start": 0.906,
+     "end": 2.136
+    }
+   ]
+  },
+  "s2": {
+   "who": "penjual",
+   "text": "Roda aman! Kopi dong, kopi syukuran!",
+   "hash": "aecb8de23ad8",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Roda",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "aman!",
+     "start": 0.279,
+     "end": 0.72
+    },
+    {
+     "text": "Kopi",
+     "start": 0.766,
+     "end": 1.115
+    },
+    {
+     "text": "dong,",
+     "start": 1.173,
+     "end": 1.44
+    },
+    {
+     "text": "kopi",
+     "start": 1.463,
+     "end": 1.695
+    },
+    {
+     "text": "syukuran!",
+     "start": 1.73,
+     "end": 2.694
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Bonus hari ini: warteg resmi dibuka. Silakan masuk, makan dulu!",
+   "hash": "a200e55d0cc3",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Bonus",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "hari",
+     "start": 0.313,
+     "end": 0.441
+    },
+    {
+     "text": "ini:",
+     "start": 0.464,
+     "end": 0.685
+    },
+    {
+     "text": "warteg",
+     "start": 0.731,
+     "end": 1.057
+    },
+    {
+     "text": "resmi",
+     "start": 1.115,
+     "end": 1.393
+    },
+    {
+     "text": "dibuka.",
+     "start": 1.44,
+     "end": 1.823
+    },
+    {
+     "text": "Silakan",
+     "start": 1.858,
+     "end": 2.183
+    },
+    {
+     "text": "masuk,",
+     "start": 2.218,
+     "end": 2.554
+    },
+    {
+     "text": "makan",
+     "start": 2.589,
+     "end": 2.914
+    },
+    {
+     "text": "dulu!",
+     "start": 2.961,
+     "end": 3.576
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Tapi... siapa yang copotin baut gerobaknya?",
+   "hash": "309d081afd2a",
+   "duration": 3.808,
+   "words": [
+    {
+     "text": "Tapi...",
+     "start": 0,
+     "end": 0.755
+    },
+    {
+     "text": "siapa",
+     "start": 1.196,
+     "end": 1.579
+    },
+    {
+     "text": "yang",
+     "start": 1.614,
+     "end": 1.741
+    },
+    {
+     "text": "copotin",
+     "start": 1.8,
+     "end": 2.241
+    },
+    {
+     "text": "baut",
+     "start": 2.299,
+     "end": 2.485
+    },
+    {
+     "text": "gerobaknya?",
+     "start": 2.543,
+     "end": 3.808
+    }
+   ]
+  },
+  "w1": {
+   "who": "whoyss",
+   "text": "Hehe... bukan aku.",
+   "hash": "2b5a1892f1a8",
+   "duration": 2.368,
+   "words": [
+    {
+     "text": "Hehe...",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "bukan",
+     "start": 1.289,
+     "end": 1.614
+    },
+    {
+     "text": "aku.",
+     "start": 1.695,
+     "end": 2.368
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Bengkel sudah buka. Kendaraan apa yang harus ada di pulau? Tulis di komentar!",
+   "hash": "26624c57fac7",
+   "duration": 4.83,
+   "words": [
+    {
+     "text": "Bengkel",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "sudah",
+     "start": 0.441,
+     "end": 0.639
+    },
+    {
+     "text": "buka.",
+     "start": 0.673,
+     "end": 1.184
+    },
+    {
+     "text": "Kendaraan",
+     "start": 1.335,
+     "end": 1.823
+    },
+    {
+     "text": "apa",
+     "start": 1.892,
+     "end": 2.067
+    },
+    {
+     "text": "yang",
+     "start": 2.101,
+     "end": 2.206
+    },
+    {
+     "text": "harus",
+     "start": 2.264,
+     "end": 2.45
+    },
+    {
+     "text": "ada",
+     "start": 2.496,
+     "end": 2.624
+    },
+    {
+     "text": "di",
+     "start": 2.659,
+     "end": 2.728
+    },
+    {
+     "text": "pulau?",
+     "start": 2.775,
+     "end": 3.274
+    },
+    {
+     "text": "Tulis",
+     "start": 3.448,
+     "end": 3.796
+    },
+    {
+     "text": "di",
+     "start": 3.843,
+     "end": 3.913
+    },
+    {
+     "text": "komentar!",
+     "start": 3.947,
+     "end": 4.83
+    }
+   ]
+  }
+ }
+}
