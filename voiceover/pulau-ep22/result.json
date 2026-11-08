@@ -1,0 +1,796 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "zidan": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "d1": {
+   "who": "daby",
+   "text": "PERTAMA masuk apartemen!",
+   "hash": "72a2f1b914a5",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "PERTAMA",
+     "start": 0,
+     "end": 0.639
+    },
+    {
+     "text": "masuk",
+     "start": 0.708,
+     "end": 0.987
+    },
+    {
+     "text": "apartemen!",
+     "start": 1.01,
+     "end": 1.904
+    }
+   ]
+  },
+  "g1": {
+   "who": "bodyguard",
+   "text": "Mundur! Identitas dulu!",
+   "hash": "3d28c8deb8d5",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Mundur!",
+     "start": 0,
+     "end": 0.743
+    },
+    {
+     "text": "Identitas",
+     "start": 0.952,
+     "end": 1.567
+    },
+    {
+     "text": "dulu!",
+     "start": 1.625,
+     "end": 2.136
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Sore ini, tiga komentar jadi nyata: apartemen presiden, Bu Guru Gina, dan penjaga masjid!",
+   "hash": "5763a7dfabb7",
+   "duration": 6.827,
+   "words": [
+    {
+     "text": "Sore",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini,",
+     "start": 0.395,
+     "end": 0.848
+    },
+    {
+     "text": "tiga",
+     "start": 0.998,
+     "end": 1.277
+    },
+    {
+     "text": "komentar",
+     "start": 1.324,
+     "end": 1.904
+    },
+    {
+     "text": "jadi",
+     "start": 2.078,
+     "end": 2.31
+    },
+    {
+     "text": "nyata:",
+     "start": 2.345,
+     "end": 2.879
+    },
+    {
+     "text": "apartemen",
+     "start": 3.123,
+     "end": 3.622
+    },
+    {
+     "text": "presiden,",
+     "start": 3.669,
+     "end": 4.4
+    },
+    {
+     "text": "Bu",
+     "start": 4.516,
+     "end": 4.644
+    },
+    {
+     "text": "Guru",
+     "start": 4.69,
+     "end": 4.876
+    },
+    {
+     "text": "Gina,",
+     "start": 4.911,
+     "end": 5.399
+    },
+    {
+     "text": "dan",
+     "start": 5.515,
+     "end": 5.677
+    },
+    {
+     "text": "penjaga",
+     "start": 5.735,
+     "end": 6.072
+    },
+    {
+     "text": "masjid!",
+     "start": 6.107,
+     "end": 6.827
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Aku kan presiden. Aku mau apartemen!",
+   "hash": "749f3bc85c2e",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "kan",
+     "start": 0.279,
+     "end": 0.383
+    },
+    {
+     "text": "presiden.",
+     "start": 0.441,
+     "end": 0.998
+    },
+    {
+     "text": "Aku",
+     "start": 1.207,
+     "end": 1.428
+    },
+    {
+     "text": "mau",
+     "start": 1.486,
+     "end": 1.591
+    },
+    {
+     "text": "apartemen!",
+     "start": 1.649,
+     "end": 2.461
+    }
+   ]
+  },
+  "k1": {
+   "who": "kingindo",
+   "text": "Jatah kedua ya, Pak. Saya catat.",
+   "hash": "67d167b0c72f",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Jatah",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "kedua",
+     "start": 0.464,
+     "end": 0.755
+    },
+    {
+     "text": "ya,",
+     "start": 0.801,
+     "end": 0.906
+    },
+    {
+     "text": "Pak.",
+     "start": 0.94,
+     "end": 1.347
+    },
+    {
+     "text": "Saya",
+     "start": 1.474,
+     "end": 1.718
+    },
+    {
+     "text": "catat.",
+     "start": 1.753,
+     "end": 2.508
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Gedung bertingkat pertama di pulau. Lima lantai, plus mahkota emas di atasnya.",
+   "hash": "36ab763f0e43",
+   "duration": 4.969,
+   "words": [
+    {
+     "text": "Gedung",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "bertingkat",
+     "start": 0.406,
+     "end": 0.801
+    },
+    {
+     "text": "pertama",
+     "start": 0.848,
+     "end": 1.184
+    },
+    {
+     "text": "di",
+     "start": 1.219,
+     "end": 1.289
+    },
+    {
+     "text": "pulau.",
+     "start": 1.324,
+     "end": 1.811
+    },
+    {
+     "text": "Lima",
+     "start": 2.136,
+     "end": 2.357
+    },
+    {
+     "text": "lantai,",
+     "start": 2.403,
+     "end": 2.949
+    },
+    {
+     "text": "plus",
+     "start": 3.042,
+     "end": 3.251
+    },
+    {
+     "text": "mahkota",
+     "start": 3.32,
+     "end": 3.646
+    },
+    {
+     "text": "emas",
+     "start": 3.669,
+     "end": 3.901
+    },
+    {
+     "text": "di",
+     "start": 3.959,
+     "end": 4.017
+    },
+    {
+     "text": "atasnya.",
+     "start": 4.052,
+     "end": 4.969
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Lantai paling atas, punya saya.",
+   "hash": "54ace5726ef1",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Lantai",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "paling",
+     "start": 0.313,
+     "end": 0.534
+    },
+    {
+     "text": "atas,",
+     "start": 0.592,
+     "end": 0.906
+    },
+    {
+     "text": "punya",
+     "start": 0.929,
+     "end": 1.149
+    },
+    {
+     "text": "saya.",
+     "start": 1.184,
+     "end": 1.672
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Liftnya belum ada, Pak.",
+   "hash": "e87f79c25995",
+   "duration": 1.022,
+   "words": [
+    {
+     "text": "Liftnya",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "belum",
+     "start": 0.325,
+     "end": 0.464
+    },
+    {
+     "text": "ada,",
+     "start": 0.522,
+     "end": 0.673
+    },
+    {
+     "text": "Pak.",
+     "start": 0.697,
+     "end": 1.022
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "...Tangga juga boleh.",
+   "hash": "1ce13a583b1c",
+   "duration": 1.115,
+   "words": [
+    {
+     "text": "...Tangga",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "juga",
+     "start": 0.557,
+     "end": 0.708
+    },
+    {
+     "text": "boleh.",
+     "start": 0.755,
+     "end": 1.115
+    }
+   ]
+  },
+  "p1": {
+   "who": "princes",
+   "text": "Aku kan princess! Aku penghuni pertama!",
+   "hash": "ac7108ae7747",
+   "duration": 2.879,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "kan",
+     "start": 0.29,
+     "end": 0.383
+    },
+    {
+     "text": "princess!",
+     "start": 0.43,
+     "end": 1.219
+    },
+    {
+     "text": "Aku",
+     "start": 1.312,
+     "end": 1.533
+    },
+    {
+     "text": "penghuni",
+     "start": 1.579,
+     "end": 1.881
+    },
+    {
+     "text": "pertama!",
+     "start": 1.927,
+     "end": 2.879
+    }
+   ]
+  },
+  "pj": {
+   "who": "pinjam",
+   "text": "Pinjam seratus dulu... buat bayar sewa.",
+   "hash": "e2d7e6cbf43e",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Pinjam",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "seratus",
+     "start": 0.708,
+     "end": 1.254
+    },
+    {
+     "text": "dulu...",
+     "start": 1.347,
+     "end": 1.916
+    },
+    {
+     "text": "buat",
+     "start": 2.519,
+     "end": 2.705
+    },
+    {
+     "text": "bayar",
+     "start": 2.752,
+     "end": 2.949
+    },
+    {
+     "text": "sewa.",
+     "start": 3.007,
+     "end": 3.669
+    }
+   ]
+  },
+  "gn1": {
+   "who": "gina",
+   "text": "Duduk yang rapi, anak-anak! Absen dulu!",
+   "hash": "df3abaebda85",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Duduk",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "yang",
+     "start": 0.383,
+     "end": 0.488
+    },
+    {
+     "text": "rapi,",
+     "start": 0.534,
+     "end": 1.126
+    },
+    {
+     "text": "anak-anak!",
+     "start": 1.184,
+     "end": 1.927
+    },
+    {
+     "text": "Absen",
+     "start": 2.171,
+     "end": 2.554
+    },
+    {
+     "text": "dulu!",
+     "start": 2.612,
+     "end": 3.483
+    }
+   ]
+  },
+  "gn2": {
+   "who": "gina",
+   "text": "PR-nya dikumpulkan besok. Termasuk Bapak Presiden.",
+   "hash": "9a91ba18a8db",
+   "duration": 3.855,
+   "words": [
+    {
+     "text": "PR-nya",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "dikumpulkan",
+     "start": 0.592,
+     "end": 1.068
+    },
+    {
+     "text": "besok.",
+     "start": 1.115,
+     "end": 1.683
+    },
+    {
+     "text": "Termasuk",
+     "start": 2.009,
+     "end": 2.45
+    },
+    {
+     "text": "Bapak",
+     "start": 2.473,
+     "end": 2.705
+    },
+    {
+     "text": "Presiden.",
+     "start": 2.728,
+     "end": 3.855
+    }
+   ]
+  },
+  "e4": {
+   "who": "ega",
+   "text": "Bu, saya presiden...",
+   "hash": "2afddf2bfb0e",
+   "duration": 1.254,
+   "words": [
+    {
+     "text": "Bu,",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "saya",
+     "start": 0.279,
+     "end": 0.441
+    },
+    {
+     "text": "presiden...",
+     "start": 0.476,
+     "end": 1.254
+    }
+   ]
+  },
+  "gn3": {
+   "who": "gina",
+   "text": "Presiden juga murid. Bodyguard-nya, dua PR.",
+   "hash": "2b42d039067a",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Presiden",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "juga",
+     "start": 0.522,
+     "end": 0.72
+    },
+    {
+     "text": "murid.",
+     "start": 0.766,
+     "end": 1.242
+    },
+    {
+     "text": "Bodyguard-nya,",
+     "start": 1.567,
+     "end": 2.461
+    },
+    {
+     "text": "dua",
+     "start": 2.612,
+     "end": 2.856
+    },
+    {
+     "text": "PR.",
+     "start": 2.914,
+     "end": 3.622
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "...Siap, Bu.",
+   "hash": "69154a2d1c7d",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "...Siap,",
+     "start": 0,
+     "end": 1.265
+    },
+    {
+     "text": "Bu.",
+     "start": 1.289,
+     "end": 1.904
+    }
+   ]
+  },
+  "z1": {
+   "who": "zidan",
+   "text": "Sandalnya dilepas dulu ya, kak!",
+   "hash": "61d12ecea4b7",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Sandalnya",
+     "start": 0,
+     "end": 0.685
+    },
+    {
+     "text": "dilepas",
+     "start": 0.731,
+     "end": 1.091
+    },
+    {
+     "text": "dulu",
+     "start": 1.149,
+     "end": 1.358
+    },
+    {
+     "text": "ya,",
+     "start": 1.405,
+     "end": 1.498
+    },
+    {
+     "text": "kak!",
+     "start": 1.533,
+     "end": 2.461
+    }
+   ]
+  },
+  "z2": {
+   "who": "zidan",
+   "text": "Sandal siapa ini? Pasti whoyss lagi...",
+   "hash": "ab85989ce9f6",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Sandal",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "siapa",
+     "start": 0.546,
+     "end": 0.964
+    },
+    {
+     "text": "ini?",
+     "start": 1.01,
+     "end": 1.324
+    },
+    {
+     "text": "Pasti",
+     "start": 1.358,
+     "end": 1.741
+    },
+    {
+     "text": "whoyss",
+     "start": 1.811,
+     "end": 2.148
+    },
+    {
+     "text": "lagi...",
+     "start": 2.264,
+     "end": 3.39
+    }
+   ]
+  },
+  "w1": {
+   "who": "whoyss",
+   "text": "Hehe... bukan aku.",
+   "hash": "2b5a1892f1a8",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Hehe...",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "bukan",
+     "start": 0.627,
+     "end": 0.917
+    },
+    {
+     "text": "aku.",
+     "start": 0.987,
+     "end": 1.625
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Dan hari ini, Kedai Kopi resmi dibuka!",
+   "hash": "de1f4eff58d6",
+   "duration": 2.043,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "hari",
+     "start": 0.209,
+     "end": 0.36
+    },
+    {
+     "text": "ini,",
+     "start": 0.383,
+     "end": 0.65
+    },
+    {
+     "text": "Kedai",
+     "start": 0.673,
+     "end": 0.894
+    },
+    {
+     "text": "Kopi",
+     "start": 0.929,
+     "end": 1.149
+    },
+    {
+     "text": "resmi",
+     "start": 1.184,
+     "end": 1.416
+    },
+    {
+     "text": "dibuka!",
+     "start": 1.451,
+     "end": 2.043
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Malam pertama di apartemen. Siapa tetangga presiden? Tulis di komentar!",
+   "hash": "ba212b5deb67",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "pertama",
+     "start": 0.279,
+     "end": 0.604
+    },
+    {
+     "text": "di",
+     "start": 0.639,
+     "end": 0.697
+    },
+    {
+     "text": "apartemen.",
+     "start": 0.731,
+     "end": 1.335
+    },
+    {
+     "text": "Siapa",
+     "start": 1.509,
+     "end": 1.869
+    },
+    {
+     "text": "tetangga",
+     "start": 1.916,
+     "end": 2.229
+    },
+    {
+     "text": "presiden?",
+     "start": 2.264,
+     "end": 2.914
+    },
+    {
+     "text": "Tulis",
+     "start": 3.03,
+     "end": 3.332
+    },
+    {
+     "text": "di",
+     "start": 3.379,
+     "end": 3.437
+    },
+    {
+     "text": "komentar!",
+     "start": 3.483,
+     "end": 4.412
+    }
+   ]
+  }
+ }
+}
