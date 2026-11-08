@@ -1,0 +1,976 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "debby": "I7sakys8pBZ1Z5f0UhT9",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "d4l": "RWiGLY9uXI70QL540WNd",
+  "inyuu": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "d1": {
+   "who": "debby",
+   "text": "Permisi! Aku mau ketemu Pak Presiden!",
+   "hash": "1cade5fc6aee",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "Permisi!",
+     "start": 0,
+     "end": 0.894
+    },
+    {
+     "text": "Aku",
+     "start": 1.045,
+     "end": 1.242
+    },
+    {
+     "text": "mau",
+     "start": 1.277,
+     "end": 1.358
+    },
+    {
+     "text": "ketemu",
+     "start": 1.382,
+     "end": 1.66
+    },
+    {
+     "text": "Pak",
+     "start": 1.707,
+     "end": 1.811
+    },
+    {
+     "text": "Presiden!",
+     "start": 1.846,
+     "end": 2.415
+    }
+   ]
+  },
+  "g1": {
+   "who": "bodyguard",
+   "text": "Mundur! Identitas dulu!",
+   "hash": "3d28c8deb8d5",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Mundur!",
+     "start": 0,
+     "end": 0.848
+    },
+    {
+     "text": "Identitas",
+     "start": 1.091,
+     "end": 1.683
+    },
+    {
+     "text": "dulu!",
+     "start": 1.741,
+     "end": 2.508
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Malam ini, dua komentar jadi nyata: sekretaris presiden, dan study tour!",
+   "hash": "63ce0600b77b",
+   "duration": 4.783,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "ini,",
+     "start": 0.383,
+     "end": 0.731
+    },
+    {
+     "text": "dua",
+     "start": 0.778,
+     "end": 1.01
+    },
+    {
+     "text": "komentar",
+     "start": 1.057,
+     "end": 1.498
+    },
+    {
+     "text": "jadi",
+     "start": 1.579,
+     "end": 1.741
+    },
+    {
+     "text": "nyata:",
+     "start": 1.788,
+     "end": 2.276
+    },
+    {
+     "text": "sekretaris",
+     "start": 2.485,
+     "end": 3.077
+    },
+    {
+     "text": "presiden,",
+     "start": 3.123,
+     "end": 3.68
+    },
+    {
+     "text": "dan",
+     "start": 3.762,
+     "end": 3.913
+    },
+    {
+     "text": "study",
+     "start": 3.971,
+     "end": 4.226
+    },
+    {
+     "text": "tour!",
+     "start": 4.272,
+     "end": 4.783
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Debby! Mulai hari ini, kamu Sekretaris Presiden!",
+   "hash": "468ae5123b7c",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Debby!",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "Mulai",
+     "start": 0.453,
+     "end": 0.662
+    },
+    {
+     "text": "hari",
+     "start": 0.697,
+     "end": 0.871
+    },
+    {
+     "text": "ini,",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "text": "kamu",
+     "start": 1.103,
+     "end": 1.347
+    },
+    {
+     "text": "Sekretaris",
+     "start": 1.393,
+     "end": 1.834
+    },
+    {
+     "text": "Presiden!",
+     "start": 1.892,
+     "end": 2.461
+    }
+   ]
+  },
+  "d2": {
+   "who": "debby",
+   "text": "Akhirnya aku masuk juga!",
+   "hash": "6dfce87522b3",
+   "duration": 2.368,
+   "words": [
+    {
+     "text": "Akhirnya",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "aku",
+     "start": 0.476,
+     "end": 0.65
+    },
+    {
+     "text": "masuk",
+     "start": 0.697,
+     "end": 0.929
+    },
+    {
+     "text": "juga!",
+     "start": 0.975,
+     "end": 2.368
+    }
+   ]
+  },
+  "d3": {
+   "who": "debby",
+   "text": "Pak Presiden, jadwal Bapak hari ini: PR dari Bu Guru Gina.",
+   "hash": "c33857829ba8",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Pak",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "Presiden,",
+     "start": 0.197,
+     "end": 0.871
+    },
+    {
+     "text": "jadwal",
+     "start": 0.906,
+     "end": 1.219
+    },
+    {
+     "text": "Bapak",
+     "start": 1.265,
+     "end": 1.509
+    },
+    {
+     "text": "hari",
+     "start": 1.567,
+     "end": 1.811
+    },
+    {
+     "text": "ini:",
+     "start": 1.869,
+     "end": 2.31
+    },
+    {
+     "text": "PR",
+     "start": 2.519,
+     "end": 2.879
+    },
+    {
+     "text": "dari",
+     "start": 2.949,
+     "end": 3.146
+    },
+    {
+     "text": "Bu",
+     "start": 3.204,
+     "end": 3.32
+    },
+    {
+     "text": "Guru",
+     "start": 3.39,
+     "end": 3.587
+    },
+    {
+     "text": "Gina.",
+     "start": 3.622,
+     "end": 4.226
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "...Cuma itu?",
+   "hash": "b46028383c8a",
+   "duration": 0.975,
+   "words": [
+    {
+     "text": "...Cuma",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "itu?",
+     "start": 0.464,
+     "end": 0.975
+    }
+   ]
+  },
+  "d4": {
+   "who": "debby",
+   "text": "Itu yang paling penting, Pak.",
+   "hash": "2768a73603a9",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "yang",
+     "start": 0.267,
+     "end": 0.372
+    },
+    {
+     "text": "paling",
+     "start": 0.406,
+     "end": 0.615
+    },
+    {
+     "text": "penting,",
+     "start": 0.639,
+     "end": 0.975
+    },
+    {
+     "text": "Pak.",
+     "start": 0.998,
+     "end": 1.625
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "Sekretaris juga harus... identitas dulu!",
+   "hash": "d7ee3209061d",
+   "duration": 2.368,
+   "words": [
+    {
+     "text": "Sekretaris",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "text": "juga",
+     "start": 0.673,
+     "end": 0.894
+    },
+    {
+     "text": "harus...",
+     "start": 0.929,
+     "end": 1.196
+    },
+    {
+     "text": "identitas",
+     "start": 1.231,
+     "end": 1.788
+    },
+    {
+     "text": "dulu!",
+     "start": 1.846,
+     "end": 2.368
+    }
+   ]
+  },
+  "d5": {
+   "who": "debby",
+   "text": "Nih, jadwalmu juga ada. Dua PR.",
+   "hash": "79074e70ee76",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "Nih,",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "jadwalmu",
+     "start": 0.372,
+     "end": 0.836
+    },
+    {
+     "text": "juga",
+     "start": 0.882,
+     "end": 1.126
+    },
+    {
+     "text": "ada.",
+     "start": 1.173,
+     "end": 1.567
+    },
+    {
+     "text": "Dua",
+     "start": 1.718,
+     "end": 1.95
+    },
+    {
+     "text": "PR.",
+     "start": 2.009,
+     "end": 2.415
+    }
+   ]
+  },
+  "g3": {
+   "who": "bodyguard",
+   "text": "...Silakan lewat, Bu Sekretaris.",
+   "hash": "d72088ffe10e",
+   "duration": 3.158,
+   "words": [
+    {
+     "text": "...Silakan",
+     "start": 0,
+     "end": 1.382
+    },
+    {
+     "text": "lewat,",
+     "start": 1.428,
+     "end": 1.73
+    },
+    {
+     "text": "Bu",
+     "start": 1.776,
+     "end": 1.95
+    },
+    {
+     "text": "Sekretaris.",
+     "start": 2.02,
+     "end": 3.158
+    }
+   ]
+  },
+  "gn1": {
+   "who": "gina",
+   "text": "Anak-anak! Study tour, setahun sekali! Baris yang rapi!",
+   "hash": "795b5f4885cd",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Anak-anak!",
+     "start": 0,
+     "end": 0.685
+    },
+    {
+     "text": "Study",
+     "start": 1.01,
+     "end": 1.335
+    },
+    {
+     "text": "tour,",
+     "start": 1.382,
+     "end": 1.672
+    },
+    {
+     "text": "setahun",
+     "start": 1.788,
+     "end": 2.067
+    },
+    {
+     "text": "sekali!",
+     "start": 2.125,
+     "end": 2.67
+    },
+    {
+     "text": "Baris",
+     "start": 2.914,
+     "end": 3.193
+    },
+    {
+     "text": "yang",
+     "start": 3.239,
+     "end": 3.344
+    },
+    {
+     "text": "rapi!",
+     "start": 3.402,
+     "end": 4.18
+    }
+   ]
+  },
+  "da1": {
+   "who": "daby",
+   "text": "PERTAMA! Aku paling depan!",
+   "hash": "2de2fec84c52",
+   "duration": 2.043,
+   "words": [
+    {
+     "text": "PERTAMA!",
+     "start": 0,
+     "end": 0.743
+    },
+    {
+     "text": "Aku",
+     "start": 0.836,
+     "end": 1.057
+    },
+    {
+     "text": "paling",
+     "start": 1.091,
+     "end": 1.324
+    },
+    {
+     "text": "depan!",
+     "start": 1.358,
+     "end": 2.043
+    }
+   ]
+  },
+  "p1": {
+   "who": "princes",
+   "text": "Aku kan princess! Aku yang depan!",
+   "hash": "f227b1c0c77f",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "kan",
+     "start": 0.348,
+     "end": 0.464
+    },
+    {
+     "text": "princess!",
+     "start": 0.522,
+     "end": 1.254
+    },
+    {
+     "text": "Aku",
+     "start": 1.324,
+     "end": 1.544
+    },
+    {
+     "text": "yang",
+     "start": 1.591,
+     "end": 1.707
+    },
+    {
+     "text": "depan!",
+     "start": 1.765,
+     "end": 2.601
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Rombongan berangkat. Pemandu wisatanya... Luci Si Sok Tahu.",
+   "hash": "8c4eabf41b4d",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Rombongan",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "berangkat.",
+     "start": 0.476,
+     "end": 1.091
+    },
+    {
+     "text": "Pemandu",
+     "start": 1.242,
+     "end": 1.625
+    },
+    {
+     "text": "wisatanya...",
+     "start": 1.649,
+     "end": 2.38
+    },
+    {
+     "text": "Luci",
+     "start": 2.496,
+     "end": 2.786
+    },
+    {
+     "text": "Si",
+     "start": 2.833,
+     "end": 2.926
+    },
+    {
+     "text": "Sok",
+     "start": 2.995,
+     "end": 3.274
+    },
+    {
+     "text": "Tahu.",
+     "start": 3.448,
+     "end": 4.319
+    }
+   ]
+  },
+  "l1": {
+   "who": "luci",
+   "text": "Di kanan kita, menara buat manggil ikan.",
+   "hash": "4bfbf458bc87",
+   "duration": 3.251,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "kanan",
+     "start": 0.197,
+     "end": 0.476
+    },
+    {
+     "text": "kita,",
+     "start": 0.534,
+     "end": 1.01
+    },
+    {
+     "text": "menara",
+     "start": 1.184,
+     "end": 1.649
+    },
+    {
+     "text": "buat",
+     "start": 1.765,
+     "end": 1.997
+    },
+    {
+     "text": "manggil",
+     "start": 2.078,
+     "end": 2.461
+    },
+    {
+     "text": "ikan.",
+     "start": 2.519,
+     "end": 3.251
+    }
+   ]
+  },
+  "gn2": {
+   "who": "gina",
+   "text": "Itu Menara Sinyal, Luci.",
+   "hash": "93c93fd8708c",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "Menara",
+     "start": 0.557,
+     "end": 0.871
+    },
+    {
+     "text": "Sinyal,",
+     "start": 0.929,
+     "end": 1.509
+    },
+    {
+     "text": "Luci.",
+     "start": 1.753,
+     "end": 2.647
+    }
+   ]
+  },
+  "l2": {
+   "who": "luci",
+   "text": "Dan ini istana presiden. Lantainya seribu!",
+   "hash": "51ba44c004bb",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "ini",
+     "start": 0.302,
+     "end": 0.511
+    },
+    {
+     "text": "istana",
+     "start": 0.569,
+     "end": 0.929
+    },
+    {
+     "text": "presiden.",
+     "start": 0.964,
+     "end": 1.579
+    },
+    {
+     "text": "Lantainya",
+     "start": 1.649,
+     "end": 2.183
+    },
+    {
+     "text": "seribu!",
+     "start": 2.229,
+     "end": 3.669
+    }
+   ]
+  },
+  "dl": {
+   "who": "d4l",
+   "text": "Boleh foto?",
+   "hash": "ec669283abfe",
+   "duration": 1.068,
+   "words": [
+    {
+     "text": "Boleh",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "foto?",
+     "start": 0.372,
+     "end": 1.068
+    }
+   ]
+  },
+  "iy": {
+   "who": "inyuu",
+   "text": "Tombol save-nya di mana?",
+   "hash": "e896c2308361",
+   "duration": 1.44,
+   "words": [
+    {
+     "text": "Tombol",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "save-nya",
+     "start": 0.337,
+     "end": 0.615
+    },
+    {
+     "text": "di",
+     "start": 0.639,
+     "end": 0.708
+    },
+    {
+     "text": "mana?",
+     "start": 0.755,
+     "end": 1.44
+    }
+   ]
+  },
+  "l3": {
+   "who": "luci",
+   "text": "Nah, ini toko permen!",
+   "hash": "d7b5565be0c8",
+   "duration": 1.579,
+   "words": [
+    {
+     "text": "Nah,",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "ini",
+     "start": 0.279,
+     "end": 0.453
+    },
+    {
+     "text": "toko",
+     "start": 0.499,
+     "end": 0.731
+    },
+    {
+     "text": "permen!",
+     "start": 0.778,
+     "end": 1.579
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Itu apotik, Luci. Dan hari ini, apotik resmi dibuka!",
+   "hash": "aff29f1f2b65",
+   "duration": 3.297,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "apotik,",
+     "start": 0.302,
+     "end": 0.627
+    },
+    {
+     "text": "Luci.",
+     "start": 0.65,
+     "end": 1.022
+    },
+    {
+     "text": "Dan",
+     "start": 1.265,
+     "end": 1.474
+    },
+    {
+     "text": "hari",
+     "start": 1.567,
+     "end": 1.8
+    },
+    {
+     "text": "ini,",
+     "start": 1.823,
+     "end": 1.997
+    },
+    {
+     "text": "apotik",
+     "start": 2.02,
+     "end": 2.334
+    },
+    {
+     "text": "resmi",
+     "start": 2.403,
+     "end": 2.624
+    },
+    {
+     "text": "dibuka!",
+     "start": 2.659,
+     "end": 3.297
+    }
+   ]
+  },
+  "gn3": {
+   "who": "gina",
+   "text": "PR-nya: tulis pengalaman study tour. Termasuk Pak Presiden.",
+   "hash": "658cc98b97c9",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "PR-nya:",
+     "start": 0,
+     "end": 0.789
+    },
+    {
+     "text": "tulis",
+     "start": 0.998,
+     "end": 1.347
+    },
+    {
+     "text": "pengalaman",
+     "start": 1.405,
+     "end": 1.846
+    },
+    {
+     "text": "study",
+     "start": 1.881,
+     "end": 2.171
+    },
+    {
+     "text": "tour.",
+     "start": 2.241,
+     "end": 2.694
+    },
+    {
+     "text": "Termasuk",
+     "start": 2.868,
+     "end": 3.495
+    },
+    {
+     "text": "Pak",
+     "start": 3.529,
+     "end": 3.646
+    },
+    {
+     "text": "Presiden.",
+     "start": 3.68,
+     "end": 4.598
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "Saya kan nggak ikut!",
+   "hash": "9b0fe8b86ae6",
+   "duration": 1.254,
+   "words": [
+    {
+     "text": "Saya",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "kan",
+     "start": 0.209,
+     "end": 0.325
+    },
+    {
+     "text": "nggak",
+     "start": 0.36,
+     "end": 0.522
+    },
+    {
+     "text": "ikut!",
+     "start": 0.546,
+     "end": 1.254
+    }
+   ]
+  },
+  "d6": {
+   "who": "debby",
+   "text": "Sudah aku catat, Pak.",
+   "hash": "7f4042724134",
+   "duration": 1.347,
+   "words": [
+    {
+     "text": "Sudah",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "aku",
+     "start": 0.313,
+     "end": 0.406
+    },
+    {
+     "text": "catat,",
+     "start": 0.453,
+     "end": 0.72
+    },
+    {
+     "text": "Pak.",
+     "start": 0.743,
+     "end": 1.347
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Study tour berikutnya ke mana? Tulis di komentar!",
+   "hash": "4feb91523e25",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Study",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "tour",
+     "start": 0.383,
+     "end": 0.534
+    },
+    {
+     "text": "berikutnya",
+     "start": 0.592,
+     "end": 0.998
+    },
+    {
+     "text": "ke",
+     "start": 1.033,
+     "end": 1.103
+    },
+    {
+     "text": "mana?",
+     "start": 1.138,
+     "end": 1.556
+    },
+    {
+     "text": "Tulis",
+     "start": 1.672,
+     "end": 1.997
+    },
+    {
+     "text": "di",
+     "start": 2.055,
+     "end": 2.113
+    },
+    {
+     "text": "komentar!",
+     "start": 2.148,
+     "end": 3.111
+    }
+   ]
+  }
+ }
+}
