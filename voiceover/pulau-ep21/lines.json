@@ -1,0 +1,161 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "kingindo": "RWiGLY9uXI70QL540WNd",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "alexandre": {
+   "stability": 0.25,
+   "style": 0.8
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "fattan": {
+   "stability": 0.2,
+   "style": 0.85
+  },
+  "kingindo": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "luci": {
+   "stability": 0.4,
+   "style": 0.6
+  },
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "penjual": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "whoyss": {
+   "stability": 0.3,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "s1",
+   "who": "penjual",
+   "text": "RODAKU! Rodaku kabur, kak!"
+  },
+  {
+   "id": "x1",
+   "who": "alexandre",
+   "text": "Tenang, warga! Aku datang! Serahkan padaku!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Lima menit kemudian..."
+  },
+  {
+   "id": "x2",
+   "who": "alexandre",
+   "text": "Beres! ...Kok bautnya sisa tiga?"
+  },
+  {
+   "id": "l1",
+   "who": "luci",
+   "text": "Itu mah gampang. Rodanya tinggal ditiup, kayak balon."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Itu roda, Luci. Bukan balon."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Untung, di Kotak Usulan masih ada satu usulan lama."
+  },
+  {
+   "id": "f1",
+   "who": "fattan",
+   "text": "Bengkel, bang! Bengkel, bang!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Bangun bengkel! Biayanya... dari lima koin yang kemarin."
+  },
+  {
+   "id": "k1",
+   "who": "kingindo",
+   "text": "Akhirnya dikembalikan juga, Pak."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Itu namanya... investasi!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Bengkel Pulau resmi buka di jalan silang. Tambal ban, servis gerobak, angin gratis!"
+  },
+  {
+   "id": "d1",
+   "who": "daby",
+   "text": "PERTAMA servis!"
+  },
+  {
+   "id": "h1",
+   "who": "princes",
+   "text": "Kamu kan nggak punya kendaraan!"
+  },
+  {
+   "id": "s2",
+   "who": "penjual",
+   "text": "Roda aman! Kopi dong, kopi syukuran!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Bonus hari ini: warteg resmi dibuka. Silakan masuk, makan dulu!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Tapi... siapa yang copotin baut gerobaknya?"
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Bengkel sudah buka. Kendaraan apa yang harus ada di pulau? Tulis di komentar!"
+  }
+ ]
+}
