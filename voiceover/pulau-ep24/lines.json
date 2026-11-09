@@ -1,0 +1,146 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "fattan": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "gina": {
+   "stability": 0.6,
+   "style": 0.45
+  },
+  "whoyss": {
+   "stability": 0.35,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Mau check-in? Identitas dulu!"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Aku yang bangun hotelnya!"
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "...Tetap identitas dulu."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Kotak Usulan dibuka lagi. Tinggal satu usulan lama yang belum jadi..."
+  },
+  {
+   "id": "f1",
+   "who": "fattan",
+   "text": "Hotel, bang! Hotel, bang!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Hotel Pulau berdiri dekat dermaga. Tiga lantai, karpet merah, dan bel resepsionis!"
+  },
+  {
+   "id": "da1",
+   "who": "daby",
+   "text": "PERTAMA check-in!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Kamu kan punya rumah sendiri!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Saya pesan kamar paling atas."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Bapak kan sudah punya apartemen."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Itu buat hari kerja. Ini buat liburan."
+  },
+  {
+   "id": "gn1",
+   "who": "gina",
+   "text": "Pak Presiden, PR study tour-nya mana?"
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Ketinggalan... di kamar hotel."
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Koper siapa ini?"
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Malam pertama. Buku tamu sudah terisi tiga nama."
+  },
+  {
+   "id": "a4",
+   "who": "aru",
+   "text": "Kamar tiga... Penjaga Mercusuar?!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Kamar empat masih kosong. Siapa tamu berikutnya?"
+  }
+ ]
+}
