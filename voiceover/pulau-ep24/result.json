@@ -1,0 +1,645 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "fattan": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "whoyss": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "g1": {
+   "who": "bodyguard",
+   "text": "Mau check-in? Identitas dulu!",
+   "hash": "537cbc9c961f",
+   "duration": 2.09,
+   "words": [
+    {
+     "text": "Mau",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "check-in?",
+     "start": 0.313,
+     "end": 0.836
+    },
+    {
+     "text": "Identitas",
+     "start": 0.882,
+     "end": 1.463
+    },
+    {
+     "text": "dulu!",
+     "start": 1.521,
+     "end": 2.09
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Aku yang bangun hotelnya!",
+   "hash": "b7efbf7bb860",
+   "duration": 1.254,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "yang",
+     "start": 0.279,
+     "end": 0.383
+    },
+    {
+     "text": "bangun",
+     "start": 0.418,
+     "end": 0.639
+    },
+    {
+     "text": "hotelnya!",
+     "start": 0.673,
+     "end": 1.254
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "...Tetap identitas dulu.",
+   "hash": "a9399b131978",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "...Tetap",
+     "start": 0,
+     "end": 1.324
+    },
+    {
+     "text": "identitas",
+     "start": 1.393,
+     "end": 1.881
+    },
+    {
+     "text": "dulu.",
+     "start": 1.927,
+     "end": 2.601
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Kotak Usulan dibuka lagi. Tinggal satu usulan lama yang belum jadi...",
+   "hash": "7c5128c9b1b5",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Kotak",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "Usulan",
+     "start": 0.383,
+     "end": 0.731
+    },
+    {
+     "text": "dibuka",
+     "start": 0.778,
+     "end": 1.103
+    },
+    {
+     "text": "lagi.",
+     "start": 1.149,
+     "end": 1.602
+    },
+    {
+     "text": "Tinggal",
+     "start": 1.718,
+     "end": 2.055
+    },
+    {
+     "text": "satu",
+     "start": 2.101,
+     "end": 2.322
+    },
+    {
+     "text": "usulan",
+     "start": 2.345,
+     "end": 2.682
+    },
+    {
+     "text": "lama",
+     "start": 2.74,
+     "end": 2.972
+    },
+    {
+     "text": "yang",
+     "start": 3.019,
+     "end": 3.146
+    },
+    {
+     "text": "belum",
+     "start": 3.181,
+     "end": 3.355
+    },
+    {
+     "text": "jadi...",
+     "start": 3.425,
+     "end": 4.226
+    }
+   ]
+  },
+  "f1": {
+   "who": "fattan",
+   "text": "Hotel, bang! Hotel, bang!",
+   "hash": "f96e265aa64c",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Hotel,",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "bang!",
+     "start": 0.569,
+     "end": 0.882
+    },
+    {
+     "text": "Hotel,",
+     "start": 0.906,
+     "end": 1.312
+    },
+    {
+     "text": "bang!",
+     "start": 1.335,
+     "end": 1.95
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Hotel Pulau berdiri dekat dermaga. Tiga lantai, karpet merah, dan bel resepsionis!",
+   "hash": "bf51d6bf4746",
+   "duration": 6.13,
+   "words": [
+    {
+     "text": "Hotel",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "Pulau",
+     "start": 0.406,
+     "end": 0.697
+    },
+    {
+     "text": "berdiri",
+     "start": 0.743,
+     "end": 1.091
+    },
+    {
+     "text": "dekat",
+     "start": 1.138,
+     "end": 1.37
+    },
+    {
+     "text": "dermaga.",
+     "start": 1.393,
+     "end": 2.055
+    },
+    {
+     "text": "Tiga",
+     "start": 2.438,
+     "end": 2.705
+    },
+    {
+     "text": "lantai,",
+     "start": 2.752,
+     "end": 3.309
+    },
+    {
+     "text": "karpet",
+     "start": 3.39,
+     "end": 3.762
+    },
+    {
+     "text": "merah,",
+     "start": 3.82,
+     "end": 4.261
+    },
+    {
+     "text": "dan",
+     "start": 4.377,
+     "end": 4.551
+    },
+    {
+     "text": "bel",
+     "start": 4.621,
+     "end": 4.783
+    },
+    {
+     "text": "resepsionis!",
+     "start": 4.853,
+     "end": 6.13
+    }
+   ]
+  },
+  "da1": {
+   "who": "daby",
+   "text": "PERTAMA check-in!",
+   "hash": "3a77adace59a",
+   "duration": 1.393,
+   "words": [
+    {
+     "text": "PERTAMA",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "check-in!",
+     "start": 0.557,
+     "end": 1.393
+    }
+   ]
+  },
+  "p1": {
+   "who": "princes",
+   "text": "Kamu kan punya rumah sendiri!",
+   "hash": "5d75842077cc",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Kamu",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "kan",
+     "start": 0.325,
+     "end": 0.418
+    },
+    {
+     "text": "punya",
+     "start": 0.464,
+     "end": 0.65
+    },
+    {
+     "text": "rumah",
+     "start": 0.697,
+     "end": 0.882
+    },
+    {
+     "text": "sendiri!",
+     "start": 0.906,
+     "end": 1.718
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Saya pesan kamar paling atas.",
+   "hash": "d8b6d7523a1e",
+   "duration": 1.347,
+   "words": [
+    {
+     "text": "Saya",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "pesan",
+     "start": 0.232,
+     "end": 0.441
+    },
+    {
+     "text": "kamar",
+     "start": 0.488,
+     "end": 0.708
+    },
+    {
+     "text": "paling",
+     "start": 0.766,
+     "end": 0.964
+    },
+    {
+     "text": "atas.",
+     "start": 1.01,
+     "end": 1.347
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Bapak kan sudah punya apartemen.",
+   "hash": "daf61fbc5e44",
+   "duration": 1.811,
+   "words": [
+    {
+     "text": "Bapak",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "kan",
+     "start": 0.383,
+     "end": 0.476
+    },
+    {
+     "text": "sudah",
+     "start": 0.511,
+     "end": 0.685
+    },
+    {
+     "text": "punya",
+     "start": 0.708,
+     "end": 0.894
+    },
+    {
+     "text": "apartemen.",
+     "start": 0.917,
+     "end": 1.811
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Itu buat hari kerja. Ini buat liburan.",
+   "hash": "df02efa08bcf",
+   "duration": 2.322,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "buat",
+     "start": 0.244,
+     "end": 0.383
+    },
+    {
+     "text": "hari",
+     "start": 0.418,
+     "end": 0.546
+    },
+    {
+     "text": "kerja.",
+     "start": 0.569,
+     "end": 0.987
+    },
+    {
+     "text": "Ini",
+     "start": 1.161,
+     "end": 1.37
+    },
+    {
+     "text": "buat",
+     "start": 1.416,
+     "end": 1.556
+    },
+    {
+     "text": "liburan.",
+     "start": 1.602,
+     "end": 2.322
+    }
+   ]
+  },
+  "gn1": {
+   "who": "gina",
+   "text": "Pak Presiden, PR study tour-nya mana?",
+   "hash": "219f50d51068",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Pak",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "Presiden,",
+     "start": 0.255,
+     "end": 0.952
+    },
+    {
+     "text": "PR",
+     "start": 1.045,
+     "end": 1.312
+    },
+    {
+     "text": "study",
+     "start": 1.382,
+     "end": 1.672
+    },
+    {
+     "text": "tour-nya",
+     "start": 1.73,
+     "end": 2.078
+    },
+    {
+     "text": "mana?",
+     "start": 2.125,
+     "end": 2.74
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "Ketinggalan... di kamar hotel.",
+   "hash": "d94e0a679b33",
+   "duration": 2.786,
+   "words": [
+    {
+     "text": "Ketinggalan...",
+     "start": 0,
+     "end": 0.813
+    },
+    {
+     "text": "di",
+     "start": 0.987,
+     "end": 1.242
+    },
+    {
+     "text": "kamar",
+     "start": 1.358,
+     "end": 1.823
+    },
+    {
+     "text": "hotel.",
+     "start": 1.974,
+     "end": 2.786
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Koper siapa ini?",
+   "hash": "19f606883343",
+   "duration": 1.022,
+   "words": [
+    {
+     "text": "Koper",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "siapa",
+     "start": 0.325,
+     "end": 0.557
+    },
+    {
+     "text": "ini?",
+     "start": 0.58,
+     "end": 1.022
+    }
+   ]
+  },
+  "w1": {
+   "who": "whoyss",
+   "text": "Hehe... bukan aku.",
+   "hash": "f0207ef0dc13",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Hehe...",
+     "start": 0,
+     "end": 0.766
+    },
+    {
+     "text": "bukan",
+     "start": 1.091,
+     "end": 1.463
+    },
+    {
+     "text": "aku.",
+     "start": 1.544,
+     "end": 2.276
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Malam pertama. Buku tamu sudah terisi tiga nama.",
+   "hash": "e24880503f60",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "pertama.",
+     "start": 0.313,
+     "end": 0.882
+    },
+    {
+     "text": "Buku",
+     "start": 1.207,
+     "end": 1.428
+    },
+    {
+     "text": "tamu",
+     "start": 1.474,
+     "end": 1.695
+    },
+    {
+     "text": "sudah",
+     "start": 1.73,
+     "end": 1.95
+    },
+    {
+     "text": "terisi",
+     "start": 1.974,
+     "end": 2.264
+    },
+    {
+     "text": "tiga",
+     "start": 2.31,
+     "end": 2.519
+    },
+    {
+     "text": "nama.",
+     "start": 2.566,
+     "end": 3.204
+    }
+   ]
+  },
+  "a4": {
+   "who": "aru",
+   "text": "Kamar tiga... Penjaga Mercusuar?!",
+   "hash": "7f737fdc425b",
+   "duration": 2.322,
+   "words": [
+    {
+     "text": "Kamar",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "tiga...",
+     "start": 0.418,
+     "end": 0.882
+    },
+    {
+     "text": "Penjaga",
+     "start": 1.033,
+     "end": 1.428
+    },
+    {
+     "text": "Mercusuar?!",
+     "start": 1.474,
+     "end": 2.322
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Kamar empat masih kosong. Siapa tamu berikutnya?",
+   "hash": "0026333b29e7",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Kamar",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "empat",
+     "start": 0.383,
+     "end": 0.604
+    },
+    {
+     "text": "masih",
+     "start": 0.662,
+     "end": 0.871
+    },
+    {
+     "text": "kosong.",
+     "start": 0.894,
+     "end": 1.37
+    },
+    {
+     "text": "Siapa",
+     "start": 1.881,
+     "end": 2.299
+    },
+    {
+     "text": "tamu",
+     "start": 2.334,
+     "end": 2.543
+    },
+    {
+     "text": "berikutnya?",
+     "start": 2.589,
+     "end": 3.483
+    }
+   ]
+  }
+ }
+}
