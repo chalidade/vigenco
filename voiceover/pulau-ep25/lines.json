@@ -1,0 +1,151 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "gina": "iWydkXKoiVtvdn4vLKp9",
+  "kopi": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "gina": {
+   "stability": 0.6,
+   "style": 0.45
+  },
+  "kopi": {
+   "stability": 0.3,
+   "style": 0.7
+  }
+ },
+ "lines": [
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Tujuh hari lalu, Aru tinggal sendirian di pulau ini."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Halo...? Ada orang?"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Lalu dia bikin satu permintaan: siapa pun yang follow, jadi warga pulau ini."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Dan setiap komentar kalian... jadi kenyataan."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Minta warteg? Jadi."
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Minta waterpark? Jadi juga!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Menara sinyal, biar warga bisa nonton TikTok."
+  },
+  {
+   "id": "k1",
+   "who": "kopi",
+   "text": "Kopi dong, kak! Kopi dong!"
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Komentar dengan like terbanyak... jadi presiden!"
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Aku kan presiden. Aku mau apartemen."
+  },
+  {
+   "id": "n8",
+   "who": "narrator",
+   "text": "Langsung dibangun. Liftnya belum ada."
+  },
+  {
+   "id": "gn1",
+   "who": "gina",
+   "text": "Anak-anak, study tour! Baris yang rapi!"
+  },
+  {
+   "id": "n9",
+   "who": "narrator",
+   "text": "Sekarang... hampir tujuh ribu warga."
+  },
+  {
+   "id": "da1",
+   "who": "daby",
+   "text": "Aku warga PERTAMA!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Bukan, aku!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Aku... nggak sendirian lagi."
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Identitas dulu!"
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Ini pulauku sendiri!"
+  },
+  {
+   "id": "n10",
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+  },
+  {
+   "id": "n11",
+   "who": "narrator",
+   "text": "Besok pulau ini jadi apa?"
+  }
+ ]
+}
