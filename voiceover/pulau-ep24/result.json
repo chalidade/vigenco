@@ -478,24 +478,34 @@
   },
   "a3": {
    "who": "aru",
-   "text": "Koper siapa ini?",
-   "hash": "19f606883343",
-   "duration": 1.022,
+   "text": "Eh... itu baut bengkel, kan?",
+   "hash": "3b6f8b484bb3",
+   "duration": 1.672,
    "words": [
     {
-     "text": "Koper",
+     "text": "Eh...",
      "start": 0,
-     "end": 0.29
+     "end": 0.232
     },
     {
-     "text": "siapa",
-     "start": 0.325,
-     "end": 0.557
+     "text": "itu",
+     "start": 0.511,
+     "end": 0.662
     },
     {
-     "text": "ini?",
-     "start": 0.58,
-     "end": 1.022
+     "text": "baut",
+     "start": 0.708,
+     "end": 0.859
+    },
+    {
+     "text": "bengkel,",
+     "start": 0.917,
+     "end": 1.242
+    },
+    {
+     "text": "kan?",
+     "start": 1.265,
+     "end": 1.672
     }
    ]
   },
