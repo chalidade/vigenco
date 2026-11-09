@@ -1,0 +1,159 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "wlee": "iWydkXKoiVtvdn4vLKp9",
+  "ranz": "I7sakys8pBZ1Z5f0UhT9",
+  "rayhan": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "daby": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "princes": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "gina": {
+   "stability": 0.6,
+   "style": 0.45
+  },
+  "kopi": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "wlee": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "ranz": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "rayhan": {
+   "stability": 0.4,
+   "style": 0.55
+  }
+ },
+ "lines": [
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, setiap follower jadi warga. Tapi ada yang protes."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Namanya ada di batu... tapi orangnya mana?"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Jadi Aru bikin tombol baru di Batu Nama: Panggil Karakterku."
+  },
+  {
+   "id": "w1",
+   "who": "wlee",
+   "text": "Eh? Aku... beneran ada?!"
+  },
+  {
+   "id": "w2",
+   "who": "wlee",
+   "text": "AKU ADA! Lihat, ada namaku di kepala!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Satu nama, satu karakter. Bajunya beda-beda, tapi selalu sama untuk namamu."
+  },
+  {
+   "id": "r1",
+   "who": "ranz",
+   "text": "Nah! Sekarang aku kelihatan kan?!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Komentar kedua: apartemennya kasih lift dong."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Oke! Lift kaca, langsung ke lantai paling atas."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Akhirnya! Presiden naik duluan!"
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Berhenti. Identitas dulu."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Ini liftku sendiri!"
+  },
+  {
+   "id": "d1",
+   "who": "daby",
+   "text": "PERTAMA naik lift!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Kamu kan nggak tinggal di sini!"
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Wuuuuih! Cepat banget!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Di dermaga, warga baru Muhamat Feros langsung jadi nelayan."
+  },
+  {
+   "id": "y1",
+   "who": "rayhan",
+   "text": "Aku dapat... sandal. Lagi."
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Cari namamu di pulau aru titik web titik i d, lalu panggil karaktermu!"
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Karaktermu mau kerja jadi apa di pulau?"
+  }
+ ]
+}
