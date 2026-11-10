@@ -1,0 +1,862 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "feros": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "rayhan": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "x1": {
+   "who": "feros",
+   "text": "Bang Rayhan! Aku dapat ikan beneran!",
+   "hash": "b6b0d46245ca",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Bang",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "Rayhan!",
+     "start": 0.255,
+     "end": 0.685
+    },
+    {
+     "text": "Aku",
+     "start": 0.708,
+     "end": 0.848
+    },
+    {
+     "text": "dapat",
+     "start": 0.882,
+     "end": 1.091
+    },
+    {
+     "text": "ikan",
+     "start": 1.138,
+     "end": 1.3
+    },
+    {
+     "text": "beneran!",
+     "start": 1.358,
+     "end": 1.718
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Di pulau ini, setiap follower jadi warga. Dan komentar kalian... jadi kenyataan.",
+   "hash": "af4268f3fb2e",
+   "duration": 5.991,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "pulau",
+     "start": 0.197,
+     "end": 0.43
+    },
+    {
+     "text": "ini,",
+     "start": 0.499,
+     "end": 0.859
+    },
+    {
+     "text": "setiap",
+     "start": 0.952,
+     "end": 1.37
+    },
+    {
+     "text": "follower",
+     "start": 1.44,
+     "end": 1.846
+    },
+    {
+     "text": "jadi",
+     "start": 1.927,
+     "end": 2.148
+    },
+    {
+     "text": "warga.",
+     "start": 2.206,
+     "end": 2.717
+    },
+    {
+     "text": "Dan",
+     "start": 3.1,
+     "end": 3.262
+    },
+    {
+     "text": "komentar",
+     "start": 3.32,
+     "end": 3.68
+    },
+    {
+     "text": "kalian...",
+     "start": 3.738,
+     "end": 4.423
+    },
+    {
+     "text": "jadi",
+     "start": 4.632,
+     "end": 4.923
+    },
+    {
+     "text": "kenyataan.",
+     "start": 4.992,
+     "end": 5.991
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tiga hari lalu, warga baru ini komentar:",
+   "hash": "80175494e696",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "hari",
+     "start": 0.302,
+     "end": 0.464
+    },
+    {
+     "text": "lalu,",
+     "start": 0.511,
+     "end": 0.906
+    },
+    {
+     "text": "warga",
+     "start": 0.964,
+     "end": 1.242
+    },
+    {
+     "text": "baru",
+     "start": 1.289,
+     "end": 1.474
+    },
+    {
+     "text": "ini",
+     "start": 1.533,
+     "end": 1.672
+    },
+    {
+     "text": "komentar:",
+     "start": 1.718,
+     "end": 2.601
+    }
+   ]
+  },
+  "x2": {
+   "who": "feros",
+   "text": "Bikin pelabuhan, kak! Aku pengen jadi nelayan. Dah follow!",
+   "hash": "133c6a920d04",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "Bikin",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "pelabuhan,",
+     "start": 0.337,
+     "end": 0.789
+    },
+    {
+     "text": "kak!",
+     "start": 0.813,
+     "end": 0.975
+    },
+    {
+     "text": "Aku",
+     "start": 1.022,
+     "end": 1.207
+    },
+    {
+     "text": "pengen",
+     "start": 1.254,
+     "end": 1.451
+    },
+    {
+     "text": "jadi",
+     "start": 1.486,
+     "end": 1.649
+    },
+    {
+     "text": "nelayan.",
+     "start": 1.695,
+     "end": 2.252
+    },
+    {
+     "text": "Dah",
+     "start": 2.461,
+     "end": 2.624
+    },
+    {
+     "text": "follow!",
+     "start": 2.659,
+     "end": 3.204
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Pelabuhan? Oke. Kita bangun!",
+   "hash": "a9393b30d0e4",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Pelabuhan?",
+     "start": 0,
+     "end": 0.662
+    },
+    {
+     "text": "Oke.",
+     "start": 0.836,
+     "end": 1.463
+    },
+    {
+     "text": "Kita",
+     "start": 1.707,
+     "end": 1.939
+    },
+    {
+     "text": "bangun!",
+     "start": 1.985,
+     "end": 2.694
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Satu komentar... jadi satu pelabuhan nelayan.",
+   "hash": "6340b56ebc02",
+   "duration": 3.158,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "komentar...",
+     "start": 0.372,
+     "end": 1.091
+    },
+    {
+     "text": "jadi",
+     "start": 1.265,
+     "end": 1.521
+    },
+    {
+     "text": "satu",
+     "start": 1.579,
+     "end": 1.858
+    },
+    {
+     "text": "pelabuhan",
+     "start": 1.904,
+     "end": 2.299
+    },
+    {
+     "text": "nelayan.",
+     "start": 2.322,
+     "end": 3.158
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Pelabuhan Nelayan Pulau Aru, resmi dibuka!",
+   "hash": "a81472f76e71",
+   "duration": 2.183,
+   "words": [
+    {
+     "text": "Pelabuhan",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "Nelayan",
+     "start": 0.499,
+     "end": 0.731
+    },
+    {
+     "text": "Pulau",
+     "start": 0.789,
+     "end": 0.987
+    },
+    {
+     "text": "Aru,",
+     "start": 1.045,
+     "end": 1.289
+    },
+    {
+     "text": "resmi",
+     "start": 1.347,
+     "end": 1.637
+    },
+    {
+     "text": "dibuka!",
+     "start": 1.672,
+     "end": 2.183
+    }
+   ]
+  },
+  "d1": {
+   "who": "daby",
+   "text": "PERTAMA! Aku yang pertama injak pelabuhan!",
+   "hash": "d11cf8a1309d",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "PERTAMA!",
+     "start": 0,
+     "end": 0.766
+    },
+    {
+     "text": "Aku",
+     "start": 1.045,
+     "end": 1.289
+    },
+    {
+     "text": "yang",
+     "start": 1.335,
+     "end": 1.463
+    },
+    {
+     "text": "pertama",
+     "start": 1.498,
+     "end": 1.869
+    },
+    {
+     "text": "injak",
+     "start": 1.939,
+     "end": 2.206
+    },
+    {
+     "text": "pelabuhan!",
+     "start": 2.241,
+     "end": 3.204
+    }
+   ]
+  },
+  "p1": {
+   "who": "princes",
+   "text": "Aku princess. Princess selalu duluan!",
+   "hash": "c389d4f3d724",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "princess.",
+     "start": 0.279,
+     "end": 0.952
+    },
+    {
+     "text": "Princess",
+     "start": 1.463,
+     "end": 1.904
+    },
+    {
+     "text": "selalu",
+     "start": 1.927,
+     "end": 2.171
+    },
+    {
+     "text": "duluan!",
+     "start": 2.218,
+     "end": 3.019
+    }
+   ]
+  },
+  "pj": {
+   "who": "pinjam",
+   "text": "Pinjam kapalnya seratus menit dulu... besok dibalikin, sumpah!",
+   "hash": "aa8b46fa1113",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Pinjam",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "kapalnya",
+     "start": 0.511,
+     "end": 0.964
+    },
+    {
+     "text": "seratus",
+     "start": 1.01,
+     "end": 1.335
+    },
+    {
+     "text": "menit",
+     "start": 1.405,
+     "end": 1.602
+    },
+    {
+     "text": "dulu...",
+     "start": 1.649,
+     "end": 2.194
+    },
+    {
+     "text": "besok",
+     "start": 2.519,
+     "end": 2.902
+    },
+    {
+     "text": "dibalikin,",
+     "start": 2.961,
+     "end": 3.576
+    },
+    {
+     "text": "sumpah!",
+     "start": 3.611,
+     "end": 4.598
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Tapi pelabuhan ini dibuat untuk satu orang.",
+   "hash": "c9a6b5eb2ff9",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "pelabuhan",
+     "start": 0.406,
+     "end": 0.859
+    },
+    {
+     "text": "ini",
+     "start": 0.929,
+     "end": 1.091
+    },
+    {
+     "text": "dibuat",
+     "start": 1.138,
+     "end": 1.44
+    },
+    {
+     "text": "untuk",
+     "start": 1.509,
+     "end": 1.683
+    },
+    {
+     "text": "satu",
+     "start": 1.718,
+     "end": 1.927
+    },
+    {
+     "text": "orang.",
+     "start": 1.962,
+     "end": 2.694
+    }
+   ]
+  },
+  "x3": {
+   "who": "feros",
+   "text": "Ikan pertamaku... ayo... ayo...",
+   "hash": "a12f05b4952b",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Ikan",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "pertamaku...",
+     "start": 0.36,
+     "end": 1.115
+    },
+    {
+     "text": "ayo...",
+     "start": 1.265,
+     "end": 1.753
+    },
+    {
+     "text": "ayo...",
+     "start": 1.927,
+     "end": 2.647
+    }
+   ]
+  },
+  "r1": {
+   "who": "rayhan",
+   "text": "Sabar. Ikannya lagi otw.",
+   "hash": "ee7ef581bbf6",
+   "duration": 2.415,
+   "words": [
+    {
+     "text": "Sabar.",
+     "start": 0,
+     "end": 0.65
+    },
+    {
+     "text": "Ikannya",
+     "start": 0.824,
+     "end": 1.219
+    },
+    {
+     "text": "lagi",
+     "start": 1.254,
+     "end": 1.428
+    },
+    {
+     "text": "otw.",
+     "start": 1.474,
+     "end": 2.415
+    }
+   ]
+  },
+  "r2": {
+   "who": "rayhan",
+   "text": "Lumayan... sandal lagi.",
+   "hash": "0d440391c5fb",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Lumayan...",
+     "start": 0,
+     "end": 0.929
+    },
+    {
+     "text": "sandal",
+     "start": 1.312,
+     "end": 1.707
+    },
+    {
+     "text": "lagi.",
+     "start": 1.753,
+     "end": 2.508
+    }
+   ]
+  },
+  "x4": {
+   "who": "feros",
+   "text": "Bang Rayhan... itu sandal atau ikan?",
+   "hash": "a4f930d5187d",
+   "duration": 2.043,
+   "words": [
+    {
+     "text": "Bang",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "Rayhan...",
+     "start": 0.244,
+     "end": 0.65
+    },
+    {
+     "text": "itu",
+     "start": 0.801,
+     "end": 1.057
+    },
+    {
+     "text": "sandal",
+     "start": 1.126,
+     "end": 1.405
+    },
+    {
+     "text": "atau",
+     "start": 1.463,
+     "end": 1.649
+    },
+    {
+     "text": "ikan?",
+     "start": 1.695,
+     "end": 2.043
+    }
+   ]
+  },
+  "x5": {
+   "who": "feros",
+   "text": "IKAAAN! Gede banget!",
+   "hash": "44f0e16bf350",
+   "duration": 1.997,
+   "words": [
+    {
+     "text": "IKAAAN!",
+     "start": 0,
+     "end": 1.033
+    },
+    {
+     "text": "Gede",
+     "start": 1.091,
+     "end": 1.324
+    },
+    {
+     "text": "banget!",
+     "start": 1.393,
+     "end": 1.997
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Selamat. Nelayan pertama Pulau Aru.",
+   "hash": "9a4e52dfcea8",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "Selamat.",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "Nelayan",
+     "start": 0.592,
+     "end": 0.894
+    },
+    {
+     "text": "pertama",
+     "start": 0.952,
+     "end": 1.289
+    },
+    {
+     "text": "Pulau",
+     "start": 1.324,
+     "end": 1.533
+    },
+    {
+     "text": "Aru.",
+     "start": 1.579,
+     "end": 1.858
+    }
+   ]
+  },
+  "x6": {
+   "who": "feros",
+   "text": "Dah follow, dah jadi nelayan. Mimpi terwujud!",
+   "hash": "70a91e7ca004",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Dah",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "follow,",
+     "start": 0.209,
+     "end": 0.522
+    },
+    {
+     "text": "dah",
+     "start": 0.546,
+     "end": 0.639
+    },
+    {
+     "text": "jadi",
+     "start": 0.662,
+     "end": 0.789
+    },
+    {
+     "text": "nelayan.",
+     "start": 0.836,
+     "end": 1.277
+    },
+    {
+     "text": "Mimpi",
+     "start": 1.451,
+     "end": 1.765
+    },
+    {
+     "text": "terwujud!",
+     "start": 1.811,
+     "end": 2.694
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Malam itu, lampu mercusuar berkedip tiga kali. Ke arah laut.",
+   "hash": "ff598086d960",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Malam",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "itu,",
+     "start": 0.348,
+     "end": 0.755
+    },
+    {
+     "text": "lampu",
+     "start": 0.871,
+     "end": 1.126
+    },
+    {
+     "text": "mercusuar",
+     "start": 1.173,
+     "end": 1.707
+    },
+    {
+     "text": "berkedip",
+     "start": 1.788,
+     "end": 2.183
+    },
+    {
+     "text": "tiga",
+     "start": 2.229,
+     "end": 2.426
+    },
+    {
+     "text": "kali.",
+     "start": 2.473,
+     "end": 2.926
+    },
+    {
+     "text": "Ke",
+     "start": 3.251,
+     "end": 3.367
+    },
+    {
+     "text": "arah",
+     "start": 3.39,
+     "end": 3.599
+    },
+    {
+     "text": "laut.",
+     "start": 3.646,
+     "end": 4.272
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur.",
+   "hash": "6f3e077dc80f",
+   "duration": 4.783,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "namamu",
+     "start": 0.766,
+     "end": 1.138
+    },
+    {
+     "text": "jadi",
+     "start": 1.207,
+     "end": 1.382
+    },
+    {
+     "text": "warga.",
+     "start": 1.428,
+     "end": 1.927
+    },
+    {
+     "text": "Komentar,",
+     "start": 2.368,
+     "end": 3.042
+    },
+    {
+     "text": "ceritanya",
+     "start": 3.158,
+     "end": 3.622
+    },
+    {
+     "text": "kamu",
+     "start": 3.669,
+     "end": 3.889
+    },
+    {
+     "text": "yang",
+     "start": 3.936,
+     "end": 4.052
+    },
+    {
+     "text": "atur.",
+     "start": 4.11,
+     "end": 4.783
+    }
+   ]
+  },
+  "a4": {
+   "who": "aru",
+   "text": "Kapal pertama yang datang ke sini... bawa siapa ya?",
+   "hash": "c0e883191738",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Kapal",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "pertama",
+     "start": 0.36,
+     "end": 0.673
+    },
+    {
+     "text": "yang",
+     "start": 0.708,
+     "end": 0.813
+    },
+    {
+     "text": "datang",
+     "start": 0.848,
+     "end": 1.057
+    },
+    {
+     "text": "ke",
+     "start": 1.08,
+     "end": 1.138
+    },
+    {
+     "text": "sini...",
+     "start": 1.173,
+     "end": 1.544
+    },
+    {
+     "text": "bawa",
+     "start": 1.718,
+     "end": 1.927
+    },
+    {
+     "text": "siapa",
+     "start": 1.962,
+     "end": 2.218
+    },
+    {
+     "text": "ya?",
+     "start": 2.264,
+     "end": 2.74
+    }
+   ]
+  }
+ }
+}
