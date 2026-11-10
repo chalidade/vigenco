@@ -1,0 +1,186 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "damkar": "RWiGLY9uXI70QL540WNd",
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "luci": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "whoyss": "RWiGLY9uXI70QL540WNd",
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "joe": "RWiGLY9uXI70QL540WNd",
+  "potas": "plgKUYgnlZ1DCNh54DwJ",
+  "araa": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "damkar": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "alexandre": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "luci": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "daby": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "princes": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "whoyss": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "penjual": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "joe": {
+   "stability": 0.95,
+   "style": 0
+  },
+  "potas": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "araa": {
+   "stability": 0.35,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "f1",
+   "who": "damkar",
+   "text": "Ada asap! Semprooot!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, komentar kalian jadi kenyataan."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Ini jatah terakhirku sebagai presiden. Bikin lapangan... buat gotong royong!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Jadi lahirlah Lapangan Gotong Royong. Dan kerja bakti pertama Pulau Aru!"
+  },
+  {
+   "id": "x1",
+   "who": "alexandre",
+   "text": "Serahkan padaku! Dua karung sekaligus!"
+  },
+  {
+   "id": "l1",
+   "who": "luci",
+   "text": "Nyapunya ke atas, biar debunya terbang. Percaya deh!"
+  },
+  {
+   "id": "k1",
+   "who": "daby",
+   "text": "Aku yang pertama nyapu!"
+  },
+  {
+   "id": "k2",
+   "who": "princes",
+   "text": "Aku princess, harusnya aku yang pertama!"
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Sapu? Hehe... bukan aku."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Lalu ada yang minta pos pemadam kebakaran."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Siap! Pos Damkar Pulau Aru, lengkap dengan mobilnya!"
+  },
+  {
+   "id": "f2",
+   "who": "damkar",
+   "text": "Lapor! Asap di dekat dermaga! Meluncur!"
+  },
+  {
+   "id": "s1",
+   "who": "penjual",
+   "text": "Pak... ini ikan BAKAR. Bukan kebakaran!"
+  },
+  {
+   "id": "f3",
+   "who": "damkar",
+   "text": "...Oh. Maaf. Terlalu semangat."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Halo, Joe! Lagi apa?"
+  },
+  {
+   "id": "j1",
+   "who": "joe",
+   "text": "Selamat datang di Pulau Aru."
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "...Joe?"
+  },
+  {
+   "id": "j2",
+   "who": "joe",
+   "text": "Selamat datang di Pulau Aru."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Joe resmi jadi NPC. Sesuai permintaan."
+  },
+  {
+   "id": "p1",
+   "who": "potas",
+   "text": "Mulai hari ini, aku ketua keuangan!"
+  },
+  {
+   "id": "m1",
+   "who": "araa",
+   "text": "Ketua apa? Ajukan proposal dulu."
+  },
+  {
+   "id": "a4",
+   "who": "aru",
+   "text": "Pulau ini butuh apa lagi? Tulis di komentar!"
+  }
+ ]
+}
