@@ -1,0 +1,141 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "araa": "iWydkXKoiVtvdn4vLKp9",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "debby": "I7sakys8pBZ1Z5f0UhT9",
+  "pinjam": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "bodyguard": {
+   "stability": 0.75,
+   "style": 0.15
+  },
+  "araa": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "debby": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "pinjam": {
+   "stability": 0.3,
+   "style": 0.7
+  }
+ },
+ "lines": [
+  {
+   "id": "m1",
+   "who": "araa",
+   "text": "Mulai hari ini, semua koin pulau... aku yang hitung!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, follow jadi warga. Satu komentar bisa jadi kenyataan."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Ada yang mau jadi menteri keuangan. Sekalian minta gedung rapat!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Jadi Aru bangun Gedung Rapat Pulau. Meja panjang, kursi menteri, papan agenda."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Selamat datang, Bu Menteri Keuangan!"
+  },
+  {
+   "id": "m2",
+   "who": "araa",
+   "text": "Terima kasih, Pak. Aku mulai periksa... kas presiden."
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Lho? Kenapa dari aku?"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Agenda rapat pertama: lima koin kotak usulan yang dipinjam presiden."
+  },
+  {
+   "id": "e3",
+   "who": "ega",
+   "text": "Itu donasi! Nanti dikembalikan!"
+  },
+  {
+   "id": "d1",
+   "who": "debby",
+   "text": "Sudah kucatat ya, Pak."
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Berhenti. Identitas dulu."
+  },
+  {
+   "id": "m3",
+   "who": "araa",
+   "text": "Aku menteri!"
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "Menteri juga identitas dulu."
+  },
+  {
+   "id": "p1",
+   "who": "pinjam",
+   "text": "Bu Menteri... pinjam seratus dulu?"
+  },
+  {
+   "id": "m4",
+   "who": "araa",
+   "text": "Ditolak. Ajukan proposal."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Dan dari dermawan tanpa nama: spanduk Warga Jaga Warga. Terima kasih!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Rapat pertama Pulau Aru... resmi dimulai!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Rapat berikutnya bahas apa? Tulis di komentar!"
+  }
+ ]
+}
