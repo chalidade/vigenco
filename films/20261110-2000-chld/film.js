@@ -217,13 +217,13 @@
         },
       };
     }
-    const odoL = odometer(world, LL + 960, LT + 150, 3, 210, C.blue, false);
-    const odoLbl = add(`<div style="left:${LL + 966}px;top:${LT + 386}px;width:470px;font:600 34px/1.3 'Geist';color:${C.ink}">merged PRs as the sole frontend engineer</div>`);
+    const odoL = odometer(world, LL + 880, LT + 170, 4, 170, C.blue, true);
+    const odoLbl = add(`<div style="left:${LL + 886}px;top:${LT + 372}px;width:540px;font:600 34px/1.3 'Geist';color:${C.ink}">merged PRs at The KPI Institute since 2021</div>`);
     const ODL = [12.5, 14.0];
     draws.push((t) => {
       const v = vis(t, 12.375, 15.625);
       const x = clamp((t - ODL[0]) / (ODL[1] - ODL[0]));
-      const val = Math.round(490 * outQ(x));
+      const val = Math.round(2500 * outQ(x));
       odoL.set(val, v.o.toFixed(3));
       odoL.box.style.filter = v.b > 0.05 ? `blur(${v.b.toFixed(2)}px)` : 'none';
       odoL.plus.style.opacity = clamp((t - ODL[1]) / 0.1).toFixed(3);
