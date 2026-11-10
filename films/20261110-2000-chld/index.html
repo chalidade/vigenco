@@ -6,12 +6,11 @@
 <style>
   @font-face { font-family: "Geist"; src: url("assets/Geist-Variable.woff2") format("woff2"); font-weight: 100 900; font-display: block; }
   @font-face { font-family: "Geist Mono"; src: url("assets/GeistMono-Variable.woff2") format("woff2"); font-weight: 100 900; font-display: block; }
-  html, body { margin: 0; background: #f4f4f5; overflow: hidden; }
-  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #f4f4f5;
+  html, body { margin: 0; background: #ffffff; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #ffffff;
     font-family: "Geist", system-ui, sans-serif; color: #0a0a0a; -webkit-font-smoothing: antialiased; }
   #bg, #night { position: absolute; inset: 0; }
-  #bg { background: radial-gradient(1200px 800px at 82% 8%, rgba(37,99,235,.10), transparent 70%),
-                    radial-gradient(1000px 800px at 6% 100%, rgba(124,58,237,.07), transparent 70%); }
+  #bg { background: none; }
   #night { background: radial-gradient(1200px 900px at 72% 52%, rgba(27,77,46,.55), transparent 70%), #07110c; opacity: 0; }
   #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
   #world > * { position: absolute; }
