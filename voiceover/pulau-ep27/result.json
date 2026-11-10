@@ -1,0 +1,801 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "araa": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "debby": "I7sakys8pBZ1Z5f0UhT9",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "pinjam": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "m1": {
+   "who": "araa",
+   "text": "Mulai hari ini, semua koin pulau... aku yang hitung!",
+   "hash": "d44391c4faec",
+   "duration": 5.573,
+   "words": [
+    {
+     "text": "Mulai",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "hari",
+     "start": 0.348,
+     "end": 0.569
+    },
+    {
+     "text": "ini,",
+     "start": 0.604,
+     "end": 1.115
+    },
+    {
+     "text": "semua",
+     "start": 1.358,
+     "end": 2.02
+    },
+    {
+     "text": "koin",
+     "start": 2.461,
+     "end": 2.833
+    },
+    {
+     "text": "pulau...",
+     "start": 2.902,
+     "end": 3.495
+    },
+    {
+     "text": "aku",
+     "start": 3.773,
+     "end": 4.017
+    },
+    {
+     "text": "yang",
+     "start": 4.063,
+     "end": 4.168
+    },
+    {
+     "text": "hitung!",
+     "start": 4.203,
+     "end": 5.573
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Di pulau ini, follow jadi warga. Satu komentar bisa jadi kenyataan.",
+   "hash": "16cd8d48f1e1",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "pulau",
+     "start": 0.197,
+     "end": 0.453
+    },
+    {
+     "text": "ini,",
+     "start": 0.511,
+     "end": 0.848
+    },
+    {
+     "text": "follow",
+     "start": 0.906,
+     "end": 1.196
+    },
+    {
+     "text": "jadi",
+     "start": 1.265,
+     "end": 1.428
+    },
+    {
+     "text": "warga.",
+     "start": 1.474,
+     "end": 1.997
+    },
+    {
+     "text": "Satu",
+     "start": 2.322,
+     "end": 2.612
+    },
+    {
+     "text": "komentar",
+     "start": 2.659,
+     "end": 3.03
+    },
+    {
+     "text": "bisa",
+     "start": 3.077,
+     "end": 3.228
+    },
+    {
+     "text": "jadi",
+     "start": 3.286,
+     "end": 3.437
+    },
+    {
+     "text": "kenyataan.",
+     "start": 3.471,
+     "end": 4.412
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Ada yang mau jadi menteri keuangan. Sekalian minta gedung rapat!",
+   "hash": "118a29a522ff",
+   "duration": 3.437,
+   "words": [
+    {
+     "text": "Ada",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "yang",
+     "start": 0.372,
+     "end": 0.499
+    },
+    {
+     "text": "mau",
+     "start": 0.546,
+     "end": 0.65
+    },
+    {
+     "text": "jadi",
+     "start": 0.72,
+     "end": 0.871
+    },
+    {
+     "text": "menteri",
+     "start": 0.929,
+     "end": 1.149
+    },
+    {
+     "text": "keuangan.",
+     "start": 1.196,
+     "end": 1.741
+    },
+    {
+     "text": "Sekalian",
+     "start": 1.95,
+     "end": 2.299
+    },
+    {
+     "text": "minta",
+     "start": 2.345,
+     "end": 2.508
+    },
+    {
+     "text": "gedung",
+     "start": 2.554,
+     "end": 2.798
+    },
+    {
+     "text": "rapat!",
+     "start": 2.844,
+     "end": 3.437
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Jadi Aru bangun Gedung Rapat Pulau. Meja panjang, kursi menteri, papan agenda.",
+   "hash": "e501b29738ca",
+   "duration": 5.48,
+   "words": [
+    {
+     "text": "Jadi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "Aru",
+     "start": 0.43,
+     "end": 0.697
+    },
+    {
+     "text": "bangun",
+     "start": 0.743,
+     "end": 0.998
+    },
+    {
+     "text": "Gedung",
+     "start": 1.045,
+     "end": 1.312
+    },
+    {
+     "text": "Rapat",
+     "start": 1.358,
+     "end": 1.614
+    },
+    {
+     "text": "Pulau.",
+     "start": 1.66,
+     "end": 2.159
+    },
+    {
+     "text": "Meja",
+     "start": 2.403,
+     "end": 2.67
+    },
+    {
+     "text": "panjang,",
+     "start": 2.717,
+     "end": 3.286
+    },
+    {
+     "text": "kursi",
+     "start": 3.367,
+     "end": 3.646
+    },
+    {
+     "text": "menteri,",
+     "start": 3.692,
+     "end": 4.18
+    },
+    {
+     "text": "papan",
+     "start": 4.203,
+     "end": 4.516
+    },
+    {
+     "text": "agenda.",
+     "start": 4.574,
+     "end": 5.48
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Selamat datang, Bu Menteri Keuangan!",
+   "hash": "496de47e0541",
+   "duration": 1.486,
+   "words": [
+    {
+     "text": "Selamat",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "datang,",
+     "start": 0.395,
+     "end": 0.673
+    },
+    {
+     "text": "Bu",
+     "start": 0.697,
+     "end": 0.801
+    },
+    {
+     "text": "Menteri",
+     "start": 0.859,
+     "end": 1.057
+    },
+    {
+     "text": "Keuangan!",
+     "start": 1.103,
+     "end": 1.486
+    }
+   ]
+  },
+  "m2": {
+   "who": "araa",
+   "text": "Terima kasih, Pak. Aku mulai periksa... kas presiden.",
+   "hash": "6c0928b56aea",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Terima",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "kasih,",
+     "start": 0.383,
+     "end": 0.662
+    },
+    {
+     "text": "Pak.",
+     "start": 0.685,
+     "end": 1.091
+    },
+    {
+     "text": "Aku",
+     "start": 1.533,
+     "end": 1.753
+    },
+    {
+     "text": "mulai",
+     "start": 1.8,
+     "end": 2.009
+    },
+    {
+     "text": "periksa...",
+     "start": 2.043,
+     "end": 2.786
+    },
+    {
+     "text": "kas",
+     "start": 2.961,
+     "end": 3.146
+    },
+    {
+     "text": "presiden.",
+     "start": 3.204,
+     "end": 4.365
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Lho? Kenapa dari aku?",
+   "hash": "f08fd4625309",
+   "duration": 1.3,
+   "words": [
+    {
+     "text": "Lho?",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "Kenapa",
+     "start": 0.244,
+     "end": 0.557
+    },
+    {
+     "text": "dari",
+     "start": 0.592,
+     "end": 0.743
+    },
+    {
+     "text": "aku?",
+     "start": 0.778,
+     "end": 1.3
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Agenda rapat pertama: lima koin kotak usulan yang dipinjam presiden.",
+   "hash": "a538cdff6f60",
+   "duration": 4.69,
+   "words": [
+    {
+     "text": "Agenda",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "rapat",
+     "start": 0.406,
+     "end": 0.639
+    },
+    {
+     "text": "pertama:",
+     "start": 0.685,
+     "end": 1.242
+    },
+    {
+     "text": "lima",
+     "start": 1.753,
+     "end": 1.997
+    },
+    {
+     "text": "koin",
+     "start": 2.043,
+     "end": 2.229
+    },
+    {
+     "text": "kotak",
+     "start": 2.287,
+     "end": 2.531
+    },
+    {
+     "text": "usulan",
+     "start": 2.589,
+     "end": 2.949
+    },
+    {
+     "text": "yang",
+     "start": 3.03,
+     "end": 3.146
+    },
+    {
+     "text": "dipinjam",
+     "start": 3.181,
+     "end": 3.541
+    },
+    {
+     "text": "presiden.",
+     "start": 3.576,
+     "end": 4.69
+    }
+   ]
+  },
+  "e3": {
+   "who": "ega",
+   "text": "Itu donasi! Nanti dikembalikan!",
+   "hash": "7b71792bb9f4",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "donasi!",
+     "start": 0.279,
+     "end": 0.824
+    },
+    {
+     "text": "Nanti",
+     "start": 0.871,
+     "end": 1.138
+    },
+    {
+     "text": "dikembalikan!",
+     "start": 1.173,
+     "end": 2.136
+    }
+   ]
+  },
+  "d1": {
+   "who": "debby",
+   "text": "Sudah kucatat ya, Pak.",
+   "hash": "c624683bafc5",
+   "duration": 1.44,
+   "words": [
+    {
+     "text": "Sudah",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "kucatat",
+     "start": 0.325,
+     "end": 0.72
+    },
+    {
+     "text": "ya,",
+     "start": 0.789,
+     "end": 0.882
+    },
+    {
+     "text": "Pak.",
+     "start": 0.906,
+     "end": 1.44
+    }
+   ]
+  },
+  "g1": {
+   "who": "bodyguard",
+   "text": "Berhenti. Identitas dulu.",
+   "hash": "42ea2b8f64af",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Berhenti.",
+     "start": 0,
+     "end": 0.65
+    },
+    {
+     "text": "Identitas",
+     "start": 0.685,
+     "end": 1.289
+    },
+    {
+     "text": "dulu.",
+     "start": 1.347,
+     "end": 1.718
+    }
+   ]
+  },
+  "m3": {
+   "who": "araa",
+   "text": "Aku menteri!",
+   "hash": "af06b10aa2fc",
+   "duration": 1.161,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "menteri!",
+     "start": 0.302,
+     "end": 1.161
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "Menteri juga identitas dulu.",
+   "hash": "0d8a9f7420b8",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "Menteri",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "juga",
+     "start": 0.395,
+     "end": 0.604
+    },
+    {
+     "text": "identitas",
+     "start": 0.639,
+     "end": 1.126
+    },
+    {
+     "text": "dulu.",
+     "start": 1.184,
+     "end": 1.858
+    }
+   ]
+  },
+  "p1": {
+   "who": "pinjam",
+   "text": "Bu Menteri... pinjam seratus dulu?",
+   "hash": "1351992cb4e6",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Bu",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "Menteri...",
+     "start": 0.221,
+     "end": 0.975
+    },
+    {
+     "text": "pinjam",
+     "start": 1.579,
+     "end": 1.916
+    },
+    {
+     "text": "seratus",
+     "start": 1.974,
+     "end": 2.334
+    },
+    {
+     "text": "dulu?",
+     "start": 2.38,
+     "end": 3.019
+    }
+   ]
+  },
+  "m4": {
+   "who": "araa",
+   "text": "Ditolak. Ajukan proposal.",
+   "hash": "8d102adfb55b",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Ditolak.",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "Ajukan",
+     "start": 0.859,
+     "end": 1.242
+    },
+    {
+     "text": "proposal.",
+     "start": 1.289,
+     "end": 2.136
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan dari dermawan tanpa nama: spanduk Warga Jaga Warga. Terima kasih!",
+   "hash": "29ccaecd0aa7",
+   "duration": 5.155,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "dari",
+     "start": 0.267,
+     "end": 0.453
+    },
+    {
+     "text": "dermawan",
+     "start": 0.499,
+     "end": 0.906
+    },
+    {
+     "text": "tanpa",
+     "start": 0.952,
+     "end": 1.196
+    },
+    {
+     "text": "nama:",
+     "start": 1.231,
+     "end": 1.695
+    },
+    {
+     "text": "spanduk",
+     "start": 1.939,
+     "end": 2.403
+    },
+    {
+     "text": "Warga",
+     "start": 2.473,
+     "end": 2.74
+    },
+    {
+     "text": "Jaga",
+     "start": 2.81,
+     "end": 3.019
+    },
+    {
+     "text": "Warga.",
+     "start": 3.065,
+     "end": 3.564
+    },
+    {
+     "text": "Terima",
+     "start": 3.843,
+     "end": 4.122
+    },
+    {
+     "text": "kasih!",
+     "start": 4.156,
+     "end": 5.155
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Rapat pertama Pulau Aru... resmi dimulai!",
+   "hash": "400c3a69f1d2",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "Rapat",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "pertama",
+     "start": 0.372,
+     "end": 0.708
+    },
+    {
+     "text": "Pulau",
+     "start": 0.755,
+     "end": 1.01
+    },
+    {
+     "text": "Aru...",
+     "start": 1.091,
+     "end": 1.521
+    },
+    {
+     "text": "resmi",
+     "start": 1.846,
+     "end": 2.299
+    },
+    {
+     "text": "dimulai!",
+     "start": 2.357,
+     "end": 3.204
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur.",
+   "hash": "6f3e077dc80f",
+   "duration": 4.644,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.65
+    },
+    {
+     "text": "namamu",
+     "start": 0.801,
+     "end": 1.149
+    },
+    {
+     "text": "jadi",
+     "start": 1.207,
+     "end": 1.37
+    },
+    {
+     "text": "warga.",
+     "start": 1.416,
+     "end": 1.939
+    },
+    {
+     "text": "Komentar,",
+     "start": 2.113,
+     "end": 2.914
+    },
+    {
+     "text": "ceritanya",
+     "start": 3.065,
+     "end": 3.529
+    },
+    {
+     "text": "kamu",
+     "start": 3.576,
+     "end": 3.796
+    },
+    {
+     "text": "yang",
+     "start": 3.831,
+     "end": 3.947
+    },
+    {
+     "text": "atur.",
+     "start": 4.005,
+     "end": 4.644
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Rapat berikutnya bahas apa? Tulis di komentar!",
+   "hash": "10d6f0546c21",
+   "duration": 2.461,
+   "words": [
+    {
+     "text": "Rapat",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "berikutnya",
+     "start": 0.337,
+     "end": 0.673
+    },
+    {
+     "text": "bahas",
+     "start": 0.72,
+     "end": 0.871
+    },
+    {
+     "text": "apa?",
+     "start": 0.929,
+     "end": 1.196
+    },
+    {
+     "text": "Tulis",
+     "start": 1.265,
+     "end": 1.521
+    },
+    {
+     "text": "di",
+     "start": 1.556,
+     "end": 1.602
+    },
+    {
+     "text": "komentar!",
+     "start": 1.637,
+     "end": 2.461
+    }
+   ]
+  }
+ }
+}
