@@ -1,0 +1,151 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "feros": "plgKUYgnlZ1DCNh54DwJ",
+  "rayhan": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "pinjam": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "feros": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "rayhan": {
+   "stability": 0.6,
+   "style": 0.3
+  },
+  "daby": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "princes": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "pinjam": {
+   "stability": 0.35,
+   "style": 0.6
+  }
+ },
+ "lines": [
+  {
+   "id": "x1",
+   "who": "feros",
+   "text": "Bang Rayhan! Aku dapat ikan beneran!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, setiap follower jadi warga. Dan komentar kalian... jadi kenyataan."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Tiga hari lalu, warga baru ini komentar:"
+  },
+  {
+   "id": "x2",
+   "who": "feros",
+   "text": "Bikin pelabuhan, kak! Aku pengen jadi nelayan. Dah follow!"
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Pelabuhan? Oke. Kita bangun!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Satu komentar... jadi satu pelabuhan nelayan."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Pelabuhan Nelayan Pulau Aru, resmi dibuka!"
+  },
+  {
+   "id": "d1",
+   "who": "daby",
+   "text": "PERTAMA! Aku yang pertama injak pelabuhan!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Aku princess. Princess selalu duluan!"
+  },
+  {
+   "id": "pj",
+   "who": "pinjam",
+   "text": "Pinjam kapalnya seratus menit dulu... besok dibalikin, sumpah!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Tapi pelabuhan ini dibuat untuk satu orang."
+  },
+  {
+   "id": "x3",
+   "who": "feros",
+   "text": "Ikan pertamaku... ayo... ayo..."
+  },
+  {
+   "id": "r1",
+   "who": "rayhan",
+   "text": "Sabar. Ikannya lagi otw."
+  },
+  {
+   "id": "r2",
+   "who": "rayhan",
+   "text": "Lumayan... sandal lagi."
+  },
+  {
+   "id": "x4",
+   "who": "feros",
+   "text": "Bang Rayhan... itu sandal atau ikan?"
+  },
+  {
+   "id": "x5",
+   "who": "feros",
+   "text": "IKAAAN! Gede banget!"
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Selamat. Nelayan pertama Pulau Aru."
+  },
+  {
+   "id": "x6",
+   "who": "feros",
+   "text": "Dah follow, dah jadi nelayan. Mimpi terwujud!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Malam itu, lampu mercusuar berkedip tiga kali. Ke arah laut."
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+  },
+  {
+   "id": "a4",
+   "who": "aru",
+   "text": "Kapal pertama yang datang ke sini... bawa siapa ya?"
+  }
+ ]
+}
