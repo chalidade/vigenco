@@ -1,0 +1,146 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "keeper": "RWiGLY9uXI70QL540WNd",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "etet": "RWiGLY9uXI70QL540WNd",
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ega": {
+   "stability": 0.3,
+   "style": 0.65
+  },
+  "keeper": {
+   "stability": 0.8,
+   "style": 0.15
+  },
+  "bodyguard": {
+   "stability": 0.7,
+   "style": 0.35
+  },
+  "pinjam": {
+   "stability": 0.3,
+   "style": 0.6
+  },
+  "etet": {
+   "stability": 0.5,
+   "style": 0.4
+  },
+  "daby": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "princes": {
+   "stability": 0.3,
+   "style": 0.7
+  }
+ },
+ "lines": [
+  {
+   "id": "d1",
+   "who": "daby",
+   "text": "Aku daftar PERTAMA!"
+  },
+  {
+   "id": "p1",
+   "who": "princes",
+   "text": "Princess duluan, dong!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, follower jadi warga. Dan presidennya... dipilih dari komentar kalian."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Presiden sekarang, EGA, menang dengan... tiga like."
+  },
+  {
+   "id": "e1",
+   "who": "ega",
+   "text": "Tiga like itu banyak, lho!"
+  },
+  {
+   "id": "k1",
+   "who": "keeper",
+   "text": "Masa jabatannya habis empat belas November. Pemilu harus diulang."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Pendaftaran calon presiden... resmi dibuka!"
+  },
+  {
+   "id": "f1",
+   "who": "pinjam",
+   "text": "Biaya daftarnya... boleh pinjam seratus dulu?"
+  },
+  {
+   "id": "k2",
+   "who": "keeper",
+   "text": "Gratis."
+  },
+  {
+   "id": "g1",
+   "who": "bodyguard",
+   "text": "Calon presiden! Identitas dulu!"
+  },
+  {
+   "id": "e2",
+   "who": "ega",
+   "text": "Aku presidennya!"
+  },
+  {
+   "id": "g2",
+   "who": "bodyguard",
+   "text": "Tetap. Identitas dulu."
+  },
+  {
+   "id": "t1",
+   "who": "etet",
+   "text": "Aku daftar lagi. Kali ini... dipilih beneran."
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Caranya: komentar \"aku calon\", plus satu janji kampanye. Like terbanyak jadi presiden. Kedua, wakilnya."
+  },
+  {
+   "id": "d2",
+   "who": "daby",
+   "text": "Janjiku: semua warga jadi yang pertama!"
+  },
+  {
+   "id": "p2",
+   "who": "princes",
+   "text": "Itu nggak mungkin!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Empat belas November, kita hitung. Kamu... mau jadi presiden?"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, kamu yang atur."
+  }
+ ]
+}
