@@ -1,0 +1,695 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "daby": "I7sakys8pBZ1Z5f0UhT9",
+  "princes": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ega": "plgKUYgnlZ1DCNh54DwJ",
+  "keeper": "RWiGLY9uXI70QL540WNd",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "bodyguard": "RWiGLY9uXI70QL540WNd",
+  "etet": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "d1": {
+   "who": "daby",
+   "text": "Aku daftar PERTAMA!",
+   "hash": "cf7177ebd55e",
+   "duration": 1.347,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "daftar",
+     "start": 0.337,
+     "end": 0.604
+    },
+    {
+     "text": "PERTAMA!",
+     "start": 0.65,
+     "end": 1.347
+    }
+   ]
+  },
+  "p1": {
+   "who": "princes",
+   "text": "Princess duluan, dong!",
+   "hash": "66f40eb33e99",
+   "duration": 1.765,
+   "words": [
+    {
+     "text": "Princess",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "duluan,",
+     "start": 0.488,
+     "end": 0.975
+    },
+    {
+     "text": "dong!",
+     "start": 0.998,
+     "end": 1.765
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Di pulau ini, follower jadi warga. Dan presidennya... dipilih dari komentar kalian.",
+   "hash": "7d3c27d25282",
+   "duration": 5.805,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "pulau",
+     "start": 0.186,
+     "end": 0.441
+    },
+    {
+     "text": "ini,",
+     "start": 0.499,
+     "end": 0.882
+    },
+    {
+     "text": "follower",
+     "start": 0.998,
+     "end": 1.393
+    },
+    {
+     "text": "jadi",
+     "start": 1.486,
+     "end": 1.649
+    },
+    {
+     "text": "warga.",
+     "start": 1.695,
+     "end": 2.206
+    },
+    {
+     "text": "Dan",
+     "start": 2.647,
+     "end": 2.821
+    },
+    {
+     "text": "presidennya...",
+     "start": 2.879,
+     "end": 3.704
+    },
+    {
+     "text": "dipilih",
+     "start": 3.82,
+     "end": 4.226
+    },
+    {
+     "text": "dari",
+     "start": 4.249,
+     "end": 4.4
+    },
+    {
+     "text": "komentar",
+     "start": 4.435,
+     "end": 4.76
+    },
+    {
+     "text": "kalian.",
+     "start": 4.818,
+     "end": 5.805
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Presiden sekarang, EGA, menang dengan... tiga like.",
+   "hash": "ee7f53cb6d18",
+   "duration": 3.994,
+   "words": [
+    {
+     "text": "Presiden",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "sekarang,",
+     "start": 0.476,
+     "end": 1.022
+    },
+    {
+     "text": "EGA,",
+     "start": 1.196,
+     "end": 1.811
+    },
+    {
+     "text": "menang",
+     "start": 1.985,
+     "end": 2.218
+    },
+    {
+     "text": "dengan...",
+     "start": 2.264,
+     "end": 2.74
+    },
+    {
+     "text": "tiga",
+     "start": 2.949,
+     "end": 3.204
+    },
+    {
+     "text": "like.",
+     "start": 3.251,
+     "end": 3.994
+    }
+   ]
+  },
+  "e1": {
+   "who": "ega",
+   "text": "Tiga like itu banyak, lho!",
+   "hash": "21cb67ff09ff",
+   "duration": 1.254,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "like",
+     "start": 0.302,
+     "end": 0.441
+    },
+    {
+     "text": "itu",
+     "start": 0.464,
+     "end": 0.604
+    },
+    {
+     "text": "banyak,",
+     "start": 0.662,
+     "end": 0.987
+    },
+    {
+     "text": "lho!",
+     "start": 1.01,
+     "end": 1.254
+    }
+   ]
+  },
+  "k1": {
+   "who": "keeper",
+   "text": "Masa jabatannya habis empat belas November. Pemilu harus diulang.",
+   "hash": "8d3f3268acd0",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Masa",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "jabatannya",
+     "start": 0.418,
+     "end": 0.952
+    },
+    {
+     "text": "habis",
+     "start": 0.998,
+     "end": 1.265
+    },
+    {
+     "text": "empat",
+     "start": 1.312,
+     "end": 1.579
+    },
+    {
+     "text": "belas",
+     "start": 1.637,
+     "end": 1.823
+    },
+    {
+     "text": "November.",
+     "start": 1.904,
+     "end": 2.601
+    },
+    {
+     "text": "Pemilu",
+     "start": 2.775,
+     "end": 3.181
+    },
+    {
+     "text": "harus",
+     "start": 3.228,
+     "end": 3.402
+    },
+    {
+     "text": "diulang.",
+     "start": 3.46,
+     "end": 4.319
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Pendaftaran calon presiden... resmi dibuka!",
+   "hash": "8ae21b612667",
+   "duration": 2.322,
+   "words": [
+    {
+     "text": "Pendaftaran",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "calon",
+     "start": 0.557,
+     "end": 0.766
+    },
+    {
+     "text": "presiden...",
+     "start": 0.824,
+     "end": 1.335
+    },
+    {
+     "text": "resmi",
+     "start": 1.509,
+     "end": 1.811
+    },
+    {
+     "text": "dibuka!",
+     "start": 1.846,
+     "end": 2.322
+    }
+   ]
+  },
+  "f1": {
+   "who": "pinjam",
+   "text": "Biaya daftarnya... boleh pinjam seratus dulu?",
+   "hash": "1bd16cadd2e2",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Biaya",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "daftarnya...",
+     "start": 0.488,
+     "end": 1.474
+    },
+    {
+     "text": "boleh",
+     "start": 1.718,
+     "end": 1.985
+    },
+    {
+     "text": "pinjam",
+     "start": 2.009,
+     "end": 2.334
+    },
+    {
+     "text": "seratus",
+     "start": 2.392,
+     "end": 2.728
+    },
+    {
+     "text": "dulu?",
+     "start": 2.775,
+     "end": 3.483
+    }
+   ]
+  },
+  "k2": {
+   "who": "keeper",
+   "text": "Gratis.",
+   "hash": "341f6522f1bc",
+   "duration": 0.975,
+   "words": [
+    {
+     "text": "Gratis.",
+     "start": 0,
+     "end": 0.975
+    }
+   ]
+  },
+  "g1": {
+   "who": "bodyguard",
+   "text": "Calon presiden! Identitas dulu!",
+   "hash": "5244dbc5c809",
+   "duration": 2.786,
+   "words": [
+    {
+     "text": "Calon",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "presiden!",
+     "start": 0.488,
+     "end": 1.173
+    },
+    {
+     "text": "Identitas",
+     "start": 1.347,
+     "end": 1.985
+    },
+    {
+     "text": "dulu!",
+     "start": 2.055,
+     "end": 2.786
+    }
+   ]
+  },
+  "e2": {
+   "who": "ega",
+   "text": "Aku presidennya!",
+   "hash": "6081c499e508",
+   "duration": 1.115,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "presidennya!",
+     "start": 0.267,
+     "end": 1.115
+    }
+   ]
+  },
+  "g2": {
+   "who": "bodyguard",
+   "text": "Tetap. Identitas dulu.",
+   "hash": "50df92a77596",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Tetap.",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "Identitas",
+     "start": 0.511,
+     "end": 1.126
+    },
+    {
+     "text": "dulu.",
+     "start": 1.184,
+     "end": 1.95
+    }
+   ]
+  },
+  "t1": {
+   "who": "etet",
+   "text": "Aku daftar lagi. Kali ini... dipilih beneran.",
+   "hash": "e40d2e36bbf4",
+   "duration": 3.762,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "daftar",
+     "start": 0.325,
+     "end": 0.627
+    },
+    {
+     "text": "lagi.",
+     "start": 0.697,
+     "end": 1.103
+    },
+    {
+     "text": "Kali",
+     "start": 1.312,
+     "end": 1.579
+    },
+    {
+     "text": "ini...",
+     "start": 1.614,
+     "end": 2.02
+    },
+    {
+     "text": "dipilih",
+     "start": 2.531,
+     "end": 2.961
+    },
+    {
+     "text": "beneran.",
+     "start": 2.984,
+     "end": 3.762
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Caranya: komentar \"aku calon\", plus satu janji kampanye. Like terbanyak jadi presiden. Kedua, wakilnya.",
+   "hash": "225fa01ab457",
+   "duration": 8.591,
+   "words": [
+    {
+     "text": "Caranya:",
+     "start": 0,
+     "end": 0.789
+    },
+    {
+     "text": "komentar",
+     "start": 1.115,
+     "end": 1.683
+    },
+    {
+     "text": "\"aku",
+     "start": 1.707,
+     "end": 1.962
+    },
+    {
+     "text": "calon\",",
+     "start": 2.009,
+     "end": 2.589
+    },
+    {
+     "text": "plus",
+     "start": 2.717,
+     "end": 2.914
+    },
+    {
+     "text": "satu",
+     "start": 2.949,
+     "end": 3.181
+    },
+    {
+     "text": "janji",
+     "start": 3.251,
+     "end": 3.46
+    },
+    {
+     "text": "kampanye.",
+     "start": 3.506,
+     "end": 4.133
+    },
+    {
+     "text": "Like",
+     "start": 4.574,
+     "end": 4.783
+    },
+    {
+     "text": "terbanyak",
+     "start": 4.818,
+     "end": 5.224
+    },
+    {
+     "text": "jadi",
+     "start": 5.294,
+     "end": 5.457
+    },
+    {
+     "text": "presiden.",
+     "start": 5.492,
+     "end": 6.188
+    },
+    {
+     "text": "Kedua,",
+     "start": 6.629,
+     "end": 7.21
+    },
+    {
+     "text": "wakilnya.",
+     "start": 7.303,
+     "end": 8.591
+    }
+   ]
+  },
+  "d2": {
+   "who": "daby",
+   "text": "Janjiku: semua warga jadi yang pertama!",
+   "hash": "4d2890e67bb2",
+   "duration": 3.065,
+   "words": [
+    {
+     "text": "Janjiku:",
+     "start": 0,
+     "end": 0.639
+    },
+    {
+     "text": "semua",
+     "start": 1.08,
+     "end": 1.382
+    },
+    {
+     "text": "warga",
+     "start": 1.451,
+     "end": 1.788
+    },
+    {
+     "text": "jadi",
+     "start": 1.869,
+     "end": 2.043
+    },
+    {
+     "text": "yang",
+     "start": 2.067,
+     "end": 2.183
+    },
+    {
+     "text": "pertama!",
+     "start": 2.218,
+     "end": 3.065
+    }
+   ]
+  },
+  "p2": {
+   "who": "princes",
+   "text": "Itu nggak mungkin!",
+   "hash": "b03216aafb7c",
+   "duration": 1.486,
+   "words": [
+    {
+     "text": "Itu",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "nggak",
+     "start": 0.279,
+     "end": 0.476
+    },
+    {
+     "text": "mungkin!",
+     "start": 0.511,
+     "end": 1.486
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Empat belas November, kita hitung. Kamu... mau jadi presiden?",
+   "hash": "ce0c46255c5c",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Empat",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "belas",
+     "start": 0.406,
+     "end": 0.569
+    },
+    {
+     "text": "November,",
+     "start": 0.627,
+     "end": 1.022
+    },
+    {
+     "text": "kita",
+     "start": 1.057,
+     "end": 1.393
+    },
+    {
+     "text": "hitung.",
+     "start": 1.474,
+     "end": 1.904
+    },
+    {
+     "text": "Kamu...",
+     "start": 1.927,
+     "end": 2.403
+    },
+    {
+     "text": "mau",
+     "start": 2.554,
+     "end": 2.635
+    },
+    {
+     "text": "jadi",
+     "start": 2.682,
+     "end": 2.798
+    },
+    {
+     "text": "presiden?",
+     "start": 2.844,
+     "end": 3.622
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, kamu yang atur.",
+   "hash": "aaca965b5623",
+   "duration": 3.808,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "namamu",
+     "start": 0.627,
+     "end": 0.975
+    },
+    {
+     "text": "jadi",
+     "start": 1.045,
+     "end": 1.196
+    },
+    {
+     "text": "warga.",
+     "start": 1.242,
+     "end": 1.73
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.939,
+     "end": 2.589
+    },
+    {
+     "text": "kamu",
+     "start": 2.635,
+     "end": 2.902
+    },
+    {
+     "text": "yang",
+     "start": 2.949,
+     "end": 3.053
+    },
+    {
+     "text": "atur.",
+     "start": 3.123,
+     "end": 3.808
+    }
+   ]
+  }
+ }
+}
