@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saling Jaga · Aplikasi komunikasi darurat tanpa sinyal dan internet</title>
+<meta name="description" content="Saling Jaga: aplikasi Android gratis untuk telepon, walkie-talkie, chat, foto, peta offline, dan SOS antar HP tanpa internet dan tanpa sinyal. Untuk bencana, pendakian, dan kegiatan di alam.">
+<link rel="canonical" href="https://saling-jaga.com/">
+<link rel="alternate" hreflang="id" href="https://saling-jaga.com/">
+<link rel="alternate" hreflang="en" href="https://saling-jaga.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://saling-jaga.com/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Chalid Ade Rahman">
+<!-- Google Search Console: tempel kode verifikasi di content, lalu hapus komentar ini. -->
+<!-- <meta name="google-site-verification" content=""> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Saling Jaga",
+  "alternateName": "SalingJaga",
+  "description": "Aplikasi komunikasi darurat offline untuk Android: telepon, walkie-talkie, chat, foto, video, peta offline, kompas, dan SOS lewat Wi-Fi Direct tanpa internet dan tanpa sinyal.",
+  "url": "https://saling-jaga.com/",
+  "downloadUrl": "https://saling-jaga.com/saling-jaga.apk",
+  "image": "https://saling-jaga.com/og.jpg",
+  "screenshot": "https://saling-jaga.com/screenshots/2-grup-dan-chat.png",
+  "applicationCategory": "CommunicationApplication",
+  "operatingSystem": "Android 6.0+",
+  "inLanguage": "id",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" },
+  "author": { "@type": "Person", "name": "Chalid Ade Rahman", "url": "https://github.com/chalidade" }
+}
+</script>
+<meta property="og:title" content="Saling Jaga">
+<meta property="og:description" content="Telepon, walkie-talkie, chat, dan SOS antar HP Android tanpa internet dan tanpa sinyal.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Saling Jaga">
+<meta property="og:url" content="https://saling-jaga.com/">
+<meta property="og:image" content="https://saling-jaga.com/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Saling Jaga: tetap bisa saling kabar saat sinyal hilang">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Saling Jaga">
+<meta name="twitter:description" content="Telepon, walkie-talkie, chat, dan SOS antar HP Android tanpa internet dan tanpa sinyal.">
+<meta name="twitter:image" content="https://saling-jaga.com/og.jpg">
+<meta name="theme-color" content="#07110c">
+<link rel="icon" href="brand/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<script>
+  // Statistik pengunjung ramah privasi (GoatCounter): tanpa cookie, tanpa data pribadi.
+  // Kosong = mati. Isi dengan kode akun, misal "salingjaga" untuk salingjaga.goatcounter.com.
+  var GOATCOUNTER = 'salingjaga';
+  if (GOATCOUNTER) {
+    var gc = document.createElement('script');
+    gc.async = true;
+    gc.src = 'https://gc.zgo.at/count.js';
+    gc.setAttribute('data-goatcounter', 'https://' + GOATCOUNTER + '.goatcounter.com/count');
+    document.head.appendChild(gc);
+  }
+  // Daftar tunggu: kosong = tombol membuka email. Isi dengan URL /exec dari tools/waitlist/Code.gs untuk memakai formulir.
+  var WAITLIST_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwMo7jXi6XqKQ__sC90jiNdCrpE0kbGuNJ9c4tXlHwRkHCGHNgGaCDq6ZHFL9DTLZhCtA/exec';
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('daftar');
+    if (!WAITLIST_ENDPOINT || !form || !window.fetch) return;
+    form.hidden = false;
+    document.querySelectorAll('[data-waitlist]').forEach(function (a) {
+      a.href = '#daftar';
+      a.addEventListener('click', function () {
+        var box = form.querySelector('[name="' + a.getAttribute('data-waitlist') + '"]');
+        if (box) box.checked = true;
+      });
+    });
+    var status = form.querySelector('.status'), button = form.querySelector('button');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.nama.value.trim() || !form.kontak.value.trim()) { status.textContent = 'Isi nama dan kontak dulu.'; return; }
+      button.disabled = true;
+      status.textContent = 'Mengirim…';
+      fetch(WAITLIST_ENDPOINT, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(form)) })
+        .then(function () { form.reset(); status.textContent = 'Terima kasih, kamu sudah tercatat. Kami kabari begitu siap.'; })
+        .catch(function () { status.textContent = 'Gagal mengirim. Coba lagi, atau kirim email ke chalidade@gmail.com.'; })
+        .then(function () { button.disabled = false; });
+    });
+  });
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-nosignal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20v-2M9 20v-5M14 20v-8M19 20V7" opacity=".45"/><path d="m3 3 18 18"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v5"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.2 7.8-2.1 6.3-6.3 2.1 2.1-6.3z"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22V3"/><path d="M5 4h13l-2.5 4.5L18 13H5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/><path d="M3.5 12H8l1.5-2.5 2.5 5 2-3.5h6.5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v15H6.5A2.5 2.5 0 0 0 4 20.5 2.5 2.5 0 0 0 6.5 23H20"/><path d="M12 7v6M9 10h6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-hash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="11" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="i-userx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M2 21v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1"/><path d="m17 8 5 5M22 8l-5 5"/></symbol>
+  </defs>
+</svg>
+
+<div class="nav-shell">
+  <div class="wrap">
+    <nav class="nav" aria-label="Utama">
+      <a class="brand" href="#top"><img src="brand/mark.png" alt="" width="34" height="34"><span>Saling Jaga</span></a>
+      <div class="nav-links">
+        <a class="opt" href="#cerita">Cerita</a>
+        <a class="opt" href="#fitur">Fitur</a>
+        <a class="opt" href="#instal">Instal</a>
+        <a class="opt" href="#keamanan">Keamanan</a>
+        <a class="opt" href="laptop/">Laptop</a>
+        <div class="lang" aria-label="Bahasa"><span aria-current="page">ID</span><a href="en/" hreflang="en" lang="en">EN</a></div>
+        <a class="btn btn-primary btn-sm" href="saling-jaga.apk" data-goatcounter-click="unduh-apk-1" data-goatcounter-title="Unduh APK"><svg aria-hidden="true"><use href="#i-download"/></svg>Unduh</a>
+        <a class="btn btn-ghost btn-sm nav-support" href="https://teer.id/chalidade" target="_blank" rel="noopener" data-goatcounter-click="trakteer-nav" data-goatcounter-title="Trakteer"><svg aria-hidden="true"><use href="#i-heart"/></svg>Support</a>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="chip"><span class="dot"></span>Tanpa sinyal · 4 HP terhubung</span>
+      <h1>Saat sinyal hilang, kita tetap <span class="serif">saling jaga.</span></h1>
+      <p class="lede">Bicara, kirim pesan, bagikan lokasi, dan kirim SOS antar HP Android, langsung lewat Wi‑Fi Direct. Tanpa internet, pulsa, atau BTS.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="saling-jaga.apk" data-goatcounter-click="unduh-apk-2" data-goatcounter-title="Unduh APK"><svg aria-hidden="true"><use href="#i-download"/></svg>Unduh APK gratis</a>
+        <a class="btn btn-ghost" href="#video"><svg aria-hidden="true"><use href="#i-play"/></svg>Tonton 32 detik</a>
+      </div>
+      <ul class="checks">
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tanpa akun</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tanpa server</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tanpa iklan</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Android 6.0+</li>
+      </ul>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="rings"><i></i><i></i><i></i></div>
+      <svg class="links" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M18 16 Q34 30 50 50" vector-effect="non-scaling-stroke"/>
+        <path class="hot" d="M84 46 Q66 44 50 50" vector-effect="non-scaling-stroke"/>
+        <path d="M22 88 Q34 70 50 50" vector-effect="non-scaling-stroke"/>
+      </svg>
+      <div class="phone"><img src="screenshots/3-sos-masuk.png" alt="" width="1179" height="2556" fetchpriority="high"></div>
+      <span class="chip signal"><svg><use href="#i-nosignal"/></svg>0 bar</span>
+      <div class="peer p-budi"><span class="av">B</span><span><b>Budi</b><small>252 m · utara</small></span></div>
+      <div class="peer p-sari sos"><span class="av">S</span><span><b>Sari</b><small>SOS · 259 m barat laut</small></span></div>
+      <div class="peer p-rt"><span class="av">P</span><span><b>Pak RT</b><small>470 m · tenggara</small></span></div>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true">
+    <ul>
+      <li>Tanpa internet</li><li>Tanpa pulsa</li><li>Tanpa BTS</li><li>Wi‑Fi Direct</li><li>Terenkripsi AES‑256‑GCM</li><li>Tanpa akun</li><li>Gerbang LoRa Meshtastic</li><li>Bahasa Indonesia &amp; English</li>
+      <li>Tanpa internet</li><li>Tanpa pulsa</li><li>Tanpa BTS</li><li>Wi‑Fi Direct</li><li>Terenkripsi AES‑256‑GCM</li><li>Tanpa akun</li><li>Gerbang LoRa Meshtastic</li><li>Bahasa Indonesia &amp; English</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="sec" id="cerita">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Satu malam, tanpa sinyal</p>
+        <h2>Begini rasanya saat <span class="serif">BTS ikut padam.</span></h2>
+      </div>
+      <div class="story">
+        <ol class="beats">
+          <li class="beat on">
+            <time>17:58</time>
+            <h3>Listrik padam. Bar sinyal hilang.</h3>
+            <p>Grup chat sepi, tapi HP masih menyala. Buka Saling Jaga, ketuk cari, dan HP tetangga muncul dalam hitungan detik, langsung lewat Wi‑Fi Direct.</p>
+            <img class="shot" src="screenshots/1-cari-perangkat.png" alt="Daftar HP di sekitar yang siap dihubungkan" loading="lazy" width="1179" height="2556">
+          </li>
+          <li class="beat">
+            <time>18:01</time>
+            <h3>Budi tahan tombol, semua mendengar.</h3>
+            <p>Walkie-talkie ke seluruh grup, atau chat kalau suasana terlalu bising. Pesan berpindah dari HP ke HP, tanpa server di tengah.</p>
+            <img class="shot" src="screenshots/2-grup-dan-chat.png" alt="Grup berisi empat orang, Budi sedang bicara" loading="lazy" width="1179" height="2556">
+          </li>
+          <li class="beat">
+            <time>18:02</time>
+            <h3>Pak RT memindahkan titik kumpul.</h3>
+            <p>Satu pengumuman tampil di atas semua chat: Pos 3, 250 m ke timur laut. Setiap HP langsung tahu arah dan jaraknya.</p>
+            <img class="shot" src="screenshots/23-titik-kumpul.png" alt="Pengumuman titik kumpul Pos 3, 250 m ke timur laut" loading="lazy" width="1179" height="2556">
+          </li>
+          <li class="beat sos">
+            <time>18:04</time>
+            <h3>Sari mengirim SOS.</h3>
+            <p>Alarm berbunyi di semua HP, lengkap dengan jarak, arah, dan sisa baterainya: 259 m ke barat laut, baterai 21%.</p>
+            <img class="shot" src="screenshots/3-sos-masuk.png" alt="SOS masuk dari Sari, 259 m ke barat laut" loading="lazy" width="1179" height="2556">
+          </li>
+          <li class="beat">
+            <time>18:20</time>
+            <h3>Yang belum tiba, kelihatan.</h3>
+            <p>Kompas menunjukkan posisi setiap anggota dan titik kumpul. Siapa yang sudah sampai, siapa yang masih di jalan.</p>
+            <img class="shot" src="screenshots/24-titik-kumpul-di-kompas.png" alt="Kompas dengan posisi anggota dan titik kumpul" loading="lazy" width="1179" height="2556">
+          </li>
+        </ol>
+        <div class="story-phone" aria-hidden="true">
+          <div class="phone">
+            <img class="on" src="screenshots/1-cari-perangkat.png" alt="" loading="lazy">
+            <img src="screenshots/2-grup-dan-chat.png" alt="" loading="lazy">
+            <img src="screenshots/23-titik-kumpul.png" alt="" loading="lazy">
+            <img src="screenshots/3-sos-masuk.png" alt="" loading="lazy">
+            <img src="screenshots/24-titik-kumpul-di-kompas.png" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="fitur">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Fitur</p>
+        <h2>Semua yang dibutuhkan rombongan saat <span class="serif">sinyal hilang.</span></h2>
+      </div>
+      <div class="bento">
+        <div class="tile wide rise"><span class="ic"><svg aria-hidden="true"><use href="#i-mic"/></svg></span><h3>Walkie-talkie &amp; telepon</h3><p>Tahan untuk bicara ke seluruh grup, atau beralih ke telepon dua arah.</p></div>
+        <div class="tile wide red rise"><span class="ic"><svg aria-hidden="true"><use href="#i-alert"/></svg></span><h3>SOS dengan arah</h3><p>Alarm di semua HP, lengkap dengan jarak dan arah ke pengirim. Bisa juga lewat 5× tombol volume.</p></div>
+        <div class="tile rise"><span class="ic"><svg aria-hidden="true"><use href="#i-compass"/></svg></span><h3>Kompas &amp; peta offline</h3><p>Radar posisi tiap anggota, plus panah besar ke yang butuh bantuan. Ketuk nama untuk diarahkan, tanpa internet.</p></div>
+        <div class="tile rise"><span class="ic"><svg aria-hidden="true"><use href="#i-flag"/></svg></span><h3>Titik kumpul</h3><p>Tandai tempat berkumpul dan lihat siapa yang sudah tiba.</p></div>
+        <div class="tile rise"><span class="ic"><svg aria-hidden="true"><use href="#i-chat"/></svg></span><h3>Chat, foto &amp; pesan pribadi</h3><p>Ke grup atau berdua saja, terenkripsi ujung ke ujung.</p></div>
+        <div class="tile wide lamp rise"><span class="ic"><svg aria-hidden="true"><use href="#i-pulse"/></svg></span><h3>Sirine &amp; kartu medis</h3><p>Sirine dan senter agar mudah ditemukan, plus info medis yang ikut terkirim bersama SOS untuk penolong.</p></div>
+        <div class="tile wide rise"><span class="ic"><svg aria-hidden="true"><use href="#i-book"/></svg></span><h3>Panduan bencana &amp; P3K</h3><p>Gempa, banjir, tanah longsor, RJP, luka bakar, dan lainnya. Tersimpan di HP, terbaca tanpa internet.</p></div>
+      </div>
+      <ul class="also rise" aria-label="Fitur lainnya">
+        <li>Pesan suara</li><li>Riwayat chat tersimpan</li><li>Absen / hitung kepala</li><li>Mode lansia (tombol besar)</li><li>Cari keluarga</li><li>Pengumuman</li><li>Status &amp; baterai anggota</li><li>Mode hemat baterai</li><li>SOS + SMS</li><li>Sambung ulang otomatis</li><li>Bahasa Indonesia &amp; Inggris</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="jangkauan">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Jangkauan</p>
+        <h2>Dari satu gang <span class="serif">sampai satu lembah.</span></h2>
+        <p class="lede">Mulai dari dua HP saja. Kalau rombongan menyebar, jangkauannya bisa ditambah bertahap.</p>
+      </div>
+      <div class="range">
+        <div class="rung rise"><div class="km">50–100<small>m</small></div><div class="bar"><i style="width:8%"></i></div><h3>HP ke HP</h3><p>Wi‑Fi Direct langsung di area terbuka. Lebih pendek di dalam gedung.</p></div>
+        <div class="rung rise"><div class="km">+1<small>HP</small></div><div class="bar"><i style="width:18%"></i></div><h3>HP jembatan</h3><p>Satu HP di tengah meneruskan pesan ke yang di luar jangkauan.</p></div>
+        <div class="rung rise"><div class="km">1–3<small>km</small></div><div class="bar"><i style="width:55%"></i></div><h3>Wi‑Fi posko</h3><p>Wi‑Fi gedung, atau antena jarak jauh di posko, dengan pengarah antena.</p></div>
+        <div class="rung rise"><div class="km">km+<small>LoRa</small></div><div class="bar"><i style="width:100%"></i></div><h3>Gerbang LoRa</h3><p>Alat Meshtastic meneruskan pesan dan SOS antar kelompok hingga beberapa km.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="video">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Video</p>
+        <h2>Lihat cara kerjanya dalam <span class="serif">32 detik.</span></h2>
+      </div>
+      <div class="film rise">
+        <video controls playsinline preload="none" poster="media/launch-poster.jpg" aria-label="Video Saling Jaga: gempa malam hari, HP saling menemukan, hitung kepala, walkie-talkie, SOS, kompas, dan titik kumpul tanpa sinyal">
+          <source src="media/saling-jaga-launch.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="instal">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Instal</p>
+        <h2>Pasang sekarang, <span class="serif">sebelum dibutuhkan.</span></h2>
+      </div>
+      <div class="install">
+        <div class="rise">
+          <ol class="steps">
+            <li><span><b>Unduh APK</b>dari halaman ini di HP Android.</span></li>
+            <li><span><b>Buka file</b>lalu izinkan instal dari sumber ini. Peringatan Android itu normal.</span></li>
+            <li><span><b>Nyalakan Wi‑Fi dan Lokasi</b>ketuk cari, lalu sambungkan ke HP teman.</span></li>
+          </ol>
+          <p class="fine">Belum ada di Play Store. Untuk teman tanpa internet, kirim APK lewat Quick Share atau Bluetooth.</p>
+          <p class="fine">Pakai laptop, Mac, atau iPhone? Ikut grup lewat browser, tanpa internet: <a href="laptop/">lihat panduan laptop &amp; browser</a>.</p>
+          <div class="actions" style="margin-top:28px">
+            <a class="btn btn-primary" href="saling-jaga.apk" data-goatcounter-click="unduh-apk-3" data-goatcounter-title="Unduh APK"><svg aria-hidden="true"><use href="#i-download"/></svg>Unduh APK gratis</a>
+          </div>
+          <details class="disclose">
+            <summary>Lihat panduan instal bergambar</summary>
+            <ol class="shots">
+              <li><img src="install/1-buka-setelan.jpg" alt="Dialog Chrome: HP belum mengizinkan instal aplikasi dari sumber ini" loading="lazy" width="360" height="800"><span>Ketuk <b>Settings</b></span></li>
+              <li><img src="install/2-izinkan-sumber.jpg" alt="Setelan Instal aplikasi tidak dikenal untuk Chrome" loading="lazy" width="360" height="800"><span>Izinkan sumber ini</span></li>
+              <li><img src="install/3-instal.jpg" alt="Dialog: Do you want to install this app? Saling Jaga" loading="lazy" width="360" height="800"><span>Ketuk <b>Install</b></span></li>
+              <li><img src="install/4-scan-play-protect.jpg" alt="Google Play Protect: App scan recommended" loading="lazy" width="360" height="800"><span>Pilih <b>Scan app</b></span></li>
+              <li><img src="install/5-aman-instal.jpg" alt="Google Play Protect: This app looks safe" loading="lazy" width="360" height="800"><span>“Looks safe”</span></li>
+              <li><img src="install/6-terpasang.jpg" alt="Dialog: App installed" loading="lazy" width="360" height="800"><span>Ketuk <b>Open</b></span></li>
+            </ol>
+          </details>
+        </div>
+        <figure class="howto rise">
+          <video controls playsinline preload="none" poster="media/cara-instal-poster.jpg" width="720" height="1280" aria-label="Video cara instal Saling Jaga">
+            <source src="media/saling-jaga-cara-instal.mp4" type="video/mp4">
+          </video>
+          <figcaption>Cara instal dalam 40 detik: buka file, izinkan sumber ini, <b>Install</b>, <b>Scan app</b> sampai “looks safe”, lalu <b>Open</b>.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="kabar">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Segera hadir</p>
+        <h2>Pakai iPhone, atau lebih suka <span class="serif">lewat Play Store?</span></h2>
+      </div>
+      <div class="notify">
+        <div class="rise">
+          <svg aria-hidden="true"><use href="#i-phone"/></svg>
+          <h3>Versi iPhone</h3>
+          <p>Aplikasinya sudah jadi dan bisa satu grup dengan HP Android. Untuk sekarang belum bisa dipasang: kami masih mengurus akun Apple Developer, lalu membuka uji coba lewat TestFlight. Daftar untuk ikut uji coba atau dikabari saat rilis.</p>
+          <a class="btn btn-primary" data-waitlist="iphone" data-goatcounter-click="kabari-iphone" data-goatcounter-title="Kabari saya: iPhone" href="mailto:chalidade@gmail.com?subject=Kabari%20saya%3A%20Saling%20Jaga%20untuk%20iPhone&amp;body=Halo%2C%20kabari%20saya%20saat%20Saling%20Jaga%20bisa%20dipasang%20di%20iPhone.%0A%0ANama%3A%0AKota%3A%0AMau%20ikut%20uji%20coba%20TestFlight%20(ya%2Ftidak)%3A"><svg aria-hidden="true"><use href="#i-bell"/></svg>Kabari saya</a>
+        </div>
+        <div class="rise">
+          <svg aria-hidden="true"><use href="#i-download"/></svg>
+          <h3>Google Play Store</h3>
+          <p>Segera tersedia di Play Store, jadi tidak perlu lagi mengizinkan instal dari sumber lain dan update datang sendiri. Sambil menunggu, APK di halaman ini adalah aplikasi yang sama.</p>
+          <a class="btn btn-ghost" data-waitlist="playstore" data-goatcounter-click="kabari-playstore" data-goatcounter-title="Kabari saya: Play Store" href="mailto:chalidade@gmail.com?subject=Kabari%20saya%3A%20Saling%20Jaga%20di%20Play%20Store&amp;body=Halo%2C%20kabari%20saya%20saat%20Saling%20Jaga%20ada%20di%20Play%20Store.%0A%0ANama%3A%0AKota%3A"><svg aria-hidden="true"><use href="#i-bell"/></svg>Kabari saat rilis</a>
+        </div>
+      </div>
+      <p class="fine">Kontakmu hanya dipakai untuk kabar ini, tidak dibagikan ke siapa pun.</p>
+      <form class="waitlist rise" id="daftar" hidden novalidate>
+        <h3>Daftar untuk dikabari</h3>
+        <div class="fields">
+          <label>Nama atau panggilan<input name="nama" maxlength="60" autocomplete="nickname" required></label>
+          <label>Kontak yang kamu nyaman<input name="kontak" maxlength="100" autocomplete="off" placeholder="@akun Threads/IG, email, atau WA" required></label>
+          <label>Kota (boleh kosong)<input name="kota" maxlength="60" autocomplete="address-level2"></label>
+        </div>
+        <fieldset>
+          <legend>Kabari saya soal</legend>
+          <label class="check"><input type="checkbox" name="iphone" value="1">Versi iPhone</label>
+          <label class="check"><input type="checkbox" name="playstore" value="1">Play Store</label>
+        </fieldset>
+        <label class="check"><input type="checkbox" name="beta" value="1">Saya mau ikut uji coba iPhone (TestFlight). Tautannya kami kirim lewat kontak di atas.</label>
+        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="lang" value="id">
+        <div class="send"><button class="btn btn-primary" type="submit" data-goatcounter-click="daftar-tunggu">Daftar</button><p class="status" role="status" aria-live="polite"></p></div>
+        <p class="fine">Kontakmu hanya dipakai untuk kabar ini, tidak dibagikan ke siapa pun. Lihat <a href="privacy.html">kebijakan privasi</a>.</p>
+      </form>
+      <div class="support rise">
+        <svg aria-hidden="true"><use href="#i-heart"/></svg>
+        <div>
+          <h3>Mau ikut membantu?</h3>
+          <p>Saling Jaga gratis selamanya dan dibuat secara mandiri. Kalau aplikasi ini berguna untukmu, kamu bisa traktir pengembangnya lewat Trakteer. Dukunganmu membantu biaya seperti akun Apple Developer untuk versi iPhone.</p>
+        </div>
+        <a class="btn btn-ghost" href="https://teer.id/chalidade" target="_blank" rel="noopener" data-goatcounter-click="trakteer" data-goatcounter-title="Trakteer">Traktir di Trakteer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="keamanan">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow">Keamanan</p>
+        <h2>Aman dipasang, <span class="serif">meski bukan dari Play Store.</span></h2>
+      </div>
+      <div class="trust">
+        <div class="rise"><svg aria-hidden="true"><use href="#i-shield"/></svg><h3>Lolos Play Protect</h3><p>Dipindai Google saat instal: aman. Tanpa iklan, analitik, atau pelacak.</p></div>
+        <div class="rise"><svg aria-hidden="true"><use href="#i-hash"/></svg><h3>Bisa dicek keasliannya</h3><p>Tiap APK disertai <a href="saling-jaga.apk.sha256">SHA-256</a> untuk dicocokkan dengan file unduhan.</p></div>
+        <div class="rise"><svg aria-hidden="true"><use href="#i-lock"/></svg><h3>Data tetap di grup</h3><p>Tanpa server dan akun. Terenkripsi AES‑256‑GCM antar HP.</p></div>
+        <div class="rise"><svg aria-hidden="true"><use href="#i-userx"/></svg><h3>Tidak bisa menyamar</h3><p>Pesan yang mengaku dari anggota lain ditolak.</p></div>
+      </div>
+      <details class="disclose">
+        <summary>Izin apa saja yang diminta?</summary>
+        <table>
+          <tr><td>Lokasi / Perangkat sekitar</td><td>Wajib untuk Wi‑Fi Direct, juga untuk kompas dan jarak SOS</td></tr>
+          <tr><td>Mikrofon</td><td>Hanya saat tombol bicara ditahan atau mode telepon aktif</td></tr>
+          <tr><td>Notifikasi</td><td>SOS dan pesan saat layar mati</td></tr>
+          <tr><td>Tidak diminta</td><td>Kontak, SMS, galeri penuh, log panggilan</td></tr>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="sec" id="tanya">
+    <div class="wrap faq">
+      <div class="rise">
+        <p class="eyebrow">Tanya jawab</p>
+        <h2>Pertanyaan yang <span class="serif">sering muncul.</span></h2>
+      </div>
+      <div class="rise">
+        <details>
+          <summary>Benar-benar tanpa internet atau pulsa?</summary>
+          <p>Benar. HP boleh tanpa kartu SIM. Yang perlu menyala hanya Wi‑Fi dan Lokasi. Internet hanya dipakai untuk mengunduh APK dan, kalau mau, peta sekitar.</p>
+        </details>
+        <details>
+          <summary>Seberapa jauh jangkauannya?</summary>
+          <p>Sekitar 50–100 m di area terbuka, lebih pendek di dalam gedung. Lebih jauh lagi: HP jembatan di tengah, Wi‑Fi posko dengan antena jarak jauh (1–3 km), atau alat LoRa Meshtastic untuk pesan dan SOS antar kelompok hingga beberapa km.</p>
+        </details>
+        <details>
+          <summary>Bagaimana cara update?</summary>
+          <p>Unduh APK terbaru lalu pasang di atas versi lama. Nama, foto, dan pengaturan tetap tersimpan.</p>
+        </details>
+        <details>
+          <summary>Bisa dari laptop, Mac, atau browser?</summary>
+          <p>Bisa. Laptop Windows, Mac, Linux, iPhone, atau tablet ikut grup lewat browser tanpa internet, baik lewat HP Android yang membuka grupnya untuk browser maupun lewat app laptop portable. <a href="laptop/">Lihat panduan dan unduhannya</a>.</p>
+        </details>
+        <details>
+          <summary>Ada versi iPhone?</summary>
+          <p>Sudah dibuat, tapi belum bisa dipasang. Kami masih mengurus akun Apple Developer, lalu membuka uji coba lewat TestFlight. Di iPhone, grup disambungkan lewat mode Wi‑Fi posko: satu HP membuat grup, yang lain masuk dengan kode 6 angka di Wi‑Fi atau hotspot yang sama. <a href="#kabar">Daftar untuk dikabari</a>.</p>
+        </details>
+        <details>
+          <summary>Kapan ada di Play Store?</summary>
+          <p>Segera. Sambil menunggu, pasang APK dari halaman ini. Setelah versi Play Store tersedia, kamu bisa pindah tanpa kehilangan nama dan pengaturan. <a href="#kabar">Minta dikabari saat rilis</a>.</p>
+        </details>
+        <details>
+          <summary>HP saya tidak menemukan grup. Kenapa?</summary>
+          <p>Pastikan Wi‑Fi dan Lokasi menyala di kedua HP, izin Lokasi / Perangkat sekitar diberikan, dan jaraknya tidak lebih dari 50–100 m. Beberapa HP perlu layar tetap menyala saat mencari. Kalau masih gagal, coba sebaliknya: HP yang tadi mencari yang membuat grup.</p>
+        </details>
+        <details>
+          <summary>Apakah gratis?</summary>
+          <p>Gratis untuk warga, selamanya, tanpa iklan. Untuk tim SAR, posko, atau institusi yang butuh pelatihan dan kustomisasi, <a href="mailto:chalidade@gmail.com?subject=Saling%20Jaga%20-%20Kerja%20sama">hubungi kami</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="end rise">
+      <img src="brand/mark.png" alt="" width="96" height="96">
+      <h2>Hanya berguna kalau HP di sekitar Anda <span class="serif">juga punya.</span></h2>
+      <p>Pasang hari ini, lalu bagikan ke keluarga, tetangga, dan rombongan.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="saling-jaga.apk" data-goatcounter-click="unduh-apk-4" data-goatcounter-title="Unduh APK"><svg aria-hidden="true"><use href="#i-download"/></svg>Unduh APK gratis</a>
+        <a class="btn btn-ghost" href="https://teer.id/chalidade" target="_blank" rel="noopener" data-goatcounter-click="trakteer-cta" data-goatcounter-title="Trakteer"><svg aria-hidden="true"><use href="#i-heart"/></svg>Support</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="brand/mark.png" alt="" width="28" height="28"><span>Saling Jaga</span></a>
+    <nav aria-label="Footer">
+      <a id="form-link" href="#" hidden data-goatcounter-click="form-masukan">Beri rating</a>
+      <a href="mailto:chalidade@gmail.com?subject=Saling%20Jaga%20-%20Lapor%20masalah" data-goatcounter-click="lapor-masalah">Lapor masalah</a>
+      <a href="mailto:chalidade@gmail.com?subject=Saling%20Jaga%20-%20Usul%20fitur" data-goatcounter-click="usul-fitur">Usul fitur</a>
+      <a href="https://teer.id/chalidade" target="_blank" rel="noopener" data-goatcounter-click="trakteer-footer">Dukung via Trakteer</a>
+      <a href="privacy.html">Privasi</a>
+      <a href="terms.html">Ketentuan</a>
+      <span>© 2026 Chalid Ade Rahman</span>
+    </nav>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
