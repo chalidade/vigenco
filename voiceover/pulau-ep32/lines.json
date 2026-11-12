@@ -1,0 +1,136 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "aidil": "RWiGLY9uXI70QL540WNd",
+  "ranu": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "I7sakys8pBZ1Z5f0UhT9",
+  "alex": "RWiGLY9uXI70QL540WNd",
+  "alerx": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "aidil": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "ranu": {
+   "stability": 0.7,
+   "style": 0.35
+  },
+  "whoyss": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "alex": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "alerx": {
+   "stability": 0.85,
+   "style": 0.1
+  }
+ },
+ "lines": [
+  {
+   "id": "i1",
+   "who": "aidil",
+   "text": "Sandalku... HILANG! Hiks..."
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, follower jadi warga, dan komentar kalian yang atur ceritanya. Tapi pagi ini... ada yang aneh."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Tujuh sandal warga hilang dalam satu malam."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Termasuk sandalku! Padahal cuma punya satu!"
+  },
+  {
+   "id": "r1",
+   "who": "ranu",
+   "text": "Tenang. Polisi pantai turun tangan!"
+  },
+  {
+   "id": "r2",
+   "who": "ranu",
+   "text": "Tersangka pertama: whoyss. Si tukang sembunyi sandal!"
+  },
+  {
+   "id": "w1",
+   "who": "whoyss",
+   "text": "Hehe... bukan aku!"
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Benar. Semalam dia tidur di Pos Ronda. Ngoroknya kedengeran sampai pantai."
+  },
+  {
+   "id": "w2",
+   "who": "whoyss",
+   "text": "Pliss jangan bilang-bilang!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Lalu di pantai timur, Polisi Pantai menemukan ini."
+  },
+  {
+   "id": "r3",
+   "who": "ranu",
+   "text": "Jejak kecil... tiga jari. Ini bukan jejak manusia."
+  },
+  {
+   "id": "x1",
+   "who": "alex",
+   "text": "Serahkan padaku! ...Eh, ini bulu apa?"
+  },
+  {
+   "id": "l1",
+   "who": "alerx",
+   "text": "Aku sudah di sini dari tadi."
+  },
+  {
+   "id": "l2",
+   "who": "alerx",
+   "text": "Jejaknya... naik ke atas."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Dan di puncak mercusuar..."
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "SANDAL KITA?! Siapa yang bawa ke atas sana?!"
+  },
+  {
+   "id": "a4",
+   "who": "aru",
+   "text": "Siapa pencurinya? Tulis tebakanmu di komentar!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Tebakan paling lucu... masuk episode berikutnya."
+  }
+ ]
+}
