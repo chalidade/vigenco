@@ -1,0 +1,53 @@
+{
+  "name": "vigenco",
+  "version": "0.1.0",
+  "description": "Spec in, MP4 out. Render seek(t) HTML motion films to 60 fps video with real motion blur and an original synthesized soundtrack.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./synth": "./src/audio/synth.mjs",
+    "./motion.js": "./types/_shared/motion.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "vigenco": "bin/vigenco.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "types",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
+  },
+  "keywords": [
+    "video",
+    "motion-graphics",
+    "launch-video",
+    "animation",
+    "mp4",
+    "playwright",
+    "ffmpeg",
+    "motion-blur",
+    "generative-audio"
+  ],
+  "author": "Chalid Ade Rahman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalidade/vigenco.git",
+    "directory": "packages/vigenco"
+  },
+  "homepage": "https://github.com/chalidade/vigenco/tree/main/packages/vigenco#readme",
+  "bugs": {
+    "url": "https://github.com/chalidade/vigenco/issues"
+  }
+}

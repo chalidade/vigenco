@@ -1,0 +1,32 @@
+{
+  "type": "launch",
+  "format": "vertical",
+  "quality": "standard",
+  "cursorName": "Kamu",
+  "brand": {
+    "name": "Vigenco",
+    "mark": "V",
+    "url": "vigenco.app",
+    "colors": {
+      "bg": "#F5F3EF",
+      "ink": "#111827",
+      "surface": "#FFFFFF",
+      "accent": ["#6C5CE7", "#E35C91", "#FF8A3D"]
+    }
+  },
+  "intro": { "lines": ["Bikin video", "tanpa edit", "sama sekali."] },
+  "brief": {
+    "placeholder": "Mau video apa hari ini?",
+    "text": "Video launch untuk kedai kopiku",
+    "button": "Buat"
+  },
+  "features": [
+    { "icon": "wand", "title": "Naskah otomatis", "desc": "Cukup tulis idenya. Alur cerita dan teks layar disusun untukmu.", "widget": "toggle", "label": "Mode sutradara" },
+    { "icon": "bolt", "title": "Render di cloud", "desc": "Laptop boleh mati. Video dirender online dan siap dalam menit.", "widget": "slider", "label": "Kecepatan", "value": 10, "suffix": "x" },
+    { "icon": "play", "title": "Siap upload", "desc": "MP4 vertikal 60 fps untuk TikTok, Reels, dan Shorts.", "widget": "tabs", "tabs": ["TikTok", "Reels", "Shorts"] }
+  ],
+  "stat": { "kicker": "Sejak beta", "value": 12480, "label": "video sudah dirender" },
+  "logosLabel": "Dipakai oleh",
+  "logos": ["Kopi Senja", "Batik Lab", "Rasa Nusantara", "Studio Pagi", "Langkah", "Tanah Air Co"],
+  "outro": { "tagline": "Ide masuk, video keluar.", "cta": "vigenco.app" }
+}

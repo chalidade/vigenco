@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My first Vigenco film</title>
+<style>
+  html, body { margin: 0; background: #F5F3EF; overflow: hidden; }
+  #shape { position: absolute; left: 0; top: 0; background: #111827; color: #fff; display: flex; align-items: center;
+           justify-content: center; font: 700 72px system-ui, sans-serif; letter-spacing: -0.03em; white-space: nowrap; overflow: hidden; }
+  #label { opacity: 0; }
+</style>
+</head>
+<body>
+<div id="shape"><span id="label">Hello, Vigenco</span></div>
+<script src="../../types/_shared/motion.js"></script>
+<script>
+  // A film is a pure function of time: window.seek(t) draws the frame at t seconds.
+  // Springs from motion.js keep every change smooth without storing state between frames.
+  const { Track, ColorTrack, SP, vis, applyVis } = window.M;
+  const W = 1080, H = 1920, beat = (n) => n * 0.5;            // 120 BPM grid
+  const w = new Track(0).to(beat(1), 40, SP.pop).to(beat(3), 760, SP.shape).to(beat(9), 220, SP.shape);
+  const h = new Track(0).to(beat(1), 40, SP.pop).to(beat(3), 180, SP.shape).to(beat(9), 220, SP.shape);
+  const col = new ColorTrack('#111827').to(beat(9), '#6C5CE7');
+  const shape = document.getElementById('shape'), label = document.getElementById('label');
+
+  window.seek = (t) => {
+    const ww = w.at(t), hh = h.at(t);
+    shape.style.width = ww + 'px'; shape.style.height = hh + 'px';
+    shape.style.borderRadius = Math.min(ww, hh) / 2 + 'px';
+    shape.style.transform = `translate(${(W - ww) / 2}px, ${(H - hh) / 2}px)`;
+    shape.style.background = col.at(t);
+    applyVis(label, vis(t, beat(3.3), beat(8.6)));
+  };
+  // Cues tell the synth where sounds go; sections shape the music.
+  window.FILM = {
+    width: W, height: H, bpm: 120, duration: beat(14),
+    sections: { intro: [0, beat(3)], drop: [beat(9), beat(11)], outro: [beat(10), beat(14)] },
+    cues: [{ t: beat(1), k: 'born' }, { t: beat(3), k: 'pop' }, { t: beat(9), k: 'drop' }, { t: beat(11), k: 'shimmer' }],
+  };
+  window.seek(0);
+  window.READY = true;
+</script>
+</body>
+</html>

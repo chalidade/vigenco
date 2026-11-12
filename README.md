@@ -6,6 +6,21 @@ tanpa AI video model: setiap frame adalah HTML yang dihitung dari waktu (`seek(t
 
 Tipe video pertama: **`launch`** (video peluncuran produk).
 
+## Engine `vigenco` (paket npm)
+
+Mesin render-nya berdiri sendiri di [`packages/vigenco`](packages/vigenco) dan bisa dipakai di proyek
+lain tanpa Claude dan tanpa repo ini:
+
+```bash
+npm install vigenco && npx playwright install chromium
+npx vigenco init && npx vigenco render vigenco-example/launch.json
+```
+
+Isinya: CLI + API JS (`render`, `snap`, `redub`, `inspect`), template `launch`, kontrak film HTML
+`seek(t)`, primitif motion, dan synth musik/SFX dalam JavaScript murni (tanpa Python). Detailnya di
+[README paket](packages/vigenco/README.md). Aplikasi di repo ini (page, director Claude, cerita
+animasi, voiceover) memakai paket itu langsung dari folder `packages/vigenco`.
+
 ```
 jobs/xxx.json ──► types/launch (HTML film, seek(t)) ──► Playwright: N subframe per frame
              ──► ffmpeg tmix (motion blur asli) ──► H.264 60 fps ──► + soundtrack hasil synth ──► out/xxx.mp4
@@ -86,13 +101,12 @@ tiap adegan, memeriksa hasilnya, lalu GitHub Actions merender MP4-nya.
 ```bash
 npm install
 npx playwright install chromium
-pip install -r requirements.txt        # numpy, untuk audio
 
 node bin/vigenco.mjs render jobs/vigenco-launch.json                  # → out/vigenco-launch.mp4
 node bin/vigenco.mjs render jobs/vigenco-launch.json --quality draft  # preview cepat 30 fps
 node bin/vigenco.mjs snap   jobs/vigenco-launch.json                  # 1 still per beat + contact sheet
 ```
-Butuh Node ≥ 20, Python 3 + numpy, dan ffmpeg.
+Butuh Node ≥ 20 dan ffmpeg.
 
 | Kualitas | Frame rate | Motion blur | Perkiraan waktu render (video 24 detik, mesin 2 core) |
 |---|---|---|---|
@@ -145,11 +159,10 @@ dan setiap efek suara jatuh tepat di beat 120 BPM.
 
 | Path | Isi |
 |---|---|
-| `bin/vigenco.mjs` | CLI: `render` dan `snap` |
-| `src/render.mjs` | Renderer: Playwright subframe → ffmpeg motion blur → MP4 (dipakai ulang nanti oleh worker SaaS) |
-| `src/audio/synth.py` | Musik dan SFX hasil synth numpy, ditempatkan dari cue yang diekspor film |
-| `types/_shared/motion.js` | Spring, Track, swap blur, warna: primitif untuk semua tipe video |
-| `types/launch/` | Tipe video `launch` |
+| `packages/vigenco/` | **Engine** (paket npm `vigenco`): renderer, synth audio JS, template `launch`, motion |
+| `bin/vigenco.mjs` | CLI aplikasi: `render`, `snap`, `redub`, `tts` (engine + tipe `story`) |
+| `src/render.mjs` | Menghubungkan engine dengan tipe `story`; path job relatif ke root repo |
+| `types/_shared`, `types/launch` | Symlink ke `packages/vigenco/types/…`, supaya path lama di film tetap jalan |
 | `jobs/` | Spec video. Push file baru di sini = video baru (`jobs/generated/` = hasil dari page) |
 | `docs/` | Page "tulis prompt, jadi video" (GitHub Pages) |
 | `types/story/` | Proyek Remotion untuk tipe `story` (cerita animasi bernarasi) |
@@ -172,6 +185,6 @@ Renderer dan audio synth tidak perlu diubah.
 
 - Logo dan angka di `jobs/vigenco-launch.json` adalah contoh rekaan. Untuk video sungguhan, pakai angka
   asli dan hanya logo pelanggan yang sudah memberi izin.
-- Musik bawaan dibuat dari nol oleh `synth.py`, jadi bebas lisensi. Kalau memakai lagu sendiri lewat
+- Musik bawaan dibuat dari nol oleh synth di `packages/vigenco/src/audio/synth.mjs`, jadi bebas lisensi. Kalau memakai lagu sendiri lewat
   `audio.music`, pastikan lisensinya mengizinkan penggunaan komersial.
 - Teknik motion diadaptasi dari [AbubakrChan/product-launch-motion](https://github.com/AbubakrChan/product-launch-motion) (MIT). Lihat `NOTICE`.

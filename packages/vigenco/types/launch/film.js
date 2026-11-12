@@ -27,7 +27,7 @@
       const im = new Image();
       im.onload = () => res(im);
       im.onerror = () => res(null);
-      im.src = '../../' + logoSrc;
+      im.src = (SPEC.__base || '../../') + logoSrc;   // __base: the project folder, set by the renderer
     });
   }
 
