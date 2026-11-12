@@ -1,0 +1,136 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "ranu": "RWiGLY9uXI70QL540WNd",
+  "alfaiz": "RWiGLY9uXI70QL540WNd",
+  "inyuu": "RWiGLY9uXI70QL540WNd",
+  "d4l": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "ranu": {
+   "stability": 0.7,
+   "style": 0.35
+  },
+  "alfaiz": {
+   "stability": 0.8,
+   "style": 0.2
+  },
+  "inyuu": {
+   "stability": 0.25,
+   "style": 0.75
+  },
+  "d4l": {
+   "stability": 0.45,
+   "style": 0.35
+  }
+ },
+ "lines": [
+  {
+   "id": "x1",
+   "who": "aru",
+   "text": "Pencuri sandalnya... BURUNG?!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Di pulau ini, follow jadi warga, dan komentar kalian yang atur ceritanya."
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Kemarin, tujuh sandal warga hilang."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Termasuk sandalku. Satu-satunya!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Lalu dua warga menulis di komentar: kami mau jadi polisi!"
+  },
+  {
+   "id": "r1",
+   "who": "ranu",
+   "text": "Permintaan diterima. Selamat datang, Detektif Pantai!"
+  },
+  {
+   "id": "d1",
+   "who": "alfaiz",
+   "text": "Jejak tiga jari. Pelakunya pasti balik lagi."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Kalau gitu, kita pasang kamera jaga malam!"
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Detektif ngala punya ide: pasang umpan."
+  },
+  {
+   "id": "y1",
+   "who": "inyuu",
+   "text": "Pakai sandalku aja! GG, warga!"
+  },
+  {
+   "id": "l1",
+   "who": "d4l",
+   "text": "Boleh nggak... aku ikut jaga?"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Malam tiba. Semua menunggu."
+  },
+  {
+   "id": "y2",
+   "who": "inyuu",
+   "text": "Ngantuk... aku respawn dulu..."
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Jam dua pagi, kamera merekam sesuatu!"
+  },
+  {
+   "id": "a3",
+   "who": "aru",
+   "text": "Itu... BURUNG CAMAR?!"
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Camar itu terbang membawa sandal, ke puncak mercusuar."
+  },
+  {
+   "id": "y3",
+   "who": "inyuu",
+   "text": "Sandal umpanku... ikut hilang."
+  },
+  {
+   "id": "a4",
+   "who": "aru",
+   "text": "Tapi... buat apa camar ngumpulin sandal?"
+  },
+  {
+   "id": "n8",
+   "who": "narrator",
+   "text": "Tulis tebakanmu di komentar! Follow, namamu jadi warga."
+  }
+ ]
+}
