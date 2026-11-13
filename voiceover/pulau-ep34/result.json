@@ -1,0 +1,675 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "aidil": "RWiGLY9uXI70QL540WNd",
+  "zidan": "RWiGLY9uXI70QL540WNd",
+  "senar": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "x1": {
+   "who": "aru",
+   "text": "Sandal kita... jadi SARANG BAYI?!",
+   "hash": "af0166930342",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "Sandal",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "kita...",
+     "start": 0.383,
+     "end": 0.848
+    },
+    {
+     "text": "jadi",
+     "start": 0.964,
+     "end": 1.138
+    },
+    {
+     "text": "SARANG",
+     "start": 1.173,
+     "end": 1.44
+    },
+    {
+     "text": "BAYI?!",
+     "start": 1.498,
+     "end": 1.904
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Hari ini, dua komentar menyelesaikan misteri sandal!",
+   "hash": "833f4d264e99",
+   "duration": 5.526,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.557
+    },
+    {
+     "text": "diatur",
+     "start": 0.604,
+     "end": 0.917
+    },
+    {
+     "text": "komentar",
+     "start": 0.964,
+     "end": 1.324
+    },
+    {
+     "text": "kalian.",
+     "start": 1.37,
+     "end": 1.997
+    },
+    {
+     "text": "Hari",
+     "start": 2.206,
+     "end": 2.438
+    },
+    {
+     "text": "ini,",
+     "start": 2.496,
+     "end": 2.937
+    },
+    {
+     "text": "dua",
+     "start": 3.053,
+     "end": 3.274
+    },
+    {
+     "text": "komentar",
+     "start": 3.32,
+     "end": 3.727
+    },
+    {
+     "text": "menyelesaikan",
+     "start": 3.773,
+     "end": 4.342
+    },
+    {
+     "text": "misteri",
+     "start": 4.4,
+     "end": 4.702
+    },
+    {
+     "text": "sandal!",
+     "start": 4.748,
+     "end": 5.526
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Kemarin, kamera jaga malam menangkap pencurinya: burung camar.",
+   "hash": "4545dd46d589",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Kemarin,",
+     "start": 0,
+     "end": 0.662
+    },
+    {
+     "text": "kamera",
+     "start": 0.778,
+     "end": 1.126
+    },
+    {
+     "text": "jaga",
+     "start": 1.196,
+     "end": 1.416
+    },
+    {
+     "text": "malam",
+     "start": 1.463,
+     "end": 1.718
+    },
+    {
+     "text": "menangkap",
+     "start": 1.741,
+     "end": 2.148
+    },
+    {
+     "text": "pencurinya:",
+     "start": 2.171,
+     "end": 2.879
+    },
+    {
+     "text": "burung",
+     "start": 3.32,
+     "end": 3.587
+    },
+    {
+     "text": "camar.",
+     "start": 3.634,
+     "end": 4.458
+    }
+   ]
+  },
+  "l1": {
+   "who": "alexandre",
+   "text": "Serahkan padaku! Aku naik!",
+   "hash": "a76d2b181456",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Serahkan",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "padaku!",
+     "start": 0.488,
+     "end": 0.871
+    },
+    {
+     "text": "Aku",
+     "start": 0.906,
+     "end": 1.08
+    },
+    {
+     "text": "naik!",
+     "start": 1.138,
+     "end": 1.718
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Ternyata, delapan sandal itu disusun jadi sarang. Isinya... tiga bayi camar!",
+   "hash": "c0ab9a83e506",
+   "duration": 5.155,
+   "words": [
+    {
+     "text": "Ternyata,",
+     "start": 0,
+     "end": 0.65
+    },
+    {
+     "text": "delapan",
+     "start": 0.72,
+     "end": 1.08
+    },
+    {
+     "text": "sandal",
+     "start": 1.126,
+     "end": 1.382
+    },
+    {
+     "text": "itu",
+     "start": 1.44,
+     "end": 1.602
+    },
+    {
+     "text": "disusun",
+     "start": 1.649,
+     "end": 1.974
+    },
+    {
+     "text": "jadi",
+     "start": 2.032,
+     "end": 2.206
+    },
+    {
+     "text": "sarang.",
+     "start": 2.252,
+     "end": 2.798
+    },
+    {
+     "text": "Isinya...",
+     "start": 3.042,
+     "end": 3.715
+    },
+    {
+     "text": "tiga",
+     "start": 3.738,
+     "end": 4.087
+    },
+    {
+     "text": "bayi",
+     "start": 4.145,
+     "end": 4.354
+    },
+    {
+     "text": "camar!",
+     "start": 4.412,
+     "end": 5.155
+    }
+   ]
+  },
+  "i1": {
+   "who": "aidil",
+   "text": "Hiks... indah banget.",
+   "hash": "dea55c68030b",
+   "duration": 1.95,
+   "words": [
+    {
+     "text": "Hiks...",
+     "start": 0,
+     "end": 0.673
+    },
+    {
+     "text": "indah",
+     "start": 0.998,
+     "end": 1.312
+    },
+    {
+     "text": "banget.",
+     "start": 1.358,
+     "end": 1.95
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Tapi warga butuh sandal. Dan camar butuh rumah.",
+   "hash": "9aa10ebf70ba",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "warga",
+     "start": 0.372,
+     "end": 0.604
+    },
+    {
+     "text": "butuh",
+     "start": 0.65,
+     "end": 0.871
+    },
+    {
+     "text": "sandal.",
+     "start": 0.894,
+     "end": 1.312
+    },
+    {
+     "text": "Dan",
+     "start": 1.486,
+     "end": 1.649
+    },
+    {
+     "text": "camar",
+     "start": 1.718,
+     "end": 1.985
+    },
+    {
+     "text": "butuh",
+     "start": 2.043,
+     "end": 2.252
+    },
+    {
+     "text": "rumah.",
+     "start": 2.276,
+     "end": 2.647
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Komentar pertama, dari Alexander: minta taman. Jadi!",
+   "hash": "afb584531250",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "pertama,",
+     "start": 0.534,
+     "end": 1.057
+    },
+    {
+     "text": "dari",
+     "start": 1.173,
+     "end": 1.382
+    },
+    {
+     "text": "Alexander:",
+     "start": 1.428,
+     "end": 2.125
+    },
+    {
+     "text": "minta",
+     "start": 2.566,
+     "end": 2.856
+    },
+    {
+     "text": "taman.",
+     "start": 2.914,
+     "end": 3.471
+    },
+    {
+     "text": "Jadi!",
+     "start": 3.913,
+     "end": 4.876
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Di tengah taman, Rumah Camar. Keluarga camar pindah, sandal pulang!",
+   "hash": "51adf9f68bd1",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "tengah",
+     "start": 0.209,
+     "end": 0.395
+    },
+    {
+     "text": "taman,",
+     "start": 0.441,
+     "end": 0.917
+    },
+    {
+     "text": "Rumah",
+     "start": 1.01,
+     "end": 1.277
+    },
+    {
+     "text": "Camar.",
+     "start": 1.324,
+     "end": 1.834
+    },
+    {
+     "text": "Keluarga",
+     "start": 1.985,
+     "end": 2.38
+    },
+    {
+     "text": "camar",
+     "start": 2.415,
+     "end": 2.647
+    },
+    {
+     "text": "pindah,",
+     "start": 2.694,
+     "end": 3.1
+    },
+    {
+     "text": "sandal",
+     "start": 3.193,
+     "end": 3.518
+    },
+    {
+     "text": "pulang!",
+     "start": 3.576,
+     "end": 4.458
+    }
+   ]
+  },
+  "z1": {
+   "who": "zidan",
+   "text": "Sandal siapa ini? Ambil satu-satu ya, kak!",
+   "hash": "3f364ea23900",
+   "duration": 3.251,
+   "words": [
+    {
+     "text": "Sandal",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "siapa",
+     "start": 0.511,
+     "end": 0.871
+    },
+    {
+     "text": "ini?",
+     "start": 0.906,
+     "end": 1.324
+    },
+    {
+     "text": "Ambil",
+     "start": 1.474,
+     "end": 1.8
+    },
+    {
+     "text": "satu-satu",
+     "start": 1.858,
+     "end": 2.368
+    },
+    {
+     "text": "ya,",
+     "start": 2.45,
+     "end": 2.543
+    },
+    {
+     "text": "kak!",
+     "start": 2.577,
+     "end": 3.251
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Komentar kedua, dari Sanel: rumah di pantai. Jadi juga!",
+   "hash": "95c265ad6f7e",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "kedua,",
+     "start": 0.499,
+     "end": 1.033
+    },
+    {
+     "text": "dari",
+     "start": 1.149,
+     "end": 1.393
+    },
+    {
+     "text": "Sanel:",
+     "start": 1.451,
+     "end": 1.997
+    },
+    {
+     "text": "rumah",
+     "start": 2.438,
+     "end": 2.728
+    },
+    {
+     "text": "di",
+     "start": 2.775,
+     "end": 2.844
+    },
+    {
+     "text": "pantai.",
+     "start": 2.891,
+     "end": 3.425
+    },
+    {
+     "text": "Jadi",
+     "start": 3.866,
+     "end": 4.087
+    },
+    {
+     "text": "juga!",
+     "start": 4.145,
+     "end": 4.876
+    }
+   ]
+  },
+  "s1": {
+   "who": "senar",
+   "text": "Lagu syukuran rumah baru! Jreng... eh, senarnya putus lagi.",
+   "hash": "eea588e1de34",
+   "duration": 5.201,
+   "words": [
+    {
+     "text": "Lagu",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "syukuran",
+     "start": 0.36,
+     "end": 0.72
+    },
+    {
+     "text": "rumah",
+     "start": 0.789,
+     "end": 1.057
+    },
+    {
+     "text": "baru!",
+     "start": 1.115,
+     "end": 1.707
+    },
+    {
+     "text": "Jreng...",
+     "start": 2.403,
+     "end": 2.937
+    },
+    {
+     "text": "eh,",
+     "start": 3.541,
+     "end": 3.715
+    },
+    {
+     "text": "senarnya",
+     "start": 3.889,
+     "end": 4.296
+    },
+    {
+     "text": "putus",
+     "start": 4.342,
+     "end": 4.586
+    },
+    {
+     "text": "lagi.",
+     "start": 4.621,
+     "end": 5.201
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Sandalku? Biar jadi selimut bayi camar aja.",
+   "hash": "1fc04a51103b",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Sandalku?",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "Biar",
+     "start": 0.72,
+     "end": 0.906
+    },
+    {
+     "text": "jadi",
+     "start": 0.975,
+     "end": 1.126
+    },
+    {
+     "text": "selimut",
+     "start": 1.161,
+     "end": 1.428
+    },
+    {
+     "text": "bayi",
+     "start": 1.474,
+     "end": 1.579
+    },
+    {
+     "text": "camar",
+     "start": 1.614,
+     "end": 1.858
+    },
+    {
+     "text": "aja.",
+     "start": 1.892,
+     "end": 2.508
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Tiga bayi camar belum punya nama. Kasih nama di komentar!",
+   "hash": "e1c02381027c",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "bayi",
+     "start": 0.313,
+     "end": 0.476
+    },
+    {
+     "text": "camar",
+     "start": 0.522,
+     "end": 0.813
+    },
+    {
+     "text": "belum",
+     "start": 0.871,
+     "end": 1.033
+    },
+    {
+     "text": "punya",
+     "start": 1.068,
+     "end": 1.254
+    },
+    {
+     "text": "nama.",
+     "start": 1.3,
+     "end": 1.741
+    },
+    {
+     "text": "Kasih",
+     "start": 1.985,
+     "end": 2.322
+    },
+    {
+     "text": "nama",
+     "start": 2.345,
+     "end": 2.577
+    },
+    {
+     "text": "di",
+     "start": 2.624,
+     "end": 2.694
+    },
+    {
+     "text": "komentar!",
+     "start": 2.728,
+     "end": 3.622
+    }
+   ]
+  }
+ }
+}
