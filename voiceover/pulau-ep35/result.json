@@ -1,0 +1,604 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "revan": "RWiGLY9uXI70QL540WNd",
+  "pilot": "RWiGLY9uXI70QL540WNd",
+  "lala": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "lines": {
+  "x1": {
+   "who": "aru",
+   "text": "Satu komentar mau jadi pilot... kami bikinin BANDARA!",
+   "hash": "9aca571daf6e",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "komentar",
+     "start": 0.29,
+     "end": 0.639
+    },
+    {
+     "text": "mau",
+     "start": 0.685,
+     "end": 0.778
+    },
+    {
+     "text": "jadi",
+     "start": 0.813,
+     "end": 0.952
+    },
+    {
+     "text": "pilot...",
+     "start": 0.998,
+     "end": 1.324
+    },
+    {
+     "text": "kami",
+     "start": 1.44,
+     "end": 1.683
+    },
+    {
+     "text": "bikinin",
+     "start": 1.73,
+     "end": 2.009
+    },
+    {
+     "text": "BANDARA!",
+     "start": 2.101,
+     "end": 2.972
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga.",
+   "hash": "29382b4d4bfc",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ini",
+     "start": 0.383,
+     "end": 0.534
+    },
+    {
+     "text": "diatur",
+     "start": 0.58,
+     "end": 0.871
+    },
+    {
+     "text": "komentar",
+     "start": 0.917,
+     "end": 1.265
+    },
+    {
+     "text": "kalian.",
+     "start": 1.324,
+     "end": 1.916
+    },
+    {
+     "text": "Follow,",
+     "start": 2.159,
+     "end": 2.67
+    },
+    {
+     "text": "kamu",
+     "start": 2.752,
+     "end": 3.019
+    },
+    {
+     "text": "jadi",
+     "start": 3.077,
+     "end": 3.228
+    },
+    {
+     "text": "warga.",
+     "start": 3.274,
+     "end": 3.947
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Hari ini, dua komentar terpilih!",
+   "hash": "25d5f7d3383f",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Hari",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "ini,",
+     "start": 0.279,
+     "end": 0.627
+    },
+    {
+     "text": "dua",
+     "start": 0.673,
+     "end": 0.894
+    },
+    {
+     "text": "komentar",
+     "start": 0.94,
+     "end": 1.324
+    },
+    {
+     "text": "terpilih!",
+     "start": 1.382,
+     "end": 2.136
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Pilot butuh pesawat. Pesawat butuh... landasan!",
+   "hash": "77670d91c9ac",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Pilot",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "butuh",
+     "start": 0.36,
+     "end": 0.557
+    },
+    {
+     "text": "pesawat.",
+     "start": 0.58,
+     "end": 1.033
+    },
+    {
+     "text": "Pesawat",
+     "start": 1.068,
+     "end": 1.428
+    },
+    {
+     "text": "butuh...",
+     "start": 1.474,
+     "end": 1.881
+    },
+    {
+     "text": "landasan!",
+     "start": 2.322,
+     "end": 2.972
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Jadilah Bandara Pulau Aru. Ada landasan, menara, dan satu pesawat kecil.",
+   "hash": "3b228a2945c4",
+   "duration": 5.526,
+   "words": [
+    {
+     "text": "Jadilah",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "Bandara",
+     "start": 0.476,
+     "end": 0.836
+    },
+    {
+     "text": "Pulau",
+     "start": 0.882,
+     "end": 1.103
+    },
+    {
+     "text": "Aru.",
+     "start": 1.161,
+     "end": 1.591
+    },
+    {
+     "text": "Ada",
+     "start": 1.974,
+     "end": 2.194
+    },
+    {
+     "text": "landasan,",
+     "start": 2.241,
+     "end": 2.961
+    },
+    {
+     "text": "menara,",
+     "start": 3.077,
+     "end": 3.657
+    },
+    {
+     "text": "dan",
+     "start": 3.773,
+     "end": 3.924
+    },
+    {
+     "text": "satu",
+     "start": 3.982,
+     "end": 4.214
+    },
+    {
+     "text": "pesawat",
+     "start": 4.261,
+     "end": 4.574
+    },
+    {
+     "text": "kecil.",
+     "start": 4.621,
+     "end": 5.526
+    }
+   ]
+  },
+  "r1": {
+   "who": "revan",
+   "text": "Namaku... Revan. Penumpang pertama.",
+   "hash": "578276486fb6",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Namaku...",
+     "start": 0,
+     "end": 0.801
+    },
+    {
+     "text": "Revan.",
+     "start": 1.242,
+     "end": 1.858
+    },
+    {
+     "text": "Penumpang",
+     "start": 2.032,
+     "end": 2.45
+    },
+    {
+     "text": "pertama.",
+     "start": 2.485,
+     "end": 3.344
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan pilot pertamanya: salman ajalah tiga!",
+   "hash": "02a3ec65a0e0",
+   "duration": 3.158,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "pilot",
+     "start": 0.267,
+     "end": 0.522
+    },
+    {
+     "text": "pertamanya:",
+     "start": 0.569,
+     "end": 1.242
+    },
+    {
+     "text": "salman",
+     "start": 1.451,
+     "end": 1.834
+    },
+    {
+     "text": "ajalah",
+     "start": 1.881,
+     "end": 2.183
+    },
+    {
+     "text": "tiga!",
+     "start": 2.218,
+     "end": 3.158
+    }
+   ]
+  },
+  "p1": {
+   "who": "pilot",
+   "text": "Penumpang, pasang sabuk pengaman! Kita terbang!",
+   "hash": "b01481dce33e",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Penumpang,",
+     "start": 0,
+     "end": 0.836
+    },
+    {
+     "text": "pasang",
+     "start": 1.01,
+     "end": 1.3
+    },
+    {
+     "text": "sabuk",
+     "start": 1.347,
+     "end": 1.579
+    },
+    {
+     "text": "pengaman!",
+     "start": 1.614,
+     "end": 2.264
+    },
+    {
+     "text": "Kita",
+     "start": 2.38,
+     "end": 2.635
+    },
+    {
+     "text": "terbang!",
+     "start": 2.682,
+     "end": 3.669
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Terbaaang! Pulau kita punya pesawat!",
+   "hash": "4b2ade9e0ffd",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "Terbaaang!",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "Pulau",
+     "start": 0.557,
+     "end": 0.801
+    },
+    {
+     "text": "kita",
+     "start": 0.824,
+     "end": 0.987
+    },
+    {
+     "text": "punya",
+     "start": 1.022,
+     "end": 1.196
+    },
+    {
+     "text": "pesawat!",
+     "start": 1.231,
+     "end": 1.904
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Spanduknya bilang: besok, pemilu presiden pulau!",
+   "hash": "c2dac14d78cf",
+   "duration": 4.133,
+   "words": [
+    {
+     "text": "Spanduknya",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "bilang:",
+     "start": 0.592,
+     "end": 1.08
+    },
+    {
+     "text": "besok,",
+     "start": 1.521,
+     "end": 2.067
+    },
+    {
+     "text": "pemilu",
+     "start": 2.09,
+     "end": 2.473
+    },
+    {
+     "text": "presiden",
+     "start": 2.519,
+     "end": 2.926
+    },
+    {
+     "text": "pulau!",
+     "start": 2.984,
+     "end": 4.133
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Komentar kedua: tambah rumah buat makanan.",
+   "hash": "22c13a932abd",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "kedua:",
+     "start": 0.488,
+     "end": 0.975
+    },
+    {
+     "text": "tambah",
+     "start": 1.126,
+     "end": 1.416
+    },
+    {
+     "text": "rumah",
+     "start": 1.451,
+     "end": 1.649
+    },
+    {
+     "text": "buat",
+     "start": 1.695,
+     "end": 1.834
+    },
+    {
+     "text": "makanan.",
+     "start": 1.881,
+     "end": 2.74
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Rumah... buat makanan? Ya udah, makanannya kita kasih kamar!",
+   "hash": "eb1ff7123802",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Rumah...",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "buat",
+     "start": 0.65,
+     "end": 0.836
+    },
+    {
+     "text": "makanan?",
+     "start": 0.894,
+     "end": 1.428
+    },
+    {
+     "text": "Ya",
+     "start": 1.637,
+     "end": 1.846
+    },
+    {
+     "text": "udah,",
+     "start": 1.916,
+     "end": 2.194
+    },
+    {
+     "text": "makanannya",
+     "start": 2.229,
+     "end": 2.67
+    },
+    {
+     "text": "kita",
+     "start": 2.705,
+     "end": 2.891
+    },
+    {
+     "text": "kasih",
+     "start": 2.937,
+     "end": 3.216
+    },
+    {
+     "text": "kamar!",
+     "start": 3.239,
+     "end": 3.947
+    }
+   ]
+  },
+  "l1": {
+   "who": "lala",
+   "text": "Rumah makan buka! Mau kue? Semangaaat!",
+   "hash": "ac112ddd8ccc",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Rumah",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "makan",
+     "start": 0.325,
+     "end": 0.569
+    },
+    {
+     "text": "buka!",
+     "start": 0.615,
+     "end": 1.045
+    },
+    {
+     "text": "Mau",
+     "start": 1.219,
+     "end": 1.37
+    },
+    {
+     "text": "kue?",
+     "start": 1.416,
+     "end": 1.776
+    },
+    {
+     "text": "Semangaaat!",
+     "start": 1.985,
+     "end": 2.972
+    }
+   ]
+  },
+  "a4": {
+   "who": "aru",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur.",
+   "hash": "d02d3fb00671",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "namamu",
+     "start": 0.522,
+     "end": 0.894
+    },
+    {
+     "text": "jadi",
+     "start": 0.952,
+     "end": 1.091
+    },
+    {
+     "text": "warga.",
+     "start": 1.138,
+     "end": 1.544
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.788,
+     "end": 2.415
+    },
+    {
+     "text": "ceritanya",
+     "start": 2.45,
+     "end": 2.914
+    },
+    {
+     "text": "kamu",
+     "start": 2.972,
+     "end": 3.274
+    },
+    {
+     "text": "yang",
+     "start": 3.344,
+     "end": 3.471
+    },
+    {
+     "text": "atur.",
+     "start": 3.564,
+     "end": 4.319
+    }
+   ]
+  }
+ }
+}
