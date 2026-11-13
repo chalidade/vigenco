@@ -1,0 +1,111 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "id",
+ "useLibrary": false,
+ "voices": {
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "alexandre": "RWiGLY9uXI70QL540WNd",
+  "aidil": "RWiGLY9uXI70QL540WNd",
+  "zidan": "RWiGLY9uXI70QL540WNd",
+  "senar": "RWiGLY9uXI70QL540WNd"
+ },
+ "settings": {
+  "narrator": {
+   "stability": 0.55,
+   "style": 0.25
+  },
+  "aru": {
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "alexandre": {
+   "stability": 0.35,
+   "style": 0.6
+  },
+  "aidil": {
+   "stability": 0.3,
+   "style": 0.7
+  },
+  "zidan": {
+   "stability": 0.45,
+   "style": 0.5
+  },
+  "senar": {
+   "stability": 0.3,
+   "style": 0.65
+  }
+ },
+ "lines": [
+  {
+   "id": "x1",
+   "who": "aru",
+   "text": "Sandal kita... jadi SARANG BAYI?!"
+  },
+  {
+   "id": "n1",
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Hari ini, dua komentar menyelesaikan misteri sandal!"
+  },
+  {
+   "id": "n2",
+   "who": "narrator",
+   "text": "Kemarin, kamera jaga malam menangkap pencurinya: burung camar."
+  },
+  {
+   "id": "l1",
+   "who": "alexandre",
+   "text": "Serahkan padaku! Aku naik!"
+  },
+  {
+   "id": "n3",
+   "who": "narrator",
+   "text": "Ternyata, delapan sandal itu disusun jadi sarang. Isinya... tiga bayi camar!"
+  },
+  {
+   "id": "i1",
+   "who": "aidil",
+   "text": "Hiks... indah banget."
+  },
+  {
+   "id": "a1",
+   "who": "aru",
+   "text": "Tapi warga butuh sandal. Dan camar butuh rumah."
+  },
+  {
+   "id": "n4",
+   "who": "narrator",
+   "text": "Komentar pertama, dari Alexander: minta taman. Jadi!"
+  },
+  {
+   "id": "n5",
+   "who": "narrator",
+   "text": "Di tengah taman, Rumah Camar. Keluarga camar pindah, sandal pulang!"
+  },
+  {
+   "id": "z1",
+   "who": "zidan",
+   "text": "Sandal siapa ini? Ambil satu-satu ya, kak!"
+  },
+  {
+   "id": "n6",
+   "who": "narrator",
+   "text": "Komentar kedua, dari Sanel: rumah di pantai. Jadi juga!"
+  },
+  {
+   "id": "s1",
+   "who": "senar",
+   "text": "Lagu syukuran rumah baru! Jreng... eh, senarnya putus lagi."
+  },
+  {
+   "id": "a2",
+   "who": "aru",
+   "text": "Sandalku? Biar jadi selimut bayi camar aja."
+  },
+  {
+   "id": "n7",
+   "who": "narrator",
+   "text": "Tiga bayi camar belum punya nama. Kasih nama di komentar!"
+  }
+ ]
+}
