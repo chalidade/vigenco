@@ -70,12 +70,12 @@
     {
       "id": "n2",
       "who": "narrator",
-      "text": "Dan hari ini... debat calon presiden, dari komentar!"
+      "text": "Hari ini: debat calon presiden!"
     },
     {
       "id": "k1",
       "who": "keeper",
-      "text": "Masa jabatan presiden habis hari ini. Sembilan calon sudah mendaftar."
+      "text": "Masa jabatan presiden habis hari ini."
     },
     {
       "id": "g1",
@@ -85,7 +85,7 @@
     {
       "id": "n3",
       "who": "narrator",
-      "text": "Ada yang janji sejahtera, hapus korupsi... ada juga yang cuma bilang: aku calon."
+      "text": "Sembilan calon. Ada yang janji sejahtera... ada yang cuma bilang: aku calon."
     },
     {
       "id": "n4",
