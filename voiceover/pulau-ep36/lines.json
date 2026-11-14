@@ -1,0 +1,141 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "ega": "plgKUYgnlZ1DCNh54DwJ",
+    "hafidz": "RWiGLY9uXI70QL540WNd",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "etet": "RWiGLY9uXI70QL540WNd",
+    "alif": "RWiGLY9uXI70QL540WNd",
+    "gina": "iWydkXKoiVtvdn4vLKp9",
+    "nova": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "aru": {
+      "stability": 0.35,
+      "style": 0.5
+    },
+    "ega": {
+      "stability": 0.3,
+      "style": 0.6
+    },
+    "hafidz": {
+      "stability": 0.35,
+      "style": 0.65
+    },
+    "keeper": {
+      "stability": 0.6,
+      "style": 0.2
+    },
+    "etet": {
+      "stability": 0.35,
+      "style": 0.6
+    },
+    "alif": {
+      "stability": 0.45,
+      "style": 0.4
+    },
+    "gina": {
+      "stability": 0.4,
+      "style": 0.55
+    },
+    "nova": {
+      "stability": 0.4,
+      "style": 0.5
+    }
+  },
+  "lines": [
+    {
+      "id": "h1",
+      "who": "hafidz",
+      "text": "Kalau aku presiden: tidak ada bullying. Tidak ada KORUPSI!"
+    },
+    {
+      "id": "e1",
+      "who": "ega",
+      "text": "Eh... lima koin kemarin... itu korupsi bukan?"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Dan hari ini... debat calon presiden, dari komentar!"
+    },
+    {
+      "id": "k1",
+      "who": "keeper",
+      "text": "Masa jabatan presiden habis hari ini. Sembilan calon sudah mendaftar."
+    },
+    {
+      "id": "g1",
+      "who": "gina",
+      "text": "Debat dimulai! Satu calon, satu janji. Jangan nyontek!"
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Ada yang janji sejahtera, hapus korupsi... ada juga yang cuma bilang: aku calon."
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Janji Hafidz langsung jadi spanduk: pulau tanpa bullying!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Calon rizyanzet janji: patung presiden pertama!"
+    },
+    {
+      "id": "t1",
+      "who": "etet",
+      "text": "Patung... aku? Aku terharu."
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Kalau dia menang."
+    },
+    {
+      "id": "t2",
+      "who": "etet",
+      "text": "...Oh."
+    },
+    {
+      "id": "l1",
+      "who": "alif",
+      "text": "Aku nggak nyalon. Aku warga biasa."
+    },
+    {
+      "id": "v1",
+      "who": "nova",
+      "text": "Aku lebih biasa."
+    },
+    {
+      "id": "e2",
+      "who": "ega",
+      "text": "Pilih aku lagi! Lima koinnya... aku kembalikan. Besok."
+    },
+    {
+      "id": "a1",
+      "who": "aru",
+      "text": "Like kalian lagi dihitung. Hasilnya... episode berikutnya!"
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Calon favoritmu siapa? Komentar namanya!"
+    }
+  ]
+}
