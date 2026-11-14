@@ -163,77 +163,62 @@
   },
   "n2": {
    "who": "narrator",
-   "text": "Dan hari ini... debat calon presiden, dari komentar!",
-   "hash": "941d3c3e3d30",
-   "duration": 4.226,
+   "text": "Hari ini: debat calon presiden!",
+   "hash": "0a182e86d78b",
+   "duration": 2.368,
    "words": [
     {
-     "text": "Dan",
+     "text": "Hari",
      "start": 0,
-     "end": 0.186
+     "end": 0.255
     },
     {
-     "text": "hari",
-     "start": 0.255,
-     "end": 0.441
-    },
-    {
-     "text": "ini...",
-     "start": 0.499,
-     "end": 1.022
+     "text": "ini:",
+     "start": 0.302,
+     "end": 0.708
     },
     {
      "text": "debat",
-     "start": 1.347,
-     "end": 1.672
+     "start": 0.824,
+     "end": 1.138
     },
     {
      "text": "calon",
-     "start": 1.718,
-     "end": 1.997
+     "start": 1.196,
+     "end": 1.451
     },
     {
-     "text": "presiden,",
-     "start": 2.043,
-     "end": 2.717
-    },
-    {
-     "text": "dari",
-     "start": 2.961,
-     "end": 3.193
-    },
-    {
-     "text": "komentar!",
-     "start": 3.239,
-     "end": 4.226
+     "text": "presiden!",
+     "start": 1.509,
+     "end": 2.368
     }
    ]
   },
   "k1": {
    "who": "keeper",
-   "text": "Masa jabatan presiden habis hari ini. Sembilan calon sudah mendaftar.",
-   "hash": "b8a1aa666257",
-   "duration": 4.876,
+   "text": "Masa jabatan presiden habis hari ini.",
+   "hash": "c0f468c542ac",
+   "duration": 2.601,
    "words": [
     {
      "text": "Masa",
      "start": 0,
-     "end": 0.383
+     "end": 0.372
     },
     {
      "text": "jabatan",
-     "start": 0.453,
-     "end": 0.848
+     "start": 0.43,
+     "end": 0.859
     },
     {
      "text": "presiden",
-     "start": 0.917,
-     "end": 1.347
+     "start": 0.929,
+     "end": 1.335
     },
     {
      "text": "habis",
-     "start": 1.428,
-     "end": 1.707
+     "start": 1.416,
+     "end": 1.695
     },
     {
      "text": "hari",
@@ -242,28 +227,8 @@
     },
     {
      "text": "ini.",
-     "start": 1.997,
-     "end": 2.473
-    },
-    {
-     "text": "Sembilan",
-     "start": 2.752,
-     "end": 3.181
-    },
-    {
-     "text": "calon",
-     "start": 3.251,
-     "end": 3.553
-    },
-    {
-     "text": "sudah",
-     "start": 3.599,
-     "end": 3.843
-    },
-    {
-     "text": "mendaftar.",
-     "start": 3.878,
-     "end": 4.876
+     "start": 1.985,
+     "end": 2.601
     }
    ]
   },
@@ -317,74 +282,69 @@
   },
   "n3": {
    "who": "narrator",
-   "text": "Ada yang janji sejahtera, hapus korupsi... ada juga yang cuma bilang: aku calon.",
-   "hash": "6528548153f1",
-   "duration": 5.944,
+   "text": "Sembilan calon. Ada yang janji sejahtera... ada yang cuma bilang: aku calon.",
+   "hash": "b662ac763e18",
+   "duration": 5.248,
    "words": [
     {
-     "text": "Ada",
+     "text": "Sembilan",
      "start": 0,
-     "end": 0.279
-    },
-    {
-     "text": "yang",
-     "start": 0.313,
      "end": 0.453
     },
     {
-     "text": "janji",
+     "text": "calon.",
      "start": 0.499,
-     "end": 0.72
+     "end": 0.987
     },
     {
-     "text": "sejahtera,",
-     "start": 0.766,
-     "end": 1.474
-    },
-    {
-     "text": "hapus",
-     "start": 1.544,
-     "end": 1.858
-    },
-    {
-     "text": "korupsi...",
-     "start": 1.927,
-     "end": 2.67
-    },
-    {
-     "text": "ada",
-     "start": 2.949,
-     "end": 3.158
-    },
-    {
-     "text": "juga",
-     "start": 3.204,
-     "end": 3.413
+     "text": "Ada",
+     "start": 1.312,
+     "end": 1.521
     },
     {
      "text": "yang",
-     "start": 3.448,
-     "end": 3.564
+     "start": 1.544,
+     "end": 1.672
+    },
+    {
+     "text": "janji",
+     "start": 1.718,
+     "end": 1.939
+    },
+    {
+     "text": "sejahtera...",
+     "start": 1.985,
+     "end": 2.705
+    },
+    {
+     "text": "ada",
+     "start": 2.856,
+     "end": 3.053
+    },
+    {
+     "text": "yang",
+     "start": 3.088,
+     "end": 3.193
     },
     {
      "text": "cuma",
-     "start": 3.611,
-     "end": 3.785
+     "start": 3.228,
+     "end": 3.425
     },
     {
      "text": "bilang:",
-     "start": 3.831,
-     "end": 4.272
+     "start": 3.471,
+     "end": 3.889
     },
     {
      "text": "aku",
-     "start": 4.714,
-     "end": 4.957
+     "start": 4.005,
+     "end": 4.238
     },
     {
      "text": "calon.",
-     "start": 5.004,
-     "end": 5.944
+     "start": 4.296,
+     "end": 5.248
     }
    ]
   },
