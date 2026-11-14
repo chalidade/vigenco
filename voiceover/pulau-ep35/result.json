@@ -380,41 +380,89 @@
     }
    ]
   },
+  "r2": {
+   "who": "revan",
+   "text": "Dari atas... pulau kita kelihatan kayak kue!",
+   "hash": "3bf5e0b0ffa1",
+   "duration": 3.762,
+   "words": [
+    {
+     "text": "Dari",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "atas...",
+     "start": 0.325,
+     "end": 1.149
+    },
+    {
+     "text": "pulau",
+     "start": 1.428,
+     "end": 1.718
+    },
+    {
+     "text": "kita",
+     "start": 1.753,
+     "end": 1.962
+    },
+    {
+     "text": "kelihatan",
+     "start": 2.009,
+     "end": 2.392
+    },
+    {
+     "text": "kayak",
+     "start": 2.45,
+     "end": 2.705
+    },
+    {
+     "text": "kue!",
+     "start": 2.728,
+     "end": 3.762
+    }
+   ]
+  },
   "n5": {
    "who": "narrator",
-   "text": "Spanduknya bilang: besok, pemilu presiden pulau!",
-   "hash": "c2dac14d78cf",
-   "duration": 4.133,
+   "text": "Spanduknya bilang: sebentar lagi, pemilu presiden pulau!",
+   "hash": "e5b4e32c7ea8",
+   "duration": 4.226,
    "words": [
     {
      "text": "Spanduknya",
      "start": 0,
-     "end": 0.546
+     "end": 0.569
     },
     {
      "text": "bilang:",
-     "start": 0.592,
-     "end": 1.08
+     "start": 0.615,
+     "end": 1.057
     },
     {
-     "text": "besok,",
-     "start": 1.521,
-     "end": 2.067
+     "text": "sebentar",
+     "start": 1.265,
+     "end": 1.683
+    },
+    {
+     "text": "lagi,",
+     "start": 1.741,
+     "end": 2.218
     },
     {
      "text": "pemilu",
-     "start": 2.09,
-     "end": 2.473
+     "start": 2.334,
+     "end": 2.728
     },
     {
      "text": "presiden",
-     "start": 2.519,
-     "end": 2.926
+     "start": 2.775,
+     "end": 3.181
     },
     {
      "text": "pulau!",
-     "start": 2.984,
-     "end": 4.133
+     "start": 3.239,
+     "end": 4.226
     }
    ]
   },

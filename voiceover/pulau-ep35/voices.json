@@ -4,12 +4,12 @@
   "name": "Roger - Laid-Back, Casual, Resonant",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "classy",
    "use_case": "conversational",
    "gender": "male",
-   "descriptive": "classy",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "Easy going and perfect for casual conversations."
  },
@@ -18,12 +18,12 @@
   "name": "Sarah - Mature, Reassuring, Confident",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "professional",
    "use_case": "entertainment_tv",
    "gender": "female",
-   "descriptive": "professional",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "Young adult woman with a confident and warm, mature quality and a reassuring, professional tone."
  },
@@ -32,12 +32,12 @@
   "name": "Laura - Enthusiast, Quirky Attitude",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "sassy",
    "use_case": "social_media",
    "gender": "female",
-   "descriptive": "sassy",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "This young adult female voice delivers sunny enthusiasm with a quirky attitude."
  },
@@ -46,12 +46,12 @@
   "name": "Charlie - Deep, Confident, Energetic",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "australian",
+   "descriptive": "hyped",
    "use_case": "conversational",
    "gender": "male",
-   "descriptive": "hyped",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "australian"
   },
   "description": "A young Australian male with a confident and energetic voice."
  },
@@ -60,12 +60,12 @@
   "name": "George - Warm, Captivating Storyteller",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "british",
+   "descriptive": "mature",
    "use_case": "narrative_story",
    "gender": "male",
-   "descriptive": "mature",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "british"
   },
   "description": "Warm resonance that instantly captivates listeners."
  },
@@ -74,11 +74,11 @@
   "name": "Callum - Husky Trickster",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
    "use_case": "characters_animation",
    "gender": "male",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "Deceptively gravelly, yet unsettling edge."
  },
@@ -87,12 +87,12 @@
   "name": "River - Relaxed, Neutral, Informative",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "calm",
    "use_case": "conversational",
    "gender": "neutral",
-   "descriptive": "calm",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "A relaxed, neutral voice ready for narrations or conversational projects."
  },
@@ -101,12 +101,12 @@
   "name": "Harry - Fierce Warrior",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "rough",
    "use_case": "characters_animation",
    "gender": "male",
-   "descriptive": "rough",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "An animated warrior ready to charge forward."
  },
@@ -115,12 +115,12 @@
   "name": "Liam - Energetic, Social Media Creator",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "confident",
    "use_case": "social_media",
    "gender": "male",
-   "descriptive": "confident",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "A young adult with energy and warmth - suitable for reels and shorts."
  },
@@ -129,12 +129,12 @@
   "name": "Alice - Clear, Engaging Educator",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "british",
+   "descriptive": "professional",
    "use_case": "informative_educational",
    "gender": "female",
-   "descriptive": "professional",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "british"
   },
   "description": "Clear and engaging, friendly woman with a British accent suitable for e-learning."
  },
@@ -143,12 +143,12 @@
   "name": "Matilda - Knowledgable, Professional",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "upbeat",
    "use_case": "informative_educational",
    "gender": "female",
-   "descriptive": "upbeat",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "A professional woman with a pleasing alto pitch. Suitable for many use cases."
  },
@@ -157,12 +157,12 @@
   "name": "Will - Relaxed Optimist",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "chill",
    "use_case": "conversational",
    "gender": "male",
-   "descriptive": "chill",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "Conversational and laid back."
  },
@@ -171,12 +171,12 @@
   "name": "Jessica - Playful, Bright, Warm",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "cute",
    "use_case": "conversational",
    "gender": "female",
-   "descriptive": "cute",
-   "age": "young"
+   "language": "en",
+   "age": "young",
+   "accent": "american"
   },
   "description": "Young and popular, this playful American female voice is perfect for trendy content."
  },
@@ -185,12 +185,12 @@
   "name": "Eric - Smooth, Trustworthy",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "classy",
    "use_case": "conversational",
    "gender": "male",
-   "descriptive": "classy",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "A smooth tenor pitch from a man in his 40s - perfect for agentic use cases."
  },
@@ -199,12 +199,12 @@
   "name": "Bella - Professional, Bright, Warm",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "professional",
    "use_case": "informative_educational",
    "gender": "female",
-   "descriptive": "professional",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "This voice is warm, bright, and professional, characterized by a Standard American accent and a polished, narrative quality. It features a medium-high pitch with crisp diction and a deliberate, rhythmic pace that makes it highly intelligible and engaging for long-form listening."
  },
@@ -213,12 +213,12 @@
   "name": "Chris - Charming, Down-to-Earth",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "casual",
    "use_case": "conversational",
    "gender": "male",
-   "descriptive": "casual",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "Natural and real, this down-to-earth voice is great across many use-cases."
  },
@@ -227,12 +227,12 @@
   "name": "Brian - Deep, Resonant and Comforting",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "classy",
    "use_case": "social_media",
    "gender": "male",
-   "descriptive": "classy",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "Middle-aged man with a resonant and comforting tone. Great for narrations and advertisements."
  },
@@ -241,12 +241,12 @@
   "name": "Daniel - Steady Broadcaster",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "british",
+   "descriptive": "formal",
    "use_case": "informative_educational",
    "gender": "male",
-   "descriptive": "formal",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "british"
   },
   "description": "A strong voice perfect for delivering a professional broadcast or news story."
  },
@@ -255,12 +255,12 @@
   "name": "Lily - Velvety Actress",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "british",
+   "descriptive": "confident",
    "use_case": "informative_educational",
    "gender": "female",
-   "descriptive": "confident",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "british"
   },
   "description": "Velvety British female voice delivers news and narrations with warmth and clarity."
  },
@@ -269,11 +269,11 @@
   "name": "Adam - Dominant, Firm",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
    "use_case": "social_media",
    "gender": "male",
-   "age": "middle_aged"
+   "language": "en",
+   "age": "middle_aged",
+   "accent": "american"
   },
   "description": "A bright tenor pitch that immediately cuts through. The delivery is brash and openly confident, speaking with unwavering certainty and a slightly aggressive self-assurance."
  },
@@ -282,28 +282,14 @@
   "name": "Bill - Wise, Mature, Balanced",
   "category": "premade",
   "labels": {
-   "language": "en",
-   "accent": "american",
+   "descriptive": "crisp",
    "use_case": "advertisement",
    "gender": "male",
-   "descriptive": "crisp",
-   "age": "old"
+   "language": "en",
+   "age": "old",
+   "accent": "american"
   },
   "description": "Friendly and comforting voice ready to narrate your stories."
- },
- {
-  "id": "plgKUYgnlZ1DCNh54DwJ",
-  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
-  "category": "professional",
-  "labels": {
-   "gender": "male",
-   "language": "id",
-   "use_case": "social_media",
-   "accent": "standard",
-   "descriptive": "casual",
-   "age": "young"
-  },
-  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
  },
  {
   "id": "gmnazjXOFoOcWA59sd5m",
@@ -311,11 +297,11 @@
   "category": "professional",
   "labels": {
    "descriptive": "calm",
-   "use_case": "narrative_story",
-   "language": "id",
-   "accent": "standard",
    "gender": "female",
-   "age": "young"
+   "accent": "standard",
+   "language": "id",
+   "age": "young",
+   "use_case": "narrative_story"
   },
   "description": "A young, vibrant 17-year-old female voice, clear and expressive. Perfect for youth-centered content."
  },
@@ -325,11 +311,11 @@
   "category": "professional",
   "labels": {
    "descriptive": "cute",
-   "language": "id",
-   "use_case": "social_media",
-   "accent": "standard",
    "gender": "female",
-   "age": "young"
+   "accent": "standard",
+   "language": "id",
+   "age": "young",
+   "use_case": "social_media"
   },
   "description": "A trendy young Indonesian female voice, perfect for narration and social media with a fresh, engaging tone."
  },
@@ -339,13 +325,27 @@
   "category": "professional",
   "labels": {
    "descriptive": "cute",
-   "use_case": "narrative_story",
-   "language": "id",
-   "accent": "javanese",
    "gender": "female",
-   "age": "middle_aged"
+   "accent": "javanese",
+   "language": "id",
+   "age": "middle_aged",
+   "use_case": "narrative_story"
   },
   "description": "The voice that transforms words into unforgettable experiences. With a warm, expressive tone and a storytelling style that captivates hearts, Putri Maharani voice will brings your projects to life. Whether you’re crafting an enchanting children’s tale, an edge-of-your-seat audiobook, or an inspiring documentary, Putri Maharani voice connects with listeners on an emotional level. Putri Maharani ability to evoke emotion ensures your audience stays engaged and inspired."
+ },
+ {
+  "id": "plgKUYgnlZ1DCNh54DwJ",
+  "name": "Dakocan - Expressive, Cheerful and Clear (vigenco)",
+  "category": "professional",
+  "labels": {
+   "descriptive": "casual",
+   "gender": "male",
+   "accent": "standard",
+   "language": "id",
+   "age": "young",
+   "use_case": "social_media"
+  },
+  "description": "An Indonesian young adult male voice with casual tone. Applicable for podcast, casual voice over and storytelling. "
  },
  {
   "id": "RWiGLY9uXI70QL540WNd",
@@ -353,11 +353,11 @@
   "category": "professional",
   "labels": {
    "descriptive": "excited",
-   "use_case": "narrative_story",
-   "language": "id",
-   "accent": "standard",
    "gender": "male",
-   "age": "middle_aged"
+   "accent": "standard",
+   "language": "id",
+   "age": "middle_aged",
+   "use_case": "narrative_story"
   },
   "description": "A young Indonesian man with a fiery enthusiasm, to convey messages more clearly."
  }
