@@ -1,35 +1,111 @@
 {
- "model": "eleven_multilingual_v2",
- "language": "id",
- "useLibrary": false,
- "voices": {
-  "narrator": "gmnazjXOFoOcWA59sd5m",
-  "aru": "plgKUYgnlZ1DCNh54DwJ",
-  "revan": "RWiGLY9uXI70QL540WNd",
-  "pilot": "RWiGLY9uXI70QL540WNd",
-  "lala": "iWydkXKoiVtvdn4vLKp9"
- },
- "settings": {
-  "narrator": {"stability": 0.55, "style": 0.25},
-  "aru": {"stability": 0.35, "style": 0.5},
-  "revan": {"stability": 0.5, "style": 0.35},
-  "pilot": {"stability": 0.35, "style": 0.6},
-  "lala": {"stability": 0.3, "style": 0.7}
- },
- "lines": [
-  {"id": "x1", "who": "aru", "text": "Satu komentar mau jadi pilot... kami bikinin BANDARA!"},
-  {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga."},
-  {"id": "n2", "who": "narrator", "text": "Hari ini, dua komentar terpilih!"},
-  {"id": "a1", "who": "aru", "text": "Pilot butuh pesawat. Pesawat butuh... landasan!"},
-  {"id": "n3", "who": "narrator", "text": "Jadilah Bandara Pulau Aru. Ada landasan, menara, dan satu pesawat kecil."},
-  {"id": "r1", "who": "revan", "text": "Namaku... Revan. Penumpang pertama."},
-  {"id": "n4", "who": "narrator", "text": "Dan pilot pertamanya: salman ajalah tiga!"},
-  {"id": "p1", "who": "pilot", "text": "Penumpang, pasang sabuk pengaman! Kita terbang!"},
-  {"id": "a2", "who": "aru", "text": "Terbaaang! Pulau kita punya pesawat!"},
-  {"id": "n5", "who": "narrator", "text": "Spanduknya bilang: besok, pemilu presiden pulau!"},
-  {"id": "n6", "who": "narrator", "text": "Komentar kedua: tambah rumah buat makanan."},
-  {"id": "a3", "who": "aru", "text": "Rumah... buat makanan? Ya udah, makanannya kita kasih kamar!"},
-  {"id": "l1", "who": "lala", "text": "Rumah makan buka! Mau kue? Semangaaat!"},
-  {"id": "a4", "who": "aru", "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."}
- ]
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "revan": "RWiGLY9uXI70QL540WNd",
+    "pilot": "RWiGLY9uXI70QL540WNd",
+    "lala": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "aru": {
+      "stability": 0.35,
+      "style": 0.5
+    },
+    "revan": {
+      "stability": 0.5,
+      "style": 0.35
+    },
+    "pilot": {
+      "stability": 0.35,
+      "style": 0.6
+    },
+    "lala": {
+      "stability": 0.3,
+      "style": 0.7
+    }
+  },
+  "lines": [
+    {
+      "id": "x1",
+      "who": "aru",
+      "text": "Satu komentar mau jadi pilot... kami bikinin BANDARA!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Hari ini, dua komentar terpilih!"
+    },
+    {
+      "id": "a1",
+      "who": "aru",
+      "text": "Pilot butuh pesawat. Pesawat butuh... landasan!"
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Jadilah Bandara Pulau Aru. Ada landasan, menara, dan satu pesawat kecil."
+    },
+    {
+      "id": "r1",
+      "who": "revan",
+      "text": "Namaku... Revan. Penumpang pertama."
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Dan pilot pertamanya: salman ajalah tiga!"
+    },
+    {
+      "id": "p1",
+      "who": "pilot",
+      "text": "Penumpang, pasang sabuk pengaman! Kita terbang!"
+    },
+    {
+      "id": "a2",
+      "who": "aru",
+      "text": "Terbaaang! Pulau kita punya pesawat!"
+    },
+    {
+      "id": "r2",
+      "who": "revan",
+      "text": "Dari atas... pulau kita kelihatan kayak kue!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Spanduknya bilang: sebentar lagi, pemilu presiden pulau!"
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Komentar kedua: tambah rumah buat makanan."
+    },
+    {
+      "id": "a3",
+      "who": "aru",
+      "text": "Rumah... buat makanan? Ya udah, makanannya kita kasih kamar!"
+    },
+    {
+      "id": "l1",
+      "who": "lala",
+      "text": "Rumah makan buka! Mau kue? Semangaaat!"
+    },
+    {
+      "id": "a4",
+      "who": "aru",
+      "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+    }
+  ]
 }
