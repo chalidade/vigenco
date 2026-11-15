@@ -1,0 +1,759 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "kapten": "I7sakys8pBZ1Z5f0UhT9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "rayhan": "RWiGLY9uXI70QL540WNd",
+  "pramugari": "iWydkXKoiVtvdn4vLKp9",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "daby": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "lines": {
+  "k1": {
+   "who": "kapten",
+   "text": "Kapten April di sini! Kapal pesiar raksasa, paket lengkap!",
+   "hash": "e0f192c0a34d",
+   "duration": 4.737,
+   "words": [
+    {
+     "text": "Kapten",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "April",
+     "start": 0.418,
+     "end": 0.697
+    },
+    {
+     "text": "di",
+     "start": 0.731,
+     "end": 0.801
+    },
+    {
+     "text": "sini!",
+     "start": 0.848,
+     "end": 1.533
+    },
+    {
+     "text": "Kapal",
+     "start": 2.043,
+     "end": 2.299
+    },
+    {
+     "text": "pesiar",
+     "start": 2.334,
+     "end": 2.659
+    },
+    {
+     "text": "raksasa,",
+     "start": 2.682,
+     "end": 3.239
+    },
+    {
+     "text": "paket",
+     "start": 3.274,
+     "end": 3.506
+    },
+    {
+     "text": "lengkap!",
+     "start": 3.553,
+     "end": 4.737
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Hari ini: kapal pesiar... dan pramugari!",
+   "hash": "3909c2ec8278",
+   "duration": 5.666,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.546
+    },
+    {
+     "text": "diatur",
+     "start": 0.58,
+     "end": 0.894
+    },
+    {
+     "text": "komentar",
+     "start": 0.94,
+     "end": 1.312
+    },
+    {
+     "text": "kalian.",
+     "start": 1.37,
+     "end": 1.927
+    },
+    {
+     "text": "Hari",
+     "start": 2.171,
+     "end": 2.415
+    },
+    {
+     "text": "ini:",
+     "start": 2.461,
+     "end": 2.868
+    },
+    {
+     "text": "kapal",
+     "start": 2.984,
+     "end": 3.332
+    },
+    {
+     "text": "pesiar...",
+     "start": 3.39,
+     "end": 4.052
+    },
+    {
+     "text": "dan",
+     "start": 4.168,
+     "end": 4.365
+    },
+    {
+     "text": "pramugari!",
+     "start": 4.447,
+     "end": 5.666
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tadi pagi pelabuhan sepi. Cuma ada Rayhan, si pemancing sandal.",
+   "hash": "93f02ffed108",
+   "duration": 4.83,
+   "words": [
+    {
+     "text": "Tadi",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "pagi",
+     "start": 0.337,
+     "end": 0.58
+    },
+    {
+     "text": "pelabuhan",
+     "start": 0.627,
+     "end": 1.033
+    },
+    {
+     "text": "sepi.",
+     "start": 1.08,
+     "end": 1.602
+    },
+    {
+     "text": "Cuma",
+     "start": 1.927,
+     "end": 2.206
+    },
+    {
+     "text": "ada",
+     "start": 2.264,
+     "end": 2.426
+    },
+    {
+     "text": "Rayhan,",
+     "start": 2.485,
+     "end": 3.03
+    },
+    {
+     "text": "si",
+     "start": 3.204,
+     "end": 3.344
+    },
+    {
+     "text": "pemancing",
+     "start": 3.402,
+     "end": 3.808
+    },
+    {
+     "text": "sandal.",
+     "start": 3.855,
+     "end": 4.83
+    }
+   ]
+  },
+  "r1": {
+   "who": "rayhan",
+   "text": "Dapat sandal lagi...",
+   "hash": "1aa90190698c",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "Dapat",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "sandal",
+     "start": 0.476,
+     "end": 0.789
+    },
+    {
+     "text": "lagi...",
+     "start": 0.836,
+     "end": 1.904
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Lalu, dari laut selatan...",
+   "hash": "b1198184c0a1",
+   "duration": 1.858,
+   "words": [
+    {
+     "text": "Lalu,",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "dari",
+     "start": 0.592,
+     "end": 0.789
+    },
+    {
+     "text": "laut",
+     "start": 0.836,
+     "end": 1.01
+    },
+    {
+     "text": "selatan...",
+     "start": 1.045,
+     "end": 1.858
+    }
+   ]
+  },
+  "r2": {
+   "who": "rayhan",
+   "text": "Ikanku kabur semua!",
+   "hash": "af27dbd58447",
+   "duration": 1.579,
+   "words": [
+    {
+     "text": "Ikanku",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "kabur",
+     "start": 0.557,
+     "end": 0.801
+    },
+    {
+     "text": "semua!",
+     "start": 0.871,
+     "end": 1.579
+    }
+   ]
+  },
+  "k2": {
+   "who": "kapten",
+   "text": "Kaptennya saya! Udah follow, jadi resmi!",
+   "hash": "a0a12f8daf9c",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Kaptennya",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "saya!",
+     "start": 0.557,
+     "end": 1.045
+    },
+    {
+     "text": "Udah",
+     "start": 1.103,
+     "end": 1.358
+    },
+    {
+     "text": "follow,",
+     "start": 1.393,
+     "end": 1.765
+    },
+    {
+     "text": "jadi",
+     "start": 1.8,
+     "end": 1.962
+    },
+    {
+     "text": "resmi!",
+     "start": 2.009,
+     "end": 2.74
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan pramugarinya...",
+   "hash": "5d32bf24bb67",
+   "duration": 1.486,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "pramugarinya...",
+     "start": 0.29,
+     "end": 1.486
+    }
+   ]
+  },
+  "p1": {
+   "who": "pramugari",
+   "text": "Selamat datang di penerbangan... eh, pelayaran Pulau Aru! Pintu darurat di kiri dan kanan.",
+   "hash": "8ebebf6cff97",
+   "duration": 7.012,
+   "words": [
+    {
+     "text": "Selamat",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "datang",
+     "start": 0.43,
+     "end": 0.685
+    },
+    {
+     "text": "di",
+     "start": 0.72,
+     "end": 0.766
+    },
+    {
+     "text": "penerbangan...",
+     "start": 0.813,
+     "end": 1.556
+    },
+    {
+     "text": "eh,",
+     "start": 2.368,
+     "end": 2.682
+    },
+    {
+     "text": "pelayaran",
+     "start": 3.007,
+     "end": 3.437
+    },
+    {
+     "text": "Pulau",
+     "start": 3.471,
+     "end": 3.692
+    },
+    {
+     "text": "Aru!",
+     "start": 3.762,
+     "end": 4.365
+    },
+    {
+     "text": "Pintu",
+     "start": 4.644,
+     "end": 4.934
+    },
+    {
+     "text": "darurat",
+     "start": 4.981,
+     "end": 5.341
+    },
+    {
+     "text": "di",
+     "start": 5.375,
+     "end": 5.433
+    },
+    {
+     "text": "kiri",
+     "start": 5.48,
+     "end": 5.77
+    },
+    {
+     "text": "dan",
+     "start": 5.828,
+     "end": 5.921
+    },
+    {
+     "text": "kanan.",
+     "start": 5.979,
+     "end": 7.012
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Pramugari kan kerjanya di pesawat?",
+   "hash": "2076b7ae8b06",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Pramugari",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "kan",
+     "start": 0.557,
+     "end": 0.673
+    },
+    {
+     "text": "kerjanya",
+     "start": 0.731,
+     "end": 1.022
+    },
+    {
+     "text": "di",
+     "start": 1.045,
+     "end": 1.091
+    },
+    {
+     "text": "pesawat?",
+     "start": 1.126,
+     "end": 1.672
+    }
+   ]
+  },
+  "p2": {
+   "who": "pramugari",
+   "text": "Pesawatnya penuh. Jadi saya naik kapal.",
+   "hash": "ffea1d8a0fbf",
+   "duration": 2.786,
+   "words": [
+    {
+     "text": "Pesawatnya",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "penuh.",
+     "start": 0.522,
+     "end": 0.975
+    },
+    {
+     "text": "Jadi",
+     "start": 1.358,
+     "end": 1.591
+    },
+    {
+     "text": "saya",
+     "start": 1.637,
+     "end": 1.8
+    },
+    {
+     "text": "naik",
+     "start": 1.823,
+     "end": 1.985
+    },
+    {
+     "text": "kapal.",
+     "start": 2.009,
+     "end": 2.786
+    }
+   ]
+  },
+  "d1": {
+   "who": "daby",
+   "text": "Penumpang pertama itu aku! Aku duluan!",
+   "hash": "e5b9c6a59fc7",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Penumpang",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "pertama",
+     "start": 0.604,
+     "end": 0.987
+    },
+    {
+     "text": "itu",
+     "start": 1.022,
+     "end": 1.196
+    },
+    {
+     "text": "aku!",
+     "start": 1.277,
+     "end": 1.834
+    },
+    {
+     "text": "Aku",
+     "start": 2.159,
+     "end": 2.438
+    },
+    {
+     "text": "duluan!",
+     "start": 2.496,
+     "end": 3.344
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Tapi ada yang lebih cepat. Nono, bayi camar yang kemarin keseleo... sudah sembuh!",
+   "hash": "14755f7dbd28",
+   "duration": 6.316,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "ada",
+     "start": 0.418,
+     "end": 0.569
+    },
+    {
+     "text": "yang",
+     "start": 0.592,
+     "end": 0.697
+    },
+    {
+     "text": "lebih",
+     "start": 0.731,
+     "end": 0.917
+    },
+    {
+     "text": "cepat.",
+     "start": 0.94,
+     "end": 1.509
+    },
+    {
+     "text": "Nono,",
+     "start": 1.95,
+     "end": 2.566
+    },
+    {
+     "text": "bayi",
+     "start": 2.844,
+     "end": 3.1
+    },
+    {
+     "text": "camar",
+     "start": 3.146,
+     "end": 3.483
+    },
+    {
+     "text": "yang",
+     "start": 3.529,
+     "end": 3.634
+    },
+    {
+     "text": "kemarin",
+     "start": 3.669,
+     "end": 4.04
+    },
+    {
+     "text": "keseleo...",
+     "start": 4.11,
+     "end": 4.795
+    },
+    {
+     "text": "sudah",
+     "start": 5.074,
+     "end": 5.41
+    },
+    {
+     "text": "sembuh!",
+     "start": 5.445,
+     "end": 6.316
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Terbang pertamanya... langsung ke kapal!",
+   "hash": "7d7499220886",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Terbang",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "pertamanya...",
+     "start": 0.395,
+     "end": 1.115
+    },
+    {
+     "text": "langsung",
+     "start": 1.231,
+     "end": 1.544
+    },
+    {
+     "text": "ke",
+     "start": 1.567,
+     "end": 1.625
+    },
+    {
+     "text": "kapal!",
+     "start": 1.66,
+     "end": 2.74
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Nono penumpang pertama!",
+   "hash": "d1021ec9447f",
+   "duration": 1.44,
+   "words": [
+    {
+     "text": "Nono",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "penumpang",
+     "start": 0.325,
+     "end": 0.673
+    },
+    {
+     "text": "pertama!",
+     "start": 0.708,
+     "end": 1.44
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Kapal pesiar Aru sudah berlabuh di pulau aru titik web titik i d.",
+   "hash": "4f4c80480c3d",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Kapal",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "pesiar",
+     "start": 0.418,
+     "end": 0.72
+    },
+    {
+     "text": "Aru",
+     "start": 0.801,
+     "end": 1.057
+    },
+    {
+     "text": "sudah",
+     "start": 1.091,
+     "end": 1.324
+    },
+    {
+     "text": "berlabuh",
+     "start": 1.37,
+     "end": 1.776
+    },
+    {
+     "text": "di",
+     "start": 1.811,
+     "end": 1.881
+    },
+    {
+     "text": "pulau",
+     "start": 1.927,
+     "end": 2.159
+    },
+    {
+     "text": "aru",
+     "start": 2.218,
+     "end": 2.473
+    },
+    {
+     "text": "titik",
+     "start": 2.519,
+     "end": 2.786
+    },
+    {
+     "text": "web",
+     "start": 2.844,
+     "end": 2.972
+    },
+    {
+     "text": "titik",
+     "start": 3.03,
+     "end": 3.297
+    },
+    {
+     "text": "i",
+     "start": 3.379,
+     "end": 3.437
+    },
+    {
+     "text": "d.",
+     "start": 3.495,
+     "end": 4.087
+    }
+   ]
+  },
+  "n8": {
+   "who": "narrator",
+   "text": "Kapal ini berlayar ke mana dulu? Tulis di komentar!",
+   "hash": "87c1ea0cf4d0",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Kapal",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "ini",
+     "start": 0.453,
+     "end": 0.592
+    },
+    {
+     "text": "berlayar",
+     "start": 0.639,
+     "end": 1.022
+    },
+    {
+     "text": "ke",
+     "start": 1.08,
+     "end": 1.138
+    },
+    {
+     "text": "mana",
+     "start": 1.184,
+     "end": 1.37
+    },
+    {
+     "text": "dulu?",
+     "start": 1.405,
+     "end": 1.892
+    },
+    {
+     "text": "Tulis",
+     "start": 2.009,
+     "end": 2.345
+    },
+    {
+     "text": "di",
+     "start": 2.403,
+     "end": 2.461
+    },
+    {
+     "text": "komentar!",
+     "start": 2.508,
+     "end": 3.483
+    }
+   ]
+  }
+ }
+}
