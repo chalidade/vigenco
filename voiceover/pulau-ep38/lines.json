@@ -1,0 +1,40 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "kapten": "I7sakys8pBZ1Z5f0UhT9",
+    "pramugari": "iWydkXKoiVtvdn4vLKp9",
+    "rayhan": "RWiGLY9uXI70QL540WNd",
+    "daby": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "aru": {"stability": 0.35, "style": 0.5},
+    "kapten": {"stability": 0.3, "style": 0.65},
+    "pramugari": {"stability": 0.4, "style": 0.55},
+    "rayhan": {"stability": 0.45, "style": 0.4},
+    "daby": {"stability": 0.25, "style": 0.75}
+  },
+  "lines": [
+    {"id": "k1", "who": "kapten", "text": "Kapten April di sini! Kapal pesiar raksasa, paket lengkap!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Hari ini: kapal pesiar... dan pramugari!"},
+    {"id": "n2", "who": "narrator", "text": "Tadi pagi pelabuhan sepi. Cuma ada Rayhan, si pemancing sandal."},
+    {"id": "r1", "who": "rayhan", "text": "Dapat sandal lagi..."},
+    {"id": "n3", "who": "narrator", "text": "Lalu, dari laut selatan..."},
+    {"id": "r2", "who": "rayhan", "text": "Ikanku kabur semua!"},
+    {"id": "k2", "who": "kapten", "text": "Kaptennya saya! Udah follow, jadi resmi!"},
+    {"id": "n4", "who": "narrator", "text": "Dan pramugarinya..."},
+    {"id": "p1", "who": "pramugari", "text": "Selamat datang di penerbangan... eh, pelayaran Pulau Aru! Pintu darurat di kiri dan kanan."},
+    {"id": "a1", "who": "aru", "text": "Pramugari kan kerjanya di pesawat?"},
+    {"id": "p2", "who": "pramugari", "text": "Pesawatnya penuh. Jadi saya naik kapal."},
+    {"id": "d1", "who": "daby", "text": "Penumpang pertama itu aku! Aku duluan!"},
+    {"id": "n5", "who": "narrator", "text": "Tapi ada yang lebih cepat. Nono, bayi camar yang kemarin keseleo... sudah sembuh!"},
+    {"id": "n6", "who": "narrator", "text": "Terbang pertamanya... langsung ke kapal!"},
+    {"id": "a2", "who": "aru", "text": "Nono penumpang pertama!"},
+    {"id": "n7", "who": "narrator", "text": "Kapal pesiar Aru sudah berlabuh di pulau aru titik web titik i d."},
+    {"id": "n8", "who": "narrator", "text": "Kapal ini berlayar ke mana dulu? Tulis di komentar!"}
+  ]
+}
