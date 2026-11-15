@@ -1,0 +1,116 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "ega": "plgKUYgnlZ1DCNh54DwJ",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "luci": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "aru": {
+      "stability": 0.35,
+      "style": 0.5
+    },
+    "ega": {
+      "stability": 0.3,
+      "style": 0.6
+    },
+    "keeper": {
+      "stability": 0.6,
+      "style": 0.2
+    },
+    "luci": {
+      "stability": 0.35,
+      "style": 0.65
+    }
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "who": "luci",
+      "text": "Diagnosa saya: sayapnya kebanyakan makan sandal!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Kemarin kalian kasih nama tiga bayi camar..."
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Nini, Nono, dan Nana!"
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Tapi Nono belajar terbang... dan gagal. Sayapnya keseleo."
+    },
+    {
+      "id": "a1",
+      "who": "aru",
+      "text": "Nono! Kita butuh rumah sakit, sekarang!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Untung ada komentar: min, bikin rumah sakit!"
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Jadilah: Rumah Sakit Hewan pertama di pulau!"
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Dokternya... Luci. Si paling sok tahu."
+    },
+    {
+      "id": "l2",
+      "who": "luci",
+      "text": "Saya dokter. Dokter apa ya? Pokoknya dokter."
+    },
+    {
+      "id": "n8",
+      "who": "narrator",
+      "text": "Perban kecil... untuk sayap kecil."
+    },
+    {
+      "id": "k1",
+      "who": "keeper",
+      "text": "Like pemilu masih dihitung. Kalkulatornya sampai panas."
+    },
+    {
+      "id": "e1",
+      "who": "ega",
+      "text": "Ini lima koinnya. Aku kembalikan. Beneran hari ini!"
+    },
+    {
+      "id": "a2",
+      "who": "aru",
+      "text": "Cepat sembuh, Nono! Nini dan Nana nungguin."
+    },
+    {
+      "id": "n9",
+      "who": "narrator",
+      "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+    },
+    {
+      "id": "n10",
+      "who": "narrator",
+      "text": "Kalau Nono sembuh, dia terbang ke mana dulu? Komentar!"
+    }
+  ]
+}
