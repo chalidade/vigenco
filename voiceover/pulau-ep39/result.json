@@ -1,0 +1,784 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "adam": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "nen": "iWydkXKoiVtvdn4vLKp9",
+  "pinjam": "RWiGLY9uXI70QL540WNd",
+  "dell": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "lines": {
+  "m1": {
+   "who": "adam",
+   "text": "Rumahku jadi! Lengkap pakai cermin. Soalnya... ganteng.",
+   "hash": "bde438f01510",
+   "duration": 5.666,
+   "words": [
+    {
+     "text": "Rumahku",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "jadi!",
+     "start": 0.662,
+     "end": 1.37
+    },
+    {
+     "text": "Lengkap",
+     "start": 1.974,
+     "end": 2.345
+    },
+    {
+     "text": "pakai",
+     "start": 2.368,
+     "end": 2.589
+    },
+    {
+     "text": "cermin.",
+     "start": 2.612,
+     "end": 3.158
+    },
+    {
+     "text": "Soalnya...",
+     "start": 3.193,
+     "end": 3.959
+    },
+    {
+     "text": "ganteng.",
+     "start": 4.772,
+     "end": 5.666
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga. Komentar... jadi kenyataan.",
+   "hash": "d10ff6e6889e",
+   "duration": 6.734,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ini",
+     "start": 0.383,
+     "end": 0.522
+    },
+    {
+     "text": "diatur",
+     "start": 0.569,
+     "end": 0.882
+    },
+    {
+     "text": "komentar",
+     "start": 0.929,
+     "end": 1.277
+    },
+    {
+     "text": "kalian.",
+     "start": 1.335,
+     "end": 1.939
+    },
+    {
+     "text": "Follow,",
+     "start": 2.183,
+     "end": 2.705
+    },
+    {
+     "text": "kamu",
+     "start": 2.798,
+     "end": 3.065
+    },
+    {
+     "text": "jadi",
+     "start": 3.135,
+     "end": 3.297
+    },
+    {
+     "text": "warga.",
+     "start": 3.344,
+     "end": 3.866
+    },
+    {
+     "text": "Komentar...",
+     "start": 4.307,
+     "end": 5.097
+    },
+    {
+     "text": "jadi",
+     "start": 5.271,
+     "end": 5.503
+    },
+    {
+     "text": "kenyataan.",
+     "start": 5.538,
+     "end": 6.734
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Warganya sudah tujuh ribu lebih... tapi rumahnya mana?",
+   "hash": "9cca89f19748",
+   "duration": 2.879,
+   "words": [
+    {
+     "text": "Warganya",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "sudah",
+     "start": 0.499,
+     "end": 0.708
+    },
+    {
+     "text": "tujuh",
+     "start": 0.731,
+     "end": 0.952
+    },
+    {
+     "text": "ribu",
+     "start": 0.975,
+     "end": 1.173
+    },
+    {
+     "text": "lebih...",
+     "start": 1.207,
+     "end": 1.556
+    },
+    {
+     "text": "tapi",
+     "start": 1.765,
+     "end": 2.009
+    },
+    {
+     "text": "rumahnya",
+     "start": 2.067,
+     "end": 2.403
+    },
+    {
+     "text": "mana?",
+     "start": 2.45,
+     "end": 2.879
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Dua warga minta rumah. Jadi kami bangun satu jalan baru: Jalan Warga!",
+   "hash": "a7be5987da0b",
+   "duration": 5.294,
+   "words": [
+    {
+     "text": "Dua",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "warga",
+     "start": 0.267,
+     "end": 0.534
+    },
+    {
+     "text": "minta",
+     "start": 0.569,
+     "end": 0.778
+    },
+    {
+     "text": "rumah.",
+     "start": 0.824,
+     "end": 1.277
+    },
+    {
+     "text": "Jadi",
+     "start": 1.428,
+     "end": 1.707
+    },
+    {
+     "text": "kami",
+     "start": 1.776,
+     "end": 2.009
+    },
+    {
+     "text": "bangun",
+     "start": 2.067,
+     "end": 2.38
+    },
+    {
+     "text": "satu",
+     "start": 2.426,
+     "end": 2.624
+    },
+    {
+     "text": "jalan",
+     "start": 2.694,
+     "end": 2.914
+    },
+    {
+     "text": "baru:",
+     "start": 2.972,
+     "end": 3.413
+    },
+    {
+     "text": "Jalan",
+     "start": 3.855,
+     "end": 4.18
+    },
+    {
+     "text": "Warga!",
+     "start": 4.238,
+     "end": 5.294
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Rumah pertama, untuk adam fahri ganteng.",
+   "hash": "af22d1091ba0",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Rumah",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "pertama,",
+     "start": 0.313,
+     "end": 0.824
+    },
+    {
+     "text": "untuk",
+     "start": 0.94,
+     "end": 1.184
+    },
+    {
+     "text": "adam",
+     "start": 1.254,
+     "end": 1.428
+    },
+    {
+     "text": "fahri",
+     "start": 1.486,
+     "end": 1.718
+    },
+    {
+     "text": "ganteng.",
+     "start": 1.765,
+     "end": 2.74
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Kenapa ada cermin segede pintu?",
+   "hash": "15c598bb75f0",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Kenapa",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "ada",
+     "start": 0.406,
+     "end": 0.534
+    },
+    {
+     "text": "cermin",
+     "start": 0.58,
+     "end": 0.836
+    },
+    {
+     "text": "segede",
+     "start": 0.871,
+     "end": 1.08
+    },
+    {
+     "text": "pintu?",
+     "start": 1.126,
+     "end": 1.718
+    }
+   ]
+  },
+  "m2": {
+   "who": "adam",
+   "text": "Namanya ganteng. Cerminnya wajib.",
+   "hash": "ebeb04235767",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Namanya",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "ganteng.",
+     "start": 0.488,
+     "end": 1.01
+    },
+    {
+     "text": "Cerminnya",
+     "start": 1.126,
+     "end": 1.637
+    },
+    {
+     "text": "wajib.",
+     "start": 1.683,
+     "end": 2.508
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Rumah kedua, untuk nenk rahma. Ada kebun bunga dan kursi goyang.",
+   "hash": "1dbcf760ca5e",
+   "duration": 4.551,
+   "words": [
+    {
+     "text": "Rumah",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "kedua,",
+     "start": 0.29,
+     "end": 0.801
+    },
+    {
+     "text": "untuk",
+     "start": 0.917,
+     "end": 1.173
+    },
+    {
+     "text": "nenk",
+     "start": 1.219,
+     "end": 1.335
+    },
+    {
+     "text": "rahma.",
+     "start": 1.393,
+     "end": 1.939
+    },
+    {
+     "text": "Ada",
+     "start": 2.264,
+     "end": 2.485
+    },
+    {
+     "text": "kebun",
+     "start": 2.531,
+     "end": 2.752
+    },
+    {
+     "text": "bunga",
+     "start": 2.798,
+     "end": 3.042
+    },
+    {
+     "text": "dan",
+     "start": 3.088,
+     "end": 3.193
+    },
+    {
+     "text": "kursi",
+     "start": 3.251,
+     "end": 3.471
+    },
+    {
+     "text": "goyang.",
+     "start": 3.518,
+     "end": 4.551
+    }
+   ]
+  },
+  "e1": {
+   "who": "nen",
+   "text": "Akhirnya punya rumah! Bunganya aku siram tiap pagi.",
+   "hash": "3105f8970cf5",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Akhirnya",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "punya",
+     "start": 0.464,
+     "end": 0.72
+    },
+    {
+     "text": "rumah!",
+     "start": 0.789,
+     "end": 1.3
+    },
+    {
+     "text": "Bunganya",
+     "start": 1.625,
+     "end": 2.067
+    },
+    {
+     "text": "aku",
+     "start": 2.09,
+     "end": 2.252
+    },
+    {
+     "text": "siram",
+     "start": 2.299,
+     "end": 2.601
+    },
+    {
+     "text": "tiap",
+     "start": 2.659,
+     "end": 2.833
+    },
+    {
+     "text": "pagi.",
+     "start": 2.856,
+     "end": 3.622
+    }
+   ]
+  },
+  "p1": {
+   "who": "pinjam",
+   "text": "Rumahnya bagus... Boleh pinjam seratus? Buat DP.",
+   "hash": "b19e1fbdb8d9",
+   "duration": 5.573,
+   "words": [
+    {
+     "text": "Rumahnya",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "bagus...",
+     "start": 0.476,
+     "end": 1.196
+    },
+    {
+     "text": "Boleh",
+     "start": 2.009,
+     "end": 2.264
+    },
+    {
+     "text": "pinjam",
+     "start": 2.287,
+     "end": 2.543
+    },
+    {
+     "text": "seratus?",
+     "start": 2.589,
+     "end": 3.216
+    },
+    {
+     "text": "Buat",
+     "start": 4.168,
+     "end": 4.389
+    },
+    {
+     "text": "DP.",
+     "start": 4.435,
+     "end": 5.573
+    }
+   ]
+  },
+  "a3": {
+   "who": "aru",
+   "text": "Ini gratis, Farel.",
+   "hash": "c78a3c9fa9f1",
+   "duration": 1.068,
+   "words": [
+    {
+     "text": "Ini",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "gratis,",
+     "start": 0.302,
+     "end": 0.685
+    },
+    {
+     "text": "Farel.",
+     "start": 0.708,
+     "end": 1.068
+    }
+   ]
+  },
+  "p2": {
+   "who": "pinjam",
+   "text": "Oh. Kalau gitu... pinjam rumahnya.",
+   "hash": "9537f29950d7",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Oh.",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "Kalau",
+     "start": 0.882,
+     "end": 1.161
+    },
+    {
+     "text": "gitu...",
+     "start": 1.196,
+     "end": 1.811
+    },
+    {
+     "text": "pinjam",
+     "start": 2.194,
+     "end": 2.647
+    },
+    {
+     "text": "rumahnya.",
+     "start": 2.717,
+     "end": 3.622
+    }
+   ]
+  },
+  "a4": {
+   "who": "aru",
+   "text": "Dell? Itu kursi goyang orang.",
+   "hash": "61e613a76d0b",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Dell?",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "Itu",
+     "start": 0.406,
+     "end": 0.58
+    },
+    {
+     "text": "kursi",
+     "start": 0.627,
+     "end": 0.813
+    },
+    {
+     "text": "goyang",
+     "start": 0.859,
+     "end": 1.091
+    },
+    {
+     "text": "orang.",
+     "start": 1.149,
+     "end": 1.672
+    }
+   ]
+  },
+  "d1": {
+   "who": "dell",
+   "text": "hm.",
+   "hash": "d60f281dbccf",
+   "duration": 0.697,
+   "words": [
+    {
+     "text": "hm.",
+     "start": 0,
+     "end": 0.697
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Dan di ujung jalan... masih ada tiga kavling kosong.",
+   "hash": "8d4133a013ba",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "di",
+     "start": 0.232,
+     "end": 0.302
+    },
+    {
+     "text": "ujung",
+     "start": 0.348,
+     "end": 0.592
+    },
+    {
+     "text": "jalan...",
+     "start": 0.639,
+     "end": 1.207
+    },
+    {
+     "text": "masih",
+     "start": 1.358,
+     "end": 1.625
+    },
+    {
+     "text": "ada",
+     "start": 1.649,
+     "end": 1.823
+    },
+    {
+     "text": "tiga",
+     "start": 1.858,
+     "end": 2.101
+    },
+    {
+     "text": "kavling",
+     "start": 2.148,
+     "end": 2.485
+    },
+    {
+     "text": "kosong.",
+     "start": 2.508,
+     "end": 3.576
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, rumahmu kami bangun. Lihat di pulau aru titik web titik i d.",
+   "hash": "a03e0c56ff26",
+   "duration": 6.548,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "namamu",
+     "start": 0.615,
+     "end": 0.929
+    },
+    {
+     "text": "jadi",
+     "start": 0.987,
+     "end": 1.138
+    },
+    {
+     "text": "warga.",
+     "start": 1.184,
+     "end": 1.683
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.927,
+     "end": 2.577
+    },
+    {
+     "text": "rumahmu",
+     "start": 2.694,
+     "end": 3.077
+    },
+    {
+     "text": "kami",
+     "start": 3.111,
+     "end": 3.309
+    },
+    {
+     "text": "bangun.",
+     "start": 3.355,
+     "end": 3.808
+    },
+    {
+     "text": "Lihat",
+     "start": 4.249,
+     "end": 4.528
+    },
+    {
+     "text": "di",
+     "start": 4.574,
+     "end": 4.632
+    },
+    {
+     "text": "pulau",
+     "start": 4.679,
+     "end": 4.923
+    },
+    {
+     "text": "aru",
+     "start": 4.969,
+     "end": 5.166
+    },
+    {
+     "text": "titik",
+     "start": 5.213,
+     "end": 5.445
+    },
+    {
+     "text": "web",
+     "start": 5.492,
+     "end": 5.608
+    },
+    {
+     "text": "titik",
+     "start": 5.666,
+     "end": 5.909
+    },
+    {
+     "text": "i",
+     "start": 5.979,
+     "end": 6.014
+    },
+    {
+     "text": "d.",
+     "start": 6.072,
+     "end": 6.548
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Rumahmu mau warna apa? Tulis di komentar!",
+   "hash": "00669379bb16",
+   "duration": 2.786,
+   "words": [
+    {
+     "text": "Rumahmu",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "mau",
+     "start": 0.464,
+     "end": 0.615
+    },
+    {
+     "text": "warna",
+     "start": 0.65,
+     "end": 0.906
+    },
+    {
+     "text": "apa?",
+     "start": 0.929,
+     "end": 1.347
+    },
+    {
+     "text": "Tulis",
+     "start": 1.556,
+     "end": 1.811
+    },
+    {
+     "text": "di",
+     "start": 1.846,
+     "end": 1.892
+    },
+    {
+     "text": "komentar!",
+     "start": 1.927,
+     "end": 2.786
+    }
+   ]
+  }
+ }
+}
