@@ -1,0 +1,40 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "adam": "RWiGLY9uXI70QL540WNd",
+    "nen": "iWydkXKoiVtvdn4vLKp9",
+    "pinjam": "RWiGLY9uXI70QL540WNd",
+    "dell": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "aru": {"stability": 0.35, "style": 0.5},
+    "adam": {"stability": 0.3, "style": 0.7},
+    "nen": {"stability": 0.4, "style": 0.55},
+    "pinjam": {"stability": 0.45, "style": 0.45},
+    "dell": {"stability": 0.6, "style": 0.1}
+  },
+  "lines": [
+    {"id": "m1", "who": "adam", "text": "Rumahku jadi! Lengkap pakai cermin. Soalnya... ganteng."},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow, kamu jadi warga. Komentar... jadi kenyataan."},
+    {"id": "a1", "who": "aru", "text": "Warganya sudah tujuh ribu lebih... tapi rumahnya mana?"},
+    {"id": "n2", "who": "narrator", "text": "Dua warga minta rumah. Jadi kami bangun satu jalan baru: Jalan Warga!"},
+    {"id": "n3", "who": "narrator", "text": "Rumah pertama, untuk adam fahri ganteng."},
+    {"id": "a2", "who": "aru", "text": "Kenapa ada cermin segede pintu?"},
+    {"id": "m2", "who": "adam", "text": "Namanya ganteng. Cerminnya wajib."},
+    {"id": "n4", "who": "narrator", "text": "Rumah kedua, untuk nenk rahma. Ada kebun bunga dan kursi goyang."},
+    {"id": "e1", "who": "nen", "text": "Akhirnya punya rumah! Bunganya aku siram tiap pagi."},
+    {"id": "p1", "who": "pinjam", "text": "Rumahnya bagus... Boleh pinjam seratus? Buat DP."},
+    {"id": "a3", "who": "aru", "text": "Ini gratis, Farel."},
+    {"id": "p2", "who": "pinjam", "text": "Oh. Kalau gitu... pinjam rumahnya."},
+    {"id": "a4", "who": "aru", "text": "Dell? Itu kursi goyang orang."},
+    {"id": "d1", "who": "dell", "text": "hm."},
+    {"id": "n5", "who": "narrator", "text": "Dan di ujung jalan... masih ada tiga kavling kosong."},
+    {"id": "n6", "who": "narrator", "text": "Follow, namamu jadi warga. Komentar, rumahmu kami bangun. Lihat di pulau aru titik web titik i d."},
+    {"id": "n7", "who": "narrator", "text": "Rumahmu mau warna apa? Tulis di komentar!"}
+  ]
+}
