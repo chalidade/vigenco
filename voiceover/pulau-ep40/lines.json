@@ -1,0 +1,42 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "d4l": "I7sakys8pBZ1Z5f0UhT9",
+    "aidil": "RWiGLY9uXI70QL540WNd",
+    "letisya": "iWydkXKoiVtvdn4vLKp9",
+    "keeper": "RWiGLY9uXI70QL540WNd"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "aru": {"stability": 0.35, "style": 0.5},
+    "d4l": {"stability": 0.45, "style": 0.35},
+    "aidil": {"stability": 0.3, "style": 0.7},
+    "letisya": {"stability": 0.6, "style": 0.2},
+    "keeper": {"stability": 0.6, "style": 0.2}
+  },
+  "lines": [
+    {"id": "d1", "who": "d4l", "text": "Permisi... boleh masuk?"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Dan kalian minta mall... berkali-kali."},
+    {"id": "n2", "who": "narrator", "text": "Jadi hari ini resmi dibuka: Mall Pulau Aru!"},
+    {"id": "i1", "who": "aidil", "text": "Hiks... pulau kita punya mall. Indah banget..."},
+    {"id": "a1", "who": "aru", "text": "Dil, tokonya baru tiga."},
+    {"id": "i2", "who": "aidil", "text": "Tiga pun aku terharu!"},
+    {"id": "a2", "who": "aru", "text": "D4L, itu pintu otomatis. Jalan aja!"},
+    {"id": "d2", "who": "d4l", "text": "Oh. Makasih ya, pintu..."},
+    {"id": "d3", "who": "d4l", "text": "Yah, ketutup. Boleh buka lagi?"},
+    {"id": "n3", "who": "narrator", "text": "Ada toko baju. Ada toko bunga. Dan toko ketiga..."},
+    {"id": "l1", "who": "letisya", "text": "Masih kosong. Santai aja, nanti komentar yang isi."},
+    {"id": "n4", "who": "narrator", "text": "Tapi di toko bunga, satu buket sudah dipesan. Untuk... P M?"},
+    {"id": "a3", "who": "aru", "text": "Penjaga Mercusuar? Bunga itu buat siapa?"},
+    {"id": "k1", "who": "keeper", "text": "Bukan buat siapa-siapa."},
+    {"id": "k2", "who": "keeper", "text": "...Buat mercusuar."},
+    {"id": "a4", "who": "aru", "text": "Mercusuar nggak butuh bunga!"},
+    {"id": "n5", "who": "narrator", "text": "Siapa yang bikin Penjaga Mercusuar salah tingkah? Petunjuk pertama: sebuah buket."},
+    {"id": "n6", "who": "narrator", "text": "Toko ketiga mau jualan apa? Tulis di komentar!"},
+    {"id": "n7", "who": "narrator", "text": "Mau langsung diwujudkan tanpa undian? Traktir lima ribu di teer titik i d, garis miring, chalidade."}
+  ]
+}
