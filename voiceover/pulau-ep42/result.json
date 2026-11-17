@@ -1,0 +1,795 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "ranu": "RWiGLY9uXI70QL540WNd",
+  "whoyss": "plgKUYgnlZ1DCNh54DwJ",
+  "keeper": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "p1": {
+   "who": "penjual",
+   "text": "Surat... buat aku?!",
+   "hash": "22e332294850",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Surat...",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "buat",
+     "start": 0.65,
+     "end": 0.836
+    },
+    {
+     "text": "aku?!",
+     "start": 0.917,
+     "end": 1.625
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita.",
+   "hash": "d0b0ab48afa9",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.406,
+     "end": 0.592
+    },
+    {
+     "text": "diatur",
+     "start": 0.639,
+     "end": 0.952
+    },
+    {
+     "text": "komentar",
+     "start": 0.998,
+     "end": 1.37
+    },
+    {
+     "text": "kalian.",
+     "start": 1.428,
+     "end": 2.032
+    },
+    {
+     "text": "Follow",
+     "start": 2.206,
+     "end": 2.485
+    },
+    {
+     "text": "jadi",
+     "start": 2.554,
+     "end": 2.728
+    },
+    {
+     "text": "warga,",
+     "start": 2.775,
+     "end": 3.146
+    },
+    {
+     "text": "komentar",
+     "start": 3.181,
+     "end": 3.553
+    },
+    {
+     "text": "jadi",
+     "start": 3.611,
+     "end": 3.785
+    },
+    {
+     "text": "cerita.",
+     "start": 3.831,
+     "end": 4.505
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Kemarin, Penjaga Mercusuar dapat surat tanpa nama. Tanda tangannya: noda arang.",
+   "hash": "08608d465199",
+   "duration": 5.526,
+   "words": [
+    {
+     "text": "Kemarin,",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "text": "Penjaga",
+     "start": 0.639,
+     "end": 0.998
+    },
+    {
+     "text": "Mercusuar",
+     "start": 1.033,
+     "end": 1.567
+    },
+    {
+     "text": "dapat",
+     "start": 1.649,
+     "end": 1.904
+    },
+    {
+     "text": "surat",
+     "start": 1.939,
+     "end": 2.218
+    },
+    {
+     "text": "tanpa",
+     "start": 2.241,
+     "end": 2.531
+    },
+    {
+     "text": "nama.",
+     "start": 2.566,
+     "end": 3.019
+    },
+    {
+     "text": "Tanda",
+     "start": 3.344,
+     "end": 3.611
+    },
+    {
+     "text": "tangannya:",
+     "start": 3.657,
+     "end": 4.238
+    },
+    {
+     "text": "noda",
+     "start": 4.481,
+     "end": 4.748
+    },
+    {
+     "text": "arang.",
+     "start": 4.795,
+     "end": 5.526
+    }
+   ]
+  },
+  "r1": {
+   "who": "ranu",
+   "text": "Polisi pantai turun tangan! Siapa di pulau ini yang main arang?",
+   "hash": "9c1880ef29ec",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Polisi",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "pantai",
+     "start": 0.546,
+     "end": 0.964
+    },
+    {
+     "text": "turun",
+     "start": 1.022,
+     "end": 1.265
+    },
+    {
+     "text": "tangan!",
+     "start": 1.335,
+     "end": 1.95
+    },
+    {
+     "text": "Siapa",
+     "start": 2.067,
+     "end": 2.508
+    },
+    {
+     "text": "di",
+     "start": 2.554,
+     "end": 2.635
+    },
+    {
+     "text": "pulau",
+     "start": 2.694,
+     "end": 2.972
+    },
+    {
+     "text": "ini",
+     "start": 3.03,
+     "end": 3.216
+    },
+    {
+     "text": "yang",
+     "start": 3.251,
+     "end": 3.379
+    },
+    {
+     "text": "main",
+     "start": 3.425,
+     "end": 3.576
+    },
+    {
+     "text": "arang?",
+     "start": 3.657,
+     "end": 4.505
+    }
+   ]
+  },
+  "w1": {
+   "who": "whoyss",
+   "text": "Bukan aku! Aku mainnya sandal... eh.",
+   "hash": "c377c1bbb310",
+   "duration": 2.229,
+   "words": [
+    {
+     "text": "Bukan",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "aku!",
+     "start": 0.36,
+     "end": 0.673
+    },
+    {
+     "text": "Aku",
+     "start": 0.708,
+     "end": 0.871
+    },
+    {
+     "text": "mainnya",
+     "start": 0.929,
+     "end": 1.138
+    },
+    {
+     "text": "sandal...",
+     "start": 1.173,
+     "end": 1.625
+    },
+    {
+     "text": "eh.",
+     "start": 1.8,
+     "end": 2.229
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Lalu, untuk pertama kalinya, Penjaga Mercusuar turun ke lapak ikan bakar.",
+   "hash": "05a8dd60fc95",
+   "duration": 4.83,
+   "words": [
+    {
+     "text": "Lalu,",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "untuk",
+     "start": 0.569,
+     "end": 0.836
+    },
+    {
+     "text": "pertama",
+     "start": 0.871,
+     "end": 1.196
+    },
+    {
+     "text": "kalinya,",
+     "start": 1.231,
+     "end": 1.834
+    },
+    {
+     "text": "Penjaga",
+     "start": 1.916,
+     "end": 2.345
+    },
+    {
+     "text": "Mercusuar",
+     "start": 2.392,
+     "end": 2.902
+    },
+    {
+     "text": "turun",
+     "start": 2.972,
+     "end": 3.228
+    },
+    {
+     "text": "ke",
+     "start": 3.286,
+     "end": 3.344
+    },
+    {
+     "text": "lapak",
+     "start": 3.39,
+     "end": 3.622
+    },
+    {
+     "text": "ikan",
+     "start": 3.68,
+     "end": 3.866
+    },
+    {
+     "text": "bakar.",
+     "start": 3.924,
+     "end": 4.83
+    }
+   ]
+  },
+  "k1": {
+   "who": "keeper",
+   "text": "Satu ikan bakar. Yang... paling matang.",
+   "hash": "fdd0774b93c9",
+   "duration": 3.855,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "ikan",
+     "start": 0.453,
+     "end": 0.697
+    },
+    {
+     "text": "bakar.",
+     "start": 0.766,
+     "end": 1.393
+    },
+    {
+     "text": "Yang...",
+     "start": 1.637,
+     "end": 2.229
+    },
+    {
+     "text": "paling",
+     "start": 2.554,
+     "end": 2.926
+    },
+    {
+     "text": "matang.",
+     "start": 2.995,
+     "end": 3.855
+    }
+   ]
+  },
+  "p2": {
+   "who": "penjual",
+   "text": "S-siap, Pak! Paling matang! Paling... panas!",
+   "hash": "c5103cecd130",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "S-siap,",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "Pak!",
+     "start": 0.569,
+     "end": 0.836
+    },
+    {
+     "text": "Paling",
+     "start": 0.906,
+     "end": 1.196
+    },
+    {
+     "text": "matang!",
+     "start": 1.242,
+     "end": 1.788
+    },
+    {
+     "text": "Paling...",
+     "start": 1.997,
+     "end": 2.589
+    },
+    {
+     "text": "panas!",
+     "start": 2.705,
+     "end": 4.18
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan asapnya... bentuk hati lagi.",
+   "hash": "9cc900686de2",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "asapnya...",
+     "start": 0.244,
+     "end": 0.952
+    },
+    {
+     "text": "bentuk",
+     "start": 1.068,
+     "end": 1.37
+    },
+    {
+     "text": "hati",
+     "start": 1.416,
+     "end": 1.625
+    },
+    {
+     "text": "lagi.",
+     "start": 1.672,
+     "end": 2.647
+    }
+   ]
+  },
+  "k2": {
+   "who": "keeper",
+   "text": "Hm. Asap yang aneh.",
+   "hash": "81ccfd617e16",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Hm.",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "Asap",
+     "start": 0.859,
+     "end": 1.277
+    },
+    {
+     "text": "yang",
+     "start": 1.347,
+     "end": 1.463
+    },
+    {
+     "text": "aneh.",
+     "start": 1.533,
+     "end": 2.276
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Dia pulang. Tapi di samping lapak, ada surat baru.",
+   "hash": "ab02df7d618a",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "pulang.",
+     "start": 0.209,
+     "end": 0.697
+    },
+    {
+     "text": "Tapi",
+     "start": 1.08,
+     "end": 1.358
+    },
+    {
+     "text": "di",
+     "start": 1.393,
+     "end": 1.451
+    },
+    {
+     "text": "samping",
+     "start": 1.498,
+     "end": 1.753
+    },
+    {
+     "text": "lapak,",
+     "start": 1.8,
+     "end": 2.125
+    },
+    {
+     "text": "ada",
+     "start": 2.148,
+     "end": 2.322
+    },
+    {
+     "text": "surat",
+     "start": 2.357,
+     "end": 2.601
+    },
+    {
+     "text": "baru.",
+     "start": 2.659,
+     "end": 3.576
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Lampunya akan tetap menyala. Ikannya enak. Besok... boleh dua?",
+   "hash": "d944aec1cd23",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Lampunya",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "akan",
+     "start": 0.453,
+     "end": 0.627
+    },
+    {
+     "text": "tetap",
+     "start": 0.673,
+     "end": 0.871
+    },
+    {
+     "text": "menyala.",
+     "start": 0.929,
+     "end": 1.463
+    },
+    {
+     "text": "Ikannya",
+     "start": 1.579,
+     "end": 1.962
+    },
+    {
+     "text": "enak.",
+     "start": 2.009,
+     "end": 2.45
+    },
+    {
+     "text": "Besok...",
+     "start": 2.659,
+     "end": 3.286
+    },
+    {
+     "text": "boleh",
+     "start": 3.402,
+     "end": 3.646
+    },
+    {
+     "text": "dua?",
+     "start": 3.669,
+     "end": 4.365
+    }
+   ]
+  },
+  "p3": {
+   "who": "penjual",
+   "text": "Dua?! Besok aku bakar dua... dua-duanya paling matang!",
+   "hash": "277f2e59bc6d",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Dua?!",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "Besok",
+     "start": 1.231,
+     "end": 1.521
+    },
+    {
+     "text": "aku",
+     "start": 1.556,
+     "end": 1.66
+    },
+    {
+     "text": "bakar",
+     "start": 1.707,
+     "end": 1.985
+    },
+    {
+     "text": "dua...",
+     "start": 2.067,
+     "end": 2.473
+    },
+    {
+     "text": "dua-duanya",
+     "start": 2.856,
+     "end": 3.309
+    },
+    {
+     "text": "paling",
+     "start": 3.344,
+     "end": 3.599
+    },
+    {
+     "text": "matang!",
+     "start": 3.634,
+     "end": 4.412
+    }
+   ]
+  },
+  "r2": {
+   "who": "ranu",
+   "text": "Lapor. Ini bukan kasus kriminal. Ini... kasus hati.",
+   "hash": "4eb52966dea2",
+   "duration": 5.898,
+   "words": [
+    {
+     "text": "Lapor.",
+     "start": 0,
+     "end": 0.697
+    },
+    {
+     "text": "Ini",
+     "start": 0.975,
+     "end": 1.219
+    },
+    {
+     "text": "bukan",
+     "start": 1.265,
+     "end": 1.544
+    },
+    {
+     "text": "kasus",
+     "start": 1.602,
+     "end": 1.858
+    },
+    {
+     "text": "kriminal.",
+     "start": 1.927,
+     "end": 2.647
+    },
+    {
+     "text": "Ini...",
+     "start": 3.03,
+     "end": 3.831
+    },
+    {
+     "text": "kasus",
+     "start": 4.435,
+     "end": 4.853
+    },
+    {
+     "text": "hati.",
+     "start": 4.969,
+     "end": 5.898
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Mbak Sekar bakal ngaku pengirim surat pertama, nggak? Tulis di komentar!",
+   "hash": "67524023461d",
+   "duration": 3.994,
+   "words": [
+    {
+     "text": "Mbak",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "Sekar",
+     "start": 0.186,
+     "end": 0.418
+    },
+    {
+     "text": "bakal",
+     "start": 0.476,
+     "end": 0.708
+    },
+    {
+     "text": "ngaku",
+     "start": 0.731,
+     "end": 1.01
+    },
+    {
+     "text": "pengirim",
+     "start": 1.057,
+     "end": 1.37
+    },
+    {
+     "text": "surat",
+     "start": 1.416,
+     "end": 1.625
+    },
+    {
+     "text": "pertama,",
+     "start": 1.672,
+     "end": 2.09
+    },
+    {
+     "text": "nggak?",
+     "start": 2.113,
+     "end": 2.508
+    },
+    {
+     "text": "Tulis",
+     "start": 2.682,
+     "end": 2.961
+    },
+    {
+     "text": "di",
+     "start": 3.007,
+     "end": 3.053
+    },
+    {
+     "text": "komentar!",
+     "start": 3.1,
+     "end": 3.994
+    }
+   ]
+  },
+  "n8": {
+   "who": "narrator",
+   "text": "Punya usaha? Komentar tagar UMKM Pulau Aru, warungmu kami bangun di pulau.",
+   "hash": "88ddd9b44fc5",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Punya",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "usaha?",
+     "start": 0.302,
+     "end": 0.906
+    },
+    {
+     "text": "Komentar",
+     "start": 1.149,
+     "end": 1.602
+    },
+    {
+     "text": "tagar",
+     "start": 1.66,
+     "end": 1.916
+    },
+    {
+     "text": "UMKM",
+     "start": 1.997,
+     "end": 2.392
+    },
+    {
+     "text": "Pulau",
+     "start": 2.438,
+     "end": 2.635
+    },
+    {
+     "text": "Aru,",
+     "start": 2.705,
+     "end": 3.053
+    },
+    {
+     "text": "warungmu",
+     "start": 3.111,
+     "end": 3.506
+    },
+    {
+     "text": "kami",
+     "start": 3.541,
+     "end": 3.738
+    },
+    {
+     "text": "bangun",
+     "start": 3.785,
+     "end": 4.005
+    },
+    {
+     "text": "di",
+     "start": 4.052,
+     "end": 4.11
+    },
+    {
+     "text": "pulau.",
+     "start": 4.145,
+     "end": 4.876
+    }
+   ]
+  }
+ }
+}
