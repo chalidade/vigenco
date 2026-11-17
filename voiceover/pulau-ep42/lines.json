@@ -1,0 +1,37 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "ranu": "RWiGLY9uXI70QL540WNd",
+    "whoyss": "plgKUYgnlZ1DCNh54DwJ",
+    "penjual": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "keeper": {"stability": 0.6, "style": 0.2},
+    "ranu": {"stability": 0.35, "style": 0.6},
+    "whoyss": {"stability": 0.3, "style": 0.7},
+    "penjual": {"stability": 0.45, "style": 0.4}
+  },
+  "lines": [
+    {"id": "p1", "who": "penjual", "text": "Surat... buat aku?!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita."},
+    {"id": "n2", "who": "narrator", "text": "Kemarin, Penjaga Mercusuar dapat surat tanpa nama. Tanda tangannya: noda arang."},
+    {"id": "r1", "who": "ranu", "text": "Polisi pantai turun tangan! Siapa di pulau ini yang main arang?"},
+    {"id": "w1", "who": "whoyss", "text": "Bukan aku! Aku mainnya sandal... eh."},
+    {"id": "n3", "who": "narrator", "text": "Lalu, untuk pertama kalinya, Penjaga Mercusuar turun ke lapak ikan bakar."},
+    {"id": "k1", "who": "keeper", "text": "Satu ikan bakar. Yang... paling matang."},
+    {"id": "p2", "who": "penjual", "text": "S-siap, Pak! Paling matang! Paling... panas!"},
+    {"id": "n4", "who": "narrator", "text": "Dan asapnya... bentuk hati lagi."},
+    {"id": "k2", "who": "keeper", "text": "Hm. Asap yang aneh."},
+    {"id": "n5", "who": "narrator", "text": "Dia pulang. Tapi di samping lapak, ada surat baru."},
+    {"id": "n6", "who": "narrator", "text": "Lampunya akan tetap menyala. Ikannya enak. Besok... boleh dua?"},
+    {"id": "p3", "who": "penjual", "text": "Dua?! Besok aku bakar dua... dua-duanya paling matang!"},
+    {"id": "r2", "who": "ranu", "text": "Lapor. Ini bukan kasus kriminal. Ini... kasus hati."},
+    {"id": "n7", "who": "narrator", "text": "Mbak Sekar bakal ngaku pengirim surat pertama, nggak? Tulis di komentar!"},
+    {"id": "n8", "who": "narrator", "text": "Punya usaha? Komentar tagar UMKM Pulau Aru, warungmu kami bangun di pulau."}
+  ]
+}
