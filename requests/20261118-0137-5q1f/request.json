@@ -1,0 +1,16 @@
+{
+  "id": "20261118-0137-5q1f",
+  "type": "launch",
+  "prompt": "Video launch untuk aplikasi baruku. Buat video lunch untuk toowl.my.id. kamu bisa pake tampilan mobile tapi pake logo yang aku attach ganti text toowl dengan logo yang aku attach. toowl adalah web apps dimanna berisi sekumpulan aplikasi. di dalamnya ada 100+ tools  dan akan terus bertambah.",
+  "format": "portrait",
+  "links": [
+    "https://toowl.my.id/",
+    "https://github.com/chalidade/tools/"
+  ],
+  "files": [
+    "requests/20261118-0137-5q1f/files/01-mockup-b-command.png",
+    "requests/20261118-0137-5q1f/files/02-geometric-black-7oow-monogram.png"
+  ],
+  "created": "2026-11-17T18:37:03.225Z",
+  "mode": "full"
+}
