@@ -1,0 +1,688 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "keeper": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "inyuu": "RWiGLY9uXI70QL540WNd",
+  "senar": "plgKUYgnlZ1DCNh54DwJ",
+  "penjual": "I7sakys8pBZ1Z5f0UhT9"
+ },
+ "lines": {
+  "k1": {
+   "who": "keeper",
+   "text": "Surat... untukku?!",
+   "hash": "8e7b319c96ef",
+   "duration": 1.904,
+   "words": [
+    {
+     "text": "Surat...",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "text": "untukku?!",
+     "start": 0.789,
+     "end": 1.904
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita.",
+   "hash": "d0b0ab48afa9",
+   "duration": 4.644,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.522
+    },
+    {
+     "text": "diatur",
+     "start": 0.557,
+     "end": 0.871
+    },
+    {
+     "text": "komentar",
+     "start": 0.929,
+     "end": 1.3
+    },
+    {
+     "text": "kalian.",
+     "start": 1.347,
+     "end": 1.95
+    },
+    {
+     "text": "Follow",
+     "start": 2.194,
+     "end": 2.473
+    },
+    {
+     "text": "jadi",
+     "start": 2.543,
+     "end": 2.705
+    },
+    {
+     "text": "warga,",
+     "start": 2.752,
+     "end": 3.204
+    },
+    {
+     "text": "komentar",
+     "start": 3.228,
+     "end": 3.669
+    },
+    {
+     "text": "jadi",
+     "start": 3.727,
+     "end": 3.889
+    },
+    {
+     "text": "cerita.",
+     "start": 3.936,
+     "end": 4.644
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Pagi ini, di pintu mercusuar, ada surat tanpa nama.",
+   "hash": "47b7678ca7a9",
+   "duration": 3.901,
+   "words": [
+    {
+     "text": "Pagi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "ini,",
+     "start": 0.36,
+     "end": 0.755
+    },
+    {
+     "text": "di",
+     "start": 0.836,
+     "end": 0.929
+    },
+    {
+     "text": "pintu",
+     "start": 0.975,
+     "end": 1.196
+    },
+    {
+     "text": "mercusuar,",
+     "start": 1.242,
+     "end": 1.985
+    },
+    {
+     "text": "ada",
+     "start": 2.113,
+     "end": 2.334
+    },
+    {
+     "text": "surat",
+     "start": 2.38,
+     "end": 2.647
+    },
+    {
+     "text": "tanpa",
+     "start": 2.682,
+     "end": 2.949
+    },
+    {
+     "text": "nama.",
+     "start": 2.995,
+     "end": 3.901
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Isinya: lampumu yang menuntunku pulang, setiap malam.",
+   "hash": "4b9a04f07842",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Isinya:",
+     "start": 0,
+     "end": 0.592
+    },
+    {
+     "text": "lampumu",
+     "start": 0.708,
+     "end": 1.138
+    },
+    {
+     "text": "yang",
+     "start": 1.196,
+     "end": 1.324
+    },
+    {
+     "text": "menuntunku",
+     "start": 1.358,
+     "end": 1.846
+    },
+    {
+     "text": "pulang,",
+     "start": 1.892,
+     "end": 2.334
+    },
+    {
+     "text": "setiap",
+     "start": 2.426,
+     "end": 2.798
+    },
+    {
+     "text": "malam.",
+     "start": 2.856,
+     "end": 3.669
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Tanda tangannya... ketutup noda hitam. Noda arang.",
+   "hash": "e82ba14b121b",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Tanda",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "tangannya...",
+     "start": 0.383,
+     "end": 1.103
+    },
+    {
+     "text": "ketutup",
+     "start": 1.219,
+     "end": 1.649
+    },
+    {
+     "text": "noda",
+     "start": 1.741,
+     "end": 1.939
+    },
+    {
+     "text": "hitam.",
+     "start": 1.985,
+     "end": 2.485
+    },
+    {
+     "text": "Noda",
+     "start": 2.995,
+     "end": 3.309
+    },
+    {
+     "text": "arang.",
+     "start": 3.367,
+     "end": 4.412
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Ciee! Dari siapa, Pak?",
+   "hash": "2fb857bcbed5",
+   "duration": 1.161,
+   "words": [
+    {
+     "text": "Ciee!",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "Dari",
+     "start": 0.383,
+     "end": 0.557
+    },
+    {
+     "text": "siapa,",
+     "start": 0.58,
+     "end": 0.859
+    },
+    {
+     "text": "Pak?",
+     "start": 0.882,
+     "end": 1.161
+    }
+   ]
+  },
+  "k2": {
+   "who": "keeper",
+   "text": "Ini pasti... salah alamat.",
+   "hash": "f950efe5e1a6",
+   "duration": 2.647,
+   "words": [
+    {
+     "text": "Ini",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "pasti...",
+     "start": 0.348,
+     "end": 0.998
+    },
+    {
+     "text": "salah",
+     "start": 1.44,
+     "end": 1.753
+    },
+    {
+     "text": "alamat.",
+     "start": 1.8,
+     "end": 2.647
+    }
+   ]
+  },
+  "a2": {
+   "who": "aru",
+   "text": "Pak, mercusuar di pulau ini cuma satu!",
+   "hash": "75770cbb1440",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Pak,",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "mercusuar",
+     "start": 0.302,
+     "end": 0.755
+    },
+    {
+     "text": "di",
+     "start": 0.813,
+     "end": 0.871
+    },
+    {
+     "text": "pulau",
+     "start": 0.917,
+     "end": 1.126
+    },
+    {
+     "text": "ini",
+     "start": 1.161,
+     "end": 1.289
+    },
+    {
+     "text": "cuma",
+     "start": 1.312,
+     "end": 1.486
+    },
+    {
+     "text": "satu!",
+     "start": 1.533,
+     "end": 2.276
+    }
+   ]
+  },
+  "y1": {
+   "who": "inyuu",
+   "text": "Quest baru! Cari NPC yang bau arang!",
+   "hash": "07d743aaad27",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Quest",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "baru!",
+     "start": 0.476,
+     "end": 1.103
+    },
+    {
+     "text": "Cari",
+     "start": 1.614,
+     "end": 1.974
+    },
+    {
+     "text": "NPC",
+     "start": 2.02,
+     "end": 2.415
+    },
+    {
+     "text": "yang",
+     "start": 2.508,
+     "end": 2.647
+    },
+    {
+     "text": "bau",
+     "start": 2.694,
+     "end": 2.844
+    },
+    {
+     "text": "arang!",
+     "start": 2.926,
+     "end": 3.715
+    }
+   ]
+  },
+  "s1": {
+   "who": "senar",
+   "text": "Lagu cinta buat Pak Penjaga! Jreng... yah, senarnya putus.",
+   "hash": "46a5d95eb5f1",
+   "duration": 3.483,
+   "words": [
+    {
+     "text": "Lagu",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "cinta",
+     "start": 0.302,
+     "end": 0.557
+    },
+    {
+     "text": "buat",
+     "start": 0.604,
+     "end": 0.743
+    },
+    {
+     "text": "Pak",
+     "start": 0.778,
+     "end": 0.859
+    },
+    {
+     "text": "Penjaga!",
+     "start": 0.882,
+     "end": 1.347
+    },
+    {
+     "text": "Jreng...",
+     "start": 1.405,
+     "end": 1.962
+    },
+    {
+     "text": "yah,",
+     "start": 2.078,
+     "end": 2.299
+    },
+    {
+     "text": "senarnya",
+     "start": 2.473,
+     "end": 2.856
+    },
+    {
+     "text": "putus.",
+     "start": 2.891,
+     "end": 3.483
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Di pulau ini, cuma satu tempat yang asapnya nggak pernah padam...",
+   "hash": "3b7bea487067",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Di",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "pulau",
+     "start": 0.209,
+     "end": 0.464
+    },
+    {
+     "text": "ini,",
+     "start": 0.534,
+     "end": 0.917
+    },
+    {
+     "text": "cuma",
+     "start": 0.987,
+     "end": 1.231
+    },
+    {
+     "text": "satu",
+     "start": 1.277,
+     "end": 1.486
+    },
+    {
+     "text": "tempat",
+     "start": 1.533,
+     "end": 1.811
+    },
+    {
+     "text": "yang",
+     "start": 1.869,
+     "end": 1.974
+    },
+    {
+     "text": "asapnya",
+     "start": 2.043,
+     "end": 2.415
+    },
+    {
+     "text": "nggak",
+     "start": 2.438,
+     "end": 2.601
+    },
+    {
+     "text": "pernah",
+     "start": 2.635,
+     "end": 2.891
+    },
+    {
+     "text": "padam...",
+     "start": 2.926,
+     "end": 3.622
+    }
+   ]
+  },
+  "p1": {
+   "who": "penjual",
+   "text": "Ikan bakar! Yang paling matang... buat yang jaga lampu.",
+   "hash": "ca820fa6069d",
+   "duration": 3.994,
+   "words": [
+    {
+     "text": "Ikan",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "bakar!",
+     "start": 0.43,
+     "end": 1.045
+    },
+    {
+     "text": "Yang",
+     "start": 1.219,
+     "end": 1.416
+    },
+    {
+     "text": "paling",
+     "start": 1.451,
+     "end": 1.718
+    },
+    {
+     "text": "matang...",
+     "start": 1.765,
+     "end": 2.368
+    },
+    {
+     "text": "buat",
+     "start": 2.577,
+     "end": 2.798
+    },
+    {
+     "text": "yang",
+     "start": 2.844,
+     "end": 2.961
+    },
+    {
+     "text": "jaga",
+     "start": 2.995,
+     "end": 3.193
+    },
+    {
+     "text": "lampu.",
+     "start": 3.228,
+     "end": 3.994
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Tunggu. Asapnya... kok bentuk hati?",
+   "hash": "2d1ae7d56a2f",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Tunggu.",
+     "start": 0,
+     "end": 0.627
+    },
+    {
+     "text": "Asapnya...",
+     "start": 1.068,
+     "end": 1.753
+    },
+    {
+     "text": "kok",
+     "start": 1.997,
+     "end": 2.125
+    },
+    {
+     "text": "bentuk",
+     "start": 2.148,
+     "end": 2.38
+    },
+    {
+     "text": "hati?",
+     "start": 2.415,
+     "end": 3.39
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Petunjuk kedua: noda arang. Siapa pengirim suratnya? Tebak di komentar!",
+   "hash": "2a3f4f2ab516",
+   "duration": 5.991,
+   "words": [
+    {
+     "text": "Petunjuk",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "kedua:",
+     "start": 0.488,
+     "end": 1.068
+    },
+    {
+     "text": "noda",
+     "start": 1.312,
+     "end": 1.567
+    },
+    {
+     "text": "arang.",
+     "start": 1.614,
+     "end": 2.09
+    },
+    {
+     "text": "Siapa",
+     "start": 2.531,
+     "end": 2.937
+    },
+    {
+     "text": "pengirim",
+     "start": 2.972,
+     "end": 3.309
+    },
+    {
+     "text": "suratnya?",
+     "start": 3.367,
+     "end": 4.04
+    },
+    {
+     "text": "Tebak",
+     "start": 4.214,
+     "end": 4.586
+    },
+    {
+     "text": "di",
+     "start": 4.667,
+     "end": 4.737
+    },
+    {
+     "text": "komentar!",
+     "start": 4.783,
+     "end": 5.991
+    }
+   ]
+  },
+  "n8": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur.",
+   "hash": "6f3e077dc80f",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.511
+    },
+    {
+     "text": "namamu",
+     "start": 0.627,
+     "end": 0.952
+    },
+    {
+     "text": "jadi",
+     "start": 1.01,
+     "end": 1.161
+    },
+    {
+     "text": "warga.",
+     "start": 1.196,
+     "end": 1.683
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.892,
+     "end": 2.531
+    },
+    {
+     "text": "ceritanya",
+     "start": 2.647,
+     "end": 3.088
+    },
+    {
+     "text": "kamu",
+     "start": 3.135,
+     "end": 3.344
+    },
+    {
+     "text": "yang",
+     "start": 3.39,
+     "end": 3.495
+    },
+    {
+     "text": "atur.",
+     "start": 3.564,
+     "end": 4.18
+    }
+   ]
+  }
+ }
+}
