@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>toowl · launch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #070707; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #070707;
+    font-family: "Geist", system-ui, sans-serif; color: #F5F5F2; -webkit-font-smoothing: antialiased; }
+  #dots { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.07) 2px, transparent 2.5px);
+    background-size: 48px 48px; background-position: 12px 24px;
+    -webkit-mask-image: radial-gradient(75% 60% at 50% 50%, #000 20%, transparent 85%); mask-image: radial-gradient(75% 60% at 50% 50%, #000 20%, transparent 85%); }
+  #flash { position: absolute; inset: 0; background: #CBFF3B; opacity: 0; }
+  #world { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 540px 960px; }
+  #world > * { position: absolute; }
+  #world * { box-sizing: border-box; }
+  .mono { font-family: "Geist Mono", ui-monospace, monospace; }
+  .lime { color: #CBFF3B; }
+  .ic { display: inline-flex; flex: none; }
+  .lbl { font: 500 26px/1 "Geist Mono", monospace; letter-spacing: .14em; color: #77776F; text-transform: uppercase; white-space: nowrap; }
+  .row { display: flex; align-items: center; white-space: nowrap; }
+  .tnum { font-variant-numeric: tabular-nums; }
+  .logo { overflow: hidden; }
+  .logo img { position: absolute; display: block; max-width: none; }
+</style>
+</head>
+<body>
+<!-- The attached monogram: alpha' = alpha − luma, so it works whether its background is white or transparent; colour becomes white or ink. -->
+<svg width="0" height="0" style="position:absolute">
+  <filter id="lw" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+    <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -0.2126 -0.7152 -0.0722 1 0"/>
+  </filter>
+  <filter id="li" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+    <feColorMatrix type="matrix" values="0 0 0 0 0.04  0 0 0 0 0.04  0 0 0 0 0.04  -0.2126 -0.7152 -0.0722 1 0"/>
+  </filter>
+</svg>
+<div id="stage">
+  <div id="dots"></div>
+  <div id="flash"></div>
+  <div id="world"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
