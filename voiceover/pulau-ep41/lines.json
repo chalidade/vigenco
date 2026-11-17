@@ -1,0 +1,38 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "inyuu": "RWiGLY9uXI70QL540WNd",
+    "senar": "plgKUYgnlZ1DCNh54DwJ",
+    "penjual": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "aru": {"stability": 0.35, "style": 0.5},
+    "keeper": {"stability": 0.6, "style": 0.2},
+    "inyuu": {"stability": 0.3, "style": 0.7},
+    "senar": {"stability": 0.3, "style": 0.7},
+    "penjual": {"stability": 0.45, "style": 0.4}
+  },
+  "lines": [
+    {"id": "k1", "who": "keeper", "text": "Surat... untukku?!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita."},
+    {"id": "n2", "who": "narrator", "text": "Pagi ini, di pintu mercusuar, ada surat tanpa nama."},
+    {"id": "n3", "who": "narrator", "text": "Isinya: lampumu yang menuntunku pulang, setiap malam."},
+    {"id": "n4", "who": "narrator", "text": "Tanda tangannya... ketutup noda hitam. Noda arang."},
+    {"id": "a1", "who": "aru", "text": "Ciee! Dari siapa, Pak?"},
+    {"id": "k2", "who": "keeper", "text": "Ini pasti... salah alamat."},
+    {"id": "a2", "who": "aru", "text": "Pak, mercusuar di pulau ini cuma satu!"},
+    {"id": "y1", "who": "inyuu", "text": "Quest baru! Cari NPC yang bau arang!"},
+    {"id": "s1", "who": "senar", "text": "Lagu cinta buat Pak Penjaga! Jreng... yah, senarnya putus."},
+    {"id": "n5", "who": "narrator", "text": "Di pulau ini, cuma satu tempat yang asapnya nggak pernah padam..."},
+    {"id": "p1", "who": "penjual", "text": "Ikan bakar! Yang paling matang... buat yang jaga lampu."},
+    {"id": "n6", "who": "narrator", "text": "Tunggu. Asapnya... kok bentuk hati?"},
+    {"id": "n7", "who": "narrator", "text": "Petunjuk kedua: noda arang. Siapa pengirim suratnya? Tebak di komentar!"},
+    {"id": "n8", "who": "narrator", "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."}
+  ]
+}
