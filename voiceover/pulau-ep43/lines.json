@@ -1,0 +1,35 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "rayhan": "plgKUYgnlZ1DCNh54DwJ",
+    "lala": "iWydkXKoiVtvdn4vLKp9",
+    "penjual": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "keeper": {"stability": 0.6, "style": 0.2},
+    "rayhan": {"stability": 0.35, "style": 0.6},
+    "lala": {"stability": 0.35, "style": 0.6},
+    "penjual": {"stability": 0.45, "style": 0.4}
+  },
+  "lines": [
+    {"id": "p1", "who": "penjual", "text": "Surat pertama itu... dari aku!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita."},
+    {"id": "n2", "who": "narrator", "text": "Kemarin, Penjaga Mercusuar membalas surat tanpa nama. Isinya: besok... boleh dua?"},
+    {"id": "p2", "who": "penjual", "text": "Dua ikan. Dua-duanya paling matang. Jangan gosong, jangan gosong..."},
+    {"id": "y1", "who": "rayhan", "text": "Aku juga dapat tangkapan, Mbak! ...Sandal lagi. Lumayan."},
+    {"id": "l1", "who": "lala", "text": "Mau kue? Biar makan malamnya makin manis!"},
+    {"id": "n3", "who": "narrator", "text": "Sore itu, di pantai dekat dermaga, ada meja baru. Meja Dua Ikan."},
+    {"id": "k1", "who": "keeper", "text": "Dua ikan. Persis seperti di surat."},
+    {"id": "p3", "who": "penjual", "text": "Pak, aku mau ngaku. Surat pertama itu... dari aku."},
+    {"id": "k2", "who": "keeper", "text": "Aku tahu. Tanda tangannya noda arang."},
+    {"id": "p4", "who": "penjual", "text": "Jadi Bapak tahu dari kemarin?!"},
+    {"id": "k3", "who": "keeper", "text": "Penjaga mercusuar... melihat semuanya."},
+    {"id": "n4", "who": "narrator", "text": "Tapi buket bunga yang dia pesan di mall... belum juga dia berikan."},
+    {"id": "n5", "who": "narrator", "text": "Follow, namamu jadi warga. Bunganya dikasih kapan? Tulis di komentar!"}
+  ]
+}
