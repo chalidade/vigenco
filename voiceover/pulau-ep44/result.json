@@ -1,0 +1,757 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "penjual": "I7sakys8pBZ1Z5f0UhT9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "keeper": "RWiGLY9uXI70QL540WNd",
+  "vanz": "plgKUYgnlZ1DCNh54DwJ",
+  "alerx": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "lines": {
+  "p1": {
+   "who": "penjual",
+   "text": "Bunga?! Buat... aku?!",
+   "hash": "7051d1cb099d",
+   "duration": 2.601,
+   "words": [
+    {
+     "text": "Bunga?!",
+     "start": 0,
+     "end": 0.569
+    },
+    {
+     "text": "Buat...",
+     "start": 0.72,
+     "end": 1.068
+    },
+    {
+     "text": "aku?!",
+     "start": 1.184,
+     "end": 2.601
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita.",
+   "hash": "d0b0ab48afa9",
+   "duration": 5.526,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.406,
+     "end": 0.627
+    },
+    {
+     "text": "diatur",
+     "start": 0.673,
+     "end": 0.998
+    },
+    {
+     "text": "komentar",
+     "start": 1.045,
+     "end": 1.405
+    },
+    {
+     "text": "kalian.",
+     "start": 1.463,
+     "end": 2.078
+    },
+    {
+     "text": "Follow",
+     "start": 2.322,
+     "end": 2.612
+    },
+    {
+     "text": "jadi",
+     "start": 2.682,
+     "end": 2.844
+    },
+    {
+     "text": "warga,",
+     "start": 2.891,
+     "end": 3.437
+    },
+    {
+     "text": "komentar",
+     "start": 3.529,
+     "end": 4.052
+    },
+    {
+     "text": "jadi",
+     "start": 4.226,
+     "end": 4.481
+    },
+    {
+     "text": "cerita.",
+     "start": 4.528,
+     "end": 5.526
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Tiga hari buket ini menunggu di Toko Bunga. Hari ini... akhirnya diambil.",
+   "hash": "4e6cebb1bd42",
+   "duration": 5.155,
+   "words": [
+    {
+     "text": "Tiga",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "hari",
+     "start": 0.313,
+     "end": 0.476
+    },
+    {
+     "text": "buket",
+     "start": 0.511,
+     "end": 0.755
+    },
+    {
+     "text": "ini",
+     "start": 0.813,
+     "end": 0.917
+    },
+    {
+     "text": "menunggu",
+     "start": 0.964,
+     "end": 1.3
+    },
+    {
+     "text": "di",
+     "start": 1.347,
+     "end": 1.405
+    },
+    {
+     "text": "Toko",
+     "start": 1.451,
+     "end": 1.637
+    },
+    {
+     "text": "Bunga.",
+     "start": 1.683,
+     "end": 2.148
+    },
+    {
+     "text": "Hari",
+     "start": 2.589,
+     "end": 2.844
+    },
+    {
+     "text": "ini...",
+     "start": 2.891,
+     "end": 3.413
+    },
+    {
+     "text": "akhirnya",
+     "start": 3.622,
+     "end": 4.052
+    },
+    {
+     "text": "diambil.",
+     "start": 4.098,
+     "end": 5.155
+    }
+   ]
+  },
+  "k1": {
+   "who": "keeper",
+   "text": "Hari ini. Harus hari ini. Jangan gemetar, Pak Penjaga.",
+   "hash": "0085b833b596",
+   "duration": 3.808,
+   "words": [
+    {
+     "text": "Hari",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "ini.",
+     "start": 0.406,
+     "end": 0.871
+    },
+    {
+     "text": "Harus",
+     "start": 1.115,
+     "end": 1.44
+    },
+    {
+     "text": "hari",
+     "start": 1.509,
+     "end": 1.718
+    },
+    {
+     "text": "ini.",
+     "start": 1.753,
+     "end": 2.113
+    },
+    {
+     "text": "Jangan",
+     "start": 2.392,
+     "end": 2.705
+    },
+    {
+     "text": "gemetar,",
+     "start": 2.763,
+     "end": 3.181
+    },
+    {
+     "text": "Pak",
+     "start": 3.204,
+     "end": 3.32
+    },
+    {
+     "text": "Penjaga.",
+     "start": 3.355,
+     "end": 3.808
+    }
+   ]
+  },
+  "v1": {
+   "who": "vanz",
+   "text": "Hmph. Kasih bunga itu gampang. Tinggal jalan keren, terus... aduh!",
+   "hash": "dacc4933abb6",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Hmph.",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "Kasih",
+     "start": 0.464,
+     "end": 0.731
+    },
+    {
+     "text": "bunga",
+     "start": 0.755,
+     "end": 0.94
+    },
+    {
+     "text": "itu",
+     "start": 0.964,
+     "end": 1.091
+    },
+    {
+     "text": "gampang.",
+     "start": 1.138,
+     "end": 1.486
+    },
+    {
+     "text": "Tinggal",
+     "start": 1.509,
+     "end": 1.776
+    },
+    {
+     "text": "jalan",
+     "start": 1.846,
+     "end": 2.043
+    },
+    {
+     "text": "keren,",
+     "start": 2.101,
+     "end": 2.334
+    },
+    {
+     "text": "terus...",
+     "start": 2.357,
+     "end": 2.682
+    },
+    {
+     "text": "aduh!",
+     "start": 2.833,
+     "end": 3.576
+    }
+   ]
+  },
+  "a1": {
+   "who": "alerx",
+   "text": "Dia sudah mondar-mandir tiga kali. Aku sudah di sini dari tadi.",
+   "hash": "b49debdd62b7",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "sudah",
+     "start": 0.267,
+     "end": 0.488
+    },
+    {
+     "text": "mondar-mandir",
+     "start": 0.522,
+     "end": 1.242
+    },
+    {
+     "text": "tiga",
+     "start": 1.312,
+     "end": 1.509
+    },
+    {
+     "text": "kali.",
+     "start": 1.556,
+     "end": 2.032
+    },
+    {
+     "text": "Aku",
+     "start": 2.357,
+     "end": 2.589
+    },
+    {
+     "text": "sudah",
+     "start": 2.635,
+     "end": 2.833
+    },
+    {
+     "text": "di",
+     "start": 2.856,
+     "end": 2.926
+    },
+    {
+     "text": "sini",
+     "start": 2.961,
+     "end": 3.193
+    },
+    {
+     "text": "dari",
+     "start": 3.239,
+     "end": 3.413
+    },
+    {
+     "text": "tadi.",
+     "start": 3.46,
+     "end": 4.272
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Sore itu, di Meja Dua Ikan, kisah ini sampai di bagian terakhir.",
+   "hash": "5a8aedad597b",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Sore",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "itu,",
+     "start": 0.418,
+     "end": 0.824
+    },
+    {
+     "text": "di",
+     "start": 0.917,
+     "end": 1.022
+    },
+    {
+     "text": "Meja",
+     "start": 1.08,
+     "end": 1.312
+    },
+    {
+     "text": "Dua",
+     "start": 1.347,
+     "end": 1.498
+    },
+    {
+     "text": "Ikan,",
+     "start": 1.556,
+     "end": 2.067
+    },
+    {
+     "text": "kisah",
+     "start": 2.183,
+     "end": 2.519
+    },
+    {
+     "text": "ini",
+     "start": 2.566,
+     "end": 2.763
+    },
+    {
+     "text": "sampai",
+     "start": 2.81,
+     "end": 3.088
+    },
+    {
+     "text": "di",
+     "start": 3.123,
+     "end": 3.181
+    },
+    {
+     "text": "bagian",
+     "start": 3.239,
+     "end": 3.541
+    },
+    {
+     "text": "terakhir.",
+     "start": 3.599,
+     "end": 4.365
+    }
+   ]
+  },
+  "k2": {
+   "who": "keeper",
+   "text": "Mbak Sekar. Aku menjaga lampu tiap malam. Ini... buat yang menjaga apinya.",
+   "hash": "eb308a372ed2",
+   "duration": 5.201,
+   "words": [
+    {
+     "text": "Mbak",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "Sekar.",
+     "start": 0.279,
+     "end": 0.766
+    },
+    {
+     "text": "Aku",
+     "start": 0.813,
+     "end": 1.057
+    },
+    {
+     "text": "menjaga",
+     "start": 1.115,
+     "end": 1.463
+    },
+    {
+     "text": "lampu",
+     "start": 1.521,
+     "end": 1.788
+    },
+    {
+     "text": "tiap",
+     "start": 1.834,
+     "end": 1.997
+    },
+    {
+     "text": "malam.",
+     "start": 2.055,
+     "end": 2.45
+    },
+    {
+     "text": "Ini...",
+     "start": 2.496,
+     "end": 3.146
+    },
+    {
+     "text": "buat",
+     "start": 3.587,
+     "end": 3.843
+    },
+    {
+     "text": "yang",
+     "start": 3.913,
+     "end": 4.04
+    },
+    {
+     "text": "menjaga",
+     "start": 4.087,
+     "end": 4.458
+    },
+    {
+     "text": "apinya.",
+     "start": 4.493,
+     "end": 5.201
+    }
+   ]
+  },
+  "k3": {
+   "who": "keeper",
+   "text": "Maaf lama. Tiga hari aku... latihan ngomong.",
+   "hash": "4809f3cfe6bf",
+   "duration": 3.576,
+   "words": [
+    {
+     "text": "Maaf",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "lama.",
+     "start": 0.372,
+     "end": 0.743
+    },
+    {
+     "text": "Tiga",
+     "start": 0.813,
+     "end": 1.126
+    },
+    {
+     "text": "hari",
+     "start": 1.161,
+     "end": 1.358
+    },
+    {
+     "text": "aku...",
+     "start": 1.416,
+     "end": 1.927
+    },
+    {
+     "text": "latihan",
+     "start": 2.438,
+     "end": 2.879
+    },
+    {
+     "text": "ngomong.",
+     "start": 2.902,
+     "end": 3.576
+    }
+   ]
+  },
+  "p2": {
+   "who": "penjual",
+   "text": "Pak... ikannya jadi gosong.",
+   "hash": "9bafca08f11d",
+   "duration": 1.672,
+   "words": [
+    {
+     "text": "Pak...",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "ikannya",
+     "start": 0.464,
+     "end": 0.836
+    },
+    {
+     "text": "jadi",
+     "start": 0.859,
+     "end": 1.022
+    },
+    {
+     "text": "gosong.",
+     "start": 1.068,
+     "end": 1.672
+    }
+   ]
+  },
+  "k4": {
+   "who": "keeper",
+   "text": "Tidak apa. Yang gosong... juga kumakan.",
+   "hash": "a2858ae4f94a",
+   "duration": 3.622,
+   "words": [
+    {
+     "text": "Tidak",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "apa.",
+     "start": 0.395,
+     "end": 0.859
+    },
+    {
+     "text": "Yang",
+     "start": 1.068,
+     "end": 1.335
+    },
+    {
+     "text": "gosong...",
+     "start": 1.393,
+     "end": 2.043
+    },
+    {
+     "text": "juga",
+     "start": 2.368,
+     "end": 2.659
+    },
+    {
+     "text": "kumakan.",
+     "start": 2.705,
+     "end": 3.622
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Tapi waktu mereka menoleh ke meja... satu ikan bakar hilang!",
+   "hash": "e24a3c5fd40e",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "waktu",
+     "start": 0.337,
+     "end": 0.546
+    },
+    {
+     "text": "mereka",
+     "start": 0.592,
+     "end": 0.824
+    },
+    {
+     "text": "menoleh",
+     "start": 0.871,
+     "end": 1.173
+    },
+    {
+     "text": "ke",
+     "start": 1.207,
+     "end": 1.265
+    },
+    {
+     "text": "meja...",
+     "start": 1.312,
+     "end": 1.858
+    },
+    {
+     "text": "satu",
+     "start": 2.101,
+     "end": 2.415
+    },
+    {
+     "text": "ikan",
+     "start": 2.485,
+     "end": 2.705
+    },
+    {
+     "text": "bakar",
+     "start": 2.775,
+     "end": 3.111
+    },
+    {
+     "text": "hilang!",
+     "start": 3.181,
+     "end": 4.18
+    }
+   ]
+  },
+  "p3": {
+   "who": "penjual",
+   "text": "Ikanku... mana?!",
+   "hash": "0e1fb4e29ced",
+   "duration": 1.625,
+   "words": [
+    {
+     "text": "Ikanku...",
+     "start": 0,
+     "end": 0.627
+    },
+    {
+     "text": "mana?!",
+     "start": 0.952,
+     "end": 1.625
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Yang tersisa cuma tulang, dan jejak kaki kecil menuju pelabuhan.",
+   "hash": "2de82d217a8b",
+   "duration": 3.808,
+   "words": [
+    {
+     "text": "Yang",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "tersisa",
+     "start": 0.244,
+     "end": 0.58
+    },
+    {
+     "text": "cuma",
+     "start": 0.627,
+     "end": 0.813
+    },
+    {
+     "text": "tulang,",
+     "start": 0.848,
+     "end": 1.289
+    },
+    {
+     "text": "dan",
+     "start": 1.405,
+     "end": 1.544
+    },
+    {
+     "text": "jejak",
+     "start": 1.602,
+     "end": 1.869
+    },
+    {
+     "text": "kaki",
+     "start": 1.892,
+     "end": 2.101
+    },
+    {
+     "text": "kecil",
+     "start": 2.136,
+     "end": 2.392
+    },
+    {
+     "text": "menuju",
+     "start": 2.45,
+     "end": 2.728
+    },
+    {
+     "text": "pelabuhan.",
+     "start": 2.775,
+     "end": 3.808
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Siapa pencuri ikannya? Tebak di komentar!",
+   "hash": "d68f585071ab",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Siapa",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "pencuri",
+     "start": 0.43,
+     "end": 0.766
+    },
+    {
+     "text": "ikannya?",
+     "start": 0.801,
+     "end": 1.416
+    },
+    {
+     "text": "Tebak",
+     "start": 1.625,
+     "end": 1.985
+    },
+    {
+     "text": "di",
+     "start": 2.078,
+     "end": 2.148
+    },
+    {
+     "text": "komentar!",
+     "start": 2.183,
+     "end": 3.019
+    }
+   ]
+  }
+ }
+}
