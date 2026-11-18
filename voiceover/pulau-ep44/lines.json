@@ -1,0 +1,36 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "keeper": "RWiGLY9uXI70QL540WNd",
+    "vanz": "plgKUYgnlZ1DCNh54DwJ",
+    "alerx": "iWydkXKoiVtvdn4vLKp9",
+    "penjual": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "keeper": {"stability": 0.6, "style": 0.2},
+    "vanz": {"stability": 0.35, "style": 0.6},
+    "alerx": {"stability": 0.6, "style": 0.3},
+    "penjual": {"stability": 0.45, "style": 0.4}
+  },
+  "lines": [
+    {"id": "p1", "who": "penjual", "text": "Bunga?! Buat... aku?!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita."},
+    {"id": "n2", "who": "narrator", "text": "Tiga hari buket ini menunggu di Toko Bunga. Hari ini... akhirnya diambil."},
+    {"id": "k1", "who": "keeper", "text": "Hari ini. Harus hari ini. Jangan gemetar, Pak Penjaga."},
+    {"id": "v1", "who": "vanz", "text": "Hmph. Kasih bunga itu gampang. Tinggal jalan keren, terus... aduh!"},
+    {"id": "a1", "who": "alerx", "text": "Dia sudah mondar-mandir tiga kali. Aku sudah di sini dari tadi."},
+    {"id": "n3", "who": "narrator", "text": "Sore itu, di Meja Dua Ikan, kisah ini sampai di bagian terakhir."},
+    {"id": "k2", "who": "keeper", "text": "Mbak Sekar. Aku menjaga lampu tiap malam. Ini... buat yang menjaga apinya."},
+    {"id": "k3", "who": "keeper", "text": "Maaf lama. Tiga hari aku... latihan ngomong."},
+    {"id": "p2", "who": "penjual", "text": "Pak... ikannya jadi gosong."},
+    {"id": "k4", "who": "keeper", "text": "Tidak apa. Yang gosong... juga kumakan."},
+    {"id": "n4", "who": "narrator", "text": "Tapi waktu mereka menoleh ke meja... satu ikan bakar hilang!"},
+    {"id": "p3", "who": "penjual", "text": "Ikanku... mana?!"},
+    {"id": "n5", "who": "narrator", "text": "Yang tersisa cuma tulang, dan jejak kaki kecil menuju pelabuhan."},
+    {"id": "n6", "who": "narrator", "text": "Siapa pencuri ikannya? Tebak di komentar!"}
+  ]
+}
