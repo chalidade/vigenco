@@ -94,7 +94,7 @@
       { n: 'Lerero v2', w: 620, col: C.ink, tx: '#fff' },
       { n: 'Saling Jaga', w: 700, col: '#1f9d55', tx: '#fff' },
       { n: 'jobfair.co.id', w: 780, col: C.yellow, tx: C.ink },
-      { n: 'toowl · 70+ tools', w: 920, col: C.blue, tx: '#fff' },
+      { n: 'toowl · 110+ tools', w: 960, col: C.blue, tx: '#fff' },
       { n: 'Kita Berkembang', w: 880, col: C.ink, tx: '#fff' },
       { n: 'Kuliah Indo', w: 680, col: '#7c3aed', tx: '#fff' },
     ];
@@ -246,7 +246,7 @@
     const sj2 = add(`<div style="left:${NL + 84}px;top:${NT + 494}px;font:700 64px/1.12 'Geist';letter-spacing:-.035em;color:${C.leaf};white-space:nowrap">phones still find each other.</div>`);
     show(sj1, 16.5, 19.625); show(sj2, 17.0, 19.625);
     cue(16.5, 'swap', { n: 1 }); cue(17.0, 'swap', { n: 2 });
-    const sj3 = add(`<div style="left:${NL + 84}px;top:${NT + 640}px;width:720px;font:500 32px/1.4 'Geist';color:${C.mossTx}">Calls, walkie-talkie, chat and SOS over Wi-Fi Direct. Every link encrypted.</div>`);
+    const sj3 = add(`<div style="left:${NL + 84}px;top:${NT + 640}px;width:720px;font:500 32px/1.4 'Geist';color:${C.mossTx}">Calls, walkie-talkie, chat and SOS over Wi-Fi Direct and Bluetooth. Every link encrypted.</div>`);
     show(sj3, 17.5, 19.625);
     // radar
     const RX = 1400, RY = 520;
@@ -275,10 +275,10 @@
 
     // ───────────────────────── 6 · The numbers (19.75–23.75) ─────────────────────────
     const SL = 960 - 820, ST = 560 - 360;
-    const nK = add(`<div class="kick" style="left:${SL + 90}px;top:${ST + 84}px;color:${C.leaf}">One week · November 2026</div>`);
+    const nK = add(`<div class="kick" style="left:${SL + 90}px;top:${ST + 84}px;color:${C.leaf}">Since launch · November 2026</div>`);
     show(nK, 20.0, 23.625);
     const odoS = odometer(world, SL + 82, ST + 140, 4, 230, C.cream, true);
-    const odoSl = add(`<div style="left:${SL + 92}px;top:${ST + 392}px;font:600 40px/1.2 'Geist';color:${C.cream};white-space:nowrap">APK downloads</div>`);
+    const odoSl = add(`<div style="left:${SL + 92}px;top:${ST + 392}px;font:600 40px/1.2 'Geist';color:${C.cream};white-space:nowrap">APK downloads in week one</div>`);
     const ODS = [20.0, 21.5];
     draws.push((t) => {
       const v = vis(t, 19.875, 23.625);
@@ -290,12 +290,12 @@
     });
     for (let tt = ODS[0]; tt < ODS[1]; tt += 0.125) cue(tt, 'tick');
     cue(ODS[1], 'settle');
-    const stat2 = add(`<div style="left:${SL + 980}px;top:${ST + 150}px;white-space:nowrap"><div style="font:800 130px/1 'Geist';letter-spacing:-.045em;color:${C.leaf}">300K+</div><div style="margin-top:14px;font:600 36px/1.2 'Geist';color:${C.cream}">views on Threads</div></div>`);
-    const stat3 = add(`<div style="left:${SL + 980}px;top:${ST + 360}px;white-space:nowrap"><div style="font:800 96px/1 'Geist';letter-spacing:-.045em;color:${C.cream}">2,500</div><div style="margin-top:12px;font:600 32px/1.2 'Geist';color:${C.mossTx}">shares</div></div>`);
+    const stat2 = add(`<div style="left:${SL + 980}px;top:${ST + 150}px;white-space:nowrap"><div style="font:800 130px/1 'Geist';letter-spacing:-.045em;color:${C.leaf}">590K+</div><div style="margin-top:14px;font:600 36px/1.2 'Geist';color:${C.cream}">views on Threads</div></div>`);
+    const stat3 = add(`<div style="left:${SL + 980}px;top:${ST + 360}px;white-space:nowrap"><div style="font:800 96px/1 'Geist';letter-spacing:-.045em;color:${C.cream}">4,800+</div><div style="margin-top:12px;font:600 32px/1.2 'Geist';color:${C.mossTx}">shares</div></div>`);
     draws.push((t) => { applyVis(stat2, vis(t, 21.75, 23.625), `scale(${popS(t, 21.75, 0.7).toFixed(4)})`); applyVis(stat3, vis(t, 22.25, 23.625), `scale(${popS(t, 22.25, 0.7).toFixed(4)})`); });
     cue(21.75, 'slam', { n: 1 }); cue(22.25, 'slam', { n: 2 });
     const tRow = add(`<div style="left:${SL + 92}px;top:${ST + 560}px;display:flex;gap:14px"></div>`);
-    ['Wi-Fi Direct', 'AES-256-GCM', '~550 KB APK', '0 dependencies'].forEach((s, i) => {
+    ['Wi-Fi Direct + Bluetooth', 'AES-256-GCM', '~760 KB APK', 'Google Play testing'].forEach((s, i) => {
       const c = add(`<span class="chip mono" style="font:600 26px/1 'Geist Mono';background:rgba(60,191,110,.14);color:${C.leaf}">${s}</span>`, tRow);
       const ti = 22.75 + i * 0.125;
       draws.push((t) => applyVis(c, vis(t, ti, 23.625), `scale(${popS(t, ti, 0.6).toFixed(4)})`));
