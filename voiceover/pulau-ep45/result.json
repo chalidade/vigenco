@@ -1,0 +1,687 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "luci": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "alfaiz": "RWiGLY9uXI70QL540WNd",
+  "feros": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "l1": {
+   "who": "luci",
+   "text": "Pelakunya sudah jelas. Hiu darat!",
+   "hash": "2dc616f9ee7e",
+   "duration": 2.926,
+   "words": [
+    {
+     "text": "Pelakunya",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "sudah",
+     "start": 0.522,
+     "end": 0.731
+    },
+    {
+     "text": "jelas.",
+     "start": 0.766,
+     "end": 1.405
+    },
+    {
+     "text": "Hiu",
+     "start": 1.846,
+     "end": 2.032
+    },
+    {
+     "text": "darat!",
+     "start": 2.078,
+     "end": 2.926
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita.",
+   "hash": "d0b0ab48afa9",
+   "duration": 4.505,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.534
+    },
+    {
+     "text": "diatur",
+     "start": 0.569,
+     "end": 0.882
+    },
+    {
+     "text": "komentar",
+     "start": 0.929,
+     "end": 1.3
+    },
+    {
+     "text": "kalian.",
+     "start": 1.347,
+     "end": 1.95
+    },
+    {
+     "text": "Follow",
+     "start": 2.159,
+     "end": 2.45
+    },
+    {
+     "text": "jadi",
+     "start": 2.508,
+     "end": 2.67
+    },
+    {
+     "text": "warga,",
+     "start": 2.717,
+     "end": 3.111
+    },
+    {
+     "text": "komentar",
+     "start": 3.146,
+     "end": 3.576
+    },
+    {
+     "text": "jadi",
+     "start": 3.634,
+     "end": 3.808
+    },
+    {
+     "text": "cerita.",
+     "start": 3.843,
+     "end": 4.505
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Kemarin, satu ikan bakar hilang dari Meja Dua Ikan. Tinggal tulangnya.",
+   "hash": "7e3adb6983b7",
+   "duration": 4.412,
+   "words": [
+    {
+     "text": "Kemarin,",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "satu",
+     "start": 0.65,
+     "end": 0.94
+    },
+    {
+     "text": "ikan",
+     "start": 0.987,
+     "end": 1.173
+    },
+    {
+     "text": "bakar",
+     "start": 1.231,
+     "end": 1.474
+    },
+    {
+     "text": "hilang",
+     "start": 1.521,
+     "end": 1.788
+    },
+    {
+     "text": "dari",
+     "start": 1.834,
+     "end": 1.997
+    },
+    {
+     "text": "Meja",
+     "start": 2.055,
+     "end": 2.264
+    },
+    {
+     "text": "Dua",
+     "start": 2.299,
+     "end": 2.45
+    },
+    {
+     "text": "Ikan.",
+     "start": 2.485,
+     "end": 2.961
+    },
+    {
+     "text": "Tinggal",
+     "start": 3.111,
+     "end": 3.437
+    },
+    {
+     "text": "tulangnya.",
+     "start": 3.483,
+     "end": 4.412
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Jejaknya kecil, berjari empat... menuju pelabuhan.",
+   "hash": "42dc7dd9e05d",
+   "duration": 3.529,
+   "words": [
+    {
+     "text": "Jejaknya",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "kecil,",
+     "start": 0.499,
+     "end": 1.022
+    },
+    {
+     "text": "berjari",
+     "start": 1.138,
+     "end": 1.521
+    },
+    {
+     "text": "empat...",
+     "start": 1.556,
+     "end": 2.078
+    },
+    {
+     "text": "menuju",
+     "start": 2.206,
+     "end": 2.531
+    },
+    {
+     "text": "pelabuhan.",
+     "start": 2.577,
+     "end": 3.529
+    }
+   ]
+  },
+  "d1": {
+   "who": "alfaiz",
+   "text": "Detektif Pantai turun tangan. Jejak empat jari... tercatat!",
+   "hash": "c4394a089368",
+   "duration": 4.133,
+   "words": [
+    {
+     "text": "Detektif",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "Pantai",
+     "start": 0.592,
+     "end": 0.906
+    },
+    {
+     "text": "turun",
+     "start": 0.952,
+     "end": 1.184
+    },
+    {
+     "text": "tangan.",
+     "start": 1.242,
+     "end": 1.695
+    },
+    {
+     "text": "Jejak",
+     "start": 1.846,
+     "end": 2.218
+    },
+    {
+     "text": "empat",
+     "start": 2.241,
+     "end": 2.496
+    },
+    {
+     "text": "jari...",
+     "start": 2.554,
+     "end": 3.007
+    },
+    {
+     "text": "tercatat!",
+     "start": 3.158,
+     "end": 4.133
+    }
+   ]
+  },
+  "d2": {
+   "who": "alfaiz",
+   "text": "Petunjuk kedua: bulu oranye. Nyangkut di peti ikan.",
+   "hash": "8da35860d551",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Petunjuk",
+     "start": 0,
+     "end": 0.569
+    },
+    {
+     "text": "kedua:",
+     "start": 0.592,
+     "end": 1.161
+    },
+    {
+     "text": "bulu",
+     "start": 1.37,
+     "end": 1.695
+    },
+    {
+     "text": "oranye.",
+     "start": 1.753,
+     "end": 2.345
+    },
+    {
+     "text": "Nyangkut",
+     "start": 2.496,
+     "end": 2.961
+    },
+    {
+     "text": "di",
+     "start": 3.019,
+     "end": 3.077
+    },
+    {
+     "text": "peti",
+     "start": 3.135,
+     "end": 3.344
+    },
+    {
+     "text": "ikan.",
+     "start": 3.39,
+     "end": 4.18
+    }
+   ]
+  },
+  "f1": {
+   "who": "feros",
+   "text": "Pantas! Tiap pagi ikanku kurang satu. Kukira aku salah hitung!",
+   "hash": "a1f27db2f3b4",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Pantas!",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "Tiap",
+     "start": 0.627,
+     "end": 0.824
+    },
+    {
+     "text": "pagi",
+     "start": 0.848,
+     "end": 1.033
+    },
+    {
+     "text": "ikanku",
+     "start": 1.068,
+     "end": 1.37
+    },
+    {
+     "text": "kurang",
+     "start": 1.405,
+     "end": 1.591
+    },
+    {
+     "text": "satu.",
+     "start": 1.637,
+     "end": 2.02
+    },
+    {
+     "text": "Kukira",
+     "start": 2.194,
+     "end": 2.554
+    },
+    {
+     "text": "aku",
+     "start": 2.589,
+     "end": 2.752
+    },
+    {
+     "text": "salah",
+     "start": 2.786,
+     "end": 2.972
+    },
+    {
+     "text": "hitung!",
+     "start": 2.995,
+     "end": 3.669
+    }
+   ]
+  },
+  "l2": {
+   "who": "luci",
+   "text": "Tuh kan. Hiu darat memang berbulu. Saya dokter, lho.",
+   "hash": "a002ff9fea17",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Tuh",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "kan.",
+     "start": 0.244,
+     "end": 0.615
+    },
+    {
+     "text": "Hiu",
+     "start": 0.859,
+     "end": 1.033
+    },
+    {
+     "text": "darat",
+     "start": 1.091,
+     "end": 1.405
+    },
+    {
+     "text": "memang",
+     "start": 1.451,
+     "end": 1.683
+    },
+    {
+     "text": "berbulu.",
+     "start": 1.718,
+     "end": 2.31
+    },
+    {
+     "text": "Saya",
+     "start": 2.461,
+     "end": 2.74
+    },
+    {
+     "text": "dokter,",
+     "start": 2.775,
+     "end": 3.1
+    },
+    {
+     "text": "lho.",
+     "start": 3.123,
+     "end": 3.715
+    }
+   ]
+  },
+  "d3": {
+   "who": "alfaiz",
+   "text": "Hiu tidak punya bulu, Bu Dokter.",
+   "hash": "b929f8c6cce3",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Hiu",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "tidak",
+     "start": 0.337,
+     "end": 0.569
+    },
+    {
+     "text": "punya",
+     "start": 0.604,
+     "end": 0.824
+    },
+    {
+     "text": "bulu,",
+     "start": 0.882,
+     "end": 1.173
+    },
+    {
+     "text": "Bu",
+     "start": 1.207,
+     "end": 1.3
+    },
+    {
+     "text": "Dokter.",
+     "start": 1.358,
+     "end": 2.136
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Papan Tersangka resmi dipasang. Satu: hiu darat, kata Luci. Dua: camar, tapi dia sudah tobat. Tiga... masih tanda tanya.",
+   "hash": "e2fb999c12e7",
+   "duration": 9.752,
+   "words": [
+    {
+     "text": "Papan",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "Tersangka",
+     "start": 0.406,
+     "end": 0.801
+    },
+    {
+     "text": "resmi",
+     "start": 0.848,
+     "end": 1.103
+    },
+    {
+     "text": "dipasang.",
+     "start": 1.138,
+     "end": 1.8
+    },
+    {
+     "text": "Satu:",
+     "start": 2.241,
+     "end": 2.763
+    },
+    {
+     "text": "hiu",
+     "start": 2.81,
+     "end": 3.042
+    },
+    {
+     "text": "darat,",
+     "start": 3.111,
+     "end": 3.541
+    },
+    {
+     "text": "kata",
+     "start": 3.587,
+     "end": 3.831
+    },
+    {
+     "text": "Luci.",
+     "start": 3.866,
+     "end": 4.447
+    },
+    {
+     "text": "Dua:",
+     "start": 4.772,
+     "end": 5.283
+    },
+    {
+     "text": "camar,",
+     "start": 5.666,
+     "end": 6.223
+    },
+    {
+     "text": "tapi",
+     "start": 6.293,
+     "end": 6.548
+    },
+    {
+     "text": "dia",
+     "start": 6.583,
+     "end": 6.664
+    },
+    {
+     "text": "sudah",
+     "start": 6.687,
+     "end": 6.885
+    },
+    {
+     "text": "tobat.",
+     "start": 6.908,
+     "end": 7.396
+    },
+    {
+     "text": "Tiga...",
+     "start": 7.639,
+     "end": 8.29
+    },
+    {
+     "text": "masih",
+     "start": 8.382,
+     "end": 8.638
+    },
+    {
+     "text": "tanda",
+     "start": 8.661,
+     "end": 8.858
+    },
+    {
+     "text": "tanya.",
+     "start": 8.905,
+     "end": 9.752
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Dan malam itu, dari balik peti ikan... sepasang mata kecil menyala.",
+   "hash": "ea07dcc15c76",
+   "duration": 4.923,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "malam",
+     "start": 0.279,
+     "end": 0.499
+    },
+    {
+     "text": "itu,",
+     "start": 0.557,
+     "end": 0.906
+    },
+    {
+     "text": "dari",
+     "start": 0.94,
+     "end": 1.126
+    },
+    {
+     "text": "balik",
+     "start": 1.173,
+     "end": 1.405
+    },
+    {
+     "text": "peti",
+     "start": 1.451,
+     "end": 1.649
+    },
+    {
+     "text": "ikan...",
+     "start": 1.695,
+     "end": 2.357
+    },
+    {
+     "text": "sepasang",
+     "start": 2.798,
+     "end": 3.274
+    },
+    {
+     "text": "mata",
+     "start": 3.32,
+     "end": 3.518
+    },
+    {
+     "text": "kecil",
+     "start": 3.564,
+     "end": 3.82
+    },
+    {
+     "text": "menyala.",
+     "start": 3.866,
+     "end": 4.923
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Siapa pencurinya? Kalian detektifnya. Tebak di komentar, dan follow, namamu jadi warga.",
+   "hash": "d1e026815a94",
+   "duration": 6.223,
+   "words": [
+    {
+     "text": "Siapa",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "pencurinya?",
+     "start": 0.406,
+     "end": 1.057
+    },
+    {
+     "text": "Kalian",
+     "start": 1.265,
+     "end": 1.649
+    },
+    {
+     "text": "detektifnya.",
+     "start": 1.707,
+     "end": 2.473
+    },
+    {
+     "text": "Tebak",
+     "start": 2.856,
+     "end": 3.193
+    },
+    {
+     "text": "di",
+     "start": 3.262,
+     "end": 3.32
+    },
+    {
+     "text": "komentar,",
+     "start": 3.355,
+     "end": 3.982
+    },
+    {
+     "text": "dan",
+     "start": 4.098,
+     "end": 4.249
+    },
+    {
+     "text": "follow,",
+     "start": 4.331,
+     "end": 4.783
+    },
+    {
+     "text": "namamu",
+     "start": 4.899,
+     "end": 5.248
+    },
+    {
+     "text": "jadi",
+     "start": 5.306,
+     "end": 5.468
+    },
+    {
+     "text": "warga.",
+     "start": 5.503,
+     "end": 6.223
+    }
+   ]
+  }
+ }
+}
