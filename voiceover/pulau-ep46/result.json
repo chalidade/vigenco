@@ -1,0 +1,689 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "alfaiz": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "d4l": "I7sakys8pBZ1Z5f0UhT9",
+  "luci": "iWydkXKoiVtvdn4vLKp9",
+  "aidil": "plgKUYgnlZ1DCNh54DwJ"
+ },
+ "lines": {
+  "l1": {
+   "who": "alfaiz",
+   "text": "Kamera jaga... merekam sesuatu!",
+   "hash": "1f3fe9193328",
+   "duration": 3.065,
+   "words": [
+    {
+     "text": "Kamera",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "jaga...",
+     "start": 0.534,
+     "end": 1.068
+    },
+    {
+     "text": "merekam",
+     "start": 1.242,
+     "end": 1.614
+    },
+    {
+     "text": "sesuatu!",
+     "start": 1.683,
+     "end": 3.065
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Dan di pulau ini... ada pencuri ikan bakar.",
+   "hash": "dd8e47e98e2c",
+   "duration": 5.201,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "ini",
+     "start": 0.383,
+     "end": 0.534
+    },
+    {
+     "text": "diatur",
+     "start": 0.58,
+     "end": 0.882
+    },
+    {
+     "text": "komentar",
+     "start": 0.929,
+     "end": 1.265
+    },
+    {
+     "text": "kalian.",
+     "start": 1.324,
+     "end": 1.892
+    },
+    {
+     "text": "Dan",
+     "start": 2.136,
+     "end": 2.299
+    },
+    {
+     "text": "di",
+     "start": 2.345,
+     "end": 2.403
+    },
+    {
+     "text": "pulau",
+     "start": 2.438,
+     "end": 2.682
+    },
+    {
+     "text": "ini...",
+     "start": 2.74,
+     "end": 3.228
+    },
+    {
+     "text": "ada",
+     "start": 3.344,
+     "end": 3.564
+    },
+    {
+     "text": "pencuri",
+     "start": 3.611,
+     "end": 3.982
+    },
+    {
+     "text": "ikan",
+     "start": 4.04,
+     "end": 4.261
+    },
+    {
+     "text": "bakar.",
+     "start": 4.319,
+     "end": 5.201
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Petunjuknya: jejak kaki empat jari, dan bulu oranye di peti ikan.",
+   "hash": "f8cd591b1111",
+   "duration": 5.294,
+   "words": [
+    {
+     "text": "Petunjuknya:",
+     "start": 0,
+     "end": 0.871
+    },
+    {
+     "text": "jejak",
+     "start": 1.312,
+     "end": 1.625
+    },
+    {
+     "text": "kaki",
+     "start": 1.672,
+     "end": 2.032
+    },
+    {
+     "text": "empat",
+     "start": 2.078,
+     "end": 2.357
+    },
+    {
+     "text": "jari,",
+     "start": 2.426,
+     "end": 2.914
+    },
+    {
+     "text": "dan",
+     "start": 2.984,
+     "end": 3.146
+    },
+    {
+     "text": "bulu",
+     "start": 3.216,
+     "end": 3.471
+    },
+    {
+     "text": "oranye",
+     "start": 3.529,
+     "end": 3.878
+    },
+    {
+     "text": "di",
+     "start": 3.924,
+     "end": 3.982
+    },
+    {
+     "text": "peti",
+     "start": 4.029,
+     "end": 4.238
+    },
+    {
+     "text": "ikan.",
+     "start": 4.284,
+     "end": 5.294
+    }
+   ]
+  },
+  "d1": {
+   "who": "alfaiz",
+   "text": "Detektif butuh ilmu. Untung pulau punya perpustakaan baru.",
+   "hash": "bad6669c3aeb",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Detektif",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "text": "butuh",
+     "start": 0.662,
+     "end": 0.929
+    },
+    {
+     "text": "ilmu.",
+     "start": 0.975,
+     "end": 1.498
+    },
+    {
+     "text": "Untung",
+     "start": 1.672,
+     "end": 2.101
+    },
+    {
+     "text": "pulau",
+     "start": 2.148,
+     "end": 2.415
+    },
+    {
+     "text": "punya",
+     "start": 2.45,
+     "end": 2.67
+    },
+    {
+     "text": "perpustakaan",
+     "start": 2.717,
+     "end": 3.297
+    },
+    {
+     "text": "baru.",
+     "start": 3.355,
+     "end": 4.04
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Pojok Ilmu! Traktiran dari Darwin, dengan pesan: semoga ilmunya terus berkembang dan bermanfaat. Terima kasih, Darwin!",
+   "hash": "543d16f7f96c",
+   "duration": 8.22,
+   "words": [
+    {
+     "text": "Pojok",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "Ilmu!",
+     "start": 0.453,
+     "end": 1.01
+    },
+    {
+     "text": "Traktiran",
+     "start": 1.335,
+     "end": 1.846
+    },
+    {
+     "text": "dari",
+     "start": 1.892,
+     "end": 2.055
+    },
+    {
+     "text": "Darwin,",
+     "start": 2.113,
+     "end": 2.635
+    },
+    {
+     "text": "dengan",
+     "start": 2.728,
+     "end": 2.961
+    },
+    {
+     "text": "pesan:",
+     "start": 3.007,
+     "end": 3.553
+    },
+    {
+     "text": "semoga",
+     "start": 3.994,
+     "end": 4.342
+    },
+    {
+     "text": "ilmunya",
+     "start": 4.4,
+     "end": 4.76
+    },
+    {
+     "text": "terus",
+     "start": 4.807,
+     "end": 4.981
+    },
+    {
+     "text": "berkembang",
+     "start": 5.039,
+     "end": 5.468
+    },
+    {
+     "text": "dan",
+     "start": 5.515,
+     "end": 5.619
+    },
+    {
+     "text": "bermanfaat.",
+     "start": 5.666,
+     "end": 6.409
+    },
+    {
+     "text": "Terima",
+     "start": 6.653,
+     "end": 6.931
+    },
+    {
+     "text": "kasih,",
+     "start": 6.966,
+     "end": 7.268
+    },
+    {
+     "text": "Darwin!",
+     "start": 7.291,
+     "end": 8.22
+    }
+   ]
+  },
+  "k1": {
+   "who": "d4l",
+   "text": "Boleh... aku pinjam bukunya? Boleh nggak?",
+   "hash": "d98d97e59f78",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Boleh...",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "aku",
+     "start": 0.801,
+     "end": 0.987
+    },
+    {
+     "text": "pinjam",
+     "start": 1.033,
+     "end": 1.312
+    },
+    {
+     "text": "bukunya?",
+     "start": 1.37,
+     "end": 1.869
+    },
+    {
+     "text": "Boleh",
+     "start": 1.95,
+     "end": 2.183
+    },
+    {
+     "text": "nggak?",
+     "start": 2.206,
+     "end": 2.74
+    }
+   ]
+  },
+  "d2": {
+   "who": "alfaiz",
+   "text": "Bulu oranye. Jari empat. Suka ikan. Menurut buku ini...",
+   "hash": "95f02ca2a69c",
+   "duration": 5.341,
+   "words": [
+    {
+     "text": "Bulu",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "oranye.",
+     "start": 0.383,
+     "end": 1.022
+    },
+    {
+     "text": "Jari",
+     "start": 1.196,
+     "end": 1.498
+    },
+    {
+     "text": "empat.",
+     "start": 1.544,
+     "end": 2.171
+    },
+    {
+     "text": "Suka",
+     "start": 2.322,
+     "end": 2.659
+    },
+    {
+     "text": "ikan.",
+     "start": 2.717,
+     "end": 3.262
+    },
+    {
+     "text": "Menurut",
+     "start": 3.32,
+     "end": 3.75
+    },
+    {
+     "text": "buku",
+     "start": 3.808,
+     "end": 4.029
+    },
+    {
+     "text": "ini...",
+     "start": 4.098,
+     "end": 5.341
+    }
+   ]
+  },
+  "l2": {
+   "who": "luci",
+   "text": "Hiu darat!",
+   "hash": "848359116270",
+   "duration": 0.975,
+   "words": [
+    {
+     "text": "Hiu",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "darat!",
+     "start": 0.372,
+     "end": 0.975
+    }
+   ]
+  },
+  "d3": {
+   "who": "alfaiz",
+   "text": "Bukan, Bu Dokter. Kucing.",
+   "hash": "79c336cf19b6",
+   "duration": 2.276,
+   "words": [
+    {
+     "text": "Bukan,",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "Bu",
+     "start": 0.511,
+     "end": 0.604
+    },
+    {
+     "text": "Dokter.",
+     "start": 0.65,
+     "end": 1.126
+    },
+    {
+     "text": "Kucing.",
+     "start": 1.277,
+     "end": 2.276
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Malamnya, jebakan dipasang. Satu ikan bakar jadi umpan, dan satu kamera jaga.",
+   "hash": "ff37f6803960",
+   "duration": 5.805,
+   "words": [
+    {
+     "text": "Malamnya,",
+     "start": 0,
+     "end": 0.627
+    },
+    {
+     "text": "jebakan",
+     "start": 0.743,
+     "end": 1.138
+    },
+    {
+     "text": "dipasang.",
+     "start": 1.184,
+     "end": 1.823
+    },
+    {
+     "text": "Satu",
+     "start": 2.264,
+     "end": 2.543
+    },
+    {
+     "text": "ikan",
+     "start": 2.589,
+     "end": 2.775
+    },
+    {
+     "text": "bakar",
+     "start": 2.833,
+     "end": 3.077
+    },
+    {
+     "text": "jadi",
+     "start": 3.146,
+     "end": 3.309
+    },
+    {
+     "text": "umpan,",
+     "start": 3.379,
+     "end": 3.936
+    },
+    {
+     "text": "dan",
+     "start": 4.087,
+     "end": 4.238
+    },
+    {
+     "text": "satu",
+     "start": 4.296,
+     "end": 4.551
+    },
+    {
+     "text": "kamera",
+     "start": 4.598,
+     "end": 4.841
+    },
+    {
+     "text": "jaga.",
+     "start": 4.899,
+     "end": 5.805
+    }
+   ]
+  },
+  "a1": {
+   "who": "aidil",
+   "text": "Ikannya dijadikan umpan... kasihan ikannya.",
+   "hash": "d223004754e2",
+   "duration": 2.508,
+   "words": [
+    {
+     "text": "Ikannya",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "dijadikan",
+     "start": 0.348,
+     "end": 0.755
+    },
+    {
+     "text": "umpan...",
+     "start": 0.836,
+     "end": 1.312
+    },
+    {
+     "text": "kasihan",
+     "start": 1.405,
+     "end": 1.788
+    },
+    {
+     "text": "ikannya.",
+     "start": 1.846,
+     "end": 2.508
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Jam dua lewat tiga belas... kamera merekam sesuatu.",
+   "hash": "57fb92bdbd3f",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Jam",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "dua",
+     "start": 0.255,
+     "end": 0.464
+    },
+    {
+     "text": "lewat",
+     "start": 0.511,
+     "end": 0.755
+    },
+    {
+     "text": "tiga",
+     "start": 0.778,
+     "end": 0.975
+    },
+    {
+     "text": "belas...",
+     "start": 1.022,
+     "end": 1.579
+    },
+    {
+     "text": "kamera",
+     "start": 1.695,
+     "end": 2.136
+    },
+    {
+     "text": "merekam",
+     "start": 2.183,
+     "end": 2.485
+    },
+    {
+     "text": "sesuatu.",
+     "start": 2.543,
+     "end": 3.715
+    }
+   ]
+  },
+  "d5": {
+   "who": "alfaiz",
+   "text": "Kecil. Oranye. Dan... kelihatannya lapar sekali.",
+   "hash": "608f8bb943e8",
+   "duration": 4.087,
+   "words": [
+    {
+     "text": "Kecil.",
+     "start": 0,
+     "end": 0.627
+    },
+    {
+     "text": "Oranye.",
+     "start": 0.778,
+     "end": 1.335
+    },
+    {
+     "text": "Dan...",
+     "start": 1.428,
+     "end": 1.95
+    },
+    {
+     "text": "kelihatannya",
+     "start": 2.392,
+     "end": 2.902
+    },
+    {
+     "text": "lapar",
+     "start": 2.949,
+     "end": 3.204
+    },
+    {
+     "text": "sekali.",
+     "start": 3.251,
+     "end": 4.087
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Kalau pencurinya anak kucing, namanya siapa? Tulis di komentar!",
+   "hash": "038a5252eb8f",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Kalau",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "pencurinya",
+     "start": 0.29,
+     "end": 0.72
+    },
+    {
+     "text": "anak",
+     "start": 0.755,
+     "end": 0.94
+    },
+    {
+     "text": "kucing,",
+     "start": 0.964,
+     "end": 1.544
+    },
+    {
+     "text": "namanya",
+     "start": 1.695,
+     "end": 2.043
+    },
+    {
+     "text": "siapa?",
+     "start": 2.078,
+     "end": 2.694
+    },
+    {
+     "text": "Tulis",
+     "start": 2.902,
+     "end": 3.239
+    },
+    {
+     "text": "di",
+     "start": 3.297,
+     "end": 3.367
+    },
+    {
+     "text": "komentar!",
+     "start": 3.413,
+     "end": 4.272
+    }
+   ]
+  }
+ }
+}
