@@ -57,7 +57,8 @@
     // night layer (the drop)
     const NIGHT = new Track(0);
     NIGHT.to(15.75, 1, { w: 22, z: 1 }); NIGHT.to(23.75, 0, { w: 9, z: 1 });
-    draws.push((t) => { nightL.style.opacity = clamp(NIGHT.at(t)).toFixed(3); });
+    // the night stays inside the card: no full-frame dark layer, so the card keeps crisp edges
+    nightL.style.opacity = 0;
 
     // ───────────────────────── The one shape ─────────────────────────
     const body = add('<div style="overflow:hidden"></div>');
@@ -80,7 +81,7 @@
       s *= 1 + 0.025 * Math.exp(-(((t - 16.0) / 0.09) ** 2));
       body.style.transform = `scale(${s.toFixed(4)})`;
       const bd = clamp(PB.bd.at(t));
-      body.style.boxShadow = `0 40px 90px -36px rgba(10,10,10,${(0.28 + 0.3 * NIGHT.at(t)).toFixed(3)}), inset 0 0 0 2px rgba(10,10,10,${(0.08 * bd).toFixed(3)})`;
+      body.style.boxShadow = `0 30px 60px -34px rgba(10,10,10,0.2), inset 0 0 0 2px rgba(10,10,10,${(0.08 * bd).toFixed(3)})`;
     });
     cue(0.25, 'born');
     pm(0.5, 960, 540, 1080, 150, 75, C.ink);
