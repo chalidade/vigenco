@@ -1,0 +1,31 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "luci": "iWydkXKoiVtvdn4vLKp9",
+    "alfaiz": "RWiGLY9uXI70QL540WNd",
+    "feros": "plgKUYgnlZ1DCNh54DwJ"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "luci": {"stability": 0.35, "style": 0.65},
+    "alfaiz": {"stability": 0.75, "style": 0.25},
+    "feros": {"stability": 0.25, "style": 0.75}
+  },
+  "lines": [
+    {"id": "l1", "who": "luci", "text": "Pelakunya sudah jelas. Hiu darat!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow jadi warga, komentar jadi cerita."},
+    {"id": "n2", "who": "narrator", "text": "Kemarin, satu ikan bakar hilang dari Meja Dua Ikan. Tinggal tulangnya."},
+    {"id": "n3", "who": "narrator", "text": "Jejaknya kecil, berjari empat... menuju pelabuhan."},
+    {"id": "d1", "who": "alfaiz", "text": "Detektif Pantai turun tangan. Jejak empat jari... tercatat!"},
+    {"id": "d2", "who": "alfaiz", "text": "Petunjuk kedua: bulu oranye. Nyangkut di peti ikan."},
+    {"id": "f1", "who": "feros", "text": "Pantas! Tiap pagi ikanku kurang satu. Kukira aku salah hitung!"},
+    {"id": "l2", "who": "luci", "text": "Tuh kan. Hiu darat memang berbulu. Saya dokter, lho."},
+    {"id": "d3", "who": "alfaiz", "text": "Hiu tidak punya bulu, Bu Dokter."},
+    {"id": "n4", "who": "narrator", "text": "Papan Tersangka resmi dipasang. Satu: hiu darat, kata Luci. Dua: camar, tapi dia sudah tobat. Tiga... masih tanda tanya."},
+    {"id": "n5", "who": "narrator", "text": "Dan malam itu, dari balik peti ikan... sepasang mata kecil menyala."},
+    {"id": "n6", "who": "narrator", "text": "Siapa pencurinya? Kalian detektifnya. Tebak di komentar, dan follow, namamu jadi warga."}
+  ]
+}
