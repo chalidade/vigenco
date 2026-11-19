@@ -1,0 +1,35 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "luci": "iWydkXKoiVtvdn4vLKp9",
+    "alfaiz": "RWiGLY9uXI70QL540WNd",
+    "aidil": "plgKUYgnlZ1DCNh54DwJ",
+    "d4l": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "luci": {"stability": 0.35, "style": 0.65},
+    "alfaiz": {"stability": 0.75, "style": 0.25},
+    "aidil": {"stability": 0.25, "style": 0.8},
+    "d4l": {"stability": 0.4, "style": 0.5}
+  },
+  "lines": [
+    {"id": "l1", "who": "alfaiz", "text": "Kamera jaga... merekam sesuatu!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Dan di pulau ini... ada pencuri ikan bakar."},
+    {"id": "n2", "who": "narrator", "text": "Petunjuknya: jejak kaki empat jari, dan bulu oranye di peti ikan."},
+    {"id": "d1", "who": "alfaiz", "text": "Detektif butuh ilmu. Untung pulau punya perpustakaan baru."},
+    {"id": "n3", "who": "narrator", "text": "Pojok Ilmu! Traktiran dari Darwin, dengan pesan: semoga ilmunya terus berkembang dan bermanfaat. Terima kasih, Darwin!"},
+    {"id": "k1", "who": "d4l", "text": "Boleh... aku pinjam bukunya? Boleh nggak?"},
+    {"id": "d2", "who": "alfaiz", "text": "Bulu oranye. Jari empat. Suka ikan. Menurut buku ini..."},
+    {"id": "l2", "who": "luci", "text": "Hiu darat!"},
+    {"id": "d3", "who": "alfaiz", "text": "Bukan, Bu Dokter. Kucing."},
+    {"id": "n4", "who": "narrator", "text": "Malamnya, jebakan dipasang. Satu ikan bakar jadi umpan, dan satu kamera jaga."},
+    {"id": "a1", "who": "aidil", "text": "Ikannya dijadikan umpan... kasihan ikannya."},
+    {"id": "n5", "who": "narrator", "text": "Jam dua lewat tiga belas... kamera merekam sesuatu."},
+    {"id": "d5", "who": "alfaiz", "text": "Kecil. Oranye. Dan... kelihatannya lapar sekali."},
+    {"id": "n6", "who": "narrator", "text": "Kalau pencurinya anak kucing, namanya siapa? Tulis di komentar!"}
+  ]
+}
