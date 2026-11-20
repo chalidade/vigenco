@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>covatom · peluncuran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #0F1B36; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #0F1B36;
+    font-family: "Inter", system-ui, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+  #dots { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.07) 2px, transparent 2.5px);
+    background-size: 48px 48px; background-position: 24px 12px;
+    -webkit-mask-image: radial-gradient(70% 70% at 50% 50%, #000 25%, transparent 90%); mask-image: radial-gradient(70% 70% at 50% 50%, #000 25%, transparent 90%); }
+  #flash { position: absolute; inset: 0; background: #FF4D4F; opacity: 0; }
+  #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  #world *, #hud * { box-sizing: border-box; }
+  #hud { position: absolute; inset: 0; pointer-events: none; }
+  #hud > * { position: absolute; }
+  .o { font-family: "Outfit", sans-serif; }
+  .row { display: flex; align-items: center; white-space: nowrap; }
+  .tnum { font-variant-numeric: tabular-nums; }
+  .ic { display: inline-flex; flex: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="dots"></div>
+  <div id="world"></div>
+  <div id="flash"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
