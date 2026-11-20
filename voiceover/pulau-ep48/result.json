@@ -1,0 +1,693 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "riski": "RWiGLY9uXI70QL540WNd",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "senar": "plgKUYgnlZ1DCNh54DwJ",
+  "lala": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "lines": {
+  "x1": {
+   "who": "riski",
+   "text": "Aku Riski... dan aku galau.",
+   "hash": "a9a3fb280ada",
+   "duration": 3.251,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "Riski...",
+     "start": 0.325,
+     "end": 1.022
+    },
+    {
+     "text": "dan",
+     "start": 1.463,
+     "end": 1.614
+    },
+    {
+     "text": "aku",
+     "start": 1.695,
+     "end": 1.858
+    },
+    {
+     "text": "galau.",
+     "start": 1.904,
+     "end": 3.251
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Hari ini, dua komentar terpilih!",
+   "hash": "18ea0a1ea6a1",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.383,
+     "end": 0.511
+    },
+    {
+     "text": "diatur",
+     "start": 0.557,
+     "end": 0.848
+    },
+    {
+     "text": "komentar",
+     "start": 0.894,
+     "end": 1.254
+    },
+    {
+     "text": "kalian.",
+     "start": 1.3,
+     "end": 1.916
+    },
+    {
+     "text": "Hari",
+     "start": 2.125,
+     "end": 2.38
+    },
+    {
+     "text": "ini,",
+     "start": 2.438,
+     "end": 2.891
+    },
+    {
+     "text": "dua",
+     "start": 3.007,
+     "end": 3.228
+    },
+    {
+     "text": "komentar",
+     "start": 3.274,
+     "end": 3.646
+    },
+    {
+     "text": "terpilih!",
+     "start": 3.704,
+     "end": 4.598
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Satu minta kolam renang. Satu lagi... cuma bilang dia galau.",
+   "hash": "9192feba2b5a",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "minta",
+     "start": 0.383,
+     "end": 0.615
+    },
+    {
+     "text": "kolam",
+     "start": 0.673,
+     "end": 0.906
+    },
+    {
+     "text": "renang.",
+     "start": 0.964,
+     "end": 1.486
+    },
+    {
+     "text": "Satu",
+     "start": 1.869,
+     "end": 2.159
+    },
+    {
+     "text": "lagi...",
+     "start": 2.206,
+     "end": 2.752
+    },
+    {
+     "text": "cuma",
+     "start": 2.868,
+     "end": 3.111
+    },
+    {
+     "text": "bilang",
+     "start": 3.158,
+     "end": 3.39
+    },
+    {
+     "text": "dia",
+     "start": 3.437,
+     "end": 3.553
+    },
+    {
+     "text": "galau.",
+     "start": 3.622,
+     "end": 4.365
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Permintaan Safar: kolam renang. Katanya sudah follow, paket lengkap!",
+   "hash": "5bebec7dbb52",
+   "duration": 5.387,
+   "words": [
+    {
+     "text": "Permintaan",
+     "start": 0,
+     "end": 0.522
+    },
+    {
+     "text": "Safar:",
+     "start": 0.58,
+     "end": 1.115
+    },
+    {
+     "text": "kolam",
+     "start": 1.556,
+     "end": 1.869
+    },
+    {
+     "text": "renang.",
+     "start": 1.939,
+     "end": 2.403
+    },
+    {
+     "text": "Katanya",
+     "start": 2.844,
+     "end": 3.216
+    },
+    {
+     "text": "sudah",
+     "start": 3.251,
+     "end": 3.471
+    },
+    {
+     "text": "follow,",
+     "start": 3.506,
+     "end": 3.959
+    },
+    {
+     "text": "paket",
+     "start": 4.075,
+     "end": 4.389
+    },
+    {
+     "text": "lengkap!",
+     "start": 4.435,
+     "end": 5.387
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Warga langsung membangunnya. Ada jalur renang, pelampung bebek, dan papan loncat.",
+   "hash": "5c07fbb7e5ec",
+   "duration": 5.248,
+   "words": [
+    {
+     "text": "Warga",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "langsung",
+     "start": 0.36,
+     "end": 0.65
+    },
+    {
+     "text": "membangunnya.",
+     "start": 0.685,
+     "end": 1.393
+    },
+    {
+     "text": "Ada",
+     "start": 1.834,
+     "end": 2.055
+    },
+    {
+     "text": "jalur",
+     "start": 2.113,
+     "end": 2.368
+    },
+    {
+     "text": "renang,",
+     "start": 2.392,
+     "end": 2.891
+    },
+    {
+     "text": "pelampung",
+     "start": 3.042,
+     "end": 3.437
+    },
+    {
+     "text": "bebek,",
+     "start": 3.471,
+     "end": 3.901
+    },
+    {
+     "text": "dan",
+     "start": 3.982,
+     "end": 4.133
+    },
+    {
+     "text": "papan",
+     "start": 4.203,
+     "end": 4.458
+    },
+    {
+     "text": "loncat.",
+     "start": 4.505,
+     "end": 5.248
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Safar langsung naik papan loncat. Perenang pertama!",
+   "hash": "e0d7ab4827c2",
+   "duration": 3.39,
+   "words": [
+    {
+     "text": "Safar",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "langsung",
+     "start": 0.406,
+     "end": 0.72
+    },
+    {
+     "text": "naik",
+     "start": 0.755,
+     "end": 0.906
+    },
+    {
+     "text": "papan",
+     "start": 0.964,
+     "end": 1.184
+    },
+    {
+     "text": "loncat.",
+     "start": 1.231,
+     "end": 1.776
+    },
+    {
+     "text": "Perenang",
+     "start": 1.892,
+     "end": 2.229
+    },
+    {
+     "text": "pertama!",
+     "start": 2.276,
+     "end": 3.39
+    }
+   ]
+  },
+  "r1": {
+   "who": "riski",
+   "text": "Kolamnya dalam. Tapi galauku... lebih dalam.",
+   "hash": "d3be49b60e21",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Kolamnya",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "dalam.",
+     "start": 0.534,
+     "end": 0.94
+    },
+    {
+     "text": "Tapi",
+     "start": 1.033,
+     "end": 1.347
+    },
+    {
+     "text": "galauku...",
+     "start": 1.405,
+     "end": 2.159
+    },
+    {
+     "text": "lebih",
+     "start": 2.543,
+     "end": 2.81
+    },
+    {
+     "text": "dalam.",
+     "start": 2.833,
+     "end": 3.669
+    }
+   ]
+  },
+  "s1": {
+   "who": "senar",
+   "text": "Tenang, bro! Kumainkan lagu galau. Jreng... eh, senarnya putus lagi.",
+   "hash": "b1bbe30d76d8",
+   "duration": 4.83,
+   "words": [
+    {
+     "text": "Tenang,",
+     "start": 0,
+     "end": 0.604
+    },
+    {
+     "text": "bro!",
+     "start": 0.673,
+     "end": 1.103
+    },
+    {
+     "text": "Kumainkan",
+     "start": 1.138,
+     "end": 1.544
+    },
+    {
+     "text": "lagu",
+     "start": 1.591,
+     "end": 1.776
+    },
+    {
+     "text": "galau.",
+     "start": 1.834,
+     "end": 2.276
+    },
+    {
+     "text": "Jreng...",
+     "start": 2.45,
+     "end": 3.181
+    },
+    {
+     "text": "eh,",
+     "start": 3.46,
+     "end": 3.576
+    },
+    {
+     "text": "senarnya",
+     "start": 3.599,
+     "end": 3.936
+    },
+    {
+     "text": "putus",
+     "start": 3.982,
+     "end": 4.203
+    },
+    {
+     "text": "lagi.",
+     "start": 4.249,
+     "end": 4.83
+    }
+   ]
+  },
+  "r2": {
+   "who": "riski",
+   "text": "...Makin galau.",
+   "hash": "0e619e252860",
+   "duration": 1.207,
+   "words": [
+    {
+     "text": "...Makin",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "galau.",
+     "start": 0.511,
+     "end": 1.207
+    }
+   ]
+  },
+  "l1": {
+   "who": "lala",
+   "text": "Mau kue? Kue stroberi, khusus buat yang galau. Semangaaat!",
+   "hash": "3e4ab2502893",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Mau",
+     "start": 0,
+     "end": 0.232
+    },
+    {
+     "text": "kue?",
+     "start": 0.279,
+     "end": 0.755
+    },
+    {
+     "text": "Kue",
+     "start": 0.929,
+     "end": 1.161
+    },
+    {
+     "text": "stroberi,",
+     "start": 1.207,
+     "end": 1.962
+    },
+    {
+     "text": "khusus",
+     "start": 1.997,
+     "end": 2.334
+    },
+    {
+     "text": "buat",
+     "start": 2.392,
+     "end": 2.543
+    },
+    {
+     "text": "yang",
+     "start": 2.589,
+     "end": 2.694
+    },
+    {
+     "text": "galau.",
+     "start": 2.717,
+     "end": 3.286
+    },
+    {
+     "text": "Semangaaat!",
+     "start": 3.495,
+     "end": 4.458
+    }
+   ]
+  },
+  "r3": {
+   "who": "riski",
+   "text": "Kue... gratis? Oke. Galaunya berkurang... sedikit.",
+   "hash": "fd6125727a28",
+   "duration": 4.737,
+   "words": [
+    {
+     "text": "Kue...",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "gratis?",
+     "start": 0.65,
+     "end": 1.44
+    },
+    {
+     "text": "Oke.",
+     "start": 1.95,
+     "end": 2.543
+    },
+    {
+     "text": "Galaunya",
+     "start": 2.752,
+     "end": 3.146
+    },
+    {
+     "text": "berkurang...",
+     "start": 3.193,
+     "end": 3.785
+    },
+    {
+     "text": "sedikit.",
+     "start": 3.959,
+     "end": 4.737
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Ternyata obat galau itu sederhana. Teman, dan kue.",
+   "hash": "8e37952252e3",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Ternyata",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "obat",
+     "start": 0.488,
+     "end": 0.697
+    },
+    {
+     "text": "galau",
+     "start": 0.755,
+     "end": 0.964
+    },
+    {
+     "text": "itu",
+     "start": 1.01,
+     "end": 1.173
+    },
+    {
+     "text": "sederhana.",
+     "start": 1.219,
+     "end": 1.939
+    },
+    {
+     "text": "Teman,",
+     "start": 2.45,
+     "end": 3.065
+    },
+    {
+     "text": "dan",
+     "start": 3.39,
+     "end": 3.553
+    },
+    {
+     "text": "kue.",
+     "start": 3.634,
+     "end": 4.598
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Kolam renangnya sudah buka di pulau aru titik web titik i d.",
+   "hash": "ed619be4ebf1",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Kolam",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "renangnya",
+     "start": 0.372,
+     "end": 0.697
+    },
+    {
+     "text": "sudah",
+     "start": 0.72,
+     "end": 0.929
+    },
+    {
+     "text": "buka",
+     "start": 0.975,
+     "end": 1.196
+    },
+    {
+     "text": "di",
+     "start": 1.242,
+     "end": 1.312
+    },
+    {
+     "text": "pulau",
+     "start": 1.358,
+     "end": 1.591
+    },
+    {
+     "text": "aru",
+     "start": 1.637,
+     "end": 1.869
+    },
+    {
+     "text": "titik",
+     "start": 1.916,
+     "end": 2.171
+    },
+    {
+     "text": "web",
+     "start": 2.229,
+     "end": 2.357
+    },
+    {
+     "text": "titik",
+     "start": 2.415,
+     "end": 2.67
+    },
+    {
+     "text": "i",
+     "start": 2.752,
+     "end": 2.798
+    },
+    {
+     "text": "d.",
+     "start": 2.856,
+     "end": 4.04
+    }
+   ]
+  },
+  "n8": {
+   "who": "narrator",
+   "text": "Menurut kalian, Riski galau gara-gara apa? Tulis di komentar!",
+   "hash": "3b2c49b22246",
+   "duration": 4.458,
+   "words": [
+    {
+     "text": "Menurut",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "kalian,",
+     "start": 0.418,
+     "end": 1.068
+    },
+    {
+     "text": "Riski",
+     "start": 1.184,
+     "end": 1.474
+    },
+    {
+     "text": "galau",
+     "start": 1.521,
+     "end": 1.776
+    },
+    {
+     "text": "gara-gara",
+     "start": 1.823,
+     "end": 2.241
+    },
+    {
+     "text": "apa?",
+     "start": 2.299,
+     "end": 2.891
+    },
+    {
+     "text": "Tulis",
+     "start": 3.042,
+     "end": 3.379
+    },
+    {
+     "text": "di",
+     "start": 3.437,
+     "end": 3.506
+    },
+    {
+     "text": "komentar!",
+     "start": 3.553,
+     "end": 4.458
+    }
+   ]
+  }
+ }
+}
