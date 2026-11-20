@@ -1,0 +1,686 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "alex": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "alfaiz": "RWiGLY9uXI70QL540WNd",
+  "sekar": "I7sakys8pBZ1Z5f0UhT9",
+  "inyuu": "iWydkXKoiVtvdn4vLKp9"
+ },
+ "lines": {
+  "x1": {
+   "who": "alex",
+   "text": "Pencuri ikan bakar... ketemu! Dan dia... imut banget!",
+   "hash": "d22f6dcb7e1e",
+   "duration": 3.019,
+   "words": [
+    {
+     "text": "Pencuri",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "ikan",
+     "start": 0.441,
+     "end": 0.627
+    },
+    {
+     "text": "bakar...",
+     "start": 0.685,
+     "end": 1.091
+    },
+    {
+     "text": "ketemu!",
+     "start": 1.184,
+     "end": 1.602
+    },
+    {
+     "text": "Dan",
+     "start": 1.718,
+     "end": 1.869
+    },
+    {
+     "text": "dia...",
+     "start": 1.904,
+     "end": 2.183
+    },
+    {
+     "text": "imut",
+     "start": 2.299,
+     "end": 2.554
+    },
+    {
+     "text": "banget!",
+     "start": 2.601,
+     "end": 3.019
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Tiga hari ini, ada pencuri ikan bakar.",
+   "hash": "f012df98d52d",
+   "duration": 4.598,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "ini",
+     "start": 0.372,
+     "end": 0.522
+    },
+    {
+     "text": "diatur",
+     "start": 0.557,
+     "end": 0.824
+    },
+    {
+     "text": "komentar",
+     "start": 0.871,
+     "end": 1.219
+    },
+    {
+     "text": "kalian.",
+     "start": 1.265,
+     "end": 1.846
+    },
+    {
+     "text": "Tiga",
+     "start": 1.962,
+     "end": 2.194
+    },
+    {
+     "text": "hari",
+     "start": 2.241,
+     "end": 2.415
+    },
+    {
+     "text": "ini,",
+     "start": 2.461,
+     "end": 2.902
+    },
+    {
+     "text": "ada",
+     "start": 3.146,
+     "end": 3.355
+    },
+    {
+     "text": "pencuri",
+     "start": 3.39,
+     "end": 3.715
+    },
+    {
+     "text": "ikan",
+     "start": 3.75,
+     "end": 3.959
+    },
+    {
+     "text": "bakar.",
+     "start": 4.017,
+     "end": 4.598
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Kamera jaga sudah merekamnya. Kecil, oranye, jam dua pagi.",
+   "hash": "f7bc82143aee",
+   "duration": 4.876,
+   "words": [
+    {
+     "text": "Kamera",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "jaga",
+     "start": 0.488,
+     "end": 0.743
+    },
+    {
+     "text": "sudah",
+     "start": 0.778,
+     "end": 1.01
+    },
+    {
+     "text": "merekamnya.",
+     "start": 1.057,
+     "end": 1.73
+    },
+    {
+     "text": "Kecil,",
+     "start": 2.334,
+     "end": 2.844
+    },
+    {
+     "text": "oranye,",
+     "start": 2.891,
+     "end": 3.448
+    },
+    {
+     "text": "jam",
+     "start": 3.518,
+     "end": 3.692
+    },
+    {
+     "text": "dua",
+     "start": 3.738,
+     "end": 3.878
+    },
+    {
+     "text": "pagi.",
+     "start": 3.913,
+     "end": 4.876
+    }
+   ]
+  },
+  "d1": {
+   "who": "alfaiz",
+   "text": "Pagi ini kita tangkap. Pelan-pelan. Dengan lembut.",
+   "hash": "0d1a80304d5a",
+   "duration": 3.297,
+   "words": [
+    {
+     "text": "Pagi",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.546
+    },
+    {
+     "text": "kita",
+     "start": 0.58,
+     "end": 0.778
+    },
+    {
+     "text": "tangkap.",
+     "start": 0.824,
+     "end": 1.358
+    },
+    {
+     "text": "Pelan-pelan.",
+     "start": 1.393,
+     "end": 2.136
+    },
+    {
+     "text": "Dengan",
+     "start": 2.31,
+     "end": 2.601
+    },
+    {
+     "text": "lembut.",
+     "start": 2.659,
+     "end": 3.297
+    }
+   ]
+  },
+  "a1": {
+   "who": "alex",
+   "text": "Serahkan padaku! Tenang, warga, aku datang!",
+   "hash": "8d7b697e6ce9",
+   "duration": 2.554,
+   "words": [
+    {
+     "text": "Serahkan",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "padaku!",
+     "start": 0.476,
+     "end": 0.952
+    },
+    {
+     "text": "Tenang,",
+     "start": 0.998,
+     "end": 1.335
+    },
+    {
+     "text": "warga,",
+     "start": 1.37,
+     "end": 1.683
+    },
+    {
+     "text": "aku",
+     "start": 1.718,
+     "end": 1.904
+    },
+    {
+     "text": "datang!",
+     "start": 1.95,
+     "end": 2.554
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Tapi pelakunya sembunyi di celah peti ikan.",
+   "hash": "affd69685771",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "pelakunya",
+     "start": 0.372,
+     "end": 0.755
+    },
+    {
+     "text": "sembunyi",
+     "start": 0.801,
+     "end": 1.161
+    },
+    {
+     "text": "di",
+     "start": 1.196,
+     "end": 1.265
+    },
+    {
+     "text": "celah",
+     "start": 1.3,
+     "end": 1.486
+    },
+    {
+     "text": "peti",
+     "start": 1.521,
+     "end": 1.718
+    },
+    {
+     "text": "ikan.",
+     "start": 1.753,
+     "end": 2.74
+    }
+   ]
+  },
+  "a2": {
+   "who": "alex",
+   "text": "Lho... dia cuma anak kucing. Sendirian.",
+   "hash": "e7fb2dd9b369",
+   "duration": 2.694,
+   "words": [
+    {
+     "text": "Lho...",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "dia",
+     "start": 0.627,
+     "end": 0.766
+    },
+    {
+     "text": "cuma",
+     "start": 0.789,
+     "end": 0.964
+    },
+    {
+     "text": "anak",
+     "start": 0.998,
+     "end": 1.161
+    },
+    {
+     "text": "kucing.",
+     "start": 1.184,
+     "end": 1.614
+    },
+    {
+     "text": "Sendirian.",
+     "start": 1.707,
+     "end": 2.694
+    }
+   ]
+  },
+  "k1": {
+   "who": "sekar",
+   "text": "Jadi kamu yang makan ikanku? Ya sudah... ini, makan yang hangat.",
+   "hash": "4e0856028cf2",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Jadi",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "kamu",
+     "start": 0.29,
+     "end": 0.464
+    },
+    {
+     "text": "yang",
+     "start": 0.499,
+     "end": 0.604
+    },
+    {
+     "text": "makan",
+     "start": 0.639,
+     "end": 0.836
+    },
+    {
+     "text": "ikanku?",
+     "start": 0.894,
+     "end": 1.428
+    },
+    {
+     "text": "Ya",
+     "start": 1.544,
+     "end": 1.672
+    },
+    {
+     "text": "sudah...",
+     "start": 1.718,
+     "end": 2.461
+    },
+    {
+     "text": "ini,",
+     "start": 2.74,
+     "end": 3.135
+    },
+    {
+     "text": "makan",
+     "start": 3.216,
+     "end": 3.471
+    },
+    {
+     "text": "yang",
+     "start": 3.518,
+     "end": 3.611
+    },
+    {
+     "text": "hangat.",
+     "start": 3.646,
+     "end": 4.319
+    }
+   ]
+  },
+  "i1": {
+   "who": "inyuu",
+   "text": "Pet langka muncul! Cepat, jinakkan sebelum dia respawn!",
+   "hash": "4d7f53c5686e",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Pet",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "langka",
+     "start": 0.232,
+     "end": 0.441
+    },
+    {
+     "text": "muncul!",
+     "start": 0.488,
+     "end": 1.045
+    },
+    {
+     "text": "Cepat,",
+     "start": 1.254,
+     "end": 1.776
+    },
+    {
+     "text": "jinakkan",
+     "start": 2.055,
+     "end": 2.531
+    },
+    {
+     "text": "sebelum",
+     "start": 2.601,
+     "end": 2.833
+    },
+    {
+     "text": "dia",
+     "start": 2.868,
+     "end": 2.961
+    },
+    {
+     "text": "respawn!",
+     "start": 2.995,
+     "end": 3.715
+    }
+   ]
+  },
+  "d2": {
+   "who": "alfaiz",
+   "text": "Kasus ditutup. Pelakunya lapar. Hukumannya: disayang satu pulau.",
+   "hash": "e937ae250151",
+   "duration": 4.737,
+   "words": [
+    {
+     "text": "Kasus",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "ditutup.",
+     "start": 0.569,
+     "end": 1.068
+    },
+    {
+     "text": "Pelakunya",
+     "start": 1.103,
+     "end": 1.567
+    },
+    {
+     "text": "lapar.",
+     "start": 1.614,
+     "end": 2.02
+    },
+    {
+     "text": "Hukumannya:",
+     "start": 2.043,
+     "end": 2.856
+    },
+    {
+     "text": "disayang",
+     "start": 3.03,
+     "end": 3.553
+    },
+    {
+     "text": "satu",
+     "start": 3.634,
+     "end": 3.889
+    },
+    {
+     "text": "pulau.",
+     "start": 3.936,
+     "end": 4.737
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Warga langsung membangun Rumah Kucing. Sekarang dia warga pulau juga.",
+   "hash": "a2ba5e77baed",
+   "duration": 4.319,
+   "words": [
+    {
+     "text": "Warga",
+     "start": 0,
+     "end": 0.383
+    },
+    {
+     "text": "langsung",
+     "start": 0.43,
+     "end": 0.743
+    },
+    {
+     "text": "membangun",
+     "start": 0.778,
+     "end": 1.126
+    },
+    {
+     "text": "Rumah",
+     "start": 1.173,
+     "end": 1.382
+    },
+    {
+     "text": "Kucing.",
+     "start": 1.416,
+     "end": 1.927
+    },
+    {
+     "text": "Sekarang",
+     "start": 2.252,
+     "end": 2.67
+    },
+    {
+     "text": "dia",
+     "start": 2.717,
+     "end": 2.856
+    },
+    {
+     "text": "warga",
+     "start": 2.914,
+     "end": 3.17
+    },
+    {
+     "text": "pulau",
+     "start": 3.204,
+     "end": 3.46
+    },
+    {
+     "text": "juga.",
+     "start": 3.518,
+     "end": 4.319
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Tapi dia belum punya nama. Nama terbaik dari komentar, dipasang di papan ini.",
+   "hash": "fd76a3fcb796",
+   "duration": 5.341,
+   "words": [
+    {
+     "text": "Tapi",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "dia",
+     "start": 0.36,
+     "end": 0.476
+    },
+    {
+     "text": "belum",
+     "start": 0.522,
+     "end": 0.685
+    },
+    {
+     "text": "punya",
+     "start": 0.72,
+     "end": 0.906
+    },
+    {
+     "text": "nama.",
+     "start": 0.952,
+     "end": 1.451
+    },
+    {
+     "text": "Nama",
+     "start": 1.892,
+     "end": 2.125
+    },
+    {
+     "text": "terbaik",
+     "start": 2.171,
+     "end": 2.519
+    },
+    {
+     "text": "dari",
+     "start": 2.577,
+     "end": 2.728
+    },
+    {
+     "text": "komentar,",
+     "start": 2.763,
+     "end": 3.402
+    },
+    {
+     "text": "dipasang",
+     "start": 3.518,
+     "end": 3.994
+    },
+    {
+     "text": "di",
+     "start": 4.04,
+     "end": 4.098
+    },
+    {
+     "text": "papan",
+     "start": 4.145,
+     "end": 4.4
+    },
+    {
+     "text": "ini.",
+     "start": 4.458,
+     "end": 5.341
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Follow, kamu jadi warga. Komentar, kamu yang kasih namanya!",
+   "hash": "7fda62826ac4",
+   "duration": 3.947,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "kamu",
+     "start": 0.546,
+     "end": 0.789
+    },
+    {
+     "text": "jadi",
+     "start": 0.848,
+     "end": 0.998
+    },
+    {
+     "text": "warga.",
+     "start": 1.033,
+     "end": 1.509
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.718,
+     "end": 2.368
+    },
+    {
+     "text": "kamu",
+     "start": 2.496,
+     "end": 2.74
+    },
+    {
+     "text": "yang",
+     "start": 2.775,
+     "end": 2.879
+    },
+    {
+     "text": "kasih",
+     "start": 2.914,
+     "end": 3.181
+    },
+    {
+     "text": "namanya!",
+     "start": 3.204,
+     "end": 3.947
+    }
+   ]
+  }
+ }
+}
