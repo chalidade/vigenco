@@ -1,0 +1,16 @@
+{
+  "id": "20261121-0135-zmv1",
+  "type": "launch",
+  "prompt": "video lunch untuk covatom gunakan warna dan brand dari covatom tapi conten gunakan referensi dari saling-jaga.com",
+  "format": "landscape",
+  "links": [
+    "https://saling-jaga.com/"
+  ],
+  "files": [
+    "requests/20261121-0135-zmv1/files/01-covatom-alt-preview.png",
+    "requests/20261121-0135-zmv1/files/02-covatom-app-icon-square.svg",
+    "requests/20261121-0135-zmv1/files/03-covatom-app-icon.svg"
+  ],
+  "created": "2026-11-20T18:35:12.188Z",
+  "mode": "full"
+}
