@@ -1,0 +1,33 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "riski": "RWiGLY9uXI70QL540WNd",
+    "senar": "plgKUYgnlZ1DCNh54DwJ",
+    "lala": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "riski": {"stability": 0.4, "style": 0.6},
+    "senar": {"stability": 0.3, "style": 0.75},
+    "lala": {"stability": 0.3, "style": 0.75}
+  },
+  "lines": [
+    {"id": "x1", "who": "riski", "text": "Aku Riski... dan aku galau."},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Hari ini, dua komentar terpilih!"},
+    {"id": "n2", "who": "narrator", "text": "Satu minta kolam renang. Satu lagi... cuma bilang dia galau."},
+    {"id": "n3", "who": "narrator", "text": "Permintaan Safar: kolam renang. Katanya sudah follow, paket lengkap!"},
+    {"id": "n4", "who": "narrator", "text": "Warga langsung membangunnya. Ada jalur renang, pelampung bebek, dan papan loncat."},
+    {"id": "n5", "who": "narrator", "text": "Safar langsung naik papan loncat. Perenang pertama!"},
+    {"id": "r1", "who": "riski", "text": "Kolamnya dalam. Tapi galauku... lebih dalam."},
+    {"id": "s1", "who": "senar", "text": "Tenang, bro! Kumainkan lagu galau. Jreng... eh, senarnya putus lagi."},
+    {"id": "r2", "who": "riski", "text": "...Makin galau."},
+    {"id": "l1", "who": "lala", "text": "Mau kue? Kue stroberi, khusus buat yang galau. Semangaaat!"},
+    {"id": "r3", "who": "riski", "text": "Kue... gratis? Oke. Galaunya berkurang... sedikit."},
+    {"id": "n6", "who": "narrator", "text": "Ternyata obat galau itu sederhana. Teman, dan kue."},
+    {"id": "n7", "who": "narrator", "text": "Kolam renangnya sudah buka di pulau aru titik web titik i d."},
+    {"id": "n8", "who": "narrator", "text": "Menurut kalian, Riski galau gara-gara apa? Tulis di komentar!"}
+  ]
+}
