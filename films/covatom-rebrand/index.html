@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Saling Jaga → Covatom · rebrand</title>
+<style>
+  @font-face { font-family: "Outfit"; font-weight: 400; font-display: block; src: url(fonts/outfit-latin-400-normal.woff2) format("woff2"); }
+  @font-face { font-family: "Outfit"; font-weight: 500; font-display: block; src: url(fonts/outfit-latin-500-normal.woff2) format("woff2"); }
+  @font-face { font-family: "Outfit"; font-weight: 600; font-display: block; src: url(fonts/outfit-latin-600-normal.woff2) format("woff2"); }
+  html, body { margin: 0; background: #FAFAF6; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #FAFAF6; font-family: "Outfit", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased; }
+  #stage > *, #light > * { position: absolute; }
+  #bg, #dots, #bloom, #wipeB, #light, #flash { inset: 0; }
+  #dots { background-image: radial-gradient(rgba(184,196,218,.16) 2px, transparent 2.6px); background-size: 54px 54px; background-position: 0 3px;
+    -webkit-mask-image: radial-gradient(70% 52% at 50% 44%, #000 10%, transparent 88%); mask-image: radial-gradient(70% 52% at 50% 44%, #000 10%, transparent 88%); opacity: 0; }
+  #bloom { opacity: 0; }
+  svg { left: 0; top: 0; overflow: visible; }
+  img { display: block; max-width: none; }
+  .cap { left: 0; width: 1080px; text-align: center; font-weight: 600; font-size: 92px; line-height: 1; letter-spacing: -.022em; white-space: nowrap; }
+  .tag { left: 0; width: 1080px; text-align: center; font-weight: 400; font-size: 50px; line-height: 1; letter-spacing: .02em; white-space: nowrap; }
+  #wipeB { background: #1677FF; }
+  #light { background: #FFFFFF; }
+  #fin { left: 0; width: 1080px; display: flex; flex-direction: column; align-items: center; }
+  #finT { margin-top: 30px; font-weight: 400; font-size: 46px; line-height: 1; white-space: nowrap; color: #46526A; }
+  #finT b { font-weight: 600; }
+  #flash { background: #FFFFFF; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div id="dots"></div>
+  <div id="bloom"></div>
+  <svg id="dark" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <img id="sj" src="assets/sj-mark.png" alt="">
+  <img id="sjw" src="assets/sj-wordmark.png" alt="">
+  <div id="cap1" class="cap"></div>
+  <div id="cap2" class="cap"></div>
+  <div id="tagD" class="tag"></div>
+  <div id="wipeB"></div>
+  <div id="light">
+    <svg id="lsvg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+    <div id="tagL" class="tag"></div>
+    <div id="fin"><img id="finI" src="assets/sj-mark.png" alt=""><div id="finT"></div></div>
+  </div>
+  <div id="flash"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="logo-data.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
