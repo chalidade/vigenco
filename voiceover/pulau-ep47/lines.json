@@ -1,0 +1,34 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "alfaiz": "RWiGLY9uXI70QL540WNd",
+    "alex": "plgKUYgnlZ1DCNh54DwJ",
+    "sekar": "I7sakys8pBZ1Z5f0UhT9",
+    "inyuu": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "alfaiz": {"stability": 0.75, "style": 0.25},
+    "alex": {"stability": 0.3, "style": 0.75},
+    "sekar": {"stability": 0.45, "style": 0.55},
+    "inyuu": {"stability": 0.3, "style": 0.75}
+  },
+  "lines": [
+    {"id": "x1", "who": "alex", "text": "Pencuri ikan bakar... ketemu! Dan dia... imut banget!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Tiga hari ini, ada pencuri ikan bakar."},
+    {"id": "n2", "who": "narrator", "text": "Kamera jaga sudah merekamnya. Kecil, oranye, jam dua pagi."},
+    {"id": "d1", "who": "alfaiz", "text": "Pagi ini kita tangkap. Pelan-pelan. Dengan lembut."},
+    {"id": "a1", "who": "alex", "text": "Serahkan padaku! Tenang, warga, aku datang!"},
+    {"id": "n3", "who": "narrator", "text": "Tapi pelakunya sembunyi di celah peti ikan."},
+    {"id": "a2", "who": "alex", "text": "Lho... dia cuma anak kucing. Sendirian."},
+    {"id": "k1", "who": "sekar", "text": "Jadi kamu yang makan ikanku? Ya sudah... ini, makan yang hangat."},
+    {"id": "i1", "who": "inyuu", "text": "Pet langka muncul! Cepat, jinakkan sebelum dia respawn!"},
+    {"id": "d2", "who": "alfaiz", "text": "Kasus ditutup. Pelakunya lapar. Hukumannya: disayang satu pulau."},
+    {"id": "n4", "who": "narrator", "text": "Warga langsung membangun Rumah Kucing. Sekarang dia warga pulau juga."},
+    {"id": "n5", "who": "narrator", "text": "Tapi dia belum punya nama. Nama terbaik dari komentar, dipasang di papan ini."},
+    {"id": "n6", "who": "narrator", "text": "Follow, kamu jadi warga. Komentar, kamu yang kasih namanya!"}
+  ]
+}
