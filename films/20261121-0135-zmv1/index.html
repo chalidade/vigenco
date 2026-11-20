@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>covatom · saat sinyal hilang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #0E1A33; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #0E1A33;
+    font-family: "Inter", system-ui, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+  #grid { position: absolute; inset: -60px; background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 80px 80px;
+    -webkit-mask-image: radial-gradient(60% 60% at 50% 50%, #000 20%, transparent 85%); mask-image: radial-gradient(60% 60% at 50% 50%, #000 20%, transparent 85%); }
+  #flash { position: absolute; inset: 0; background: #FF4D4F; opacity: 0; }
+  #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  #world > * { position: absolute; }
+  #world *, #hud * { box-sizing: border-box; }
+  #hud { position: absolute; inset: 0; pointer-events: none; }
+  #hud > * { position: absolute; }
+  .o { font-family: "Outfit", sans-serif; }
+  .row { display: flex; align-items: center; white-space: nowrap; }
+  .ic { display: inline-flex; flex: none; }
+  .lay { position: absolute; left: 50%; top: 50%; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="grid"></div>
+  <div id="world"></div>
+  <div id="flash"></div>
+  <div id="hud"></div>
+</div>
+<script src="../../types/_shared/motion.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
