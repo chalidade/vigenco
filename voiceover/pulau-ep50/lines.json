@@ -9,23 +9,83 @@
     "whoyss": "I7sakys8pBZ1Z5f0UhT9"
   },
   "settings": {
-    "narrator": {"stability": 0.55, "style": 0.25},
-    "revan": {"stability": 0.3, "style": 0.75},
-    "kades": {"stability": 0.35, "style": 0.65},
-    "whoyss": {"stability": 0.35, "style": 0.7}
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "revan": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "kades": {
+      "stability": 0.35,
+      "style": 0.65
+    },
+    "whoyss": {
+      "stability": 0.35,
+      "style": 0.7
+    }
   },
   "lines": [
-    {"id": "x1", "who": "revan", "text": "Tiga jam menggali tambang... dan yang keluar... SANDAL?!"},
-    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow, dan namamu jadi warga."},
-    {"id": "n2", "who": "narrator", "text": "Hari ini dua komentar. Satu minta penambangan. Satu lagi... mau jadi kepala desa!"},
-    {"id": "n3", "who": "narrator", "text": "Rean resmi jadi Kepala Desa Jalan Warga. Kantornya baru, stempelnya juga baru."},
-    {"id": "k1", "who": "kades", "text": "Sah! Keputusan pertamaku sebagai kepala desa: kita bikin tambang!"},
-    {"id": "n4", "who": "narrator", "text": "Revan, warga sejak episode satu, minta penambangan. Bukit di ujung desa langsung digali."},
-    {"id": "r1", "who": "revan", "text": "Pasti ada emas. Aku yakin, seratus persen!"},
-    {"id": "n5", "who": "narrator", "text": "Gerobak pertama keluar dari terowongan. Semua menahan napas..."},
-    {"id": "n6", "who": "narrator", "text": "Isinya... satu sandal jepit. Biru. Sebelah."},
-    {"id": "k2", "who": "kades", "text": "Tunggu. Saya kenal sandal ini. Ini punya Rayhan, yang hilang!"},
-    {"id": "w1", "who": "whoyss", "text": "Hehe... bukan aku. Pliss jangan bilang Aru!"},
-    {"id": "n7", "who": "narrator", "text": "Tambangnya tetap buka, gerobak kedua sudah masuk lagi. Menurut kalian, isinya apa? Tulis di komentar!"}
+    {
+      "id": "x1",
+      "who": "revan",
+      "text": "Tiga jam gali tambang... nemunya SANDAL?!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Pulau ini diatur komentar kalian. Follow, dan namamu jadi warga."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Hari ini dua komentar. Satu minta penambangan. Satu lagi... mau jadi kepala desa!"
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Rean resmi jadi Kepala Desa. Kantornya baru, stempelnya juga!"
+    },
+    {
+      "id": "k1",
+      "who": "kades",
+      "text": "Sah! Keputusan pertamaku sebagai kepala desa: kita bikin tambang!"
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Revan, warga sejak episode satu, minta penambangan. Bukitnya langsung digali!"
+    },
+    {
+      "id": "r1",
+      "who": "revan",
+      "text": "Pasti ada emas. Aku yakin, seratus persen!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Gerobak pertama keluar dari terowongan. Semua menahan napas..."
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Isinya... satu sandal jepit. Biru. Sebelah."
+    },
+    {
+      "id": "k2",
+      "who": "kades",
+      "text": "Tunggu. Saya kenal sandal ini. Ini punya Rayhan, yang hilang!"
+    },
+    {
+      "id": "w1",
+      "who": "whoyss",
+      "text": "Hehe... bukan aku. Pliss jangan bilang Aru!"
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Gerobak kedua sudah masuk lagi. Menurut kalian, isinya apa? Tulis di komentar!"
+    }
   ]
 }
