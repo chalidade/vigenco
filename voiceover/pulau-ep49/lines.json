@@ -1,0 +1,31 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "vidya": "iWydkXKoiVtvdn4vLKp9",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "pinjam": "RWiGLY9uXI70QL540WNd"
+  },
+  "settings": {
+    "narrator": {"stability": 0.55, "style": 0.25},
+    "vidya": {"stability": 0.3, "style": 0.75},
+    "aru": {"stability": 0.35, "style": 0.65},
+    "pinjam": {"stability": 0.4, "style": 0.6}
+  },
+  "lines": [
+    {"id": "x1", "who": "vidya", "text": "Aku cuma komentar, mau masuk pulau... terus sekarang aku punya rumah?!"},
+    {"id": "n1", "who": "narrator", "text": "Pulau ini diatur komentar kalian. Follow, dan namamu jadi warga."},
+    {"id": "n2", "who": "narrator", "text": "Hari ini dua komentar. Satu ingin masuk pulau. Satu lagi... minta hewan!"},
+    {"id": "n3", "who": "narrator", "text": "Vidya menulis: semoga aku bisa masuk pulau ini. Jawabannya: bisa!"},
+    {"id": "a1", "who": "aru", "text": "Kavling kosong ini, sekarang punyamu. Selamat datang, Vidya!"},
+    {"id": "v1", "who": "vidya", "text": "Rumahku ada namanya! Aku warga beneran!"},
+    {"id": "p1", "who": "pinjam", "text": "Selamat ya... Boleh pinjam seratus, buat syukuran?"},
+    {"id": "n4", "who": "narrator", "text": "Komentar kedua dari Hans: tambahin hewan. Warga langsung bikin kebun hewan mini!"},
+    {"id": "n5", "who": "narrator", "text": "Ada ayam, kambing, sapi, dan bebek yang suka antre."},
+    {"id": "n6", "who": "narrator", "text": "Si anak kucing ikut mampir... dan langsung dikejar ayam."},
+    {"id": "n7", "who": "narrator", "text": "Terima kasih, Seseorang dari Aceh, traktiran lima kali! Doamu kami pasang jadi Tugu Salam."},
+    {"id": "n8", "who": "narrator", "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur. Hewan apa lagi yang harus datang?"}
+  ]
+}
