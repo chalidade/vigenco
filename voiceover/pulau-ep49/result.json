@@ -1,0 +1,722 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "vidya": "iWydkXKoiVtvdn4vLKp9",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "aru": "plgKUYgnlZ1DCNh54DwJ",
+  "pinjam": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "x1": {
+   "who": "vidya",
+   "text": "Aku cuma komentar, mau masuk pulau... terus sekarang aku punya rumah?!",
+   "hash": "aa525e8e7517",
+   "duration": 6.084,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "cuma",
+     "start": 0.29,
+     "end": 0.464
+    },
+    {
+     "text": "komentar,",
+     "start": 0.511,
+     "end": 1.37
+    },
+    {
+     "text": "mau",
+     "start": 1.753,
+     "end": 1.892
+    },
+    {
+     "text": "masuk",
+     "start": 1.927,
+     "end": 2.183
+    },
+    {
+     "text": "pulau...",
+     "start": 2.206,
+     "end": 2.949
+    },
+    {
+     "text": "terus",
+     "start": 3.332,
+     "end": 3.553
+    },
+    {
+     "text": "sekarang",
+     "start": 3.576,
+     "end": 4.18
+    },
+    {
+     "text": "aku",
+     "start": 4.505,
+     "end": 4.725
+    },
+    {
+     "text": "punya",
+     "start": 4.772,
+     "end": 4.969
+    },
+    {
+     "text": "rumah?!",
+     "start": 5.016,
+     "end": 6.084
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Pulau ini diatur komentar kalian. Follow, dan namamu jadi warga.",
+   "hash": "de61b5b7eee0",
+   "duration": 4.365,
+   "words": [
+    {
+     "text": "Pulau",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "ini",
+     "start": 0.395,
+     "end": 0.546
+    },
+    {
+     "text": "diatur",
+     "start": 0.58,
+     "end": 0.882
+    },
+    {
+     "text": "komentar",
+     "start": 0.929,
+     "end": 1.289
+    },
+    {
+     "text": "kalian.",
+     "start": 1.335,
+     "end": 1.974
+    },
+    {
+     "text": "Follow,",
+     "start": 2.218,
+     "end": 2.728
+    },
+    {
+     "text": "dan",
+     "start": 2.902,
+     "end": 3.042
+    },
+    {
+     "text": "namamu",
+     "start": 3.065,
+     "end": 3.402
+    },
+    {
+     "text": "jadi",
+     "start": 3.46,
+     "end": 3.611
+    },
+    {
+     "text": "warga.",
+     "start": 3.657,
+     "end": 4.365
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Hari ini dua komentar. Satu ingin masuk pulau. Satu lagi... minta hewan!",
+   "hash": "6beaaa91444e",
+   "duration": 5.944,
+   "words": [
+    {
+     "text": "Hari",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "ini",
+     "start": 0.302,
+     "end": 0.453
+    },
+    {
+     "text": "dua",
+     "start": 0.499,
+     "end": 0.65
+    },
+    {
+     "text": "komentar.",
+     "start": 0.697,
+     "end": 1.3
+    },
+    {
+     "text": "Satu",
+     "start": 1.509,
+     "end": 1.858
+    },
+    {
+     "text": "ingin",
+     "start": 1.939,
+     "end": 2.125
+    },
+    {
+     "text": "masuk",
+     "start": 2.171,
+     "end": 2.415
+    },
+    {
+     "text": "pulau.",
+     "start": 2.45,
+     "end": 2.961
+    },
+    {
+     "text": "Satu",
+     "start": 3.286,
+     "end": 3.576
+    },
+    {
+     "text": "lagi...",
+     "start": 3.622,
+     "end": 4.145
+    },
+    {
+     "text": "minta",
+     "start": 4.656,
+     "end": 4.876
+    },
+    {
+     "text": "hewan!",
+     "start": 4.934,
+     "end": 5.944
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Vidya menulis: semoga aku bisa masuk pulau ini. Jawabannya: bisa!",
+   "hash": "cc76d4281702",
+   "duration": 5.108,
+   "words": [
+    {
+     "text": "Vidya",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "text": "menulis:",
+     "start": 0.418,
+     "end": 1.033
+    },
+    {
+     "text": "semoga",
+     "start": 1.207,
+     "end": 1.579
+    },
+    {
+     "text": "aku",
+     "start": 1.625,
+     "end": 1.8
+    },
+    {
+     "text": "bisa",
+     "start": 1.834,
+     "end": 2.009
+    },
+    {
+     "text": "masuk",
+     "start": 2.055,
+     "end": 2.31
+    },
+    {
+     "text": "pulau",
+     "start": 2.345,
+     "end": 2.577
+    },
+    {
+     "text": "ini.",
+     "start": 2.635,
+     "end": 3.03
+    },
+    {
+     "text": "Jawabannya:",
+     "start": 3.309,
+     "end": 4.087
+    },
+    {
+     "text": "bisa!",
+     "start": 4.296,
+     "end": 5.108
+    }
+   ]
+  },
+  "a1": {
+   "who": "aru",
+   "text": "Kavling kosong ini, sekarang punyamu. Selamat datang, Vidya!",
+   "hash": "3c12ac977b57",
+   "duration": 3.344,
+   "words": [
+    {
+     "text": "Kavling",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "kosong",
+     "start": 0.418,
+     "end": 0.662
+    },
+    {
+     "text": "ini,",
+     "start": 0.708,
+     "end": 0.871
+    },
+    {
+     "text": "sekarang",
+     "start": 0.906,
+     "end": 1.196
+    },
+    {
+     "text": "punyamu.",
+     "start": 1.231,
+     "end": 1.683
+    },
+    {
+     "text": "Selamat",
+     "start": 1.73,
+     "end": 2.032
+    },
+    {
+     "text": "datang,",
+     "start": 2.067,
+     "end": 2.45
+    },
+    {
+     "text": "Vidya!",
+     "start": 2.473,
+     "end": 3.344
+    }
+   ]
+  },
+  "v1": {
+   "who": "vidya",
+   "text": "Rumahku ada namanya! Aku warga beneran!",
+   "hash": "2a28d00f3ef4",
+   "duration": 3.111,
+   "words": [
+    {
+     "text": "Rumahku",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "ada",
+     "start": 0.557,
+     "end": 0.685
+    },
+    {
+     "text": "namanya!",
+     "start": 0.743,
+     "end": 1.405
+    },
+    {
+     "text": "Aku",
+     "start": 1.683,
+     "end": 1.939
+    },
+    {
+     "text": "warga",
+     "start": 1.962,
+     "end": 2.252
+    },
+    {
+     "text": "beneran!",
+     "start": 2.287,
+     "end": 3.111
+    }
+   ]
+  },
+  "p1": {
+   "who": "pinjam",
+   "text": "Selamat ya... Boleh pinjam seratus, buat syukuran?",
+   "hash": "2ac1731cf0b2",
+   "duration": 3.715,
+   "words": [
+    {
+     "text": "Selamat",
+     "start": 0,
+     "end": 0.488
+    },
+    {
+     "text": "ya...",
+     "start": 0.569,
+     "end": 0.929
+    },
+    {
+     "text": "Boleh",
+     "start": 1.207,
+     "end": 1.498
+    },
+    {
+     "text": "pinjam",
+     "start": 1.521,
+     "end": 1.823
+    },
+    {
+     "text": "seratus,",
+     "start": 1.881,
+     "end": 2.566
+    },
+    {
+     "text": "buat",
+     "start": 2.682,
+     "end": 2.879
+    },
+    {
+     "text": "syukuran?",
+     "start": 2.926,
+     "end": 3.715
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Komentar kedua dari Hans: tambahin hewan. Warga langsung bikin kebun hewan mini!",
+   "hash": "09d08c200f2b",
+   "duration": 5.341,
+   "words": [
+    {
+     "text": "Komentar",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "kedua",
+     "start": 0.464,
+     "end": 0.778
+    },
+    {
+     "text": "dari",
+     "start": 0.824,
+     "end": 0.987
+    },
+    {
+     "text": "Hans:",
+     "start": 1.033,
+     "end": 1.521
+    },
+    {
+     "text": "tambahin",
+     "start": 1.637,
+     "end": 2.09
+    },
+    {
+     "text": "hewan.",
+     "start": 2.148,
+     "end": 2.635
+    },
+    {
+     "text": "Warga",
+     "start": 2.914,
+     "end": 3.251
+    },
+    {
+     "text": "langsung",
+     "start": 3.297,
+     "end": 3.611
+    },
+    {
+     "text": "bikin",
+     "start": 3.646,
+     "end": 3.878
+    },
+    {
+     "text": "kebun",
+     "start": 3.924,
+     "end": 4.168
+    },
+    {
+     "text": "hewan",
+     "start": 4.214,
+     "end": 4.481
+    },
+    {
+     "text": "mini!",
+     "start": 4.528,
+     "end": 5.341
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "Ada ayam, kambing, sapi, dan bebek yang suka antre.",
+   "hash": "a3e28cae6f07",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Ada",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "ayam,",
+     "start": 0.325,
+     "end": 0.731
+    },
+    {
+     "text": "kambing,",
+     "start": 0.766,
+     "end": 1.393
+    },
+    {
+     "text": "sapi,",
+     "start": 1.602,
+     "end": 2.241
+    },
+    {
+     "text": "dan",
+     "start": 2.357,
+     "end": 2.508
+    },
+    {
+     "text": "bebek",
+     "start": 2.566,
+     "end": 2.856
+    },
+    {
+     "text": "yang",
+     "start": 2.902,
+     "end": 3.007
+    },
+    {
+     "text": "suka",
+     "start": 3.053,
+     "end": 3.274
+    },
+    {
+     "text": "antre.",
+     "start": 3.32,
+     "end": 4.272
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Si anak kucing ikut mampir... dan langsung dikejar ayam.",
+   "hash": "985bc99ce931",
+   "duration": 4.04,
+   "words": [
+    {
+     "text": "Si",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "anak",
+     "start": 0.221,
+     "end": 0.406
+    },
+    {
+     "text": "kucing",
+     "start": 0.441,
+     "end": 0.743
+    },
+    {
+     "text": "ikut",
+     "start": 0.801,
+     "end": 1.01
+    },
+    {
+     "text": "mampir...",
+     "start": 1.068,
+     "end": 1.718
+    },
+    {
+     "text": "dan",
+     "start": 2.043,
+     "end": 2.206
+    },
+    {
+     "text": "langsung",
+     "start": 2.287,
+     "end": 2.635
+    },
+    {
+     "text": "dikejar",
+     "start": 2.682,
+     "end": 3.03
+    },
+    {
+     "text": "ayam.",
+     "start": 3.088,
+     "end": 4.04
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Terima kasih, Seseorang dari Aceh, traktiran lima kali! Doamu kami pasang jadi Tugu Salam.",
+   "hash": "8017761dc9f0",
+   "duration": 6.223,
+   "words": [
+    {
+     "text": "Terima",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "kasih,",
+     "start": 0.337,
+     "end": 0.906
+    },
+    {
+     "text": "Seseorang",
+     "start": 0.998,
+     "end": 1.474
+    },
+    {
+     "text": "dari",
+     "start": 1.521,
+     "end": 1.695
+    },
+    {
+     "text": "Aceh,",
+     "start": 1.741,
+     "end": 2.183
+    },
+    {
+     "text": "traktiran",
+     "start": 2.252,
+     "end": 2.81
+    },
+    {
+     "text": "lima",
+     "start": 2.868,
+     "end": 3.053
+    },
+    {
+     "text": "kali!",
+     "start": 3.1,
+     "end": 3.622
+    },
+    {
+     "text": "Doamu",
+     "start": 3.947,
+     "end": 4.319
+    },
+    {
+     "text": "kami",
+     "start": 4.354,
+     "end": 4.563
+    },
+    {
+     "text": "pasang",
+     "start": 4.609,
+     "end": 4.899
+    },
+    {
+     "text": "jadi",
+     "start": 4.957,
+     "end": 5.132
+    },
+    {
+     "text": "Tugu",
+     "start": 5.166,
+     "end": 5.352
+    },
+    {
+     "text": "Salam.",
+     "start": 5.399,
+     "end": 6.223
+    }
+   ]
+  },
+  "n8": {
+   "who": "narrator",
+   "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur. Hewan apa lagi yang harus datang?",
+   "hash": "e01c48529693",
+   "duration": 6.037,
+   "words": [
+    {
+     "text": "Follow,",
+     "start": 0,
+     "end": 0.557
+    },
+    {
+     "text": "namamu",
+     "start": 0.673,
+     "end": 0.998
+    },
+    {
+     "text": "jadi",
+     "start": 1.068,
+     "end": 1.219
+    },
+    {
+     "text": "warga.",
+     "start": 1.265,
+     "end": 1.753
+    },
+    {
+     "text": "Komentar,",
+     "start": 1.962,
+     "end": 2.589
+    },
+    {
+     "text": "ceritanya",
+     "start": 2.612,
+     "end": 3.053
+    },
+    {
+     "text": "kamu",
+     "start": 3.1,
+     "end": 3.309
+    },
+    {
+     "text": "yang",
+     "start": 3.355,
+     "end": 3.471
+    },
+    {
+     "text": "atur.",
+     "start": 3.529,
+     "end": 3.936
+    },
+    {
+     "text": "Hewan",
+     "start": 4.18,
+     "end": 4.493
+    },
+    {
+     "text": "apa",
+     "start": 4.54,
+     "end": 4.679
+    },
+    {
+     "text": "lagi",
+     "start": 4.725,
+     "end": 4.934
+    },
+    {
+     "text": "yang",
+     "start": 4.957,
+     "end": 5.074
+    },
+    {
+     "text": "harus",
+     "start": 5.132,
+     "end": 5.329
+    },
+    {
+     "text": "datang?",
+     "start": 5.375,
+     "end": 6.037
+    }
+   ]
+  }
+ }
+}
