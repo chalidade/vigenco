@@ -35,7 +35,7 @@
     {
       "id": "x1",
       "who": "zidan",
-      "text": "Ada yang komentar: bikin masjid. Dan pagi ini... ini berdiri!"
+      "text": "Komentar: bikin masjid. Pagi ini... berdiri!"
     },
     {
       "id": "n1",
@@ -45,22 +45,17 @@
     {
       "id": "n2",
       "who": "narrator",
-      "text": "Hari ini dua komentar terpilih. Dari gonrong... dan dari dayang."
+      "text": "Dua komentar terpilih hari ini!"
     },
     {
       "id": "n3",
       "who": "narrator",
-      "text": "Masjid besar ada di utara, jauh dari Jalan Warga. Jadi, usulan gonrong: Mushola Warga!"
+      "text": "Masjid besar jauh di utara. Jadi, buat warga sini: Mushola Warga!"
     },
     {
       "id": "z1",
       "who": "zidan",
       "text": "Sandalnya dilepas dulu ya, kak. Raknya baru!"
-    },
-    {
-      "id": "n4",
-      "who": "narrator",
-      "text": "Komentar kedua cuma tiga kata: kak, aku dayang."
     },
     {
       "id": "d1",
@@ -70,7 +65,7 @@
     {
       "id": "n5",
       "who": "narrator",
-      "text": "Boleh! Dan pas banget, semalam Ish mentraktir sepuluh kali."
+      "text": "Boleh! Dan semalam, Ish traktir sepuluh kali."
     },
     {
       "id": "n6",
@@ -96,11 +91,6 @@
       "id": "r1",
       "who": "revan",
       "text": "Kali ini pasti emas... SANDAL LAGI?!"
-    },
-    {
-      "id": "n8",
-      "who": "narrator",
-      "text": "Sandal Rayhan... sekarang lengkap sepasang."
     },
     {
       "id": "n9",
