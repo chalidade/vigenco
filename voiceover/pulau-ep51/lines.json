@@ -1,0 +1,111 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "zidan": "RWiGLY9uXI70QL540WNd",
+    "revan": "RWiGLY9uXI70QL540WNd",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "dayang": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "zidan": {
+      "stability": 0.35,
+      "style": 0.65
+    },
+    "revan": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "aru": {
+      "stability": 0.35,
+      "style": 0.65
+    },
+    "dayang": {
+      "stability": 0.35,
+      "style": 0.7
+    }
+  },
+  "lines": [
+    {
+      "id": "x1",
+      "who": "zidan",
+      "text": "Ada yang komentar: bikin masjid. Dan pagi ini... ini berdiri!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Di pulau ini, komentar kalian jadi kenyataan."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Hari ini dua komentar terpilih. Dari gonrong... dan dari dayang."
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Masjid besar ada di utara, jauh dari Jalan Warga. Jadi, usulan gonrong: Mushola Warga!"
+    },
+    {
+      "id": "z1",
+      "who": "zidan",
+      "text": "Sandalnya dilepas dulu ya, kak. Raknya baru!"
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Komentar kedua cuma tiga kata: kak, aku dayang."
+    },
+    {
+      "id": "d1",
+      "who": "dayang",
+      "text": "Halo! Aku Dayang... boleh tinggal di sini?"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Boleh! Dan pas banget, semalam Ish mentraktir sepuluh kali."
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Pesannya: semangat berkarya, dan bantu memudahkan pekerjaan orang lain."
+    },
+    {
+      "id": "a1",
+      "who": "aru",
+      "text": "Pesan sebaik itu harus jadi bangunan. Pos Gotong Royong!"
+    },
+    {
+      "id": "d2",
+      "who": "dayang",
+      "text": "Aku mau jadi relawan pertamanya!"
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Tugas pertama: bantu Revan dorong gerobak kedua."
+    },
+    {
+      "id": "r1",
+      "who": "revan",
+      "text": "Kali ini pasti emas... SANDAL LAGI?!"
+    },
+    {
+      "id": "n8",
+      "who": "narrator",
+      "text": "Sandal Rayhan... sekarang lengkap sepasang."
+    },
+    {
+      "id": "n9",
+      "who": "narrator",
+      "text": "Follow, namamu jadi warga. Komentar, ceritanya kamu yang atur."
+    }
+  ]
+}
