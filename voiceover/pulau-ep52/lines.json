@@ -45,7 +45,7 @@
     {
       "id": "n2",
       "who": "narrator",
-      "text": "Ini Rayhan, si nelayan apes. Tiap mancing, kailnya cuma dapat sandal."
+      "text": "Rayhan, nelayan paling apes. Kailnya cuma dapat sandal."
     },
     {
       "id": "ry1",
@@ -55,17 +55,12 @@
     {
       "id": "n3",
       "who": "narrator",
-      "text": "Kemarin, tambang pulau menemukan sepasang sandal jepit biru. Punya Rayhan!"
+      "text": "Kemarin, tambang menemukan sepasang sandal biru. Punya Rayhan!"
     },
     {
       "id": "dy1",
       "who": "dayang",
-      "text": "Tugas pertama Pos Gotong Royong: antar sandal ini ke pemiliknya!"
-    },
-    {
-      "id": "n4",
-      "who": "narrator",
-      "text": "Dayang lari dari tambang... ke pelabuhan."
+      "text": "Tugas pertama Pos Gotong Royong: antar sandal ini!"
     },
     {
       "id": "rn1",
@@ -85,7 +80,7 @@
     {
       "id": "fr1",
       "who": "feros",
-      "text": "Bang Rayhan! Ada yang bawa sandal!"
+      "text": "Bang Rayhan! Ada tamu!"
     },
     {
       "id": "ry2",
@@ -95,7 +90,7 @@
     {
       "id": "dy3",
       "who": "dayang",
-      "text": "Bukan, kak. Ini sandalmu yang hilang. Dua-duanya!"
+      "text": "Ini sandalmu yang hilang, kak. Dua-duanya!"
     },
     {
       "id": "ry3",
@@ -105,7 +100,7 @@
     {
       "id": "n5",
       "who": "narrator",
-      "text": "Rayhan memakai sandalnya. Lalu... kailnya bergetar."
+      "text": "Rayhan pakai sandalnya... lalu kailnya bergetar."
     },
     {
       "id": "ry4",
@@ -120,7 +115,7 @@
     {
       "id": "n6",
       "who": "narrator",
-      "text": "Ikan pertama Rayhan! Dan tugas pertama Pos Gotong Royong: selesai."
+      "text": "Ikan pertama Rayhan! Tugas pertama: selesai!"
     },
     {
       "id": "n7",
