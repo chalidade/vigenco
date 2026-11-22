@@ -10,59 +10,39 @@
  "lines": {
   "x1": {
    "who": "zidan",
-   "text": "Ada yang komentar: bikin masjid. Dan pagi ini... ini berdiri!",
-   "hash": "814490859bf6",
-   "duration": 5.155,
+   "text": "Komentar: bikin masjid. Pagi ini... berdiri!",
+   "hash": "f2f327c63bce",
+   "duration": 3.669,
    "words": [
     {
-     "text": "Ada",
+     "text": "Komentar:",
      "start": 0,
-     "end": 0.302
-    },
-    {
-     "text": "yang",
-     "start": 0.348,
-     "end": 0.464
-    },
-    {
-     "text": "komentar:",
-     "start": 0.499,
-     "end": 1.335
+     "end": 0.685
     },
     {
      "text": "bikin",
-     "start": 1.614,
-     "end": 1.916
+     "start": 0.72,
+     "end": 1.022
     },
     {
      "text": "masjid.",
-     "start": 1.974,
-     "end": 2.531
+     "start": 1.091,
+     "end": 1.567
     },
     {
-     "text": "Dan",
-     "start": 2.647,
-     "end": 2.844
-    },
-    {
-     "text": "pagi",
-     "start": 2.926,
-     "end": 3.251
+     "text": "Pagi",
+     "start": 1.602,
+     "end": 1.858
     },
     {
      "text": "ini...",
-     "start": 3.32,
-     "end": 3.924
-    },
-    {
-     "text": "ini",
-     "start": 4.203,
-     "end": 4.493
+     "start": 1.916,
+     "end": 2.403
     },
     {
      "text": "berdiri!",
-     "start": 4.551,
-     "end": 5.155
+     "start": 2.844,
+     "end": 3.669
     }
    ]
   },
@@ -111,137 +91,97 @@
   },
   "n2": {
    "who": "narrator",
-   "text": "Hari ini dua komentar terpilih. Dari gonrong... dan dari dayang.",
-   "hash": "b4e654fd6239",
-   "duration": 5.108,
+   "text": "Dua komentar terpilih hari ini!",
+   "hash": "7ca9011d8a21",
+   "duration": 2.136,
    "words": [
     {
-     "text": "Hari",
+     "text": "Dua",
      "start": 0,
-     "end": 0.267
-    },
-    {
-     "text": "ini",
-     "start": 0.313,
-     "end": 0.522
-    },
-    {
-     "text": "dua",
-     "start": 0.569,
-     "end": 0.755
+     "end": 0.197
     },
     {
      "text": "komentar",
-     "start": 0.801,
-     "end": 1.219
+     "start": 0.244,
+     "end": 0.615
     },
     {
-     "text": "terpilih.",
-     "start": 1.289,
-     "end": 1.962
+     "text": "terpilih",
+     "start": 0.673,
+     "end": 1.103
     },
     {
-     "text": "Dari",
-     "start": 2.345,
-     "end": 2.601
+     "text": "hari",
+     "start": 1.138,
+     "end": 1.358
     },
     {
-     "text": "gonrong...",
-     "start": 2.659,
-     "end": 3.309
-    },
-    {
-     "text": "dan",
-     "start": 3.75,
-     "end": 3.936
-    },
-    {
-     "text": "dari",
-     "start": 3.994,
-     "end": 4.249
-    },
-    {
-     "text": "dayang.",
-     "start": 4.307,
-     "end": 5.108
+     "text": "ini!",
+     "start": 1.405,
+     "end": 2.136
     }
    ]
   },
   "n3": {
    "who": "narrator",
-   "text": "Masjid besar ada di utara, jauh dari Jalan Warga. Jadi, usulan gonrong: Mushola Warga!",
-   "hash": "270fe547288b",
-   "duration": 6.594,
+   "text": "Masjid besar jauh di utara. Jadi, buat warga sini: Mushola Warga!",
+   "hash": "489c04263c3a",
+   "duration": 5.016,
    "words": [
     {
      "text": "Masjid",
      "start": 0,
-     "end": 0.313
+     "end": 0.325
     },
     {
      "text": "besar",
-     "start": 0.348,
+     "start": 0.36,
      "end": 0.627
     },
     {
-     "text": "ada",
-     "start": 0.685,
-     "end": 0.848
+     "text": "jauh",
+     "start": 0.697,
+     "end": 0.917
     },
     {
      "text": "di",
-     "start": 0.882,
-     "end": 0.952
+     "start": 0.94,
+     "end": 1.01
     },
     {
-     "text": "utara,",
-     "start": 0.998,
+     "text": "utara.",
+     "start": 1.045,
      "end": 1.556
     },
     {
-     "text": "jauh",
-     "start": 1.707,
-     "end": 1.962
-    },
-    {
-     "text": "dari",
-     "start": 1.997,
-     "end": 2.171
-    },
-    {
-     "text": "Jalan",
-     "start": 2.229,
+     "text": "Jadi,",
+     "start": 1.939,
      "end": 2.45
     },
     {
-     "text": "Warga.",
-     "start": 2.496,
-     "end": 3.077
+     "text": "buat",
+     "start": 2.531,
+     "end": 2.717
     },
     {
-     "text": "Jadi,",
-     "start": 3.46,
-     "end": 3.913
+     "text": "warga",
+     "start": 2.775,
+     "end": 3.007
     },
     {
-     "text": "usulan",
-     "start": 3.959,
-     "end": 4.307
-    },
-    {
-     "text": "gonrong:",
-     "start": 4.377,
-     "end": 4.957
+     "text": "sini:",
+     "start": 3.042,
+     "end": 3.587
     },
     {
      "text": "Mushola",
-     "start": 5.074,
-     "end": 5.515
+     "start": 3.738,
+     "end": 4.156
     },
     {
      "text": "Warga!",
-     "start": 5.584,
-     "end": 6.594
+     "start": 4.214,
+     "end": 5.016
     }
    ]
   },
@@ -285,54 +225,6 @@
      "text": "baru!",
      "start": 2.496,
      "end": 3.529
-    }
-   ]
-  },
-  "n4": {
-   "who": "narrator",
-   "text": "Komentar kedua cuma tiga kata: kak, aku dayang.",
-   "hash": "6f92a1eb429e",
-   "duration": 3.901,
-   "words": [
-    {
-     "text": "Komentar",
-     "start": 0,
-     "end": 0.453
-    },
-    {
-     "text": "kedua",
-     "start": 0.499,
-     "end": 0.824
-    },
-    {
-     "text": "cuma",
-     "start": 0.859,
-     "end": 1.045
-    },
-    {
-     "text": "tiga",
-     "start": 1.08,
-     "end": 1.277
-    },
-    {
-     "text": "kata:",
-     "start": 1.312,
-     "end": 1.869
-    },
-    {
-     "text": "kak,",
-     "start": 2.31,
-     "end": 2.612
-    },
-    {
-     "text": "aku",
-     "start": 2.728,
-     "end": 2.961
-    },
-    {
-     "text": "dayang.",
-     "start": 3.007,
-     "end": 3.901
     }
    ]
   },
@@ -381,54 +273,44 @@
   },
   "n5": {
    "who": "narrator",
-   "text": "Boleh! Dan pas banget, semalam Ish mentraktir sepuluh kali.",
-   "hash": "df6393863566",
-   "duration": 4.69,
+   "text": "Boleh! Dan semalam, Ish traktir sepuluh kali.",
+   "hash": "50f9dde2306f",
+   "duration": 4.087,
    "words": [
     {
      "text": "Boleh!",
      "start": 0,
-     "end": 0.639
+     "end": 0.499
     },
     {
      "text": "Dan",
-     "start": 1.335,
-     "end": 1.509
+     "start": 1.196,
+     "end": 1.37
     },
     {
-     "text": "pas",
-     "start": 1.579,
-     "end": 1.73
-    },
-    {
-     "text": "banget,",
-     "start": 1.8,
-     "end": 2.183
-    },
-    {
-     "text": "semalam",
-     "start": 2.276,
-     "end": 2.728
+     "text": "semalam,",
+     "start": 1.428,
+     "end": 2.043
     },
     {
      "text": "Ish",
-     "start": 2.81,
-     "end": 2.937
+     "start": 2.159,
+     "end": 2.368
     },
     {
-     "text": "mentraktir",
-     "start": 2.995,
-     "end": 3.437
+     "text": "traktir",
+     "start": 2.415,
+     "end": 2.798
     },
     {
      "text": "sepuluh",
-     "start": 3.495,
-     "end": 3.808
+     "start": 2.868,
+     "end": 3.216
     },
     {
      "text": "kali.",
-     "start": 3.831,
-     "end": 4.69
+     "start": 3.251,
+     "end": 4.087
     }
    ]
   },
@@ -649,39 +531,6 @@
      "text": "LAGI?!",
      "start": 2.554,
      "end": 3.251
-    }
-   ]
-  },
-  "n8": {
-   "who": "narrator",
-   "text": "Sandal Rayhan... sekarang lengkap sepasang.",
-   "hash": "9b6ea714ff14",
-   "duration": 3.297,
-   "words": [
-    {
-     "text": "Sandal",
-     "start": 0,
-     "end": 0.441
-    },
-    {
-     "text": "Rayhan...",
-     "start": 0.511,
-     "end": 1.173
-    },
-    {
-     "text": "sekarang",
-     "start": 1.347,
-     "end": 1.753
-    },
-    {
-     "text": "lengkap",
-     "start": 1.8,
-     "end": 2.067
-    },
-    {
-     "text": "sepasang.",
-     "start": 2.113,
-     "end": 3.297
     }
    ]
   },
