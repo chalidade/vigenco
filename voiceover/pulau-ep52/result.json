@@ -106,64 +106,49 @@
   },
   "n2": {
    "who": "narrator",
-   "text": "Ini Rayhan, si nelayan apes. Tiap mancing, kailnya cuma dapat sandal.",
-   "hash": "cff536a0c29c",
-   "duration": 5.387,
+   "text": "Rayhan, nelayan paling apes. Kailnya cuma dapat sandal.",
+   "hash": "25ab097e5576",
+   "duration": 3.947,
    "words": [
     {
-     "text": "Ini",
-     "start": 0,
-     "end": 0.244
-    },
-    {
      "text": "Rayhan,",
-     "start": 0.302,
-     "end": 0.882
-    },
-    {
-     "text": "si",
-     "start": 1.057,
-     "end": 1.184
+     "start": 0,
+     "end": 0.592
     },
     {
      "text": "nelayan",
-     "start": 1.242,
-     "end": 1.556
+     "start": 0.766,
+     "end": 1.161
+    },
+    {
+     "text": "paling",
+     "start": 1.219,
+     "end": 1.463
     },
     {
      "text": "apes.",
-     "start": 1.614,
-     "end": 2.183
+     "start": 1.521,
+     "end": 2.101
     },
     {
-     "text": "Tiap",
-     "start": 2.566,
-     "end": 2.798
-    },
-    {
-     "text": "mancing,",
-     "start": 2.856,
-     "end": 3.355
-    },
-    {
-     "text": "kailnya",
-     "start": 3.448,
-     "end": 3.843
+     "text": "Kailnya",
+     "start": 2.229,
+     "end": 2.67
     },
     {
      "text": "cuma",
-     "start": 3.878,
-     "end": 4.063
+     "start": 2.705,
+     "end": 2.902
     },
     {
      "text": "dapat",
-     "start": 4.098,
-     "end": 4.307
+     "start": 2.937,
+     "end": 3.158
     },
     {
      "text": "sandal.",
-     "start": 4.342,
-     "end": 5.387
+     "start": 3.193,
+     "end": 3.947
     }
    ]
   },
@@ -192,155 +177,97 @@
   },
   "n3": {
    "who": "narrator",
-   "text": "Kemarin, tambang pulau menemukan sepasang sandal jepit biru. Punya Rayhan!",
-   "hash": "aedeafc60084",
-   "duration": 4.969,
+   "text": "Kemarin, tambang menemukan sepasang sandal biru. Punya Rayhan!",
+   "hash": "7e643e6c44a6",
+   "duration": 4.365,
    "words": [
     {
      "text": "Kemarin,",
      "start": 0,
-     "end": 0.697
+     "end": 0.673
     },
     {
      "text": "tambang",
      "start": 0.789,
-     "end": 1.149
-    },
-    {
-     "text": "pulau",
-     "start": 1.196,
-     "end": 1.486
+     "end": 1.161
     },
     {
      "text": "menemukan",
-     "start": 1.533,
-     "end": 1.962
+     "start": 1.207,
+     "end": 1.649
     },
     {
      "text": "sepasang",
-     "start": 2.009,
-     "end": 2.392
+     "start": 1.695,
+     "end": 2.055
     },
     {
      "text": "sandal",
-     "start": 2.438,
-     "end": 2.705
-    },
-    {
-     "text": "jepit",
-     "start": 2.775,
-     "end": 3.007
+     "start": 2.101,
+     "end": 2.357
     },
     {
      "text": "biru.",
-     "start": 3.053,
-     "end": 3.483
+     "start": 2.426,
+     "end": 2.844
     },
     {
      "text": "Punya",
-     "start": 3.808,
-     "end": 4.075
+     "start": 3.17,
+     "end": 3.437
     },
     {
      "text": "Rayhan!",
-     "start": 4.122,
-     "end": 4.969
+     "start": 3.483,
+     "end": 4.365
     }
    ]
   },
   "dy1": {
    "who": "dayang",
-   "text": "Tugas pertama Pos Gotong Royong: antar sandal ini ke pemiliknya!",
-   "hash": "edce93a58ab6",
-   "duration": 4.551,
+   "text": "Tugas pertama Pos Gotong Royong: antar sandal ini!",
+   "hash": "353216ac6cb0",
+   "duration": 3.669,
    "words": [
     {
      "text": "Tugas",
      "start": 0,
-     "end": 0.36
+     "end": 0.325
     },
     {
      "text": "pertama",
-     "start": 0.406,
-     "end": 0.94
+     "start": 0.372,
+     "end": 0.929
     },
     {
      "text": "Pos",
-     "start": 1.033,
-     "end": 1.254
+     "start": 1.045,
+     "end": 1.231
     },
     {
      "text": "Gotong",
-     "start": 1.324,
-     "end": 1.591
+     "start": 1.3,
+     "end": 1.533
     },
     {
      "text": "Royong:",
-     "start": 1.637,
-     "end": 2.101
+     "start": 1.579,
+     "end": 2.009
     },
     {
      "text": "antar",
-     "start": 2.38,
-     "end": 2.694
+     "start": 2.334,
+     "end": 2.601
     },
     {
      "text": "sandal",
-     "start": 2.74,
-     "end": 3.019
+     "start": 2.647,
+     "end": 2.961
     },
     {
-     "text": "ini",
-     "start": 3.088,
-     "end": 3.309
-    },
-    {
-     "text": "ke",
-     "start": 3.355,
-     "end": 3.425
-    },
-    {
-     "text": "pemiliknya!",
-     "start": 3.46,
-     "end": 4.551
-    }
-   ]
-  },
-  "n4": {
-   "who": "narrator",
-   "text": "Dayang lari dari tambang... ke pelabuhan.",
-   "hash": "9453bfa0a61a",
-   "duration": 2.972,
-   "words": [
-    {
-     "text": "Dayang",
-     "start": 0,
-     "end": 0.36
-    },
-    {
-     "text": "lari",
-     "start": 0.406,
-     "end": 0.592
-    },
-    {
-     "text": "dari",
-     "start": 0.639,
-     "end": 0.801
-    },
-    {
-     "text": "tambang...",
-     "start": 0.848,
-     "end": 1.428
-    },
-    {
-     "text": "ke",
-     "start": 1.544,
-     "end": 1.66
-    },
-    {
-     "text": "pelabuhan.",
-     "start": 1.707,
-     "end": 2.972
+     "text": "ini!",
+     "start": 3.03,
+     "end": 3.669
     }
    ]
   },
@@ -445,39 +372,29 @@
   },
   "fr1": {
    "who": "feros",
-   "text": "Bang Rayhan! Ada yang bawa sandal!",
-   "hash": "5df18bbb1df5",
-   "duration": 3.622,
+   "text": "Bang Rayhan! Ada tamu!",
+   "hash": "8e8fa9e51c78",
+   "duration": 1.765,
    "words": [
     {
      "text": "Bang",
      "start": 0,
-     "end": 0.395
+     "end": 0.255
     },
     {
      "text": "Rayhan!",
-     "start": 0.511,
-     "end": 1.544
+     "start": 0.325,
+     "end": 0.906
     },
     {
      "text": "Ada",
-     "start": 1.869,
-     "end": 2.09
+     "start": 0.94,
+     "end": 1.173
     },
     {
-     "text": "yang",
-     "start": 2.125,
-     "end": 2.241
-    },
-    {
-     "text": "bawa",
-     "start": 2.276,
-     "end": 2.403
-    },
-    {
-     "text": "sandal!",
-     "start": 2.438,
-     "end": 3.622
+     "text": "tamu!",
+     "start": 1.231,
+     "end": 1.765
     }
    ]
   },
@@ -516,44 +433,39 @@
   },
   "dy3": {
    "who": "dayang",
-   "text": "Bukan, kak. Ini sandalmu yang hilang. Dua-duanya!",
-   "hash": "094f4012537b",
-   "duration": 4.226,
+   "text": "Ini sandalmu yang hilang, kak. Dua-duanya!",
+   "hash": "038dbf4f7574",
+   "duration": 3.344,
    "words": [
     {
-     "text": "Bukan,",
-     "start": 0,
-     "end": 0.464
-    },
-    {
-     "text": "kak.",
-     "start": 0.488,
-     "end": 0.836
-    },
-    {
      "text": "Ini",
-     "start": 1.277,
-     "end": 1.486
+     "start": 0,
+     "end": 0.255
     },
     {
      "text": "sandalmu",
-     "start": 1.533,
-     "end": 1.927
+     "start": 0.302,
+     "end": 0.708
     },
     {
      "text": "yang",
-     "start": 1.962,
-     "end": 2.055
+     "start": 0.755,
+     "end": 0.882
     },
     {
-     "text": "hilang.",
-     "start": 2.09,
-     "end": 2.635
+     "text": "hilang,",
+     "start": 0.929,
+     "end": 1.289
+    },
+    {
+     "text": "kak.",
+     "start": 1.312,
+     "end": 1.741
     },
     {
      "text": "Dua-duanya!",
-     "start": 3.077,
-     "end": 4.226
+     "start": 2.183,
+     "end": 3.344
     }
    ]
   },
@@ -577,39 +489,39 @@
   },
   "n5": {
    "who": "narrator",
-   "text": "Rayhan memakai sandalnya. Lalu... kailnya bergetar.",
-   "hash": "12783a02c60c",
-   "duration": 3.901,
+   "text": "Rayhan pakai sandalnya... lalu kailnya bergetar.",
+   "hash": "43a030434c2f",
+   "duration": 2.972,
    "words": [
     {
      "text": "Rayhan",
      "start": 0,
-     "end": 0.337
+     "end": 0.348
     },
     {
-     "text": "memakai",
-     "start": 0.383,
-     "end": 0.708
+     "text": "pakai",
+     "start": 0.418,
+     "end": 0.627
     },
     {
-     "text": "sandalnya.",
-     "start": 0.743,
-     "end": 1.37
+     "text": "sandalnya...",
+     "start": 0.65,
+     "end": 1.335
     },
     {
-     "text": "Lalu...",
-     "start": 1.579,
-     "end": 2.125
+     "text": "lalu",
+     "start": 1.486,
+     "end": 1.741
     },
     {
      "text": "kailnya",
-     "start": 2.334,
-     "end": 2.752
+     "start": 1.788,
+     "end": 2.136
     },
     {
      "text": "bergetar.",
-     "start": 2.798,
-     "end": 3.901
+     "start": 2.183,
+     "end": 2.972
     }
    ]
   },
@@ -671,59 +583,39 @@
   },
   "n6": {
    "who": "narrator",
-   "text": "Ikan pertama Rayhan! Dan tugas pertama Pos Gotong Royong: selesai.",
-   "hash": "137e84f67eb5",
-   "duration": 5.294,
+   "text": "Ikan pertama Rayhan! Tugas pertama: selesai!",
+   "hash": "285cc644a891",
+   "duration": 3.529,
    "words": [
     {
      "text": "Ikan",
      "start": 0,
-     "end": 0.302
+     "end": 0.255
     },
     {
      "text": "pertama",
-     "start": 0.348,
-     "end": 0.673
+     "start": 0.302,
+     "end": 0.604
     },
     {
      "text": "Rayhan!",
-     "start": 0.72,
-     "end": 1.265
+     "start": 0.65,
+     "end": 1.184
     },
     {
-     "text": "Dan",
-     "start": 1.776,
-     "end": 1.95
+     "text": "Tugas",
+     "start": 1.463,
+     "end": 1.765
     },
     {
-     "text": "tugas",
-     "start": 2.009,
-     "end": 2.252
+     "text": "pertama:",
+     "start": 1.811,
+     "end": 2.345
     },
     {
-     "text": "pertama",
-     "start": 2.31,
-     "end": 2.67
-    },
-    {
-     "text": "Pos",
-     "start": 2.717,
-     "end": 2.856
-    },
-    {
-     "text": "Gotong",
-     "start": 2.914,
-     "end": 3.158
-    },
-    {
-     "text": "Royong:",
-     "start": 3.193,
-     "end": 3.657
-    },
-    {
-     "text": "selesai.",
-     "start": 4.098,
-     "end": 5.294
+     "text": "selesai!",
+     "start": 2.473,
+     "end": 3.529
     }
    ]
   },
