@@ -1,0 +1,131 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "rayhan": "plgKUYgnlZ1DCNh54DwJ",
+    "ranu": "RWiGLY9uXI70QL540WNd",
+    "feros": "RWiGLY9uXI70QL540WNd",
+    "dayang": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "rayhan": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "ranu": {
+      "stability": 0.4,
+      "style": 0.6
+    },
+    "feros": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "dayang": {
+      "stability": 0.35,
+      "style": 0.7
+    }
+  },
+  "lines": [
+    {
+      "id": "x1",
+      "who": "rayhan",
+      "text": "Dari dulu mancing, dapatnya sandal... hari ini... IKAN?!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Ini Pulau Netizen. Komentar kalian yang mengatur ceritanya."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Ini Rayhan, si nelayan apes. Tiap mancing, kailnya cuma dapat sandal."
+    },
+    {
+      "id": "ry1",
+      "who": "rayhan",
+      "text": "Lumayan... sandal lagi."
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Kemarin, tambang pulau menemukan sepasang sandal jepit biru. Punya Rayhan!"
+    },
+    {
+      "id": "dy1",
+      "who": "dayang",
+      "text": "Tugas pertama Pos Gotong Royong: antar sandal ini ke pemiliknya!"
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Dayang lari dari tambang... ke pelabuhan."
+    },
+    {
+      "id": "rn1",
+      "who": "ranu",
+      "text": "Berhenti! Itu barang bukti kasus sandal!"
+    },
+    {
+      "id": "dy2",
+      "who": "dayang",
+      "text": "Mau dipulangkan, Pak Polisi!"
+    },
+    {
+      "id": "rn2",
+      "who": "ranu",
+      "text": "Tenang. Polisi pantai... ikut mengawal!"
+    },
+    {
+      "id": "fr1",
+      "who": "feros",
+      "text": "Bang Rayhan! Ada yang bawa sandal!"
+    },
+    {
+      "id": "ry2",
+      "who": "rayhan",
+      "text": "Hah? Kailku nyangkut ke darat?"
+    },
+    {
+      "id": "dy3",
+      "who": "dayang",
+      "text": "Bukan, kak. Ini sandalmu yang hilang. Dua-duanya!"
+    },
+    {
+      "id": "ry3",
+      "who": "rayhan",
+      "text": "Sandalku... pulang!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Rayhan memakai sandalnya. Lalu... kailnya bergetar."
+    },
+    {
+      "id": "ry4",
+      "who": "rayhan",
+      "text": "Berat... ini bukan sandal... IKAN!"
+    },
+    {
+      "id": "fr2",
+      "who": "feros",
+      "text": "Bang! Ikan beneran!"
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Ikan pertama Rayhan! Dan tugas pertama Pos Gotong Royong: selesai."
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Pos Gotong Royong harus bantu siapa lagi? Tulis di komentar!"
+    }
+  ]
+}
