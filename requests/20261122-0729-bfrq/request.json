@@ -1,0 +1,17 @@
+{
+  "id": "20261122-0729-bfrq",
+  "type": "launch",
+  "prompt": "Kamu buatkan video tentang saling jaga yang berubah menjadi covatom dong. Dari logo yang berubah. sampai tampilan yang update menjadi lebih fresh dan baru.",
+  "format": "portrait",
+  "links": [
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [
+    "requests/20261122-0729-bfrq/files/01-sebelum-sesudah-1.png",
+    "requests/20261122-0729-bfrq/files/02-sebelum-sesudah-2.png",
+    "requests/20261122-0729-bfrq/files/03-gemini-generated-image-w07wg6w07wg6w07w-.png",
+    "requests/20261122-0729-bfrq/files/04-covatom-alt-preview.png"
+  ],
+  "created": "2026-11-22T00:29:03.515Z",
+  "mode": "full"
+}
