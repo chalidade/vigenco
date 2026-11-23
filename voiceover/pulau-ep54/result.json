@@ -1,0 +1,807 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "safar": "plgKUYgnlZ1DCNh54DwJ",
+  "narrator": "gmnazjXOFoOcWA59sd5m",
+  "riski": "RWiGLY9uXI70QL540WNd",
+  "lala": "iWydkXKoiVtvdn4vLKp9",
+  "vanz": "RWiGLY9uXI70QL540WNd"
+ },
+ "lines": {
+  "x1": {
+   "who": "safar",
+   "text": "Enam episode nunggu... hari ini... LONCAAAT!",
+   "hash": "1c3e0ea9a0b0",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Enam",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "episode",
+     "start": 0.313,
+     "end": 0.662
+    },
+    {
+     "text": "nunggu...",
+     "start": 0.697,
+     "end": 1.207
+    },
+    {
+     "text": "hari",
+     "start": 1.3,
+     "end": 1.509
+    },
+    {
+     "text": "ini...",
+     "start": 1.533,
+     "end": 1.904
+    },
+    {
+     "text": "LONCAAAT!",
+     "start": 2.078,
+     "end": 2.972
+    }
+   ]
+  },
+  "n1": {
+   "who": "narrator",
+   "text": "Ini Pulau Netizen. Komentar kalian yang mengatur ceritanya.",
+   "hash": "c1d27c41a1e6",
+   "duration": 3.669,
+   "words": [
+    {
+     "text": "Ini",
+     "start": 0,
+     "end": 0.244
+    },
+    {
+     "text": "Pulau",
+     "start": 0.29,
+     "end": 0.488
+    },
+    {
+     "text": "Netizen.",
+     "start": 0.534,
+     "end": 1.149
+    },
+    {
+     "text": "Komentar",
+     "start": 1.324,
+     "end": 1.718
+    },
+    {
+     "text": "kalian",
+     "start": 1.776,
+     "end": 2.136
+    },
+    {
+     "text": "yang",
+     "start": 2.194,
+     "end": 2.299
+    },
+    {
+     "text": "mengatur",
+     "start": 2.334,
+     "end": 2.682
+    },
+    {
+     "text": "ceritanya.",
+     "start": 2.728,
+     "end": 3.669
+    }
+   ]
+  },
+  "n2": {
+   "who": "narrator",
+   "text": "Safar minta kolam renang. Dapat! Tapi sejak itu... dia cuma berdiri di papan loncat.",
+   "hash": "e01d05483eba",
+   "duration": 5.898,
+   "words": [
+    {
+     "text": "Safar",
+     "start": 0,
+     "end": 0.43
+    },
+    {
+     "text": "minta",
+     "start": 0.488,
+     "end": 0.743
+    },
+    {
+     "text": "kolam",
+     "start": 0.801,
+     "end": 1.045
+    },
+    {
+     "text": "renang.",
+     "start": 1.103,
+     "end": 1.579
+    },
+    {
+     "text": "Dapat!",
+     "start": 1.753,
+     "end": 2.438
+    },
+    {
+     "text": "Tapi",
+     "start": 2.763,
+     "end": 3.053
+    },
+    {
+     "text": "sejak",
+     "start": 3.088,
+     "end": 3.355
+    },
+    {
+     "text": "itu...",
+     "start": 3.425,
+     "end": 3.936
+    },
+    {
+     "text": "dia",
+     "start": 4.052,
+     "end": 4.226
+    },
+    {
+     "text": "cuma",
+     "start": 4.261,
+     "end": 4.458
+    },
+    {
+     "text": "berdiri",
+     "start": 4.505,
+     "end": 4.83
+    },
+    {
+     "text": "di",
+     "start": 4.865,
+     "end": 4.923
+    },
+    {
+     "text": "papan",
+     "start": 4.957,
+     "end": 5.19
+    },
+    {
+     "text": "loncat.",
+     "start": 5.236,
+     "end": 5.898
+    }
+   ]
+  },
+  "sf1": {
+   "who": "safar",
+   "text": "Siap... loncat! ...Bentar, airnya dingin nggak?",
+   "hash": "73bbfb563ad3",
+   "duration": 2.833,
+   "words": [
+    {
+     "text": "Siap...",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "loncat!",
+     "start": 0.511,
+     "end": 1.184
+    },
+    {
+     "text": "...Bentar,",
+     "start": 1.231,
+     "end": 1.962
+    },
+    {
+     "text": "airnya",
+     "start": 1.985,
+     "end": 2.241
+    },
+    {
+     "text": "dingin",
+     "start": 2.276,
+     "end": 2.519
+    },
+    {
+     "text": "nggak?",
+     "start": 2.554,
+     "end": 2.833
+    }
+   ]
+  },
+  "rs1": {
+   "who": "riski",
+   "text": "Kolamnya dalam. Tapi galauku... lebih dalam.",
+   "hash": "d3be49b60e21",
+   "duration": 3.437,
+   "words": [
+    {
+     "text": "Kolamnya",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "dalam.",
+     "start": 0.534,
+     "end": 0.882
+    },
+    {
+     "text": "Tapi",
+     "start": 0.906,
+     "end": 1.173
+    },
+    {
+     "text": "galauku...",
+     "start": 1.242,
+     "end": 2.159
+    },
+    {
+     "text": "lebih",
+     "start": 2.67,
+     "end": 2.972
+    },
+    {
+     "text": "dalam.",
+     "start": 3.019,
+     "end": 3.437
+    }
+   ]
+  },
+  "ll1": {
+   "who": "lala",
+   "text": "Semangaaat, Safar! Aku hitung ya. Satu... dua...",
+   "hash": "a4fe0d6fae1e",
+   "duration": 4.18,
+   "words": [
+    {
+     "text": "Semangaaat,",
+     "start": 0,
+     "end": 0.58
+    },
+    {
+     "text": "Safar!",
+     "start": 0.604,
+     "end": 1.207
+    },
+    {
+     "text": "Aku",
+     "start": 1.416,
+     "end": 1.649
+    },
+    {
+     "text": "hitung",
+     "start": 1.707,
+     "end": 2.055
+    },
+    {
+     "text": "ya.",
+     "start": 2.136,
+     "end": 2.403
+    },
+    {
+     "text": "Satu...",
+     "start": 2.577,
+     "end": 3.286
+    },
+    {
+     "text": "dua...",
+     "start": 3.402,
+     "end": 4.18
+    }
+   ]
+  },
+  "sf2": {
+   "who": "safar",
+   "text": "Tunggu! Belum pemanasan!",
+   "hash": "d332af05139a",
+   "duration": 1.3,
+   "words": [
+    {
+     "text": "Tunggu!",
+     "start": 0,
+     "end": 0.406
+    },
+    {
+     "text": "Belum",
+     "start": 0.464,
+     "end": 0.627
+    },
+    {
+     "text": "pemanasan!",
+     "start": 0.65,
+     "end": 1.3
+    }
+   ]
+  },
+  "n3": {
+   "who": "narrator",
+   "text": "Pos Gotong Royong sampai bikin tugas baru: bantu Safar loncat.",
+   "hash": "65814765538a",
+   "duration": 4.272,
+   "words": [
+    {
+     "text": "Pos",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "Gotong",
+     "start": 0.279,
+     "end": 0.546
+    },
+    {
+     "text": "Royong",
+     "start": 0.58,
+     "end": 0.975
+    },
+    {
+     "text": "sampai",
+     "start": 1.091,
+     "end": 1.416
+    },
+    {
+     "text": "bikin",
+     "start": 1.451,
+     "end": 1.649
+    },
+    {
+     "text": "tugas",
+     "start": 1.695,
+     "end": 1.927
+    },
+    {
+     "text": "baru:",
+     "start": 1.997,
+     "end": 2.426
+    },
+    {
+     "text": "bantu",
+     "start": 2.868,
+     "end": 3.135
+    },
+    {
+     "text": "Safar",
+     "start": 3.181,
+     "end": 3.483
+    },
+    {
+     "text": "loncat.",
+     "start": 3.541,
+     "end": 4.272
+    }
+   ]
+  },
+  "vz1": {
+   "who": "vanz",
+   "text": "Hmph. Loncat itu gampang. Lihat gaya aku.",
+   "hash": "f3a26e784545",
+   "duration": 2.74,
+   "words": [
+    {
+     "text": "Hmph.",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "Loncat",
+     "start": 0.639,
+     "end": 0.987
+    },
+    {
+     "text": "itu",
+     "start": 1.033,
+     "end": 1.161
+    },
+    {
+     "text": "gampang.",
+     "start": 1.207,
+     "end": 1.672
+    },
+    {
+     "text": "Lihat",
+     "start": 1.741,
+     "end": 1.962
+    },
+    {
+     "text": "gaya",
+     "start": 2.02,
+     "end": 2.206
+    },
+    {
+     "text": "aku.",
+     "start": 2.241,
+     "end": 2.74
+    }
+   ]
+  },
+  "sf3": {
+   "who": "safar",
+   "text": "...Itu kesandung, kan?",
+   "hash": "be7b3e9b9e38",
+   "duration": 1.3,
+   "words": [
+    {
+     "text": "...Itu",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "kesandung,",
+     "start": 0.488,
+     "end": 0.929
+    },
+    {
+     "text": "kan?",
+     "start": 0.964,
+     "end": 1.3
+    }
+   ]
+  },
+  "vz2": {
+   "who": "vanz",
+   "text": "Itu... gaya.",
+   "hash": "b8763f4065e4",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Itu...",
+     "start": 0,
+     "end": 0.697
+    },
+    {
+     "text": "gaya.",
+     "start": 0.848,
+     "end": 1.718
+    }
+   ]
+  },
+  "sf4": {
+   "who": "safar",
+   "text": "Oke. Demi paket lengkap... bismillah...",
+   "hash": "9debf2cf82bb",
+   "duration": 3.204,
+   "words": [
+    {
+     "text": "Oke.",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "text": "Demi",
+     "start": 0.673,
+     "end": 0.952
+    },
+    {
+     "text": "paket",
+     "start": 1.022,
+     "end": 1.289
+    },
+    {
+     "text": "lengkap...",
+     "start": 1.347,
+     "end": 1.788
+    },
+    {
+     "text": "bismillah...",
+     "start": 2.067,
+     "end": 3.204
+    }
+   ]
+  },
+  "n4": {
+   "who": "narrator",
+   "text": "Dan untuk pertama kalinya...",
+   "hash": "22deb287b5ee",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Dan",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "untuk",
+     "start": 0.279,
+     "end": 0.499
+    },
+    {
+     "text": "pertama",
+     "start": 0.546,
+     "end": 0.859
+    },
+    {
+     "text": "kalinya...",
+     "start": 0.894,
+     "end": 1.718
+    }
+   ]
+  },
+  "sf5": {
+   "who": "safar",
+   "text": "LONCAAAAT!",
+   "hash": "81168b2a2b34",
+   "duration": 1.347,
+   "words": [
+    {
+     "text": "LONCAAAAT!",
+     "start": 0,
+     "end": 1.347
+    }
+   ]
+  },
+  "n5": {
+   "who": "narrator",
+   "text": "...perut duluan.",
+   "hash": "f6528b3c186f",
+   "duration": 1.3,
+   "words": [
+    {
+     "text": "...perut",
+     "start": 0,
+     "end": 0.534
+    },
+    {
+     "text": "duluan.",
+     "start": 0.592,
+     "end": 1.3
+    }
+   ]
+  },
+  "rs2": {
+   "who": "riski",
+   "text": "Aku kecipratan... tapi kok aku ketawa?",
+   "hash": "6338497ec71d",
+   "duration": 2.972,
+   "words": [
+    {
+     "text": "Aku",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "kecipratan...",
+     "start": 0.36,
+     "end": 1.173
+    },
+    {
+     "text": "tapi",
+     "start": 1.265,
+     "end": 1.556
+    },
+    {
+     "text": "kok",
+     "start": 1.602,
+     "end": 1.776
+    },
+    {
+     "text": "aku",
+     "start": 1.858,
+     "end": 2.055
+    },
+    {
+     "text": "ketawa?",
+     "start": 2.101,
+     "end": 2.972
+    }
+   ]
+  },
+  "ll2": {
+   "who": "lala",
+   "text": "Riski senyum! Riski senyum!",
+   "hash": "516886de2cf6",
+   "duration": 2.136,
+   "words": [
+    {
+     "text": "Riski",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "senyum!",
+     "start": 0.395,
+     "end": 0.836
+    },
+    {
+     "text": "Riski",
+     "start": 1.161,
+     "end": 1.428
+    },
+    {
+     "text": "senyum!",
+     "start": 1.474,
+     "end": 2.136
+    }
+   ]
+  },
+  "sf6": {
+   "who": "safar",
+   "text": "Airnya... DINGIN BANGET!",
+   "hash": "405ac4ac043b",
+   "duration": 1.718,
+   "words": [
+    {
+     "text": "Airnya...",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "text": "DINGIN",
+     "start": 0.72,
+     "end": 0.987
+    },
+    {
+     "text": "BANGET!",
+     "start": 1.033,
+     "end": 1.718
+    }
+   ]
+  },
+  "n6": {
+   "who": "narrator",
+   "text": "Papan skor resmi berdiri. Juri kasih sepuluh. Perutnya kasih merah.",
+   "hash": "68d367b74b3f",
+   "duration": 4.226,
+   "words": [
+    {
+     "text": "Papan",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "skor",
+     "start": 0.348,
+     "end": 0.546
+    },
+    {
+     "text": "resmi",
+     "start": 0.569,
+     "end": 0.801
+    },
+    {
+     "text": "berdiri.",
+     "start": 0.848,
+     "end": 1.44
+    },
+    {
+     "text": "Juri",
+     "start": 1.823,
+     "end": 2.032
+    },
+    {
+     "text": "kasih",
+     "start": 2.067,
+     "end": 2.276
+    },
+    {
+     "text": "sepuluh.",
+     "start": 2.299,
+     "end": 2.844
+    },
+    {
+     "text": "Perutnya",
+     "start": 3.019,
+     "end": 3.367
+    },
+    {
+     "text": "kasih",
+     "start": 3.413,
+     "end": 3.646
+    },
+    {
+     "text": "merah.",
+     "start": 3.669,
+     "end": 4.226
+    }
+   ]
+  },
+  "n7": {
+   "who": "narrator",
+   "text": "Sekarang Safar loncat terus di pulau aru titik web titik i d. Siapa yang harus loncat berikutnya? Tulis di komentar!",
+   "hash": "70b0c19800ce",
+   "duration": 7.198,
+   "words": [
+    {
+     "text": "Sekarang",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "Safar",
+     "start": 0.499,
+     "end": 0.789
+    },
+    {
+     "text": "loncat",
+     "start": 0.848,
+     "end": 1.149
+    },
+    {
+     "text": "terus",
+     "start": 1.173,
+     "end": 1.405
+    },
+    {
+     "text": "di",
+     "start": 1.463,
+     "end": 1.521
+    },
+    {
+     "text": "pulau",
+     "start": 1.567,
+     "end": 1.8
+    },
+    {
+     "text": "aru",
+     "start": 1.858,
+     "end": 2.078
+    },
+    {
+     "text": "titik",
+     "start": 2.125,
+     "end": 2.38
+    },
+    {
+     "text": "web",
+     "start": 2.438,
+     "end": 2.566
+    },
+    {
+     "text": "titik",
+     "start": 2.635,
+     "end": 2.891
+    },
+    {
+     "text": "i",
+     "start": 2.972,
+     "end": 3.03
+    },
+    {
+     "text": "d.",
+     "start": 3.088,
+     "end": 3.413
+    },
+    {
+     "text": "Siapa",
+     "start": 3.738,
+     "end": 4.11
+    },
+    {
+     "text": "yang",
+     "start": 4.156,
+     "end": 4.272
+    },
+    {
+     "text": "harus",
+     "start": 4.319,
+     "end": 4.493
+    },
+    {
+     "text": "loncat",
+     "start": 4.551,
+     "end": 4.841
+    },
+    {
+     "text": "berikutnya?",
+     "start": 4.888,
+     "end": 5.573
+    },
+    {
+     "text": "Tulis",
+     "start": 5.782,
+     "end": 6.13
+    },
+    {
+     "text": "di",
+     "start": 6.188,
+     "end": 6.246
+    },
+    {
+     "text": "komentar!",
+     "start": 6.293,
+     "end": 7.198
+    }
+   ]
+  }
+ }
+}
