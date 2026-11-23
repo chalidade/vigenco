@@ -1,0 +1,101 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "aru": "plgKUYgnlZ1DCNh54DwJ",
+    "alif": "RWiGLY9uXI70QL540WNd",
+    "nova": "I7sakys8pBZ1Z5f0UhT9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "aru": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "alif": {
+      "stability": 0.35,
+      "style": 0.7
+    },
+    "nova": {
+      "stability": 0.4,
+      "style": 0.6
+    }
+  },
+  "lines": [
+    {
+      "id": "x1",
+      "who": "aru",
+      "text": "Dua traktiran masuk pagi ini... dan malam ini, pulau punya API UNGGUN!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Ini Pulau Netizen. Follow, kamu jadi warga. Komentar dan traktiranmu, jadi bangunan sungguhan."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Anon Indo traktir sebelas kali. Pesannya singkat: semangat... pakai emoji api."
+    },
+    {
+      "id": "a1",
+      "who": "aru",
+      "text": "Emoji api? Oke. Kita bikin api unggun beneran!"
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Pos Gotong Royong langsung turun tangan. Kayu dari hutan, batu dari tambang."
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Lalu datang traktiran dari umi Zahama Alkena: semoga jadi jariyah."
+    },
+    {
+      "id": "a2",
+      "who": "aru",
+      "text": "Jariyah yang paling awet itu air. Sumur Jariyah, gratis buat semua!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "Ember naik, air mengalir. Siapa pun yang haus, tinggal minum."
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Malamnya, api pertama dinyalakan. Warga mulai berdatangan."
+    },
+    {
+      "id": "al1",
+      "who": "alif",
+      "text": "NOVA, buka tudungnya. Ini api unggun, bukan panggung!"
+    },
+    {
+      "id": "nv1",
+      "who": "nova",
+      "text": "Justru itu. Aku orang biasa. Orang biasa nggak kelihatan."
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Senar muliya mulai main gitar. Semua sudah tahu ending-nya..."
+    },
+    {
+      "id": "a3",
+      "who": "aru",
+      "text": "Terima kasih Anon Indo, terima kasih umi. Semangatnya kami jaga, tetap menyala."
+    },
+    {
+      "id": "n8",
+      "who": "narrator",
+      "text": "Api unggun sudah jadi. Malam besok, warga mau ngapain di sini? Tulis di komentar!"
+    }
+  ]
+}
