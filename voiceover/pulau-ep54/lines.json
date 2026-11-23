@@ -1,0 +1,136 @@
+{
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "useLibrary": false,
+  "voices": {
+    "narrator": "gmnazjXOFoOcWA59sd5m",
+    "safar": "plgKUYgnlZ1DCNh54DwJ",
+    "riski": "RWiGLY9uXI70QL540WNd",
+    "vanz": "RWiGLY9uXI70QL540WNd",
+    "lala": "iWydkXKoiVtvdn4vLKp9"
+  },
+  "settings": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25
+    },
+    "safar": {
+      "stability": 0.3,
+      "style": 0.75
+    },
+    "riski": {
+      "stability": 0.4,
+      "style": 0.6
+    },
+    "vanz": {
+      "stability": 0.45,
+      "style": 0.5
+    },
+    "lala": {
+      "stability": 0.3,
+      "style": 0.75
+    }
+  },
+  "lines": [
+    {
+      "id": "x1",
+      "who": "safar",
+      "text": "Enam episode nunggu... hari ini... LONCAAAT!"
+    },
+    {
+      "id": "n1",
+      "who": "narrator",
+      "text": "Ini Pulau Netizen. Komentar kalian yang mengatur ceritanya."
+    },
+    {
+      "id": "n2",
+      "who": "narrator",
+      "text": "Safar minta kolam renang. Dapat! Tapi sejak itu... dia cuma berdiri di papan loncat."
+    },
+    {
+      "id": "sf1",
+      "who": "safar",
+      "text": "Siap... loncat! ...Bentar, airnya dingin nggak?"
+    },
+    {
+      "id": "rs1",
+      "who": "riski",
+      "text": "Kolamnya dalam. Tapi galauku... lebih dalam."
+    },
+    {
+      "id": "ll1",
+      "who": "lala",
+      "text": "Semangaaat, Safar! Aku hitung ya. Satu... dua..."
+    },
+    {
+      "id": "sf2",
+      "who": "safar",
+      "text": "Tunggu! Belum pemanasan!"
+    },
+    {
+      "id": "n3",
+      "who": "narrator",
+      "text": "Pos Gotong Royong sampai bikin tugas baru: bantu Safar loncat."
+    },
+    {
+      "id": "vz1",
+      "who": "vanz",
+      "text": "Hmph. Loncat itu gampang. Lihat gaya aku."
+    },
+    {
+      "id": "sf3",
+      "who": "safar",
+      "text": "...Itu kesandung, kan?"
+    },
+    {
+      "id": "vz2",
+      "who": "vanz",
+      "text": "Itu... gaya."
+    },
+    {
+      "id": "sf4",
+      "who": "safar",
+      "text": "Oke. Demi paket lengkap... bismillah..."
+    },
+    {
+      "id": "n4",
+      "who": "narrator",
+      "text": "Dan untuk pertama kalinya..."
+    },
+    {
+      "id": "sf5",
+      "who": "safar",
+      "text": "LONCAAAAT!"
+    },
+    {
+      "id": "n5",
+      "who": "narrator",
+      "text": "...perut duluan."
+    },
+    {
+      "id": "rs2",
+      "who": "riski",
+      "text": "Aku kecipratan... tapi kok aku ketawa?"
+    },
+    {
+      "id": "ll2",
+      "who": "lala",
+      "text": "Riski senyum! Riski senyum!"
+    },
+    {
+      "id": "sf6",
+      "who": "safar",
+      "text": "Airnya... DINGIN BANGET!"
+    },
+    {
+      "id": "n6",
+      "who": "narrator",
+      "text": "Papan skor resmi berdiri. Juri kasih sepuluh. Perutnya kasih merah."
+    },
+    {
+      "id": "n7",
+      "who": "narrator",
+      "text": "Sekarang Safar loncat terus di pulau aru titik web titik i d. Siapa yang harus loncat berikutnya? Tulis di komentar!"
+    }
+  ]
+}
