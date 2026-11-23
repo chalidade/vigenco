@@ -45,7 +45,7 @@
     {
       "id": "n2",
       "who": "narrator",
-      "text": "Safar minta kolam renang. Dapat! Tapi sejak itu... dia cuma berdiri di papan loncat."
+      "text": "Safar minta kolam renang. Sejak itu... dia cuma berdiri di papan loncat."
     },
     {
       "id": "sf1",
@@ -60,7 +60,7 @@
     {
       "id": "ll1",
       "who": "lala",
-      "text": "Semangaaat, Safar! Aku hitung ya. Satu... dua..."
+      "text": "Semangat, Safar! Satu... dua..."
     },
     {
       "id": "sf2",
@@ -70,7 +70,7 @@
     {
       "id": "n3",
       "who": "narrator",
-      "text": "Pos Gotong Royong sampai bikin tugas baru: bantu Safar loncat."
+      "text": "Pos Gotong Royong bikin tugas baru: bantu Safar loncat."
     },
     {
       "id": "vz1",
@@ -91,11 +91,6 @@
       "id": "sf4",
       "who": "safar",
       "text": "Oke. Demi paket lengkap... bismillah..."
-    },
-    {
-      "id": "n4",
-      "who": "narrator",
-      "text": "Dan untuk pertama kalinya..."
     },
     {
       "id": "sf5",
@@ -125,12 +120,12 @@
     {
       "id": "n6",
       "who": "narrator",
-      "text": "Papan skor resmi berdiri. Juri kasih sepuluh. Perutnya kasih merah."
+      "text": "Juri kasih sepuluh. Perutnya kasih merah."
     },
     {
       "id": "n7",
       "who": "narrator",
-      "text": "Sekarang Safar loncat terus di pulau aru titik web titik i d. Siapa yang harus loncat berikutnya? Tulis di komentar!"
+      "text": "Siapa yang harus loncat berikutnya? Tulis di komentar!"
     }
   ]
 }
