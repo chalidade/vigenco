@@ -1,0 +1,682 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "audio": "20261128-0649-3d6t/scene-01.mp3",
+   "key": "c8ae7cf2f31a3de110e7fd9526f56388e64eb978",
+   "lead": 0.4,
+   "frames": 174,
+   "words": [
+    {
+     "text": "Bayangkan",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "bumi",
+     "start": 0.546,
+     "end": 0.731
+    },
+    {
+     "text": "berguncang",
+     "start": 0.778,
+     "end": 1.428
+    },
+    {
+     "text": "Lampu",
+     "start": 1.672,
+     "end": 1.95
+    },
+    {
+     "text": "padam",
+     "start": 1.997,
+     "end": 2.426
+    },
+    {
+     "text": "dan",
+     "start": 2.461,
+     "end": 2.601
+    },
+    {
+     "text": "sinyal",
+     "start": 2.647,
+     "end": 2.926
+    },
+    {
+     "text": "di",
+     "start": 2.984,
+     "end": 3.042
+    },
+    {
+     "text": "HP-mu",
+     "start": 3.077,
+     "end": 3.483
+    },
+    {
+     "text": "tiba-tiba",
+     "start": 3.518,
+     "end": 3.936
+    },
+    {
+     "text": "hilang",
+     "start": 3.982,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-02.mp3",
+   "key": "91000bdb360634705f11001f0cf3d2af4702dea7",
+   "lead": 0.4,
+   "frames": 183,
+   "words": [
+    {
+     "text": "Kamu",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "ingin",
+     "start": 0.313,
+     "end": 0.464
+    },
+    {
+     "text": "tahu",
+     "start": 0.522,
+     "end": 0.882
+    },
+    {
+     "text": "apakah",
+     "start": 0.929,
+     "end": 1.3
+    },
+    {
+     "text": "keluargamu",
+     "start": 1.347,
+     "end": 1.846
+    },
+    {
+     "text": "selamat",
+     "start": 1.881,
+     "end": 2.415
+    },
+    {
+     "text": "Tapi",
+     "start": 2.74,
+     "end": 3.042
+    },
+    {
+     "text": "pesanmu",
+     "start": 3.088,
+     "end": 3.413
+    },
+    {
+     "text": "tak",
+     "start": 3.46,
+     "end": 3.564
+    },
+    {
+     "text": "pernah",
+     "start": 3.599,
+     "end": 3.82
+    },
+    {
+     "text": "terkirim",
+     "start": 3.855,
+     "end": 4.969
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-03.mp3",
+   "key": "c6a17a97c9d358f0f2463f9a61264a604a5fad85",
+   "lead": 0.4,
+   "frames": 195,
+   "words": [
+    {
+     "text": "Kenalkan",
+     "start": 0,
+     "end": 0.546
+    },
+    {
+     "text": "Covatom",
+     "start": 0.569,
+     "end": 1.196
+    },
+    {
+     "text": "Chat",
+     "start": 1.637,
+     "end": 1.997
+    },
+    {
+     "text": "telepon",
+     "start": 2.02,
+     "end": 2.519
+    },
+    {
+     "text": "dan",
+     "start": 2.543,
+     "end": 2.67
+    },
+    {
+     "text": "SOS",
+     "start": 2.786,
+     "end": 3.111
+    },
+    {
+     "text": "yang",
+     "start": 3.17,
+     "end": 3.274
+    },
+    {
+     "text": "tetap",
+     "start": 3.309,
+     "end": 3.518
+    },
+    {
+     "text": "jalan",
+     "start": 3.587,
+     "end": 3.82
+    },
+    {
+     "text": "saat",
+     "start": 3.878,
+     "end": 4.063
+    },
+    {
+     "text": "sinyal",
+     "start": 4.098,
+     "end": 4.331
+    },
+    {
+     "text": "hilang",
+     "start": 4.377,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-04.mp3",
+   "key": "ab693a29fe0342af84acf97895a8910388a1e990",
+   "lead": 0.4,
+   "frames": 222,
+   "words": [
+    {
+     "text": "Covatom",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "menyambungkan",
+     "start": 0.522,
+     "end": 1.08
+    },
+    {
+     "text": "HP",
+     "start": 1.138,
+     "end": 1.3
+    },
+    {
+     "text": "langsung",
+     "start": 1.393,
+     "end": 1.718
+    },
+    {
+     "text": "ke",
+     "start": 1.741,
+     "end": 1.811
+    },
+    {
+     "text": "HP",
+     "start": 1.858,
+     "end": 2.09
+    },
+    {
+     "text": "di",
+     "start": 2.183,
+     "end": 2.241
+    },
+    {
+     "text": "sekitarnya",
+     "start": 2.276,
+     "end": 2.961
+    },
+    {
+     "text": "Tanpa",
+     "start": 3.239,
+     "end": 3.518
+    },
+    {
+     "text": "internet",
+     "start": 3.564,
+     "end": 4.075
+    },
+    {
+     "text": "tanpa",
+     "start": 4.098,
+     "end": 4.377
+    },
+    {
+     "text": "pulsa",
+     "start": 4.423,
+     "end": 4.876
+    },
+    {
+     "text": "tanpa",
+     "start": 4.946,
+     "end": 5.259
+    },
+    {
+     "text": "BTS",
+     "start": 5.306,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-05.mp3",
+   "key": "11d607bac7feb7582e4f640ddd5ae151dea1726f",
+   "lead": 0.4,
+   "frames": 280,
+   "words": [
+    {
+     "text": "Wi-Fi",
+     "start": 0,
+     "end": 0.395
+    },
+    {
+     "text": "Direct",
+     "start": 0.453,
+     "end": 0.801
+    },
+    {
+     "text": "untuk",
+     "start": 0.871,
+     "end": 1.091
+    },
+    {
+     "text": "suara",
+     "start": 1.138,
+     "end": 1.416
+    },
+    {
+     "text": "dan",
+     "start": 1.463,
+     "end": 1.579
+    },
+    {
+     "text": "foto",
+     "start": 1.637,
+     "end": 2.241
+    },
+    {
+     "text": "Bluetooth",
+     "start": 2.624,
+     "end": 3.088
+    },
+    {
+     "text": "untuk",
+     "start": 3.158,
+     "end": 3.379
+    },
+    {
+     "text": "meneruskan",
+     "start": 3.425,
+     "end": 3.947
+    },
+    {
+     "text": "SOS",
+     "start": 4.017,
+     "end": 4.737
+    },
+    {
+     "text": "Dan",
+     "start": 5.062,
+     "end": 5.236
+    },
+    {
+     "text": "radio",
+     "start": 5.306,
+     "end": 5.596
+    },
+    {
+     "text": "LoRa",
+     "start": 5.642,
+     "end": 6.142
+    },
+    {
+     "text": "hingga",
+     "start": 6.235,
+     "end": 6.536
+    },
+    {
+     "text": "beberapa",
+     "start": 6.583,
+     "end": 6.954
+    },
+    {
+     "text": "kilometer",
+     "start": 6.989,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-06.mp3",
+   "key": "db74d84c342760c62c5f655ffea657094ea88833",
+   "lead": 0.4,
+   "frames": 206,
+   "words": [
+    {
+     "text": "Tekan",
+     "start": 0,
+     "end": 0.348
+    },
+    {
+     "text": "Ajak",
+     "start": 0.418,
+     "end": 0.882
+    },
+    {
+     "text": "dan",
+     "start": 0.929,
+     "end": 1.068
+    },
+    {
+     "text": "HP",
+     "start": 1.126,
+     "end": 1.312
+    },
+    {
+     "text": "di",
+     "start": 1.405,
+     "end": 1.463
+    },
+    {
+     "text": "sekitarmu",
+     "start": 1.498,
+     "end": 1.927
+    },
+    {
+     "text": "langsung",
+     "start": 1.962,
+     "end": 2.264
+    },
+    {
+     "text": "jadi",
+     "start": 2.31,
+     "end": 2.45
+    },
+    {
+     "text": "satu",
+     "start": 2.496,
+     "end": 2.682
+    },
+    {
+     "text": "grup",
+     "start": 2.728,
+     "end": 3.146
+    },
+    {
+     "text": "Tanpa",
+     "start": 3.471,
+     "end": 3.796
+    },
+    {
+     "text": "akun",
+     "start": 3.831,
+     "end": 4.342
+    },
+    {
+     "text": "tanpa",
+     "start": 4.458,
+     "end": 4.76
+    },
+    {
+     "text": "server",
+     "start": 4.807,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-07.mp3",
+   "key": "3d34b17d00d0d302de2123bc563ef949f7f7cab4",
+   "lead": 0.4,
+   "frames": 191,
+   "words": [
+    {
+     "text": "Satu",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "sentuhan",
+     "start": 0.372,
+     "end": 0.731
+    },
+    {
+     "text": "SOS",
+     "start": 0.813,
+     "end": 1.44
+    },
+    {
+     "text": "dan",
+     "start": 1.614,
+     "end": 1.765
+    },
+    {
+     "text": "semua",
+     "start": 1.823,
+     "end": 2.09
+    },
+    {
+     "text": "anggota",
+     "start": 2.125,
+     "end": 2.496
+    },
+    {
+     "text": "tahu",
+     "start": 2.554,
+     "end": 2.81
+    },
+    {
+     "text": "jarak",
+     "start": 2.891,
+     "end": 3.309
+    },
+    {
+     "text": "arah",
+     "start": 3.344,
+     "end": 3.762
+    },
+    {
+     "text": "dan",
+     "start": 3.82,
+     "end": 3.971
+    },
+    {
+     "text": "sisa",
+     "start": 4.029,
+     "end": 4.226
+    },
+    {
+     "text": "baterai-mu",
+     "start": 4.272,
+     "end": 5.248
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-08.mp3",
+   "key": "676bf4502f1752e33898a02c65adcb8b1dadb479",
+   "lead": 0.4,
+   "frames": 270,
+   "words": [
+    {
+     "text": "Dengan",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "Absen",
+     "start": 0.383,
+     "end": 0.94
+    },
+    {
+     "text": "terlihat",
+     "start": 1.115,
+     "end": 1.591
+    },
+    {
+     "text": "siapa",
+     "start": 1.637,
+     "end": 1.927
+    },
+    {
+     "text": "yang",
+     "start": 1.974,
+     "end": 2.078
+    },
+    {
+     "text": "aman",
+     "start": 2.148,
+     "end": 2.635
+    },
+    {
+     "text": "terluka",
+     "start": 2.879,
+     "end": 3.553
+    },
+    {
+     "text": "atau",
+     "start": 3.796,
+     "end": 4.04
+    },
+    {
+     "text": "belum",
+     "start": 4.087,
+     "end": 4.284
+    },
+    {
+     "text": "menjawab",
+     "start": 4.307,
+     "end": 4.888
+    },
+    {
+     "text": "Kompas",
+     "start": 5.097,
+     "end": 5.492
+    },
+    {
+     "text": "dan",
+     "start": 5.55,
+     "end": 5.654
+    },
+    {
+     "text": "peta",
+     "start": 5.712,
+     "end": 5.909
+    },
+    {
+     "text": "tetap",
+     "start": 5.956,
+     "end": 6.188
+    },
+    {
+     "text": "jalan",
+     "start": 6.258,
+     "end": 6.745
+    },
+    {
+     "text": "offline",
+     "start": 6.954,
+     "end": 7.895
+    }
+   ]
+  },
+  {
+   "audio": "20261128-0649-3d6t/scene-09.mp3",
+   "key": "4f46bbd065e118ab998cc290464210214fcdc5cf",
+   "lead": 0.4,
+   "frames": 227,
+   "words": [
+    {
+     "text": "Saat",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "sinyal",
+     "start": 0.29,
+     "end": 0.522
+    },
+    {
+     "text": "hilang",
+     "start": 0.58,
+     "end": 1.022
+    },
+    {
+     "text": "yang",
+     "start": 1.138,
+     "end": 1.289
+    },
+    {
+     "text": "paling",
+     "start": 1.324,
+     "end": 1.544
+    },
+    {
+     "text": "dekat",
+     "start": 1.579,
+     "end": 1.846
+    },
+    {
+     "text": "adalah",
+     "start": 1.904,
+     "end": 2.206
+    },
+    {
+     "text": "yang",
+     "start": 2.252,
+     "end": 2.368
+    },
+    {
+     "text": "paling",
+     "start": 2.415,
+     "end": 2.682
+    },
+    {
+     "text": "bisa",
+     "start": 2.717,
+     "end": 2.891
+    },
+    {
+     "text": "menolong",
+     "start": 2.937,
+     "end": 3.483
+    },
+    {
+     "text": "Covatom",
+     "start": 3.924,
+     "end": 4.725
+    },
+    {
+     "text": "Connecting",
+     "start": 4.934,
+     "end": 5.433
+    },
+    {
+     "text": "in",
+     "start": 5.503,
+     "end": 5.584
+    },
+    {
+     "text": "Crisis",
+     "start": 5.642,
+     "end": 6.455
+    }
+   ]
+  }
+ ]
+}

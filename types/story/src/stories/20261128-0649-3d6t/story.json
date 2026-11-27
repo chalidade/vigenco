@@ -1,0 +1,47 @@
+{
+  "id": "20261128-0649-3d6t",
+  "title": "Covatom: Saat Sinyal Hilang",
+  "width": 1080,
+  "height": 1920,
+  "engine": "elevenlabs",
+  "voice": "gmnazjXOFoOcWA59sd5m",
+  "language": "id",
+  "scenes": [
+    {
+      "narration": "Bayangkan bumi berguncang. Lampu padam, dan sinyal di HP-mu tiba-tiba hilang.",
+      "visual": "Night city skyline, windows lit. The ground shakes (camera jitter), windows go dark one by one. A big phone floats in the middle; its signal bars drop to zero and an X appears on 'hilang'."
+    },
+    {
+      "narration": "Kamu ingin tahu, apakah keluargamu selamat? Tapi pesanmu tak pernah terkirim.",
+      "visual": "Close on the phone in a dim room: a chat bubble 'Kalian aman?' is typed, then a red 'Gagal terkirim' mark pulses. Worried person silhouette beside it, breathing; dust drifts."
+    },
+    {
+      "narration": "Kenalkan, Covatom. Chat, telepon, dan SOS yang tetap jalan saat sinyal hilang.",
+      "visual": "Turn: a teal pulse bursts from the centre, the Covatom mark (atom-like rings around a dot) springs in, title 'Covatom' and tagline 'Connecting in Crisis'. Three feature chips (Chat, Telepon, SOS) pop in on each word."
+    },
+    {
+      "narration": "Covatom menyambungkan HP langsung ke HP di sekitarnya. Tanpa internet, tanpa pulsa, tanpa BTS.",
+      "visual": "Overhead neighbourhood at night: phones scattered as glowing dots, teal links draw between nearby phones. A cell tower on the side gets crossed out; three 'tanpa' chips pop on their words."
+    },
+    {
+      "narration": "Wi-Fi Direct untuk suara dan foto. Bluetooth untuk meneruskan SOS. Dan radio LoRa, hingga beberapa kilometer.",
+      "visual": "Three expanding rings from a central phone, each lights on its word: small blue (Wi-Fi Direct, 50–100 m), violet (Bluetooth relay hop), large amber (LoRa, kilometres) with a small radio box. Labels on the left."
+    },
+    {
+      "narration": "Tekan Ajak, dan HP di sekitarmu langsung jadi satu grup. Tanpa akun, tanpa server.",
+      "visual": "A finger taps an 'Ajak' button on the phone; four people around raise their phones, which fly into a circle and link up into a group ring with avatars. A server box fades and crosses out."
+    },
+    {
+      "narration": "Satu sentuhan SOS, dan semua anggota tahu jarak, arah, dan sisa baterai-mu.",
+      "visual": "Big red SOS button pressed, red rings ripple out; on member phones an alert card shows distance (120 m), a compass arrow rotating to point, and a battery icon, each appearing on its word."
+    },
+    {
+      "narration": "Dengan Absen, terlihat siapa yang aman, terluka, atau belum menjawab. Kompas dan peta tetap jalan, offline.",
+      "visual": "Phone screen with a roll-call list; rows tick in green (Aman), amber (Terluka), grey (Belum jawab). Then the list slides away to an offline map with a compass needle sweeping."
+    },
+    {
+      "narration": "Saat sinyal hilang, yang paling dekat adalah yang paling bisa menolong. Covatom. Connecting in Crisis.",
+      "visual": "Dawn colours: the night city from scene 1 now lit by a web of teal links between people helping each other. End card: Covatom mark, 'Connecting in Crisis', 'Gratis untuk warga · tanpa akun · tanpa server', covatom.com."
+    }
+  ]
+}
