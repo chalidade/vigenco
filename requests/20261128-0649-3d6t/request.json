@@ -1,0 +1,14 @@
+{
+  "id": "20261128-0649-3d6t",
+  "type": "story",
+  "prompt": "Video launch untuk aplikasi covatom buat story telling tentang covatom cara kerja covatom, bagaimana covatom bisa mengkoneksikan tiap orang, fitur - fitur covatom",
+  "format": "portrait",
+  "links": [
+    "https://covatom.com/",
+    "https://github.com/chalidade/saling-jaga"
+  ],
+  "files": [],
+  "created": "2026-11-27T23:49:05.993Z",
+  "voice": "elevenlabs",
+  "duration": 60
+}
