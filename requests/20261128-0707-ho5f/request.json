@@ -1,0 +1,15 @@
+{
+  "id": "20261128-0707-ho5f",
+  "type": "launch",
+  "prompt": "buat video lunch tentang pengenalan covatom, kamu kan punya eleven lab untuk suara ya. kamu gunakan eleven lab api untuk ngasih suara penjelasan tentang covatom. bagaimana cara kerja covatom.",
+  "format": "portrait",
+  "links": [
+    "https://covatom.com/"
+  ],
+  "files": [
+    "requests/20261128-0707-ho5f/files/01-covatom-app-icon-1024.png",
+    "requests/20261128-0707-ho5f/files/02-covatom-logotype-tagline-color-2000.png"
+  ],
+  "created": "2026-11-28T00:07:18.760Z",
+  "mode": "full"
+}
